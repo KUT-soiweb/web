@@ -1,0 +1,78 @@
+<html>
+
+<head>
+ <title>Distribution of "kut-paper.cls"</title>
+ <meta http-eqiuv="Content-Type" content="text/html;charset=iso-2022-jp">
+ <basefont size="3">
+</head>
+
+<body bgcolor="#f8f8f8" text="#000000"
+	link="#0000ff" alink="#ff0000" vlink="#0000ff"
+	leftmargin="10" topmargin="10">
+
+<h2><font color="#009900">▼ </font>研究論文の様式について</h2>
+<a href="paper-style.html">こちら</a>を参照して下さい．
+
+<br><br><br><br>
+<h2><font color="#009900">▼ </font>論文クラスファイルについて</h2>
+研究論文を TeX で記述する場合は，本クラスファイルを用いることにより
+情報システム工学科研究論文の様式で組版することが可能となります．
+ここで用意されているクラスファイルは，ASCII 版日本語 LaTeX（pLaTeX2e）
+対応のクラスファイルのみです．
+なお，クラスファイルの使用方法の詳細は附属のドキュメントを参照して下さい．
+
+<br><br><br><br>
+<h2><font color="#009900">▼ </font>配布　- Download -</h2>
+環境に応じてそれぞれのコードのファイル一式（クラスファイル本体，ドキュメント，
+論文の雛型）をダウンロードして下さい．各zipファイルの中身は次の通りです．
+<ul>
+  <li><tt>kut-paper.cls</tt>: クラスファイル本体</li>
+  <li><tt>kut-paper-template.tex</tt>: 論文の雛形 TeX ファイル</li>
+  <li><tt>kut-paper-usage.tex</tt>: ドキュメント TeX ファイル</li>
+  <li><tt>kut-paper-usage.pdf</tt>: ドキュメント TeX ファイルを pLaTeX2e でコンパイルし PDF 化したもの</li>
+</ul>
+<ul><dl>
+  <dt> <font color="#ff0000">
+	   <b>現在の最新版　―　<i>version 3.3.7</i> （2013/1/30）</b>
+	   </font></p>
+  <dt> <b>EUC 版</b>: <a href="kut-paper-euc.zip">kut-paper-euc.zip</a><br><br>
+  <dt> <b>JIS 版</b>: <a href="kut-paper-jis.zip">kut-paper-jis.zip</a><br><br>
+  <dt> <b>SJIS 版</b>: <a href="kut-paper-sjis.zip">kut-paper-sjis.zip</a><br><br>
+  <dt> <b>UTF8 版</b>: <a href="kut-paper-utf8.zip">kut-paper-utf8.zip</a><br><br>
+</dl></ul>
+
+<h2><font color="#009900">▼ </font>インストール方法</h2>
+<ol>
+  <li> ダウンロードした zip ファイルを解凍します．
+  <li> クラスファイル本体をインストールします．
+	   <dl><br>
+		 <dt> <font color="#b8860b">＃ </font>
+			  システムの root 権限をもっている場合	   
+		 <dd> <tt>"kut-paper.cls"</tt> を TeX システムのクラスファイル
+			  ディレクトリ（<tt>texmf/tex/platex/base</tt> 下など）
+			  に移動して下さい．
+		 <dt> <font color="#b8860b">＃ </font>
+			  通常のユーザ権限しかもっていない場合
+		 <dd> <tt>"kut-paper.cls"</tt> を論文の TeX ファイルが置いてある
+			  ディレクトリと同じ場所に移動して下さい．
+	   </dl><br>
+  <li> 次に <tt>"kut-paper-usage.tex"</tt> を pLaTeX2e でコンパイルして下さい．
+	   コンパイルが成功し，プレビューア（xdvi，dviout など）
+	   で開ければインストールは成功しています．
+</ol><br>
+<ul>
+  <font color="#b8860b">★ </font>コンパイルできない
+  （プレビューアで開けない）場合は以下の点を確認して下さい．<br><br>
+  <ul type="square">
+	<li> pLaTeX2e のコードとクラスファイルのコードが同じかどうか．
+	<li> クラスファイルを置く場所を間違っていないか．
+	<li> 環境で jis フォントメトリックが使用可能であるかどうか．
+		 使用できない場合は通常フォントメトリックを使用するように
+		 <tt>"kut-paper-usage.tex"</tt> を修正して下さい．
+		 詳細はドキュメントの第 4 章を参照して下さい．
+  </ul>
+</ul>
+
+</body>
+
+</html>

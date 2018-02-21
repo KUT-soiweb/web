@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+/* menuConf */
+#baseContents .menuConf {
+	margin-top: 30px;
+}
+
+#baseContents .menuConf .titleImg {
+	float: left;
+}
+
+#baseContents .menuConf .yearBox {
+	background: #efefef;
+	clear: both;
+	float: left;
+	margin-top: 50px;
+	text-align: center;
+	width: 185px;
+}
+
+#baseContents .menuConf .yearBox ul {
+	list-style: none;
+}
+
+#baseContents .menuConf .yearBox ul input {
+	display: none;
+}
+
+
+#baseContents .menuConf .yearBox ul li {
+	background: #ffffff;
+	border: medium solid #61c2ee;
+	cursor: pointer;
+	font: 120% center;
+	margin: 15px 25px;
+}
+
+#baseContents .menuConf .yearBox li .nendo {
+	font-size: 75%;
+}
+
+#baseContents .menuConf .yearBox ul input:checked + li {
+	background: url("../img/balloon_CP.svg") no-repeat center;
+	border: none;
+	color: #ffffff;
+	height: 28px;
+	padding-top: 6px;
+}
+
+/*contents*/
+#baseContents .contents {
+	margin-left: 150px;
+	width: 700px;
+}
+
+/* listConf */
+#baseContents .listConf {
+	list-style: none;
+	margin-left: 100px;
+}
+
+#baseContents .listConf li {
+	border-top: 1px #dddddd dashed;
+}
+
+#baseContents .listConf .confContents{
+	margin: 10px 20px;
+}
+
+#baseContents .listConf li .confContents .data {
+	font-weight: bold;
+	font-size: 80%;
+	margin: 0px 10px;
+}
+
+#baseContents .listConf li .confContents .data .icon{
+	position: relative;
+	margin-right: 5px;
+	top: 3px;
+}
+
+#baseContents .listConf li .confContents .confTitle{
+	color: #61c2ee;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+#baseContents .listConf li .confContents table {
+	border-collapse: separate;
+	border-spacing: 10px 10px;
+	font-size: 80%;
+}
+
+#baseContents  .listConf li .confContents table .item{
+	background: #207070;
+	border-radius: 5px;
+	color: #ffffff;
+	text-align: center;
+	width: 70px;
+}
+
+/* listPage */
+#baseContents .listPage {
+  background-color: #71cdf2;
+  clear: both;
+  height: 28px;
+	line-height: 1em;
+  list-style: none;
+  margin-top: 100px;
+  margin-left: 100px;
+  width: 100%;
+}
+
+#baseContents .listPage li {
+  cursor: pointer;
+  float: left;
+  height: 18px;
+  margin: 5px;
+  text-align: center;
+  width: 20px;
+}
+
+#baseContents .listPage input {
+  display: none;
+}
+
+#baseContents .listPage input:checked + li {
+  background-color: #ffffff;
+}
+
+#baseContents .listPage #next {
+	font-size: 70%;
+	margin-top: 8px;
+	width: 110px;
+}

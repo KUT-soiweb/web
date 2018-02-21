@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>学群長挨拶</title>
+    <link rel="stylesheet" href="css/base.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="css/greeting.css" media="screen" title="no title" charset="utf-8">
+    <link rel="icon" href="img/favicon2.png" type="image/png" />
+    <script type="text/javascript">
+        window.onload = function(){
+          headSerect(1);
+        }
+    </script>
+  </head>
+  <body>
+<!--#include file="header.html"-->
+<div id="baseContents">
+<div class="pankuzu">
+  <p><a href="index.shtml">HOME</a> > <a href="faculty_outline.shtml">学群概要</a> > 学群長挨拶</p>
+</div><!--contents-->
+
+<div class="title">
+  <h2>情報学群の</h2>
+  <h1><span>目標・理念</span></h1>
+</div><!--main-->
+
+<div class="mainContents">
+
+<img src="img/aisatsu.png" width="" height="" />
+<div class="salutation">
+
+  <p>私たちを取り巻く情報環境は，コンピュータによる情報処理技術やネットワーク技術を活用した高度な情報システムの普及によって，急激に変化しています。それに伴い，誰もが情報化の恩恵を安心して受けられる環境の提供が急務となっています。このような革命的な転換の時代に対応できる技術者には，しなやかで人に優しい情報システムへの深い理解と同時に，情報に関わる技術の開発とその応用を推進できる能力が求められます。<br />
+    <br />
+    情報学群では，柔軟で大胆な発想を育てることに主眼を置き，人に優しい情報環境を新たに創造できる人材や，情報を有益に活用できる人材を養成する教育プログラムとして，情報と人間専攻（iHuman），情報とメディア専攻（iMedia），情報通信専攻（CC），およびコンピュータサイエンス専攻（CS）を提供しています。これらのうち，一つまたは複数の専攻における学習により，情報システムに関連する基礎知識だけではなく，実践的な先端技術やコミュニケーション能力を養います。これらを通して，情報技術が人間・社会と共生し発展できる社会を目指し，人と情報との関係や情報システムのあるべき姿をよく理解した上で問題発見・問題解決ができる人材を育成します。<br />
+  <br />
+    また，急速に発展しつつあるICT産業界において指導的な立場に立って最先端で活躍できる人材を養成するために，大学院工学研究科修士課程・博士後期課程への進学も積極的に勧めています。
+  </p>
+    <p id="clearLeft">
+      <br />
+      情報学群学群長<br/>
+      清水明宏
+    </p>
+
+</div><!--salutation-->
+</div><!--mainContents-->
+
+</div> <!-- baseContents -->
+
+<!--#include file="footer.html"-->
+  </body>
+</html>

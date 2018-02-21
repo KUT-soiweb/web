@@ -1,0 +1,1838 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset="utf-8">
+   <title>学会発表</title>
+   <link rel="stylesheet" href="./css/conference.css" media="screen" title="no title" charset="utf-8">
+   <link rel="stylesheet" href="./css/base.css" media="screen" title="no title" charset="utf-8">
+   <link rel="icon" href="img/favicon2.png" type="image/png" />
+   <script type="text/javascript">
+   window.onload = function(){
+      headSerect(3);
+      onYearChange();
+   };
+   var nextFlag = 0;
+   function onChange() {
+     location.href = "#numberLink";
+      var radioList = document.getElementsByName("btn");
+      var list = document.getElementsByName("list");
+      var yearList = document.getElementsByName("year");
+      var yearbtn = document.getElementsByName("yearbtn");
+      var count = 0;
+      for(var i = 0; i < yearbtn.length; i++){
+        if(yearbtn[i].checked){
+          for(var l = 0; l < radioList.length; l++){
+            if(radioList[l].checked){
+              for(var j = 0; j < list.length; j++){
+                list[j].style.display = "none";
+              }
+              for (var h = count + l*15; h < list.length && h < count + l*15 + 15; h++) {
+                list[h].style.display = "block";
+              }
+              break;
+            }
+          }
+          break;
+        }else{
+          var countlist = yearList[i].children;
+          count += countlist.length;
+        }
+      }
+      var newlist = document.getElementById("numberList");
+      if (nextFlag == 1) {
+        var next = document.getElementById("next");
+        next.parentNode.removeChild(next);
+      }
+      for(var i = 0; i < radioList.length; i++){
+         if(radioList[i].checked){
+           if(i != radioList.length - 1){
+             var li = document.createElement("li");
+             li.setAttribute("onclick", "onNext();");
+             li.innerHTML = "次のページへ>>";
+             li.id = 'next';
+             newlist.appendChild(li);
+             var form = document.getElementById("add");
+             form.appendChild(newlist);
+             nextFlag = 1;
+           }else{
+             nextFlag = 0;
+           }
+         }
+      }
+    }
+    function onNext() {
+      location.href = "#numberLink";
+        var radioList = document.getElementsByName("btn");
+        var list = document.getElementsByName("list");
+        var yearList = document.getElementsByName("year");
+        var yearbtn = document.getElementsByName("yearbtn");
+        var count = 0;
+        for(var i = 0; i < yearbtn.length; i++){
+          if(yearbtn[i].checked){
+            for(var l = 0; l < radioList.length; l++){
+              if(radioList[l].checked){
+                radioList[l+1].checked = "true";
+                for(var j = 0; j < list.length; j++){
+                  list[j].style.display = "none";
+                }
+                for (var h = count + (l+1)*15; h < list.length && h < count + (l+1)*15 + 15; h++) {
+                  list[h].style.display = "block";
+                }
+                break;
+              }
+            }
+            break;
+          }else{
+            var countlist = yearList[i].children;
+            count += countlist.length;
+          }
+        }
+        for(var i = 0; i < radioList.length; i++){
+           if(radioList[i].checked){
+             if(i == radioList.length - 1){
+               var next = document.getElementById("next");
+               next.parentNode.removeChild(next);
+               nextFlag = 0;
+             }
+           }
+        }
+      }
+    function listNum() {
+    var newsList = document.getElementsByName("list");
+    for (var i = 0; i < newsList.length; i++) {
+      if (i%15 == 0 && i != 0) {
+        var number = parseInt(i/15) + 1;
+        var label = document.createElement("label");
+        label.setAttribute("for", "list" + number);
+        var input = document.createElement("input");
+        input.type = "radio";
+        input.name = "btn";
+        input.id = "list" + number;
+        input.setAttribute("onchange", "onChange();");
+        var li = document.createElement("li");
+        li.innerHTML = number;
+        var list = document.getElementById("numberList");
+        label.appendChild(input);
+        label.appendChild(li);
+        list.appendChild(label);
+      }
+    }
+    onChange();
+    }
+    function onYearChange() {
+      location.href = "#numberLink";
+      var radioList = document.getElementsByName("yearbtn");
+      var newsList = document.getElementsByName("year");
+      for(var i = 0; i < radioList.length; i++){
+      if(radioList[i].checked){
+        for(var j = 0; j < newsList.length; j++){
+          newsList[j].style.display = "none";
+        }
+        newsList[i].style.display = "block";
+        var yearlist = newsList[i].children;
+        var list = document.getElementById("numberList");
+        list.parentNode.removeChild(list);
+        var newlist = document.createElement("ul");
+        newlist.id = "numberList";
+        newlist.classList.add('listPage');
+        for (var x = 0; x < yearlist.length; x++) {
+          if (x%15 == 0) {
+            var number = parseInt(x/15) + 1;
+            var label = document.createElement("label");
+            label.setAttribute("for", "list" + number);
+            var input = document.createElement("input");
+            input.type = "radio";
+            input.name = "btn";
+            input.id = "list" + number;
+            if (x == 0) {
+              input.checked = "true";
+            }
+            input.setAttribute("onchange", "onChange();");
+            var li = document.createElement("li");
+            li.innerHTML = number;
+            label.appendChild(input);
+            label.appendChild(li);
+            newlist.appendChild(label);
+          }
+        }
+          var li = document.createElement("li");
+          li.setAttribute("onclick", "onNext();");
+          li.innerHTML = "次のページへ>>";
+          li.id = 'next';
+          newlist.appendChild(li);
+          nextFlag = 1;
+          var form = document.getElementById("add");
+          form.appendChild(newlist);
+         break;
+        }
+      }
+      onChange();
+    }
+    </script>
+ </head>
+ <body>
+    <!--#include file="header.html"-->
+ 	<div id="baseContents">
+ 		<div class="pankuzu">
+ 			<a href="index.shtml">HOME</a> > <a href="campus_life.shtml">キャンパスライフ</a> > 学会発表
+ 		</div> <!-- pankuzu -->
+ 		<div class="menuConf" id="numberLink">
+ 			<img class="titleImg" src="./img/title_CP.svg" />
+ 			<div class="yearBox">
+        <form name="form">
+            <ul>
+                <label><input type="radio" name="yearbtn" value="H_27" onchange="onYearChange();" checked/><li><span class="nendo">平成</span>27<span class="nendo">年度</span></li></label>
+<label><input type="radio" name="yearbtn" value="H_26" onchange="onYearChange();"/><li><span class="nendo">平成</span>26<span class="nendo">年度</span></li></label>
+<label><input type="radio" name="yearbtn" value="H_25" onchange="onYearChange();"/><li><span class="nendo">平成</span>25<span class="nendo">年度</span></li></label>
+<label><input type="radio" name="yearbtn" value="H_24" onchange="onYearChange();"/><li><span class="nendo">平成</span>24<span class="nendo">年度</span></li></label>
+<label><input type="radio" name="yearbtn" value="H_23" onchange="onYearChange();"/><li><span class="nendo">平成</span>23<span class="nendo">年度</span></li></label>
+<label><input type="radio" name="yearbtn" value="H_22" onchange="onYearChange();"/><li><span class="nendo">平成</span>22<span class="nendo">年度</span></li></label>
+<label><input type="radio" name="yearbtn" value="H_21" onchange="onYearChange();"/><li><span class="nendo">平成</span>21<span class="nendo">年度以前</span></li></label>
+            </ul>
+        </form>
+      </div> <!-- yearBox -->
+ 		</div> <!-- menuConf -->
+ 		<div class="contents">
+        <ul class="listConf" name="year">
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2016.2.29</span>
+<span class="data"><img class="icon" src="./img/person.svg" />中村 真也(学士4年)</span>
+<p class="confTitle">規則違反コードの構造を反映した木パタンを用いるコード検査器</p>
+<table><tr><td class="item">学会名</td><td>第108回情報処理学会プログラミング研究会</td></tr><tr><td class="item">開催地</td><td>東大駒場キャンパス</td></tr><tr><td class="item">著者名</td><td>中村 真也, 鵜川始陽, 馬谷誠二</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2016.1.18 - 1.19</span>
+<span class="data"><img class="icon" src="./img/person.svg" />横田 優佳(修士2年)</span>
+<p class="confTitle">ウェーブレット変換を用いた異常呼吸音の検出</p>
+<table><tr><td class="item">学会名</td><td>電子情報通信学会信号処理研究会</td></tr><tr><td class="item">開催地</td><td>大阪市(関西学院大学梅田キャンパス)</td></tr><tr><td class="item">著者名</td><td>横田 優佳, 内田 啓太, 福本 昌弘</td></tr><tr><td class="item">掲載</td><td>信学技報, vol. 115, no. 395, SIP2015-76, pp. 85-89, 2016年1月.</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2016.1.8</span>
+<span class="data"><img class="icon" src="./img/person.svg" />片岡 崇史(学士3年)</span>
+<p class="confTitle">並行 GC 中の CPU 周波数抑制による消費電力の削減</p>
+<table><tr><td class="item">学会名</td><td>第57回 プログラミングシンポジウム</td></tr><tr><td class="item">開催地</td><td>岐阜県下呂市(下呂温泉-水明館)</td></tr><tr><td class="item">著者名</td><td>片岡 崇史, 鵜川 始陽</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2015.12.17 - 12.18</span>
+<span class="data"><img class="icon" src="./img/person.svg" />田中 麻実(修士1年)</span>
+<p class="confTitle">秘密分散バックアップした医療データの部分復元</p>
+<table><tr><td class="item">学会名</td><td>電子情報通信学会インターネットアーキテクチャ研究会</td></tr><tr><td class="item">開催地</td><td>広島市(広島市立大学)</td></tr><tr><td class="item">受賞</td><td>インターネットアーキテクチャ研究会学生研究奨励賞</td></tr><tr><td class="item">著者名</td><td>田中 麻実, 福冨 英次, 福本 昌弘</td></tr><tr><td class="item">掲載</td><td>信学技報, vol. 115, no. 371, IA2015-74, pp. 31-36, 2015年12月.</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2015.11.4 - 11.6</span>
+<span class="data"><img class="icon" src="./img/person.svg" />横田 優佳(修士2年)</span>
+<p class="confTitle">短時間領域に含まれる異常呼吸音の特徴検出</p>
+<table><tr><td class="item">学会名</td><td>電子情報通信学会第30回信号処理シンポジウム</td></tr><tr><td class="item">開催地</td><td>福島県いわき市(スパリゾートハワイアンズ)</td></tr><tr><td class="item">著者名</td><td>横田 優佳，福本 昌弘</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2015.9.26</span>
+<span class="data"><img class="icon" src="./img/person.svg" />林 美和(学士4年)</span>
+<p class="confTitle">全天球動画のための音場記録再生法に関する基礎的検討</p>
+<table><tr><td class="item">学会名</td><td>平成27年度電気関係学会四国支部連合大会</td></tr><tr><td class="item">開催地</td><td>香美市(高知工科大学・香美キャンパス)</td></tr><tr><td class="item">著者名</td><td>林 美和, 栗原 徹</td></tr></table>
+</div></li>
+</ul>
+<ul class="listConf" name="year">
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2015.1.21 - 1.23</span>
+<span class="data"><img class="icon" src="./img/person.svg" />中矢 竜太(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>日本視覚学会2015年冬季大会</td></tr><tr><td class="item">開催地</td><td>工学院大学，新宿，東京</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2015.1.21 - 1.23</span>
+<span class="data"><img class="icon" src="./img/person.svg" />梅林 勇希(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>日本視覚学会2015年冬季大会</td></tr><tr><td class="item">開催地</td><td>工学院大学，新宿，東京</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2015.1.20 - 1.22</span>
+<span class="data"><img class="icon" src="./img/person.svg" />入本 静哉(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>The 8th International Conference on Mobile Computing and Ubiquitous Networking (ICMU2015)</td></tr><tr><td class="item">開催地</td><td>北海道</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2015.1.9 - 1.11</span>
+<span class="data"><img class="icon" src="./img/person.svg" />岡 和人(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>第56回プログラミング・シンポジウム</td></tr><tr><td class="item">開催地</td><td>静岡県</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2014.12.21</span>
+<span class="data"><img class="icon" src="./img/person.svg" />奥村 順哉(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>日本知能情報ファジィ学会ソフトロボティックス研究会</td></tr><tr><td class="item">開催地</td><td>高知工科大学</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2014.12.21</span>
+<span class="data"><img class="icon" src="./img/person.svg" />江木 史也(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>日本知能情報ファジィ学会ソフトロボティックス研究会</td></tr><tr><td class="item">開催地</td><td>高知工科大学</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2014.12.21</span>
+<span class="data"><img class="icon" src="./img/person.svg" />矢野 修平(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>日本知能情報ファジィ学会ソフトロボティックス研究会</td></tr><tr><td class="item">開催地</td><td>高知工科大学</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2014.12.21</span>
+<span class="data"><img class="icon" src="./img/person.svg" />竹中 浩貴(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>日本知能情報ファジィ学会ソフトロボティックス研究会</td></tr><tr><td class="item">開催地</td><td>高知工科大学</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2014.12.21</span>
+<span class="data"><img class="icon" src="./img/person.svg" />奥山 晃平(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>日本知能情報ファジィ学会ソフトロボティックス研究会</td></tr><tr><td class="item">開催地</td><td>高知工科大学</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2014.12.21</span>
+<span class="data"><img class="icon" src="./img/person.svg" />山本 朋依(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>日本知能情報ファジィ学会ソフトロボティックス研究会</td></tr><tr><td class="item">開催地</td><td>高知工科大学</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2014.12.21</span>
+<span class="data"><img class="icon" src="./img/person.svg" />中路 友梨(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>日本知能情報ファジィ学会ソフトロボティックス研究会</td></tr><tr><td class="item">開催地</td><td>高知工科大学</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2014.12.21</span>
+<span class="data"><img class="icon" src="./img/person.svg" />髙橋 宏和(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>日本知能情報ファジィ学会ソフトロボティックス研究会</td></tr><tr><td class="item">開催地</td><td>高知工科大学</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2014.12.8 - 12.10</span>
+<span class="data"><img class="icon" src="./img/person.svg" />谷村 直哉(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>第22回 マルチメディア通信と分散処理ワークショップ(DPSWS2014)</td></tr><tr><td class="item">開催地</td><td>島根県</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2014.12.8 - 12.10</span>
+<span class="data"><img class="icon" src="./img/person.svg" />畑 翔太(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>第22回 マルチメディア通信と分散処理ワークショップ(DPSWS2014)</td></tr><tr><td class="item">開催地</td><td>島根県</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2014.12.5 - 12.7</span>
+<span class="data"><img class="icon" src="./img/person.svg" />Warasup Kittipong(博士2年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>IEEE International Performance Computing and Communications Conference</td></tr><tr><td class="item">開催地</td><td>USA</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2014.11.25 - 11.27</span>
+<span class="data"><img class="icon" src="./img/person.svg" />三木 悠平(修士1年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>International Symposium on Interaction Design and Human Factors (IDHF) 2014</td></tr><tr><td class="item">開催地</td><td>高知</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2014.11.25 - 11.27</span>
+<span class="data"><img class="icon" src="./img/person.svg" />Handityo Aulia Putra(博士1年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>International Symposium on Interaction Design and Human Factors (IDHF) 2014</td></tr><tr><td class="item">開催地</td><td>高知</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2014.11.25 - 11.27</span>
+<span class="data"><img class="icon" src="./img/person.svg" />岡本 将史(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>International Symposium on Interaction Design and Human Factors (IDHF) 2014</td></tr><tr><td class="item">開催地</td><td>高知</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2014.11.25 - 11.27</span>
+<span class="data"><img class="icon" src="./img/person.svg" />山内 仁志(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>International Symposium on Interaction Design and Human Factors (IDHF) 2014</td></tr><tr><td class="item">開催地</td><td>高知</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2014.11.25 - 11.27</span>
+<span class="data"><img class="icon" src="./img/person.svg" />久米 康介(修士1年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>International Symposium on Interaction Design and Human Factors (IDHF) 2014</td></tr><tr><td class="item">開催地</td><td>高知</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2014.11.25 - 11.27</span>
+<span class="data"><img class="icon" src="./img/person.svg" />小畑 昌紀(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>International Symposium on Interaction Design and Human Factors (IDHF) 2014</td></tr><tr><td class="item">開催地</td><td>高知</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2014.11.25 - 11.27</span>
+<span class="data"><img class="icon" src="./img/person.svg" />小柳 翔(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>International Symposium on Interaction Design and Human Factors (IDHF) 2014</td></tr><tr><td class="item">開催地</td><td>高知</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2014.11.25 - 11.27</span>
+<span class="data"><img class="icon" src="./img/person.svg" />川村 卓也(修士1年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>International Symposium on Interaction Design and Human Factors (IDHF) 2014</td></tr><tr><td class="item">開催地</td><td>高知</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2014.11.25 - 11.27</span>
+<span class="data"><img class="icon" src="./img/person.svg" />村田 祐也(修士1年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>International Symposium on Interaction Design and Human Factors (IDHF) 2014</td></tr><tr><td class="item">開催地</td><td>高知</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2014.11.25 - 11.27</span>
+<span class="data"><img class="icon" src="./img/person.svg" />Nem Khan Dim(博士2年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>International Symposium on Interaction Design and Human Factors (IDHF) 2014</td></tr><tr><td class="item">開催地</td><td>高知</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2014.11.25 - 11.27</span>
+<span class="data"><img class="icon" src="./img/person.svg" />白木 俊成(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>International Symposium on Interaction Design and Human Factors (IDHF) 2014</td></tr><tr><td class="item">開催地</td><td>高知</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2014.11.25 - 11.27</span>
+<span class="data"><img class="icon" src="./img/person.svg" />松岡 宏太朗(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>International Symposium on Interaction Design and Human Factors (IDHF) 2014</td></tr><tr><td class="item">開催地</td><td>高知</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2014.11.25 - 1.27</span>
+<span class="data"><img class="icon" src="./img/person.svg" />町田 大河(修士2年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>International Symposium on Interaction Design and Human Factors (IDHF) 2014</td></tr><tr><td class="item">開催地</td><td>高知</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2014.11.25 - 11.27</span>
+<span class="data"><img class="icon" src="./img/person.svg" />栁瀨 仁志(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>International Symposium on Interaction Design and Human Factors (IDHF) 2014</td></tr><tr><td class="item">開催地</td><td>高知</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2014.11.25 - 11.27</span>
+<span class="data"><img class="icon" src="./img/person.svg" />松尾 達郎(修士1年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>International Symposium on Interaction Design and Human Factors (IDHF) 2014</td></tr><tr><td class="item">開催地</td><td>高知</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2014.11.25 - 11.27</span>
+<span class="data"><img class="icon" src="./img/person.svg" />Pang Kuo(修士2年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>International Symposium on Interaction Design and Human Factors (IDHF) 2014</td></tr><tr><td class="item">開催地</td><td>高知</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2014.11.25 - 11.27</span>
+<span class="data"><img class="icon" src="./img/person.svg" />溝端 亮(修士2年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>International Symposium on Interaction Design and Human Factors (IDHF) 2014</td></tr><tr><td class="item">開催地</td><td>高知</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2014.11.25 - 11.27</span>
+<span class="data"><img class="icon" src="./img/person.svg" />Silpasuwanchai(博士3年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>International Symposium on Interaction Design and Human Factors (IDHF) 2014</td></tr><tr><td class="item">開催地</td><td>高知</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2014.11.25 - 11.27</span>
+<span class="data"><img class="icon" src="./img/person.svg" />冨田 涼太(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>International Symposium on Interaction Design and Human Factors (IDHF) 2014</td></tr><tr><td class="item">開催地</td><td>高知</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2014.11.25 - 11.27</span>
+<span class="data"><img class="icon" src="./img/person.svg" />藤森 夏輝(修士2年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>International Symposium on Interaction Design and Human Factors (IDHF) 2014</td></tr><tr><td class="item">開催地</td><td>高知</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2014.11.25 - 11.27</span>
+<span class="data"><img class="icon" src="./img/person.svg" />口谷 和馬(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>International Symposium on Interaction Design and Human Factors (IDHF) 2014</td></tr><tr><td class="item">開催地</td><td>高知</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2014.11.15</span>
+<span class="data"><img class="icon" src="./img/person.svg" />Nem Khan Dim(博士2年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>China-Japan Innovation Forum on New Energy Utilization and Sustainable Development</td></tr><tr><td class="item">開催地</td><td>中国，安徽省</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2014.11.15</span>
+<span class="data"><img class="icon" src="./img/person.svg" />Hao Wei(博士1年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>China-Japan Innovation Forum on New Energy Utilization and Sustainable Development</td></tr><tr><td class="item">開催地</td><td>中国，安徽省</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2014.11.15</span>
+<span class="data"><img class="icon" src="./img/person.svg" />Handityo Aulia Putra(博士2年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>China-Japan Innovation Forum on New Energy Utilization and Sustainable Development</td></tr><tr><td class="item">開催地</td><td>中国，安徽省</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2014.11.12 - 11.14</span>
+<span class="data"><img class="icon" src="./img/person.svg" />横田 優佳(修士1年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>電子情報通信学会第29回信号処理シンポジウム</td></tr><tr><td class="item">開催地</td><td>京都市</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2014.9.26</span>
+<span class="data"><img class="icon" src="./img/person.svg" />Saifur Rahman Sabuj(博士2年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>International Symposium on Communications and Information Technologies</td></tr><tr><td class="item">開催地</td><td>Korea</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2014.9.13</span>
+<span class="data"><img class="icon" src="./img/person.svg" />京極 海(修士2年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>2014電気関係学会四国支部連合大会</td></tr><tr><td class="item">開催地</td><td>徳島</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2014.9.13</span>
+<span class="data"><img class="icon" src="./img/person.svg" />太田 好祐(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>2014電気関係学会四国支部連合大会</td></tr><tr><td class="item">開催地</td><td>徳島</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2014.9.13</span>
+<span class="data"><img class="icon" src="./img/person.svg" />上田 安柚香(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>2014電気関係学会四国支部連合大会</td></tr><tr><td class="item">開催地</td><td>徳島</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2014.9.13</span>
+<span class="data"><img class="icon" src="./img/person.svg" />岡 和人(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>2014電気関係学会四国支部連合大会</td></tr><tr><td class="item">開催地</td><td>徳島</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2014.9.13</span>
+<span class="data"><img class="icon" src="./img/person.svg" />口谷 和馬(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>2014電気関係学会四国支部連合大会</td></tr><tr><td class="item">開催地</td><td>徳島</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2014.9.13</span>
+<span class="data"><img class="icon" src="./img/person.svg" />辻際 宗和(修士2年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>2014電気関係学会四国支部連合大会</td></tr><tr><td class="item">開催地</td><td>徳島</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2014.9.13</span>
+<span class="data"><img class="icon" src="./img/person.svg" />小笠原 一聡(修士2年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>2014電気関係学会四国支部連合大会</td></tr><tr><td class="item">開催地</td><td>徳島</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2014.9.13</span>
+<span class="data"><img class="icon" src="./img/person.svg" />口本 圭佑(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>2014電気関係学会四国支部連合大会</td></tr><tr><td class="item">開催地</td><td>徳島</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2014.9.13</span>
+<span class="data"><img class="icon" src="./img/person.svg" />渡部 弘章(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>2014電気関係学会四国支部連合大会</td></tr><tr><td class="item">開催地</td><td>徳島</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2014.9.13</span>
+<span class="data"><img class="icon" src="./img/person.svg" />堺 大和(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>2014電気関係学会四国支部連合大会</td></tr><tr><td class="item">開催地</td><td>徳島</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2014.9.13</span>
+<span class="data"><img class="icon" src="./img/person.svg" />三角 隆太(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>2014電気関係学会四国支部連合大会</td></tr><tr><td class="item">開催地</td><td>徳島</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2014.9.13</span>
+<span class="data"><img class="icon" src="./img/person.svg" />島田 裕幸(修士2年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>2014電気関係学会四国支部連合大会</td></tr><tr><td class="item">開催地</td><td>徳島</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2014.9.13</span>
+<span class="data"><img class="icon" src="./img/person.svg" />中島 春菜(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>2014電気関係学会四国支部連合大会</td></tr><tr><td class="item">開催地</td><td>徳島</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2014.9.13</span>
+<span class="data"><img class="icon" src="./img/person.svg" />仙波 紗和(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>2014電気関係学会四国支部連合大会</td></tr><tr><td class="item">開催地</td><td>徳島</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2014.9.13</span>
+<span class="data"><img class="icon" src="./img/person.svg" />入本 静哉(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>2014電気関係学会四国支部連合大会</td></tr><tr><td class="item">開催地</td><td>徳島</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2014.9.13</span>
+<span class="data"><img class="icon" src="./img/person.svg" />國和 武司(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>2014電気関係学会四国支部連合大会</td></tr><tr><td class="item">開催地</td><td>徳島</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2014.9.10 - 9.12</span>
+<span class="data"><img class="icon" src="./img/person.svg" />松下 和生(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>The 8-th International Workshop on Advanced Distributed and Parallel Network Applications</td></tr><tr><td class="item">開催地</td><td>イタリア サレルノ</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2014.8.5</span>
+<span class="data"><img class="icon" src="./img/person.svg" />小池 規伎(修士2年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>World Automation Congress 2014 9th International Forum on Multimedia and img Processing IEEE Systems</td></tr><tr><td class="item">開催地</td><td>Hawaii，United States of America</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2014.8.5</span>
+<span class="data"><img class="icon" src="./img/person.svg" />松尾 達郎(修士1年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>World Automation Congress 2014 9th International Forum on Multimedia and img Processing IEEE Systems</td></tr><tr><td class="item">開催地</td><td>Hawaii，United States of America</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2014.7.29</span>
+<span class="data"><img class="icon" src="./img/person.svg" />福井 さゆり(修士1年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>電子情報通信学会WBS研究会</td></tr><tr><td class="item">開催地</td><td>大阪</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2014.7.28 - 7.30</span>
+<span class="data"><img class="icon" src="./img/person.svg" />宮口 玲奈(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>情報処理学会プログラミング研究会</td></tr><tr><td class="item">開催地</td><td>新潟県</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2014.7.21 - 7.24</span>
+<span class="data"><img class="icon" src="./img/person.svg" />岡宗 祥平(修士1年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>The 2014 International Conference on Parallel and Distributed Processing Techniques and Applications</td></tr><tr><td class="item">開催地</td><td>Las Vegas，USA</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2014.7.21 - 7.24</span>
+<span class="data"><img class="icon" src="./img/person.svg" />宇野 則文(修士1年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>The 2014 International Conference on Parallel and Distributed Processing Techniques and Applications</td></tr><tr><td class="item">開催地</td><td>Las Vegas，USA</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2014.7.19 - 7.22</span>
+<span class="data"><img class="icon" src="./img/person.svg" />橋田 美緒(修士2年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>The 10th Asia-Pacific Conference on Vision (APCV 2014)</td></tr><tr><td class="item">開催地</td><td>Kagawa，Japan</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2014.7.19 - 7.22</span>
+<span class="data"><img class="icon" src="./img/person.svg" />YAN Pengfei(博士3年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>The 10th Asia-Pacific Conference on Vision (APCV 2014)</td></tr><tr><td class="item">開催地</td><td>Kagawa，Japan</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2014.7.1 - 7.2</span>
+<span class="data"><img class="icon" src="./img/person.svg" />宮口 玲奈(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>Workshop on Parallel Program Development with Algorithmic Skeletons (PaPDAS)</td></tr><tr><td class="item">開催地</td><td>フランス，オルレアン</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2014.5.16 - 5.21</span>
+<span class="data"><img class="icon" src="./img/person.svg" />YAN Pengfei(博士3年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>Vision Sciences Society (VSS) 2014</td></tr><tr><td class="item">開催地</td><td>Florida，USA</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2014.5.13 - 5.16</span>
+<span class="data"><img class="icon" src="./img/person.svg" />小林 亘(修士1年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>The 28th IEEE International Conference on Advanced Information Networking and Applications Workshop</td></tr><tr><td class="item">開催地</td><td>カナダ ヴィクトリア</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2014.4.29 - 5.1</span>
+<span class="data"><img class="icon" src="./img/person.svg" />Silpasuwanchai(博士3年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>ACM Conference on Human Factors in Computing Systems (CHI 2014)</td></tr><tr><td class="item">開催地</td><td>Toronto，Canada</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2014.4.26 - 4.27</span>
+<span class="data"><img class="icon" src="./img/person.svg" />溝端 亮(修士2年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>The Second International Symposium of Chinese CHI (Chinese CHI 2014)</td></tr><tr><td class="item">開催地</td><td>Toronto，Canada</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2014.4.26 - 4.27</span>
+<span class="data"><img class="icon" src="./img/person.svg" />Silpasuwanchai(博士3年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>The Second International Symposium of Chinese CHI (Chinese CHI 2014)</td></tr><tr><td class="item">開催地</td><td>Toronto，Canada</td></tr></table>
+</div></li>
+</ul>
+<ul class="listConf" name="year">
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2014.3.19</span>
+<span class="data"><img class="icon" src="./img/person.svg" />山本 真吾(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>電子情報通信学会情報通信マネジメント研究会</td></tr><tr><td class="item">開催地</td><td>沖縄</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2014.3.17</span>
+<span class="data"><img class="icon" src="./img/person.svg" />森田 茂彦(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>情報処理学会ゲーム情報学研究会</td></tr><tr><td class="item">開催地</td><td>東京都</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2014.3.17</span>
+<span class="data"><img class="icon" src="./img/person.svg" />地曳 隆将(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>情報処理学会ゲーム情報学研究会</td></tr><tr><td class="item">開催地</td><td>東京都</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2014.3.8</span>
+<span class="data"><img class="icon" src="./img/person.svg" />坂本 健人(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>日本色彩学会色覚研究会平成25年度研究発表会</td></tr><tr><td class="item">開催地</td><td>キャンパスイノベーションセンター田町，東京</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2014.3.8</span>
+<span class="data"><img class="icon" src="./img/person.svg" />?? ??(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>電子情報通信学会教育工学研究会</td></tr><tr><td class="item">開催地</td><td>高知高専</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2014.3.8</span>
+<span class="data"><img class="icon" src="./img/person.svg" />髙井 駿(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>日本色彩学会色覚研究会平成25年度研究発表会</td></tr><tr><td class="item">開催地</td><td>キャンパスイノベーションセンター田町，東京</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2014.2.8 - 2.9</span>
+<span class="data"><img class="icon" src="./img/person.svg" />YAN Pengfei(博士2年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>日本バーチャルリアリティ学会第22回VR心理学研究委員会</td></tr><tr><td class="item">開催地</td><td>那覇</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2014.1.23</span>
+<span class="data"><img class="icon" src="./img/person.svg" />和田 倫弥(修士2年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>電子情報通信学会知的環境とセンサーネットワーク研究会</td></tr><tr><td class="item">開催地</td><td>松山</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2014.1.22</span>
+<span class="data"><img class="icon" src="./img/person.svg" />大久保 克哉(修士1年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>日本視覚学会2014年冬季大会</td></tr><tr><td class="item">開催地</td><td>工学院大学</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2014.1.22</span>
+<span class="data"><img class="icon" src="./img/person.svg" />傍士 和輝(修士1年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>日本視覚学会2014年冬季大会</td></tr><tr><td class="item">開催地</td><td>工学院大学</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2014.1.14</span>
+<span class="data"><img class="icon" src="./img/person.svg" />川村 高之(修士2年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>情報処理学会プログラミング研究会</td></tr><tr><td class="item">開催地</td><td>松山，愛媛</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2014.1.11</span>
+<span class="data"><img class="icon" src="./img/person.svg" />田中 亜璃紗(修士1年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>教育システム情報学会第５回研究会</td></tr><tr><td class="item">開催地</td><td>高知工科大学</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2013.12.9</span>
+<span class="data"><img class="icon" src="./img/person.svg" />川村 高之(修士2年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>11th Asian Symposium on Programming Languages and Systems (APLAS2013)</td></tr><tr><td class="item">開催地</td><td>メルボルン，オーストラリア</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2013.12.4</span>
+<span class="data"><img class="icon" src="./img/person.svg" />木村 紀夫(修士1年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>第21回 マルチメディア通信と分散処理ワークショップ (DPSWS2013)</td></tr><tr><td class="item">開催地</td><td>群馬県吾妻郡</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2013.12.4</span>
+<span class="data"><img class="icon" src="./img/person.svg" />盛 花江(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>WISS 2013</td></tr><tr><td class="item">開催地</td><td>高知</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2013.12.4</span>
+<span class="data"><img class="icon" src="./img/person.svg" />西峯 誠志(修士2年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>第21回 マルチメディア通信と分散処理ワークショップ (DPSWS2013)</td></tr><tr><td class="item">開催地</td><td>群馬県吾妻郡</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2013.12.4</span>
+<span class="data"><img class="icon" src="./img/person.svg" />尾原 功剛(学士2年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>WISS 2013</td></tr><tr><td class="item">開催地</td><td>高知</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2013.11.26 - 11.28</span>
+<span class="data"><img class="icon" src="./img/person.svg" />LAMILLA ALVAREZ Pabl(博士3年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>The 6th International Conference on Security of Information and Networks</td></tr><tr><td class="item">開催地</td><td> Aksaray，Turkey</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2013.11.22</span>
+<span class="data"><img class="icon" src="./img/person.svg" />WANG Jingyun(博士3年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>21th International Conference on Computers in Education (ICCE) 2013</td></tr><tr><td class="item">開催地</td><td> Denpasar Bali，Indonesia</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2013.11.13</span>
+<span class="data"><img class="icon" src="./img/person.svg" />藤森 夏輝(修士1年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>The 14th International Symposium on Advanced Intelligent Systems</td></tr><tr><td class="item">開催地</td><td>Daejeon，Kore</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2013.11.13</span>
+<span class="data"><img class="icon" src="./img/person.svg" />小池 規伎(修士1年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>The 14th International Symposium on Advanced Intelligent Systems</td></tr><tr><td class="item">開催地</td><td>Daejeon，Kore</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2013.11.10</span>
+<span class="data"><img class="icon" src="./img/person.svg" />中井 淳人(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>日本知能情報ファジィ学会ソフトロボティックス研究会 IEEE Kochi Student Group</td></tr><tr><td class="item">開催地</td><td>高知工科大学</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2013.11.10</span>
+<span class="data"><img class="icon" src="./img/person.svg" />小林 礼佳(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>日本知能情報ファジィ学会ソフトロボティックス研究会 IEEE Kochi Student Group</td></tr><tr><td class="item">開催地</td><td>高知工科大学</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2013.11.10</span>
+<span class="data"><img class="icon" src="./img/person.svg" />上村 香樹(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>日本知能情報ファジィ学会ソフトロボティックス研究会 IEEE Kochi Student Group</td></tr><tr><td class="item">開催地</td><td>高知工科大学</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2013.11.10</span>
+<span class="data"><img class="icon" src="./img/person.svg" />岩切 雄希(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>日本知能情報ファジィ学会ソフトロボティックス研究会 IEEE Kochi Student Group</td></tr><tr><td class="item">開催地</td><td>高知工科大学</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2013.11.10</span>
+<span class="data"><img class="icon" src="./img/person.svg" />松尾 達郎(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>日本知能情報ファジィ学会ソフトロボティックス研究会 IEEE Kochi Student Group</td></tr><tr><td class="item">開催地</td><td>高知工科大学</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2013.11.10</span>
+<span class="data"><img class="icon" src="./img/person.svg" />中村 大樹(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>日本知能情報ファジィ学会ソフトロボティックス研究会 IEEE Kochi Student Group</td></tr><tr><td class="item">開催地</td><td>高知工科大学</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2013.10.29 - 10.31</span>
+<span class="data"><img class="icon" src="./img/person.svg" />YAN Pengfei(修士2年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>The 2013 International Conference on Brain and Health Informatics (BHI2013)</td></tr><tr><td class="item">開催地</td><td>前橋</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2013.10.28</span>
+<span class="data"><img class="icon" src="./img/person.svg" />西峯 誠志(修士2年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>The 15th International Symposium on Multimedia Network Systems and Applications</td></tr><tr><td class="item">開催地</td><td>Compiegne，France</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2013.10.18</span>
+<span class="data"><img class="icon" src="./img/person.svg" />藤森　夏輝(修士1年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>The 3rd International Workshop on Advanced Computational Intelligence and Intelligent Informatics (I</td></tr><tr><td class="item">開催地</td><td>East China University of Science and Technology，Sh</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2013.10.18</span>
+<span class="data"><img class="icon" src="./img/person.svg" />小池 規伎(修士1年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>The 3rd International Workshop on Advanced Computational Intelligence and Intelligent Informatics (I</td></tr><tr><td class="item">開催地</td><td>East China University of Science and Technology，Sh</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2013.10.12</span>
+<span class="data"><img class="icon" src="./img/person.svg" />田中 拓斗(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>全国公立大学学生大会</td></tr><tr><td class="item">開催地</td><td>岩手県立大学</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2013.9.21</span>
+<span class="data"><img class="icon" src="./img/person.svg" />德田 貴行(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>平成25年度電気関係学会四国支部連合大会</td></tr><tr><td class="item">開催地</td><td>徳島大学</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2013.9.21</span>
+<span class="data"><img class="icon" src="./img/person.svg" />段床 智志(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>平成25年度電気関係学会四国支部連合大会</td></tr><tr><td class="item">開催地</td><td>徳島大学</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2013.9.21</span>
+<span class="data"><img class="icon" src="./img/person.svg" />白石 将太(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>平成25年度電気関係学会四国支部連合大会</td></tr><tr><td class="item">開催地</td><td>徳島大学</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2013.9.21</span>
+<span class="data"><img class="icon" src="./img/person.svg" />小林 亘(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>平成25年度電気関係学会四国支部連合大会</td></tr><tr><td class="item">開催地</td><td>徳島大学</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2013.9.21</span>
+<span class="data"><img class="icon" src="./img/person.svg" />松本 大亮(修士2年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>平成25年度電気関係学会四国支部連合大会</td></tr><tr><td class="item">開催地</td><td>徳島大学</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2013.9.21</span>
+<span class="data"><img class="icon" src="./img/person.svg" />和田 倫弥(修士2年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>平成25年度電気関係学会四国支部連合大会</td></tr><tr><td class="item">開催地</td><td>徳島大学</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2013.9.21</span>
+<span class="data"><img class="icon" src="./img/person.svg" />野島 舞(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>平成25年度電気関係学会四国支部連合大会</td></tr><tr><td class="item">開催地</td><td>徳島大学</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2013.9.21</span>
+<span class="data"><img class="icon" src="./img/person.svg" />山下 寛晃(修士2年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>平成25年度電気関係学会四国支部連合大会</td></tr><tr><td class="item">開催地</td><td>徳島大学</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2013.9.21</span>
+<span class="data"><img class="icon" src="./img/person.svg" />西元 優介(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>平成25年度電気関係学会四国支部連合大会</td></tr><tr><td class="item">開催地</td><td>徳島大学</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2013.9.21</span>
+<span class="data"><img class="icon" src="./img/person.svg" />竹本 万里雄(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>平成25年度電気関係学会四国支部連合大会</td></tr><tr><td class="item">開催地</td><td>徳島大学</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2013.9.21</span>
+<span class="data"><img class="icon" src="./img/person.svg" />品川 滉樹(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>平成25年度電気関係学会四国支部連合大会</td></tr><tr><td class="item">開催地</td><td>徳島大学</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2013.9.21</span>
+<span class="data"><img class="icon" src="./img/person.svg" />柏木 恵(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>平成25年度電気関係学会四国支部連合大会</td></tr><tr><td class="item">開催地</td><td>徳島大学</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2013.9.21</span>
+<span class="data"><img class="icon" src="./img/person.svg" />赤澤 将太(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>平成25年度電気関係学会四国支部連合大会</td></tr><tr><td class="item">開催地</td><td>徳島大学</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2013.9.21</span>
+<span class="data"><img class="icon" src="./img/person.svg" />成谷 せり菜(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>平成25年度電気関係学会四国支部連合大会</td></tr><tr><td class="item">開催地</td><td>徳島大学</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2013.9.21</span>
+<span class="data"><img class="icon" src="./img/person.svg" />政岡 佑太郎(修士2年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>平成25年度電気関係学会四国支部連合大会</td></tr><tr><td class="item">開催地</td><td>徳島大学</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2013.9.17</span>
+<span class="data"><img class="icon" src="./img/person.svg" />松田 佳介(修士1年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>電子情報通信学会ソサイエティ大会</td></tr><tr><td class="item">開催地</td><td>福岡工業大学</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2013.9.10</span>
+<span class="data"><img class="icon" src="./img/person.svg" />前田 秀樹(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>日本ソフトウェア科学会大会</td></tr><tr><td class="item">開催地</td><td>東京大学，東京</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2013.7.24</span>
+<span class="data"><img class="icon" src="./img/person.svg" />橋田 美緒(修士1年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>日本視覚学会2013年夏季大会</td></tr><tr><td class="item">開催地</td><td>札幌，札幌市立大学，北海道</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2013.7.22</span>
+<span class="data"><img class="icon" src="./img/person.svg" />田口 龍一(修士1年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>International Conference on Parallel and Distributed Processing Techniques and Applications (PDPTA&#039;1</td></tr><tr><td class="item">開催地</td><td>Las Vegas，US</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2013.7.9</span>
+<span class="data"><img class="icon" src="./img/person.svg" />福地 早希(修士1年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>電子情報通信学会WBS研究会</td></tr><tr><td class="item">開催地</td><td>高知</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2013.6.26</span>
+<span class="data"><img class="icon" src="./img/person.svg" />傍士 和輝(修士1年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>3DSA2013(Three Dimensional Systems and Applications)</td></tr><tr><td class="item">開催地</td><td>大阪</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2013.5.23</span>
+<span class="data"><img class="icon" src="./img/person.svg" />町田 大河(修士1年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>MS Core 8 Workshop</td></tr><tr><td class="item">開催地</td><td>Beijing</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2013.5.23</span>
+<span class="data"><img class="icon" src="./img/person.svg" />Nem Khan Dim(博士1年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>MS Core 8 Workshop</td></tr><tr><td class="item">開催地</td><td>Beijing</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2013.5.23</span>
+<span class="data"><img class="icon" src="./img/person.svg" />久米 康介(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>MS Core 8 Workshop</td></tr><tr><td class="item">開催地</td><td>Beijing</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2013.5.23</span>
+<span class="data"><img class="icon" src="./img/person.svg" />岡本 将史(修士1年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>MS Core 8 Workshop</td></tr><tr><td class="item">開催地</td><td>Beijing</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2013.5.23</span>
+<span class="data"><img class="icon" src="./img/person.svg" />Silpasuwanchai(博士2年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>MS Core 8 Workshop</td></tr><tr><td class="item">開催地</td><td>Beijing</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2013.5.23</span>
+<span class="data"><img class="icon" src="./img/person.svg" />溝端 亮(修士1年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>MS Core 8 Workshop</td></tr><tr><td class="item">開催地</td><td>Beijing</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2013.5.21 - 5.23</span>
+<span class="data"><img class="icon" src="./img/person.svg" />WANG Jingyun(博士3年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>CALICO Conference 2013, Computer Assisted Language Instruction Consortium</td></tr><tr><td class="item">開催地</td><td>University of Hawaii，USA</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2013.5.16</span>
+<span class="data"><img class="icon" src="./img/person.svg" />橋田 佳昌(修士1年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>電子情報通信学会WBS研究会</td></tr><tr><td class="item">開催地</td><td>宇都宮大学</td></tr></table>
+</div></li>
+</ul>
+<ul class="listConf" name="year">
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2013.3.25 - 3.28</span>
+<span class="data"><img class="icon" src="./img/person.svg" />丸岡 優大(修士2年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>The 27th IEEE International Conference on Advanced Information Networking and Applications Workshop</td></tr><tr><td class="item">開催地</td><td>Barcelona，Spain</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2013.3.4</span>
+<span class="data"><img class="icon" src="./img/person.svg" />森田 茂彦(修士1年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>情報処理学会ゲーム情報学研究会</td></tr><tr><td class="item">開催地</td><td>東京工業大学，東京</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2013.1.23 - 1.25</span>
+<span class="data"><img class="icon" src="./img/person.svg" />田中 いづみ(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>日本視覚学会2013冬季大会</td></tr><tr><td class="item">開催地</td><td>東京，新宿，工学院大学新宿キャンパス</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2013.1.23 - 1.25</span>
+<span class="data"><img class="icon" src="./img/person.svg" />橋田 美緒(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>日本視覚学会2013冬季大会</td></tr><tr><td class="item">開催地</td><td>東京，新宿，工学院大学新宿キャンパス</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2013.1.17 - 1.18</span>
+<span class="data"><img class="icon" src="./img/person.svg" />赤瀬 隼一(修士2年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>電子情報通信学会情報通信マネジメント研究会</td></tr><tr><td class="item">開催地</td><td>佐賀市</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2013.1.17 - 1.18</span>
+<span class="data"><img class="icon" src="./img/person.svg" />丸岡 優大(修士2年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>電子情報通信学会情報通信マネジメント研究会</td></tr><tr><td class="item">開催地</td><td>佐賀市</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2013.1.17 - 1.18</span>
+<span class="data"><img class="icon" src="./img/person.svg" />福見 和彦(修士2年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>電子情報通信学会情報通信マネジメント研究会</td></tr><tr><td class="item">開催地</td><td>佐賀市</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2013.1.11 - 1.13</span>
+<span class="data"><img class="icon" src="./img/person.svg" />那須 律政(修士1年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>情報処理学会プログラミング・シンポジウム</td></tr><tr><td class="item">開催地</td><td>神奈川県足柄下郡</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2013.1.10 - 1.11</span>
+<span class="data"><img class="icon" src="./img/person.svg" />山口 康生(修士2年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>電子情報通信学会ソフトウェアサイエンス研究会</td></tr><tr><td class="item">開催地</td><td>沖縄県石垣市民会館</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2012.11.26 - 11.30</span>
+<span class="data"><img class="icon" src="./img/person.svg" />田中 亜璃紗(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>20th International Conference on Computers in Education 2012</td></tr><tr><td class="item">開催地</td><td>シンガポール</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2012.11.18</span>
+<span class="data"><img class="icon" src="./img/person.svg" />河野 拓司(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>日本知能情報ファジィ学会ソフトロボティックス研究会</td></tr><tr><td class="item">開催地</td><td>高知</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2012.11.18</span>
+<span class="data"><img class="icon" src="./img/person.svg" />藤森 夏輝(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>日本知能情報ファジィ学会ソフトロボティックス研究会</td></tr><tr><td class="item">開催地</td><td>高知</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2012.11.18</span>
+<span class="data"><img class="icon" src="./img/person.svg" />小池 規伎(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>日本知能情報ファジィ学会ソフトロボティックス研究会</td></tr><tr><td class="item">開催地</td><td>高知</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2012.11.18</span>
+<span class="data"><img class="icon" src="./img/person.svg" />篠原 悠貴(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>日本知能情報ファジィ学会ソフトロボティックス研究会</td></tr><tr><td class="item">開催地</td><td>高知</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2012.11.18</span>
+<span class="data"><img class="icon" src="./img/person.svg" />岡尾 浩気(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>日本知能情報ファジィ学会ソフトロボティックス研究会</td></tr><tr><td class="item">開催地</td><td>高知</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2012.11.5 - 11.8</span>
+<span class="data"><img class="icon" src="./img/person.svg" />LI Yingsong(博士2年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>IEEE International Conference on Broadband and Biomedical Communications</td></tr><tr><td class="item">開催地</td><td>Australia</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2012.11.5 - 11.8</span>
+<span class="data"><img class="icon" src="./img/person.svg" />宇都宮 亮(修士2年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>IEEE International Conference on Broadband and Biomedical Communications</td></tr><tr><td class="item">開催地</td><td>Australia</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2012.10.17 - 10.19</span>
+<span class="data"><img class="icon" src="./img/person.svg" />大西 直弥(修士1年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>第20回 マルチメディア通信と分散処理ワークショップ (DPSWS2012)</td></tr><tr><td class="item">開催地</td><td>愛媛県松山市</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2012.10.17 - 10.19</span>
+<span class="data"><img class="icon" src="./img/person.svg" />丸岡 優大(修士2年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>第20回 マルチメディア通信と分散処理ワークショップ (DPSWS2012)</td></tr><tr><td class="item">開催地</td><td>愛媛県松山市</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2012.10.17 - 10.19</span>
+<span class="data"><img class="icon" src="./img/person.svg" />西峯 誠志(修士1年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>第20回 マルチメディア通信と分散処理ワークショップ (DPSWS2012)</td></tr><tr><td class="item">開催地</td><td>愛媛県松山市</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2012.9.29</span>
+<span class="data"><img class="icon" src="./img/person.svg" />宇都宮 亮(修士2年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>平成24年度電気関係学会四国支部連合大会</td></tr><tr><td class="item">開催地</td><td>四国電力 総合研修所</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2012.9.29</span>
+<span class="data"><img class="icon" src="./img/person.svg" />桑村 昌吾(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>平成24年度電気関係学会四国支部連合大会</td></tr><tr><td class="item">開催地</td><td>四国電力 総合研修所</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2012.9.29</span>
+<span class="data"><img class="icon" src="./img/person.svg" />島田 裕幸(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>平成24年度電気関係学会四国支部連合大会</td></tr><tr><td class="item">開催地</td><td>高松市</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2012.9.29</span>
+<span class="data"><img class="icon" src="./img/person.svg" />小笠原 一聡(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>平成24年度電気関係学会四国支部連合大会</td></tr><tr><td class="item">開催地</td><td>高松市</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2012.9.29</span>
+<span class="data"><img class="icon" src="./img/person.svg" />LI Yingsong(博士2年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>2012 Shikoku-section Joint Convention of the Institutes of Electrical and Related Engineers</td></tr><tr><td class="item">開催地</td><td>Shikoku Electric Power Co.，Inc. General Training C</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2012.9.29</span>
+<span class="data"><img class="icon" src="./img/person.svg" />橋田 佳昌(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>平成24年度電気関係学会四国支部連合大会</td></tr><tr><td class="item">開催地</td><td>四国電力 総合研修所</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2012.9.29</span>
+<span class="data"><img class="icon" src="./img/person.svg" />日高 大樹(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>平成24年度電気関係学会四国支部連合大会</td></tr><tr><td class="item">開催地</td><td>高松市</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2012.9.29</span>
+<span class="data"><img class="icon" src="./img/person.svg" />京極 海(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>平成24年度電気関係学会四国支部連合大会</td></tr><tr><td class="item">開催地</td><td>高松市</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2012.9.29</span>
+<span class="data"><img class="icon" src="./img/person.svg" />稲葉 海斗(修士2年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>平成24年度電気関係学会四国支部連合大会</td></tr><tr><td class="item">開催地</td><td>高松市</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2012.9.29</span>
+<span class="data"><img class="icon" src="./img/person.svg" />福永 健太(修士1年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>平成24年度電気関係学会四国支部連合大会</td></tr><tr><td class="item">開催地</td><td>四国電力 総合研修所</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2012.9.29</span>
+<span class="data"><img class="icon" src="./img/person.svg" />田中 康平(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>平成24年度電気関係学会四国支部連合大会</td></tr><tr><td class="item">開催地</td><td>四国電力 総合研修所</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2012.9.29</span>
+<span class="data"><img class="icon" src="./img/person.svg" />辻際 宗和(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>平成24年度電気関係学会四国支部連合大会</td></tr><tr><td class="item">開催地</td><td>高松市</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2012.9.29</span>
+<span class="data"><img class="icon" src="./img/person.svg" />尾崎 遼太(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>平成24年度電気関係学会四国支部連合大会</td></tr><tr><td class="item">開催地</td><td>高松市</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2012.9.29</span>
+<span class="data"><img class="icon" src="./img/person.svg" />山端 桂祐(修士2年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>平成24年度電気関係学会四国支部連合大会</td></tr><tr><td class="item">開催地</td><td>高松市</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2012.9.29</span>
+<span class="data"><img class="icon" src="./img/person.svg" />福地 早希(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>平成24年度電気関係学会四国支部連合大会</td></tr><tr><td class="item">開催地</td><td>四国電力 総合研修所</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2012.9.22 - 9.25</span>
+<span class="data"><img class="icon" src="./img/person.svg" />MA Ruiqing(博士3年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>AIC 2012 Interrim Meeting of the International Colur Association (AIC)</td></tr><tr><td class="item">開催地</td><td>Chinese Cultural University，Taiwan，Republic of Chi</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2012.9.20 - 9.22</span>
+<span class="data"><img class="icon" src="./img/person.svg" />WANG Jingyun(博士2年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>1th International Conference on Learning Technologies and Leaning Enviroments</td></tr><tr><td class="item">開催地</td><td>Kyushu，Japan</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2012.9.10 - 9.12</span>
+<span class="data"><img class="icon" src="./img/person.svg" />WANG Jingyun(修士2年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>16th International Conference on Knowledge-Based and Intelligent Infomation &amp; Engineering Systems</td></tr><tr><td class="item">開催地</td><td>San Sebastian，Spain</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2012.8.28 - 8.31</span>
+<span class="data"><img class="icon" src="./img/person.svg" />林 勇介(修士2年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>APCHI 2012</td></tr><tr><td class="item">開催地</td><td>Matsue</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2012.8.28 - 8.31</span>
+<span class="data"><img class="icon" src="./img/person.svg" />岡本 将史(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>APCHI 2012</td></tr><tr><td class="item">開催地</td><td>Matsue</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2012.8.28 - 8.31</span>
+<span class="data"><img class="icon" src="./img/person.svg" />楠葉 匡敏(修士2年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>APCHI 2012</td></tr><tr><td class="item">開催地</td><td>Matsue</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2012.8.28 - 8.31</span>
+<span class="data"><img class="icon" src="./img/person.svg" />TU Huawei(博士3年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>APCHI 2012</td></tr><tr><td class="item">開催地</td><td>Matsue</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2012.8.28 - 8.31</span>
+<span class="data"><img class="icon" src="./img/person.svg" />溝端 亮(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>APCHI 2012</td></tr><tr><td class="item">開催地</td><td>Matsue</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2012.8.22 - 8.24</span>
+<span class="data"><img class="icon" src="./img/person.svg" />川村 高之(修士1年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>ソフトウェア科学会大会</td></tr><tr><td class="item">開催地</td><td>法政大学，東京都</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2012.7.16 - 7.19</span>
+<span class="data"><img class="icon" src="./img/person.svg" />宮城 桂(博士3年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>The 2012 International Conference on Parallel and Distributed Processing Tequniques and Applications</td></tr><tr><td class="item">開催地</td><td>Las Vegas, USA</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2012.7.13</span>
+<span class="data"><img class="icon" src="./img/person.svg" />地曳 隆将(修士1年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>情報処理学会ゲーム情報学研究会</td></tr><tr><td class="item">開催地</td><td>静岡県立大学, 静岡県</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2012.6.30 - 7.1</span>
+<span class="data"><img class="icon" src="./img/person.svg" />MA Ruiqing(博士3年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>ヒューマン情報処理研究会(HIP), 電子情報通信学会</td></tr><tr><td class="item">開催地</td><td>室蘭工業大学</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2012.6.29</span>
+<span class="data"><img class="icon" src="./img/person.svg" />TU Huawei(博士3年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>MSR CORE</td></tr><tr><td class="item">開催地</td><td>Tokyo</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2012.6.29</span>
+<span class="data"><img class="icon" src="./img/person.svg" />溝端 亮(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>MSR CORE</td></tr><tr><td class="item">開催地</td><td>Tokyo</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2012.5.10 - 5.11</span>
+<span class="data"><img class="icon" src="./img/person.svg" />LAMILLA ALVAREZ Pablo(博士2年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>電子情報通信学会ソフトウェアサイエンス研究会</td></tr><tr><td class="item">開催地</td><td>愛媛大学</td></tr></table>
+</div></li>
+</ul>
+<ul class="listConf" name="year">
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2012.1.19 - 1.20</span>
+<span class="data"><img class="icon" src="./img/person.svg" />上村 祐加(修士2年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>電子情報通信学会ソフトウェアサイエンス研究会</td></tr><tr><td class="item">開催地</td><td>高知県高知市 高知市文化プラザかるぽーと</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2012.1.19 - 1.20</span>
+<span class="data"><img class="icon" src="./img/person.svg" />重松 史哉(修士2年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>電子情報通信学会ユビキタスネットワーク研究会</td></tr><tr><td class="item">開催地</td><td>三重</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2012.1.19 - 1.20</span>
+<span class="data"><img class="icon" src="./img/person.svg" />森木 峻(修士2年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>電子情報通信学会ユビキタスネットワーク研究会</td></tr><tr><td class="item">開催地</td><td>三重</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2011.11.28 - 12.2</span>
+<span class="data"><img class="icon" src="./img/person.svg" />WANG Jingyun(博士1年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>19th International Conference on Computers in Education</td></tr><tr><td class="item">開催地</td><td>Chiang Mai，Thailand</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2011.11.21</span>
+<span class="data"><img class="icon" src="./img/person.svg" />SUN Liang(博士3年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>International Workshop on Advanced Computational Intelligence and Intellident Informatics</td></tr><tr><td class="item">開催地</td><td>Suzhou，China</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2011.11.14 - 11.15</span>
+<span class="data"><img class="icon" src="./img/person.svg" />傍士 竜百(修士1年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>電子情報通信学会　ライフインテリジェンスとオフィス情報システム研究会</td></tr><tr><td class="item">開催地</td><td>大阪電気通信大学</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2011.11.14 - 11.15</span>
+<span class="data"><img class="icon" src="./img/person.svg" />幸地 勇明(修士2年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>電子情報通信学会　ライフインテリジェンスとオフィス情報システム研究会</td></tr><tr><td class="item">開催地</td><td>大阪電気通信大学</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2011.11.6</span>
+<span class="data"><img class="icon" src="./img/person.svg" />滝 優基(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>日本知能情報ファジィ学会ソフトロボティックス研究会</td></tr><tr><td class="item">開催地</td><td>高知工科大学</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2011.11.6</span>
+<span class="data"><img class="icon" src="./img/person.svg" />小川 健史(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>日本知能情報ファジィ学会ソフトロボティックス研究会</td></tr><tr><td class="item">開催地</td><td>高知工科大学</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2011.11.6</span>
+<span class="data"><img class="icon" src="./img/person.svg" />西岡 孝晃(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>日本知能情報ファジィ学会ソフトロボティックス研究会</td></tr><tr><td class="item">開催地</td><td>高知工科大学</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2011.10.5 - 10.7</span>
+<span class="data"><img class="icon" src="./img/person.svg" />丸岡 優大(修士1年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>第19回 マルチメディア通信と分散処理ワークショップ(DPSWS2011)</td></tr><tr><td class="item">開催地</td><td>青森(奥入瀬渓流ホテル)</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2011.9.23</span>
+<span class="data"><img class="icon" src="./img/person.svg" />林 勇介(修士2年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>2011 Shikoku-section Joint Convention of the Institutes of Electrical and related Engineers</td></tr><tr><td class="item">開催地</td><td>Tokushima</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2011.9.23</span>
+<span class="data"><img class="icon" src="./img/person.svg" />野島 実洋(修士2年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>電子情報通信学会電気関連学会四国支部総合大会</td></tr><tr><td class="item">開催地</td><td>阿南</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2011.9.23</span>
+<span class="data"><img class="icon" src="./img/person.svg" />野口 翔太(修士2年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>電子情報通信学会電気関連学会四国支部総合大会</td></tr><tr><td class="item">開催地</td><td>徳島</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2011.9.23</span>
+<span class="data"><img class="icon" src="./img/person.svg" />松岡 奈穂(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>電子情報通信学会電気関連学会四国支部総合大会</td></tr><tr><td class="item">開催地</td><td>徳島</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2011.9.23</span>
+<span class="data"><img class="icon" src="./img/person.svg" />赤瀬 隼一(修士1年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>平成23年度 電気関係学会四国支部連合大会</td></tr><tr><td class="item">開催地</td><td>徳島(阿南工業高等専門学校)</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2011.9.23</span>
+<span class="data"><img class="icon" src="./img/person.svg" />大西 直弥(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>平成23年度 電気関係学会四国支部連合大会</td></tr><tr><td class="item">開催地</td><td>徳島(阿南工業高等専門学校)</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2011.9.23</span>
+<span class="data"><img class="icon" src="./img/person.svg" />楠葉 匡敏(修士1年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>2011 Shikoku-section Joint Convention of the Institutes of Electrical and related Engineers</td></tr><tr><td class="item">開催地</td><td>Tokushima</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2011.9.23</span>
+<span class="data"><img class="icon" src="./img/person.svg" />北村 直也(修士2年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>電子情報通信学会電気関連学会四国支部総合大会</td></tr><tr><td class="item">開催地</td><td>阿南</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2011.9.23</span>
+<span class="data"><img class="icon" src="./img/person.svg" />和田 倫弥(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>電子情報通信学会電気関連学会四国支部総合大会</td></tr><tr><td class="item">開催地</td><td>徳島</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2011.9.23</span>
+<span class="data"><img class="icon" src="./img/person.svg" />松野 遼太(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>電子情報通信学会電気関連学会四国支部総合大会</td></tr><tr><td class="item">開催地</td><td>徳島</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2011.9.23</span>
+<span class="data"><img class="icon" src="./img/person.svg" />政岡 佑太郎(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>平成23年度 電気関係学会四国支部連合大会</td></tr><tr><td class="item">開催地</td><td>徳島(阿南工業高等専門学校)</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2011.9.23</span>
+<span class="data"><img class="icon" src="./img/person.svg" />西峯 誠志(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>平成23年度 電気関係学会四国支部連合大会</td></tr><tr><td class="item">開催地</td><td>徳島(阿南工業高等専門学校)</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2011.9.23</span>
+<span class="data"><img class="icon" src="./img/person.svg" />林 裕矢(修士2年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>電子情報通信学会電気関連学会四国支部総合大会</td></tr><tr><td class="item">開催地</td><td>阿南</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2011.9.23</span>
+<span class="data"><img class="icon" src="./img/person.svg" />森木 峻(修士2年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>電子情報通信学会電気関連学会四国支部総合大会</td></tr><tr><td class="item">開催地</td><td>徳島</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2011.9.23</span>
+<span class="data"><img class="icon" src="./img/person.svg" />山下 寛晃(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>電子情報通信学会電気関連学会四国支部総合大会</td></tr><tr><td class="item">開催地</td><td>徳島</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2011.9.23</span>
+<span class="data"><img class="icon" src="./img/person.svg" />福見 和彦(修士1年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>平成23年度 電気関係学会四国支部連合大会</td></tr><tr><td class="item">開催地</td><td>徳島(阿南工業高等専門学校)</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2011.9.23</span>
+<span class="data"><img class="icon" src="./img/person.svg" />塩崎 健二郎(学士4年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>平成23年度 電気関係学会四国支部連合大会</td></tr><tr><td class="item">開催地</td><td>徳島(阿南工業高等専門学校)</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2011.9.21 - 9.23</span>
+<span class="data"><img class="icon" src="./img/person.svg" />大久保 拓哉(修士2年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>The 13th Asia-Pacific Network Operations and Management Symposium(APNOM2011)</td></tr><tr><td class="item">開催地</td><td>NTUH International Convention Center，台湾</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2011.9.20 - 9.21</span>
+<span class="data"><img class="icon" src="./img/person.svg" />苅田 光一郎(修士2年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>電子情報通信学会　ライフインテリジェンスとオフィス情報システム研究会</td></tr><tr><td class="item">開催地</td><td>愛媛大学</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2011.9.20 - 9.21</span>
+<span class="data"><img class="icon" src="./img/person.svg" />小松 佐典(修士2年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>電子情報通信学会　ライフインテリジェンスとオフィス情報システム研究会</td></tr><tr><td class="item">開催地</td><td>愛媛大学</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2011.9.11 - 9.14</span>
+<span class="data"><img class="icon" src="./img/person.svg" />林 裕矢(修士2年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>International Symposium on Personal, Indoor and Mobile Radio Communications(IEEE PIMRC 2011)</td></tr><tr><td class="item">開催地</td><td>Toronto</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2011.9.7 - 9.9</span>
+<span class="data"><img class="icon" src="./img/person.svg" />Fu Yuan(修士2年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>FIT2011</td></tr><tr><td class="item">開催地</td><td>Hakodate</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2011.7.29</span>
+<span class="data"><img class="icon" src="./img/person.svg" />SUN Minghui(博士3年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>ISFT 2011(the 3rd International Symposium on Frontier Technology)</td></tr><tr><td class="item">開催地</td><td>Kochi</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2011.7.29</span>
+<span class="data"><img class="icon" src="./img/person.svg" />XIN Yizhong(博士3年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>ISFT 2011(the 3rd International Symposium on Frontier Technology)</td></tr><tr><td class="item">開催地</td><td>Kochi</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2011.7.29</span>
+<span class="data"><img class="icon" src="./img/person.svg" />TU Huawei(博士3年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>ISFT 2011(the 3rd International Symposium on Frontier Technology)</td></tr><tr><td class="item">開催地</td><td>Kochi</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2011.7.28 - 7.29</span>
+<span class="data"><img class="icon" src="./img/person.svg" />福永 健太(修士1年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>電子情報通信学会WBS研究会</td></tr><tr><td class="item">開催地</td><td>高知</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2011.7.18 - 7.21</span>
+<span class="data"><img class="icon" src="./img/person.svg" />宮城 桂(博士2年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>International Conference on Parallel and Distributed Processing Techniques and Applications</td></tr><tr><td class="item">開催地</td><td>Las Vegs，US</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2011.7.15</span>
+<span class="data"><img class="icon" src="./img/person.svg" />SHI Lin(博士3年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>The 7th Asian-Pacific Conference on Vision(APCV2011)</td></tr><tr><td class="item">開催地</td><td>University of Hong Kong，Hong Kong</td></tr></table>
+</div></li>
+</ul>
+<ul class="listConf" name="year">
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2011.3.10 - 3.11</span>
+<span class="data"><img class="icon" src="./img/person.svg" />中谷 浩輝(修士2年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>電子情報通信学会パターン認識・メディア理解研究会</td></tr><tr><td class="item">開催地</td><td>産業総合研究所(筑波)</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2011.3.9 - 3.11</span>
+<span class="data"><img class="icon" src="./img/person.svg" />佐藤 功二(修士1年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>日本ソフトウェア科学会第13回プログラミングおよびプログラミング言語ワークショップ(PPL2011)</td></tr><tr><td class="item">開催地</td><td>北海道札幌市 定山渓ニューホテル</td></tr></table>
+</div></li>
+<li name="list">
+<div class="confContents">
+<span class="data"><img class="icon" src="./img/alarm.svg" />2011.2.28 - 3.1</span>
+<span class="data"><img class="icon" src="./img/person.svg" />徳久 翔太(修士2年)</span>
+<p class="confTitle"></p>
+<table><tr><td class="item">学会名</td><td>電子情報通信学会インターネットアーキテクチャ研究会</td></tr><tr><td class="item">開催地</td><td>高知市</td></tr></table>
+</div></li>
+</ul>
+
+        <form name="form">
+        <div id="add">
+ 				 <ul class="listPage" id="numberList">
+ 				 	<label for="list1"><input type="radio" name="btn" id="list1" checked="checked" onchange="onChange();"/><li>1</li></label>
+         </ul> <!-- listPage -->
+        </div>
+      </form>
+ 		</div> <!-- contents -->
+ 	</div> <!-- baseContents -->
+    <!--#include file="footer.html"-->
+ </body>
+</html>

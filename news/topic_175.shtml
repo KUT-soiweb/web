@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>岩田誠教授がACHIEVEMENT AWARDを受賞しました。</title>
+    <link rel="stylesheet" href="css/base.css" media="all" title="header" charset="utf-8" />
+    <link rel="stylesheet" href="css/topic_news_article.css" media="all" title="header" charset="utf-8" />
+    <link rel="icon" href="../img/favicon2.png" type="image/png" />
+    <script type="text/javascript">
+        window.onload = function(){
+          headSerect(0);
+        }
+    </script>
+  </head>
+  <body>
+    <!--#include file="header.html"-->
+    <div id="baseContents">
+      <div class="pankuzu">
+        <a href="../index.shtml">HOME</a> > <a href="../topic_news.shtml">Topics&amp;News</a> > News詳細
+      </div> <!-- pankuzu -->
+      <div class="subTitle">
+        <h1><span class="topChar">T</span>opics</h1><h2>and</h2><h1><span class="topChar">N</span>ews</h1>
+      </div><!-- title -->
+      <div class="newsArea">
+        <dt>2017.8.8</dt>
+        <h1>岩田誠教授がACHIEVEMENT AWARDを受賞しました。</h1>
+        <hr />
+                <div class="mainImgArea">
+          <img src="img/id175_1.jpg" class="mainImg" />
+        </div><!-- mainImgArea -->
+                <p class="mainSentence">
+        　2017年7月17日～20日にかけて米国ラスベガスで開催された<a href="http://americancse.org/events/csce2017/conferences/pdpta17">「 The 2017 World Congress in Computer Science, Computer Engineering, and Applied Computing, CSCE'17 (コンピュータ科学・コンピュータ工学・応用コンピュータに関する総合的な国際学術会議  WorldComp2017 ) 」</a>において情報学群の<a href="../faculty_members/profile_iwata.shtml">岩田誠教授</a>が「Achievement Award（功績賞）」を受賞しました。<br />
+        </p><!-- mainSentence -->
+                <div class="subArea">
+                    <p>
+            　特に、並列分散処理に関する研究に顕著な貢献があったと認められたものです。          </p>
+                      <img src="img/id175_2.jpg" />
+                  </div><!-- subArea -->
+                <div class="subArea">
+                    <p>
+            　今回でこの国際会議への参加は10年目で、今年は大学院工学研究科基盤工学専攻情報学コース1年の齋藤あかねさん、田原匡浩さん、福田和馬さんの3名（写真右側）が参加しました。          </p>
+                    <img src="img/id175_3.jpg" />
+                  </div><!-- subArea -->
+              </div><!-- newsArea -->
+    </div><!-- baseContents -->
+    <!--#include file="footer.html"-->
+
+  </body>
+</html>

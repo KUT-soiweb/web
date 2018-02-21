@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	    <meta name="keyword" content="高知工科大学情報学群">
+	    <meta name="description" content="高知工科大学情報学群のホームページ">
+	    <title>福本 昌弘</title>
+	    <link rel="stylesheet" type="text/css" href="css/base.css">
+	    <link rel="stylesheet" type="text/css" href="css/profile.css">
+	    <script type="text/javascript" src="js/switch.js"></script>
+			<link rel="icon" href="../img/favicon2.png" type="image/png" />
+	    <script type="text/javascript">
+					window.onload = function(){
+						headSerect(2);
+					}
+			</script>
+</head>
+
+<body>
+<!--#include file="header.html"-->
+
+    <div id ="baseContents">
+
+	<div class="pankuzu">
+		<a href="../index.shtml">HOME</a> > <a href="../faculty_members.shtml">教員一覧</a> > 福本昌弘
+	</div>
+	<!--pankuzu-->
+	<div class="main">
+      <div class="keireki">
+    <h1>福本 昌弘<span class="hurigana"><span style="margin-right: 2.8em;"></span>Fukumoto Masahiro</span></h1>
+<div class="photo1">
+		<img src="img/Face-FukumotoMasahiro.png" alt="顔の写真" class="facephoto">
+	</div>
+	<!--photo1-->
+		<div class="line"></div>
+    <h2>教授<span>教授室:A418</span></h2>
+
+
+
+    <input type="checkbox" id="Panel1" class="ExpandCheckBox" />
+		<label for="Panel1" class="open">
+		  <h3>
+				<img src="svg/Triangle_close-white.svg">&nbsp;プロフィール
+			</h3>
+
+  </label>
+		   <div class="panel">
+
+
+<dl>
+<dt>生年　:</dt><dd>　1967年</dd>
+<dt>出身　:</dt><dd>　長野県</dd>
+<dt>所属　:</dt><dd>　高知工科大学情報学群<br />
+大学院工学研究科 基盤工学専攻 情報システムコース</dd>
+<dt>所属会　:</dt><dd>　電子情報通信学会、IEEE</dd>
+<dt>学位　:</dt><dd>　工学博士</dd>
+<dt>学歴　:</dt><dd>　東京工業大学大学院理工学研究科電気・電子工学専攻<br />
+修士後期課程 修了</dd>
+<dt>相談可能分野　:</dt><dd>　信号理論、情報理論</dd>
+<dt>趣味　:</dt><dd>　学生との交流</dd>
+<div class="mail1"><img src="svg/mail_fukumoto.svg" alt="先生のmailアドレス" class="mail"></div>
+</dl>
+
+
+</div>
+<!--panel-->
+
+<a href="http://www.kochi-tech.ac.jp/kut/about_KUT/faculty_members/prof/fukumoto-masahiro.html" target="_blank"><div class="box3" style="float:right">▶ 工科大教員ページ</div></a>
+<a href="http://www.lab.kochi-tech.ac.jp/fukulab/" target="_blank"><div class="box2" style="float:right">▶ 研究室ページ</div></a>
+<a href="http://www.info.kochi-tech.ac.jp/mfukumot/index.html" target="_blank"><div class="box1" style="float:right">▶ 教員個人ページ</div></a>
+<div class="clear"></div>
+</div>
+<!--keireki-->
+<div class="kennkyuusyoukai">
+	<div class="center1"><img src="svg/Heading-2.svg" alt="研究紹介"></div>
+
+<h2>音や光をもっとクリアにスピーディーに届ける</h2>
+<h3>専門分野 ： ディジタル信号処理</h3>
+<div class="center2">
+<p>音や光、電波のように波の性質を持つものに対して、歪みをもとに戻したり、望みのカタチに加工するための理論的な方式と、その応用として音響信号処理や情報ネットワークをより高性能にするための研究に取り組んでいます。この研究が進むと、例えば、インターネットでの情報のやりとりがもっとスピーディーで便利になったり、テレビで伝えられる情報が盛りだくさんで充実したり、携帯電話での通話がクリアで臨場感あふれるようになったり、自宅でコンサートホールや劇場の雰囲気を味わえたり、などいろんなメディアの表現力をもっと豊かにすることができるようになります。</p>
+</div>
+<!--center2-->
+ <div class="kennkyuuryouiki">
+<input type="checkbox" id="Panel2" class="ExpandCheckBox" />
+	 <label for="Panel2" class="open">
+		 <h3><img src="svg/Triangle_close-pink.svg">&nbsp;現在の研究領域</h3>
+	 </label>
+
+	 	 <div class="panel">
+
+<a>
+<div class="circle1"></div>マルチメディア情報伝送に適した適応信号処理<br />
+</a>
+<a>
+<div class="circle2"></div>秘密分散法を用いた情報拡散蓄積・伝送<br />
+</a>
+<a>
+<div class="circle3"></div>JGNII研究開発プロジェクト サラウンディング・コンピューティング技術の研究開発<br />
+</a>
+</div>
+<!--panel-->
+</div>
+<!--kennkyuuryouiki-->
+
+
+<div class="kennkyuuronnbunn">
+	<input type="checkbox" id="Panel3" class="ExpandCheckBox" />
+	<label for="Panel3" class="open">
+		<h3><img src="svg/Triangle_close-pink.svg">&nbsp;代表的な研究論文など</h3>
+	</label>
+
+		<div class="panel">
+<ul>
+	<dl>
+<li><div class="circle1"></div>&emsp;安定を保証した学習固定法のステップゲインの上限</li>
+　　　　<dt>著者<span style="margin-right: 1em;"></span>：</dt><dd>福本、久保田、辻井</dd>
+　　　　<dt>発表誌：</dt><dd>電子情報通信学会論文誌(A)</dd>
+　　　　<dt>発表年：</dt><dd>2004</dd>
+<div class="clear"></div>
+<li><div class="circle2"></div>&emsp;雑音の影響を考慮した共役こう配法によるブロック適応アルゴリズムにおける<br />
+	安定性の改善</li>
+　　　　<dt>著者<span style="margin-right: 1em;"></span>：</dt><dd>福本、久保田、辻井</dd>
+　　　　<dt>発表誌：</dt><dd>電子情報通信学会論文誌(A)</dd>
+　　　　<dt>発表年：</dt><dd>1998</dd>
+<div class="clear"></div>
+<li><div class="circle3"></div>&emsp;安定性を保証した確率的最速な学習固定法</li>
+　　　　<dt>著者<span style="margin-right: 1em;"></span>：</dt><dd>福本、久保田、辻井</dd>
+　　　　<dt>発表誌：</dt><dd>電子情報通信学会論文誌(A)</dd>
+　　　　<dt>発表年：</dt><dd>1995</dd>
+<div class="clear"></div>
+<li><div class="circle1"></div>&emsp;Improvement in stability and convergence speed on nomalized LMS algorithm</li>
+	　　　 <dt>著者<span style="margin-right: 1em;"></span>：</dt><dd>福本、久保田、辻井</dd>
+　　　　<dt>発表誌：</dt><dd>IEEE International Symposium on Circuits and Systems</dd>
+　　　　<dt>発表年：</dt><dd>1995</dd>
+<div class="clear"></div>
+<li><div class="circle2"></div>&emsp;雑音の影響を考慮した共役こう配法によるブロック適応アルゴリズムの<br />
+	一提案とその提案</li>
+　　　　<dt>著者<span style="margin-right: 1em;"></span>：</dt><dd>福本、久保田、辻井</dd>
+　　　　<dt>発表誌：</dt><dd>電子情報通信学会論文誌(A)</dd>
+　　　　<dt>発表年：</dt><dd>1994</dd>
+</dl>
+</div>
+<!--kennkyuronnbunn-->
+</div>
+<!--kennkyuushhyoukai-->
+</div>
+<!--kennkyuunaiyou-->
+<div class="kennkyuushitusyoukai">
+	<div class="center1"><img src="svg/Heading-3.svg" alt="研究室紹介"></div>
+
+<div class="Lab_photo">
+<img src="img/Lab-fukumoto_1.JPG" alt="研究室の写真1" id="Lab_main" />
+<img src="img/Lab-fukumoto_1.JPG" alt="研究室の写真1" name="Lab_sub" class="Lab_sub first" onclick="onChange(0)"/>
+<img src="img/Lab-fukumoto_2.JPG" alt="研究室の写真2" name="Lab_sub" class="Lab_sub" onclick="onChange(1)"/>
+<img src="img/Lab-fukumoto_3.JPG" alt="研究室の写真3" name="Lab_sub" class="Lab_sub" onclick="onChange(2)"/>
+</div>
+
+
+<h2>ネットワーク信号処理研究室：A357</h2>
+<p>例えば別の場所で録音した音声情報をリアルに再現するには、再生する部屋の音響特性の影響を取り除く必要があります。そのためには、理論研究だけではなく、効率よく実現するための方式も不可欠です。これらの技術は音響システムだけではなく、携帯電話や情報通信の分野での応用も期待されています。また、最先端の研究開発用ネットワークを用いた情報配信実験も行っています。</p>
+</div>
+<!--kennkyuushitusyoukai-->
+<div class="koukouseihe">
+<div class="photo2"><img src="svg/StaffDetail_balloon.svg" alt="吹き出し">
+<h1>高校生のみなさんへ</h1>
+<div class="kotoba">
+　「為せば成る為さねばならぬ何事も、成らぬは人の為さぬなりけり」　(by 上杉鷹山)　説教臭いですが···何事にも自分の目標をしっかり持って望み、その結果には言い訳をしないように心掛けてもらいたいと思います。
+</div>
+<!--kotoba-->
+</div>
+</div>
+<!--koukouseihe-->
+<div class="kougikamoku">
+<h2>講義科目</h2>
+
+	<dl>
+<dd>コンピュータリテラシー　情報理論基礎、映像音響メディア、<br />
+符号理論</dd>
+</dl>
+<h2>受け入れ可能な専攻</h2>
+<p>
+情報とメディア専攻<br />
+情報通信専攻<br />
+コンピュータサイエンス専攻<br />
+</p>
+
+</div>
+<!--kougikamoku-->
+<div class="photo3"><img src="img/Body-FukumotoMasahiro.jpg" alt="先生全身画像"></div>
+</div>
+<!--main-->
+</div>
+<!--baseContents-->
+
+<!--#include file="footer.html"-->
+</body>
+</html>

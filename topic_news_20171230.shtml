@@ -1,0 +1,241 @@
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>ニュース一覧</title>
+    <link rel="stylesheet" href="css/base.css" media="all" title="header" charset="utf-8" />
+    <link rel="stylesheet" href="css/topic_news.css" media="all" title="header" charset="utf-8" />
+    <link rel="icon" href="img/favicon2.png" type="image/png" />
+    <script type="text/javascript" src="js/load.js"></script>
+  </head>
+  
+  <body id="numLink">
+    <!--#include virtual="header.html"-->
+    <div id="baseContents">
+      <div class="pankuzu">
+        <a href="index.shtml">HOME</a> > Topics&amp;News
+      </div> <!-- pankuzu -->
+      <div class="left">
+        <div class="subTitle">
+          <h1><span class="topChar">T</span>opics</h1><h2>and</h2><h1><span class="topChar">N</span>ews</h1>
+        </div><!-- title -->
+        <div class="yearBox">
+          <form name="form">
+            <ul>
+              <label><input type="radio" name="yearbtn" value="H_29" onchange="onYearChange();" checked/><li><span class="nendo">平成</span>29<span class="nendo">年度</span></li></label>
+<label><input type="radio" name="yearbtn" value="H_28" onchange="onYearChange();"/><li><span class="nendo">平成</span>28<span class="nendo">年度</span></li></label>
+<label><input type="radio" name="yearbtn" value="H_27" onchange="onYearChange();"/><li><span class="nendo">平成</span>27<span class="nendo">年度</span></li></label>
+<label><input type="radio" name="yearbtn" value="H_26" onchange="onYearChange();"/><li><span class="nendo">平成</span>26<span class="nendo">年度</span></li></label>
+<label><input type="radio" name="yearbtn" value="H_25" onchange="onYearChange();"/><li><span class="nendo">平成</span>25<span class="nendo">年度</span></li></label>
+<label><input type="radio" name="yearbtn" value="H_24" onchange="onYearChange();"/><li><span class="nendo">平成</span>24<span class="nendo">年度</span></li></label>
+<label><input type="radio" name="yearbtn" value="H_23" onchange="onYearChange();"/><li><span class="nendo">平成</span>23<span class="nendo">年度</span></li></label>
+<label><input type="radio" name="yearbtn" value="H_22" onchange="onYearChange();"/><li><span class="nendo">平成</span>22<span class="nendo">年度</span></li></label>
+<label><input type="radio" name="yearbtn" value="H_21" onchange="onYearChange();"/><li><span class="nendo">平成</span>21<span class="nendo">年度以前</span></li></label>
+            </ul>
+          </form>
+        </div> <!-- yearBox -->
+      </div><!-- left -->
+      <div class="listArea">
+        <ul class="listNews" name="year" id="H_29">
+<li name="list"><dd>三年次開講コンピュータグラフィックスの講義課題 <a href="https://www.youtube.com/watch?v=XTe0TX-sxE4&feature=youtu.be">優秀作品集</a> を公開しました。</dd><dt>2017.12.24</dt></li>
+<li name="list"><dd><a href="./news/topic_204.shtml">警察庁から Cykut に感謝状が贈呈されました。</a></dd><dt>2017.12.21</dt></li>
+<li name="list"><dd><a href="./news/topic_203.shtml">本日、テレビ高知で Cykut が取材を受けた様子が放送されます。</a></dd><dt>2017.12.19</dt></li>
+<li name="list"><dd><a href="./news/topic_202.shtml">平成29年度　企業向け大学説明会・情報交換会が開催されました。</a></dd><dt>2017.12.14</dt></li>
+<li name="list"><dd><a href="http://www.cgarts.or.jp/kentei/">CG関係５検定</a>を高知工科大で実施しました (2018年前期については<a href="faculty_members/profile_kurihara.shtml">情報学群 栗原准教授</a>まで御相談ください) 。</dd><dt>2017.11.27</dt></li>
+<li name="list"><dd><a href="special_lec.shtml">情報学群特別講義の詳細ページ</a>を作成しました。このページへは現在のトップページ中央部バナー及びキャンパスライフ > 特別講義からも移動することができます。</dd><dt>2017.11.21</dt></li>
+<li name="list"><dd>高知工科大学推薦入試が行われました。合格発表は11月23日木曜日に<a href="https://www.kochi-tech.ac.jp/entrance_info/admission/info_after/result.html">こちら</a>で公開されます。</dd><dt>2017.11.19</dt></li>
+<li name="list"><dd>2017年11月13日、学部3年生による夏季インターンシップ報告会が行われました。</dd><dt>2017.11.15</dt></li>
+<li name="list"><dd><a href="./news/topic_196.shtml">平成29年度開学記念日式典が行われました。</a></dd><dt>2017.11.10</dt></li>
+<li name="list"><dd><a href="./news/topic_temp_195.shtml">平成29年度「情報学群特別講義」が開講します。</a></dd><dt>2017.11.7</dt></li>
+<li name="list"><dd><a href="./news/topic_185.shtml">平成29年度情報学群研究室対抗スポーツ大会が開催されました。</a></dd><dt>2017.9.13</dt></li>
+<li name="list"><dd><a href=http://www.lab.kochi-tech.ac.jp/shinolab/>篠森研</a>の Wan Lifang さんが<a href=https://www.kochi-tech.ac.jp/news/2017/003564.html> Poster Award を受賞</a>しました。</dd><dt>2017.9.6</dt></li>
+<li name="list"><dd><a href="./news/topic_179.shtml">情報学群1年生24名の投稿が5,6,7,8月の高知新聞「声ひろば」に掲載されました。</a></dd><dt>2017.8.29</dt></li>
+<li name="list"><dd><a href="./news/topic_175.shtml">岩田誠教授がACHIEVEMENT AWARDを受賞しました。</a></dd><dt>2017.8.8</dt></li>
+<li name="list"><dd>教員紹介ページに<a href="https://www.shikidalab.org/">敷田研HP</a>へのリンクを作成しました。</dd><dt>2017.8.4</dt></li>
+<li name="list"><dd><a href="./news/topic_temp_176.shtml">平成29年度オープンキャンパスが開催されました。</a></dd><dt>2017.7.29 - 7.30</dt></li>
+<li name="list"><dd><a href = "oc_2017/index.shtml">オープンキャンパス2017</a>のページを作成しました。</dd><dt>2017.7.8</dt></li>
+<li name="list"><dd><a href="./news/topic_172.shtml">CyKUTが高知県警本部より「サイバー犯罪ボランティア」の委嘱を受けました。</a></dd><dt>2017.6.28</dt></li>
+<li name="list"><dd><a href = "https://www.kochi-tech.ac.jp/news/2017/003448.html">情報学群 任教授のグループがChinese CHI 2017のBest Poster Awardを受賞しました。</a></dd><dt>2017.6.26</dt></li>
+<li name="list"><dd><a href="./news/topic_169.shtml">第1回 脳コミュニケーション研究センター講演会のご案内（6月8日(木) 4限 開催）</a></dd><dt>2017.6.8</dt></li>
+<li name="list"><dd><a href = https://www.kochi-tech.ac.jp/news/2017/003408.html>清水教授が高知県警察本部よりサイバー犯罪対策アドバイザーを委嘱されました。</a></dd><dt>2017.5.29</dt></li>
+<li name="list"><dd><a href="./news/topic_166.shtml">「KUT同窓会inおおさか」のご案内（7月15日（土）開催）</a></dd><dt>2017.5.26</dt></li>
+<li name="list"><dd><a href="./news/topic_165.shtml">情報学群1年生8名の投稿が4,5月の高知新聞「声ひろば」に掲載されました。</a></dd><dt>2017.5.25</dt></li>
+<li name="list"><dd>情報学群3年生の研究室配属が発表されました。</dd><dt>2017.5.24</dt></li>
+<li name="list"><dd><a href="./news/topic_163.shtml">情報学群Webリニューアルプロジェクト 1年生募集</a></dd><dt>2017.5.7</dt></li>
+<li name="list"><dd>教員紹介ページに<a href="http://ipl.info.kochi-tech.ac.jp/matsuzaki-lab/index.html">松崎研HP</a>へのリンクを作成しました。</dd><dt>2017.4.25</dt></li>
+<li name="list"><dd><a href="./news/topic_159.shtml">福本研のスックシリ　バンディットさん（SUKSIRI Bandhit）がStudent Paper Awardを受賞しました。</a></dd><dt>2017.4.20</dt></li>
+<li name="list"><dd><a href="./news/topic_158.shtml">オープンキャンパスのご案内（7月29日，30日開催）</a></dd><dt>2017.4.11</dt></li>
+<li name="list"><dd><a href="./news/topic_157.shtml">平成29年度新入生歓迎セミナーが行われました。</a></dd><dt>2017.4.8</dt></li>
+<li name="list"><dd>平成29年度より<a href="http://www.info.kochi-tech.ac.jp/new_graduate_school.shtml">大学院</a>のカリキュラム改革を行いました。</dd><dt>2017.4.5</dt></li>
+<li name="list"><dd><a href="./news/topic_155.shtml">平成29年度高知工科大学入学式が行われました。</a></dd><dt>2017.4.5</dt></li>
+<li name="list"><dd>教員紹介ページに<a href="http://www.lab.kochi-tech.ac.jp/shinolab/">篠森研HP</a>へのリンクを作成しました。</dd><dt>2017.4.2</dt></li>
+<li name="list"><dd>平成29年度は濵村昌則教授が情報学群長を務めます。</dd><dt>2017.4.1</dt></li>
+</ul>
+<ul class="listNews" name="year" id="H_28">
+<li name="list"><dd><a href="./news/topic_150.shtml">平成28年度情報学群卒業式・情報システム工学コース修了式が行われました。</a></dd><dt>2017.3.27</dt></li>
+<li name="list"><dd><a href="./news/topic_temp_146.shtml">Topics&News記事などの生成をCMSに移行しました。</a></dd><dt>2017.3.17</dt></li>
+<li name="list"><dd>第79回情報処理学会全国大会で、情報学群4年石井雄飛さん、西田昂世さんが学生奨励賞を受賞しました。</dd><dt>2017.3.16</dt></li>
+<li name="list"><dd><a href="./news/topic_143.shtml">平成28年度情報学群卒業研究発表会が行われました。</a></dd><dt>2017.2.24</dt></li>
+<li name="list"><dd><a href="./news/topic_112.shtml">平成28年度情報学群実験第2の品評会が行われました。</a></dd><dt>2017.2.15</dt></li>
+<li name="list"><dd><a href="./news/topic_temp_148.shtml">平成28年度情報学群卒業研究発表会のご案内</a></dd><dt>2017.2.15</dt></li>
+<li name="list"><dd><a href="./news/topic_113.shtml">平成28年度修士論文発表会が行われました。</a></dd><dt>2017.2.10</dt></li>
+<li name="list"><dd><a href="./news/topic_114.shtml">平成28年度ソフトウェア工学演習成果発表会が行われました。</a></dd><dt>2017.2.8</dt></li>
+<li name="list"><dd><a href="http://www.smzl.info/smzl/">セキュリティシステム研究室</a>の学生グループが<a href="http://www.kochi-tech.ac.jp/kut/newsfiles/b01m00002822.html">観光功労団体表彰</a>を受賞しました。</dd><dt>2017.2.4</dt></li>
+<li name="list"><dd><a href="./news/topic_temp_149.shtml">平成28年度修士論文発表会のご案内</a></dd><dt>2017.2.2</dt></li>
+<li name="list"><dd>3年次開講ソフトウェア工学の作品発表会が、2月2日13時～17時50分（3，4，5限）にC101で行われます。時間内の出入りは可能ですので、興味のある方はどなたでもご自由に聴講ください。</dd><dt>2017.2.1</dt></li>
+<li name="list"><dd><a href="http://www.kochi-tech.ac.jp/kut/newsfiles/b01m00002799.html">電子情報通信学会四国支部主催講演会</a>のご案内</dd><dt>2017.1.22</dt></li>
+<li name="list"><dd><a href="./news/topic_temp_119.shtml">福本教授が登壇する「次世代災害情報システムヘ向けての連携促進セミナー」のご案内</a></dd><dt>2017.1.2</dt></li>
+<li name="list"><dd>三年次開講コンピュータグラフィックスの講義課題 <a href="https://www.youtube.com/watch?v=lbXo3VT0SM0">優秀作品集</a> を公開しました。</dd><dt>2016.12.27</dt></li>
+<li name="list"><dd>高知工科大学は2017年で20周年を迎えます。20周年記念に作成されたロゴを本ページ右上に掲載しています。</dd><dt>2016.12.23</dt></li>
+<li name="list"><dd><a href="./news/topic_temp_122.shtml">2016年12月7日-10日に情報学群の学生らが香港理工大学の学生と交流しました。</a></dd><dt>2016.12.18</dt></li>
+<li name="list"><dd>2016年12月3日に学士4年生松元稿如さんがIEEE Computer Society Japan Chapter FOSE Young Researcher Awardを受賞しました。詳細は<a href="http://pl.info.kochi-tech.ac.jp/index.php/2016/12/05/post-272/">こちら（鵜川研究室HP）</a>です。</dd><dt>2016.12.9</dt></li>
+<li name="list"><dd><a href="./news/topic_temp_124.shtml">情報学群のWebページをリニューアルして一周年を迎えました。</a></dd><dt>2016.12.1</dt></li>
+<li name="list"><dd><a href="./news/topic_temp_125.shtml">セキュリティ・キャンプ全国大会2016の参加者インタビューを掲載しました。</a></dd><dt>2016.11.25</dt></li>
+<li name="list"><dd>高知工科大学推薦入試が行われました。合格発表は11月25日金曜日に<a href="http://www.kochi-tech.ac.jp/kut/entrance_examination_UGS/ugs_gokaku.html">こちら</a>で公開されます。</dd><dt>2016.11.20</dt></li>
+<li name="list"><dd>2016年11月17日、学部3年生による夏季インターンシップ報告会が行われました。</dd><dt>2016.11.19</dt></li>
+<li name="list"><dd>2016年12月1日、CIC東京 新技術説明会（情報・機械・材料）にて本学群長の清水教授と、鵜川准教授が発表します。</dd><dt>2016.11.16</dt></li>
+<li name="list"><dd><a href="./news/topic_129.shtml">平成28年度 企業向け大学説明会・情報交換会が開催されました。</a></dd><dt>2016.11.11</dt></li>
+<li name="list"><dd><a href="./news/topic_130.shtml">脳と情報シンポジウム2016が高知工科大学で開催されました。</a></dd><dt>2016.11.7</dt></li>
+<li name="list"><dd><a href="./news/topic_temp_142.shtml">国際会議IxAP/IDHF2016が高知工科大学で開催されました</a></dd><dt>2016.10.22</dt></li>
+<li name="list"><dd>2016年9月17日<a href="https://www.sjciee.org">電気関係学会四国支部連合大会</a>が徳島大学で行われました。情報学群からは9件の発表を行いました。</dd><dt>2016.9.23</dt></li>
+<li name="list"><dd>2016年9月12日に3月で学部を卒業した中村真也（しんや）さんらの論文が<a href="https://ipsj.ixsq.nii.ac.jp/ej/?action=pages_view_main&active_action=repository_view_main_item_detail&item_id=174599&item_no=1&page_id=13&block_id=8">情報処理学会論文誌プログラミング</a>に掲載されました。</dd><dt>2016.9.23</dt></li>
+<li name="list"><dd><a href="./news/topic_temp_134.shtml">平成28年度情報学群研究室対抗スポーツ大会が開催されました。</a></dd><dt>2016.9.18</dt></li>
+<li name="list"><dd>高知工科大の四季の魅力を伝える<a href="http://www.info.kochi-tech.ac.jp/photo_contest/index.shtml">KUT PHOTO</a>のページを作成しました。</dd><dt>2016.8.8</dt></li>
+<li name="list"><dd><a href="./news/topic_temp_136.shtml">平成28年度第2回オープンキャンパスを開催しました！</a></dd><dt>2016.8.2</dt></li>
+<li name="list"><dd><a href="./news/topic_137.shtml">3月に修士課程を修了した福井さゆりさんが電子情報通信学会WBS Student Paper Awardを受賞しました。</a></dd><dt>2016.7.28</dt></li>
+<li name="list"><dd>中原教授の研究成果が<a href="https://www.kochinews.co.jp/article/34849/">高知新聞（2016年7月13日発行）</a>に掲載されました。</dd><dt>2016.7.22</dt></li>
+<li name="list"><dd>2016年6月6日に修士2年宮崎 玲奈さんの論文が<a href="https://ipsj.ixsq.nii.ac.jp/ej/?action=pages_view_main&active_action=repository_view_main_item_detail&item_id=163726&item_no=1&page_id=13&block_id=8">情報処理学会論文誌プログラミング</a>に掲載されました。</dd><dt>2016.7.21</dt></li>
+<li name="list"><dd><a href="./news/topic_temp_140.shtml">平成28年度第1回オープンキャンパスを開催しました！</a></dd><dt>2016.7.19</dt></li>
+<li name="list"><dd><a href="http://www.info.kochi-tech.ac.jp/oc_2016/kut_navi.shtml">高知工科大学オープンキャンパス案内アプリ KUTNavi</a>を情報学群2,3,4年生が制作しました。</dd><dt>2016.7.17</dt></li>
+<li name="list"><dd>情報学群4年の合路健人さんが<a href="http://www.ipa.go.jp/jinzai/camp/2016/zenkoku2016.html">セキュリティ・キャンプ全国大会2016</a>の参加者に選ばれました。</dd><dt>2016.7.9</dt></li>
+<li name="list"><dd><a href="http://www.info.kochi-tech.ac.jp/oc_2016/oc_2016.shtml">オープンキャンパス2016</a>のページを更新しました。</dd><dt>2016.7.8</dt></li>
+<li name="list"><dd>中原教授らの研究成果が<a href="http://mainichi.jp/articles/20160612/ddl/k36/040/334000c">毎日新聞</a>に掲載されました。</dd><dt>2016.6.12</dt></li>
+<li name="list"><dd>教員紹介ページに<a href="http://www.lab.kochi-tech.ac.jp/knkhrlab/">中原研HP</a>へのリンクを作成しました。</dd><dt>2016.6.3</dt></li>
+<li name="list"><dd>情報学群3年生の研究室配属が発表されました。</dd><dt>2016.5.25</dt></li>
+<li name="list"><dd>教員紹介ページに<a href="http://kadotalab.info.kochi-tech.ac.jp/">門田研HP</a>へのリンクを作成しました。</dd><dt>2016.4.26</dt></li>
+<li name="list"><dd><a href="./news/topic_100.shtml">2016年度新入生歓迎セミナーが行われました。</a></dd><dt>2016.4.16 - 4.17</dt></li>
+<li name="list"><dd>門田准教授らのグループの研究がNHKで紹介されました。</dd><dt>2016.4.12</dt></li>
+<li name="list"><dd><a href="http://www.info.kochi-tech.ac.jp/oc_2016/oc_2016.shtml">オープンキャンパスのご案内</a> : 2016年7月17日(日),7月31日(日)に開催いたします。情報学群は香美キャンパスで行います。ご来訪をお待ちしております。</dd><dt>2016.4.8</dt></li>
+<li name="list"><dd>総務省四国総合通信局局長 佐藤裁也様に「Ｇ７情報通信大臣会合について～ＩＣＴで輝く、今とこれから～」についてご講演いただきました。</dd><dt>2016.4.6</dt></li>
+<li name="list"><dd>情報学群学生が<a href="http://www.kochi-tech.ac.jp/kut/newsfiles/b01m00002224.html">高知市観光案内用「多言語対応アプリ」</a>を開発しました。</dd><dt>2016.4.5</dt></li>
+<li name="list"><dd>2016年2月の海外短期研修情報を更新しました。</dd><dt>2016.4.5</dt></li>
+<li name="list"><dd>篠森教授の高齢ドライバーに対する視覚の衰えやその対策に関する見解が、東京交通新聞に取り上げられました。</dd><dt>2016.4.4</dt></li>
+<li name="list"><dd><a href="./news/topic_107.shtml">高知工科大学入学式が行われました。</a></dd><dt>2016.4.3</dt></li>
+<li name="list"><dd><a href="http://www.info.kochi-tech.ac.jp/faculty_members/profile_shikida.shtml">敷田幹文教授</a>が着任しました。</dd><dt>2016.4.1</dt></li>
+<li name="list"><dd>平成28年度も引き続き清水明宏教授が情報学群長を務めます。</dd><dt>2016.4.1</dt></li>
+</ul>
+<ul class="listNews" name="year" id="H_27">
+<li name="list"><dd>修士1年生Bandhit Suksiriさんが電子情報通信学会信号処理研究会@大分で発表を行いました。</dd><dt>2016.3.28</dt></li>
+<li name="list"><dd><a href="./news/topic_93.shtml">情報学群卒業式・情報システム工学コース修了式が行われました。</a></dd><dt>2016.3.18</dt></li>
+<li name="list"><dd>鵜川准教授らによる翻訳本「ガベージコレクション」が出版されました。</dd><dt>2016.3.15</dt></li>
+<li name="list"><dd>学士4年生中村真也(しんや)さんが第108回情報処理学会プログラミング研究会@東京で発表を行いました。</dd><dt>2016.2.29</dt></li>
+<li name="list"><dd><a href="./news/topic_88.shtml">学士4年生による情報学群 卒業研究発表会が行われました。</a></dd><dt>2016.2.15 - 2.16</dt></li>
+<li name="list"><dd><a href="./news/topic_89.shtml">修士2年生による情報システム工学コース修士論文発表会が行われました。</a></dd><dt>2016.2.8</dt></li>
+<li name="list"><dd><a href="./news/topic_76.shtml">情報学群3年生のソフトウェア工学演習の成果発表会が行われました。</a></dd><dt>2016.2.1</dt></li>
+<li name="list"><dd>情報学群学生が<a href="http://www.kochi-tech.ac.jp/kut/newsfiles/b01m00002091.html">外国人観光客向け案内アプリの開発</a>を行っています。</dd><dt>2016.1.27</dt></li>
+<li name="list"><dd>福本教授の研究が<a href="http://mainichi.jp/articles/20160119/ddl/k39/040/563000c">毎日新聞</a>に紹介されました。</dd><dt>2016.1.19</dt></li>
+<li name="list"><dd>修士2年生横田優佳さんが電子情報通信学会信号処理研究会@大阪で発表を行いました。</dd><dt>2016.1.18 - 1.19</dt></li>
+<li name="list"><dd>学士3年生片岡崇史さんが第57回プログラミングシンポジウム@岐阜で発表を行いました。</dd><dt>2016.1.8</dt></li>
+<li name="list"><dd>修士2年福井さゆりさんの論文が<a href="https://search.ieice.org/bin/summary.php?id=e99-a_1_159&amp;category=A&amp;year=2016&amp;lang=E&amp;abst=">IEICE Transactions</a>に掲載されました。</dd><dt>2016.1.5</dt></li>
+<li name="list"><dd>松崎准教授らによる翻訳本「世界標準MIT教科書 ストラング:線形代数イントロダクション」が出版されました。</dd><dt>2015.12.22</dt></li>
+<li name="list"><dd>三年次開講コンピュータグラフィックスの講義課題 <a href="https://youtu.be/xtHn5Z0h0QQ">優秀作品集</a> を公開しました。</dd><dt>2015.12.20</dt></li>
+<li name="list"><dd>修士1年生田中麻実さんが電子情報通信学会インターネットアーキテクチャ研究会@広島で発表を行い、インターネットアーキテクチャ研究会学生研究奨励賞を受賞しました。</dd><dt>2015.12.17 - 12.18</dt></li>
+<li name="list"><dd>情報学群WEBをリニューアルしました。本ページは<a href="./members.shtml">情報学群の2,3,4年生</a>が制作しました。</dd><dt>2015.12.1</dt></li>
+<li name="list"><dd>修士2年生横田優佳さんが電子情報通信学会第30回信号処理シンポジウム@福島で発表を行いました。</dd><dt>2015.11.4 - 11.6</dt></li>
+<li name="list"><dd>情報学群の学生を中心とする学生団体CyKUTが高知県警から高知県サイバー防犯ボランティアを委嘱されました。</dd><dt>2015.10.14</dt></li>
+<li name="list"><dd><a href="./news/topic_36.shtml">情報学群　研究室対抗スポーツ大会が開催されました！今年は浜村研が総合優勝しました。</a></dd><dt>2015.9.28</dt></li>
+<li name="list"><dd>学士4年生林美和さんが平成27年度電気関係学会四国支部連合大会@高知で発表を行いました。</dd><dt>2015.9.26</dt></li>
+<li name="list"><dd>清水教授が高知県警本部にて 高知県警職員を対象としたネットワーク・セキュリティ特別講義を行いました。 11月には吉田准教授、植田講師らにより、 高知県警職員を対象とした情報セキュリティ特別実習が行われる予定です。</dd><dt>2015.9.14 - 9.28</dt></li>
+<li name="list"><dd>修士2年 宇野則文君が国際会議WorldComp2015@Las Vegasで発表を行い, Best Student Paper Awardを受賞しました！</dd><dt>2015.8.5</dt></li>
+<li name="list"><dd><a href="./news/topic_temp_110.shtml">2015年度第2回オープンキャンパスを開催しました！ 猛暑の中，大勢の皆様に足をお運びいただきました．どうもありがとうございました。</a></dd><dt>2015.8.2</dt></li>
+<li name="list"><dd>岩田教授らのグループが平成27年度SCOPEに採択されました。</dd><dt>2015.7.23</dt></li>
+<li name="list"><dd>2015年度第1回オープンキャンパスを開催しました！<br> 情報学群では受験生のやる気を高める豊富なコンテンツを取り揃えています。 まだの方は, 是非，第２回オープンキャンパスに足をお運びください。</dd><dt>2015.7.19</dt></li>
+<li name="list"><dd>キャンパスライフ＞学会発表 のページを追加しました。</dd><dt>2015.7.18</dt></li>
+<li name="list"><dd>キャンパスライフ＞国際交流 のページを追加しました。</dd><dt>2015.7.18</dt></li>
+<li name="list"><dd>情報学群3年生の研究室配属が発表されました。</dd><dt>2015.6.10</dt></li>
+<li name="list"><dd>情報学群１年 古里 聡一朗君の投稿が5月31日の高知新聞に掲載されました。</dd><dt>2015.5.31</dt></li>
+<li name="list"><dd>情報学群１年 久保 壮一郎君の投稿が5月22日の高知新聞に掲載されました。</dd><dt>2015.5.22</dt></li>
+<li name="list"><dd>教員紹介ページに<a href="http://shigelab.com/">繁桝研HP</a>へのリンクを作成しました。</dd><dt>2015.5.22</dt></li>
+<li name="list"><dd>教員紹介ページの<a href="http://www.lab.kochi-tech.ac.jp/yoshilab/index.html">吉田研HP</a>へのリンクを更新しました。</dd><dt>2015.5.15</dt></li>
+<li name="list"><dd>情報学群１年 増田 凌也君の投稿が5月14日の高知新聞に掲載されました。</dd><dt>2015.5.14</dt></li>
+<li name="list"><dd>情報学群１年 松根 愛さんの投稿が5月12日の高知新聞に掲載されました。</dd><dt>2015.5.12</dt></li>
+<li name="list"><dd>教員紹介ページに <a href="http://pl.info.kochi-tech.ac.jp/">鵜川研HP</a>へのリンクを作成しました。</dd><dt>2015.5.11</dt></li>
+<li name="list"><dd>情報学群１年 前田 佐都子さんの投稿が5月9日の高知新聞に掲載されました。</dd><dt>2015.5.9</dt></li>
+<li name="list"><dd>情報学群１年 小西 穂香さんの投稿が5月5日の高知新聞に掲載されました。</dd><dt>2015.5.5</dt></li>
+<li name="list"><dd>情報学群１年 河野 奈実さんの投稿が4月30日の高知新聞に掲載されました。</dd><dt>2015.4.30</dt></li>
+<li name="list"><dd>オープンキャンパスのご案内： 2015年7月19日(日),8月2日(日)に開催いたします。情報学群は香美キャンパスで行います. ご来訪をお待ちしております。</dd><dt>2015.4.6</dt></li>
+<li name="list"><dd><a href="./news/topic_4.shtml">2015年度新入生歓迎セミナーを国立室戸青少年自然の家で行いました。</a></dd><dt>2015.4.6 - 4.7</dt></li>
+<li name="list"><dd>龍河洞で情報学群3年生（当時）が開発した外国人観光客向け案内アプリ'Cavigator'の運用を開始しました。</dd><dt>2015.4.2</dt></li>
+<li name="list"><dd>平成27年度も引き続き清水明宏教授が情報学群長を務めます。</dd><dt>2015.4.1</dt></li>
+</ul>
+<ul class="listNews" name="year" id="H_26">
+<li name="list"><dd>情報学群４年生柳澤 佑介君が情報処理学会第33回ゲーム情報学研究会@東京で発表を行いました。</dd><dt>2015.3.6</dt></li>
+<li name="list"><dd>情報学群４年生山本 佳祐君が第17回プログラミングおよびプログラミング言語ワークショップ@愛媛で発表を行いました。</dd><dt>2015.3.4</dt></li>
+<li name="list"><dd>情報学群 卒業研究発表会（2日目）が行われました。</dd><dt>2015.2.17</dt></li>
+<li name="list"><dd>情報学群 卒業研究発表会（1日目）が行われました。</dd><dt>2015.2.16</dt></li>
+<li name="list"><dd>情報システム工学コース修士論文発表会が行われました。</dd><dt>2015.2.9</dt></li>
+<li name="list"><dd>情報学群４年生岡 和人君が情報処理学会第56回プログラミング・シンポジウム@静岡で発表を行いました。</dd><dt>2015.1.19</dt></li>
+<li name="list"><dd><a href="http://www.info.kochi-tech.ac.jp/oldweb2015/index.html">ホームページをリニューアルしました。(旧ページ)</a>本ページは<a href="http://www.info.kochi-tech.ac.jp/oldweb2015/staffRoll.html">情報学群の3年生</a>が制作しました。</dd><dt>2015.1.19</dt></li>
+<li name="list"><dd><a href="http://www.cgarts.or.jp/kentei/">CG関係５検定</a>を高知工科大で実施しました(2015春については情報事務室に御相談ください)。</dd><dt>2014.11.30</dt></li>
+<li name="list"><dd>研究室対抗スポーツ大会が開催されました。今年は繁桝研が優勝しました。</dd><dt>2014.11.24</dt></li>
+<li name="list"><dd>情報学群2年安光穂高君が「さおか秋の豊穣祭」で優勝しました。</dd><dt>2014.10.28</dt></li>
+<li name="list"><dd>篠森敬三教授らの研究成果が商品改良に活用されました。</dd><dt>2014.10.27</dt></li>
+<li name="list"><dd>修士1年山内雅斗君がTechStuDIG2014で優勝しました！</dd><dt>2014.10.23</dt></li>
+<li name="list"><dd>繁桝研究室が附属情報図書館にて錯視の展示を行っています（10/31まで)。</dd><dt>2014.10.16</dt></li>
+<li name="list"><dd>第２学期(3Q)が始まりました。</dd><dt>2014.10.1</dt></li>
+<li name="list"><dd>2014年度第２回オープンキャンパスが開催されました。</dd><dt>2014.9.27</dt></li>
+<li name="list"><dd>門田宏講師の研究成果が各紙で報道されました。</dd><dt>2014.9.16</dt></li>
+<li name="list"><dd>修士1年福井さゆりさんが電子情報通信学会・学生奨励賞を受賞しました。</dd><dt>2014.9.12</dt></li>
+<li name="list"><dd>情報学群4年松下和生君が国際会議NBiS2014@Italyで発表を行いました。</dd><dt>2014.9.10</dt></li>
+<li name="list"><dd>9/27(土)に2014年度第2回オープンキャンパスが開催されます！</dd><dt>2014.8.8</dt></li>
+<li name="list"><dd>修士2年小池規伎君が国際会議WAC2014@Hawaiiで発表を行いました。</dd><dt>2014.8.5</dt></li>
+<li name="list"><dd>修士１年松尾達郎君が国際会議WAC2014@Hawaiiで発表を行いました。</dd><dt>2014.8.5</dt></li>
+<li name="list"><dd>2014年度第2回オープンキャンパスは大雨により延期となりました。</dd><dt>2014.8.3</dt></li>
+<li name="list"><dd>修士2年橋田美緒さんが国際会議APCV2014@Takamatsuで発表を行いました。</dd><dt>2014.7.21</dt></li>
+<li name="list"><dd>2014年度第1回オープンキャンパスが開催されました。</dd><dt>2014.7.20</dt></li>
+<li name="list"><dd>情報学群1年山口智大君の投稿が高知新聞に掲載されました。</dd><dt>2014.7.2</dt></li>
+<li name="list"><dd>北京理工大学大学院と覚書を締結しました。</dd><dt>2014.7.1</dt></li>
+<li name="list"><dd>情報学群3年生の研究室配属が発表されました。</dd><dt>2014.5.28</dt></li>
+<li name="list"><dd>北京理工大学計算機科学技術学院との覚書を更新しました。</dd><dt>2014.5.23</dt></li>
+<li name="list"><dd>修士1年小林亘君が国際会議AINA2014@Canadaで発表を行いました</dd><dt>2014.5.14</dt></li>
+<li name="list"><dd>2014年度新入生歓迎セミナーを国立室戸青少年自然の家で行いました。</dd><dt>2014.4.6 - 4.7</dt></li>
+<li name="list"><dd>平成26年度も引き続き清水明宏教授が情報学群長を務めます。</dd><dt>2014.4.1</dt></li>
+<li name="list"><dd>鵜川始陽准教授，栗原徹准教授が着任しました。</dd><dt>2014.4.1</dt></li>
+<li name="list"><dd>総合研究所 中原潔教授，門田宏講師が情報学群兼務になりました。</dd><dt>2014.4.1</dt></li>
+</ul>
+<ul class="listNews" name="year" id="H_25">
+<li name="list"><dd>香港理工大学電子計算学系と覚書を締結しました。</dd><dt>2014.3.10</dt></li>
+<li name="list"><dd>情報学群4年生高井駿君が日本色彩学会色覚研究会で発表を行いました。</dd><dt>2014.3.8</dt></li>
+<li name="list"><dd>情報学群4年生坂本健人君が日本色彩学会色覚研究会で発表を行いました。</dd><dt>2014.3.8</dt></li>
+<li name="list"><dd>村上和子教育講師が着任しました。</dd><dt>2014.2.1</dt></li>
+<li name="list"><dd>教員紹介を更新しました。</dd><dt>2013.4.1</dt></li>
+<li name="list"><dd>平成25年度は清水明宏教授が情報学群長を務めます。</dd><dt>2013.4.1</dt></li>
+</ul>
+<ul class="listNews" name="year" id="H_24">
+<li name="list"><dd>横山 和俊 教授が着任しました。</dd><dt>2012.11.1</dt></li>
+</ul>
+<ul class="listNews" name="year" id="H_23">
+<li name="list"><dd>篠森敬三教授が産学官連携功労者表彰経済産業大臣賞を受賞しました。</dd><dt>2011.9.22</dt></li>
+<li name="list"><dd>篠森敬三教授が文部科学大臣表彰科学技術賞（開発部門）を受賞しました。</dd><dt>2011.4.11</dt></li>
+<li name="list"><dd>平成23年度は坂本明雄教授が情報学群長を務めます。</dd><dt>2011.4.1</dt></li>
+</ul>
+<ul class="listNews" name="year" id="H_22">
+<li name="list"><dd>新しい先生の情報を追加しました。</dd><dt>2010.11.8</dt></li>
+<li name="list"><dd>新しい研究室の情報を追加しました。</dd><dt>2010.10.5</dt></li>
+<li name="list"><dd>教員紹介を更新しました。</dd><dt>2010.6.14</dt></li>
+<li name="list"><dd>教員紹介を更新しました。</dd><dt>2010.4.28</dt></li>
+</ul>
+        <form name="form">
+          <div id="add">
+            <ul class="listPage" id="numberList">
+              <label for="list1"><input type="radio" name="btn" id="list1" checked="checked" onchange="onChange();"/><li>1</li></label>
+           </ul> <!-- listPage -->
+          </div>
+        </form>
+      </div><!-- listArea -->
+    </div>
+    <!--#include virtual="footer.html"-->
+  </body>
+</html>

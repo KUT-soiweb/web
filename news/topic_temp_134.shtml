@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Topic and News</title>
+    <link rel="stylesheet" href="css/base.css" media="all" title="header" charset="utf-8" />
+    <link rel="stylesheet" href="css/topic_news_article.css" media="all" title="header" charset="utf-8" />
+    <link rel="icon" href="../img/favicon2.png" type="image/png" />
+    <script type="text/javascript">
+        window.onload = function(){
+          headSerect(0);
+        }
+    </script>
+  </head>
+  <body>
+    <!--#include file="header.html"-->
+    <div id="baseContents">
+      <div class="pankuzu">
+        <a href="../index.shtml">HOME</a> > <a href="../topic_news.shtml">Topics&amp;News</a> > News詳細
+      </div> <!-- pankuzu -->
+      <div class="subTitle">
+        <h1><span class="topChar">T</span>opics</h1><h2>and</h2><h1><span class="topChar">N</span>ews</h1>
+      </div><!-- title -->
+      <div class="newsArea">
+        <dt>2016.9.18</dt>
+        <h1>平成28年度情報学群研究室対抗スポーツ大会が開催されました。</h1>
+        <hr />
+                <div class="mainImgArea">
+          <img src="img/id134_1.JPG" class="mainImg" />
+        </div><!-- mainImgArea -->
+        
+        <!--メインセンテンス部分(body1部分)-->
+        <p class="mainSentence">
+        <!--ここに本文を書いてください-->
+        　夏の暑さも和らぎ、日差しが弱くなってきた9月15日、高知工科大学体育館にて研究室対抗のスポーツ大会が開催されました。<br />
+        　今年度は15の研究室が大会に参加し、出場する選手からやる気に満ちた声が聞こえてきました。
+        競技種目はバレーボールとバドミントンの2種目でした。<br />
+        </p><!-- mainSentence -->
+
+        <div class="subArea">
+          <p>
+          <!--ここに補助文を書いてください(body2部分)-->
+          <p>
+            　熱い戦いが繰り広げられ、15の研究室を制した<br />
+            濱村研究室が総合優勝に輝きました。<br /><br />
+            バレーボール優勝　濵村研究室<br />
+            　　　　　準優勝　栗原研究室<br /><br />
+            <!--準優勝　栗原研究室<br /><br />-->
+            バドミントン優勝　中原研究室　<br />
+            　　　　　準優勝　高田研究室<br />
+            <!---準優勝　高田研究室<br />-->
+          </p>
+                      <img src="img/id134_2.JPG" />
+                  </div><!-- subArea -->
+
+        <div class="mainSentence">
+          <p>
+          <!--ここに補助文を書いてください(body3部分)-->
+          　各研究室とも見事なチームワークを発揮しており、青春の汗を流していました。
+          試合後に対戦した相手と話をするなど、各研究室間での交流も深まったスポーツ大会となりました。<br />
+          　夏休みも残り僅か、10月から始まる講義に向け気を引き締めていきたいと思います。
+          </p>
+                  </div><!-- mainSentence -->
+        <!--まとめ部分(body4部分)-->
+        <p class="mainSentence">
+        <!--ここにまとめを書いてください-->
+        </p><!-- mainSentence -->
+
+       </div><!-- newsArea -->
+    </div><!-- baseContents -->
+    <!--#include file="footer.html"-->
+
+  </body>
+</html>

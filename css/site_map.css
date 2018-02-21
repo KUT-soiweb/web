@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+
+/* map */
+#baseContents .linkList {
+  margin-top: 15px;
+  margin-bottom: 150px;
+}
+
+#baseContents .linkList dl{
+   width : 956px;
+}
+
+#baseContents .linkList dt{
+  border-bottom: 1px solid #71cdf2;
+  clear: both;
+  color: #000000;
+  font-size : 17px;
+  font-weight : bold;
+  margin: 0px 10px;
+  padding: 20px 0px 10px 8px;
+  text-align: center;
+}
+
+#baseContents .linkList dd{
+  border-bottom: 1px dotted #a9a9a9;
+  float: left;
+  font-size : 15px;
+  line-height : 1.8;
+  margin: 10px 10px 10px 10px;
+  padding: 0px 15px 0px 30px;
+  text-align: center;
+  width: 250px;
+}
+
+#baseContents .linkList a:hover {
+  color: #71cdf2;
+  text-decoration: underline;
+}

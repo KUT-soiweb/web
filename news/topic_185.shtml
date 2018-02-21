@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>平成29年度情報学群研究室対抗スポーツ大会が開催されました。</title>
+    <link rel="stylesheet" href="css/base.css" media="all" title="header" charset="utf-8" />
+    <link rel="stylesheet" href="css/topic_news_article.css" media="all" title="header" charset="utf-8" />
+    <link rel="icon" href="../img/favicon2.png" type="image/png" />
+    <script type="text/javascript">
+        window.onload = function(){
+          headSerect(0);
+        }
+    </script>
+  </head>
+  <body>
+    <!--#include file="header.html"-->
+    <div id="baseContents">
+      <div class="pankuzu">
+        <a href="../index.shtml">HOME</a> > <a href="../topic_news.shtml">Topics&amp;News</a> > News詳細
+      </div> <!-- pankuzu -->
+      <div class="subTitle">
+        <h1><span class="topChar">T</span>opics</h1><h2>and</h2><h1><span class="topChar">N</span>ews</h1>
+      </div><!-- title -->
+      <div class="newsArea">
+        <dt>2017.9.13</dt>
+        <h1>平成29年度情報学群研究室対抗スポーツ大会が開催されました。</h1>
+        <hr />
+                <div class="mainImgArea">
+          <img src="img/id185_1.jpg" class="mainImg" />
+        </div><!-- mainImgArea -->
+                <p class="mainSentence">
+        　夏の暑さは和らぎ、過ごしやすくなってきた9月12日、高知工科大学体育館にて研究室対抗のスポーツ大会が開催されました。<br />
+　今年度は12もの研究室が大会に参加し、出場する選手からやる気に満ちた声が聞こえてきました。また、スポーツを通して多くの生徒が交流することができました。競技種目はバスケットボールとドッジボールの2種目でした。<br />
+        </p><!-- mainSentence -->
+                <div class="subArea">
+                    <p>
+            　各種目で白熱する戦いが繰り広げられ、結果は以下のようになりました。<br />
+<br />
+バスケットボール　優勝　清水研究室<br />
+　　　　　　　　準優勝　濵村研究室<br />
+<br />
+ドッジボール　　　優勝　門田研究室　<br />
+　　　　　　　　準優勝　鵜川研究室<br />
+          </p>
+                      <img src="img/id185_2.jpg" />
+                  </div><!-- subArea -->
+                <div class="subArea">
+                    <p>
+            　各研究室とも見事なチームワークを発揮し、健康的な汗を流していました。 各研究室間での交流もでき、和気あいあいとしたスポーツ大会となりました。<br />
+　夏休みも残り僅か、10月から始まる後期の授業に向け、改めて気を引き締めていきたいと思います。          </p>
+                    <img src="img/id185_3.jpg" />
+                  </div><!-- subArea -->
+              </div><!-- newsArea -->
+    </div><!-- baseContents -->
+    <!--#include file="footer.html"-->
+
+  </body>
+</html>

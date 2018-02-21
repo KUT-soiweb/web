@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Topic and News</title>
+    <link rel="stylesheet" href="css/base.css" media="all" title="header" charset="utf-8" />
+    <link rel="stylesheet" href="css/topic_news_article.css" media="all" title="header" charset="utf-8" />
+    <link rel="icon" href="../img/favicon2.png" type="image/png" />
+    <script type="text/javascript">
+        window.onload = function(){
+          headSerect(0);
+        }
+    </script>
+  </head>
+  <body>
+    <!--#include file="header.html"-->
+    <div id="baseContents">
+      <div class="pankuzu">
+        <a href="../index.shtml">HOME</a> > <a href="../topic_news.shtml">Topics&amp;News</a> > News詳細
+      </div> <!-- pankuzu -->
+      <div class="subTitle">
+        <h1><span class="topChar">T</span>opics</h1><h2>and</h2><h1><span class="topChar">N</span>ews</h1>
+      </div><!-- title -->
+      <div class="newsArea">
+        <dt>2017.3.17</dt>
+        <h1>Topics&News記事などの生成をCMSに移行しました</h1>
+        <hr />
+                <!--メインセンテンス部分(body1部分)-->
+        <p class="mainSentence">
+        <!--ここに本文を書いてください-->
+        　以前から開発が進められていたCMSが、ついにこのTopics &amp; News記事と学会発表において稼働できるようになりました。
+        これにより、このTopics &amp; Newsや学会発表の更新が容易になりました。
+        </p><!-- mainSentence -->
+
+        <br />
+
+                  <div class="mainImgArea">
+            <img src="img/id146_2.png" />
+          </div>
+                    <p class="mainSentence">
+          <!--ここに補助文を書いてください(body2部分)-->
+          　CMSとは、コンテンツマネジメントシステムの略でありwebサイトの管理や更新ができるシステムのことです。
+          今回作成したCMSでは、上の図のようにタイトルや本文などを入力することで、Topics &amp; Newsの記事の更新や、行われた学会発表の更新を行うことができます。
+          </p>
+
+                  <div class="mainImgArea">
+            <img src="img/id146_3.png" class="mainImg" />
+          </div><!-- mainImgArea -->
+                    <p>
+          <!--ここに補助文を書いてください(body3部分)-->
+          　先程の写真をCMSによってHTMLに出力したものが上の図です。
+          このようにCMSを用いることで、webサイトの更新に必要なHTMLなどの知識を学習しなくとも、容易にwebページを更新できます。
+          これにより、いままではwebリニューアル班が更新していたニュースや学会発表などを研究室のweb担当や、秘書さんなど、様々な方が更新可能となり、情報学群のwebページが今まで以上に賑わうことが予想されます。
+          </p>
+        <!--まとめ部分(body4部分)-->
+        <p class="mainSentence">
+        <!--ここにまとめを書いてください--> 
+        　尚、今回作成したCMSではTopics &amp; Newsと学会発表の更新が可能になりましたが、
+        今後は教員詳細ページや国際交流のCMS化を目指しています。
+        </p><!-- mainSentence -->
+
+       </div><!-- newsArea -->
+    </div><!-- baseContents -->
+    <!--#include file="footer.html"-->
+
+  </body>
+</html>

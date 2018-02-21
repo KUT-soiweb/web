@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>平成28年度ソフトウェア工学演習成果発表会が行われました。</title>
+    <link rel="stylesheet" href="css/base.css" media="all" title="header" charset="utf-8" />
+    <link rel="stylesheet" href="css/topic_news_article.css" media="all" title="header" charset="utf-8" />
+    <link rel="icon" href="../img/favicon2.png" type="image/png" />
+    <script type="text/javascript">
+        window.onload = function(){
+          headSerect(0);
+        }
+    </script>
+  </head>
+  <body>
+    <!--#include file="header.html"-->
+    <div id="baseContents">
+      <div class="pankuzu">
+        <a href="../index.shtml">HOME</a> > <a href="../topic_news.shtml">Topics&amp;News</a> > News詳細
+      </div> <!-- pankuzu -->
+      <div class="subTitle">
+        <h1><span class="topChar">T</span>opics</h1><h2>and</h2><h1><span class="topChar">N</span>ews</h1>
+      </div><!-- title -->
+      <div class="newsArea">
+        <dt>2017.2.8</dt>
+        <h1>平成28年度ソフトウェア工学演習成果発表会が行われました。</h1>
+        <hr />
+                <div class="mainImgArea">
+          <img src="img/id114_1.jpg" class="mainImg" />
+        </div><!-- mainImgArea -->
+                <p class="mainSentence">
+        　本学情報学群3年生の講義の一つである「ソフトウェア工学演習」の成果発表会が行われました。        </p><!-- mainSentence -->
+                <div class="subArea">
+                    <p>
+            　この講義では、ソフトウェアシステムの提案から設計、実装、テストまでを学生がチームを組んで開発工程を模擬体験することで、プロジェクトマネジメントの重要性を感じつつ、ソフトウェア開発の基礎知識と実践的な技術用法を身に着けることを目的として行われています。 今年は1チーム約9人程度の全11チームが、約4か月間の製作期間を経て発表を行いました。 この発表会では毎年、企業の方や他大学の先生方をゲストとして招いており、緊張感の漂う中で様々なコメントをいただきました。          </p>
+                      <img src="img/id114_2.jpg" />
+                  </div><!-- subArea -->
+                <div class="subArea">
+                    <p>
+            　どの作品も中間発表で指摘された点が改善され、技術的な部分や実際の動作、システム化による効果などに工夫を凝らし、各チームともユニークなアイディアを堂々と発表しました。 作業分担やチーム内での情報共有についてなど、実際の現場で直面するような問題への対処にも試行錯誤することができ、各自にとって貴重な経験となったのではないでしょうか。<br />
+<br />
+成果発表会で使用された作品のビデオは<a href="https://www.youtube.com/watch?v=L2SbZHZV7xo">こちら</a>です。<br />
+（チーム：けしからん、もっとやれ）          </p>
+                    <img src="img/id114_3.jpg" />
+                  </div><!-- subArea -->
+              </div><!-- newsArea -->
+    </div><!-- baseContents -->
+    <!--#include file="footer.html"-->
+
+  </body>
+</html>

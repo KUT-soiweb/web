@@ -1,0 +1,284 @@
+@charset "UTF-8";-
+/* main */
+  #baseContents  #fir{
+  }
+
+  #baseContents #spring{
+    background-image: url("../img/spring_icon.png");
+  }
+
+  #baseContents   #spring:hover{
+      cursor: pointer;
+      background-image: url("../img/spring_icon.png");
+  }
+
+
+  #baseContents  #summer{
+    background-image: url("../img/summer_icon.png");
+  }
+
+  #baseContents  #summer:hover{
+    /*  background-color: #afe267;*/
+    background-image: url("../img/summer_icon.png");
+    cursor: pointer;
+  }
+
+
+#baseContents  #autumn{
+  background-image: url("../img/autumn_icon.png");
+}
+
+#baseContents  #autumn:hover{
+    /*background-color: #e9cc8b;*/
+  background-image: url("../img/autumn_icon.png");
+  cursor: pointer;
+}
+
+#baseContents  #winter{
+  background-image: url("../img/winter_icon.png");
+}
+
+#baseContents  #winter:hover{
+/*    background-color: #89bcf2;*/
+ background-image: url("../img/winter_icon.png");
+ cursor: pointer;
+
+}
+
+#baseContents  #springImg{
+  background-image: url("../img/spring.png");
+}
+#baseContents  #summerImg{
+  background-image: url("../img/summer.png");
+}
+
+
+#baseContents  #autumnImg{
+  background-image: url("../img/autumn.png");
+}
+
+#baseContents  #winterImg{
+  background-image: url("../img/winter.png");
+}
+
+#baseContents .album{
+  width: 190px;
+  height: 190px;
+  float: left;
+  border-radius: 10px;
+}
+
+#baseContents .album img{
+ width: 130px;
+ height: 140px;
+ top: 20px;
+ left: 30px;
+ position: relative;
+}
+
+#baseContents .camera{
+  width: 190px;
+  height: 190px;
+  float: left;
+}
+
+#baseContents .camera img{
+ width: 130px;
+ height: 140px;
+ top: 20px;
+ left: 30px;
+ position: relative;
+}
+
+#baseContents .contents {
+  margin-top: 50px;
+}
+
+#baseContents .contents h1{
+  font-size: 350%;
+  text-align: center;
+  margin-top: 70px;
+}
+
+#baseContents .contentsArea{
+  height: 500px;
+  margin: 30px 0px 0px;
+}
+
+#baseContents .backBlur{
+  float: left;
+  width: 430px;
+  height:500px;
+  background-size: cover;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;/*ブラー効果でボヤけた部分を非表示*/
+
+}
+
+
+
+#baseContents .detail{
+  float: left;
+  width: 460px;
+  height:300px;
+  font-size:140%;
+  font-weight: bold;
+  margin-top: 80px;
+}
+
+#baseContents .detail tr{
+}
+
+#baseContents .detail th{
+  width: 30%;
+}
+
+#baseContents .detail .colon{
+  width: 15px;
+  font-size: 110%;
+}
+
+#baseContents .detail .comments{
+  height:40px;
+  vertical-align: top;
+}
+
+#baseContents .detail .comment{
+  height:20px;
+  vertical-align: top;
+  font-size: 110%;
+}
+
+#baseContents .enquiry{
+  border: solid;
+  border: medium solid #3DB6EB;/*71cdf2*/;
+  margin: 50px 30px 50px;
+  padding: 20px;
+  text-align: center;
+}
+
+#baseContents .enquiry p {
+  margin-top: 10px;
+  color: #3DB6EB;/*71cdf2*/;
+}
+
+#baseContents  .enquiry p a {
+  color: #3DB6EB; /*71cdf2*/
+  font-size: 110%;
+}
+
+
+#baseContents .icon img{
+  float:left;
+  height: 50px;
+  width: 50px;
+}
+
+
+#baseContents .mainContents{
+  width: auto;
+  height: 500px;
+  margin: 30px 0px 0px;
+}
+
+#baseContents  .mainImage{
+  float:left;
+  height: 500px;
+  width: 500px;
+  background-color: #FFFFFF;
+  margin-left:30px;
+}
+
+#baseContents  .mainImage img{
+  box-shadow: 10px 10px 10px  rgba(0,0,0,0.4); を指定
+
+}
+
+#baseContents .season{
+  margin: 0px 45px 0px;
+  height: 150px;
+  width: 150px;
+  float:left;
+  font-size:300%;
+  text-align: center;
+  line-height: 150px;
+}
+
+#baseContents .seasons{
+height: 150px;
+margin-top: 20px;
+}
+
+#baseContents .seasons input:checked + label {
+  border-radius: 10px;
+}
+
+#baseContents .sub{
+  height: 150px;
+  margin-top: 50px;
+}
+
+
+#baseContents .spal:hover{
+    background-color: #FFC6FF;
+}
+#baseContents .sual:hover{
+    background-color: #C9FFC9;
+}
+#baseContents .aual:hover{
+  background-color: #FFEFC4;
+}
+#baseContents .wial:hover{
+  background-color: #C4FFFF;
+}
+
+#baseContents .spring2 , .spring3 , .spring4  {
+  display: none;
+}
+
+#baseContents #suTable, #auTable, #wiTable{
+    display: none;
+}
+
+#baseContents #suAlbum , #auAlbum, #wiAlbum{
+    display: none;
+}
+
+#baseContents .top {
+  height: 500px;
+  margin-top: 50px;
+  position: relative;
+  color:		#fff;
+  font-family: "ＭＳ Ｐ明朝"
+}
+
+#baseContents .top h1{
+  font-size: 400%;
+  left: 50px;
+  top: 60px;
+  position:	absolute; /* 絶対位置指定 */
+}
+
+#baseContents .top h2{
+  font-size: 250%;
+  left: 400px;
+  top: 145px;
+  position:	absolute; /* 絶対位置指定 */
+}
+
+#baseContents .top img{
+    height: 500px;
+    width:100%;
+}
+#baseContents .top .sentence {
+	width:		100%;
+	font-size:	150%;
+  height: 30%;
+  line-height: 27pt;
+	text-align:	center;
+	bottom:		0px;
+	/*background:	rgba(127, 127, 255, 0.63);*/ /* 帯の透明度 */
+  background:	rgba(0, 0, 0, 0.63); /* backgroundはどちらか一方 */
+	position:	absolute; /* 絶対位置指定 */
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>平成29年度開学記念日式典が行われました。</title>
+    <link rel="stylesheet" href="css/base.css" media="all" title="header" charset="utf-8" />
+    <link rel="stylesheet" href="css/topic_news_article.css" media="all" title="header" charset="utf-8" />
+    <link rel="icon" href="../img/favicon2.png" type="image/png" />
+    <script type="text/javascript">
+        window.onload = function(){
+          headSerect(0);
+        }
+    </script>
+  </head>
+  <body>
+    <!--#include file="header.html"-->
+    <div id="baseContents">
+      <div class="pankuzu">
+        <a href="../index.shtml">HOME</a> > <a href="../topic_news.shtml">Topics&amp;News</a> > News詳細
+      </div> <!-- pankuzu -->
+      <div class="subTitle">
+        <h1><span class="topChar">T</span>opics</h1><h2>and</h2><h1><span class="topChar">N</span>ews</h1>
+      </div><!-- title -->
+      <div class="newsArea">
+        <dt>2017.11.10</dt>
+        <h1>平成29年度開学記念日式典が行われました。</h1>
+        <hr />
+                <div class="mainImgArea">
+          <img src="img/id196_1.jpg" class="mainImg" />
+        </div><!-- mainImgArea -->
+                <p class="mainSentence">
+        　平成29年11月4日に開学記念日式典が行われました。この式典では学長から学生へ学業成績最優秀賞、学業成績優秀賞、アスリート特別優秀賞、アスリート優秀賞、廣井勇賞、学長褒賞の授与が行われました。<br />
+<br />
+　情報学群では以下の学生が表彰を受けました。<br />
+● 学業成績最優秀賞　　<br />
+　　　4年次生　　北代 悠生<br />
+　　　3年次生　　河島 尚輝<br />
+　　　2年次生　　本城 克基<br />
+<br />
+● 学業成績優秀賞<br />
+　　　4年次生　　別府 若菜<br />
+　　　　　　　　&nbsp;&nbsp;唐橋 良汰<br />
+　　　　　　　　&nbsp;&nbsp;川島 成絵<br />
+　　　　　　　　&nbsp;&nbsp;藤田 竜貴<br />
+　　　3年次生　　沖 貴司<br />
+　　　　　　　　&nbsp;&nbsp;杉村 侑起<br />
+　　　　　　　　&nbsp;&nbsp;澤村 優希<br />
+　　　　　　　　&nbsp;&nbsp;明石 悠磨<br />
+　　　2年次生　　筒井 康行<br />
+　　　　　　　　&nbsp;&nbsp;栃川 純平<br />
+　　　　　　　　&nbsp;&nbsp;飯干 寛幸<br />
+　　　　　　　　&nbsp;&nbsp;我如古 生成<br />
+<br />
+● 廣井勇賞<br />
+　　　3年次生　　小寺 祐生<br />
+<br />
+　学長からは「この名誉を誇りに思い、今後さらなる飛翔を期待している」との言葉を頂きました。<br />
+参加した学生は「このような賞をもらえて光栄です。これからも学業により一層専念していきたいと思います」と話していました。<br />
+        </p><!-- mainSentence -->
+              </div><!-- newsArea -->
+    </div><!-- baseContents -->
+    <!--#include file="footer.html"-->
+
+  </body>
+</html>

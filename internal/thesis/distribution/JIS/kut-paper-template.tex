@@ -1,0 +1,74 @@
+%% 論文
+
+%% プリアンブル %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\documentclass{kut-paper}			%% jis フォントを使用する場合
+\documentclass[mingoth]{kut-paper}		%% 通常フォントを使用する場合
+%\documentclass[twoside]{kut-paper}		%% 両面印刷の場合
+
+%\usepackage{graphicx}
+
+%% 表紙 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\Bachelor			%% 学士学位論文（卒業研究）の場合
+%\Project			%% プロジェクト研究報告書の場合
+%\Seminar			%% 特別研究セミナー課題研究報告書の場合
+%\Master			%% 修士学位論文（情報システム工学コース）の場合
+%\Doctorate			%% 博士学位論文（情報システム工学コース）の場合
+%\English			%% 英語の場合（特別研究セミナーの場合は選択不可）
+%\figurespagefalse		%% 図目次を出力しない場合
+%\tablespagefalse		%% 表目次を出力しない場合
+
+\years{平成18}
+\title{}
+\titlelength{19}		%% 表紙の表題の行長(全角文字数<20, default=19)
+\Etitle{}
+\idnumber{}
+\author{}
+\Eauthor{}
+\advisor{}
+\date{}
+\abstract{要旨
+}
+\keyword{キーワード
+}
+\Eabstract{English
+}				%% プロジェクト研究報告書の場合は不要
+\Ekeyword{English
+}				%% プロジェクト研究報告書の場合は不要
+
+%% 本文 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\maketitle
+
+\chapter{}
+%\input{chpater1.tex}
+
+\chapter{}
+%\input{chpater2.tex}
+
+%% 謝辞 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{acknowledgement}
+%\input{acknowledgement.tex}
+\end{acknowledgement}
+
+%% 参考文献 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{thebibliography}{99}
+%\input{bibliography.tex}
+\end{thebibliography}
+
+%% 付録 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\appendix
+
+\chapter{}
+%\input{appendex1.tex}
+
+\chapter{}
+%\input{appendex2.tex}
+
+\end{document}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Topic and News</title>
+    <link rel="stylesheet" href="css/base.css" media="all" title="header" charset="utf-8" />
+    <link rel="stylesheet" href="css/topic_news_article.css" media="all" title="header" charset="utf-8" />
+    <link rel="icon" href="../img/favicon2.png" type="image/png" />
+    <script type="text/javascript">
+        window.onload = function(){
+          headSerect(0);
+        }
+    </script>
+  </head>
+  <body>
+    <!--#include file="header.html"-->
+    <div id="baseContents">
+      <div class="pankuzu">
+        <a href="../index.shtml">HOME</a> > <a href="../topic_news.shtml">Topics&amp;News</a> > News詳細
+      </div> <!-- pankuzu -->
+      <div class="subTitle">
+        <h1><span class="topChar">T</span>opics</h1><h2>and</h2><h1><span class="topChar">N</span>ews</h1>
+      </div><!-- title -->
+      <div class="newsArea">
+        <dt>2016.12.18</dt>
+        <h1>2016年12月7日-10日に情報学群の学生らが香港理工大学の学生と交流しました。</h1>
+        <hr />
+                <div class="mainImgArea">
+          <img src="img/id122_1.jpg" class="mainImg" />
+        </div><!-- mainImgArea -->
+        
+        <!--メインセンテンス部分(body1部分)-->
+        <p class="mainSentence">
+        <!--ここに本文を書いてください-->
+        　高知工科大学は他大学との交流や共同研究といった、グローバルな活動にも力を入れています。<br />
+          　今回、12月7日-10日にかけて本学と協定を結んでいる大学の一つである、香港理工大学にて交流イベントが開かれました。学群長の清水教授や松崎准教授を筆頭に、情報学群の学士2，3，4年生及び大学院2年生、総勢11名が香港理工大学に出向き、交流会と研究発表に参加しました。<br />
+        </p><!-- mainSentence -->
+
+        <div class="subArea">
+          <p>
+          <!--ここに補助文を書いてください(body2部分)-->
+          　交流会では、香港理工大学の方々と食事をしながら親睦を深めました。英語の講義やKUTランチアワーで培った英会話技術を駆使してコミュニケーションをはかり、学生たちはお互いの国や大学の話で盛り上がっている様子でした。<br />
+				　参加した学生は、「香港理工大学の学生たちは日頃から英語で授業を受けており、英語を流暢に喋れていたので、自分も今まで以上に英語に馴れ親しんでもっと英語を喋れるように頑張りたい」、と話していました。
+          </p>
+                      <img src="img/id122_2.jpg" />
+                  </div><!-- subArea -->
+
+        <div class="subArea">
+          <p>
+          <!--ここに補助文を書いてください(body3部分)-->
+          　その後、両校の学生らが英語で研究発表を行いました。発表は現在進めている研究や所属している研究室の紹介などといった内容でした。伝えたい内容がきちんと伝わるように事前に何度も自主発表練習を行っていきました。両校の学生は互いの発表を興味深そうに、真剣に聞いている様子でした。
+          </p>
+                      <img src="img/id122_3.jpg" />
+                  </div><!-- subArea -->
+        <!--まとめ部分(body4部分)-->
+        <p class="mainSentence">
+        <!--ここにまとめを書いてください-->
+        <br />
+					<p>　今回の交流をきっかけに両校の留学生が増え、さらに交流が深まることが期待できます。皆さんも香港理工大学への留学を前向きに検討してみてはいかがでしょうか。</p>
+					<br />
+					<br />
+					<table>
+						<caption>参加者一覧</caption>
+						<colgroup span="1" style="width:75px">
+						<colgroup span="1" style="width:85px">
+						<thead style="background:#eee">
+							<tr><th>所属</th><th>名前</th><th>専門分野/研究室</th></tr>
+						</thead>
+						<tbody>
+							<tr><td>教授</td><td>清水 明宏</td><td>情報セキュリティ</td></tr>
+							<tr><td>准教授</td><td>松崎 公紀</td><td>並列プログラミング</td></tr>
+							<tr><td>M2</td><td>宮崎 玲奈</td><td>高度プログラミング研究室</td></tr>
+							<tr><td>B4</td><td>合田 亮登</td><td>セキュリティシステム研究室</td></tr>
+							<tr><td>B4</td><td>多田 菜南</td><td>セキュリティシステム研究室</td></tr>
+							<tr><td>B4</td><td>藤田 寛泰</td><td>セキュリティシステム研究室</td></tr>
+							<tr><td>B4</td><td>安光 穂高</td><td>セキュリティシステム研究室</td></tr>
+							<tr><td>B3</td><td>川島 成絵</td><td>ワイヤレスネットワーク研究室</td></tr>
+							<tr><td>B3</td><td>近藤 直季</td><td>高度プログラミング研究室</td></tr>
+							<tr><td>B2</td><td>澤村 優希</td><td>知能情報学研究室</td></tr>
+							<tr><td>B2</td><td>松根 愛</td><td>画像情報工学研究室</td</tr>
+							<tr><td>スタッフ</td><td>森尾 祥子</td></tr>
+						</tbody>
+					</table>	
+        </p><!-- mainSentence -->
+
+       </div><!-- newsArea -->
+    </div><!-- baseContents -->
+    <!--#include file="footer.html"-->
+
+  </body>
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Topic and News</title>
+    <link rel="stylesheet" href="css/base.css" media="all" title="header" charset="utf-8" />
+    <link rel="stylesheet" href="css/topic_news_article.css" media="all" title="header" charset="utf-8" />
+    <link rel="icon" href="../img/favicon2.png" type="image/png" />
+    <script type="text/javascript">
+        window.onload = function(){
+          headSerect(0);
+        }
+    </script>
+  </head>
+  <body>
+    <!--#include file="header.html"-->
+    <div id="baseContents">
+      <div class="pankuzu">
+        <a href="../index.shtml">HOME</a> > <a href="../topic_news.shtml">Topics&amp;News</a> > News詳細
+      </div> <!-- pankuzu -->
+      <div class="subTitle">
+        <h1><span class="topChar">T</span>opics</h1><h2>and</h2><h1><span class="topChar">N</span>ews</h1>
+      </div><!-- title -->
+      <div class="newsArea">
+        <dt>2016.12.1</dt>
+        <h1>情報学群のWebページをリニューアルして一周年を迎えました。</h1>
+        <hr />
+                <div class="mainImgArea">
+          <img src="img/id124_1.jpg" class="mainImg" />
+        </div><!-- mainImgArea -->
+        
+        <!--メインセンテンス部分(body1部分)-->
+        <p class="mainSentence">
+        <!--ここに本文を書いてください-->
+        　本日2016年12月1日をもちまして、情報学群Webページはリニューアルして一周年を迎えることができました。これも日頃から本ページを閲覧していただける皆様のお陰です。<br>
+	　本ページは、栗原准教授や鵜川准教授のご指導のもと10名の情報学群生によって制作、更新されていました。さらに新しく8名のメンバーが参加し、これからは合計18名でのプロジェクトとなります。<br>
+	　今回はプロジェクトリーダーの井上舜也さんにインタビューを行いました。
+        </p><!-- mainSentence -->
+
+        <div class="mainSentence">
+          <p>
+          <!--ここに補助文を書いてください(body2部分)-->
+	  <br>
+	  <br>
+	  <br>
+          <p><span style="color:#71cdf2">
+						——— リニューアルから一周年を迎えての感想は？ 
+					</span></p><br />
+					<p>
+					 　あっという間でした。自分は一年間ずっとリーダーをしていたわけではないので、どうしても前リーダーと自分を比較してしまい、まだまだ未熟な部分が多いので、二周年目はプロジェクトとしても個人的にも高みを目指していきたいです。
+					</p><br /><br />
+					<p><span style="color:#71cdf2">
+						——— プロジェクトのリーダーをやってて良かったことや嬉しかったことは？
+					</span></p><br />
+					<p>
+						　Web関係の知識を身につけれることはもちろん、たくさん苦労することもありますが、ページが完成した時の達成感は最高です。そして、自分はリーダー職が好きなので、このプロジェクトを通してリーダーとしての立ち回りを学べるのも嬉しいです。
+					</p><br /><br />
+					<p><span style="color:#71cdf2">
+						——— 苦労されたことは？
+					</span></p><br />
+					<p>
+						　苦労していることはマネジメントの部分ですね。効率良くメンバーが作業できるようにマネジメントする、メンバーの士気を保つなどといったこともリーダーの仕事だと思っているので、気を配るようにしていますがなかなか難しいです。
+					</p>
+          </p>
+                  </div><!-- mainSentence -->
+
+        <div class="subArea">
+          <p>
+          <!--ここに補助文を書いてください(body3部分)-->
+          <p><span style="color:#71cdf2">
+						——— 最後にこれからの意気込みをお願いします。
+					</span></p><br /><br />
+					<p>
+						　このページは受験生や企業の方、在学生といった様々な人に閲覧していただくので、もっとページ更新を迅速かつ正確、より詳細に行いたいです。そして自分たちでデザインも行っているので、他の大学とは一味違うような良いデザインにしていきたいです。<br />
+						　今回、新メンバーが増えたのでまとめるのが今まで以上に大変になると思いますが、リーダーとしてプロジェクトマネジメントを徹底してやっていきたい。そして、後々の世代交代の事を考慮して、このプロジェクトが楽しくてやりがいのあるものとして後輩たちに伝わっていくようにしたいです。<br>
+					</p>
+          </p>
+                      <img src="img/id124_3.jpg" />
+                  </div><!-- subArea -->
+	
+        <!--まとめ部分(body4部分)-->
+        <p class="mainSentence">
+        <!--ここにまとめを書いてください-->
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+        <p><span style="color:#71cdf2">
+        ——— ありがとうございました。
+	</span></p>
+        </p><!-- mainSentence -->
+
+       </div><!-- newsArea -->
+    </div><!-- baseContents -->
+    <!--#include file="footer.html"-->
+
+  </body>
+</html>

@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>工科大四季</title>
+    <link rel="stylesheet" href="css/base.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="css/photo_contest.css" media="screen" title="no title" charset="utf-8">
+    <link rel="icon" href="../img/favicon2.png" type="image/png" />
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="js/photo_contests.js"></script>
+
+
+    <script type="text/javascript">
+    window.onload = function(){
+      headSerect(0);
+    }
+    </script>
+  </head>
+  <body>
+      <!--#include file="header.html"-->
+    <div id="baseContents">
+      <div class="pankuzu">
+        <a href="../index.shtml">HOME</a> > 工科大四季
+      </div> <!-- pankuzu -->
+
+        <div class="top">
+          <img src="img/KUTPHOTO_top.jpg" />
+          <h1>KUT PHOTO </h1>
+          <h2>from school of Information</h2>
+          <div class="sentence">
+              高知工科大の四季は美しく、自然に溢れています。 <p>
+              そんな四季を皆さんにお届けしたいと思っています。<p>
+              情報ならではの写真加工を使用してより魅力的な写真づくりもしています。<p>
+              是非、高知工科大の四季をお楽しみください。
+          </div><!--sentence-->
+        </div><!--top-->
+
+      <div class="contents">
+        <div class="seasons">
+          <div class="season" id="spring">春</div> <!-- season -->
+          <div class="season" id="summer">夏</div> <!-- season -->
+          <div class="season" id="autumn">秋</div> <!-- season -->
+          <div class="season" id="winter">冬</div> <!-- season -->
+        </div><!-- seasons -->
+
+      <div class="contentsArea">
+        <div class="circle" id="spTable">
+          <div class="mainContents spring1" id="ph1">
+           <div class="backBlur" id="springImg">
+              <table class="detail">
+                <tr><th>タイトル</th><td class="colon">:</td><td>新学期</td></tr>
+                <tr><th>撮影日時</th><td class="colon">:</td><td>4月2日</td></tr>
+                <tr><th>撮影場所</th><td class="colon">:</td><td>ドミトリー前</td></tr>
+                <tr><th>天候</th><td class="colon">:</td><td>晴れ</td></tr>
+                <tr><th>撮影者</th><td class="colon">:</td><td>山中</td></tr>
+                <tr><th class="comments">コメント</th><td class="comment">:</td><td>新学期を表す桜と<p>寮生活を始める新入生を<p>合わせました。</td></tr>
+              </table><!--detail-->
+            </div><!--backBlur-->
+            <div class="mainImage" >
+              <img src="img/Spring_1.JPG"  alt="ph1" />
+            </div><!--mainImage-->
+        </div><!-- mainContents -->
+
+        <div class="mainContents spring2" id="ph2">
+          <div class="backBlur" id="springImg">
+          <table class="detail">
+            <tr><th>撮影日時</th><td class="colon">:</td><td>4月2日</td></tr>
+            <tr><th>撮影場所</th><td class="colon">:</td><td>時計台下</td></tr>
+            <tr><th>天候</th><td class="colon">:</td><td>晴れ</td></tr>
+            <tr><th>撮影者</th><td class="colon">:</td><td>krlab</td></tr>
+          </table><!--detail-->
+        </div><!--backBlur-->
+            <div class="mainImage">
+              <img src="img/Spring_2.jpg" />
+            </div><!--mainImage-->
+        </div><!-- mainContents -->
+        <div class="mainContents spring3" id="ph3">
+          <div class="backBlur" id="springImg">
+            <table class="detail">
+              <tr><th>撮影日時</th><td class="colon">:</td><td>4月2日</td></tr>
+              <tr><th>撮影場所</th><td class="colon">:</td><td>講堂付近</td></tr>
+              <tr><th>天候</th><td class="colon">:</td><td>晴れ</td></tr>
+              <tr><th>撮影者</th><td class="colon">:</td><td>krlab</td></tr>
+            </table><!--detail-->
+          </div><!--backBlur-->
+            <div class="mainImage">
+               <img src="img/Spring_3.jpg" />
+            </div><!--mainImage-->
+        </div><!-- mainContents -->
+        <div class="mainContents spring4" id="ph4">
+          <div class="backBlur" id="springImg">
+          <table class="detail">
+            <tr><th>撮影日時</th><td class="colon">:</td><td>3月30日</td></tr>
+            <tr><th>撮影場所</th><td class="colon">:</td><td>食堂付近</td></tr>
+            <tr><th>天候</th><td class="colon">:</td><td>晴れ</td></tr>
+            <tr><th>撮影者</th><td class="colon">:</td><td>山中</td></tr>
+          </table><!--detail-->
+        </div><!--backBlur-->
+            <div class="mainImage">
+              <img src="img/Spring_4.JPG" />
+            </div><!--mainImage-->
+        </div><!-- mainContents -->
+      </div><!--circle-->
+
+      <div class="circle" id="suTable">
+        <div class="mainContents summer1" id="ph5">
+          <div class="backBlur" id="summerImg">
+          <table class="detail">
+            <tr><th>撮影日時</th><td class="colon">:</td><td>6月16日</td></tr>
+            <tr><th>撮影場所</th><td class="colon">:</td><td>木製ステージ</td></tr>
+            <tr><th>天候</th><td class="colon">:</td><td>雨</td></tr>
+            <tr><th>撮影者</th><td class="colon">:</td><td>Shin</td></tr>
+          </table><!--detail-->
+        </div><!--backBlur-->
+            <div class="mainImage" >
+              <img src="img/Summer_1.JPG" />
+            </div><!--mainImage-->
+        </div><!-- mainContents -->
+
+      <div class="mainContents summer2" id="ph6">
+        <div class="backBlur" id="summerImg">
+          <table class="detail">
+            <tr><th>撮影日時</th><td class="colon">:</td><td>7月7日</td></tr>
+            <tr><th>撮影場所</th><td class="colon">:</td><td>レイクサイド</td></tr>
+            <tr><th>天候</th><td class="colon">:</td><td>晴れ</td></tr>
+            <tr><th>撮影者</th><td class="colon">:</td><td>下出</td></tr>
+          </table><!--detail-->
+        </div><!--backBlur-->
+            <div class="mainImage">
+              <img src="img/Summer_2.JPG" />
+             </div><!--mainImage-->
+        </div><!-- mainContents -->
+        <div class="mainContents summer3" id="ph7">
+         <div class="backBlur" id="summerImg">
+          <table class="detail">
+            <tr><th>撮影日時</th><td class="colon">:</td><td>7月7日</td></tr>
+            <tr><th>撮影場所</th><td class="colon">:</td><td>A棟階段</td></tr>
+            <tr><th>天候</th><td class="colon">:</td><td>晴れ</td></tr>
+            <tr><th>撮影者</th><td class="colon">:</td><td>山中</td></tr>
+          </table><!--detail-->
+        </div><!--backBlur-->
+            <div class="mainImage">
+              <img src="img/Summer_3.JPG" />
+            </div><!--mainImage-->
+        </div><!-- mainContents -->
+        <div class="mainContents summer4" id="ph8">
+         <div class="backBlur" id="summerImg">
+          <table class="detail">
+            <tr><th>撮影日時</th><td class="colon">:</td><td>7月29日</td></tr>
+            <tr><th>撮影場所</th><td class="colon">:</td><td>体育館</td></tr>
+            <tr><th>天候</th><td class="colon">:</td><td>晴れ</td></tr>
+            <tr><th>撮影者</th><td class="colon">:</td><td>下出</td></tr>
+          </table><!--detail-->
+        </div><!--backBlur-->
+            <div class="mainImage">
+              <img src="img/Summer_4.JPG" />
+            </div><!--mainImage-->
+        </div><!-- mainContents -->
+      </div><!--circle-->
+
+      <div class="circle" id="auTable">
+       <div class="mainContents autumn1" id="ph9">
+        <div class="backBlur" id="autumnImg">
+          <table class="detail">
+            <tr><th>撮影日時</th><td class="colon">:</td><td>11月4日</td></tr>
+            <tr><th>撮影場所</th><td class="colon">:</td><td>食堂前</td></tr>
+            <tr><th>天候</th><td class="colon">:</td><td>晴れ</td></tr>
+            <tr><th>撮影者</th><td class="colon">:</td><td>のーだん</td></tr>
+          </table><!--detail-->
+        </div><!--backBlur-->
+          <div class="mainImage">
+            <img src="img/Autumn_1.jpg" />
+          </div><!--mainImage-->
+        </div><!-- mainContents -->
+
+    <div class="mainContents autumn2" id="ph10">
+      <div class="backBlur" id="autumnImg">
+        <table class="detail">
+          <tr><th>撮影日時</th><td class="colon">:</td><td>11月22日</td></tr>
+          <tr><th>撮影場所</th><td class="colon">:</td><td>レイクサイド</td></tr>
+          <tr><th>天候</th><td class="colon">:</td><td>晴れ</td></tr>
+          <tr><th>撮影者</th><td class="colon">:</td><td>Shin</td></tr>
+        </table><!--detail-->
+      </div><!--backBlur-->
+          <div class="mainImage">
+            <img src="img/Autumn_2.jpg" />
+           </div><!--mainImage-->
+        </div><!-- mainContents -->
+        <div class="mainContents autumn3" id="ph11">
+          <div class="backBlur" id="autumnImg">
+            <table class="detail">
+              <tr><th>撮影日時</th><td class="colon">:</td><td>11月22日</td></tr>
+              <tr><th>撮影場所</th><td class="colon">:</td><td>食堂前</td></tr>
+              <tr><th>天候</th><td class="colon">:</td><td>晴れ</td></tr>
+              <tr><th>撮影者</th><td class="colon">:</td><td>Shin</td></tr>
+            </table><!--detail-->
+          </div><!--backBlur-->
+          <div class="mainImage">
+            <img src="img/Autumn_3.jpg" />
+          </div><!--mainImage-->
+        </div><!-- mainContents -->
+      <div class="mainContents autumn4" id="ph12">
+        <div class="backBlur" id="autumnImg">
+          <table class="detail">
+            <tr><th>撮影日時</th><td class="colon">:</td><td>9月27日</td></tr>
+            <tr><th>撮影場所</th><td class="colon">:</td><td>レイクサイド</td></tr>
+            <tr><th>天候</th><td class="colon">:</td><td>曇り</td></tr>
+            <tr><th>撮影者</th><td class="colon">:</td><td>下出</td></tr>
+          </table><!--detail-->
+        </div><!--backBlur-->
+          <div class="mainImage">
+            <img src="img/Autumn_4.JPG" />
+          </div><!--mainImage-->
+        </div><!-- mainContents -->
+        </div><!--circle-->
+
+        <div class="circle" id="wiTable">
+          <div class="mainContents winter1" id="ph13">
+            <div class="backBlur" id="winterImg">
+            <table class="detail">
+              <tr><th>撮影日時</th><td class="colon">:</td><td>12月13日</td></tr>
+              <tr><th>撮影場所</th><td class="colon">:</td><td>東ロータリー</td></tr>
+              <tr><th>天候</th><td class="colon">:</td><td>晴れ</td></tr>
+              <tr><th>撮影者</th><td class="colon">:</td><td>ぐっち。</td></tr>
+            </table><!--detail-->
+          </div><!--winterImg-->
+
+              <div class="mainImage">
+                <img src="img/Winter_1.jpg" />
+              </div><!--mainImage-->
+          </div><!-- mainContents -->
+
+          <div class="mainContents winter2" id="ph14">
+            <div class="backBlur" id="winterImg">
+            <table class="detail">
+              <tr><th>撮影日時</th><td class="colon">:</td><td>12月13日</td></tr>
+              <tr><th>撮影場所</th><td class="colon">:</td><td>レイクサイド</td></tr>
+              <tr><th>天候</th><td class="colon">:</td><td>晴れ</td></tr>
+              <tr><th>撮影者</th><td class="colon">:</td><td>ぐっち。</td></tr>
+          </table><!--detail-->
+        </div><!--winterImg-->
+
+          <div class="mainImage">
+            <img src="img/Winter_2.jpg" />
+         </div><!--mainImage-->
+      </div><!-- mainContents -->
+      <div class="mainContents winter3" id="ph15">
+        <div class="backBlur" id="winterImg">
+          <table class="detail">
+            <tr><th>撮影日時</th><td class="colon">:</td><td>12月20日</td></tr>
+            <tr><th>撮影場所</th><td class="colon">:</td><td>レイクサイド</td></tr>
+            <tr><th>天候</th><td class="colon">:</td><td>晴れ</td></tr>
+            <tr><th>撮影者</th><td class="colon">:</td><td>mizuki</td></tr>
+          </table><!--detail-->
+        </div><!--winterImg-->
+
+          <div class="mainImage">
+            <img src="img/Winter_3.JPG" />
+          </div><!--mainImage-->
+        </div><!-- mainContents -->
+      <div class="mainContents winter4" id="ph16">
+        <div class="backBlur" id="winterImg">
+          <table class="detail">
+            <tr><th>撮影日時</th><td class="colon">:</td><td>12月18日</td></tr>
+            <tr><th>撮影場所</th><td class="colon">:</td><td>A棟4階</td></tr>
+            <tr><th>天候</th><td class="colon">:</td><td>雪</td></tr>
+            <tr><th>撮影者</th><td class="colon">:</td><td>mizuki</td></tr>
+          </table><!--detail-->
+        </div><!--winterImg-->
+      <div class="mainImage">
+        <img src="img/Winter_4.JPG" />
+      </div><!--mainImage-->
+            </div><!-- mainContents -->
+          </div><!--circle-->
+        </div><!-- contentsArea -->
+
+      <h1>Album</h1>
+      <!--春のsub alubum-->
+      <div class="sub">
+        <div class="camera" >
+          <img src="img/cameraman.png" />
+        </div><!--camera-->
+        <div  id ="spAlbum">
+          <div class="album spal" id="sp1">
+            <img src="img/SpringSquare_1.JPG" class="modalSyncer" data-target="ph1"/>
+          </div><!--album-->
+          <div class="album spal" id="sp2">
+            <img src="img/SpringSquare_2.jpg" class="modalSyncer" data-target="ph2"/>
+          </div><!--album-->
+          <div class="album spal" id="sp3">
+            <img src="img/SpringSquare_3.jpg" class="modalSyncer" data-target="ph3" />
+          </div><!--album-->
+          <div class="album spal" id="sp4">
+            <img src="img/SpringSquare_4.JPG" class="modalSyncer" data-target="ph4" />
+          </div><!--album-->
+        </div><!--spAlbum-->
+
+        <!--夏のsub alubum-->
+        <div id ="suAlbum">
+          <div class="album sual" id="su1">
+            <img src="img/SummerSquare_1.JPG" class="modalSyncer" data-target="ph5"/>
+          </div><!--album-->
+          <div class="album sual" id="su2">
+            <img src="img/SummerSquare_2.JPG"class="modalSyncer" data-target="ph6" />
+          </div><!--album-->
+          <div class="album sual" id="su3">
+            <img src="img/SummerSquare_3.JPG" class="modalSyncer" data-target="ph7"/>
+          </div><!--album-->
+          <div class="album sual" id="su4">
+            <img src="img/SummerSquare_4.JPG" class="modalSyncer" data-target="ph8"/>
+          </div><!--album-->
+        </div><!--suAlbum-->
+
+        <!--秋のアルバム-->
+        <div id ="auAlbum">
+          <div class="album aual" id="au1">
+            <img src="img/AutumnSquare_1.jpg" class="modalSyncer" data-target="ph9"/>
+          </div><!--album-->
+          <div class="album aual" id="au2">
+            <img src="img/AutumnSquare_2.jpg" class="modalSyncer" data-target="ph10"/>
+          </div><!--album-->
+          <div class="album aual" id="au3">
+            <img src="img/AutumnSquare_3.jpg" class="modalSyncer" data-target="ph11"/>
+          </div><!--album-->
+          <div class="album aual" id="au4">
+            <img src="img/AutumnSquare_4.JPG" class="modalSyncer" data-target="ph12"/>
+          </div><!--album-->
+        </div><!--suAlbum-->
+
+        <!--冬のアルバム-->
+        <div id ="wiAlbum">
+          <div class="album wial" id="wi1">
+            <img src="img/WinterSquare_1.jpg" class="modalSyncer" data-target="ph13"/>
+          </div><!--album-->
+          <div class="album wial" id="wi2">
+            <img src="img/WinterSquare_2.jpg" class="modalSyncer" data-target="ph14"/>
+          </div><!--album-->
+          <div class="album wial" id="wi3">
+            <img src="img/WinterSquare_3.JPG" class="modalSyncer" data-target="ph15"/>
+          </div><!--album-->
+          <div class="album wial" id="wi4">
+            <img src="img/WinterSquare_4.JPG" class="modalSyncer" data-target="ph16"/>
+          </div><!--album-->
+        </div><!--suAlbum-->
+      </div><!--sub-->
+
+　     <div class="enquiry">
+         高知工科大学をテーマとした写真の提供も随時、募集しております。<br />
+		     条件としては、高知工科大学が写っている写真、高知工科大学香美キャンパス内で撮影された写真、のいずれかです。<br />
+		     写真を提供していただける場合は<br/>
+         1撮影日時、2撮影場所、3天候、4名前(ハンドルネーム可)</br>
+         任意でタイトル、写真へのコメントを記入の上、以下のアドレスまで画像(JPEG形式)をお送りください。<br/>
+         写真はこちらで掲載、不掲載の判断を行います。ご了承ください。<br/>
+        <p> <a href="mailto:soiweb.kut.photo&#64;gmail.com">soiweb.kut.photo&#64;gmail.com</a></p>
+      </div><!-- enquiry-->
+    </div> <!-- contents -->
+  </div> <!-- baseContents -->
+
+  <!--#include file="footer.html"-->
+  </body>
+</html>

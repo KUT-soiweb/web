@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>平成28年度 企業向け大学説明会・情報交換会が開催されました。</title>
+    <link rel="stylesheet" href="css/base.css" media="all" title="header" charset="utf-8" />
+    <link rel="stylesheet" href="css/topic_news_article.css" media="all" title="header" charset="utf-8" />
+    <link rel="icon" href="../img/favicon2.png" type="image/png" />
+    <script type="text/javascript">
+        window.onload = function(){
+          headSerect(0);
+        }
+    </script>
+  </head>
+  <body>
+    <!--#include file="header.html"-->
+    <div id="baseContents">
+      <div class="pankuzu">
+        <a href="../index.shtml">HOME</a> > <a href="../topic_news.shtml">Topics&amp;News</a> > News詳細
+      </div> <!-- pankuzu -->
+      <div class="subTitle">
+        <h1><span class="topChar">T</span>opics</h1><h2>and</h2><h1><span class="topChar">N</span>ews</h1>
+      </div><!-- title -->
+      <div class="newsArea">
+        <dt>2016.11.11</dt>
+        <h1>平成28年度 企業向け大学説明会・情報交換会が開催されました。</h1>
+        <hr />
+                <div class="mainImgArea">
+          <img src="img/id129_1.JPG" class="mainImg" />
+        </div><!-- mainImgArea -->
+                <p class="mainSentence">
+        　11月2日水曜日、 企業の採用担当者様を対象とした「平成28年度 企業向け大学説明会・情報交換会」が高知工科大学香美キャンパスで開催され、 情報学群では、A棟1階講義室及び一部の研究室を公開しました。<br />
+　本イベントは、大学の教育内容や就職支援の取り組みなどを紹介し、特に、学生による取り組みの紹介を通して本学学生のスキルやパーソナリティを採用担当者様に伝え、 次年度の採用意欲を高めてもらうことが目的です。それとともに学生には採用担当者様との情報交換を通して、IT企業で働くことへのイメージをつかんでもらいます。<br />
+　今年度は、amazon様, 京セラコミュニケーションシステム様, NEC様, HITACHI様, Panasonicグループ様, サイボウズ様, Fujitsu様など、 約120名もの採用担当者様にご来学して頂きました。        </p><!-- mainSentence -->
+                <div class="subArea">
+                    <p>
+            　情報学群全18の研究室のうち11の研究室の学生がポスターセッションをおこないました。 訪れた企業の方は、学生の説明に対して質問をしたり、会話を楽しんだりしている姿が見られました。また、 企業の方に興味を持ってもらえた学生は、名刺をいただけたそうです。一足早いですが、就職活動の幕開けを感じられました。          </p>
+                      <img src="img/id129_2.JPG" />
+                  </div><!-- subArea -->
+              </div><!-- newsArea -->
+    </div><!-- baseContents -->
+    <!--#include file="footer.html"-->
+
+  </body>
+</html>

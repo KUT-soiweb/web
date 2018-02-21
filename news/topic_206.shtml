@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>CG関係５検定の結果が発表されました。</title>
+    <link rel="stylesheet" href="css/base.css" media="all" title="header" charset="utf-8" />
+    <link rel="stylesheet" href="css/topic_news_article.css" media="all" title="header" charset="utf-8" />
+    <link rel="icon" href="../img/favicon2.png" type="image/png" />
+    <script type="text/javascript">
+        window.onload = function(){
+          headSerect(0);
+        }
+    </script>
+  </head>
+  <body>
+    <!--#include file="header.html"-->
+    <div id="baseContents">
+      <div class="pankuzu">
+        <a href="../index.shtml">HOME</a> > <a href="../topic_news.shtml">Topics&amp;News</a> > News詳細
+      </div> <!-- pankuzu -->
+      <div class="subTitle">
+        <h1><span class="topChar">T</span>opics</h1><h2>and</h2><h1><span class="topChar">N</span>ews</h1>
+      </div><!-- title -->
+      <div class="newsArea">
+        <dt>2017.12.25</dt>
+        <h1>CG関係５検定の結果が発表されました。</h1>
+        <hr />
+                <p class="mainSentence">
+        　11月26日に高知工科大学で行われたCG関係5検定の合否発表が12月25日に公開されました。情報学群では全受験者5名が以下の検定に合格しました。<br />
+<br />
+CGクリエイターエキスパート　1名<br />
+CGエンジニアエキスパート　　1名<br />
+WEBデザイナーエキスパート　 2名<br />
+CGクリエイターベーシック　　1名<br />
+CGエンジニアベーシック　　　1名<br />
+<br />
+ 　合格したみなさん、おめでとうございます。        </p><!-- mainSentence -->
+              </div><!-- newsArea -->
+    </div><!-- baseContents -->
+    <!--#include file="footer.html"-->
+
+  </body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+            <meta name="keyword" content="高知工科大学情報学群">
+            <meta name="description" content="高知工科大学情報学群のホームページ">
+                <title>院生ライフスタイル</title>
+                <link rel="stylesheet" type="text/css" href="css/base.css">
+                <link rel="stylesheet" type="text/css" href="css/cushion.css">
+                <link rel="icon" href="img/favicon2.png" type="image/png" />
+                <script type="text/javascript">
+                    window.onload = function(){
+                      headSerect(6);
+                    }
+                </script>
+              </head>
+    <body>
+        <!--#include file="header.html"-->
+        <div id="baseContents">
+            <div class="pankuzu">
+                <a href="index.shtml">HOME</a> > <a href="graduate_school.shtml">大学院</a> > 院生ライフスタイル
+            </div>
+            <!-- pankuzu -->
+            <div class="title">
+                <h2>院生ライフスタイル</h2>
+                <h1><span>L</span>ife <span>S</span>tyle</h1>
+            </div>
+            <!-- title -->
+
+            <ul>
+
+
+                <li class="le">
+                    <a href="life_style_uno.shtml">
+                    <img class="photo" src="./img/thumbnail_uno.png">
+                    <div class="stripe">
+                        <div class="name">
+                            <h4>大学院1年</h4>
+                            <h3>宇野則文さん</h3>
+                        </div>
+                    </div>
+                    </a>
+                </li>
+
+
+                <li class="ri">
+                    <a href="life_style_fukui.shtml">
+                    <img class="photo" src="./img/thumbnail_fukui.png">
+                    <div class="stripe">
+                        <div class="name">
+                            <h4>大学院1年</h4>
+                            <h3>福井さゆりさん</h3>
+                        </div>
+                    </div>
+                    </a>
+                </li>
+
+                <li class="le">
+                    <a href="life_style_tanaka_arisa.shtml">
+                        <img class="photo" src="./img/thumbnail_tanaka.png">
+                        <div class="stripe">
+                            <div class="name">
+                                <h4>大学院2年</h4>
+                                <h3>田中亜璃紗さん</h3>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+
+                <li class="ri">
+                    <a href="life_style_ogasawara.shtml">
+                        <img class="photo" src="./img/thumbnail_ogasawara.png">
+                        <div class="stripe">
+                            <div class="name">
+                                <h4>大学院2年</h4>
+                                <h3>小笠原一聡さん</h3>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+
+
+            </ul>
+
+            </div><!--main-->
+        </div><!--baseContents-->
+        <!--#include file="footer.html"-->
+    </body>
+</html>

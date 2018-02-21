@@ -1,0 +1,185 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	    <meta name="keyword" content="高知工科大学情報学群">
+	    <meta name="description" content="高知工科大学情報学群のホームページ">
+	    <title>中原 潔</title>
+	    <link rel="stylesheet" type="text/css" href="css/base.css">
+	    <link rel="stylesheet" type="text/css" href="css/profile.css">
+			<link rel="icon" href="../img/favicon2.png" type="image/png" />
+	    <script type="text/javascript" src="js/switch.js"></script>
+			<script type="text/javascript">
+					window.onload = function(){
+						headSerect(2);
+					}
+			</script>
+</head>
+
+<body>
+<!--#include file="header.html"-->
+
+    <div id ="baseContents">
+
+	<div class="pankuzu">
+		<a href="../index.shtml">HOME</a> > <a href="../faculty_members.shtml">教員一覧</a> > 中原潔
+	</div>
+	<!--pankuzu-->
+	<div class="main">
+      <div class="keireki">
+    <h1>中原 潔<span class="hurigana"><span style="margin-right: 2.8em;"></span>Nakahara Kiyoshi</span></h1>
+<div class="photo1">
+		<img src="img/Face-NakaharaKiyoshi.jpg" alt="顔の写真" class="facephoto">
+	</div>
+	<!--photo1-->
+		<div class="line"></div>
+    <h2>教授</h2>
+
+
+    <input type="checkbox" id="Panel1" class="ExpandCheckBox" />
+		<label for="Panel1" class="open">
+		  <h3>
+				<img src="svg/Triangle_close-white.svg">&nbsp;プロフィール
+			</h3>
+
+  </label>
+		   <div class="panel">
+
+
+<dl>
+<dt>所属　:</dt><dd>　高知工科大学情報学群<br />
+総合研究所・脳コミュニケーション研究センター</dd>
+<dt>所属会　:</dt><dd>　日本神経科学学会、Society for Neuroscience</dd>
+<dt>学位　:</dt><dd>　医学博士(京都大学、1997年)</dd>
+<dt>学歴　:</dt><dd>　京都大学大学院 医学研究科 博士課程 単位取得満期退学</dd>
+<dt>相談可能分野　:</dt><dd>　脳科学、神経生理学、脳機能イメージング、分子生物学</dd>
+<dt>趣味　:</dt><dd>　</dd>
+<div class="mail1"><img src="svg/mail_nakahara.svg" alt="先生のmailアドレス" class="mail"></div>
+</dl>
+
+
+</div>
+<!--panel-->
+<a href="http://www.kochi-tech.ac.jp/kut/about_KUT/faculty_members/prof/nakahara-kiyoshi.html" target="_blank"><div class="box3" style="float:right">▶ 工科大教員ページ</div></a>
+<a href="http://www.lab.kochi-tech.ac.jp/knkhrlab/" target="_blank"> <div class="box2" style="float:right">▶ 研究室ページ</div></a>
+<div class="clear"></div>
+</div>
+<!--keireki-->
+<div class="kennkyuusyoukai">
+	<div class="center1"><img src="svg/Heading-2.svg" alt="研究紹介"></div>
+
+<h2>fMRIでヒトの脳活動を可視化する</h2>
+<h3>専門分野 ： 認知神経科学、神経生理学、分子生理学</h3>
+<div class="center2">
+<p>本学の脳コミュニケーション研究センターに設置された磁気共鳴画像装置(MRI)を使って、ヒトの脳機能について研究しています。特に記憶や思考の神経機構や、脳の神経回路がどのようなネットワークを形成するのかに興味を持って研究を進めています。</p>
+</div>
+<!--center2-->
+ <div class="kennkyuuryouiki">
+<input type="checkbox" id="Panel2" class="ExpandCheckBox" />
+	 <label for="Panel2" class="open">
+		 <h3><img src="svg/Triangle_close-pink.svg">&nbsp;現在の研究領域</h3>
+	 </label>
+
+	 	 <div class="panel">
+
+<a>
+<div class="circle1"></div>認知記憶の神経機構<br />
+</a>
+<a>
+<div class="circle2"></div>前頭葉機能の神経機構<br />
+</a>
+</div>
+<!--panel-->
+</div>
+<!--kennkyuuryouiki-->
+
+
+<div class="kennkyuuronnbunn">
+	<input type="checkbox" id="Panel3" class="ExpandCheckBox" />
+	<label for="Panel3" class="open">
+		<h3><img src="svg/Triangle_close-pink.svg">&nbsp;代表的な研究論文など</h3>
+	</label>
+
+		<div class="panel">
+<ul>
+	<dl>
+<li><div class="circle1"></div>&emsp;Local and retrograde gene transfer into primate neuronal pathways via adeno-associated virus serotype 8 and 9</li>
+　　　　<dt>著者<span style="margin-right: 1em;"></span>：</dt><dd> Masamizu Y.，Okada T.，Kawasaki K.，Ishibashi H.，Yuasa S.，<br />
+Takeda S.，Hasegawa I.，Nakahara K</dd>
+　　　　<dt>発表誌：</dt><dd>Neuroscience</dd>
+　　　　<dt>発表年：</dt><dd>2011</dd>
+<div class="clear"></div>
+<li><div class="circle2"></div>&emsp;Exploring the neural basis of cognition: multi-modal links between human fMRI and macaque neurophysiology</li>
+　　　　<dt>著者<span style="margin-right: 1em;"></span>：</dt><dd>NAKAHARA Kiyoshi，Adachi Y.，Osada T.，Miyashita Y</dd>
+　　　　<dt>発表誌：</dt><dd>Trends in Cognitive Sciences</dd>
+　　　　<dt>発表年：</dt><dd>2007</dd>
+<div class="clear"></div>
+<li><div class="circle3"></div>&emsp;MRI-based localization of electrophysiological recording sites within the cerebral cortex at single-voxel accuracy</li>
+　　　　<dt>著者<span style="margin-right: 1em;"></span>：</dt><dd>Matsui T.，Koyano KW.，Koyama M.，<br />
+	NAKAHARA,Kiyoshi，Takeda M.，Ohashi Y.，Naya Y.，Miyashita Y</dd>
+　　　　<dt>発表誌：</dt><dd>Nature Methods</dd>
+　　　　<dt>発表年：</dt><dd>2007</dd>
+<div class="clear"></div>
+<li><div class="circle1"></div>&emsp;Understanding intentions: Through the looking glass</li>
+	　　　 <dt>著者<span style="margin-right: 1em;"></span>：</dt><dd>NAKAHARA Kiyoshi，Miyashita Y</dd>
+　　　　<dt>発表誌：</dt><dd>Science</dd>
+　　　　<dt>発表年：</dt><dd>2005</dd>
+<div class="clear"></div>
+<li><div class="circle2"></div>&emsp;Functional magnetic resonance imaging of macaque monkeys performing visually guided saccade tasks: Comparison of cortical eye fields with humans</li>
+　　　　<dt>著者<span style="margin-right: 1em;"></span>：</dt><dd>Koyama M.，Hasegawa I.，<br />
+	Osada T.，Adachi Y.，NAKAHARA Kiyoshi，Miyashita Y</dd>
+　　　　<dt>発表誌：</dt><dd>Neuron</dd>
+　　　　<dt>発表年：</dt><dd>2004</dd>
+</dl>
+</div>
+<!--kennkyuronnbunn-->
+</div>
+<!--kennkyuushhyoukai-->
+</div>
+<!--kennkyuunaiyou-->
+<div class="kennkyuushitusyoukai">
+	<div class="center1"><img src="svg/Heading-3.svg" alt="研究室紹介"></div>
+
+<div class="Lab_photo">
+<img src="img/Lab-nakahara_1.jpg" alt="研究室の写真1" id="Lab_main" />
+<img src="img/Lab-nakahara_1.jpg" alt="研究室の写真1" name="Lab_sub" class="Lab_sub first" onclick="onChange(0)"/>
+<img src="img/Lab-nakahara_2.jpg" alt="研究室の写真2" name="Lab_sub" class="Lab_sub" onclick="onChange(1)"/>
+</div>
+
+<h2>認知神経科学研究室：A209</h2>
+<p>機能的磁気共鳴画像法(fMRI)の手法を使って、記憶や認知等のヒトの高次脳機能を研究しています。 2014年度より情報学群に併任となり、学部学生の研究室配属が可能となりました。脳研究に興味を持つ学生を歓迎いたします。 また上記研究に被験者として参加を希望する学生も募集しております。脳コミュニケーション研究センターの被験者募集にぜひ登録して下さい。</p>
+</div>
+<!--kennkyuushitusyoukai-->
+<div class="koukouseihe">
+<div class="photo2"><img src="svg/StaffDetail_balloon.svg" alt="吹き出し"></div>
+<h1>高校生のみなさんへ</h1>
+<div class="kotoba">
+　インターネットだけに頼らず、実際に体験して、自分の頭で考えることを大切にしましょう。
+</div>
+<!--kotoba-->
+</div>
+<!--koukouseihe-->
+<div class="kougikamoku">
+<h2>講義科目</h2>
+	<dl>
+<dd>脳情報学</dd>
+</dl>
+<h2>受け入れ可能な専攻</h2>
+<p>
+情報と人間専攻<br />
+情報とメディア専攻<br />
+コンピュータサイエンス専攻<br />
+</p>
+
+</div>
+<!--kougikamoku-->
+<div class="photo3"><img src="img/Body-NakaharaKiyoshi.jpg" alt="先生全身画像"></div>
+</div>
+<!--main-->
+</div>
+<!--baseContents-->
+
+<!--#include file="footer.html"-->
+</body>
+</html>

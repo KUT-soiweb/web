@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Topic and News</title>
+    <link rel="stylesheet" href="css/base.css" media="all" title="header" charset="utf-8" />
+    <link rel="stylesheet" href="css/topic_news_article.css" media="all" title="header" charset="utf-8" />
+    <link rel="icon" href="../img/favicon2.png" type="image/png" />
+    <script type="text/javascript">
+        window.onload = function(){
+          headSerect(0);
+        }
+    </script>
+  </head>
+  <body>
+    <!--#include file="header.html"-->
+    <div id="baseContents">
+      <div class="pankuzu">
+        <a href="../index.shtml">HOME</a> > <a href="../topic_news.shtml">Topics&amp;News</a> > News詳細
+      </div> <!-- pankuzu -->
+      <div class="subTitle">
+        <h1><span class="topChar">T</span>opics</h1><h2>and</h2><h1><span class="topChar">N</span>ews</h1>
+      </div><!-- title -->
+      <div class="newsArea">
+        <dt>2017.1.2</dt>
+        <h1>福本教授が登壇する「次世代災害情報システムヘ向けての連携促進セミナー」のご案内</h1>
+        <hr />
+        
+        <!--メインセンテンス部分(body1部分)-->
+        <p class="mainSentence">
+        <!--ここに本文を書いてください-->
+        　高知県・大学等連携協議会、DTN 研究会が主催する「次世代災害情報システムヘ向けての連携促進セミナー」が開催されます。<br />
+        　本セミナーの趣旨は、平時・非常時を考慮した災害対策・復興支援において、ICT で解決できる現状の様々な課題を共有し、参加者間の議論や共通問題に対する意識を高め、産学官民での連携を促進することです。<br />
+        　本セミナーでは 5 つの講演を実施した上で、パネルディスカッションにて、次世代の災害情報システムのあるべき役割、求められる技術、制度等を議論し、地域連携、異分野連携、産学官民連携を促進し、持続可能な災害情報システムの発展を目指します。パネルディスカッションには、情報学群の<a href="../faculty_members/profile_fukumoto.shtml" title="福本教授個人ページ">福本昌弘 教授</a>がパネリストとして登壇されます。
+        </p><!-- mainSentence -->
+        <br />
+        <table>
+          <tbody>
+            <tr>
+              <td width="100px">日　時　　：</td>
+              <td>2017年1月10日 13:00-17:00（受付 12:30~）</td>
+            </tr>
+            <tr>
+              <td width="100px">場　所　　：</td>
+              <td>高知工科大学 <a href="https://www.kochi-tech.ac.jp/about/access/eikokuji.html" title="永国寺CPアクセス">永国寺キャンパス</a> 地域連携棟 多目的ホール</td>
+            </tr>
+            <tr>
+              <td width="100px">参加者　　：</td>
+              <td>災害情報システムや産学官連携に関心のある方々</td>
+            </tr>
+            <tr>
+              <td width="100px">参加費　　：</td>
+              <td>無料</td>
+            </tr>
+            <tr>
+              <td width="100px">お申し込み：</td>
+              <td>不要</td>
+            </tr>
+          </tbody>
+        </table>
+        <br />
+        <table>
+          <tbody>
+            <tr>
+              <td width="100px">プログラム：</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td width="110px">13:00-13:10</td>
+              <td>開会</td>
+            </tr>
+            <tr>
+              <td width="110px">13:10-13:40</td>
+              <td>講演 1：「消防活動における映像情報の利活用に向けた連携」</td>
+            </tr>
+            <tr>
+              <td width="110px"></td>
+              <td>樫原 茂 氏（奈良先端科学技術大学院大学）</td>
+            </tr>
+            <tr>
+              <td width="110px"></td>
+              <td>山本 篤史 氏（高知市消防局）</td>
+            </tr>
+            <tr>
+              <td width="110px"></td>
+              <td>（デモ：スペースタイムエンジニアリング）</td>
+            </tr>
+            <tr>
+              <td width="110px">13:40-14:10</td>
+              <td>講演 2：「香南市における災害医療情報共有システムの実証実験」</td>
+            </tr>
+            <tr>
+              <td width="110px"></td>
+              <td>河渕 雅恵 氏 （高知県中央東福祉保健所）</td>
+            </tr>
+            <tr>
+              <td width="110px"></td>
+              <td>高井 峰生 氏（STE/UCLA）</td>
+            </tr>
+            <tr>
+              <td width="110px"></td>
+              <td>（デモ：スペースタイムエンジニアリング）</td>
+            </tr>
+            <tr>
+              <td width="110px">14:10-14:20</td>
+              <td>休憩（10分）</td>
+            </tr>
+            <tr>
+              <td width="110px">14:20-14:50</td>
+              <td>講演 3：「地域の魅力再発見＆地域の安全への期待」</td>
+            </tr>
+            <tr>
+              <td width="110px"></td>
+              <td>森下 克彦 氏（四万十ケーブルテレビ）</td>
+            </tr>
+            <tr>
+              <td width="110px">14:50-15:20</td>
+              <td>講演 4：「災害時情報収集システムの研究事例と避難支援システムの活動事例の紹介」</td>
+            </tr>
+            <tr>
+              <td width="110px"></td>
+              <td>藤原 孝洋 氏（函館工業高等専門学校）</td>
+            </tr>
+            <tr>
+              <td width="110px">15:20-15:50</td>
+              <td>講演 5：「NICT における耐災害技術」</td>
+            </tr>
+            <tr>
+              <td width="110px"></td>
+              <td>大和田 泰伯 氏（情報通信研究機構）</td>
+            </tr>
+            <tr>
+              <td width="110px">15:50-16:00</td>
+              <td>休憩（10分）</td>
+            </tr>
+            <tr>
+              <td width="110px">16:00-16:50</td>
+              <td>パネルディスカッション</td>
+            </tr>
+            <tr>
+              <td width="110px"></td>
+              <td>パネリスト</td>
+            </tr>
+            <tr>
+              <td width="110px"></td>
+              <td>　山本 篤史 氏（高知市消防局）</td>
+            </tr>
+            <tr>
+              <td width="110px"></td>
+              <td>　河渕 雅恵 氏（高知県中央東福祉保健所）</td>
+            </tr>
+            <tr>
+              <td width="110px"></td>
+              <td>　森下 克彦 氏（四万十ケーブルテレビ）</td>
+            </tr>
+            <tr>
+              <td width="110px"></td>
+              <td>　福本 昌弘 氏（高知工科大学）</td>
+            </tr>
+            <tr>
+              <td width="110px"></td>
+              <td>　藤原 孝洋 氏（函館工業高等専門学校）</td>
+            </tr>
+            <tr>
+              <td width="110px"></td>
+              <td>　大和田 泰伯 氏（情報通信研究機構）</td>
+            </tr>
+            <tr>
+              <td width="110px"></td>
+              <td>司会</td>
+            </tr>
+            <tr>
+              <td width="110px"></td>
+              <td>　樫原 茂 氏（奈良先端科学技術大学院大学）</td>
+            </tr>
+            <tr>
+              <td width="110px">16:50-17:00</td>
+              <td>閉会</td>
+            </tr>
+          </tbody>
+        </table>
+       </div><!-- newsArea -->
+    </div><!-- baseContents -->
+    <!--#include file="footer.html"-->
+
+  </body>
+</html>

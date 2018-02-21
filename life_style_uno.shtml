@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>院生ライフスタイル：宇野則文</title>
+        <link rel="stylesheet" href="css/base.css" media="all" title="header" charset="utf-8" />
+        <link rel="stylesheet" href="css/life_style.css" media="all" title="header" charset="utf-8" />
+        <link rel="icon" href="img/favicon2.png" type="image/png" />
+        <script type="text/javascript">
+            window.onload = function(){
+              headSerect(6);
+            }
+        </script>
+      </head>
+
+    <body>
+        <!--#include file="header.html"-->
+        <div id = "baseContents">
+          <div class="pankuzu">
+            <a href="index.shtml">HOME</a> > <a href="graduate_school.shtml">大学院</a> > <a href="life_style_cushion_graduate.shtml">院生ライフスタイル</a> > 宇野則文
+          </div> <!-- pankuzu -->
+            <div class = "photo1">
+                <img src = "./img/uno_main.png" class="frame">
+                <div class = "profile" id = "uno">
+                    <p class = "nameReading">うの のりふみ</p>
+                    <p class = "name">宇野則文</p>
+                    <p>所属 : コンピュータ構成学研究室</p>
+                </div><!-- profile -->
+            </div><!-- photo1 -->
+
+            <img class = "balloon" src = "./img/lifestyle_balloon_graduate01.svg">
+            <dt class = "topic">宇野さんの場合</dt>
+
+            <div class = "lifeStyle">
+                <div class = "blank schedule1">
+                    <div class = "circle red">
+                        <p class = "time">07:00</p>
+                    </div><!-- circle red -->
+                        <dt class = "action">起床</dt>
+                </div><!-- schedule1 -->
+
+                <div class = "schedule1">
+                    <div class = "circle red">
+                        <p class = "time">08:00</p>
+                    </div><!-- circle red -->
+                    <dl>
+                        <dt class = "action">通学</dt>
+                        <dd class = "content">通学には中型バイクを使用しています。バイクは趣味の一つでもあるので、少し遠回りして、気分をリフレッシュしてから大学へ向かうこともあります。</dd>
+                    </dl>
+                    <div class = "Frame">
+                        <div class = "photoFrame">
+                            <img src = "./img/uno00.jpg">
+                        </div><!-- photoFrame -->
+                    </div><!-- Frame -->
+                </div><!-- schedule1 -->
+
+                <div class = "schedule1">
+                    <div class = "circle red">
+                        <p class = "time">09:00</p>
+                    </div><!-- circle red -->
+                    <dl>
+                        <dt class = "action">1限－2限　TA(Teaching Assistant)</dt>
+                        <dd class = "content">学部生の講義のアシスタントを行っています。授業の準備を行ったり、予習をしています。</p></dd>
+                    </dl>
+                </div><!-- schedule1 -->
+
+
+                <div class = "schedule3 clear">
+                    <div class = "circle green">
+                        <p class = "time">12:10</p>
+                    </div><!-- circle green -->
+                    <dl>
+                        <dt class = "action">昼休み</dt>
+                        <dd class = "content">大学から少しのところにうどん屋さんがあるので、そこで昼食をとります。研究室の仲間や
+同期の友人と一緒にご飯を食べに行きます。また、TAが午前中にある日には先生と一緒に近くの食堂にごはんに行くこともあります。</p></dd>
+                    </dl>
+
+
+                </div><!-- schedule2 -->
+
+                <div class = "schedule3">
+                    <div class = "blank2 circle green">
+                        <p class = "time">13:10</p>
+                    </div><!-- circle green -->
+                    <dl class = "blank22">
+                        <dt class = "action">3限　ミーティング</dt>
+                        <dd class = "content">研究について先生と研究室生で活発な議論を行っています。研究へのアドバイスをもらい、今後の研究に反映させていきます。</p></dd>
+                    </dl>
+                    <div class = "Frame">
+                        <div class = "photoFrame">
+                            <img src = "./img/uno01.png">
+                        </div><!-- photoFrame -->
+                    </div><!-- Frame -->
+                </div><!-- schedule3 -->
+
+                <div class = "schedule3">
+                    <div class = "circle green">
+                        <p class = "time">14:50</p>
+                    </div><!-- circle green -->
+                    <dl>
+                        <dt class = "action">4限　研究</dt>
+                        <dd class = "content">ミーティングで議論したことを元に研究を進めます。まずは議論した内容を再吟味し、研究に反映させます。</dd>
+                    </dl>
+                    <div class = "Frame">
+                        <div class = "photoFrame">
+                            <img src = "./img/uno02.png">
+                        </div><!-- photoFrame -->
+                    </div><!-- Frame -->
+                </div><!-- schedule1 -->
+
+                <div class = "schedule3">
+                    <div class = "circle green">
+                        <p class = "time">19:00</p>
+                    </div><!-- circle blue -->
+                    <dl>
+                        <dt class = "action">夕食</dt>
+                        <dd class = "content">他の研究室生と一緒に食堂で食事を取ります。研究の進捗の話や与太話、趣味の話など、雑談をしながら食事をします。ここで気分転換を行い、夕食後の研究に励むための英気を養います。</dd>
+                    </dl>
+                </div><!-- schedule3 -->
+
+                <div class = "schedule4">
+                    <div class = "circle blue">
+                        <p class = "time">20:00</p>
+                    </div><!-- circle blue -->
+                    <dl>
+                        <dt class = "action">研究</dt>
+                        <dd class = "content">食事後に研究の続きを行います。休憩中には他の研究室生と雑談しています。</dd>
+                    </dl>
+                    <div class = "Frame">
+                        <div class = "photoFrame">
+                            <img src = "./img/uno03.jpg">
+                        </div><!-- photoFrame -->
+                    </div><!-- Frame -->
+                </div><!-- schedule4 -->
+
+                <div class = "schedule4">
+                    <div class = "circle blue">
+                        <p class = "time">24:00</p>
+                    </div><!-- circle blue -->
+                    <dl>
+                        <dt class = "action">帰宅</dt>
+                        <dd class = "content">帰宅した後には研究に関する論文を読んで、他の研究者がどのような研究を行っているのか勉強しています。</dd>
+                    </dl>
+                </div><!-- schedule4 -->
+
+                <div class = "schedule4">
+                    <div class = "circle blue">
+                        <p class = "time">01:00</p>
+                    </div><!-- circle blue -->
+                    <dl>
+                        <dt class = "action">就寝</dt>
+                    </dl>
+                </div><!-- schedule4 -->
+            </div><!--lifeStyle-->
+
+                <img class = "balloon" src = "./img/lifestyle_balloon_graduate02.svg">
+
+                <div class = "mainContent2">
+                    <div class = "textBox2">
+                        <p class = "topic2">学部で卒業する以上に、知識とスキルを身につけたい</p>
+                        <p class = "text2">私が大学院への進学を決意した理由は、学部で卒業するよりも知識とスキルを多く身につけてから社会に出たいと考えたからです。特に近年、理系の学生は大学院に進学することが一般的になっていると言われています。今後の就職のことを考えると、大学院を出ている人の方がキャリアアップ等の機会が多いのではないかと考え、進学を選びました。他大学の院へ進学するという選択肢もありましたが、私には学部時代から所属している岩田研究室で引き続き、岩田先生の指導のもとにレベルの高い研究を行いたいという思いがありました。そのため他大学へは進学せず、高知工科大学の大学院に進学することを決めました。</p>
+
+
+                        <p class = "topic2">無線通信をもっと効率よく</p>
+                        <p class = "text2">私は現在、無線通信用高速フーリエ変換(FFT)回路の構成法の研究を行っています。近年、情報通信技術の発展に伴って、無線通信機器で授受されるトラフィックが急増しています。このトラフィックの収容能力を向上させるために、エリア面積が異なるセルを組み合わせたヘテロジニアス無線通信ネットワーク(HetNet)技術が検討されています。HetNetでは、セルサイズに応じて異なる無線通信方式を採用しているため、基地局や端末はこれらの複数の無線通信方式を扱える必要があります。現在はそれぞれの通信方式を扱うために、専用回路をそれぞれ用意して処理しています。これに対して、複数信号を一つの回路で受けて処理することにより、専用回路の面積等を削減できると考えています。</p>
+
+                        <p class = "topic2">自己研鑽に励む日々</p>
+                        <p class = "text2">大学院へ進学すると、学部とは違い自分で考えて行動することが多くなります。学部生は与えられたことをやることが多いと思いますが、大学院生になると、与えられることは少なくなり、自分で考えて自己研鑽していく必要があります。しかし、大学院生ならではの貴重な経験をすることもできます。例えば私はM1の時点で、ラスベガスで行われた学会において研究成果を発表することができました。そのほかにも、TAで後輩の指導を行うことを通じて改めて自分の知識理解を深めることができたと実感しています。</p>
+                    </div><!-- textBox2 -->
+                    <img class = "photo2" src = "./img/uno04.png">
+                    <img class = "photo2" src = "./img/uno05.png">
+                    <img class = "photo2" src = "./img/uno06.png">
+                </div><!-- mainContent2 -->
+            </div><!-- baseContent -->
+
+        <!--#include file="footer.html"-->
+        </body>
+</htme>

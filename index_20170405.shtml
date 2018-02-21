@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>高知工科大学情報学群</title>
+    <link rel="stylesheet" href="css/base.css" media="all" title="header" charset="utf-8" />
+    <link rel="stylesheet" href="css/index.css" media="all" title="header" charset="utf-8" />
+    <link rel="icon" href="img/favicon2.png" type="image/png" />
+    <script type="text/javascript">
+        window.onload = function(){
+          headSerect(0);
+          topics();
+        }
+        function topics() {
+          var date = document.getElementsByName("nDate");
+          var data = document.getElementsByName("nData");
+          for (var i = date.length - 1; i > 4; i--) {
+            date[i].parentNode.removeChild(date[i]);
+            data[i].parentNode.removeChild(data[i]);
+          }
+
+          var newsHeight = document.getElementById("newsDl").clientHeight;
+          newsHeight = newsHeight + 135;
+          var newsDiv = document.getElementById("newsDiv");
+          newsDiv.style.height = newsHeight + "px";
+        }
+    </script>
+  </head>
+  <body>
+    <!--#include file="header.html"-->
+    <div id="baseContents">
+
+      <!-- main image-->
+      <img src="img/main.jpg" class="mainImage"></img>
+
+      <!-- news and topics -->
+      <div class="section news">
+        <h1>Topics &amp; News</h1>
+        <h2>最近のニュース</h2>
+        <div class="newsContents" id="newsDiv">
+          <dl id="newsDl">
+                    <dt name="nDate">2017.4.1</dt>
+                      <dd name="nData">平成29年度は濵村昌則教授が情報学群長を務めます。</dd>
+                    <dt name="nDate">2017.3.27</dt>
+                      <dd name="nData"><a href="./news/topic_150.shtml" >平成28年度情報学群卒業式・情報システム工学コース修了式が行われました。</a></dd>
+                    <dt name="nDate">2017.3.17</dt>
+                      <dd name="nData"><a href="./news/topic_temp_146.shtml" >Topics&News記事などの生成をCMSに移行しました。</a></dd>
+                    <dt name="nDate">2017.3.16</dt>
+                      <dd name="nData">第79回情報処理学会全国大会で、情報学群4年石井雄飛さん、西田昂世さんが学生奨励賞を受賞しました。</dd>
+                    <dt name="nDate">2017.2.24</dt>
+                      <dd name="nData"><a href="./news/topic_143.shtml" >平成28年度情報学群卒業研究発表会が行われました。</a></dd>
+                    </dl>
+          <div class="oldNews">
+            <a href="topic_news.shtml">ニュース一覧　&raquo;</a>
+          </div> <!-- aldNews -->
+        </div> <!-- newsContents -->
+      </div> <!-- section -->
+
+      <!-- linkImg -->
+      <div class="linkImg">
+        <a href="photo_contest/index.shtml">
+          <img src="img/PhotoContest2016.png" />
+        </a>
+      </div><!-- linkImg -->
+
+      <!-- link -->
+      <div class="link">
+      <div class="linkContents">
+        <img src="img/Nyushi.jpg" class="img"></img>
+        <p>受験生の皆様に入試情報を提供します。</p>
+        <h1><a href="http://www.kochi-tech.ac.jp/kut/entrance_examination_UGS/info_UGS_exam.html">&gt; 入試情報</a></h1>
+      </div>
+      <div class="linkContents">
+        <img src="img/CampusEquipment.JPG" class="img"></img>
+        <p>情報学群生が利用する主な設備などを紹介します。</p>
+        <h1><a href="campus_equipment.shtml">&gt; キャンパスと設備</a></h1>
+      </div>
+      <div class="linkContents">
+        <img src="img/jyugyouTop.jpg" class="img"></img>
+        <p>情報学群生が受講する授業を一部紹介します。</p>
+        <h1><a href="lecture.shtml">&gt; 授業紹介</a></h1>
+      </div><!-- linkContents -->
+    </div><!-- link -->
+
+      <!-- five reason -->
+      <div class="section reason">
+        <h1>Five Reasons</h1>
+        <h2>情報学群を選ぶ5つの理由</h2>
+        <div class="reasonContents">
+          <p>なぜ今、情報を学ぶべきなのか。<br />
+            なぜ今、高知工科大学の情報学群を選ぶべきなのか。<br />
+            私たちの考える5つの理由を参考にしてみませんか?
+          </p>
+          <div class="reasonLinkBack">
+          <div class="reasonLink">
+            <a href="five_reasons.shtml">&gt;　5つの理由を知る</a>
+          </div> <!-- reasonLink -->
+        </div> <!-- reasonLinkBack -->
+        </div> <!-- reasonContents -->
+      </div> <!-- reason -->
+
+      <div class="banner">
+        <ul>
+          <li><a href="http://www.souken.kochi-tech.ac.jp/BrainCom/"><img src="img/banner_BrainCom.png" alt="脳コミュ" /></a></li>
+          <li><a href="http://www.kochi-tech.ac.jp/kut/index.html"><img src="img/banner_KUT.png" alt="KUT" /></a></li>
+        </ul>
+      </div>
+
+
+    </div><!-- baseContents -->
+    <!--#include file="footer.html"-->
+  </body>
+</html>

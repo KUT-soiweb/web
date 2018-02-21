@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>情報学群卒業式・情報システム工学コース修了式が行われました。</title>
+    <link rel="stylesheet" href="css/base.css" media="all" title="header" charset="utf-8" />
+    <link rel="stylesheet" href="css/topic_news_article.css" media="all" title="header" charset="utf-8" />
+    <link rel="icon" href="../img/favicon2.png" type="image/png" />
+    <script type="text/javascript">
+        window.onload = function(){
+          headSerect(0);
+        }
+    </script>
+  </head>
+  <body>
+    <!--#include file="header.html"-->
+    <div id="baseContents">
+      <div class="pankuzu">
+        <a href="../index.shtml">HOME</a> > <a href="../topic_news.shtml">Topics&amp;News</a> > News詳細
+      </div> <!-- pankuzu -->
+      <div class="subTitle">
+        <h1><span class="topChar">T</span>opics</h1><h2>and</h2><h1><span class="topChar">N</span>ews</h1>
+      </div><!-- title -->
+      <div class="newsArea">
+        <dt>2016.3.18</dt>
+        <h1>情報学群卒業式・情報システム工学コース修了式が行われました。</h1>
+        <hr />
+                <div class="mainImgArea">
+          <img src="img/id93_1.JPG" class="mainImg" />
+        </div><!-- mainImgArea -->
+                <p class="mainSentence">
+        　平成28年3月18日、高知工科大学にて平成27年度情報学群卒業式・情報システム工学コース修了式が行われました。<br />
+　情報学群学士課程99名、情報学群大学院修士課程15名、合計114名が高知工科大学情報学群を卒業し、 清水明宏学群長から学位が授与されました。当日は雨が降りましたが、卒業生は晴々とした顔で式に臨んでいる様子でした。<br />
+        </p><!-- mainSentence -->
+                <div class="subArea">
+                    <p>
+            　情報学群卒業式・情報システム工学コース修了式では、複数の卒業生が以下の内容で表彰されました。<br />
+<br />
+末松賞：林 憲佑<br />
+佐久間賞：福井 さゆり<br />
+Cloud Spiral修了証書：松尾 達郎<br />
+教員免許(中学校一種免許 数学)：巽 翔太郎<br />
+教員免許(高等学校一種免許 数学 情報)：西本 高志<br />
+教員免許(高等学校一種免許 数学、中学校一種免許 数学)：日高 功輝、森田 大輝<br />
+教員免許(高等学校一種免許 情報)：窪内 彩佳、山崎 禎弥<br />
+電気学会・電子情報通信学会・情報処理学会四国支部奨励賞：中村 真也(しんや)、福井 さゆり          </p>
+                      <img src="img/id93_2.JPG" />
+                  </div><!-- subArea -->
+                <div class="subArea">
+                    <p>
+            　<br />
+　また、当日の夜には高知工科大学情報学群謝恩会が開催され、 卒業生一同や教員一同、研究室のメンバーである3年生が参加しました。<br />
+　卒業生は卒業の余韻に浸りつつ、学生生活でお世話になった教授や学生と最後のひと時を楽しみました。<br />
+<br />
+　卒業生の皆様、高知工科大学の御卒業、おめでとうございます。          </p>
+                    <img src="img/id93_3.JPG" />
+                  </div><!-- subArea -->
+              </div><!-- newsArea -->
+    </div><!-- baseContents -->
+    <!--#include file="footer.html"-->
+
+  </body>
+</html>

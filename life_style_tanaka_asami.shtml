@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>ライフスタイル：田中麻実</title>
+        <link rel="stylesheet" href="css/base.css" media="all" title="header" charset="utf-8" />
+        <link rel="stylesheet" href="css/life_style.css" media="all" title="header" charset="utf-8" />
+        <link rel="icon" href="img/favicon2.png" type="image/png" />
+        <script type="text/javascript">
+            window.onload = function(){
+              headSerect(3);
+            }
+        </script>
+      </head>
+
+    <body>
+        <!--#include file="header.html"-->
+        <div id = "baseContents">
+            <div class="pankuzu">
+                <a href="index.shtml">HOME</a> > <a href="campus_life.shtml">キャンパスライフ</a> > <a href="life_style_cushion.shtml">ライフスタイル</a> >　田中麻実
+            </div> <!-- pankuzu -->
+            <div class = "photo1">
+                <img src = "./img/tanaka_asami_main.jpg" class ="frame">
+                <div class = "profile" id="tanaka_gakusi">
+                    <p class = "nameReading">たなかあさみ</p>
+                    <p class = "name">田中麻実</p>
+                    <p>所属 : ネットワーク信号処理研究室</p>
+                </div><!-- profile -->
+            </div><!-- photo1 -->
+
+            <img class = "balloon" src = "./img/lifestyle_balloon01.svg">
+            <dt class = "topic">田中さんの場合</dt>
+
+            <div class = "lifeStyle">
+                <div class = "blank schedule1">
+                    <div class = "circle red">
+                        <p class = "time">10:00</p>
+                    </div><!-- circle red -->
+                        <dl>
+                            <dt class = "action">起床</dt>
+                            <dd class = "content">4年になるとほぼ講義がないため、好きな時間に起きることができます。</dd>
+                        </dl>
+                </div><!-- schedule1 -->
+
+                <div class = "schedule1">
+                    <div class = "circle red">
+                        <p class = "time">11:00</p>
+                    </div><!-- circle red -->
+                    <dl>
+                        <dt class = "action">通学</dt>
+                        <dd class = "content">途中のコンビニでお昼ご飯を買います。主にサークルKにお世話になっています。</dd>
+                    </dl>
+                </div><!-- schedule1 -->
+
+                <div class = "schedule1">
+                    <div class = "circle red">
+                        <p class = "time">11:30</p>
+                    </div><!-- circle red -->
+                    <dl>
+                        <dt class = "action">研究室着</dt>
+                        <dd class = "content">研究室に置いてある自分専用のマグカップに紅茶を入れて一服します。</p></dd>
+                    </dl>
+                    <div class = "Frame">
+                        <div class = "photoFrame">
+                            <img src = "./img/tanaka_1.jpg">
+                        </div><!-- photoFrame -->
+                    </div><!-- Frame -->
+
+                </div><!-- schedule1 -->
+
+                <div class = "schedule3 clear">
+                    <div class = "circle green">
+                        <p class = "time">12:10</p>
+                    </div><!-- circle green -->
+                    <dl>
+                        <dt class = "action">お昼ご飯</dt>
+                        <dd class = "content">コンビニで買ってきたご飯を食べます。サークルKのチョコクロワッサンが好きでよく食べています。気分が向いたらお弁当を作って持ってきたりします。</p></dd>
+                    </dl>
+
+
+                </div><!-- schedule2 -->
+
+                <div class = "schedule3">
+                    <div class = "blank2 circle green">
+                        <p class = "time">13:10</p>
+                    </div><!-- circle green -->
+                    <dl>
+                        <dt class = "action kougi">研究</dt>
+                        <dd class = "content">研究目的達成のためにプログラムを作ったり、足りない知識を補うために論文や本を読んだりします。</dd>
+                    </dl>
+                    <div class = "Frame">
+                        <div class = "photoFrame">
+                            <img src = "./img/tanaka_2.jpg">
+                        </div><!-- photoFrame -->
+                    </div><!-- Frame -->
+
+                </div><!-- schedule3 -->
+
+                <div class = "schedule3">
+                    <div class = "circle green">
+                        <p class = "time">14:50</p>
+                    </div><!-- circle green -->
+                    <dl>
+                        <dt class = "action">輪講</dt>
+                        <dd class = "content">代数学の輪講をM1の先輩と先生と行います。主に定義などの証明や練習問題を通して代数学への知識を深めます。終わる時間に区切りはなく、休憩をはさみながらきりがいいところまでエンドレスで行います。</dd>
+                    </dl>
+                    <div class = "Frame">
+                        <div class = "photoFrame">
+                            <img src = "./img/tanaka_3.jpg">
+                        </div><!-- photoFrame -->
+                    </div><!-- Frame -->
+
+                </div><!-- schedule1 -->
+
+                <div class = "schedule4">
+                    <div class = "circle blue">
+                        <p class = "time">19:00</p>
+                    </div><!-- circle blue -->
+                    <dl>
+                        <dt class = "action">晩ご飯</dt>
+                        <dd class = "content">食堂で食べたり，どこかに食べに行ったりまちまちです。ご飯を食べ終えたらお昼にやっていた研究の続きをします。</dd>
+                    </dl>
+                </div><!-- schedule3 -->
+
+                <div class = "schedule4">
+                    <div class = "circle blue">
+                        <p class = "time">22:00</p>
+                    </div><!-- circle blue -->
+                    <dl>
+                        <dt class = "action">まとめ</dt>
+                        <dd class = "content">今日行った研究をまとめます。まとめることで自分の進捗が分かり、次の日の予定を立てることができます。</dd>
+                    </dl>
+                </div><!-- schedule4 -->
+
+                <div class = "schedule4">
+                    <div class = "circle blue">
+                        <p class = "time">23:00</p>
+                    </div><!-- circle blue -->
+                    <dl>
+                        <dt class = "action">帰宅</dt>
+                        <dd class = "content">帰宅してからは、リラックスした時間を過ごします。</dd>
+                    </dl>
+                </div><!-- schedule4 -->
+
+                <div class = "schedule4">
+                    <div class = "circle blue">
+                        <p class = "time">01:00</p>
+                    </div><!-- circle blue -->
+                    <dl>
+                        <dt class = "action">就寝</dt>
+                    </dl>
+                </div><!-- schedule4 -->
+
+                <div class="point">
+                    <img class="point_image" src="./img/point.svg" />
+                    <h2>大学4年生の生活</h2>
+                    <p>4年次には研究がはじまります。また、情報学群でのイベントの企画、運営なども行うため、大学生活のほぼ大部分が研究室での活動になります。特に2学期(10月)からは研究が本格化してくるので、夜遅くまで学校に残る学生をよく見かけます。また、単位が規定の数に満たない学生は4年次でも講義を履修しなければなりません。そのため研究室での活動以外に、講義の時間も多少含まれています。
+                    </p>
+                </div><!--point-->
+
+            </div><!-- lifestyle -->
+            <img class = "balloon" src = "./img/lifestyle_balloon02.svg">
+
+            <div class = "mainContent2">
+            　　<div class = "textBox2">
+                    <p class = "topic2">好きなだけ、好きなパソコンに向かえる！</p>
+                    <p class = "text2">私が高校生当時、高知工科大学を選んだ理由は、高知県に私の母の実家があり、他の知らない県に行くよりは、知っているところに行ったほうがいいかなと感じたから…といったものでした。いざ入学してみると、もちろん情報学群ですから、高校時代のように長時間パソコンを触っていても怒られることはありませんし(笑)、思う存分自分の好きなパソコンに向かえるようになりました。もちろんそれと同時に、情報学群ならではの大変さもありましたけどね。3年次の情報学群実験第3C/4Cでは、毎週レポートを書かなければいけないですし、チームになって同じ課題に取り組むので、人間関係も大切にしなければならず、苦労することもありました。そういう意味も含めて、実験は思い出に残っています。今となっては笑い話なんですが(笑)</p>
+            </div><!-- textBox2 -->
+
+            <img class = "photo2" src = "./img/tanaka_4.jpg">
+
+                <div class = "textBox2">
+                    <p class = "topic2">「大学の講義だけでは見えないこと」もある</p>
+                    <p class = "text2">3年生の2学期以降から、TEReCo4というプロジェクトのお手伝いでDNSのサーバを立てて、実験をしています。話を聞くだけでなく、実際に自分で体験しないとわからないことをたくさん学ぶことができました。 このプロジェクトに参加して、さまざまな人たちに出会いました。その人達と関わっていくことで、大学院進学という、自分にはなかった将来の選択肢があるということを知ることができました。また、大学の講義を受けているだけでは見えてこないことがある、ということもわかりました。実験環境とはいえ、実際にサーバを立てる上では、各大学それぞれの組織にそれぞれのネットワークポリシーがあるわけですから、それを考慮しなければならないのです。このように、DNSサーバをただ立てるだけではなく、ネットワーク構成を考慮しながら進めていかなければならないということも学びました。</p>
+                  </div><!-- textBox2 -->
+                      <img class = "photo2" src = "./img/tanaka_5.jpg">
+                <div class = "textBox2">
+                    <p class = "topic2">「多様な価値観がある中で協力しあう」ということ</p>
+                    <p class = "text2">KUTの情報学群のよいところは、ネットワーク機器に直接触れられるところだと思います。サーバは自分で立てようと思えば、家でだっていくらでも立てられますが、ルータやスイッチなどのネットワーク機器は、機会がなければなかなか触れることができませんから、授業でそのような機会を与えられるところがよいところだと思っています。私がKUTの情報学群に入学して学んだことは、座学で得る知識ももちろんですが、「人それぞれ多様な価値観がある」ということです。KUTの情報学群では、講義や研究室活動などでも、チームとなって行動することが多々あり、さまざまな人と関わる機会が多くあります。そして、それぞれの異なる価値観を認め合ったり、時には妥協することがありながらも、協力して共同作業をすることができるのだということを知りました。これからも、単なる座学だけではなく、実践を含めて学んでいきたいと思います。</p>
+                </div><!-- textBox2 -->
+                  <img class = "photo2" src = "./img/tanaka_6.jpg">
+            </div><!-- mainContent2 -->
+        </div><!-- baseContent -->
+        <!--#include file="footer.html"-->
+    </body>
+</htme>

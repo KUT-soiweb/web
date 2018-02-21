@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>情報学群3年生のソフトウェア工学演習の成果発表会が行われました。</title>
+    <link rel="stylesheet" href="css/base.css" media="all" title="header" charset="utf-8" />
+    <link rel="stylesheet" href="css/topic_news_article.css" media="all" title="header" charset="utf-8" />
+    <link rel="icon" href="../img/favicon2.png" type="image/png" />
+    <script type="text/javascript">
+        window.onload = function(){
+          headSerect(0);
+        }
+    </script>
+  </head>
+  <body>
+    <!--#include file="header.html"-->
+    <div id="baseContents">
+      <div class="pankuzu">
+        <a href="../index.shtml">HOME</a> > <a href="../topic_news.shtml">Topics&amp;News</a> > News詳細
+      </div> <!-- pankuzu -->
+      <div class="subTitle">
+        <h1><span class="topChar">T</span>opics</h1><h2>and</h2><h1><span class="topChar">N</span>ews</h1>
+      </div><!-- title -->
+      <div class="newsArea">
+        <dt>2016.2.1</dt>
+        <h1>情報学群3年生のソフトウェア工学演習の成果発表会が行われました。</h1>
+        <hr />
+                <p class="mainSentence">
+        　本学 情報学群を代表する講義である、「ソフトウェア工学演習」の成果発表会が行われました。        </p><!-- mainSentence -->
+                <div class="subArea">
+                    <p>
+            　「ソフトウェア工学演習」とは、プロジェクト管理の必要性やプロセスモデル、各工程の作業内容や設計文書の書き方などについて講義するとともに、実際にソフトウェア開発プロジェクトの立案から設計・実装・試験までをチーム演習として行うものです。実施期間は約４ヶ月間であり、今回は１チーム８人程度の全１２チームが参加しました。 この成果発表会は、例年ソフトウェア関連企業などの方数名を招いて聴講いただいており、緊張感のあるものとなりました。          </p>
+                      <img src="img/id76_2.jpg" />
+                  </div><!-- subArea -->
+                <div class="subArea">
+                    <p>
+            　実際の開発では、効率的なソフトウェア開発を進めるためにKPT法を導入したりと、作業分担、納期を守るなど品質向上させるための工夫が凝らされました。 　各チーム、講義中盤で行われた中間発表に比べ、一回りも二回りも成長し、堂々とした発表を行いました。チーム開発の工程を学ぶことで、個々のスキルアップと自信に繋がる貴重な授業となったのではないでしょうか。          </p>
+                    <img src="img/id76_3.jpg" />
+                  </div><!-- subArea -->
+              </div><!-- newsArea -->
+    </div><!-- baseContents -->
+    <!--#include file="footer.html"-->
+
+  </body>
+</html>

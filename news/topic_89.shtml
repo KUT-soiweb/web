@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>修士2年生による情報システム工学コース修士論文発表会が行われました。</title>
+    <link rel="stylesheet" href="css/base.css" media="all" title="header" charset="utf-8" />
+    <link rel="stylesheet" href="css/topic_news_article.css" media="all" title="header" charset="utf-8" />
+    <link rel="icon" href="../img/favicon2.png" type="image/png" />
+    <script type="text/javascript">
+        window.onload = function(){
+          headSerect(0);
+        }
+    </script>
+  </head>
+  <body>
+    <!--#include file="header.html"-->
+    <div id="baseContents">
+      <div class="pankuzu">
+        <a href="../index.shtml">HOME</a> > <a href="../topic_news.shtml">Topics&amp;News</a> > News詳細
+      </div> <!-- pankuzu -->
+      <div class="subTitle">
+        <h1><span class="topChar">T</span>opics</h1><h2>and</h2><h1><span class="topChar">N</span>ews</h1>
+      </div><!-- title -->
+      <div class="newsArea">
+        <dt>2016.2.8</dt>
+        <h1>修士2年生による情報システム工学コース修士論文発表会が行われました。</h1>
+        <hr />
+                <div class="mainImgArea">
+          <img src="img/id89_1.jpg" class="mainImg" />
+        </div><!-- mainImgArea -->
+                <p class="mainSentence">
+        　本学 講堂にて、情報システム工学コース修士論文発表会が行われました。<br />
+　4つのセッションに分かれ、15人の学生が質疑応答を含めた1人20分の発表を行いました。<br />
+        </p><!-- mainSentence -->
+                <div class="subArea">
+                    <p>
+            　学部の時よりも高度で専門性の高い研究内容となっていました。海外での研究発表などを経験している学生も多く、大きな舞台の上でも物怖じすることのない、堂々とした発表でした。質疑応答に答える姿からは、大学院に進学した2年間、自分の研究に対して真摯に取り組んできたことが伝わってきました。<br />
+　次週に卒業発表を控えた4年生に対して、素晴らしい見本を示すことができたのではないでしょうか。          </p>
+                      <img src="img/id89_2.jpg" />
+                  </div><!-- subArea -->
+              </div><!-- newsArea -->
+    </div><!-- baseContents -->
+    <!--#include file="footer.html"-->
+
+  </body>
+</html>

@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+
+#baseContents .detail {
+  font-size: 120%;
+  line-height: 25px;
+  margin: 150px auto 0px;
+  text-indent: 5mm;
+  width: 90%;
+}
+
+
+/* mainImage */
+#baseContents .mainImage {
+  background-color: #cccccc;
+  height: 455px;
+  margin-top: 50px;
+  position: relative;
+  width: 960px;
+}
+
+#baseContents .section {
+  height: 400px;
+  margin: 50px auto 0px;
+  position: relative;
+  width: 960px;
+}
+
+/* subIamge */
+#baseContents .section .name {
+  color: #71cdf2;
+  float: left;
+  height: 100px;
+  line-height: 60px;
+  margin: 140px 40px 0px;
+  width: 400px;
+}
+
+#baseContents .section .name h1 {
+  font-size: 280%;
+  font-weight: bold;
+}
+
+#baseContents .section .name h2 {
+  font-size: 175%;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+/* sentence */
+#baseContents .section .contents {
+  float: left;
+  font-weight: bold;
+  line-height: 25px;
+  margin:  100px 40px 0px;
+  width: 400px;
+}

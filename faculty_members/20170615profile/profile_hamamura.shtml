@@ -1,0 +1,197 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	    <meta name="keyword" content="高知工科大学情報学群">
+	    <meta name="description" content="高知工科大学情報学群のホームページ">
+	    <title>濵村 昌則</title>
+	    <link rel="stylesheet" type="text/css" href="css/base.css">
+	    <link rel="stylesheet" type="text/css" href="css/profile.css">
+			<link rel="icon" href="../img/favicon2.png" type="image/png" />
+	    <script type="text/javascript" src="js/switch.js"></script>
+			<script type="text/javascript">
+					window.onload = function(){
+						headSerect(2);
+					}
+			</script>
+</head>
+
+<body>
+<!--#include file="header.html"-->
+
+    <div id ="baseContents">
+
+	<div class="pankuzu">
+		<a href="../index.shtml">HOME</a> > <a href="../faculty_members.shtml">教員一覧</a> > 濵村昌則
+	</div>
+	<!--pankuzu-->
+	<div class="main">
+      <div class="keireki">
+    <h1>濵村 昌則<span class="hurigana"><span style="margin-right: 2.8em;"></span>Hamamura Masanori</span></h1>
+<div class="photo1">
+		<img src="img/Face-HamamuraMasanori.png" alt="顔の写真" class="facephoto">
+	</div>
+	<!--photo1-->
+		<div class="line"></div>
+    <h2>教授<span>学群長室:A416</span></h2>
+
+
+    <input type="checkbox" id="Panel1" class="ExpandCheckBox" />
+		<label for="Panel1" class="open">
+		  <h3>
+				<img src="svg/Triangle_close-white.svg">&nbsp;プロフィール
+			</h3>
+
+  </label>
+		   <div class="panel">
+
+
+<dl>
+<dt>生年　:</dt><dd>　1970年</dd>
+<dt>出身　:</dt><dd>　高知県</dd>
+<dt>所属　:</dt><dd>　高知工科大学情報学群<br />
+大学院工学研究科 基盤工学専攻 情報学コース</dd>
+<dt>所属学会　:</dt><dd>　電子情報通信学会、IEEE</dd>
+<dt>学位　:</dt><dd>　博士(工学)(長岡技術科学大学、1998年)</dd>
+<dt>最終学歴　:</dt><dd>　長岡技術科学大学大学院 工学研究科 博士後期課程 情報・制御工学専攻 修了</dd>
+<dt>相談可能分野　:</dt><dd>　CDMA(スペクトル拡散技術)、信号設計、ワイヤレス通信方式</dd>
+<dt>趣味　:</dt><dd>　旅行</dd>
+<div class="mail1"><img src="svg/mail_hamamura.svg" alt="先生のmailアドレス" class="mail"></div>
+</dl>
+
+
+</div>
+<!--panel-->
+
+<a href="http://www.kochi-tech.ac.jp/kut/about_KUT/faculty_members/prof/hamamura-masanori.html" target="_blank"><div class="box3" style="float:right">▶ 工科大教員ページ</div></a>
+<a href="http://hamalab.info/" target="_blank"><div class="box2" style="float:right">▶ 研究室ページ</div></a>
+<a href="http://hamamuralab.sakura.ne.jp/lab/?page_id=39" target="_blank"><div class="box1" style="float:right">▶ 教員個人ページ</div></a>
+
+<div class="clear"></div>
+</div>
+<!--keireki-->
+<div class="kennkyuusyoukai">
+	<div class="center1"><img src="svg/Heading-2.svg" alt="研究紹介"></div>
+
+<h2>電波を使った通信を限りなく速くする</h2>
+<h3>専門分野 ： 情報通信工学</h3>
+<div class="center2">
+<p>
+自分が持つ通信環境が快適であったとしても、新しいアプリケーションが現れると途端に使いモノにならなくなるということがよくあります。電波を使ったワイヤレス通信でその傾向が顕著です。情報通信はどこまで速くなればいいのでしょうか？ 誰も答えを知りませんが、いくら速くても、速い分には誰からも文句を言われないのが情報通信です。世界中の文句がとりあえず減るでしょう！</p>
+</div>
+<!--center2-->
+ <div class="kennkyuuryouiki">
+<input type="checkbox" id="Panel2" class="ExpandCheckBox" />
+	 <label for="Panel2" class="open">
+		 <h3><img src="svg/Triangle_close-pink.svg">&nbsp;現在の研究領域</h3>
+	 </label>
+
+	 	 <div class="panel">
+
+<a>
+<div class="circle1"></div>信号設計<br />
+</a>
+<a>
+<div class="circle2"></div>変復調方式<br />
+</a>
+<a>
+<div class="circle3"></div>ワイヤレスネットワーク<br />
+</a>
+</div>
+<!--panel-->
+</div>
+<!--kennkyuuryouiki-->
+
+
+<div class="kennkyuuronnbunn">
+	<input type="checkbox" id="Panel3" class="ExpandCheckBox" />
+	<label for="Panel3" class="open">
+		<h3><img src="svg/Triangle_close-pink.svg">&nbsp;代表的な研究論文など</h3>
+	</label>
+
+		<div class="panel">
+<ul>
+	<dl>
+<li><div class="circle1"></div>&emsp;Approximately-zero correlation zone sequence set</li>
+　　　　<dt>著者<span style="margin-right: 1em;"></span>：</dt><dd>Sayuri Fukui，Masanori Hamamura</dd>
+　　　　<dt>発表誌：</dt><dd> IEICE Transactions on Fundamentals of Electronics，Communications <br />
+	 and Computer Sciences，Vol.E99-A，no.1，pp.159-166</dd>
+　　　　<dt>発表年：</dt><dd>January 2016</dd>
+<div class="clear"></div>
+<li><div class="circle2"></div>&emsp;帰還型マルチトーンホッピングCDMA信号の高速PAR低減アルゴリズム</li>
+　　　　<dt>著者<span style="margin-right: 1em;"></span>：</dt><dd>福永健太，浜村昌則</dd>
+　　　　<dt>発表誌：</dt><dd>電子情報通信学会論文誌B，Vol.J96-B，No.12，pp.1406-1411</dd>
+　　　　<dt>発表年：</dt><dd>2013年12月</dd>
+<div class="clear"></div>
+<li><div class="circle3"></div>&emsp;ISI-free power roll-off pulse</li>
+　　　　<dt>著者<span style="margin-right: 1em;"></span>：</dt><dd>Masayuki Mohri，Masanori Hamamura</dd>
+　　　　<dt>発表誌：</dt><dd>IEICE Transactions on Fundamentals of Electronics，Communications <br />
+	and Computer Sciences，vol.E92-A，no.10，pp.2495-2497</dd>
+　　　　<dt>発表年：</dt><dd>October 2009</dd>
+<div class="clear"></div>
+<li><div class="circle1"></div>&emsp;Spectral efficiency of orthogonal set of truncated MC-CDMA signals using discrete prolate spheroidal sequences</li>
+	　　<dt>著者<span style="margin-right: 1em;"></span>：</dt><dd>Masanori Hamamura，Jun Hyuga</dd>
+　　　　<dt>発表誌：</dt><dd>Proceedings of the IEEE Wireless Communications and <br />
+	Networking Conference (WCNC 2008)，pp.980-984</dd>
+　　　　<dt>発表年：</dt><dd>April 2008</dd>
+<div class="clear"></div>
+<li><div class="circle2"></div>&emsp;Asynchronous, decentralized DS-CDMA using feedback-controlled spreading sequences for time-dispersive channels</li>
+　　　　<dt>著者<span style="margin-right: 1em;"></span>：</dt><dd>Teruhiko Miyatake，Kazuki Chiba，Masanori Hamamura，<br />
+	Shin'ichi Tachikawa</dd>
+　　　　<dt>発表誌：</dt><dd>IEICE Transactions on Communications，vol.E91-B，no.1，pp.53-61</dd>
+　　　　<dt>発表年：</dt><dd>January 2008</dd>
+</dl>
+</div>
+<!--kennkyuronnbunn-->
+</div>
+<!--kennkyuushhyoukai-->
+</div>
+<!--kennkyuunaiyou-->
+<div class="kennkyuushitusyoukai">
+	<div class="center1"><img src="svg/Heading-3.svg" alt="研究室紹介"></div>
+
+<div class="Lab_photo">
+  <img src="img/Lab-hamamura_1.jpg" alt="研究室の写真1" id="Lab_main" />
+</div>
+
+<h2>ワイヤレスネットワーク研究室：A314</h2>
+<p>
+濵村研究室では情報通信の研究を行っています。『信号理論』とか『変復調理論』と呼ばれる分野が中心になります。0111001001.....という２進数のデータをどうやったらより良い電気信号や無線信号や光信号に変えられるか、そして、それらの信号をどうやったら効率よく元のデータに戻せるか、こんなことを毎日みんなで考えています。
+</p>
+</div>
+<!--kennkyuushitusyoukai-->
+<div class="koukouseihe">
+<div class="photo2"><img src="svg/StaffDetail_balloon.svg" alt="吹き出し"></div>
+<h1>高校生のみなさんへ</h1>
+<div class="kotoba">
+　自分を信じる、ということでしょうか。
+</div>
+<!--kotoba-->
+</div>
+<!--koukouseihe-->
+<div class="kougikamoku">
+<h2>講義科目</h2>
+
+	<dl>
+<dd>信号理論基礎、アナログ・ディジタル通信、<br />
+ワイヤレスアクセスネットワーク</dd>
+</dl>
+<h2>受け入れ可能な専攻</h2>
+<p>
+情報とメディア専攻<br />
+情報通信専攻<br />
+コンピュータサイエンス専攻<br />
+</p>
+
+</div>
+<!--kougikamoku-->
+<div class="photo3"><img src="img/Body-HamamuraMasanori.jpg" alt="先生全身画像"></div>
+</div>
+<!--main-->
+</div>
+<!--baseContents-->
+
+<!--#include file="footer.html"-->
+</body>
+</html>

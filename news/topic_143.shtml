@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>平成28年度情報学群卒業研究発表会が行われました</title>
+    <link rel="stylesheet" href="css/base.css" media="all" title="header" charset="utf-8" />
+    <link rel="stylesheet" href="css/topic_news_article.css" media="all" title="header" charset="utf-8" />
+    <link rel="icon" href="../img/favicon2.png" type="image/png" />
+    <script type="text/javascript">
+        window.onload = function(){
+          headSerect(0);
+        }
+    </script>
+  </head>
+  <body>
+    <!--#include file="header.html"-->
+    <div id="baseContents">
+      <div class="pankuzu">
+        <a href="../index.shtml">HOME</a> > <a href="../topic_news.shtml">Topics&amp;News</a> > News詳細
+      </div> <!-- pankuzu -->
+      <div class="subTitle">
+        <h1><span class="topChar">T</span>opics</h1><h2>and</h2><h1><span class="topChar">N</span>ews</h1>
+      </div><!-- title -->
+      <div class="newsArea">
+        <dt>2017.2.24</dt>
+        <h1>平成28年度情報学群卒業研究発表会が行われました</h1>
+        <hr />
+                <div class="mainImgArea">
+          <img src="img/id143_1.jpg" class="mainImg" />
+        </div><!-- mainImgArea -->
+                <p class="mainSentence">
+        2017年2月20-21日、本学で平成28年度情報学群卒業研究発表会が行われました。14のセッションに分かれ、73名の学生が質疑応答を含めた12分の発表を行いました        </p><!-- mainSentence -->
+                <div class="subArea">
+                    <p>
+            情熱をもって堂々と発表をする学生、丁寧な語りで泰然と発表をする学生、わずかに緊張した面持ちで発表に望む学生等、発表に対する姿勢は様々でしたが、どの発表も素晴らしいものでした。この発表を聞いた学生たちも、その姿や研究の成果に感心した様子でした。順を追った細やかな説明は、専門的な深い知識をもたない聴衆にも理解しやすいものであったと思います。これから研究を始める学生にとっては、研究内容を決める指針になるでしょう。          </p>
+                      <img src="img/id143_2.jpg" />
+                  </div><!-- subArea -->
+                <div class="subArea">
+                    <p>
+            質疑を受けて、明確にするべき点、考察の余地がある点等、更なる改善に気付いた学生もいました。これらを反映させることで、より良い卒業論文に仕上がることが期待されます。          </p>
+                    <img src="img/id143_3.jpg" />
+                  </div><!-- subArea -->
+              </div><!-- newsArea -->
+    </div><!-- baseContents -->
+    <!--#include file="footer.html"-->
+
+  </body>
+</html>

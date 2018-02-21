@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	    <meta name="keyword" content="高知工科大学情報学群">
+	    <meta name="description" content="高知工科大学情報学群のホームページ">
+	    <title>国際交流</title>
+	    <link rel="stylesheet" type="text/css" href="css/base.css">
+	    <link rel="stylesheet" type="text/css" href="css/international_fellowship.css">
+			<link rel="icon" href="img/favicon2.png" type="image/png" />
+	    <script type="text/javascript">
+					window.onload = function(){
+						headSerect(5);
+					}
+			</script>
+	</head>
+	<body>
+        <!--#include file="header.html"-->
+		<div id="baseContents">
+			<div class="pankuzu">
+				<a href="index.shtml">HOME</a> > 国際交流
+			</div>
+			<!-- pankuzu -->
+			<div class="title">
+				<h2>国際交流</h2>
+				<h1><span>I</span>nternational <span>F</span>ellowship</h1>
+			</div>
+			<!-- title -->
+			<div class="main">
+				<div class="contents contents01">
+					<input type="checkbox" id="openButton01" name="buttom01">
+					<label for="openButton01" class="open openCircle01"></label>
+					<div class="mainTitle">
+						<div class="titleLabel label01">01</div>
+						<div class="titleInner">
+							<div><h2>海外短期研修</h2>
+							高知工科大学主催</div>
+						</div>
+					</div>
+					<!-- mainTitle -->
+					<div class="detail">
+						<div class="detailInner">
+							<div class="subTitle">
+								<div class="circle"></div><div class="titleName">タイ/シンガポール研修</div>
+							</div><!-- subTitle -->
+							<div class="table">
+							<dl>
+								<dt>期間</dt><dd>2015年3月 10日間</dd>
+								<dt>参加者</dt><dd>3名(学部1年1名、学部2年1名、修士1年1名)</dd>
+								<dt>渡航先</dt><dd>タイ(泰日工業大学、キングモンクット工科大学トンブリ)<br>
+								シンガポール(シンガポール科学技術研究庁、大学、企業)</dd>
+								<dt>内容</dt><dd>各大学で学生との交流や見学、文化史跡・日系企業の見学等</dd>
+							</dl>
+						</div>
+						<!-- table -->
+						</div>
+						<!-- detailInner -->
+					<div class="detailInner">
+							<div class="subTitle">
+								<div class="circle"></div><div class="titleName">タイ/シンガポール研修</div>
+							</div><!-- subTitle -->
+							<div class="table">
+							<dl>
+								<dt>期間</dt><dd>2016年2月 10日間</dd>
+								<dt>参加者</dt><dd>2名(学部1年2名)</dd>
+								<dt>渡航先</dt><dd>タイ(泰日工業大学、チュラロンコン大学、キングモンクット工科大学トンブリ)<br>
+								シンガポール(シンガポール科学技術研究庁、企業等)</dd>
+								<dt>内容</dt><dd>各大学で学生との交流や見学、文化史跡・企業の見学等を行う</dd>
+							</dl>
+						</div>
+
+
+
+						<!-- table -->
+						</div>
+						<!-- detailInner -->
+						<div class="detailInner">
+							<div class="subTitle">
+								<div class="circle"></div><div class="titleName">韓国English boot camp</div>
+							</div><!-- subTitle -->
+							<div class="table">
+							<dl>
+								<dt>期間</dt><dd>2016年2月 8日間</dd>
+								<dt>参加者</dt><dd>2名(学部2年1名，学部3年1名)</dd>
+								<dt>渡航先</dt><dd>韓国(京畿道 バジュ市 英語村)</dd>
+								<dt>内容</dt><dd>韓国人学生と寝食を共にし、アメリカ・カナダ等の英語ネイティブ教員によって行われる
+									100%英語でのコミュニケーション力強化プログラムを受講し、板門店見学・ソウル市内自由行動等</dd>
+							</dl>
+
+						</div>
+						<!-- table -->
+						</div>
+						<!-- detailInner -->
+				</div>
+				<!-- detail -->
+				</div>
+				<!-- contents01 -->
+				<div class="contents contents02">
+					<input type="checkbox" id="openButton02" name="button02">
+					<label for="openButton02" class="open openCircle02"></label>
+					<div class="mainTitle">
+						<div class="titleLabel label02">02</div>
+						<div class="titleInner">
+							<div><h2>海外短期派遣 夏期文化研修</h2>
+							他大学主催</div>
+						</div>
+					</div>
+					<!-- mainTItle -->
+					<div class="detail">
+						<div class="detailInner">
+							<div class="subTitle">
+								<div class="circle"></div><div class="titleName">台湾研修</div>
+							</div>
+							<dl>
+								<dt>期間</dt><dd>2014年8月 9日間</dd>
+								<dt>参加者</dt><dd>1名(修士1年)</dd>
+								<dt>渡航先</dt><dd>台湾(国立虎尾科技大学)</dd>
+								<dt>内容</dt><dd>繁体字中国語による基本的なコミュニケーション能力の養成<br>
+								台湾伝統文化の体験<br>
+								学生や現地の人との交流</dd>
+							</dl>
+							<!-- detailContents -->
+						</div>
+						<!-- inner -->
+					</div>
+					<!-- detail -->
+				</div>
+				<!-- contents02 -->
+				<div class="contents contents03">
+					<input type="checkbox" id="openButton03" name="buttom03">
+					<label for="openButton03" class="open openCircle03"></label>
+					<div class="mainTitle">
+						<div class="titleLabel label03">03</div>
+						<div class="titleInner">
+							<div><h2>海外インターンシップ</h2></div>
+						</div>
+					</div>
+					<!-- mainTitle -->
+					<div class="detail">
+						<div class="detailInner">
+							<div class="subTitle">
+								<div class="circle"></div><div class="titleName">インド研修</div>
+							</div>
+							<div class="table">
+								<dl>
+									<dt>期間</dt><dd>2015年9月　4週間（高知1週間、インド3週間）</dd>
+									<dt>参加者</dt><dd>3名(学部3年)</dd>
+									<dt>渡航先</dt><dd>インド・マハーラーシュトラ州、プネー市</dd>
+								</dl>
+							</div>
+							<!-- table -->
+						</div>
+						<!-- detailinner -->
+						<div class="detailInner">
+							<div class="subTitle">
+								<div class="circle"></div><div class="titleName">ベトナム研修</div>
+							</div>
+							<div class="table">
+								<dl>
+									<dt>期間</dt><dd>2015年9月　4週間（高知2週間、ベトナム2週間）</dd>
+									<dt>参加者</dt><dd>1名(学部3年)</dd>
+									<dt>渡航先</dt><dd>ベトナム・ホーチミン市（工場はホーチミン市郊外）</dd>
+								</dl>
+							</div>
+							<!-- table -->
+						</div>
+						<!-- detailinner -->
+						<div class="detailInner">
+							<div class="subTitle">
+								<div class="circle"></div><div class="titleName">ベトナム研修</div>
+							</div>
+							<div class="table">
+								<dl>
+									<dt>期間</dt><dd>2015年9月　4週間（高知1週間、ベトナム3週間）</dd>
+									<dt>参加者</dt><dd>1名(学部3年)</dd>
+									<dt>渡航先</dt><dd>ベトナム・ホーチミン市（工場はホーチミン市郊外）</dd>
+								</dl>
+							</div>
+							<!-- table -->
+						</div>
+						<!-- detailinner -->
+						<div class="detailInner">
+							<div class="subTitle">
+								<div class="circle"></div><div class="titleName">オーストラリア研修</div>
+							</div><!-- subTitle -->
+							<div class="table">
+								<dl>
+									<dt>期間</dt><dd>2014年8月　9日間</dd>
+									<dt>参加者</dt><dd>1名</dd>
+									<dt>渡航先</dt><dd>オーストラリア・ビクトリア州(メルボルン郊外)</dd>
+								</dl>
+							</div>
+						</div><!-- detailInner -->
+					</div>
+					<!-- detail -->
+				</div>
+				<!-- contents03 -->
+				<div class="contents contents04">
+					<input type="checkbox" id="openButton04" name="button04">
+					<label for="openButton04" class="open openCircle04"></label>
+					<div class="mainTitle">
+						<div class="titleLabel label04">04</div>
+						<div class="titleInner">
+							<div><h2>協定締結大学一覧</h2></div>
+						</div>
+					</div>
+					<!-- mainTitle -->
+					<div class="detail">
+						<div class="detailInner">
+							<p>情報学群では、大学間の協定の他に情報学群と相手先学部と独自に協定を結び、<br>
+							「研究者、学生、学術情報の交流及び共同研究活動」を行い交流しています。</p>
+							<div class="map">
+								<img src="img/marker.svg" class="marker marker01">
+								<img src="img/marker.svg" class="marker marker02">
+								<img src="img/marker.svg" class="marker marker03">
+								<img src="img/marker.svg" class="marker marker04">
+								<div class="fukidasi">
+									<div class="fukidasiInner">
+										<img src="img/KUT_logo.gif">
+									</div>
+								</div>
+								<img src="img/map_asia.svg" class="mapAsia">
+								<div class="uniBox">
+									<div class="university university01">チェラロンコン大学 Chulalongkorn University 2015年3月から</div>
+									<div class="university university02">香港理工大学 The Hong Kong Polytechnic University 2014年3月から</div>
+									<div class="university university03">北京科技大学 University of Science and Technology Beijing 2013年9月から</div>
+									<div class="university university04">北京理工大学 Beijing Institute of Technology 2009年3月から</div>
+									<div class="university university05">吉林大学 Jilin University 2008年10月から</div>
+								</div><!-- uniBox -->
+							</div><!-- mapAsia -->
+							<!-- detailContents -->
+						</div>
+						<!-- inner -->
+					</div>
+					<!-- detail -->
+				</div>
+				<!-- contents04 -->
+				<div class="contents contents05">
+					<input type="checkbox" id="openButton05" name="button05">
+					<label for="openButton05" class="open openCircle05"></label>
+					<div class="mainTitle">
+						<div class="titleLabel label05">05</div>
+						<div class="titleInner">
+							<div><h2>外国人留学生</h2></div>
+						</div>
+					</div>
+					<!-- mainTitle -->
+					<div class="detail">
+						<div class="detailInner">
+							<div class="subTitle">
+								<div class="circle"></div><div class="titleName">外国人留学生(2016年4月現在)</div>
+							</div>
+							<ul>
+								<li>中国 4名</li>
+								<li>タイ 4名</li>
+								<li>バングラディッシュ 1名</li>
+								<li>インドネシア 1名</li>
+								<li>イラン 2名</li>
+								<li>スペイン 1名</li>
+							</ul>
+							の他、各国から多くの研究室生を受け入れています。
+						</div>
+						<!-- inner -->
+					</div>
+					<!-- detailInner -->
+				</div>
+				<!-- contents05 -->
+			</div>
+			<!-- main -->
+		</div>
+		<!-- baseContents -->
+        <!--#include file="footer.html"-->
+	</body>
+</html>

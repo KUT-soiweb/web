@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset="utf-8">
+   <title>キャンパスと設備</title>
+   <link rel="stylesheet" href="./css/campus_equipment.css" media="screen" title="no title" charset="utf-8">
+   <link rel="stylesheet" href="./css/base.css" media="screen" title="no title" charset="utf-8">
+   <link rel="icon" href="img/favicon2.png" type="image/png" />
+   <script type="text/javascript">
+       window.onload = function(){
+         headSerect(3);
+       }
+   </script>
+  </head>
+ <body>
+     <!--#include file="header.html"-->
+ <div id="baseContents">
+   <div class="pankuzu">
+     <a href="index.shtml">HOME</a> > <a href="campus_life.shtml">キャンパスライフ</a> > キャンパスと設備
+   </div> <!-- pankuzu -->
+   <div class="campus">
+   <div class="mainImage">
+     <img src="./img/Campus01-1.JPG" style="position: absolute"/>
+     <img src = "./img/Campus01.png" style="position: absolute"/>
+   </div><!-- mainImage -->
+   <div class="subTitle">
+     <h1>教育研究棟A</h1>
+     <h2>Wing-A</h2>
+   </div><!-- title -->
+   <div class="section">
+     <img src="./img/Campus01-2.jpg"/>
+   <div class="contents">
+       <br>
+       <p>　情報学群の研究室は、キャンパス西側の教育研究棟Aにあります。情報学群の学生は、主にこのA棟で活動することが多く、日々の講義を受けたり、研究を行ったりしてます。
+             ほかにもA棟には、情報学群の先生方の個室、実験などで使用するワークステーション、情報学群生実験室などがあります。
+             また、同じくA棟に位置する総合研究所・脳コミュニケーションセンターでは、fMRIや脳波測定システムなどを用いて、人間の脳と情報とを結びつける先進的研究が行われています。
+           このように充実した設備に囲まれ、静かな環境の中で集中して学業に励むことができます。</p>
+    </div><!-- contents -->
+   </div><!-- section -->
+ </div><!-- campus -->
+ <div class="campus">
+   <div class="mainImage">
+     <img src="./img/Campus02-1.jpg" style="position: absolute"/>
+     <img src = "./img/Campus02.png" style="position: absolute"/>
+   </div><!-- mainImage  -->
+   <div class="subTitle">
+     <h1>ワークステーション室</h1>
+     <h2>A-WorkStation,C-WorkStation</h2>
+   </div><!-- title -->
+   <div class="section">
+       <img src="./img/Campus02-2.jpg"/>
+     <div class="contents">
+       <p>　ワークステーションは、主にコンピュータを使用する講義で使われます。ワークステーョンはA/B/C棟にそれぞれにあり、
+         工科大生であれば自由に出入りでき、最新のWindowsまたはMac OSを搭載したコンピュータを使うことが出来ます。</p>
+       <p>　ワークステーションでの講義は、「情報科学１」・「情報科学２」や「情報学群実験第１」・「情報学群実験第２」などを筆頭に、その他講義や演習でも使用します。
+         そのため、情報学群の学生にはもっともなじみの深い教室となっています。</p>
+       <p>　講義などでワークステーションを使用していない時間は、レポート作成や印刷、プレゼンテーションの作成などが自由に行えます。
+         Microsoft Officeなどの一般的なソフトウェアはもちろんのこと、A/CワークステーションではMathematicaやMATLABなどの数値計算ツール、
+         XCodeやgccといった開発環境も自由に使うことができ、日頃の学業を支援するソフトウェアがそろっています。</p>
+     </div><!-- contents -->
+   </div><!-- section -->
+ </div><!-- campus -->
+   <div class="campus">
+   <div class="mainImage">
+     <img src = "./img/Campus03-1.jpg" style="position: absolute"/>
+     <img src = "./img/Campus03.png" style="position: absolute"/>
+   </div><!-- mainImage -->
+   <div class="subTitle">
+     <h1>MRIスキャナー</h1>
+     <h2>MRI Scanner</h2>
+   </div><!-- title -->
+   <div class="section">
+         <img src="./img/Campus03-2.jpg"/>
+   <div class="contents">
+       <br><br>
+       <p>　高知工科大学には脳コミュニケーション研究センターが所有するMRIスキャナーがあります。<br>
+        　 MRI(Magnetic Resonance Imaging)とは核磁気共鳴現象によって発生する信号(MR信号)を画像化する方法のことを指します。</p>
+         <p>　近年ではMRIを応用したfMRI(functionalMRI)という方法を用いた研究が多く行われています。fMRIは非侵襲的に神経細胞の活動に伴う脳血流の変化を調べることができます。
+         MRIスキャナーは脳神経を解明することを目的に、情報学群の研究でも使用されています。</p>
+   </div><!-- contents -->
+ </div><!-- section -->
+ </div><!-- campus -->
+ </div><!-- baseContents -->
+      <!--#include file="footer.html"-->
+ </body>
+</html>

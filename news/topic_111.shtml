@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>平成28年度情報学群卒業研究発表会のご案内</title>
+    <link rel="stylesheet" href="css/base.css" media="all" title="header" charset="utf-8" />
+    <link rel="stylesheet" href="css/topic_news_article.css" media="all" title="header" charset="utf-8" />
+    <link rel="icon" href="../img/favicon2.png" type="image/png" />
+    <script type="text/javascript">
+        window.onload = function(){
+          headSerect(0);
+        }
+    </script>
+  </head>
+  <body>
+    <!--#include file="header.html"-->
+    <div id="baseContents">
+      <div class="pankuzu">
+        <a href="../index.shtml">HOME</a> > <a href="../topic_news.shtml">Topics&amp;News</a> > News詳細
+      </div> <!-- pankuzu -->
+      <div class="subTitle">
+        <h1><span class="topChar">T</span>opics</h1><h2>and</h2><h1><span class="topChar">N</span>ews</h1>
+      </div><!-- title -->
+      <div class="newsArea">
+        <dt>2017.2.15</dt>
+        <h1>平成28年度情報学群卒業研究発表会のご案内</h1>
+        <hr />
+                <p class="mainSentence">
+        　下記日程のとおり、平成28年度情報学群卒業研究発表会が行われます。<br />
+<br />
+日　　時　：2017年2月20日(月) 一般公開13:00-17:30頃<br />
+　　　　　　2017年2月21日(火) 一般公開12:30-17:00頃<br />
+場　　所　：高知工科大学 <a href="http://www.kochi-tech.ac.jp/kut/about_KUT/access.html">香美キャンパス</a> 教育研究棟A106及びA107<br />
+問い合わせ：松崎 公紀准教授（matsuzaki.kiminori@kochi-tech.ac.jp）までお問い合わせください。<br />
+　　　　　　メールアドレスは迷惑メール対策のため、画像ファイルになっています。<br />
+　　　　　　お手数をお掛け致しますがご自身で打ち込んでご利用ください。<br />
+　　　　　　プログラムは<a href="http://www.info.kochi-tech.ac.jp/internal/BachelorPresentation2017.pdf">こちら</a>(学内限定)<br />
+備　　考　：プログラムは両教室にて同時進行で開催されます。        </p><!-- mainSentence -->
+              </div><!-- newsArea -->
+    </div><!-- baseContents -->
+    <!--#include file="footer.html"-->
+
+  </body>
+</html>

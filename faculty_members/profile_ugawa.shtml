@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	    <meta name="keyword" content="高知工科大学情報学群">
+	    <meta name="description" content="高知工科大学情報学群のホームページ">
+	    <title>鵜川 始陽</title>
+	    <link rel="stylesheet" type="text/css" href="css/base.css">
+	    <link rel="stylesheet" type="text/css" href="css/profile.css">
+			<link rel="icon" href="../img/favicon2.png" type="image/png" />
+	    <script type="text/javascript" src="js/switch.js"></script>
+			<script type="text/javascript">
+					window.onload = function(){
+						headSerect(2);
+					}
+			</script>
+</head>
+
+<body>
+<!--#include file="header.html"-->
+
+    <div id ="baseContents">
+
+	<div class="pankuzu">
+		<a href="../index.shtml">HOME</a> > <a href="../faculty_members.shtml">教員一覧</a> > 鵜川始陽
+	</div>
+	<!--pankuzu-->
+	<div class="main">
+      <div class="keireki">
+    <h1>鵜川 始陽<span class="hurigana"><span style="margin-right: 2.8em;"></span>Ugawa Tomoharu</span></h1>
+<div class="photo1">
+		<img src="img/Face-UgawaTomoharu.png" alt="顔の写真" class="facephoto">
+	</div>
+	<!--photo1-->
+		<div class="line"></div>
+    <h2>准教授<span>准教授室：A417</span></h2>
+
+
+    <input type="checkbox" id="Panel1" class="ExpandCheckBox" />
+		<label for="Panel1" class="open">
+		  <h3>
+				<img src="svg/Triangle_close-white.svg">&nbsp;プロフィール
+			</h3>
+
+  </label>
+		   <div class="panel">
+
+
+<dl>
+<dt>生年：</dt><dd>1978年</dd>
+<dt>出身：</dt><dd>香川県</dd>
+<dt>所属：</dt><dd>高知工科大学情報学群<br />
+　　　大学院工学研究科 基盤工学専攻 情報システム工学コース<br />
+　　　大学院工学研究科 基盤工学専攻 情報学コース</dd>
+<dt>所属学会：</dt><dd>ACM, 日本ソフトウェア科学会, 情報処理学会</dd>
+<dt>学位：</dt><dd>博士(情報学) </dd>
+<dt>最終学歴：</dt><dd>京都大学 情報学研究科 修了 (2005)</dd>
+<dt>相談可能分野：</dt><dd>プログラミング, プログラミング言語, 計算機システム, ソフトウェア</dd>
+<dt>趣味：</dt><dd>ボードゲーム</dd>
+<div class="mail1"><img src="svg/mail_ugawa.svg" alt="先生のmailアドレス" class="mail"></div>
+</dl>
+
+
+</div>
+<!--panel-->
+
+<a href="https://www.kochi-tech.ac.jp/profile/ja/ugawa-tomoharu.html" target="_blank"><div class="box3" style="float:right">▶ 工科大教員ページ</div></a>
+<a href="http://pl.info.kochi-tech.ac.jp/" target="_blank"><div class="box2" style="float:right">▶ 研究室ページ</div></a>
+<a href="http://spa.info.kochi-tech.ac.jp/~ugawa/" target="_blank"><div class="box1" style="float:right">▶ 教員個人ページ</div></a>
+<div class="clear"></div>
+</div>
+<!--keireki-->
+<div class="kennkyuusyoukai">
+	<div class="center1"><img src="svg/Heading-2.svg" alt="研究紹介"></div>
+
+<h2>プログラミングを簡単にする</h2>
+<h3>専門分野：プログラミング言語，システムソフトウェア </h3>
+<div class="center2">
+<p>
+　プログラマが計算機の動作を詳細かつ具体的に記述するのは大変です。計算機にやって欲しい事だけを抽象的でおおざっぱに記述すれば、残りはシステムがうまくやってくれる。それが可能になるような言語やシステムソフトウェアの研究をしています。</p>
+</div>
+<!--center2-->
+ <div class="kennkyuuryouiki">
+<input type="checkbox" id="Panel2" class="ExpandCheckBox" />
+	 <label for="Panel2" class="open">
+		 <h3><img src="svg/Triangle_close-pink.svg">&nbsp;現在の研究領域</h3>
+	 </label>
+
+	 	 <div class="panel">
+
+<a>
+<div class="circle1"></div>スマートフォンアプリを実行した時のバッテリの消費を抑える研究<br />
+</a>
+<a>
+<div class="circle2"></div>オンザフライでメモリフラグメンテーションを解消する研究<br />
+</a>
+<a>
+<div class="circle3"></div>Androidの実時間ガベージコレクションの研究<br />
+</a>
+</div>
+<!--panel-->
+</div>
+<!--kennkyuuryouiki-->
+
+
+<div class="kennkyuuronnbunn">
+	<input type="checkbox" id="Panel3" class="ExpandCheckBox" />
+	<label for="Panel3" class="open">
+		<h3><img src="svg/Triangle_close-pink.svg">&nbsp;代表的な研究論文など</h3>
+	</label>
+
+		<div class="panel">
+<ul>
+	<dl>
+<li><div class="circle1"></div>&emsp;Reference object processing in on-the-fly garbage collection</li>
+　　　　<dt>著者<span style="margin-right: 1em;"></span>：</dt><dd>Tomoharu Ugawa, Richard E. Jones, Carl G. Ritson</dd>
+　　　　<dt>発表誌：</dt><dd>International Symposium on Memory Management (ISMM 2014), <br />
+	 pp.59--69.(2014)</dd>
+　　　　<dt>発表年：</dt><dd>2014</dd>
+<div class="clear"></div>
+<li><div class="circle2"></div>&emsp;Improvements of Recovery from Marking Stack Overflow in Mark Sweep Garbage Collection</li>
+　　　　<dt>著者<span style="margin-right: 1em;"></span>：</dt><dd>Tomoharu Ugawa, Hideya Iwasaki, Taiichi Yuasa</dd>
+　　　　<dt>発表誌：</dt><dd>IPSJ Transactions on Programming,<br />
+	 Vol. 5, No. 1(2012), pp. 1–8.(2012)</dd>
+　　　　<dt>発表年：</dt><dd>2012</dd>
+<div class="clear"></div>
+<li><div class="circle3"></div>&emsp;Improved replication-based incremental garbage collection for embedded systems</li>
+　　　　<dt>著者<span style="margin-right: 1em;"></span>：</dt><dd>Tomoharu Ugawa, Hideya Iwasaki, Taiichi Yuasa</dd>
+　　　　<dt>発表誌：</dt><dd> International Symposium on Memory Management (ISMM 2010),<br />
+	 pp.73--82.(2010)</dd>
+　　　　<dt>発表年：</dt><dd>2010</dd>
+<div class="clear"></div>
+
+</dl>
+</div>
+<!--kennkyuronnbunn-->
+</div>
+<!--kennkyuushhyoukai-->
+</div>
+<!--kennkyuunaiyou-->
+<div class="kennkyuushitusyoukai">
+	<div class="center1"><img src="svg/Heading-3.svg" alt="研究室紹介"></div>
+
+<div class="Lab_photo">
+<img src="img/Lab-ugawa_1.jpg" alt="研究室の写真" id="Lab_main" />
+</div>
+
+<h2>プログラミング言語研究室：A361</h2>
+<p>
+　専門的なプログラミングの知識がなくても、簡単に高品質なプログラムが作れるようになることを目指しています。そのために、プログラムを書くための言語(プログラミング言語)や、作ったプログラムを効率よく実行するためのシステムを研究しています。</p>
+</div>
+<!--kennkyuushitusyoukai-->
+<div class="kuhaku"></div>
+<div class="kougikamoku">
+<h2>講義科目</h2>
+<dl>
+<dd>情報代数, 情報学群実験第2, コンパイラ</dd>
+</dl>
+<h2>受け入れ可能な専攻</h2>
+<p>
+情報通信専攻<br />
+コンピュータサイエンス専攻<br />
+</p>
+
+</div>
+<!--kougikamoku-->
+<div class="photo3"><img src="img/Body-UgawaTomoharu.jpg" alt="先生全身画像"></div>
+</div>
+<!--main-->
+</div>
+<!--baseContents-->
+
+<!--#include file="footer.html"-->
+</body>
+</html>

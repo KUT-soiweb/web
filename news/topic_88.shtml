@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>学士4年生による情報学群 卒業研究発表会が行われました。</title>
+    <link rel="stylesheet" href="css/base.css" media="all" title="header" charset="utf-8" />
+    <link rel="stylesheet" href="css/topic_news_article.css" media="all" title="header" charset="utf-8" />
+    <link rel="icon" href="../img/favicon2.png" type="image/png" />
+    <script type="text/javascript">
+        window.onload = function(){
+          headSerect(0);
+        }
+    </script>
+  </head>
+  <body>
+    <!--#include file="header.html"-->
+    <div id="baseContents">
+      <div class="pankuzu">
+        <a href="../index.shtml">HOME</a> > <a href="../topic_news.shtml">Topics&amp;News</a> > News詳細
+      </div> <!-- pankuzu -->
+      <div class="subTitle">
+        <h1><span class="topChar">T</span>opics</h1><h2>and</h2><h1><span class="topChar">N</span>ews</h1>
+      </div><!-- title -->
+      <div class="newsArea">
+        <dt>2016.2.15-216</dt>
+        <h1>学士4年生による情報学群 卒業研究発表会が行われました。</h1>
+        <hr />
+                <div class="mainImgArea">
+          <img src="img/id88_1.jpg" class="mainImg" />
+        </div><!-- mainImgArea -->
+                <p class="mainSentence">
+        　平成28年2月15-16日、本学 K棟にて、情報学群 学士学位論文・プロジェクト研究の発表会が行われました。<br />
+　計81人の学生が多くの聴講者の前で、4年間の集大成となる発表を行いました。        </p><!-- mainSentence -->
+                <div class="subArea">
+                    <p>
+            　多くの学生が初めての研究発表の場となった今回、緊張した面持ちながらも堂々とした姿で発表に臨んでいました。<br />
+　教員たちの鋭い質疑にも根拠づけた素晴らしい返答を行い、来年度に発表を行う研究室の後輩も良い刺激を受けたのではないでしょうか。          </p>
+                      <img src="img/id88_2.jpg" />
+                  </div><!-- subArea -->
+              </div><!-- newsArea -->
+    </div><!-- baseContents -->
+    <!--#include file="footer.html"-->
+
+  </body>
+</html>

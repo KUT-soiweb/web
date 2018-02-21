@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+/* title */
+#baseContents .subTitle {
+  font-size: 250%;
+  font-weight: bold;
+  float: left;
+  line-height: 130%;
+  margin: 30px 20px 0px;
+  text-align: center;
+  width: 130px;
+}
+
+#baseContents .subTitle .topChar {
+  color: #71cdf2;
+}
+
+#baseContents .subTitle h2 {
+  font-size: 70%;
+  font-weight: normal;
+}
+
+/* news area */
+#baseContents .newsArea {
+  float: right;
+  margin-top: 40px;
+  margin-bottom: 150px;
+  width: 750px;
+}
+
+#baseContents .newsArea dt {
+  font-weight: bold;
+}
+
+#baseContents .newsArea dt::before{
+  content: url("../img/alarm.svg");
+  margin-right: 10px;
+}
+
+#baseContents .newsArea h1 {
+  color: #71cdf2;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+#baseContents .newsArea hr {
+  margin-top: 20px;
+}
+
+#baseContents .newsArea .mainImgArea {
+  text-align: center;
+}
+
+#baseContents .newsArea .mainImg {
+  display: inline-block;
+  margin-top: 20px;
+  width: 100%;
+}
+
+#baseContents .newsArea .mainSentence {
+  margin-top: 20px;
+}
+
+#baseContents .newsArea .subArea {
+  clear: both;
+  height: 200px;
+  margin-top: 70px;
+}
+
+#baseContents .newsArea .subArea h3 {
+    font-size: 90%;
+}
+
+#baseContents .newsArea .subArea p {
+  float: left;
+  width: 50%;
+}
+
+#baseContents .newsArea .subArea img {
+  float: right;
+  width: 40%;
+}
+
+#baseContents .newsArea a {
+  color: #4a90e2;
+}
+
+#baseContents .newsArea a:hover {
+  text-decoration: underline;
+}
+
+#baseContents .newsArea .subArea .caption1 span {
+  float: right;
+  margin-right: 100px;
+  line-height: 30px;
+  text-align: center;
+}
+
+#baseContents .newsArea .subArea .caption2 span {
+  float: left;
+  margin-left: 550px;
+  line-height: 30px;
+  text-align: center;
+}

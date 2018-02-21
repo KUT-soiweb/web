@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>平成28年度修士論文発表会が行われました。</title>
+    <link rel="stylesheet" href="css/base.css" media="all" title="header" charset="utf-8" />
+    <link rel="stylesheet" href="css/topic_news_article.css" media="all" title="header" charset="utf-8" />
+    <link rel="icon" href="../img/favicon2.png" type="image/png" />
+    <script type="text/javascript">
+        window.onload = function(){
+          headSerect(0);
+        }
+    </script>
+  </head>
+  <body>
+    <!--#include file="header.html"-->
+    <div id="baseContents">
+      <div class="pankuzu">
+        <a href="../index.shtml">HOME</a> > <a href="../topic_news.shtml">Topics&amp;News</a> > News詳細
+      </div> <!-- pankuzu -->
+      <div class="subTitle">
+        <h1><span class="topChar">T</span>opics</h1><h2>and</h2><h1><span class="topChar">N</span>ews</h1>
+      </div><!-- title -->
+      <div class="newsArea">
+        <dt>2017.2.10</dt>
+        <h1>平成28年度修士論文発表会が行われました。</h1>
+        <hr />
+                <div class="mainImgArea">
+          <img src="img/id113_1.JPG" class="mainImg" />
+        </div><!-- mainImgArea -->
+                <p class="mainSentence">
+        　2017年2月8日、本学講堂で平成28年度修士論文発表会が行われました。5つのセッションに分かれ、15名の学生が質疑応答を含めた20分の発表を行いました。        </p><!-- mainSentence -->
+                <div class="subArea">
+                    <p>
+            　どの発表も高度かつ専門性の高い内容で、中には学部時の研究を活かしてさらに内容を発展させた発表もあり、学生がこれまでに本学で学んできた知識や技術の集大成として相応しい研究内容でした。このことから、15名の学生の自身の研究に対する取り組みが素晴らしいものであったとひしひしと伝わってきました。          </p>
+                      <img src="img/id113_2.JPG" />
+                  </div><!-- subArea -->
+                <div class="subArea">
+                    <p>
+            　また、発表者の威風堂々とした姿が発表の最中や質疑に対する応答から感じられました。この姿を観た学生、特に2017年2月20日,21日に論文発表を控えている学部4年生にはとても良い刺激になったのではないでしょうか。          </p>
+                    <img src="img/id113_3.JPG" />
+                  </div><!-- subArea -->
+              </div><!-- newsArea -->
+    </div><!-- baseContents -->
+    <!--#include file="footer.html"-->
+
+  </body>
+</html>

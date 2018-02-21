@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>吉林大学珠海学院と覚書を締結しました。</title>
+    <link rel="stylesheet" href="css/base.css" media="all" title="header" charset="utf-8" />
+    <link rel="stylesheet" href="css/topic_news_article.css" media="all" title="header" charset="utf-8" />
+    <link rel="icon" href="../img/favicon2.png" type="image/png" />
+    <script type="text/javascript">
+        window.onload = function(){
+          headSerect(0);
+        }
+    </script>
+  </head>
+  <body>
+    <!--#include file="header.html"-->
+    <div id="baseContents">
+      <div class="pankuzu">
+        <a href="../index.shtml">HOME</a> > <a href="../topic_news.shtml">Topics&amp;News</a> > News詳細
+      </div> <!-- pankuzu -->
+      <div class="subTitle">
+        <h1><span class="topChar">T</span>opics</h1><h2>and</h2><h1><span class="topChar">N</span>ews</h1>
+      </div><!-- title -->
+      <div class="newsArea">
+        <dt>2018.1.19</dt>
+        <h1>吉林大学珠海学院と覚書を締結しました。</h1>
+        <hr />
+                <div class="mainImgArea">
+          <img src="img/id211_1.jpg" class="mainImg" />
+        </div><!-- mainImgArea -->
+                <p class="mainSentence">
+        　吉林大学珠海学院より副学長など3名の先生方が来訪され、本学情報学群と以下の覚書を締結しました。<br />
+<br />
+1. 高知工科大学学生の珠海学院でのインターンシップ<br />
+2. 珠海学院の先生による高知工科大学での情報科目（英語）の提供<br />
+<br />
+　これにより、大学院に進学する学生は珠海学院で短期長期の研究インターンシップが行えるようになりました。また、大学院において英語で提供される専門科目数が増え、内容も多彩なものになることが期待されます。        </p><!-- mainSentence -->
+                <div class="subArea">
+                    <p>
+            　珠海市は中国の中でも南方に位置し香港マカオの隣の都市になります。時価総額世界トップ10のIT企業をはじめ、世界のIT中心地の一つの深センからも近く急成長している都市の1つです。          </p>
+                      <img src="img/id211_2.jpg" />
+                  </div><!-- subArea -->
+              </div><!-- newsArea -->
+    </div><!-- baseContents -->
+    <!--#include file="footer.html"-->
+
+  </body>
+</html>

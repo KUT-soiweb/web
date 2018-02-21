@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Topic and News</title>
+    <link rel="stylesheet" href="css/base.css" media="all" title="header" charset="utf-8" />
+    <link rel="stylesheet" href="css/topic_news_article.css" media="all" title="header" charset="utf-8" />
+    <link rel="icon" href="../img/favicon2.png" type="image/png" />
+    <script type="text/javascript">
+        window.onload = function(){
+          headSerect(0);
+        }
+    </script>
+  </head>
+  <body>
+    <!--#include file="header.html"-->
+    <div id="baseContents">
+      <div class="pankuzu">
+        <a href="../index.shtml">HOME</a> > <a href="../topic_news.shtml">Topics&amp;News</a> > News詳細
+      </div> <!-- pankuzu -->
+      <div class="subTitle">
+        <h1><span class="topChar">T</span>opics</h1><h2>and</h2><h1><span class="topChar">N</span>ews</h1>
+      </div><!-- title -->
+      <div class="newsArea">
+        <dt>2017.7.29-730</dt>
+        <h1>平成29年度オープンキャンパスが開催されました。</h1>
+        <hr />
+                <div class="mainImgArea">
+          <img src="img/id176_1.jpg" class="mainImg" />
+        </div><!-- mainImgArea -->
+        
+        <!--メインセンテンス部分(body1部分)-->
+        <p class="mainSentence">
+        <!--ここに本文を書いてください-->
+        　平成29年度高知工科大学オープンキャンパスが7月29日と7月30日の2日間に渡って行われました。今年は暑い日差しの中、県内外から昨年と同様に多くの方々が足を運んでくださいました。
+      </br>　(2日間総合:2,783名　内高校生:1,970名　　昨年:2,827名　内高校生:1,904名)
+        </p><!-- mainSentence -->
+
+        <div class="subArea">
+          <p>
+          <!--ここに補助文を書いてください(body2部分)-->
+          　それぞれの研究室では、展示したパネルなどを使って訪問者に分かりやすく研究室の説明を行っていました。実際に作ったアプリを触ってもらったり、ゲームやドローンを動かしてもらったりすることで、より皆様に楽しみながら情報技術に触れてもらえたと思います。
+        </br>　また、どの研究室でも難しい研究内容を一生懸命理解しようと説明に耳を傾け、時には積極的に質問をする高校生たちの姿が見られました。
+          </p>
+                      <img src="img/id176_2.jpg" />
+                  </div><!-- subArea -->
+
+        <div class="subArea">
+          <p>
+          <!--ここに補助文を書いてください(body3部分)-->
+          　情報学群説明会では席が満員になってしまい、隣の部屋へと中継を繋いで話を聞いていただくほど多くの方が参加してくださいました。
+        </br>　説明会は学群長である濵村昌則教授が、高知工科大学の沿革や情報学群の目標、制度などについて説明しました。高校生や保護者の方々はメモを取りながら熱心に話を聞いてくださいました。情報学群の魅力が伝わり、参加者にとってはとても有意義な時間となったと思います。
+          </p>
+                      <img src="img/id176_3.jpg" />
+                  </div><!-- subArea -->
+        <!--まとめ部分(body4部分)-->
+        <p class="mainSentence">
+        <!--ここにまとめを書いてください-->
+      </br>　参加者からは、「MRIに興味がでた」、「いろいろな研究があっておもしろい！」などの満足げなコメントを頂くことができました。
+    </br>　2日とも暑い中ではありましたが、平成29年度高知工科大学情報学群オープンキャンパスにお越し頂きありがとうございました。来年もご来場お待ちしております。
+  </br>　
+</br>　<a href= "../oc_2017/index.shtml">平成29年度オープンキャンパス特設ページ</a>
+        </p><!-- mainSentence -->
+
+       </div><!-- newsArea -->
+    </div><!-- baseContents -->
+    <!--#include file="footer.html"-->
+
+  </body>
+</html>

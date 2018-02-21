@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>情報学群1年生24名の投稿が5,6,7,8月の高知新聞「声ひろば」に掲載されました。</title>
+    <link rel="stylesheet" href="css/base.css" media="all" title="header" charset="utf-8" />
+    <link rel="stylesheet" href="css/topic_news_article.css" media="all" title="header" charset="utf-8" />
+    <link rel="icon" href="../img/favicon2.png" type="image/png" />
+    <script type="text/javascript">
+        window.onload = function(){
+          headSerect(0);
+        }
+    </script>
+  </head>
+  <body>
+    <!--#include file="header.html"-->
+    <div id="baseContents">
+      <div class="pankuzu">
+        <a href="../index.shtml">HOME</a> > <a href="../topic_news.shtml">Topics&amp;News</a> > News詳細
+      </div> <!-- pankuzu -->
+      <div class="subTitle">
+        <h1><span class="topChar">T</span>opics</h1><h2>and</h2><h1><span class="topChar">N</span>ews</h1>
+      </div><!-- title -->
+      <div class="newsArea">
+        <dt>2017.8.29</dt>
+        <h1>情報学群1年生24名の投稿が5,6,7,8月の高知新聞「声ひろば」に掲載されました。</h1>
+        <hr />
+                <p class="mainSentence">
+        <a href="https://www.kochinews.co.jp/article/99516/">5月 18日 (木) 貞松涼香　「１センチ差の負け」</a>　<br />
+<a href="https://www.kochinews.co.jp/article/99776/">5月 19日 (金) 岩本大河 「心はどこに？」</a><br />
+<a href="https://www.kochinews.co.jp/article/100070/">5月 20日 (土) 高井良太 「迸るパトス」</a><br />
+<a href="https://www.kochinews.co.jp/article/100239/">5月 21日 (日) 谷口圭人 「雨の日」</a><br />
+<a href="https://www.kochinews.co.jp/article/100639/">5月 23日 (火) 日下泉 「初めての１人暮らし」</a><br />
+<a href="https://www.kochinews.co.jp/article/100902/">5月 24日 (水) 多賀栞 「転機」</a><br />
+<a href="https://www.kochinews.co.jp/article/102714/">6月　1日 (木) 岡野秀平 「近づく別れ」</a><br />
+<a href="https://www.kochinews.co.jp/article/103713/">6月　6日 (火) 大久保まい 「これからの自分」</a><br />
+<a href="https://www.kochinews.co.jp/article/103953/">6月　7日 (水) 尾立渉 「感動を伝える」</a><br />
+<a href="https://www.kochinews.co.jp/article/107871/">6月 25日 (日) 信原崇志 「地震が起きたとき」</a>　<br />
+<a href="https://www.kochinews.co.jp/article/110486/">7月　7日 (金) 藤田竜世 「浪人の価値」</a><br />
+<a href="https://www.kochinews.co.jp/article/111051/">7月 10日 (月) 三谷愛 「本の言葉」</a><br />
+<a href="https://www.kochinews.co.jp/article/111262/">7月 11日 (火) 松村直和 「日本と韓国そして海外」</a><br />
+<a href="https://www.kochinews.co.jp/article/111767/">7月 13日 (木) 森大樹 「４カ月目の大学生活」</a><br />
+<a href="https://www.kochinews.co.jp/article/112259/">7月 15日 (土) 塚田麻友 「無くてはならない音楽」</a><br />
+<a href="https://www.kochinews.co.jp/article/112444/">7月 16日 (日) 藤原晴 「脳裏に浮かぶ人たち」</a><br />
+<a href="https://www.kochinews.co.jp/article/113170/">7月 20日 (木) 古島直樹 「日常が全て」</a><br />
+<a href="https://www.kochinews.co.jp/article/113877/">7月 23日 (日) 徳石真衣子 「記憶に残る一枚」</a><br />
+<a href="https://www.kochinews.co.jp/article/114676/">7月 27日 (木) 鍋島可野香 「自然を感じる」</a><br />
+<a href="https://www.kochinews.co.jp/article/115502/">7月 31日 (月) 平岡優海 「君へのラブレター」</a><br />
+<a href="https://www.kochinews.co.jp/article/115986/">8月　2日 (水) 松井佑介 「納得してしまう誤字」</a><br />
+<a href="https://www.kochinews.co.jp/article/116522/">8月　4日 (金) 松尾あかり 「陸上は究極の団体競技」</a><br />
+<a href="https://www.kochinews.co.jp/article/116910/">8月　6日 (日) 近森凪沙 「ＳＮＳでの会話」</a><br />
+<a href="https://www.kochinews.co.jp/article/117502/">8月　9日 (水) 寺川れいあ 「私の日々の癒やし」</a>        </p><!-- mainSentence -->
+              </div><!-- newsArea -->
+    </div><!-- baseContents -->
+    <!--#include file="footer.html"-->
+
+  </body>
+</html>

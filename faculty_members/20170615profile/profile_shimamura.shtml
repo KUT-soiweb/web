@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	    <meta name="keyword" content="高知工科大学情報学群">
+	    <meta name="description" content="高知工科大学情報学群のホームページ">
+	    <title>島村 和典</title>
+	    <link rel="stylesheet" type="text/css" href="css/base.css">
+	    <link rel="stylesheet" type="text/css" href="css/profile.css">
+			<link rel="icon" href="../img/favicon2.png" type="image/png" />
+	    <script type="text/javascript" src="js/switch.js"></script>
+			<script type="text/javascript">
+					window.onload = function(){
+						headSerect(2);
+					}
+			</script>
+</head>
+
+<body>
+<!--#include file="header.html"-->
+
+    <div id ="baseContents">
+
+	<div class="pankuzu">
+		<a href="../index.shtml">HOME</a> > <a href="../faculty_members.shtml">教員一覧</a> > 島村和典
+	</div>
+	<!--pankuzu-->
+	<div class="main">
+      <div class="keireki">
+    <h1>島村 和典<span class="hurigana"><span style="margin-right: 2.8em;"></span>Shimamura Kazunori</span></h1>
+<div class="photo1">
+		<img src="img/Face-ShimamuraKazunori.png" alt="顔の写真" class="facephoto">
+	</div>
+	<!--photo1-->
+		<div class="line"></div>
+    <h2>教授<span>教授室:A421</span></h2>
+
+
+    <input type="checkbox" id="Panel1" class="ExpandCheckBox" />
+		<label for="Panel1" class="open">
+		  <h3>
+				<img src="svg/Triangle_close-white.svg">&nbsp;プロフィール
+			</h3>
+
+  </label>
+		   <div class="panel">
+
+
+<dl>
+<dt>生年　:</dt><dd>　1948年</dd>
+<dt>出身　:</dt><dd>　高知県</dd>
+<dt>所属　:</dt><dd>　高知工科大学情報学群<br />
+大学院工学研究科 基盤工学専攻 情報システム工学コース</dd>
+<dt>所属会　:</dt><dd>　電子情報通信学会、映像情報メディア学会、情報処理学会、画像電子学会、IEEE</dd>
+<dt>学位　:</dt><dd>　工学博士(大阪大学、1991年)</dd>
+<dt>学歴　:</dt><dd>　大阪大学大学院 工学研究科 電気工学専攻 修士課程修了</dd>
+<dt>相談可能分野　:</dt><dd>　画像通信システム、ディジタル通信網、IPマルチメディア通信方式</dd>
+<dt>趣味　:</dt><dd>　ボタニカルドローウィング</dd>
+<div class="mail1"><img src="svg/mail_shimamura.svg" alt="先生のmailアドレス" class="mail"></div>
+</dl>
+
+
+</div>
+<!--panel-->
+
+<a href="http://www.kochi-tech.ac.jp/kut/about_KUT/faculty_members/prof/shimamura-kazunori.html" target="_blank"><div class="box3" style="float:right">▶ 工科大教員ページ</div></a>
+<a href="http://p-lab.jp/" target="_blank"><div class="box2" style="float:right">▶ 研究室ページ</div></a>
+
+<div class="clear"></div>
+</div>
+<!--keireki-->
+<div class="kennkyuusyoukai">
+	<div class="center1"><img src="svg/Heading-2.svg" alt="研究紹介"></div>
+
+<h2>次世代インターネットでより身近なAV通信を</h2>
+<h3>専門分野 ： 画像通信方式、ディジタル通信網工学、IPマルチメディア通信方式</h3>
+<div class="center2">
+<p>次世代のインターネットは、通信路の帯域が飛躍的に向上して、多くの帯域を要するAudio・Visual通信を身近な生活基盤にします。インターネットコミュニケーションも新しいC/S規約やクラウドの提供サービス利用へと中心技術が変革していきます。この通信基盤の能力を具体的な高品質サービスに繋げる研究や、人とのつながりをいつでも感じられる新機能技術を研究しています。</p>
+</div>
+<!--center2-->
+ <div class="kennkyuuryouiki">
+<input type="checkbox" id="Panel2" class="ExpandCheckBox" />
+	 <label for="Panel2" class="open">
+		 <h3><img src="svg/Triangle_close-pink.svg">&nbsp;現在の研究領域</h3>
+	 </label>
+
+	 	 <div class="panel">
+
+<a>
+<div class="circle1"></div>次世代インターネット技術<br />
+</a>
+<a>
+<div class="circle2"></div>フルメディア通信アプリケーション<br />
+</a>
+<a>
+<div class="circle3"></div>RFID通信方式<br />
+</a>
+</div>
+<!--panel-->
+</div>
+<!--kennkyuuryouiki-->
+
+
+<div class="kennkyuuronnbunn">
+	<input type="checkbox" id="Panel3" class="ExpandCheckBox" />
+	<label for="Panel3" class="open">
+		<h3><img src="svg/Triangle_close-pink.svg">&nbsp;代表的な研究論文など</h3>
+	</label>
+
+		<div class="panel">
+<ul>
+	<dl>
+<li><div class="circle1"></div>&emsp;イタリア　Ca'Foscari 滞在見聞</li>
+　　　　<dt>著者<span style="margin-right: 1em;"></span>：</dt><dd>島村 和典</dd>
+　　　　<dt>発表誌：</dt><dd>高知工科大学紀要, Vol.9, No.1， pp.243-247</dd>
+　　　　<dt>発表年：</dt><dd>2012</dd>
+<div class="clear"></div>
+<li><div class="circle2"></div>&emsp;下手の嘆き</li>
+　　　　<dt>著者<span style="margin-right: 1em;"></span>：</dt><dd>島村 和典</dd>
+　　　　<dt>発表誌：</dt><dd>画像電子学会誌</dd>
+　　　　<dt>発表年：</dt><dd>2010</dd>
+<div class="clear"></div>
+<li><div class="circle3"></div>&emsp;RFIDとGPSを利用したロケーション情報統合方式の一提案</li>
+　　　　<dt>著者<span style="margin-right: 1em;"></span>：</dt><dd>重松 史哉, 川村 裕介, 島村 和典</dd>
+　　　　<dt>発表誌：</dt><dd>電子情報通信学会技術研究報告. USN, Vol.109, pp.51-55</dd>
+　　　　<dt>発表年：</dt><dd>2010</dd>
+<div class="clear"></div>
+<li><div class="circle1"></div>&emsp;Enhancement of reliability using redundancy configuration in Control Signal overlaid architecture</li>
+	　　　 <dt>著者<span style="margin-right: 1em;"></span>：</dt><dd> Y. Tokuhiro, H. Abe, SHIMAMURA, Kazunori</dd>
+　　　　<dt>発表誌：</dt><dd>iwit 2009, pp.2-5</dd>
+　　　　<dt>発表年：</dt><dd>2009</dd>
+<div class="clear"></div>
+<li><div class="circle2"></div>&emsp;The network management scheme for effective consolidation of RFID-tag standards</li>
+　　　　<dt>著者<span style="margin-right: 1em;"></span>：</dt><dd>Yusuke KAWAMURA, SHIMAMURA, Kazunori</dd>
+　　　　<dt>発表誌：</dt><dd>Proceedings of APNOMS 2009 - The 12th Asia-Pacific Network <br />
+Operations and Management Symposium 2009, Venue/Country: Jeju Island,South Korea</dd>
+　　　　<dt>発表年：</dt><dd>2009</dd>
+</dl>
+</div>
+<!--kennkyuronnbunn-->
+</div>
+<!--kennkyuushhyoukai-->
+</div>
+<!--kennkyuunaiyou-->
+<div class="kennkyuushitusyoukai">
+	<div class="center1"><img src="svg/Heading-3.svg" alt="研究室紹介"></div>
+
+<div class="Lab_photo">
+  <img src="img/Lab-shimamura_1.jpg" alt="研究室の写真" id="Lab_main" />
+</div>
+
+<h2>Chipped City基盤の研究室：A358</h2>
+<p>通信は個人や企業の活動の重要な基盤です。その情報伝達ネットワークは高速化が進み、インターネット通信がますます高度に・ますます頻繁に利用されています。この通信方式の革新を目指した研究をしています。具体的には、広帯域ネットワーク下のAudio Visual コンテンツの配信技術、新しい通信の仕方につながる通信インターフェース、RFIDタグを用いた新しいアプリケーションの提案とその通信プロトコルの研究、さらに、次世代ＩＰネットワークアーキテクチャへの新たな提案研究などを進めています。</p>
+</div>
+<!--kennkyuushitusyoukai-->
+<div class="koukouseihe">
+<div class="photo2"><img src="svg/StaffDetail_balloon.svg" alt="吹き出し"></div>
+<h1>高校生のみなさんへ</h1>
+<div class="kotoba">
+　「花の一輪開くにも　天地いっぱい総がかり」皆さん個人個人はこれまで多くの人に支えられてきたおかげだと思います。その感謝の気持ちを大切にしながら、やりたいっ！と思うことをたくさん実現して欲しいと思います。
+</div>
+<!--kotoba-->
+</div>
+<!--koukouseihe-->
+<div class="kougikamoku">
+<h2>講義科目</h2>
+
+	<dl>
+<dt>学部：</dt><dd>通信方式、情報ネットワーク設計、情報と職業</dd>
+</dl>
+
+</div>
+<!--kougikamoku-->
+<div class="photo3"><img src="img/Body-ShimamuraKazunori.jpg" alt="先生全身画像"></div>
+</div>
+<!--main-->
+</div>
+<!--baseContents-->
+
+<!--#include file="footer.html"-->
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Topic and News</title>
+    <link rel="stylesheet" href="css/base.css" media="all" title="header" charset="utf-8" />
+    <link rel="stylesheet" href="css/topic_news_article.css" media="all" title="header" charset="utf-8" />
+    <link rel="icon" href="../img/favicon2.png" type="image/png" />
+    <script type="text/javascript">
+        window.onload = function(){
+          headSerect(0);
+        }
+    </script>
+  </head>
+  <body>
+    <!--#include file="header.html"-->
+    <div id="baseContents">
+      <div class="pankuzu">
+          <a href="../index.shtml">HOME</a> > <a href="../topic_news.shtml">Topics&amp;News</a> > News詳細
+      </div> <!-- pankuzu -->
+      <div class="subTitle">
+        <h1><span class="topChar">T</span>opics</h1><h2>and</h2><h1><span class="topChar">N</span>ews</h1>
+      </div><!-- title -->
+      <div class="newsArea">
+        <dt>2015.08.02</dt>
+        <h1>2015年度第2回オープンキャンパスを開催しました</h1>
+        <hr />
+        <div class="mainImgArea">
+          <img src="img/OC_20150802-1.jpg" class="mainImg" />
+        </div><!-- mainImgArea -->
+        <p class="mainSentence">
+          　8月2日、高知工科大学にて平成27年度第2回オープンキャンパスが開催されました。<br />
+          梅雨もあけた暑い日差しの中、県内だけでなく県外からも多くの来場者が訪れました。<br />
+          　　　香美キャンパス  1036名(うち高校生756名)<br />
+          　　　永国寺キャンパス  430名(うち高校生396名)  *高知県立大学と同時開催
+        </p><!-- mainSentence -->
+        <div class="subArea">
+          <p>
+             　A106で行われた情報学群説明会は、空席を探すのが難しいほどの盛況でした。 今回は学群長・清水明宏教授の代理として岩田誠教授によって、 授業形態から研究内容まで幅広い情報学群についての説明が行われました。 本学群の入学を希望する高校生やその親御さんまで、熱心に耳を傾け、 入学に対する意欲がとても伝わってきました。
+          </p>
+          <img src="img/OC_20150802-2.jpg" />
+        </div><!-- subArea -->
+        <div class="subArea">
+          <p>
+             　また各研究室では、それぞれの研究内容に沿ったプレゼンテーションや体験型の展示などが行われました。情報技術に関する説明を、情報技術に触れたことのない来場者にもわかりやすく伝えるための様々な工夫が凝らされており、誰もが興味を示し楽しめる内容となっていたと思います。
+           </p>
+          <img src="img/OC_20150802-3.jpg" />
+        </div><!-- subArea -->
+        <p class="mainSentence">
+          　「楽しかった」や「去年も来ました、来年も来たい」、「高知工科大学に入学したくなった」など、来場者からのうれしい声もいただきました。多くの来場者のより高知工科大学情報学群がより一層活気づいたのではないかと感じます。来年度もみなさまのご参加をお待ちしております。
+        </p><!-- mainSentence -->
+      </div><!-- newsArea -->
+    </div><!-- baseContents -->
+    <!--#include file="footer.html"-->
+
+  </body>
+</html>

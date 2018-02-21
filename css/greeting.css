@@ -1,0 +1,31 @@
+
+
+
+/*写真*/
+#baseContents img {
+  background-color: #5c5c5c;
+  float: left;
+  width: 200px;
+  margin: 20px 0px 30px 40px;
+}
+
+/*
+#baseContents .mainContents {
+  width: 750px;
+  margin: 150px auto 0px;
+}
+*/
+
+#baseContents .mainContents .salutation {
+  float: right;
+  width: 690px;
+/*  margin:15px 15px 30px 0px; */
+  margin:10px auto 0px;
+}
+
+#baseContents .mainContents #clearLeft {
+  clear: left;
+  float: right;
+  text-align: right;
+  margin: 0px 20px 50px 0px;
+}

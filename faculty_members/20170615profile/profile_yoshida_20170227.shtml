@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	    <meta name="keyword" content="高知工科大学情報学群">
+	    <meta name="description" content="高知工科大学情報学群のホームページ">
+	    <title>吉田 真一</title>
+	    <link rel="stylesheet" type="text/css" href="css/base.css">
+	    <link rel="stylesheet" type="text/css" href="css/profile.css">
+			<link rel="icon" href="../img/favicon2.png" type="image/png" />
+	    <script type="text/javascript" src="js/switch.js"></script>
+			<script type="text/javascript">
+					window.onload = function(){
+						headSerect(2);
+					}
+			</script>
+</head>
+
+<body>
+<!--#include file="header.html"-->
+
+    <div id ="baseContents">
+
+	<div class="pankuzu">
+		<a href="../index.shtml">HOME</a> > <a href="../faculty_members.shtml">教員一覧</a> > 吉田真一
+	</div>
+	<!--pankuzu-->
+	<div class="main">
+      <div class="keireki">
+    <h1>吉田 真一<span class="hurigana"><span style="margin-right: 2.8em;"></span>Yoshida Shinichi</span></h1>
+<div class="photo1">
+		<img src="img/Face-YoshidaShinichi.png" alt="顔の写真" class="facephoto">
+	</div>
+	<!--photo1-->
+		<div class="line"></div>
+    <h2>准教授<span>准教授室:A472</span></h2>
+
+
+    <input type="checkbox" id="Panel1" class="ExpandCheckBox" />
+		<label for="Panel1" class="open">
+		  <h3>
+				<img src="svg/Triangle_close-white.svg">&nbsp;プロフィール
+			</h3>
+
+  </label>
+		   <div class="panel">
+
+
+<dl>
+<dt>生年　:</dt><dd>　1974年</dd>
+<dt>出身　:</dt><dd>　神奈川県</dd>
+<dt>所属　:</dt><dd>　高知工科大学情報学群<br />
+大学院工学研究科 基盤工学専攻 情報システムコース</dd>
+<dt>所属会　:</dt><dd>　電子情報通信学会, 日本知能情報ファジィ学会, 情報処理学会, IEEE</dd>
+<dt>学位　:</dt><dd>　工学博士</dd>
+<dt>学歴　:</dt><dd>　東京工業大学大学院総合理工学研究科知能システム科学専攻<br />
+	博士課程 修了</dd>
+<dt>相談可能分野　:</dt><dd>　次世代ネットワーク設計・構築<br />
+	ファジィ理論・ニューラルネットワーク・遺伝的アルゴリズムなどの産業応用<br />
+	知的画像検索システム</dd>
+<dt>趣味　:</dt><dd>　音楽、写真</dd>
+<div class="mail1"><img src="svg/mail_yoshida.svg" alt="先生のmailアドレス" class="mail"></div>
+</dl>
+
+
+</div>
+<!--panel-->
+
+<a href="http://www.kochi-tech.ac.jp/kut/about_KUT/faculty_members/prof/yoshida-shinichi.html" target="_blank"><div class="box3" style="float:right">▶ 工科大教員ページ</div></a>
+<a href="http://www.lab.kochi-tech.ac.jp/yoshilab/index.html" target="_blank"><div class="box2" style="float:right">▶ 研究室ページ</div></a>
+
+<div class="clear"></div>
+</div>
+<!--keireki-->
+<div class="kennkyuusyoukai">
+	<div class="center1"><img src="svg/Heading-2.svg" alt="研究紹介"></div>
+
+<h2>ソフトコンピューティング　SOFT COMPUTING</h2>
+<h3>専門分野 ： ファジィ論理、ソフトコンピューティング、計算知能(Computational Intelligence)、<br />ネットワーク、機械学習、人工知能</h3>
+<div class="center2">
+<p>コンピュータは正確にデータを入力しないと正しく処理してくれません。 人間であれば、多少、不確かな情報からでもうまく処理することができます。 そこで、人間のような柔軟な処理をコンピュータにもやらせてみようというのが ソフトコンピューティングです。「ソフト」とは、柔らかい、柔軟なという意味で、人間のように厳密さだけを追求せずに、適当にうまく処理を行う仕組みを実現することを目指す技術・理論です。</p>
+</div>
+<!--center2-->
+ <div class="kennkyuuryouiki">
+<input type="checkbox" id="Panel2" class="ExpandCheckBox" />
+	 <label for="Panel2" class="open">
+		 <h3><img src="svg/Triangle_close-pink.svg">&nbsp;現在の研究領域</h3>
+	 </label>
+
+	 	 <div class="panel">
+
+<a>
+<div class="circle1"></div>ファジィ理論・ニューラルネットワークなどを用いた知的画像検索・画像処理<br />
+</a>
+<a>
+<div class="circle2"></div>次世代ソフトコンピューティング手法の開発<br />
+</a>
+</div>
+<!--panel-->
+</div>
+<!--kennkyuuryouiki-->
+
+
+<div class="kennkyuuronnbunn">
+	<input type="checkbox" id="Panel3" class="ExpandCheckBox" />
+	<label for="Panel3" class="open">
+		<h3><img src="svg/Triangle_close-pink.svg">&nbsp;代表的な研究論文など</h3>
+	</label>
+
+		<div class="panel">
+<ul>
+	<dl>
+<li><div class="circle1"></div>&emsp;Support Vector Description of Clusters for Content-Based Image Annotation</li>
+　　　　<dt>著者<span style="margin-right: 1em;"></span>：</dt><dd>Liang Sun，Hongwei Ge，YOSHIDA, Shinichi，<br />
+	Yanchun Liang，Guozhen Tan</dd>
+　　　　<dt>発表誌：</dt><dd>Pattern Recognition，Vol.47，pp.1361-1374</dd>
+　　　　<dt>発表年：</dt><dd>2014</dd>
+<div class="clear"></div>
+<li><div class="circle2"></div>&emsp;An Evaluation Strategy for Visual Key Image Retrieval on Mobile Devices</li>
+　　　　<dt>著者<span style="margin-right: 1em;"></span>：</dt><dd>Kazushi Okamoto，Kazuhiko Kawamoto，<br />
+	Fangyan Dong，YOSHIDA, Shinichi，Kaoru Hirota</dd>
+　　　　<dt>発表誌：</dt><dd>Journal of Advanced Computational Intelligence and<br />
+	 Intelligent Informatics，Vol.16，No.6，pp.713-722</dd>
+　　　　<dt>発表年：</dt><dd>2012</dd>
+<div class="clear"></div>
+<li><div class="circle3"></div>&emsp;A Cooperative Particle Swarm Optimizer with Statistical Variable Interdependence<br />Learning </li>
+　　　　<dt>著者<span style="margin-right: 1em;"></span>：</dt><dd>Ryangu San，YOSHIDA, Shinichi，Xiaochun Cheng，<br />
+	Yanchun Liang</dd>
+　　　　<dt>発表誌：</dt><dd>Information Sciences，Vol.186，No.1，pp.20-39</dd>
+　　　　<dt>発表年：</dt><dd>2012</dd>
+<div class="clear"></div>
+<li><div class="circle1"></div>&emsp;A Support Vector and K-Means Based Hybrid Intelligent Data Clustering Algorithm</li>
+	　　　 <dt>著者<span style="margin-right: 1em;"></span>：</dt><dd>Ryangu San，YOSHIDA, Shinichi，Yanchun Liang</dd>
+　　　　<dt>発表誌：</dt><dd>IEICE Transactions on Information and Systems，<br />
+	Vol.E94，No.11，pp.2234-2243</dd>
+　　　　<dt>発表年：</dt><dd>2011</dd>
+<div class="clear"></div>
+<li><div class="circle2"></div>&emsp;Content-Based Image Retrieval via Combination of Similarity Measures</li>
+　　　　<dt>著者<span style="margin-right: 1em;"></span>：</dt><dd>岡本一志，董芳艷，吉田 真一，廣田薫</dd>
+　　　　<dt>発表誌：</dt><dd>Journal of Advanced Computational Intelligence and<br />
+	 Intelligent Informatics，Vol.15，No.6，pp.687-697</dd>
+　　　　<dt>発表年：</dt><dd>2011</dd>
+</dl>
+</div>
+<!--kennkyuronnbunn-->
+</div>
+<!--kennkyuushhyoukai-->
+</div>
+<!--kennkyuunaiyou-->
+<div class="kennkyuushitusyoukai">
+  <div class="center1"><img src="svg/Heading-3.svg" alt="研究室紹介"></div>
+
+<div class="Lab_photo">
+<img src="img/Lab-yoshida_1.JPG" alt="研究室の写真" id="Lab_main" />
+<img src="img/Lab-yoshida_1.JPG" alt="研究室の写真1" name="Lab_sub" class="Lab_sub first" onclick="onChange(0)"/>
+<img src="img/Lab-yoshida_2.JPG" alt="研究室の写真2" name="Lab_sub" class="Lab_sub" onclick="onChange(1)"/>
+<img src="img/Lab-yoshida_3.JPG" alt="研究室の写真3" name="Lab_sub" class="Lab_sub" onclick="onChange(2)"/>
+</div>
+
+
+<h2>知能情報学研究室：A309</h2>
+<p>生命の仕組みや、人間の脳・知能の仕組みをコンピュータに応用して、人間のような融通のきくコンピュータを作っています。例えば、「この中から、こんな感じの絵を探してきて」と言われて、普通の人なら誰でもできることですが、現在のコンピュータではうまく処理ができません。どうして、人はこのようなことができるのかを研究しコンピュータに応用していく研究分野を「ソフトコンピューティング（柔軟な処理）」と言い、これが私の研究分野です。</p>
+</div>
+<!--kennkyuushitusyoukai-->
+<div class="koukouseihe">
+<div class="photo2"><img src="svg/StaffDetail_balloon.svg" alt="吹き出し"></div>
+<h1>高校生のみなさんへ</h1>
+<div class="kotoba">
+	好きこそ物の上手なれ。使い古された言葉ですが、どんなことにおいても上達の基本だと思います。好きなことを探して、人に自慢できるくらい、とことん打ち込んでください。
+</div>
+<!--kotoba-->
+</div>
+<!--koukouseihe-->
+<div class="kougikamoku">
+<h2>講義科目</h2>
+
+	<dl>
+<dt>学部：</dt><dd>情報科学3、 計算機ネットワーク、パターン認識と理解、<br />
+	情報学群実験第3C、情報学群実験第4C</dd>
+</dl>
+<h2>受け入れ可能な専攻</h2>
+<p>
+情報と人間専攻<br />
+情報通信専攻<br />
+コンピュータサイエンス専攻<br />
+</p>
+
+</div>
+<!--kougikamoku-->
+<div class="photo3"><img src="img/Body-YoshidaShinichi.jpg" alt="先生全身画像"></div>
+</div>
+<!--main-->
+</div>
+<!--baseContents-->
+
+<!--#include file="footer.html"-->
+</body>
+</html>

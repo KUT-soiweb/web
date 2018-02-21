@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta name="keyword" content="高知工科大学情報学群">
+		<meta name="description" content="高知工科大学情報学群のホームページ">
+		<title>カリキュラム</title>
+		<link rel="stylesheet" type="text/css" href="css/base.css">
+		<link rel="stylesheet" type="text/css" href="css/curriculum.css">
+		<link rel="icon" href="img/favicon2.png" type="image/png" />
+    <script type="text/javascript" src="js/curriculum.js"></script>
+		<script type="text/javascript">
+				window.onload = function(){
+					headSerect(1);
+				}
+		</script>
+	</head>
+	<body>
+		<!--#include file="header.html"-->
+		<div id="baseContents">
+			<div class="pankuzu">
+				<a href="index.shtml">HOME</a> > <a href="faculty_outline.shtml">学群概要</a> > カリキュラム
+			</div><!-- pankuzu -->
+			<div class="title">
+				  <h2>カリキュラム</h2>
+					<h1><span>C</span>urriculum</h1>
+			</div><!-- title -->
+			<div class="mainContents">
+				<div class="currColumn">
+					<p>高知工科大学情報学群には、全専攻共通科目と専攻科目があります。</p>
+					<br>
+					<p>全専攻共通科目ではこれからの情報社会を生きるために欠かせない知識や経験を培うことができ、また、それらを前提として進める授業があるため、履修は必須となっております。ここで培われた知識や技術を自分の物にすること情報通信技術(ICT)の基礎を理解し、応用できる力が身につきます。</p>
+					<br>
+					<p>3年次より、情報と人間専攻、情報とメディア専攻、情報と通信専攻、コンピュータサイエンス専攻の4つの専攻に分かれ、各々の専門性を高める授業が始まります。また、専攻の授業だけでなく、他の専攻の授業も履修できるため、より幅広い専門知識を得ることができます。このようなカリキュラムによって、高度化していく情報システムに対応できる技術者となることを目指します。
+					</p>
+
+				</div><!-- currColumn -->
+				<div class="major">
+					<div class="currImg">
+						<img src="img/curriculum01.svg">
+					</div><!-- currImg -->
+					<div class="currBtn">
+						<div class="iH btnGroup">
+							<div class="arrowBox">
+								<img src="img/curriculum_arrow.svg">
+							</div><!-- arrowBox -->
+							<div class="iHBtn button">
+								<div class="iHName MjName"onclick="change(&quot;btn01&quot;, iHImg, iHCurr, 1, iHexample); return false;">情報と人間</div>
+								<img src="img/curriculum_iH.svg" onclick="change(&quot;btn01&quot;, iHImg, iHCurr, 1, iHexample); return false;" draggable="false">
+							</div><!-- iHBtn -->
+						</div><!-- iH -->
+						<div class="iM btnGroup">
+							<div class="arrowBox">
+								<img src="img/curriculum_arrow.svg">
+							</div><!-- arrowBox -->
+							<div class="iMBtn button">
+								<div class="iMName MjName"onclick="change(&quot;btn02&quot;, iMImg, iMCurr ,2, iMexample); return false;">情報とメディア</div>
+								<img src="img/curriculum_iM.svg" onclick="change(&quot;btn02&quot;, iMImg, iMCurr ,2, iMexample); return false;" draggable="false">
+							</div><!-- iMBtn -->
+						</div><!-- iM -->
+						<div class="CC btnGroup">
+							<div class="arrowBox">
+								<img src="img/curriculum_arrow.svg">
+							</div><!-- arrowBox -->
+							<div class="CCBtn button">
+								<div class="CCName MjName"onclick="change(&quot;btn03&quot;, CCImg, CCCurr, 3, CCexample); return false;">情報通信</div>
+								<img src="img/curriculum_CC.svg" onclick="change(&quot;btn03&quot;, CCImg, CCCurr, 3, CCexample); return false;" draggable="false">
+							</div><!-- CCBtn -->
+						</div><!-- CC -->
+						<div class="CS btnGroup">
+							<div class="arrowBox">
+								<img src="img/curriculum_arrow.svg">
+							</div><!-- arrowBox -->
+							<div class="CSBtn button">
+								<div class="CSName MjName"onclick="change(&quot;btn04&quot;, CSImg, CSCurr, 4, CSexample); return false;">コンピュータ<br>サイエンス</div>
+								<img src="img/curriculum_CS.svg" onclick="change(&quot;btn04&quot;, CSImg, CSCurr, 4, CSexample); return false;" draggable="false">
+							</div><!-- CSBtn -->
+						</div><!-- CS -->
+					</div><!-- currBtn -->
+					<div class="caption">
+						専攻ボタンを押すと、各専攻の主な履修科目が表示されます。
+					</div>
+				</div><!-- major -->
+				<div class="majorInfo">
+					<div class="image">
+						<div id="image01" class="fadeIn">
+							<img src="img/curriculum_iH.svg">
+							<div id="currTitle01" class="iHName MjName">情報と人間</div>
+						</div>
+						<div id="image02" class="fadeOut">
+							<img src="">
+							<div id="currTitle02"></div>
+						</div>
+					</div><!-- image -->
+					<div class="commonCourse">
+						<div class="label">
+							<div class="labelBar"></div>
+							<div class="labelText">全専攻共通科目</div>
+							<div class="labelBar"></div>
+						</div>
+						<div class="commonList">
+							<div class="commonLeft">
+								<ul>
+									<li>コンピュータリテラシー</li>
+									<li>応用コンピュータリテラシー</li>
+									<li>情報科学1,2,3</li>
+									<li>情報代数</li>
+									<li>離散数学</li>
+									<li>計算機言語</li>
+									<li>情報理論基礎</li>
+								</ul>
+							</div><!-- commonLeft -->
+							<div class="commonRight">
+								<ul>
+									<li>情報学群実験第1, 2</li>
+									<li>ソフトウェア工学</li>
+									<li>ソフトウェア工学演習</li>
+									<li>プロジェクト研究1, 2, 3</li>
+									<li>卒業研究</li>
+								</ul>
+							</div><!-- commonRight -->
+						</div><!-- commonList -->
+					</div><!-- commonCourse -->
+					<div class="clear"></div>
+					<div class="plus">
+						<img src="img/plus.svg">
+					</div><!-- plus -->
+					<div class="majorCourse">
+						<div class="label">
+							<div class="labelBar"></div>
+							<div class="labelText">専攻対象科目</div>
+							<div class="labelBar"></div>
+						</div>
+						<div id="majorList01" class="fadeIn majorList">
+							<div class="majorLeft majorCurr">
+								<ul>
+									<li>情報と倫理</li>
+									<li>情報と職業</li>
+									<li>感覚・神経生物学</li>
+									<li>知識と認識</li>
+									<li>認知心理学</li>
+								</li>
+							</div><!-- majorLeft -->
+							<div class="majorRight majorCurr">
+								<ul>
+									<li>人工知能基礎</li>
+									<li>学習と推論</li>
+									<li>脳情報学</li>
+									<li>HCI概論</li>
+									<li>情報学群実験第3i, 4i</li>
+								</ul>
+							</div><!-- majorRight -->
+						</div><!-- majorList01 -->
+						<div id="majorList02" class="fadeOut majorList">
+						</div><!-- majorList02 -->
+					</div><!-- majorCourse -->
+					<div class="equals">
+						<img src="img/equal.svg">
+					</div><!-- equals -->
+					<div class="example">
+						<div class="exampleLabel">
+							<div class="exampleBar"></div>
+							<div class="exampleText">専攻講義の感想</div>
+							<div class="exampleBar"></div>
+						</div><!-- exampleLabel -->
+						<div id="exampleColumn01" class="fadeIn exampleColumn">
+							<div class="columnTitle">
+								iH系3年2Q講義
+								<h2>認知心理学</h2>
+							</div><!-- columnTitle -->
+							<div class="columnBox">
+								<div class="columnText">
+									<p>人間のことについてより深く、また、違った角度から学ぶことができて良い機会になったと思っています。人間が限られた情報処理能力を用いてどのような決定や選択をするのかを学ぶことでUI設計につながる知識を身に着けることができました。</p>
+								</div><!-- columnText -->
+								<div class="columnImage">
+									<img src="img/iH_man.svg">
+								</div><!-- columnImage -->
+							</div><!-- columnBox -->
+						</div><!-- exampleColumn01 -->
+						<div id="exampleColumn02" class="fadeOut exampleColumn">
+						</div><!-- exampleColumn02 -->
+					</div><!-- example -->
+				</div><!-- majorInfo -->
+			</div><!-- mainContents -->
+		</div><!-- baseContents -->
+		<!--#include file="footer.html"-->
+	</body>
+</html>

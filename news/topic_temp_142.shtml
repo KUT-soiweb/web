@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Topic and News</title>
+    <link rel="stylesheet" href="css/base.css" media="all" title="header" charset="utf-8" />
+    <link rel="stylesheet" href="css/topic_news_article.css" media="all" title="header" charset="utf-8" />
+    <link rel="icon" href="../img/favicon2.png" type="image/png" />
+    <script type="text/javascript">
+        window.onload = function(){
+          headSerect(0);
+        }
+    </script>
+  </head>
+  <body>
+    <!--#include file="header.html"-->
+    <div id="baseContents">
+      <div class="pankuzu">
+        <a href="../index.shtml">HOME</a> > <a href="../topic_news.shtml">Topics&amp;News</a> > News詳細
+      </div> <!-- pankuzu -->
+      <div class="subTitle">
+        <h1><span class="topChar">T</span>opics</h1><h2>and</h2><h1><span class="topChar">N</span>ews</h1>
+      </div><!-- title -->
+      <div class="newsArea">
+        <dt>2016.10.22</dt>
+        <h1>国際会議IxAP/IDHF2016が高知工科大学で開催されました</h1>
+        <hr />
+                <div class="mainImgArea">
+          <img src="img/id142_1.JPG" class="mainImg" />
+        </div><!-- mainImgArea -->
+        
+        <!--メインセンテンス部分(body1部分)-->
+        <p class="mainSentence">
+        <!--ここに本文を書いてください-->
+          　10月21日に高知工科大学で国際会議IxAP/IDHF2016が開催されました。
+          国際会議IxAP/IDHFは、高齢化社会におけるインタラクションテクノロジーとヒューマンファクター、インタラクションデザインに関する国際シンポジウムです。18か国120名が参加し、様々な研究発表が行われ、高知工科大学の学生もポスター発表という形でシンポジウムに参加し研究発表を行いました。情報学群からの発表の中からは
+          ・Chen Wang　(IxAP Best Poster Award)
+          ・Yukiko Ishikawa (IDHF Best Poster Award)
+          ・Akane Nishimura (IDHF Best Poster Award)
+          の3名が受賞しました
+        </p><!-- mainSentence -->
+
+        <div class="subArea">
+          <p>
+          <!--ここに補助文を書いてください(body2部分)-->
+          　IxAP/IDHFでは様々なプログラムが用意されており、基調講演やライトニングトーク、口頭発表、ポスターセッションと盛りだくさんでした。会場では短い時間で内容の濃いスピーチが多く、 参加したゲストだけでなく、参加した学生にとっても刺激になる機会になったように感じられました。
+          </p>
+                      <img src="img/id142_2.JPG" />
+                  </div><!-- subArea -->
+
+        <div class="subArea">
+          <p>
+          <!--ここに補助文を書いてください(body3部分)-->
+          　情報学群の学生はポスターセッションにおいて、自身の研究成果を英語を駆使することで多くの参加者に伝えていました。さらに、ただ伝えるだけでなく自然とディスカッションも生まれているように感じられました。 このような場は貴重であり、普段の学生生活では得られない多くの刺激があり、自身の研究発表は行わずボランティアとして参加した学生にもよい刺激になったように感じられました。
+          </p>
+                      <img src="img/id142_3.JPG" />
+                  </div><!-- subArea -->
+
+        <!--まとめ部分(body4部分)-->
+         <div class="subArea">
+          <p>
+          <!--ここに補助文を書いてください(body3部分)-->
+          　また、夜には世界中の研究者が交流を深めるためのバンケットが南国市で行われました。 高知工科大学の学生によるマジックショーやブラスバンド演奏などが披露され、バンケットを大いに盛り上げてくれました。次回IxAPはカナダで行われる予定となっています。
+          </p>
+          <img src="img/id142_4.JPG" />
+          </div><!-- subArea -->
+
+        <p class="mainSentence">
+        <!--ここにまとめを書いてください-->
+        </p><!-- mainSentence -->
+       </div><!-- newsArea -->
+    </div><!-- baseContents -->
+    <!--#include file="footer.html"-->
+
+  </body>
+</html>

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	    <meta name="keyword" content="高知工科大学情報学群">
+	    <meta name="description" content="高知工科大学情報学群のホームページ">
+	    <title>松崎 公紀</title>
+	    <link rel="stylesheet" type="text/css" href="css/base.css">
+	    <link rel="stylesheet" type="text/css" href="css/profile.css">
+			<link rel="icon" href="../img/favicon2.png" type="image/png" />
+	    <script type="text/javascript" src="js/switch.js"></script>
+			<script type="text/javascript">
+					window.onload = function(){
+						headSerect(2);
+					}
+			</script>
+</head>
+
+<body>
+<!--#include file="header.html"-->
+
+    <div id ="baseContents">
+
+	<div class="pankuzu">
+		<a href="../index.shtml">HOME</a> > <a href="../faculty_members.shtml">教員一覧</a> > 松崎公紀
+	</div>
+	<!--pankuzu-->
+	<div class="main">
+      <div class="keireki">
+    <h1>松崎 公紀<span class="hurigana"><span style="margin-right: 2.8em;"></span>Matsuzaki Kiminori</span></h1>
+<div class="photo1">
+		<img src="img/Face-MatsuzakiKiminori.png" alt="顔の写真" class="facephoto">
+	</div>
+	<!--photo1-->
+		<div class="line"></div>
+    <h2>准教授<span>准教授室:A470</span></h2>
+
+
+    <input type="checkbox" id="Panel1" class="ExpandCheckBox" />
+		<label for="Panel1" class="open">
+		  <h3>
+				<img src="svg/Triangle_close-white.svg">&nbsp;プロフィール
+			</h3>
+
+  </label>
+		   <div class="panel">
+
+
+<dl>
+<dt>生年　:</dt><dd>　1979年</dd>
+<dt>出身　:</dt><dd>　福岡県</dd>
+<dt>所属　:</dt><dd>　高知工科大学情報学群<br />
+大学院工学研究科 基盤工学専攻 情報学コース</dd>
+<dt>所属会　:</dt><dd>　日本ソフトウェア科学会、情報処理学会、ACM、IEEE</dd>
+<dt>学位　:</dt><dd>　情報理工学博士(東京大学 2007年)</dd>
+<dt>学歴　:</dt><dd>　東京大学工学部計数工学科　卒業<br />
+東京大学大学院情報理工学系研究科博士課程 中退</dd>
+<dt>相談可能分野　:</dt><dd>　プログラムの並列化・最速化による高速化、ソフトウェア開発、<br />
+問題の数理的性質に基づくアルゴリズム・プログラミング開発</dd>
+<dt>趣味　:</dt><dd>　サイクリング、ワイン</dd>
+<div class="mail1"><img src="svg/mail_matsuzaki.svg" alt="先生のmailアドレス" class="mail"></div>
+</dl>
+
+
+</div>
+<!--panel-->
+
+<a href="http://www.kochi-tech.ac.jp/kut/about_KUT/faculty_members/prof/matsuzaki-kiminori.html" target="_blank"><div class="box3" style="float:right">▶ 工科大教員ページ</div></a>
+<a href="http://ipl.info.kochi-tech.ac.jp/matsuzaki-lab/index.html" target="_blank"><div class="box2" style="float:right">▶ 研究室ページ</div></a>
+<a href="http://ipl.info.kochi-tech.ac.jp/matsuzaki-lab/members/matsuzaki.html" target="_blank"><div class="box1" style="float:right">▶ 教員個人ページ</div></a>
+<div class="clear"></div>
+</div>
+<!--keireki-->
+<div class="kennkyuusyoukai">
+	<div class="center1"><img src="svg/Heading-2.svg" alt="研究紹介"></div>
+
+<h2>並列計算機をより便利にするソフトを開発</h2>
+<h3>専門分野 ： 並列プログラミング</h3>
+<div class="center2">
+<p>近年広く使われるようになってきた並列計算機を効率的に利用するには並列プログラムが必要です。その並列プログラムを簡単にかつ正しく作成するための技術「並列スケルトン」について研究しています。</p>
+</div>
+<!--center2-->
+ <div class="kennkyuuryouiki">
+<input type="checkbox" id="Panel2" class="ExpandCheckBox" />
+	 <label for="Panel2" class="open">
+		 <h3><img src="svg/Triangle_close-pink.svg">&nbsp;現在の研究領域</h3>
+	 </label>
+
+	 	 <div class="panel">
+
+<a>
+<div class="circle1"></div>信頼性と開発効率を高める新しい並列プログラミング手法<br />
+</a>
+<a>
+<div class="circle2"></div>ゲーム・パズルプログラミング<br />
+</a>
+</div>
+<!--panel-->
+</div>
+<!--kennkyuuryouiki-->
+
+
+<div class="kennkyuuronnbunn">
+	<input type="checkbox" id="Panel3" class="ExpandCheckBox" />
+	<label for="Panel3" class="open">
+		<h3><img src="svg/Triangle_close-pink.svg">&nbsp;代表的な研究論文など</h3>
+	</label>
+
+		<div class="panel">
+<ul>
+	<dl>
+<li><div class="circle1"></div>　ビブリオ・トーク—私のオススメ—：珠玉のプログラミング—本質を見抜いたアルゴリズムとデータ構造</li>
+　　　　<dt>著者<span style="margin-right: 1em;"></span>：</dt><dd>松崎　公紀</dd>
+　　　　<dt>発表誌：</dt><dd>情報処理，Vol.55，No.4，pp.410-411</dd>
+　　　　<dt>発表年：</dt><dd>2014</dd>
+<div class="clear"></div>
+<li><div class="circle2"></div>　Parallel Tree Contraction with Fewer Types of Primitive Contraction Operations and Its Application to Trees of Unbounded Degree</li>
+　　　　<dt>著者<span style="margin-right: 1em;"></span>：</dt><dd>MORIHATA, Akimasa，MATSUZAKI, Kiminori</dd>
+　　　　<dt>発表誌：</dt><dd>情報処理学会論文誌．プログラミング，Vol.7，No.5，pp.1-9</dd>
+　　　　<dt>発表年：</dt><dd>2014</dd>
+<div class="clear"></div>
+<li><div class="circle3"></div>　Dividing Huge XML Trees Using the m-bridge Technique over One-to-one Corresponding Binary Trees</li>
+　　　　<dt>著者<span style="margin-right: 1em;"></span>：</dt><dd>Takayuki Kawamura，MATSUZAKI, Kiminor</dd>
+　　　　<dt>発表誌：</dt><dd>情報処理学会論文誌．プログラミング，Vol.7，No.3，pp.40-50</dd>
+　　　　<dt>発表年：</dt><dd>2014</dd>
+<div class="clear"></div>
+<li><div class="circle1"></div>　Accumulative Computation on MapReduce</li>
+	　　　 <dt>著者<span style="margin-right: 1em;"></span>：</dt><dd>LIU, Yu，EMOTO, Kento，MATSUZAKI, Kiminori，HU, Zhenjiang</dd>
+　　　　<dt>発表誌：</dt><dd>情報処理学会論文誌　プログラミング，Vol.7，No.1，pp.18-27</dd>
+　　　　<dt>発表年：</dt><dd>2014</dd>
+<div class="clear"></div>
+<li><div class="circle2"></div>　Simultaneous Finite Automata: An Efficient Data-Parallel Model for Regular Expression Matching</li>
+　　　　<dt>著者<span style="margin-right: 1em;"></span>：</dt><dd>SIN'YA Ryoma，MATSUZAKI, Kiminori，SASSA, Masataka</dd>
+　　　　<dt>発表誌：</dt><dd>ICPP 2013，pp.220-229</dd>
+　　　　<dt>発表年：</dt><dd>2013</dd>
+</dl>
+</div>
+<!--kennkyuronnbunn-->
+</div>
+<!--kennkyuushhyoukai-->
+</div>
+<!--kennkyuunaiyou-->
+<div class="kennkyuushitusyoukai">
+	<div class="center1"><img src="svg/Heading-3.svg" alt="研究室紹介"></div>
+
+<div class="Lab_photo">
+<img src="img/Lab-matsuzaki_1.jpg" alt="研究室の写真1" id="Lab_main" />
+<img src="img/Lab-matsuzaki_1.jpg" alt="研究室の写真1" name="Lab_sub" class="Lab_sub first" onclick="onChange(0)"/>
+<img src="img/Lab-matsuzaki_2.jpg" alt="研究室の写真2" name="Lab_sub" class="Lab_sub" onclick="onChange(1)"/>
+</div>
+
+
+<h2>高度プログラミング研究室：A310</h2>
+<p>「スケルトン並列プログラミング：その理論と実現」<br />
+近年の高性能計算機を効率良く利用するために重要な並列処理、そのためのプログラムをどうやって簡単にかつ信頼性高く作るかについて研究しています。ブロック　(並列スケルトン)　を組み合わせるだけで効率の良い並列プログラムが作れると良いですが、これがなかなか簡単ではありません。</p>
+</div>
+<!--kennkyuushitusyoukai-->
+<div class="koukouseihe">
+<div class="photo2"><img src="svg/StaffDetail_balloon.svg" alt="吹き出し"></div>
+<h1>高校生のみなさんへ</h1>
+<div class="kotoba">
+　「当たり前のことを当たり前にこなす」これを続けられる人・グループ・企業は大成すると思います。とはいえ「言うは易し行うは難し」なのですよね。私は結構苦手です。
+</div>
+<!--kotoba-->
+</div>
+<!--koukouseihe-->
+<div class="kougikamoku">
+<h2>講義科目</h2>
+	<dl>
+<dd>情報学群実験第1、数値計算法、ソフトウェア工学、<br />
+ソフトウェア工学演習</dd>
+</dl>
+<h2>受け入れ可能な専攻</h2>
+<p>
+情報とメディア専攻<br />
+情報通信専攻<br />
+コンピュータサイエンス専攻<br />
+</p>
+
+</div>
+<!--kougikamoku-->
+<div class="photo3"><img src="img/Body-MatsuzakiKiminori.jpg" alt="先生全身画像"></div>
+</div>
+<!--main-->
+</div>
+<!--baseContents-->
+
+<!--#include file="footer.html"-->
+</body>
+</html>

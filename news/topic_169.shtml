@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>第1回 脳コミュニケーション研究センター講演会のご案内（6月8日(木) 4限 開催）</title>
+    <link rel="stylesheet" href="css/base.css" media="all" title="header" charset="utf-8" />
+    <link rel="stylesheet" href="css/topic_news_article.css" media="all" title="header" charset="utf-8" />
+    <link rel="icon" href="../img/favicon2.png" type="image/png" />
+    <script type="text/javascript">
+        window.onload = function(){
+          headSerect(0);
+        }
+    </script>
+  </head>
+  <body>
+    <!--#include file="header.html"-->
+    <div id="baseContents">
+      <div class="pankuzu">
+        <a href="../index.shtml">HOME</a> > <a href="../topic_news.shtml">Topics&amp;News</a> > News詳細
+      </div> <!-- pankuzu -->
+      <div class="subTitle">
+        <h1><span class="topChar">T</span>opics</h1><h2>and</h2><h1><span class="topChar">N</span>ews</h1>
+      </div><!-- title -->
+      <div class="newsArea">
+        <dt>2017.6.8</dt>
+        <h1>第1回 脳コミュニケーション研究センター講演会のご案内（6月8日(木) 4限 開催）</h1>
+        <hr />
+                <p class="mainSentence">
+        　脳コミュニケーション研究センターは、脳科学と情報通信技術を核にして様々な学術領域の知見を高度に融合することによって、新しいコミュニケーション関連技術を創生するための学際的研究拠点として、平成24年4月に高知工科大学総合研究所に設置されました。<br />
+<br />
+　当センターでは、各分野でご活躍される先生方をお招きし講演会を行っております。<br />
+平成29年度1回目は、東北福祉大学 感性福祉研究所の伊藤 文人先生にご講演いただく事になりました。お時間が許しましたら是非ご聴講くださいますようご案内申し上げます。<br />
+<br />
+日時　：　平成29年6月8日（木）　14：40～16：10（4限目）<br />
+<br />
+場所　：　香美キャンパス　A103教室<br />
+<br />
+演者　：　伊藤 文人先生（東北福祉大学）<br />
+<br />
+タイトル：「他者の顔に対する価値判断に関わる認知・神経メカニズム」<br />
+<br />
+<概要><br />
+　様々な他者とコミュニケーションをとる中で、ヒトは相手の顔に対する価値判断（valuation）を行っています。この処理には、腹内側前頭前野や腹側線条体といった報酬系が関わっていると報告されてきましたが、筆者が実施したいくつかのfMRI研究から、これらの領域以外にも重要な役割を果たす領域が明らかになりつつあります。本講演では、これらの研究から得られた知見を中心にご紹介させていただき、他者の顔に対する価値判断に関わる認知・神経メカニズムについて議論できればと思います。<br />
+        </p><!-- mainSentence -->
+              </div><!-- newsArea -->
+    </div><!-- baseContents -->
+    <!--#include file="footer.html"-->
+
+  </body>
+</html>

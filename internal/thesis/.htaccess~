@@ -1,0 +1,4 @@
+order	deny,allow
+deny	from all
+allow	from proxy.noc.kochi-tech.ac.jp
+DirectoryIndex index.html

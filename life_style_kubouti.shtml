@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>ライフスタイル：窪内彩佳</title>
+        <link rel="stylesheet" href="css/base.css" media="all" title="header" charset="utf-8" />
+        <link rel="stylesheet" href="css/life_style.css" media="all" title="header" charset="utf-8" />
+        <link rel="icon" href="img/favicon2.png" type="image/png" />
+        <script type="text/javascript">
+            window.onload = function(){
+              headSerect(3);
+            }
+        </script>
+      </head>
+
+    <body>
+        <!--#include file="header.html"-->
+        <div id = "baseContents">
+            <div class="pankuzu">
+                <a href="index.shtml">HOME</a> > <a href="campus_life.shtml">キャンパスライフ</a> > <a href="life_style_cushion.shtml">ライフスタイル</a> > 窪内彩佳
+            </div> <!-- pankuzu -->
+            <div class = "photo1">
+                <img src = "./img/kubouti_main.png" class="frame">
+                <div class = "profile" id="kubouti">
+                    <p class = "nameReading">くぼうちさやか</p>
+                    <p class = "name">窪内彩佳</p>
+                    <p>所属 : 画像情報工学研究室</p>
+                </div><!-- profile -->
+            </div><!-- photo1 -->
+
+            <img class = "balloon" src = "./img/lifestyle_balloon01.svg">
+            <dt class = "topic">窪内さんの場合</dt>
+
+            <div class = "lifeStyle">
+                <div class = "blank schedule1">
+                    <div class = "circle red">
+                        <p class = "time">08:00</p>
+                    </div><!-- circle red -->
+                        <dt class = "action">起床</dt>
+                </div><!-- schedule1 -->
+
+                <div class = "schedule1">
+                    <div class = "circle red">
+                        <p class = "time">10:00</p>
+                    </div><!-- circle red -->
+                    <dl>
+                        <dt class = "action">通学</dt>
+                        <dd class = "content">通学には原付を使用しています。学校までは約10分です。自転車で通っていたこともありますが、少し坂道が多いので、原付のほうが楽です。</dd>
+                    </dl>
+                    <div class = "Frame">
+                        <div class = "photoFrame">
+                            <img src = "./img/kubouti01.png">
+                        </div><!-- photoFrame -->
+                    </div><!-- Frame -->
+                </div><!-- schedule1 -->
+
+                <div class = "schedule1">
+                    <div class = "circle red">
+                        <p class = "time">10:15</p>
+                    </div><!-- circle red -->
+                    <dl>
+                        <dt class = "action">ブレイクタイム</dt>
+                        <dd class = "content">研究室にはコーヒーメーカー
+                        があるので、よく使っています。講義前に少し早く
+                        来て飲むコーヒーは美味しい！</p></dd>
+                    </dl>
+                   <div class = "Frame">
+                        <div class = "photoFrame">
+                            <img src = "./img/kubouti02.png">
+                        </div><!-- photoFrame -->
+                    </div><!-- Frame -->
+                </div><!-- schedule1 -->
+
+
+                <div class = "schedule1 clear">
+                    <div class = "circle red">
+                        <p class = "time">10:40</p>
+                    </div><!-- circle green -->
+                    <dl>
+                        <dt class = "action">2限 輪講</dt>
+                        <dd class = "content">輪講では、研究に関する技術本を読んで理解しまとめてきたものを、研究室の先生と学生の前で発表します。現在はコンピュータビジョンに関する本を読んでいます。</p></dd>
+                    </dl>
+
+
+                </div><!-- schedule2 -->
+
+                <div class = "schedule3">
+                    <div class = "blank2 circle green">
+                        <p class = "time">12:10</p>
+                    </div><!-- circle green -->
+                    <dl class = "blank22">
+                        <dt class = "action">昼休み</dt>
+                        <dd class = "content">輪講終わりでそのまま、研究室メンバーと学食へ。</p></dd>
+                    </dl>
+                </div><!-- schedule3 -->
+
+                <div class = "schedule3">
+                    <div class = "circle green">
+                        <p class = "time">13:10</p>
+                    </div><!-- circle green -->
+                    <dl>
+                        <dt class = "action">空き時間 ソフトウェア工学ミーティング</dt>
+                        <dd class = "content">この日はアプリ開発の外部設計についての話し合い。メンバー全員で机(とお菓子)を囲み、積極的に意見を出し合います。</dd>
+                    </dl>
+
+                    <div class = "Frame">
+                        <div class = "photoFrame">
+                            <img src = "./img/kubouti03.png">
+                        </div><!-- photoFrame -->
+                    </div><!-- Frame -->
+                </div><!-- schedule1 -->
+
+                <div class = "schedule3">
+                    <div class = "circle green">
+                        <p class = "time">16:30</p>
+                    </div><!-- circle blue -->
+                        <dt class = "action">5限 講義</dt>
+                </div><!-- schedule3 -->
+
+                <div class = "schedule4">
+                    <div class = "circle blue">
+                        <p class = "time">18:30</p>
+                    </div><!-- circle blue -->
+                    <dl>
+                        <dt class = "action">サークル活動</dt>
+                        <dd class = "content">この日は、アカペラ部KOCO’Aのライブ直前練習。学年関係なくチームを組んで、自分たちの選んだ曲を歌います。綺麗にハモれたときの盛り上がりは最高です！</dd>
+                    </dl>
+                    <div class = "Frame">
+                        <div class = "photoFrame">
+                            <img src = "./img/kubouti04.png">
+                        </div><!-- photoFrame -->
+                    </div><!-- Frame -->
+                </div><!-- schedule4 -->
+
+                <div class = "schedule4">
+                    <div class = "circle blue">
+                        <p class = "time">21:00</p>
+                    </div><!-- circle blue -->
+                    <dl>
+                        <dt class = "action">帰宅・夕食</dt>
+                        <dd class = "content">帰宅してからは、アプリ開発を進めたり、レポートなどの課題をしたりしています。ネットサーフィンや資格試験の勉強など、趣味を楽しむことも。</dd>
+                    </dl>
+                </div><!-- schedule4 -->
+
+                <div class = "schedule4">
+                    <div class = "circle blue">
+                        <p class = "time">01:00</p>
+                    </div><!-- circle blue -->
+                    <dl>
+                        <dt class = "action">就寝</dt>
+                    </dl>
+                </div><!-- schedule4 -->
+
+                <div class="point">
+                    <img class="point_image" src="./img/point.svg" />
+                    <h2>大学3年生の生活</h2>
+                    <p>3年から講義と実験に加えて研究室という時間が加わります。研究室でやることとしては勉強や、先輩の研究の手伝い、イベントの企画などがあります。これらを講義と実験の課題と並行して行わなくてはならないため、忙しいときは遅くまで学校に残ることもあれば、休日に学校にくることもあります。
+                    </p>
+                </div><!--point-->
+
+
+            </div><!-- lifestyle -->
+
+    <img class = "balloon" src = "./img/lifestyle_balloon02.svg">
+
+    <div class = "mainContent2">
+        　　<div class = "textBox2">
+                <p class = "topic2">子どものころからの夢を叶えるために</p>
+                <p class = "text2">小学生のころからパソコンが大好きで、将来IT業界で働きたいという夢があったので、ここ高知工科大学の情報学群に入学しました。綺麗なキャンパスと充実した設備に囲まれて、楽しんで学ぶことができています。3年生になると、チームで開発をする「ソフトウェア工学」という講義があります。私たちのチームはAndroidアプリを開発しています。アプリ開発は初めての経験で、壁にぶつかることも多いですが、自分たちで書いたプログラムがうまく動いたときは、喜びもひとしおです。私は興味の幅が広いので、必修がなく好きな科目を自由に選択できるKUTのシステムには大変助けられています。画像処理、ネットワーク、プログラミング…大学生のうちに、たくさん知識を吸収しておきたいです。</p>
+
+
+                    <p class = "topic2">研究室は、自分の居場所の一つ</p>
+                    <p class = "text2">私が配属された栗原研究室は、今年度から立ち上がった研究室です。私たちが1期生なので、過去の先輩の研究データもなく、研究はすべて自分たちで考えて行います。ハードルは高いですが、その分やりがいは大きいですし、3年生でも裁量権が大きいという、新研究室ならではのメリットもあります。研究室の家具や家電も、私たち学生が選んだんですよ。研究室は、自分の心地よい居場所のひとつです。KUTは、学生と先生方との距離が近いと思います。もちろん、情報学群も例外ではありません。3年生になると研究室配属があり、配属されるとより先生方との距離が縮まります。困ったときや、新しいことを始めたいときにも、親身になって相談に乗ってくださるので、安心して研究することができます。</p>
+
+
+                    <p class = "topic2">勉強とは違う楽しさを、サークル活動で</p>
+                    <p class = "text2">1年生のころから、サークルを掛け持ちしています。アカペラ部KOCO’Aではコーラスを担当しており、部のライブや大学祭、地域のイベントなどで歌うこともあります。また、写真が趣味で、フォト同好会の代表を務めています。真夏の暑いさなか、海へ撮影に行ったり、真冬に凍えながらイルミネーションを撮ったり。写真部って意外とアウトドアなんですよ(笑)。自分を表現できる活動は、勉強とはまた違う楽しさがありますね。団体のマネジメントを学ぶよい機会にもなります。講義や実験で忙しく、なかなか活動できないときもありますが、サークル活動がよい息抜きになるので、両立することができています。</p>
+                </div><!-- textBox2 -->
+
+                <img class = "photo2" src = "./img/kubouti05.png">
+                <img class = "photo2" src = "./img/kubouti06.png">
+                <img class = "photo2" src = "./img/kubouti07.png">
+            </div><!-- mainContent2 -->
+        </div><!-- baseContent -->
+        <!--#include file="footer.html"-->
+    </body>
+</htme>

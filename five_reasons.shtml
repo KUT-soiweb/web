@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+		<title>5つの理由</title>
+		<link rel="stylesheet" type="text/css" href="css/base.css">
+		<link rel="stylesheet" type="text/css" href="css/five_reasons.css">
+		<link rel="icon" href="img/favicon2.png" type="image/png" />
+    <script type="text/javascript">
+				window.onload = function(){
+					headSerect(1);
+				}
+		</script>
+	</head>
+	<body>
+        <!--#include file="header.html"-->
+		<div id="baseContents">
+			<span class="pankuzu"><a href="index.shtml">HOME</a> > <a href="faculty_outline.shtml">学群概要</a> > 5つの理由</span>
+			<div class="title">
+				<h2>高知工科大学情報学群を選ぶべき</h2>
+				<h1><span class="blue">5</span>つの理由</h1>
+			</div>
+			<input type="checkbox" id="r1">
+			<div class="content">
+				<div>
+					<span class="reasonTitle"><span class="number">1</span>ICTは<span class="bold">注目</span>されている</span>
+					<img src="img/fiveReason1.jpg">
+					<p class="reason">&nbsp;&nbsp;コンピュータの普及やその性能の向上に伴い、今やICT(情報通信技術)は私たちの生活と切っても切り離せない時代となりました。情報社会と呼ばれる今日では、ICTはスマートフォンやテレビなどの電子機器や自動車、顧客情報管理、営業支援、生産・在庫管理等のサービスにも利用されています。それだけにとどまらず、地域活性やコンテンツ流通、さらには医療や教育といった、今まで以上に多彩な分野でICTを活用しようとする動きが広がってきています。<br>&nbsp;&nbsp;つまり、幅広い業界でICTは必要とされ、なにより農業革命・産業革命に次ぐ人類史上第3の革命である「情報革命」の中心として注目されているということになります。</p>
+				</div>
+			</div>
+			<label for="r1">
+				<span class="area"><span class="round"></span></span>
+				<span class="corner"><span class="triangle"></span></span>
+			</label>
+			<input type="checkbox" id="r2">
+			<div class="content">
+				<div>
+					<span class="reasonTitle"><span class="number">2</span>ICTは<span class="bold">人材不足!</span></span>
+					<img src="img/fiveReason2.jpg">
+					<p class="reason">&nbsp;&nbsp;様々な分野でICTが活用されているため、それだけ多くのICT技術者が必要とされています。しかし、ICT技術者は慢性的な人手不足と言われています。たとえば、IPA(独立行政法人 情報処理推進機構)の「IT人材白書2014」における調査によると、「IT企業の量的な人材不足感は、過去5年間、年々増加傾向にあります(IPA、“IT人材白書2014”、http://www.ipa.go.jp/files/000038374.pdf、2014年4月)。それを反映して、求人でもIT・通信業界の求人倍率は2.41倍と全業種の中でトップになっています(転職サービス「DODA」、2014/5発表資料より)。<br>&nbsp;&nbsp;したがって、就職を考えると比較的門が開けており、ICTを学んでいるということは強みになるといえます。</p>
+				</div>
+			</div>
+			<label for="r2">
+				<span class="area"><span class="round"></span></span>
+				<span class="corner"><span class="triangle"></span></span>
+			</label>
+			<input type="checkbox" id="r3">
+			<div class="content">
+				<div>
+					<span class="reasonTitle"><span class="number">3</span>実践的な<span class="bold">ソフトウェア開発</span>を学べる</span>
+					<img src="img/fiveReason3.jpg">
+					<p class="reason">&nbsp;&nbsp;本学群の3年次において受講できる講義の1つに、「ソフトウェア工学」という講義があります。そこでは、ソフトウェアの開発に使われる開発工程(システム提案書作成、外部設計、内部設計、プログラミング、テスト)に従って、チームで開発を行います。ただ動くプログラムを書くだけではなく、企画・設計・コーディングに加え、その後の運用・保守に関する内容も含まれており、より実践的な内容となっています。<br>&nbsp;&nbsp;情報社会が発展し、開発するシステムの規模が大きくなろうと、顧客はソフトウェアに高い品質を求めます。その要求を満たす方法論についても学習するため、このソフトウェア工学を通して開発工程の基本を学ぶことは、就職し実際の開発に携わる際にも生かすことのできる経験だと考えられます。</p>
+				</div>
+			</div>
+			<label for="r3">
+				<span class="area"><span class="round"></span></span>
+				<span class="corner"><span class="triangle"></span></span>
+			</label>
+			<input type="checkbox" id="r4">
+			<div class="content">
+				<div>
+					<span class="reasonTitle"><span class="number">4</span>研究室への配属が<span class="bold">早い</span></span>
+					<img src="img/fiveReason4.jpg">
+					<p class="reason">&nbsp;&nbsp;本学群の研究室配属は3年生の春に決定されます。厳密にはこれは正式な研究室配属ではなく、仮配属ということになっていますが、扱いはほとんど変わりません。つまり、3年生の春という比較的早い時期から研究室に出入りができるようになり、教授や先輩から直接指導を受けることができるようになります。<br>&nbsp;&nbsp;この早期配属によって、その研究室の研究に触れる機会が増えるだけではなく、輪講やゼミを通して、日常の講義だけでは得られないその研究室特有の専門知識を深める事が可能となります。上級生から研究や就職活動に関してアドバイスをもらうことができ、さらに同期の3年生とのつながりも深化するため、早くから充実した環境で自分自身を高めることができるようになります。 </p>
+				</div>
+			</div>
+			<label for="r4">
+				<span class="area"><span class="round"></span></span>
+				<span class="corner"><span class="triangle"></span></span>
+			</label>
+			<input type="checkbox" id="r5">
+			<div class="content">
+				<div>
+					<span class="reasonTitle"><span class="number">5</span>就職活動に<span class="bold">強い!</span></span>
+					<img src="img/carrierplan.JPG">
+					<p class="reason">&nbsp;&nbsp;本学では就職活動に向けた取り組みを1年生からスタートします。これは他大学に比べて比較的早い取り組みとなっています。専門的な科目とは別に1年生から3年生までの継続的なキャリア教育を学び、体系的なキャリアの育成を目指します。これにより一人一人が自己のキャリアを確立し、就職活動に対する明確な目標を持つことができます。また、希望する学生には公務員試験対策講座や就活“好感度アップ”セミナーといった各種講座も実施しており、学生の志向、興味に応じたきめ細やかな就職支援を行っています。<br>&nbsp;&nbsp;本学ではこれらの内容を始め、多くの就職支援を行っており、これらのサポートに支えられながら、学生は万全の体制で就職活動に臨み、「情報革命」を支える人財となることができます。 </p>
+				</div>
+			</div>
+			<label for="r5">
+				<span class="area"><span class="round"></span></span>
+				<span class="corner"><span class="triangle"></span></span>
+			</label>
+		</div>
+
+        <!--#include file="footer.html"-->
+	</body>
+</html>

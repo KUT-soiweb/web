@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Topic and News</title>
+    <link rel="stylesheet" href="css/base.css" media="all" title="header" charset="utf-8" />
+    <link rel="stylesheet" href="css/topic_news_article.css" media="all" title="header" charset="utf-8" />
+    <link rel="icon" href="../img/favicon2.png" type="image/png" />
+    <script type="text/javascript">
+        window.onload = function(){
+          headSerect(0);
+        }
+    </script>
+  </head>
+  <body>
+    <!--#include file="header.html"-->
+    <div id="baseContents">
+      <div class="pankuzu">
+        <a href="../index.shtml">HOME</a> > <a href="../topic_news.shtml">Topics&amp;News</a> > News詳細
+      </div> <!-- pankuzu -->
+      <div class="subTitle">
+        <h1><span class="topChar">T</span>opics</h1><h2>and</h2><h1><span class="topChar">N</span>ews</h1>
+      </div><!-- title -->
+      <div class="newsArea">
+        <dt>2017.11.7</dt>
+        <h1>平成29年度「情報学群特別講義」が開講します。</h1>
+        <hr />
+        
+        <!--メインセンテンス部分(body1部分)-->
+        <p class="mainSentence" style="text-indent:1em">
+        <!--ここに本文を書いてください-->
+         各分野で活躍中の研究者による特別講義が開催されます。テクノロジーの最先端を切り拓く、権威ある研究者の声を直接聞くことができます。学生は誰でも受講できますので、奮ってご参加ください。<br /><br />
+        講演一覧<br />
+        <table style="border:#000000 1px solid; border-collapse:collapse">
+          <thead>
+            <tr>
+              <th style="border:#000000 1px solid;" width="15%" class="speaker">講演者</th>
+              <th style="border:#000000 1px solid;" width="35%" class="position">役職</th>
+              <th style="border:#000000 1px solid;" width="30%" class="title">講演題目</th>
+              <th style="border:#000000 1px solid;" width="20%" class="date">日付・場所</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style="border:#000000 1px solid;" class="speaker">原田英典 氏</td>
+              <td style="border:#000000 1px solid;" class="position">日本マイクロソフト株式会社<br />パブリックセクター統括本部
+                ティーチャーエンゲージメントマネージャー</td>
+              <td style="border:#000000 1px solid;" class="title">マイクロソフトへ新卒入社した元開発者のこれまでと、これから</td>
+              <td style="border:#000000 1px solid;" class="date">10/26 16:20~17:50 A106</td>
+            </tr>
+            <tr>
+              <td style="border:#000000 1px solid;" class="speaker">山崎克之 氏</td>
+              <td style="border:#000000 1px solid;" class="position">長岡技術大学<br />工学部電気電子工学専攻　教授</td>
+              <td style="border:#000000 1px solid;" class="title">現場のIoT</td>
+              <td style="border:#000000 1px solid;" class="date">11/1 14:40~16:10 C102</td>
+            </tr>
+            <tr>
+              <td style="border:#000000 1px solid;" class="speaker">中道上 氏</td>
+              <td style="border:#000000 1px solid;" class="position">福山大学工学部情報工学科<br />准教授</td>
+              <td style="border:#000000 1px solid;" class="title">イノベーションに向けてのUXデザイン</td>
+              <td style="border:#000000 1px solid;" class="date">11/16 13:00~14:30 C101</td>
+            </tr>
+            <tr>
+              <td style="border:#000000 1px solid;" class="speaker">箱守聰 氏</td>
+              <td style="border:#000000 1px solid;" class="position">株式会社NTTデータ<br />数理システム　社長</td>
+              <td style="border:#000000 1px solid;" class="title">ビッグデータ時代のデータ活用</td>
+              <td style="border:#000000 1px solid;" class="date">11/16 14:40~16:10 A106</td>
+            </tr>
+            <tr>
+              <td style="border:#000000 1px solid;" class="speaker">田辺雅則 氏</td>
+              <td style="border:#000000 1px solid;" class="position">株式会社NTTデータ第一金融事業本部<br/>金融社会インフラ事業部<br />日銀企画開発統括部<br />日銀ネット担当　部長</td>
+              <td style="border:#000000 1px solid;" class="title">情報システムの開発とシステムエンジニア</td>
+              <td style="border:#000000 1px solid;" class="date">11/17 10:30~12:00 A104</td>
+            </tr>
+            <tr>
+              <td style="border:#000000 1px solid;" class="speaker">庄納崇 氏</td>
+              <td style="border:#000000 1px solid;" class="position">インテル株式会社<br />通信デバイス事業本部<br />グローバルワイヤレス営業本部<br />日本担当　シニアディレクター</td>
+              <td style="border:#000000 1px solid;" class="title">5G ～Moving Towards Development～</td>
+              <td style="border:#000000 1px solid;" class="date">11/17 14:40~16:10 C102</td>
+            </tr>
+            <tr>
+              <td style="border:#000000 1px solid;" class="speaker">峯尾真一 氏</td>
+              <td style="border:#000000 1px solid;" class="position">一般財団法人<br />高度情報科学技術研究機構<br />神戸センター共用促進部　次長</td>
+              <td style="border:#000000 1px solid;" class="title">特定高速電子計算機施設「京」～その技術と活用</td>
+              <td style="border:#000000 1px solid;" class="date">11/30 13:00~14:30 A113</td>
+            </tr>
+            <tr>
+              <td style="border:#000000 1px solid;" class="speaker">北崎充晃 氏</td>
+              <td style="border:#000000 1px solid;" class="position">豊橋技術科学大学　教授</td>
+              <td style="border:#000000 1px solid;" class="title">人工知能と社会</td>
+              <td style="border:#000000 1px solid;" class="date">12/15 14:40~16:10 A107</td>
+            </tr>
+            <tr>
+              <td style="border:#000000 1px solid;" class="speaker">牧野泰才 氏</td>
+              <td style="border:#000000 1px solid;" class="position">東京大学新領域創成科学研究科複雑理工学専攻　准教授</td>
+              <td style="border:#000000 1px solid;" class="title">触覚提示技術の研究動向<br />-振動触覚から空中触覚提示まで- (仮)</td>
+              <td style="border:#000000 1px solid;" class="date">12/18 13:00~14:30 A101</td>
+            </tr>
+            <tr>
+              <td style="border:#000000 1px solid;" class="speaker">岡本一志 氏</td>
+              <td style="border:#000000 1px solid;" class="position">電気通信大学　助教</td>
+              <td style="border:#000000 1px solid;" class="title"></td>
+              <td style="border:#000000 1px solid;" class="date">12/20<br />時刻未定 C102</td>
+            </tr>
+            <tr>
+              <td style="border:#000000 1px solid;" class="speaker">望月理香 氏</td>
+              <td style="border:#000000 1px solid;" class="position">NTTサービスエボリューション研究所　研究員</td>
+              <td style="border:#000000 1px solid;" class="title"></td>
+              <td style="border:#000000 1px solid;" class="date">12/20<br />時刻未定 C102</td>
+            </tr>
+            <tr>
+              <td style="border:#000000 1px solid;" class="speaker">稲蔭正彦 氏</td>
+              <td style="border:#000000 1px solid;" class="position">慶應義塾大学メディアデザイン研究所Keio-NUS CUTE Center<br />研究所長・共同所長</td>
+              <td style="border:#000000 1px solid;" class="title"></td>
+              <td style="border:#000000 1px solid;" class="date">12/22 13:00~14:30 C102</td>
+            </tr>
+            <tr>
+              <td style="border:#000000 1px solid;" class="speaker">土井美和子 氏</td>
+              <td style="border:#000000 1px solid;" class="position">国立研究開発法人<br />情報通信研究機構　監事</td>
+              <td style="border:#000000 1px solid;" class="title">ヒューマンインタフェース技術について(仮)</td>
+              <td style="border:#000000 1px solid;" class="date">1/18 14:40~16:10 C102</td>
+            </tr>
+          </tbody>
+        </table>
+        ※2017/11/7現在の情報
+
+        </p><!-- mainSentence -->
+                  </div><!-- subArea -->
+                  </div><!-- subArea -->
+        <!--まとめ部分(body4部分)-->
+        <!-- mainSentence -->
+
+       </div><!-- newsArea -->
+    </div><!-- baseContents -->
+    <!--#include file="footer.html"-->
+
+  </body>
+</html>

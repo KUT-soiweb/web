@@ -1,0 +1,319 @@
+@charset "utf-8"
+
+#baseContents {
+    text-align: center;
+}
+
+#baseContents .photo1 {
+    height: 234px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    position: relative;
+    width: 875px;
+}
+
+#baseContents .photo1 .frame {
+    height: 234px;
+    width: 875px;
+}
+
+#baseContents .photo1 .profile {
+    background-color: rgba(94,140,204,0.8);
+    color: #FFFFFF;
+    height: 100%;
+    left: 0px;
+    margin-top: 0px;
+    position: absolute;
+    text-align: center;
+    top: 0px;
+    width: 30%;
+}
+
+#baseContents .photo1 .profile p {
+    margin-top: 10px;
+}
+
+#baseContents .photo1 .profile#uno{
+    background-color: rgba(99,157,31,0.8);
+}
+
+#baseContents .photo1 .profile#kubouti{
+    background-color: rgba(241,83,103,0.8);
+    left: 613px !important;
+}
+
+#baseContents .photo1 .profile#fukui{
+    background-color: rgba(242,175,65,0.8);
+    left: 613px !important;
+}
+
+#baseContents .photo1 .profile#tanaka{
+    background-color: rgba(251,145,184,0.8);
+    left: 613px !important;
+}
+
+#baseContents .photo1 .profile#tanaka_gakusi{
+    background-color: rgba(188,138,239,0.8);    
+    left: 613px !important;
+}
+
+#baseContents .photo1 .profile#yamaguti{
+    background-color: rgba(112,202,237,0.8);    
+}
+
+#baseContents .photo1 .profile#fukuda{
+    background-color: rgba(50,161,93,0.8);    
+}
+
+
+#baseContents .photo1 .profile .nameReading {
+    font-size: 12px;
+    margin-top: 68px;
+}
+
+#baseContents .photo1 .profile .name {
+    font-size: 40px;
+}
+
+#baseContents .balloon {
+    clear: both;
+    float: left;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+
+#baseContents .topic {
+    float: left;
+    font-weight: 500;
+    margin-left: 30px;
+    margin-top: 65px;
+    font-size: 30px;
+}
+
+#baseContents .lifeStyle {
+    background-color: #F7F7F7;
+    border-radius: 10px;
+    clear: both;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    padding: 10px;
+    width: 875px;
+}
+
+#baseContents .lifeStyle .schedule1 {
+    border-left: 10px solid #FD7F7F;
+    clear: both;
+    float: left;
+    margin-left: 150px;
+    padding-bottom: 20px;
+    width: 700px;
+}
+
+#baseContents .lifeStyle .blank {
+    margin-top: 30px;
+}
+
+#baseContents .lifeStyle .circle {
+    background-color: #FFFFFF;
+    border: 5px solid;
+    border-radius: 50%;
+    float: left;
+    height: 70px;
+    margin-top: 20px;
+    margin-left: -45px;
+    width:70px;
+}
+
+#baseContents .lifeStyle .circle .time {
+    font-weight: bolder;
+    margin-top: 25px;
+    text-align: center;
+}
+
+#baseContents .lifeStyle .red{
+    border-color: #FD7F7F;
+    color: #FD7F7F;
+}
+
+#baseContents dt {
+    font-weight: bolder;
+    margin-left: 50px;
+    margin-top: 50px;
+    text-align: left;
+}
+
+#baseContents dd {
+    line-height: 1.3em;
+    margin-left: 70px;
+    margin-top: 10px;
+    text-align: left;
+}
+
+#baseContents .lifeStyle .action {
+    font-size: 20px;
+}
+
+#baseContents .lifeStyle .kougi {
+  margin-top: 80px;
+}
+
+#baseContents .lifeStyle .content {
+    font-size: 18px;
+}
+
+#baseContents .lifeStyle .Frame {
+    border: #DCDCDC 1px solid;
+    clear: both;
+    float: left;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+#baseContents .lifeStyle .Frame .photoFrame {
+    border: #FFFFFF 5px solid;
+}
+
+#baseContents .lifeStyle .green{
+    border-color: #9AE24B;
+    color: #9AE24B;
+}
+
+#baseContents .lifeStyle .schedule2 {
+    clear: both;
+    float: left;
+    padding-bottom: 60px;
+    width: 400px;
+}
+
+#baseContents .lifeStyle .scheduleWrap {
+    border-left: 10px #9AE24B solid;
+    clear: both;
+    float: left;
+    margin-left: 150px;
+    width: 700px;
+}
+
+#baseContents .lifeStyle .clear {
+    clear: both;
+}
+
+#baseContents .lifeStyle .blank2 {
+    margin-top: 50px;
+}
+
+#baseContents .lifeStyle .blank22 {
+  margin-top: 75px;
+}
+
+#baseContents .lifeStyle .Frame2 {
+    border: #DCDCDC 1px solid;
+    float: right;
+    margin-right: 10px;
+    margin-top: 40px;
+}
+
+
+#baseContents .lifeStyle .Frame2 .photoFrame2 {
+    border: #FFFFFF 5px solid;
+}
+
+#baseContents .lifeStyle .schedule3 {
+    border-left: 10px solid #9AE24B;
+    clear: both;
+    float: left;
+    margin-left: 150px;
+    padding-bottom: 30px;
+    width: 700px;
+}
+
+#baseContents .lifeStyle .schedule4 {
+    border-left: 10px solid #4A90E2;
+    clear: both;
+    float: left;
+    margin-left: 150px;
+    padding-bottom:30px;
+    width: 700px;
+}
+
+
+#baseContents .lifeStyle .blue {
+    border-color: #4A90E2;
+    color: #4A90E2;
+}
+
+#baseContents .lifeStyle .bottom {
+    margin-bottom: 20px;
+}
+
+#baseContents .lifeStyle .point {
+    background-image: url("../img/GraphPaper.png");
+    clear: both;
+    float: left;
+    margin-left: 100px;
+    margin-top: 20px;
+    width: 718px;
+}
+
+#baseContents .lifeStyle .point .point_image {
+    float: left;
+    margin-top: -8px;
+    margin-left: 10px;
+}
+
+#baseContents .lifeStyle .point h2 {
+    clear: both;
+    border-bottom: #4A90E2 2px solid;
+    color: #4A90E2;
+    display: inline-block;
+    float: left;
+    margin-left: 35px;
+    margin-top: 10px;
+}
+
+#baseContents .lifeStyle .point p {
+    clear: both;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+#baseContents .mainContent2 {
+    clear: both;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    width: 875px;
+}
+
+#baseContents .mainContent2 .textBox2 {
+    clear: both;
+    float: left;
+    width: 50%;
+}
+
+#baseContents .mainContent2 .textBox2 .text2 {
+    font-size: 18px;
+    line-height: 1.7em;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: left;
+    width: 95%;
+}
+
+#baseContents .mainContent2 .textBox2 .topic2 {
+    color: #23BEFB;
+    font-size: 24px;
+    font-weight: bolder;
+    margin-top: 60px;
+    text-align: left;
+}
+
+#baseContents .mainContent2 .photo2 {
+    float: right;
+    margin-top: 60px;
+}

@@ -1,0 +1,281 @@
+@charset "UTF-8";
+
+
+#baseContents .description {
+    border: #71CDF2 3px solid;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 150px;
+    padding: 20px;
+    width: 700px;
+}
+
+#baseContents .description .descriptionText {
+    line-height: 1.2em;
+    margin-left: auto;
+    margin-right:auto;
+    text-align: left;
+    width: 500px;
+}
+
+#baseContents .description .descriptionText dt {
+    margin-left: 20px;
+}
+
+#baseContents .description .descriptionText dd {
+    margin-left: 50px;
+}
+
+#baseContents .description .descriptionText .link {
+   text-decoration: underline;
+}
+
+#baseContents .monthEvent {
+    margin-left: 120px;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 800px;
+}
+
+#baseContents .monthEvent.blank {
+    margin-top: 50px;
+}
+
+#baseContents .monthEvent .monthBox {
+    background-color: #000000;
+    float: left;
+    height: 105px;
+    text-align: center;
+    width: 100px;
+}
+
+#baseContents .monthEvent .monthBox .monthFigure {
+    color: #FFFFFF;
+    font-size: 370%;
+    margin-top: 35px;
+}
+
+#baseContents .monthEvent .monthBox .month {
+    color: #FFFFFF;
+    margin-top: 15px;
+}
+
+#baseContents .monthEvent .monthBox.april {
+    background-color: #FD9E9C;
+    border-bottom: #F06979 10px solid;
+}
+
+#baseContents .monthEvent .monthBox.may {
+    background-color: #699932;
+    border-bottom: #4F7325 10px solid;
+}
+
+#baseContents .monthEvent .monthBox.june {
+    background-color: #F1E760;
+    border-bottom: #BCB449 10px solid;
+}
+
+#baseContents .monthEvent .monthBox.july {
+    background-color: #6095D4;
+    border-bottom: #486F9D 10px solid;
+}
+
+#baseContents .monthEvent .monthBox.august {
+    background-color: #F5B245;
+    border-bottom: #C69038 10px solid;
+}
+
+#baseContents .monthEvent .monthBox.september {
+    background-color: #526B9E;
+    border-bottom: #2F3D5A 10px solid;
+}
+
+#baseContents .monthEvent .monthBox.october {
+    background-color: #B89FD2;
+    border-bottom: #714C99 10px solid;
+}
+
+#baseContents .monthEvent .monthBox.november {
+    background-color: #E0644D;
+    border-bottom: #B3513F 10px solid;
+}
+
+#baseContents .monthEvent .monthBox.december {
+    background-color: #CDC1B7;
+    border-bottom: #A89D93 10px solid;
+}
+
+#baseContents .monthEvent .monthBox.january {
+    background-color: #A84758;
+    border-bottom: #7C3340 10px solid;
+}
+
+#baseContents .monthEvent .monthBox.february {
+    background-color: #8A6A4E;
+    border-bottom: #614B37 10px solid;
+}
+
+#baseContents .monthEvent .monthBox.march {
+    background-color: #C2BD83;
+    border-bottom: #807D57 10px solid;
+}
+
+#baseContents .monthEvent .contentBox {
+    background-color: #F2F2F2;
+    overflow: hidden;
+    padding: 10px;
+    width: 610px;
+}
+
+#baseContents .monthEvent .contentBox .box {
+    height: 70px;
+    width: 610px;
+}
+
+#baseContents .monthEvent .contentBox .eventBox {
+    float: left;
+    height: 69px;
+    margin-left: 50px;
+    padding-right: 10px;
+    text-align: left;
+}
+
+#baseContent .monthEvent .contentBox .eventBox.nomal {
+    width: 170px;
+}
+
+#baseContent .monthEvent .contentBox .eventBox.wide {
+    width: 200px;
+}
+
+#baseContents .monthEvent .contentBox .eventBox .event {
+    margin-top: 5px;
+}
+
+#baseContents .monthEvent .contentBox .eventBox .event.oneLine {
+    margin-top: 30px;
+}
+
+#baseContents .monthEvent .contentBox .eventBox .event.twoLine {
+    margin-top: 20px;
+}
+
+#baseContents .monthEvent .contentBox .eventBox.line {
+    border-right: #000000 2px dotted;
+}
+
+#baseContents .monthEvent .contentBox .pickUp {
+    background-image: url("../img/GraphPaper.png");
+    clear: both;
+    height: 270px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 511px;
+}
+
+#baseContents .monthEvent .contentBox .pickUp .clip {
+    float:left;
+    margin-left: 20px;
+    margin-top: -8px;
+}
+
+#baseContents .monthEvent .contentBox .pickUp .pickUpTextBox {
+    clear: both;
+    float: left;
+    margin-left: 30px;
+    margin-top: 20px;
+    height: 190px;
+    width: 205px;
+}
+
+#baseContents .monthEvent .contentBox .pickUp .pickUpTextBox .topic {
+    border-bottom: #4A90E2 4px double;
+    color: #4A90E2;
+    display: inline-block;
+    font-size: 105%;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+#baseContents .monthEvent .contentBox .pickUp .pickUpTextBox .text {
+    font-size: 100%;
+    line-height: 1.2em;
+    margin-top: 20px;
+    width: 220px;
+}
+
+
+#baseContents .monthEvent .contentBox .pickUp .photo {
+    float: right;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+#baseContents .monthEvent .contentBox .time {
+    clear: both;
+    height: 16px;
+    text-align: right;
+    width: 610px;
+}
+
+#baseContents .monthEvent .underBar {
+    border-bottom: #B2B2B2 10px solid;
+}
+
+#baseContents #quarter {
+    background-color: #F2F2F2;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    overflow: hidden;
+    padding-bottom: 20px;
+    width: 700px;
+}
+
+#baseContents #quarter .question {
+    float: left;
+    margin-left: 50px;
+    margin-top: 60px;
+}
+
+#baseContents #quarter .questionText {
+    float: left;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 20px;
+    margin-top: 70px;
+}
+
+#baseContents #quarter .answer {
+    clear: both;
+    float: left;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+
+#baseContents #quarter .answerText {
+    float: left;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+#baseContents #quarter .quarterImage {
+    background-image: url("../img/GraphPaper.png");
+    clear: both;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+#baseContents #quarter .quarterText {
+    font-size: 18px;
+    line-height: 1.3em;
+    margin-left: 140px;
+    margin-top: 20px;
+    text-align: left;
+    width: 400px;
+}

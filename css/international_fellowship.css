@@ -1,0 +1,333 @@
+@charset "UTF-8";
+
+#baseContents .main {
+	margin-bottom: 110px;
+	margin-top: 255px;
+}
+
+#baseContents .main .contents {
+	background-color: #f2f2f2;
+	margin: 25px auto 0px;
+	width: 780px;
+}
+
+#baseContents .main .contents01 {
+	border-color: #536c9c;
+	color: #536c9c;
+}
+
+#baseContents .main .contents02 {
+	color: #a64859;
+}
+
+#baseContents .main .contents03 {
+	border-color: #f1b04f;
+	color: #f1b04f;
+}
+
+#baseContents .main .contents04 {
+	border-color: #6a9839;
+	color: #6a9839;
+}
+
+#baseContents .main .contents05 {
+	border-color: #9f8ab3;
+	color: #9f8ab3;
+}
+
+#baseContents .contents .mainTitle {
+	height: 120px;
+}
+
+#baseContents .mainTitle .titleLabel {
+	color: #ffffff;
+	float: left;
+	font-size: 400%;
+	height: 100%;
+	line-height: 120px;
+	margin-right: 45px;
+	text-align: center;
+	width: 120px;
+}
+
+#baseContents .mainTitle .label01 {
+	background-color: #536c9c;
+}
+
+#baseContents .mainTitle .label02 {
+	background-color: #a64859;
+}
+
+#baseContents .mainTitle .label03 {
+	background-color: #f1b04f;
+}
+
+#baseContents .mainTitle .label04 {
+	background-color: #6a9839;
+}
+
+#baseContents .mainTitle .label05 {
+	background-color: #9f8ab3;
+}
+
+#baseContents .mainTitle .titleInner {
+	display: table;
+	float: left;
+	height: 100%;
+}
+
+#baseContents .mainTitle .titleInner h2 {
+	font-size: 200%;
+	font-weight: bolder;
+	line-height: 2em;
+}
+
+#baseContents .titleInner div {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#baseContents .contents input {
+	display: none;
+}
+
+#baseContents .contents input ~ .detail {
+	height: 0px;
+	overflow: hidden;
+}
+
+#baseContents .contents input:checked ~ .detail {
+	height: 280px;
+}
+
+#baseContents .contents01 input:checked ~ .detail {
+	height: 700px;
+}
+
+#baseContents .contents03 input:checked ~ .detail {
+	height: 720px;
+}
+
+#baseContents .contents04 input:checked ~ .detail {
+	height: 860px;
+}
+
+#baseContents .contents input:checked + .open {
+	-webkit-transform: rotate(90deg);
+    -moz-transform:  rotate(90deg);
+    -ms-transform:  rotate(90deg);
+    -o-transform:  rotate(90deg);
+    transform:  rotate(90deg);
+}
+
+#baseContents .contents .open {
+	cursor: pointer;
+	float: right;
+	height: 70px;
+	margin: 25px 35px 0px 0px;
+	width: 70px;
+	-webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+#baseContents .contents .open:hover {
+	opacity: 0.7;
+}
+
+#baseContents .contents .openCircle01 {
+	background: url(../img/Triangle_close-blue.png) no-repeat;
+}
+
+#baseContents .contents .openCircle02 {
+	background: url(../img/Triangle_close-red.png) no-repeat;
+}
+
+#baseContents .contents .openCircle03 {
+	background: url(../img/Triangle_close-yellow.png) no-repeat;
+}
+
+#baseContents .contents .openCircle04 {
+	background: url(../img/Triangle_close-green.png) no-repeat;
+}
+
+#baseContents .contents .openCircle05 {
+	background: url(../img/Triangle_close-purple.png) no-repeat;
+}
+
+#baseContents .contents .detail {
+	clear: both;
+	-webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+#baseContents .detail .detailInner {
+	margin-left: 60px;
+	margin-top: 35px;
+}
+
+#baseContents .detailInner .subTitle {
+	display: table;
+}
+
+#baseContents .subTitle .titleName {
+	font-weight: bold;
+	padding-left: 33px;
+	padding-top:  3px;
+}
+
+#baseContents .subTitle .circle {
+	border-radius: 50%;
+	border: 3px solid;
+	margin-top: 7px;
+	float: left;
+	height: 14px;
+	width: 14px;
+}
+
+#baseContents .detailInner dl {
+	clear: left;
+	line-height: 1.5em;
+	margin-left: 33px;
+	margin-top: 10px;
+}
+
+#baseContents .detailInner dt {
+	clear: left;
+	float: left;
+}
+
+#baseContents .detailInner dt::after {
+	content: "：";
+	margin-left: 6px;
+	margin-right: 6px;
+}
+
+#baseContents .detailInner dd {
+	float: left;
+	width: 550px;
+}
+
+#baseContents .detailInner p {
+	line-height: 1.5em;
+}
+
+#baseContents .detailInner .university {
+	-webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+#baseContents .detailInner .university:before {
+	content: "・";
+}
+
+#baseContents .table {
+	display: table;
+}
+
+#baseContents .contents05 ul {
+	margin-bottom: 1em;
+	margin-left: 50px;
+}
+
+#baseContents .map {
+	margin-top: 35px;
+	width: 660px;
+	position: relative;
+}
+
+#baseContents .map .marker {
+	height: 30px;
+	-webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+	width: 20px;
+	position: absolute;
+}
+
+#baseContents .map .uniBox {
+	width: 720px;
+}
+
+#baseContents .map .marker:hover {
+	opacity: 0.7;
+}
+
+#baseContents .map .marker01 {
+	top: 300px;
+	left: 264px;
+}
+
+#baseContents .map .marker02 {
+	top: 225px;
+	left: 377px;
+}
+
+#baseContents .map .marker03 {
+	top: 75px;
+	left: 397px;
+}
+
+#baseContents .map .marker04 {
+	top: 42px;
+	left: 467px;
+}
+
+#baseContents .map .fukidasi {
+	border-radius: 6px;
+	height: 40px;
+	width: 50px;
+	position: absolute;
+	left: 520px;
+	top: 92px;
+}
+
+#baseContents .fukidasi img {
+	height: 100%;
+	width: 100%;
+}
+
+#baseContents .fukidasi .fukidasiInner::before {
+	border: solid transparent;
+	border-top-color: #a64859;
+	border-width: 28px 7px 0px 7px;
+	content: "";
+	height: 0px;
+	margin-left: -7px;
+	position: absolute;
+	left: 50%;
+	top: 100%;
+	width: 0px;
+}
+
+#baseContents .fukidasi .fukidasiInner {
+	border-radius: 5px;
+	background-color: #ffffff;
+	border: #a64859 2px solid;
+	height: 38px;
+	position: relative;
+	width: 48px;
+}
+
+#baseContents .map .mapAsia {
+	height: 496px;
+	width: 657px;
+}
+
+#baseContents .map .marker01:hover ~ .uniBox .university01,
+#baseContents .map .marker02:hover ~ .uniBox .university02,
+#baseContents .map .marker03:hover ~ .uniBox .university03,
+#baseContents .map .marker03:hover ~ .uniBox .university04,
+#baseContents .map .marker04:hover ~ .uniBox .university05 {
+	color: #ff0000;
+}

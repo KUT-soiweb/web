@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Topic and News</title>
+    <link rel="stylesheet" href="css/base.css" media="all" title="header" charset="utf-8" />
+    <link rel="stylesheet" href="css/topic_news_article.css" media="all" title="header" charset="utf-8" />
+    <link rel="icon" href="../img/favicon2.png" type="image/png" />
+    <script type="text/javascript">
+        window.onload = function(){
+          headSerect(0);
+        }
+    </script>
+  </head>
+  <body>
+    <!--#include file="header.html"-->
+    <div id="baseContents">
+      <div class="pankuzu">
+        <a href="../index.shtml">HOME</a> > <a href="../topic_news.shtml">Topics&amp;News</a> > News詳細
+      </div> <!-- pankuzu -->
+      <div class="subTitle">
+        <h1><span class="topChar">T</span>opics</h1><h2>and</h2><h1><span class="topChar">N</span>ews</h1>
+      </div><!-- title -->
+      <div class="newsArea">
+        <dt>2016.11.25</dt>
+        <h1>セキュリティ・キャンプ全国大会2016の参加者インタビューを掲載しました。</h1>
+        <hr />
+                <div class="mainImgArea">
+          <img src="img/id125_1.JPG" class="mainImg" />
+        </div><!-- mainImgArea -->
+        
+        <!--メインセンテンス部分(body1部分)-->
+        <p class="mainSentence">
+        <!--ここに本文を書いてください-->
+        　8月9日から13日にかけて、千葉県のクロス・ウェーブ幕張でセキュリティ・キャンプ全国大会2016が開催されました。<br>
+        　セキュリティ・キャンプは2004年から開催され、2015年度のセキュリティ・キャンプまでに計530名の方が参加されており、今年は50名が参加しました。イベントの知名度も高く、様々な方面から高度なIT人材の発掘・育成を目的としたイベントとして注目されています。合宿形式で勉強会が行われており、今回そのセキュリティ・キャンプに参加された情報学群4年の合路 健人さんへ取材することができました。<br>
+        </p><!-- mainSentence -->
+
+        <div class="subArea">
+          <p>
+          <!--ここに補助文を書いてください(body2部分)-->
+            Q：なぜセキュリティ・キャンプに参加されましたか？<br>
+            A：最新のセキュリティに関する知識の習得・向上のため、ITのエキスパートに教えてもらえるので参加しました。<br>
+            <br>
+            Q：セキュリティの知識は習得できましたか？<br>
+            A：マルウェアやクラウドセキュリティ、人工知能のセキュリティに関する知識などを習得できました。<br>
+            <br>
+            Q：講義を受講されて感じたことはありますか？<br>
+            A：講義のレベルが高く、知識不足を感じました。また、周囲の人のレベルも高く感じました。<br>
+            <br>
+            Q：周囲の人のレベルが高いとはどういう意味ですか？<br>
+            A：大会に入賞された方が多く、グループディスカッションでも知識の多さを感じました。自分より若い人もレベルが高いと感じました。<br>
+            <br>
+            Q：専門講義では何を行いましたか？<br>
+            A：専門講義では、Windowsのマルウェア解析を行いました。また、機械学習の基礎や学習データの汚染対策などの人工知能のセキュリティについて検討し、AWSを利用してWebサービスを構築、クラウドセキュリティの基礎を学びました。他にも、講義でグループディスカッションを行い、自分のパスワード管理の不備に対する対策を話し合ったりもしました。インフラ・セキュリティ・ブートキャンプでは、コードを書いてAmazon VPCの構築を行い、グループで書いたコードをGitで管理しました。<br>
+            <br>
+          </p>
+                      <img src="img/id125_2.JPG" />
+                  </div><!-- subArea -->
+
+        <div class="subArea">
+          <p>
+          <!--ここに補助文を書いてください(body3部分)-->
+          <p>
+            Q：CTFでは何を行いましたか？<br>
+            A：CTFでは、グループに1台サーバとしてRaspberry Piが配置され、そのサーバ内にあるBase64でエンコードされた問題を解くことによりフラグを取得して、運営サーバに送信し得点を取得しました。<br>
+            <br>
+            Q：合路さんはどのような活躍をされましたか？<br>
+            A：サーバにログインするときにデフォルトで設定されているユーザ名とパスワードでログインすることを提案し、ログインすることができました。他の人もポートスキャンでサーバにアクセスするなどの活躍をされていました。<br>
+            <br>
+          </p>
+                      <img src="img/id125_3.JPG" />
+                  </div><!-- subArea -->
+        <!--まとめ部分(body4部分)-->
+        <p class="mainSentence">
+        <!--ここにまとめを書いてください-->
+        <br />
+		<br />
+        <br />
+        <br />
+        <br />
+
+		  　合路さんから、セキュリティ・キャンプについて、今後も様々な技術が繋がりあってほしい、参加費は無料なのでセキュリティに興味がある方はぜひ自分の力のために参加してほしいとメッセージをいただきました。セキュリティ・キャンプは<a href="https://www.ipa.go.jp/jinzai/camp/2016/zenkoku2016.html">IPA(独立行政法人情報処理推進機構)</a>と<a href="http://www.security-camp.org/">セキュリティ・キャンプ実施協議会</a>の共同主催で、IPAや富士通株式会社などで活躍されている方から技術を学ぶことができる貴重なイベントですので、ぜひ参加してみてはいかがでしょうか。<br />
+		  <br />
+		  [用語説明]<br />
+		  マルウェア：有害な動作をさせる意図をもって作成された悪意のあるソフトウェアやコードの総称。<br />
+		  AWS：Amazon Web Serviceの略称。クラウドコンピューティングサービスを提供している。<br />
+		  VPC：Virtual Private Cloudの略称。AWSのプライベートな仮想ネットワークを構築できる。<br />
+		  Git：ソースコードなどの変更の記録・追跡するための分散型バージョン管理システム。<br />
+		  CTF：Capture The Flagの略称。攻防戦形式とクイズ形式があり、フラグを取得し得点を競い合う。<br />
+		  Raspberry Pi：Raspberry Pi財団が開発したシングルボードコンピュータ。<br />
+		  Base64：64種類の英数字のみを用いるエンコード方式。
+
+        </p><!-- mainSentence -->
+
+       </div><!-- newsArea -->
+    </div><!-- baseContents -->
+    <!--#include file="footer.html"-->
+
+  </body>
+</html>

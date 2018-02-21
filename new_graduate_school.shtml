@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset="utf-8">
+   <title>情報学コース</title>
+   <link rel="stylesheet" href="./css/new_graduate_school.css" media="screen" title="no title" charset="utf-8">
+   <link rel="stylesheet" href="./css/base.css" media="screen" title="no title" charset="utf-8">
+   <link rel="icon" href="img/favicon2.png" type="image/png" />
+   <script type="text/javascript">
+       window.onload = function(){
+         headSerect(6);
+       }
+   </script>
+  </head>
+ <body>
+ <!--#include file="header.html"-->
+ <div id="baseContents">
+   <div class="pankuzu">
+     <a href="index.shtml">HOME</a> > <a href="graduate_school.shtml">大学院</a> > 情報学コース
+   </div> <!-- pankuzu -->
+ <div class="title">
+    <h2>大学院改革</h2>
+    <h1><span>N</span>ew<span> G</span>raduate<span> S</span>chool</h1>
+ </div><!-- title -->
+  <div class="detail">
+    平成29年度より, 4年間の学部教育と2年間の大学院教育を一体化し、6年一貫の情報学分野の教育を行います。
+	改革に伴い、修士課程のコース名を「情報システム工学コース」から「情報学コース」へと変更します。<br />
+    本コースでは、進歩の早い情報学分野において基盤となる体系づけられた基礎知識の習得と実践による最新技術の効率的な習得を目指し、
+	大学院に進学することで、より幅広い知識を習得し深い洞察力をもつゼネラリストとして活躍する人材を輩出します。<br />
+    改革では、各分野の高度な内容を習得する座学をそれぞれ2科目ずつ設置し、学生の興味に応じた専門性の獲得を可能としています。
+	また、修士特別研究を通じて高いレベルの問題発見能力、問題解決能力の養成を行います。<br />
+    これらのほかに、3本の柱として以下の改革を行っています。新カリキュラムも掲載しています。
+  </div><!-- detail -->
+
+   <div class="lecture">
+   <div class="mainImage">
+     <img src="./img/infBas.png" style="position: absolute"/>
+     <img src = "./img/Lecture01.png" style="position: absolute"/>
+   </div><!-- mainImage -->
+   <div class="section">
+     <div class="name"/>
+     <h1>情報学基礎講座</h1>
+   </div><!-- name -->
+          <div class="contents">
+     <p>
+       　目まぐるしく変化する情報学分野において、時代が変わっても通用する正統的な情報工学に関わる基礎理論を提供します。<br />
+       　3つの講義を新設し、どの専攻出身であっても情報系としての基盤を十分に獲得し、社会に貢献できるゼネラリストを養成します。
+     </p>
+    </div><!-- contents -->
+   </div><!-- section -->
+ </div><!-- lecture -->
+ <div class="lecture">
+   <div class="mainImage">
+     <img src="./img/PBL.jpg" style="position: absolute"/>
+     <img src = "./img/Lecture02.png" style="position: absolute"/>
+   </div><!-- mainImage  -->
+
+   <div class="section">
+     <div class="name"/>
+      <h1>PBL<br /><span>(Project-Based Learning)</span></h1>
+     </div><!-- name -->
+     <div class="contents">
+       <p>
+        セキュリティ演習と機械学習など情報系ツールの利活用講義です。<br />
+		座学と演習をバランスよく割り当て、実際に手を動かしながらチームで問題解決に当たります。
+		チームビルディングから始まり、座学で学習したことを目で見て手を動かし確認し、社会へ出てから役に立つ高度なスキルを身につけるよう教育します。
+       </p>
+     </div><!-- contents -->
+   </div><!-- section -->
+ </div><!-- lecture -->
+ <div class="lecture">
+   <div class="mainImage">
+     <img src = "./img/seminer.jpg" style="position: absolute"/>
+     <img src = "./img/Lecture03.png" style="position: absolute"/>
+   </div><!-- mainImage -->
+   <div class="section">
+    <div class="name"/>
+     <h1>情報学<br />先端セミナー</h1>
+    </div><!-- name -->
+   <div class="contents">
+     <p>
+      　発表スキルと論理構築能力の獲得を目指したセミナーです。<br />
+      　研究に関わる論文の紹介や学生自身の研究発表を多数の教員と学生の前で行い、学生間で異分野の最新技術の共有を図るとともに、教員による徹底した指導を通じて発表スキルの向上を目指します。
+     </p>
+   </div><!-- contents -->
+ </div><!-- section -->
+ </div><!-- lecture -->
+
+ <div class="lecture">
+   <div class="mainImage">
+     <img src="./img/graduate_curriculum.jpg" style="position: absolute"/>
+     <img src = "./img/Lecture04.png" style="position: absolute"/>
+   </div><!-- mainImage  -->
+
+   <div class="section">
+     <div class="name"/>
+     <h1>カリキュラム</h1>
+     <h2></h2>
+     </div><!-- name -->
+     <div class="contents" >
+       <p>
+         　研究と自分の専門分野、情報学基礎講座、PBL、先端セミナーのほかに英語や他分野などの単位取得をすることができます。<br />
+         　カリキュラムにおいて、情報学基礎講座・PBL・情報学先端セミナーは毎年開講で、他は隔年開講です。
+       </p>
+     </div><!-- contents -->
+   </div><!-- section -->
+
+
+
+   <div class="subtable1"><!--subtable1-->
+     <table><!--excel仕様-->
+      <tr class="hcaption">
+        <th class="wcaption green"></th>
+        <th class="green">iH</th>
+        <th class="green">iM</th>
+        <th class="green">CC</th>
+        <th class="green">CS</th>
+      </tr>
+      <tr class="body line">
+        <th rowspan="9" class="wcaption">1,2年次</th>
+        <td>情報と倫理</td>
+        <td>情報メディア概論</td>
+        <td>通信網概論</td>
+        <td>オートマトンと形式言語</td>
+      </tr>
+      <tr class="body">
+        <td>情報と職業</td>
+        <td>数値計算法</td>
+        <td>信号理論基礎</td>
+        <td>計算機システム</td>
+      </tr>
+      <tr class="body">
+        <td>知覚と認識</td>
+        <td>映像音響メディア</td>
+        <td>通信方式</td>
+        <td>論理回路</td>
+      </tr>
+      <tr class="body">
+        <td>感覚・神経生物学</td>
+        <td>画像処理</td>
+        <td></td>
+        <td>アルゴリズムとデータ構造</td>
+      </tr>
+      <tr class="body">
+        <td colspan="4"><p class="blue">コンピューターリテラシー・応用コンピューターリテラシー</p></td>
+      </tr>
+      <tr class="body">
+        <td colspan="4"><p class="blue">情報理論基礎</p></td>
+      </tr>
+      <tr class="body">
+        <td colspan="4"><p class="blue">離散数学</p></td>
+      </tr>
+      <tr class="body">
+        <td colspan="4"><p class="blue">情報理論基礎</p></td>
+      </tr>
+      <tr class="body">
+        <td colspan="4"><p class="blue">計算機言語</p></td>
+      </tr>
+
+      <tr class="body line">
+        <th rowspan="7" class="wcaption">3,4年次</th>
+        <td>認知心理学</td>
+        <td>ウェブメディア</td>
+        <td>情報セキュリティ</td>
+        <td>計算機アーキテクチャ</td>
+      </tr>
+      <tr class="body">
+        <td>人工知能基礎</td>
+        <td>パターン認識と理解</td>
+        <td>アナログディジタル通信</td>
+        <td>符号理論</td>
+      </tr>
+      <tr class="body">
+        <td>学習と推論</td>
+        <td>HCI概論</td>
+        <td>計算機ネットワーク</td>
+        <td>コンパイラ</td>
+      </tr>
+      <tr class="body">
+        <td>脳情報学</td>
+        <td>コンピュータグラフィクス</td>
+        <td>情報ネットワーク設計</td>
+        <td>データベースシステム</td>
+      </tr>
+      <tr class="body">
+        <td></td>
+        <td></td>
+        <td>ワイヤレスアクセスNW</td>
+        <td>オペレーティングシステム</td>
+      </tr>
+      <tr class="body">
+        <td colspan="4"><p class="red">ソフトウェア工学・ソフトウェア演習</p></td>
+      </tr>
+      <tr class="body">
+        <td colspan="4"><p class="red">卒業研究</p></td>
+      </tr>
+    </table>
+    </div>
+
+
+    <div class="subtable2">
+      <table>
+        <tr class="hcaption">
+          <th class="wcaption"></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+        </tr>
+      <tr class="body">
+        <th rowspan="7" class="wcaption">大学院科目</th>
+        <td>知覚認識論</td>
+        <td>HCI論</td>
+        <td>情報通信システム論</td>
+        <td>分散処理並列計算</td>
+      </tr>
+      <tr class="body">
+        <td>脳情報科学論</td>
+        <td>画像情報処理論</td>
+        <td>デジタル信号処理論</td>
+        <td>計算機設計論</td>
+      </tr>
+      <tr class="body">
+        <td colspan="4"><p class="blue">計算理論</p></td>
+      </tr>
+      <tr class="body">
+        <td colspan="4"><p class="blue">計算機システム論</p></td>
+      </tr>
+      <tr class="body">
+        <td colspan="4"><p class="blue">ビッグデータ・数理モデル・実験計画</p></td>
+      </tr>
+      <tr class="body">
+        <td colspan="4"><p class="red">情報セキュリティ演習</p></td>
+      </tr>
+      <tr class="body">
+        <td colspan="4"><p class="red">応用ソフトウェア工学演習</p></td>
+      </tr>
+     </table><!--excel仕様-->
+     <div class="add">
+       <p class="blue white1">情報学基礎講座</p>
+       <p class="red white2">PBL</p>
+     </div>
+     <div class="item">
+       <h1>専門科目</h1>
+       <h2>知覚認識論 / 脳情報科学論 </h2>
+       <h2>HCI論 / 画像処理論 </h2>
+       <h2>情報通信システム論 / デジタル信号処理論 </h2>
+       <h2>分散処理並列計算 / 計算機設計論 </h2>
+       <h1>情報学基礎講座</h1>
+       <h2>計算理論</h2>
+       <h2>計算機システム論</h2>
+       <h2>ビッグデータ・数理モデル・実験計画</h2>
+       <h1>PBL(プロジェクトベースドラーニング)</h1>
+       <h2>情報セキュリティ演習</h2>
+       <h2>応用ソフトウェア工学演習</h2>
+       <h1>情報学先端セミナー</h1>
+       <h2>情報学先端セミナー１</h2>
+       <h2>情報学先端セミナー２</h2>
+	   </div>
+   </div><!--subtable2-->
+ </div><!-- lecture -->
+ </div><!-- baseContents -->
+
+ <!--#include file="footer.html"-->
+ </body>
+</html>

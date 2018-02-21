@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>脳と情報シンポジウム2016が高知工科大学で開催されました。</title>
+    <link rel="stylesheet" href="css/base.css" media="all" title="header" charset="utf-8" />
+    <link rel="stylesheet" href="css/topic_news_article.css" media="all" title="header" charset="utf-8" />
+    <link rel="icon" href="../img/favicon2.png" type="image/png" />
+    <script type="text/javascript">
+        window.onload = function(){
+          headSerect(0);
+        }
+    </script>
+  </head>
+  <body>
+    <!--#include file="header.html"-->
+    <div id="baseContents">
+      <div class="pankuzu">
+        <a href="../index.shtml">HOME</a> > <a href="../topic_news.shtml">Topics&amp;News</a> > News詳細
+      </div> <!-- pankuzu -->
+      <div class="subTitle">
+        <h1><span class="topChar">T</span>opics</h1><h2>and</h2><h1><span class="topChar">N</span>ews</h1>
+      </div><!-- title -->
+      <div class="newsArea">
+        <dt>2016.11.7</dt>
+        <h1>脳と情報シンポジウム2016が高知工科大学で開催されました。</h1>
+        <hr />
+                <div class="mainImgArea">
+          <img src="img/id130_1.JPG" class="mainImg" />
+        </div><!-- mainImgArea -->
+                <p class="mainSentence">
+        　少し冷たい風が吹き、秋も終わりのように感じられた11月2日水曜日、高知工科大学で脳と情報シンポジウム2016が開催されました。<br />
+　脳と情報シンポジウム2016（以下、講演会）は、高知工科大学情報学群岩田誠教授がセンター長を務める<a href="http://www.souken.kochi-tech.ac.jp/BrainCom/index.php?最新情報">脳コミュニケーション研究センター</a>が主催の研究交流講演会です。 脳コミュニケーション研究センター（以下、脳コミュ）では、学内・学外を問わず様々な先進的共同研究を推進しており、これらの活動の中間的な成果を学術的により高いレベルへと洗練し、また相互に研究交流を図ることを目的として、研究者及び学生を対象に講演会を開催されました。        </p><!-- mainSentence -->
+                <div class="subArea">
+                    <p>
+            　今年度は、東京大学の今水寛教授、本学の岩田誠教授、玉川大学の松元健二教授、高知大学の森信繁教授らが、ご自身の研究や脳コミュでの中間成果をご講演されました。<br />
+　関係者や研究者の方々に加えて、本学群の学生も多く出席しており、講演中は必死にメモを取りながら頷くなどの反応が見られました。また質疑応答は予定時間を多少オーバーするほど活発に行われていました。          </p>
+                      <img src="img/id130_2.JPG" />
+                  </div><!-- subArea -->
+                <div class="subArea">
+                    <p>
+            　出席していた学生たちからのコメントには、「質疑応答時の、脳が受ける刺激によって一時的に運動能力が変化する、という内容に非常に興味を持ちました。 今回の講演会を聴講することで近い将来同じ分野で研究を行う身として非常に刺激を受けました。」、「自分の研究内容と繋がるところが多くありましたが、学習の早さによって 脳活動の領域が異なるなど、初めて知ることも多くあり驚きの連続でした。」、「医療分野における脳画像の高解像度化やセキュリティ保護などのITの重要性を知る意味でとても勉強になりました。」 とあり、学生たちにとっても得るものが多い講演会になりました。          </p>
+                    <img src="img/id130_3.JPG" />
+                  </div><!-- subArea -->
+              </div><!-- newsArea -->
+    </div><!-- baseContents -->
+    <!--#include file="footer.html"-->
+
+  </body>
+</html>

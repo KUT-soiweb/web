@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>警察庁から Cykut に感謝状が贈呈されました。</title>
+    <link rel="stylesheet" href="css/base.css" media="all" title="header" charset="utf-8" />
+    <link rel="stylesheet" href="css/topic_news_article.css" media="all" title="header" charset="utf-8" />
+    <link rel="icon" href="../img/favicon2.png" type="image/png" />
+    <script type="text/javascript">
+        window.onload = function(){
+          headSerect(0);
+        }
+    </script>
+  </head>
+  <body>
+    <!--#include file="header.html"-->
+    <div id="baseContents">
+      <div class="pankuzu">
+        <a href="../index.shtml">HOME</a> > <a href="../topic_news.shtml">Topics&amp;News</a> > News詳細
+      </div> <!-- pankuzu -->
+      <div class="subTitle">
+        <h1><span class="topChar">T</span>opics</h1><h2>and</h2><h1><span class="topChar">N</span>ews</h1>
+      </div><!-- title -->
+      <div class="newsArea">
+        <dt>2017.12.21</dt>
+        <h1>警察庁から Cykut に感謝状が贈呈されました。</h1>
+        <hr />
+                <div class="mainImgArea">
+          <img src="img/id204_1.jpg" class="mainImg" />
+        </div><!-- mainImgArea -->
+                <p class="mainSentence">
+        　12月19日、本学のサイバーボランティア団体である Cykut に警察庁から感謝状が贈呈されました。<br />
+<br />
+　Cykut では今年7月20日から9月末までの間、警察庁主導の「サイバー防犯ボランティアによる児童被害防止対策」として Twitter 上の児童に有害な情報の発見・通報が行われました。Cykut 全体の通報件数は160件に上り、通報件数等が一定に達した Cykut を含む10県20団体が感謝状贈呈の対象となっています。        </p><!-- mainSentence -->
+                <div class="subArea">
+                    <p>
+            　贈呈式には Cykut メンバー8名と<a href="../faculty_members/profile_yoshida.shtml">情報学群 吉田真一准教授</a>が参加し、高知県警察本部 生活安全部生活環境課 サイバー犯罪対策室 山口 秀典 室長から Cykut 代表の小寺祐生さんに感謝状が渡されました。          </p>
+                      <img src="img/id204_2.jpg" />
+                  </div><!-- subArea -->
+                <div class="subArea">
+                    <p>
+            　Cykut メンバーは、「このような表彰を受け嬉しく思います。これからは更に意識を向上し、活動を活発に行っていきたいです。」と話していました。          </p>
+                    <img src="img/id204_3.jpg" />
+                  </div><!-- subArea -->
+              </div><!-- newsArea -->
+    </div><!-- baseContents -->
+    <!--#include file="footer.html"-->
+
+  </body>
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset="utf-8">
+   <title>就職支援</title>
+   <link rel="stylesheet" href="./css/employment_support.css" media="screen" title="no title" charset="utf-8">
+   <link rel="stylesheet" href="./css/base.css" media="screen" title="no title" charset="utf-8">
+   <link rel="icon" href="img/favicon2.png" type="image/png" />
+   <script type="text/javascript">
+       window.onload = function(){
+         headSerect(4);
+       }
+   </script>
+  </head>
+ <body>
+ <!--#include file="header.html"-->
+ <div id="baseContents">
+   <div class="pankuzu">
+     <a href="index.shtml">HOME</a> > <a href="entrance_examination_job_hunting.shtml">入試・就職</a> > 就職支援
+   </div> <!-- pankuzu -->
+ <div class="title">
+    <h2>就職支援</h2>
+    <h1><span>E</span>mployment<span> S</span>upport</h1>
+ </div><!-- title -->
+  <div class="detail">
+    本学では1年次から就職を視野に入れた体系的なキャリア教育を実施し、3年次から始まる就職活動へ向け多くのサポートを行っています。
+    就職活動開始後は具体的な就職支援として、学内にて個別会社説明会、合同会社説明会、公務員対策講座、就活"好感度アップ"セミナー、
+    SPI対策講座などを開催しています。また、IT業界を中心とした企業から多数寄せられる求人と、学生の希望とのマッチングを行い、
+    一人一人の志向を踏まえた就職支援を行っています。
+  </div><!-- detail -->
+
+   <div class="lecture">
+   <div class="mainImage">
+     <img src="./img/StudySkills.jpg" style="position: absolute"/>
+     <img src = "./img/Lecture01.png" style="position: absolute"/>
+   </div><!-- mainImage -->
+   <div class="section">
+     <div class="name"/>
+     <h1>スタディスキルズ</h1>
+     <h2>1年次科目</h2>
+   </div><!-- name -->
+          <div class="contents">
+     <p>　少人数でのグループワーク活動を通じて、学生が主体的に行動することで、社会で必要とされる社会適応能力の育成に取り組みます。
+       キャリア教育専門の講師が提示したいくつかのテーマについて、学生がテーマの選定を行い、講義の前半、後半で異なる２つのテーマに取り組み
+       ます。提示されるテーマは多岐に渡り、ペットボトルロケットの改良といったユニークなものから、実際の販売を想定した新商品の考案等、
+       学生の能力、志向に合わせて決定することができます。</p>
+    </div><!-- contents -->
+   </div><!-- section -->
+ </div><!-- lecture -->
+ <div class="lecture">
+   <div class="mainImage">
+     <img src="./img/CarrierPlan_kiso.JPG" style="position: absolute"/>
+     <img src = "./img/Lecture02.png" style="position: absolute"/>
+   </div><!-- mainImage  -->
+
+   <div class="section">
+     <div class="name"/>
+      <h1>キャリア・プラン基礎</h1>
+        <h2>２年次科目</h2>
+     </div><!-- name -->
+     <div class="contents">
+       <p>　行動特性（HAME）検査と呼ばれる検査を用いて、自己の能力を客観的に知ることで、自己理解と価値観の分析を行います。
+         また、技術者として求められる基本的な社会知識の習得を行い、社会における基本的なキャリア能力の形成を目指します。
+         外部講師による講義では、行動特性検査で得られた自己の長所、短所やキャリア・プランを他の学生に紹介し、
+         自己アピール力、コミュニケーション力の向上を目指します。後期には個人面談を実施し、
+         3年次へ向けて現時点での進路希望や学生生活について相談を行うことができます。
+       </p>
+     </div><!-- contents -->
+   </div><!-- section -->
+ </div><!-- lecture -->
+ <div class="lecture">
+   <div class="mainImage">
+     <img src = "./img/carrierplan.JPG" style="position: absolute"/>
+     <img src = "./img/Lecture03.png" style="position: absolute"/>
+   </div><!-- mainImage -->
+   <div class="section">
+    <div class="name"/>
+     <h1>キャリア・プラン</h1>
+     <h2>3年次科目</h2>
+    </div><!-- name -->
+   <div class="contents">
+     <p>　就職活動へ向けて、働くことの意義や社会の仕組みを理解を目指すことで体系的なキャリアの形成を行います。
+       講義では学生同士が互いに評価し合うことで、自己の志向や適性、能力を客観的に把握できるように支援します。
+       また、情報学群講師による講義を通して情報技術者を目指す上で必要な一般教養、専門的技術の習得、
+       職種毎における情報技術者が担う役割を理解することで、明確な職業観と就職に必要な基本的な能力を身につけることができます。
+       その他、講義の一環として、ESの書き方や自己PRの方法、SPIの模擬試験等、就職活動に直結したより実践的な講義も受けることができます。
+     </p>
+   </div><!-- contents -->
+ </div><!-- section -->
+ </div><!-- lecture -->
+
+ <div class="lecture">
+   <div class="mainImage">
+     <img src="./img/intern_ship.JPG" style="position: absolute"/>
+     <img src = "./img/Lecture04.png" style="position: absolute"/>
+   </div><!-- mainImage  -->
+
+   <div class="section">
+     <div class="name"/>
+     <h1>インターンシップ</h1>
+     <h2>3年次科目</h2>
+     </div><!-- name -->
+     <div class="contents">
+       <p>　県内外の実際の企業に赴き、そこでの就業体験を通して「社会の中で仕事をする」ことの意味を肌で感じてもらいます。また、社会人としての倫理やマナー、
+         規律の習得を図ると共に、協調性とコミュニケーション能力を身につけ、技術者としての自己確立のためのきっかけづくりを行います。
+         インターンシップ前にはガイダンスや外部講師によるマナー講座を実施し、
+         学生による成果報告によりインターンシップを通して得られた成果を分析、共有を行う機会を設け、客観的な分析能力、
+         自己表現力の向上を目指します。また、希望する学生には海外でのインターンシップも実施しています。
+       </p>
+     </div><!-- contents -->
+   </div><!-- section -->
+ </div><!-- lecture -->
+ </div><!-- baseContents -->
+
+ <!--#include file="footer.html"-->
+ </body>
+</html>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="408px" height="83px" viewBox="0 0 408 83" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12072) - http://www.bohemiancoding.com/sketch -->
+    <title>吹き出し copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="キャンパスライフ詳細-3-copy" sketch:type="MSArtboardGroup" transform="translate(-60.000000, -3183.000000)">
+            <g id="一日の流れ" sketch:type="MSLayerGroup" transform="translate(60.000000, 576.000000)">
+                <g id="吹き出し-copy" transform="translate(0.000000, 2607.000000)">
+                    <path d="M0,1.99694655 C0,0.894063426 0.897034353,8.27180613e-25 1.99958951,8.27180613e-25 L405.344618,8.27180613e-25 C406.448961,8.27180613e-25 407.344208,0.886738706 407.344208,1.99694655 L407.344208,59.0656818 C407.344208,60.1685649 406.445207,61.0626283 405.342287,61.0626283 L73.6334086,61.0626283 L83.4191606,82.2121749 L53.1166199,61.0626283 L2.00130346,61.0626283 C0.896014078,61.0626283 0,60.1758896 0,59.0656818 L0,1.99694655 Z" id="Rectangle-93" fill="#48898D" sketch:type="MSShapeGroup"></path>
+                    <text id="情報学群生に聴いてみました" sketch:type="MSTextLayer" font-family="Hiragino Kaku Gothic ProN" font-size="24.2356241" font-weight="313" fill="#FFFFFF">
+                        <tspan x="67.6720954" y="40.2647098">大学院生に聴いてみました</tspan>
+                    </text>
+                    <g id="Line-+-Line" transform="translate(33.344704, 19.000000)" stroke="#FFFFFF" stroke-width="4" stroke-linecap="square" sketch:type="MSShapeGroup">
+                        <path d="M1,1 L1,15.5" id="Line"></path>
+                        <path d="M1,22.5 L1,23.5" id="Line"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

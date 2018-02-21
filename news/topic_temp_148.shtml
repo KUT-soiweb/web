@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Topic and News</title>
+    <link rel="stylesheet" href="css/base.css" media="all" title="header" charset="utf-8" />
+    <link rel="stylesheet" href="css/topic_news_article.css" media="all" title="header" charset="utf-8" />
+    <link rel="icon" href="../img/favicon2.png" type="image/png" />
+    <script type="text/javascript">
+        window.onload = function(){
+          headSerect(0);
+        }
+    </script>
+  </head>
+  <body>
+    <!--#include file="header.html"-->
+    <div id="baseContents">
+      <div class="pankuzu">
+        <a href="../index.shtml">HOME</a> > <a href="../topic_news.shtml">Topics&amp;News</a> > News詳細
+      </div> <!-- pankuzu -->
+      <div class="subTitle">
+        <h1><span class="topChar">T</span>opics</h1><h2>and</h2><h1><span class="topChar">N</span>ews</h1>
+      </div><!-- title -->
+      
+      <div class="newsArea">
+        <dt>2017.2.15</dt>
+        <h1>平成28年度情報学群卒業研究発表会のご案内</h1>
+        <hr />
+
+        <!--メインセンテンス部分(body1部分)-->
+        <p class="mainSentence">
+        <!--ここに本文を書いてください-->
+        　下記日程のとおり、平成28年度情報学群卒業研究発表会が行われます。
+        </p>
+        <table>
+          <tbody>
+          <tr>
+            <td width="100px"> 日　　時　：</td>
+            <td>2017年2月20日 (月) 一般公開 13:00-17:30 頃</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>2017年2月21日 (火) 一般公開 12:30-17:00 頃</td>
+          </tr>
+          <tr>
+            <td width="100px"> 場　　所　：</td>
+            <td>高知工科大学 <a href="https://www.kochi-tech.ac.jp/about/access/kami.html">香美キャンパス</a> 教育研究棟 A106 及び A107</td>
+          </tr>
+          <tr>
+            <td width="100px"> 問い合わせ：</td>
+            <td>松崎 公紀 准教授 <img src="img/id149_1.png" width="280px"/> までお問い合わせください。</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>メールアドレスは迷惑メール対策のため、画像ファイルになっています。 
+            <br>
+            お手数をお掛け致しますがご自身で打ち込んでご利用ください。</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>
+            プログラムは<a href="http://www.info.kochi-tech.ac.jp/internal/BachelorPresentation2017.pdf">こちら</a> (学内限定) 
+            </td>
+          </tr>
+          <tr>
+            <td width="95px"> 備　　考　：</td>
+            <td>プログラムは両教室にて同時進行で開催されます。</td>
+          </tr>
+          </tbody>
+        </table>
+        <p></p>
+
+       </div><!-- newsArea -->
+    </div><!-- baseContents -->
+    <!--#include file="footer.html"-->
+
+  </body>
+</html>

@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+
+#baseContents .campus {
+  margin-top: 20px;
+  width: 100%;
+}
+
+/* mainImage */
+#baseContents .mainImage {
+  background-color: #cccccc;
+  height: 455px;
+  position: relative;
+  width: 960px;
+}
+
+/* title */
+#baseContents .subTitle {
+  color: #3DB6EB;
+  margin: 50px 50px 0px;
+}
+
+#baseContents .subTitle h1 {
+  font-size: 250%;
+  font-weight: bold;
+}
+
+#baseContents .subTitle h2 {
+  font-size: 125%;
+  margin-top: 20px;
+}
+
+#baseContents .section {
+  height: 550px;
+  margin: 10px auto 0px;
+  position: relative;
+  width: 960px;
+}
+
+/* subIamge */
+#baseContents .section img {
+  float: left;
+  font-weight: bold;
+  height: 400px;
+  line-height: 25px;
+  margin: 10px 40px 0px;
+  width: 400px;
+}
+
+/* sentence */
+#baseContents .section .contents {
+  float: left;
+  font-weight: bold;
+  height: 400px;
+  line-height: 25px;
+  margin:  10px 40px 0px;
+  width: 400px;
+}

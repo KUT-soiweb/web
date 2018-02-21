@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>平成28年度情報学群卒業式・情報システム工学コース修了式が行われました</title>
+    <link rel="stylesheet" href="css/base.css" media="all" title="header" charset="utf-8" />
+    <link rel="stylesheet" href="css/topic_news_article.css" media="all" title="header" charset="utf-8" />
+    <link rel="icon" href="../img/favicon2.png" type="image/png" />
+    <script type="text/javascript">
+        window.onload = function(){
+          headSerect(0);
+        }
+    </script>
+  </head>
+  <body>
+    <!--#include file="header.html"-->
+    <div id="baseContents">
+      <div class="pankuzu">
+        <a href="../index.shtml">HOME</a> > <a href="../topic_news.shtml">Topics&amp;News</a> > News詳細
+      </div> <!-- pankuzu -->
+      <div class="subTitle">
+        <h1><span class="topChar">T</span>opics</h1><h2>and</h2><h1><span class="topChar">N</span>ews</h1>
+      </div><!-- title -->
+      <div class="newsArea">
+        <dt>2017.3.27</dt>
+        <h1>平成28年度情報学群卒業式・情報システム工学コース修了式が行われました</h1>
+        <hr />
+                <div class="mainImgArea">
+          <img src="img/id150_1.jpg" class="mainImg" />
+        </div><!-- mainImgArea -->
+                <p class="mainSentence">
+        　平成29年3月24日、高知工科大学で平成28年度情報学群卒業式・情報システム工学コース修了式が行われました。<br />
+　情報学群学士課程101名、情報システム工学コース15名、計116名が卒業し、清水明宏学群長から学位が授与されました。        </p><!-- mainSentence -->
+                <div class="subArea">
+                    <p>
+            　当修了式では複数の学生が以下の内容で表彰されました。<br />
+<br />
+[末松賞]<br />
+　　・福田 和馬<br />
+[佐久間賞]<br />
+　　・村田 祐也<br />
+[教員免許(高等学校一種免許：数学、情報)・(中学校一種免許：数学)]<br />
+　　・吉原 美奈子<br />
+[教育免許(高等学校一種免許：数学)・(中学校一種免許：数学)]<br />
+　　・福井 利伸<br />
+　　・山下 大貴<br />
+　　・吉永 昇平<br />
+[教員免許(高等学校一種免許：情報)]<br />
+　　・合路 健人<br />
+　　・小松 保奈美<br />
+　　・本園 遥<br />
+[電気学会・電子情報通信学会・情報処理学会四国支部奨励賞]<br />
+　　・田中 麻美<br />
+　　・甲原 春花<br />
+[Cloud Spiral修了]<br />
+　　・畑 翔太<br />
+　　・藤原 蓮<br />
+<br />
+          </p>
+                      <img src="img/id150_2.JPG" />
+                  </div><!-- subArea -->
+                <div class="subArea">
+                    <p>
+            　また、午後からは本学キャンパスグリーンで豪華景品が当たる抽選会などのイベントが開催され、カツオのたたきや芋けんぴなどの高知の名産品を中心に多くの食べ物が並びました。<br />
+　最後の大学のイベントということもあり、卒業生はお世話になった先生方や大学で知り合った仲間達と最後の時間を惜しみなく過ごしている様子でした。<br />
+<br />
+　卒業生の皆様、ご卒業おめでとうございます。          </p>
+                    <img src="img/id150_3.jpg" />
+                  </div><!-- subArea -->
+              </div><!-- newsArea -->
+    </div><!-- baseContents -->
+    <!--#include file="footer.html"-->
+
+  </body>
+</html>

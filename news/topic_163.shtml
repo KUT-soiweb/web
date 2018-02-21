@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>情報学群Webリニューアルプロジェクト 1年生募集</title>
+    <link rel="stylesheet" href="css/base.css" media="all" title="header" charset="utf-8" />
+    <link rel="stylesheet" href="css/topic_news_article.css" media="all" title="header" charset="utf-8" />
+    <link rel="icon" href="../img/favicon2.png" type="image/png" />
+    <script type="text/javascript">
+        window.onload = function(){
+          headSerect(0);
+        }
+    </script>
+  </head>
+  <body>
+    <!--#include file="header.html"-->
+    <div id="baseContents">
+      <div class="pankuzu">
+        <a href="../index.shtml">HOME</a> > <a href="../topic_news.shtml">Topics&amp;News</a> > News詳細
+      </div> <!-- pankuzu -->
+      <div class="subTitle">
+        <h1><span class="topChar">T</span>opics</h1><h2>and</h2><h1><span class="topChar">N</span>ews</h1>
+      </div><!-- title -->
+      <div class="newsArea">
+        <dt>2017.5.7</dt>
+        <h1>情報学群Webリニューアルプロジェクト 1年生募集</h1>
+        <hr />
+                <p class="mainSentence">
+        　情報学群Webリニューアルプロジェクトでは、新たにプロジェクトの中で活躍したい1年生を募集します。活動内容は、情報学群ホームページ制作やデザイン、ニュースの更新、ホームページを管理・更新するためのCMS作成などです。<br />
+　参加希望の1年生は、<a href="http://www.info.kochi-tech.ac.jp/faculty_members/profile_kurihara.shtml">栗原准教授</a>(研究室A360, 教員室A467)もしくは、<a href="http://www.info.kochi-tech.ac.jp/faculty_members/profile_ugawa.shtml">鵜川准教授</a>(研究室A361, 教員室A417)を訪ねてください。期限は、6月30日(金)までです。<br />
+　参加条件は"やる気"です。技術や知識は問いませんので、やる気のある方は是非ご参加ください。        </p><!-- mainSentence -->
+              </div><!-- newsArea -->
+    </div><!-- baseContents -->
+    <!--#include file="footer.html"-->
+
+  </body>
+</html>

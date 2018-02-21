@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset="utf-8">
+   <title>授業紹介</title>
+   <link rel="stylesheet" href="./css/lecture.css" media="screen" title="no title" charset="utf-8">
+   <link rel="stylesheet" href="./css/base.css" media="screen" title="no title" charset="utf-8">
+   <link rel="icon" href="img/favicon2.png" type="image/png" />
+   <script type="text/javascript">
+       window.onload = function(){
+         headSerect(3);
+       }
+   </script>
+  </head>
+ <body>
+ <!--#include file="header.html"-->
+ <div id="baseContents">
+   <div class="pankuzu">
+     <a href="index.shtml">HOME</a> > <a href="campus_life.shtml">キャンパスライフ</a> > 授業紹介
+   </div> <!-- pankuzu -->
+   <div class="lecture">
+   <div class="mainImage">
+     <img src="./img/Experiment2-1-2.jpg" style="position: absolute"/>
+     <img src = "img/Lecture01.png" style="position: absolute"/>
+   </div><!-- mainImage -->
+   <div class="subTitle">
+     <h1>情報学群実験第2</h1>
+     <h2>情報学群専門科目</h2>
+   </div><!-- title -->
+   <div class="section">
+       <img src="./img/Experiment2-2-2.jpg"/>
+     <div class="contents">
+       <p>　2年生の実験では、コンピュータの内部の仕組みについて学習します。</p>
+       <p>　前半ではアセンブリ言語によるプログラミングを通し、「プログラム実行機械」である計算機がどのような動作をしているのかを学びます。機械がどうのような制御を行っているのか、電子回路であるハードウェアとプログラミングとの関係を計算機上で実行結果を確認しながら体系的に学ぶことができます。</p>
+       <p>　後半では学んだ知識を活かし手のひらサイズのコンピュータRaspberry Piを操るプログラムを作成します。5〜6人のグループに分かれて外部に接続した発光ダイオード（LED）を光らせたり、スイッチを読み取るプログラムを作ることでコンピュータという機械の仕組みやプログラムとの関わりを実感しながら学ぶことができます。</p>
+    </div><!-- contents -->
+   </div><!-- section -->
+ </div><!-- lecture -->
+ <div class="lecture">
+   <div class="mainImage">
+     <img src="./img/Experiment3i-1.jpg" style="position: absolute"/>
+     <img src = "img/Lecture02.png" style="position: absolute"/>
+   </div><!-- mainImage  -->
+
+   <div class="subTitle">
+     <h1>情報学群実験3i/3C・4i/4C</h1>
+     <h2>情報学群専門科目</h2>
+   </div><!-- title -->
+   <div class="section">
+       <img src="./img/Experiment3i-2.jpg"/>
+     <div class="contents">
+       <p>　3年生の実験では、前期4か月の期間をかけて計算機ハードウェア、ソフトウェア、情報通信の技術、また情報伝達手段で用いられる様々なメディア形式や処理技術を実践的に学ぶことができます。</p>
+       <p>　情報通信の分野では Windows、Mac OS、LinuxをはじめFreeBSDなどを用いて実践的で重要性の高いサービスであるHTTPサーバや電子メールサーバなどを構築するための技術を習得します。また情報通信技術の基礎となるTCP/IPネットワークの設計技術も習得できます。</p>
+       <p>　情報処理の分野では、情報処理ソフトウェアを用いて人間の知覚情報処理の特性についてを体験的に学びます。さらに企業などで実践的に使われているMatlabを使って音声や画像データ、動画などに関する処理を行うためのプログラムの作成を実習します。</p>
+       <p>　情報技術の習得以外にもグループでの協力・共同作業やプレゼンテーション、実験作業のレポートの書き方なども学ぶことができます。</p>
+     </div><!-- contents -->
+   </div><!-- section -->
+ </div><!-- lecture -->
+ <div class="lecture">
+   <div class="mainImage">
+     <img src = "./img/SoftwareEngineering-1.jpg" style="position: absolute"/>
+     <img src = "img/Lecture03.png" style="position: absolute"/>
+   </div><!-- mainImage -->
+   <div class="subTitle">
+     <h1>ソフトウェア工学</h1>
+     <h2>情報学群専門科目</h2>
+   </div><!-- title -->
+   <div class="section">
+       <img src="./img/SoftwareEngineering-2.jpg"/>
+   <div class="contents">
+     <p>　ソフトウェア工学は現実社会のソフトウェアシステムの開発工程を模擬的に体験する授業です。</p>
+     <p>　8人ほどの少人数グループに分かれ一つのソフトウェアを企画から始め、要件定義、分析・設計、コーディング、テストといった実際のソフトウェア開発工程モデルになぞった開発を行います。企画から始めることで課題解決力や問題を分析する力が養なわれます。</p>
+     <p>　またチームの効率的なソフトウェア開発を進めるためにKPT法を導入したりと、作業分担、納期を守るなど品質向上させるための取り組みを行っています。他にもチームでの協力やプロジェクト管理の重要性、コーディング技術、設計書作成法などを体験的に学習することができます。</p>
+     <p>　チームで一つのソフトウェアを開発する大変さや達成感を感じることができる貴重な実践型授業です。</p>
+   </div><!-- contents -->
+ </div><!-- section -->
+ </div><!-- lecture -->
+ </div><!-- baseContents -->
+  <!--#include file="footer.html"-->
+ </body>
+</html>

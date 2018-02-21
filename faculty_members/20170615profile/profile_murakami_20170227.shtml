@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	    <meta name="keyword" content="高知工科大学情報学群">
+	    <meta name="description" content="高知工科大学情報学群のホームページ">
+	    <title>村上 和子</title>
+	    <link rel="stylesheet" type="text/css" href="css/base.css">
+			<link rel="stylesheet" type="text/css" href="css/profile.css">
+			<link rel="icon" href="../img/favicon2.png" type="image/png" />
+	    <script type="text/javascript">
+					window.onload = function(){
+						headSerect(2);
+					}
+			</script>
+</head>
+
+<body>
+<!--#include file="header.html"-->
+
+    <div id ="baseContents">
+
+	<div class="pankuzu">
+		<a href="../index.shtml">HOME</a> > <a href="../faculty_members.shtml">教員一覧</a> > 村上和子
+	</div>
+	<!--pankuzu-->
+	<div class="main">
+      <div class="keireki">
+    <h1>村上 和子<span class="hurigana"><span style="margin-right: 2.8em;"></span>Murakami kazuko</span></h1>
+<div class="photo1">
+		<img src="img/Face-MurakamiKazuko.png" alt="顔の写真" class="facephoto">
+	</div>
+	<!--photo1-->
+		<div class="line"></div>
+    <h2>教育講師<span>教育講師室:A301/A302</span></h2>
+
+
+    <input type="checkbox" id="Panel1" class="ExpandCheckBox" />
+		<label for="Panel1" class="open">
+		  <h3>
+				<img src="svg/Triangle_close-white.svg">&nbsp;プロフィール
+			</h3>
+
+  </label>
+		   <div class="panel">
+
+
+<dl>
+<dt>出身　:</dt><dd>　熊本県</dd>
+<dt>所属　:</dt><dd>　高知工科大学情報学群<br />
+教育講師室</dd>
+<dt>所属会　:</dt><dd>　日本カウンセリング学会</dd>
+<dt>学位　:</dt><dd>　修士（カウンセリング）</dd>
+<dt>学歴　:</dt><dd>　筑波大学大学院人間総合科学研究科<br />
+博士課程前期生涯発達専攻（カウンセリングコース）修了</dd>
+<dt>趣味　:</dt><dd>　ペット、読書、語学学習</dd>
+<div class="mail1"><img src="svg/mail_murakami.svg" alt="先生のmailアドレス" class="mail"></div>
+</dl>
+
+
+</div>
+<!--panel-->
+
+<a href="http://www.kochi-tech.ac.jp/kut/about_KUT/faculty_members/prof/murakami-kazuko.html" target="_blank"><div class="box3" style="float:right">▶ 工科大教員ページ</div></a>
+
+<div class="clear"></div>
+</div>
+<!--keireki-->
+
+<div class="kennkyuushitusyoukai">
+	<div class="center1"><img src="svg/Heading-4.svg" alt="教育講師室紹介"></div>
+
+	<!--<div class="box">写真</div>-->
+<h2>教育講師室 : A302</h2>
+<p>現在の私たちは、社会や技術のめまぐるしい変遷の中を人は生き延びていかねばなりません。経験を大切にしながらも、新しいものに果敢に取り組むことが日本や世界を変えていく力になります。皆さんそれぞれが持っているそんな力を一緒に育み、色々な挑戦の後方支援をしたいと思います。</p>
+</div>
+<!--kennkyuushitusyoukai-->
+<div class="koukouseihe">
+		<div class="box1">
+			<div class="box2">
+	<h3>高校生のみなさんへ</h3>
+	<p>
+	しない後悔より、する後悔を！<br />
+	何事も問題を起こさず静かなだけの人生と、やりたいことをやって失敗をも自分の糧にする人生と、どちらを生きたいですか？高知工科大学とその教員は後者の学生を応援したいと思っています。情報は今や社会インフラになり、通信と情報技術なしの生活は成り立ちません。これらをもっとより良く使いたい、もっと面白いサービスを作りたい、そんな気持ちの皆さんの入学を待っています。
+</p>
+</div>
+<!--box2-->
+</div>
+<!--box1-->
+</div>
+<!--koukouseihe-->
+<div class="kougikamoku">
+<h2>講義科目</h2>
+
+	<dl>
+<dt>学部：</dt><dd>スタディスキルズ1、スタディスキルズ2 </dd>
+</dl>
+
+
+</div>
+<!--kougikamoku-->
+
+</div>
+<!--main-->
+</div>
+<!--baseContents-->
+
+<!--#include file="footer.html"-->
+</body>
+</html>

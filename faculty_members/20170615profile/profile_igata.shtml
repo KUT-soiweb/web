@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	    <meta name="keyword" content="高知工科大学情報学群">
+	    <meta name="description" content="高知工科大学情報学群のホームページ">
+	    <title>井形 元彦</title>
+	    <link rel="stylesheet" type="text/css" href="css/base.css">
+			<link rel="stylesheet" type="text/css" href="css/profile.css">
+			<link rel="icon" href="../img/favicon2.png" type="image/png" />
+	    <script type="text/javascript">
+					window.onload = function(){
+						headSerect(2);
+					}
+			</script>
+</head>
+
+<body>
+<!--#include file="header.html"-->
+
+    <div id ="baseContents">
+
+	<div class="pankuzu">
+		<a href="../index.shtml">HOME</a> > <a href="../faculty_members.shtml">教員一覧</a> > 井形元彦
+	</div>
+	<!--pankuzu-->
+	<div class="main">
+      <div class="keireki">
+    <h1>井形 元彦<span class="hurigana"><span style="margin-right: 2.8em;"></span>Igata Motohiko</span></h1>
+<div class="photo1">
+		<img src="img/Face-IgataMotohiko.png" alt="顔の写真" class="facephoto">
+	</div>
+	<!--photo1-->
+		<div class="line"></div>
+    <h2>教育講師<span>教育講師室:A301/A302</span></h2>
+
+
+    <input type="checkbox" id="Panel1" class="ExpandCheckBox" />
+		<label for="Panel1" class="open">
+		  <h3>
+				<img src="svg/Triangle_close-white.svg">&nbsp;プロフィール
+			</h3>
+
+  </label>
+		   <div class="panel">
+
+
+<dl>
+<dt>生年　:</dt><dd>　1951年</dd>
+<dt>出身　:</dt><dd>　福岡県</dd>
+<dt>所属　:</dt><dd>　高知工科大学情報学群 教育講師室</dd>
+<dt>所属会　:</dt><dd>　工業経営研究学会、日本生産管理学会、地域活性学会。<br />
+日本経営学会、組織学会、日本ベンチャー学会</dd>
+<dt>学位　:</dt><dd>　工学修士(1977年)</dd>
+<dt>学歴　:</dt><dd>　京都大学大学院 工学研究科 情報工学専攻 修士課程 修了</dd>
+<dt>相談可能分野　:</dt><dd>　農商工連携支援、国内クレジット事業支援センター、CO2削減にかかわる分野</dd>
+<dt>趣味　:</dt><dd>　杖道、写真</dd>
+<div class="mail1"><img src="svg/mail_igata.svg" alt="先生のmailアドレス" class="mail"></div>
+</dl>
+
+
+</div>
+<!--panel-->
+
+<a href="http://www.kochi-tech.ac.jp/kut/about_KUT/faculty_members/prof/igata-motohiko.html" target="_blank"><div class="box3" style="float:right">▶ 工科大教員ページ</div></a>
+
+<div class="clear"></div>
+</div>
+<!--keireki-->
+<div class="kennkyuusyoukai">
+	<div class="center1"><img src="svg/Heading-2.svg" alt="研究紹介"></div>
+
+<h3>専門分野 ： 情報システムの企画、開発、運用</h3>
+<div class="center2">
+
+</div>
+<!--center2-->
+
+<div class="kennkyuuryouiki">
+<input type="checkbox" id="Panel2" class="ExpandCheckBox" />
+	<label for="Panel2" class="open">
+		<h3><img src="svg/Triangle_close-pink.svg">&nbsp;現在の研究領域</h3>
+	</label>
+
+		<div class="panel">
+
+<a>
+<div class="circle1"></div>認知科学的手法によるベンチャー企業のための顧客ニーズ把握と評価モデルの開発<br />
+</a>
+
+</div>
+<!--panel-->
+</div>
+<!--kennkyuuryouiki-->
+
+
+<div class="kennkyuuronnbunn">
+	<input type="checkbox" id="Panel3" class="ExpandCheckBox" />
+	<label for="Panel3" class="open">
+		<h3><img src="svg/Triangle_close-pink.svg">&nbsp;代表的な研究論文など</h3>
+	</label>
+
+		<div class="panel">
+<ul>
+	<dl>
+<li><div class="circle1"></div>&emsp;APPLICABILITY OF ENGINEERING AND BUSINESS ADMINISTRATION APPROACHES FOR THE ACTIVATION OF LOCAL BUSINESS</li>
+　　　　<dt>著者<span style="margin-right: 1em;"></span>：</dt><dd> IGATA, Motohiko, KATSURA, Shintaro</dd>
+　　　　<dt>発表誌：</dt><dd>Journal of Society of Social Management Systems, Vol.SMS13-0531</dd>
+　　　　<dt>発表年：</dt><dd>2014</dd>
+<div class="clear"></div>
+<li><div class="circle2"></div>&emsp;農業ビジネス活性化に向けた概念データモデリング、戦略マップ、品質機能展開の分析視点援用-産業クラスター安定性研究への展開-</li>
+　　　　<dt>著者<span style="margin-right: 1em;"></span>：</dt><dd>井形 元彦，桂 信太郎</dd>
+　　　　<dt>発表誌：</dt><dd>地域活性研究, Vol.5, No.1</dd>
+　　　　<dt>発表年：</dt><dd>2014</dd>
+<div class="clear"></div>
+<li><div class="circle3"></div>&emsp;地域活性化のためのBSCを活用した戦略立案・企業環境分析に関する調査分析</li>
+　　　　<dt>著者<span style="margin-right: 1em;"></span>：</dt><dd>多田 有里, 桂 信太郎, 井形 元彦</dd>
+　　　　<dt>発表誌：</dt><dd>地域活性研究</dd>
+　　　　<dt>発表年：</dt><dd>2014</dd>
+<div class="clear"></div>
+<li><div class="circle1"></div>&emsp;日本化学産業の国際競争力</li>
+	　　　 <dt>著者<span style="margin-right: 1em;"></span>：</dt><dd>正本 順三, 桂 信太郎, 井形　元彦</dd>
+　　　　<dt>発表誌：</dt><dd>生産管理, Vol.20, No.1, pp.11-16</dd>
+　　　　<dt>発表年：</dt><dd>2013</dd>
+<div class="clear"></div>
+<li><div class="circle2"></div>&emsp;農業ビジネス活性化方法論試案（農業ビジネス構造の見える化、戦略マップ、品質展開、分析視点援用可能性）</li>
+　　　　<dt>著者<span style="margin-right: 1em;"></span>：</dt><dd>井形 元彦, 桂 信太郎</dd>
+　　　　<dt>発表誌：</dt><dd>日本生産管理学会全国大会講演論文集</dd>
+　　　　<dt>発表年：</dt><dd>2013</dd>
+</dl>
+</div>
+<!--kennkyuronnbunn-->
+</div>
+<!--kennkyuushhyoukai-->
+</div>
+<!--kennkyuunaiyou-->
+<div class="kennkyuushitusyoukai">
+	<div class="center1"><img src="svg/Heading-4.svg" alt="教育講師室紹介"></div>
+
+	<!--<div class="box">写真</div>-->
+<h2>教育講師室：A302</h2>
+<p>もやもやとした問題意識の中からシステム化の方向付けをする。つまり、実世界を捉えなおすことは面白い仕事です。学生生活をどう過ごすかという戦略を練ることに、このステップを応用してみたいと思います。青春真っ盛りの皆さんと貴重な時間をわいわいがやがや、過ごしたいと思います。</p>
+</div>
+<!--kennkyuushitusyoukai-->
+<div class="koukouseihe">
+<div class="photo2"><img src="svg/StaffDetail_balloon.svg" alt="吹き出し"></div>
+<h1>高校生のみなさんへ</h1>
+<div class="kotoba">
+　活力みなぎる情報学群で最新の技術を学び、かつ人間力を伸ばし、新たな道を切り開いてください。入学をお待ちしております。
+</div>
+<!--kotoba-->
+</div>
+<!--koukouseihe-->
+<div class="kougikamoku">
+<h2>講義科目</h2>
+<dl>
+<dd>スタディスキルズ1、スタディスキルズ2、<br />
+キャリア・プラン基礎、キャリア・プラン1</dd>
+</dl>
+
+
+</div>
+<!--kougikamoku-->
+<div class="photo3"><img src="img/Body-IgataMotohiko.jpg" alt="先生全身画像"></div>
+</div>
+<!--main-->
+</div>
+<!--baseContents-->
+
+<!--#include file="footer.html"-->
+</body>
+</html>

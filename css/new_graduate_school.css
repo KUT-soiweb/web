@@ -1,0 +1,216 @@
+@charset "UTF-8";
+
+
+#baseContents .detail {
+  font-size: 120%;
+  line-height: 25px;
+  margin: 150px auto 0px;
+  text-indent: 5mm;
+  width: 90%;
+}
+
+
+/* mainImage */
+#baseContents .mainImage {
+  background-color: #cccccc;
+  height: 455px;
+  margin-top: 50px;
+  position: relative;
+  width: 960px;
+}
+
+#baseContents .section {
+  height: 400px;
+  margin: 50px auto 0px;
+  position: relative;
+  width: 960px;
+}
+
+/* subIamge */
+#baseContents .section .name {
+  color: #71cdf2;
+  float: left;
+  height: 100px;
+  line-height: 60px;
+  margin: 140px 40px 0px;
+  width: 400px;
+}
+
+#baseContents .section .name h1 {
+  font-size: 280%;
+  font-weight: bold;
+}
+
+#baseContents .section .name h1 span {
+  font-size: 70%;
+}
+
+#baseContents .section .name h2 {
+  font-size: 175%;
+  margin-top: 5px;
+  margin-left: 10px;
+  width: 600px;
+}
+
+/* sentence */
+#baseContents .section .contents {
+  float: left;
+  font-weight: bold;
+  line-height: 25px;
+  margin:  100px 40px 0px;
+  width: 400px;
+}
+
+/* subtable */
+#baseContents .subtable1 {
+  margin: 0px auto;
+  text-align: center;
+}
+
+#baseContents .subtable2 {
+  margin: 0px auto;
+  text-align: center;
+}
+
+#baseContents table {
+  border-collapse: collapse;
+  border: 1px solid #cccccc;
+  font-size: 20px;
+  margin: 0px auto;
+}
+
+#baseContents .subtable2 table {
+  border: 1px solid #79bd8f;
+}
+
+#baseContents .subtable1 .hcaption {
+  height: 75px;
+  width: 900px;
+}
+
+#baseContents .subtable1 .wcaption {
+  color: #cccccc;
+  width: 100px;
+}
+
+#baseContents .subtable1 .green {
+  background-color: #42826c;
+  border-right: 1px solid #79bd8f;
+}
+
+#baseContents .subtable2 .wcaption {
+  color: #ffffff;
+  width: 100px;
+}
+
+#baseContents .body {
+  height: 25px;
+}
+
+#baseContents .subtable2 .body {
+  height: 30px;
+}
+
+#baseContents .line {
+  border-top: 1px solid #aaaaaa;
+}
+
+#baseContents th {
+  background-color: #888888;
+  border-right: 1px solid #aaaaaa;
+  font-weight: bold;
+  color: #ffffff;
+  width: 200px;
+}
+
+#baseContents .subtable2 th {
+  background-color: #42826c;
+  border-right: 1px solid #79bd8f;
+}
+
+#baseContents td {
+  background-color: #bbbbbb;
+  border-right: 1px solid #aaaaaa;
+  color: #333333;
+  font-size: 16px;
+  font-weight: bold;
+  width: 100px;
+}
+
+#baseContents .subtable2 td {
+  background-color: #d1ffd1;
+  border-right: 1px solid #79bd8f;
+  font-size: 20px;
+}
+
+#baseContents .blue {
+  border: 2px solid #44617b;
+  border-radius: 10px;
+  color: #44617b;
+  font-weight: bold;
+  margin: 1px auto;
+}
+
+#baseContents .subtable2 .blue {
+  border: 2px solid #536c9c;
+  color: #536c9c;
+}
+
+#baseContents .red {
+  border: 2px solid #705b67;
+  border-radius: 10px;
+  color: #705b67;
+  font-weight: bold;
+  margin: 1px auto;
+}
+
+#baseContents .subtable2 .red {
+  border: 2px solid #a64859;
+  color: #a64859;
+}
+
+#baseContents .add {
+  margin: 0px auto;
+  text-align: center;
+}
+
+#baseContents .add .white1 {
+  background-color: #eaf4ff;
+  border-radius: 30px;
+  height: 40px;
+  left: -268px;
+  line-height: 40px;
+  position: relative;
+  text-align: center;
+  top: -130px;
+  width: 150px;
+}
+
+#baseContents .add .white2 {
+  background-color: #fff4f9;
+  border-radius: 30px;
+  height: 40px;
+  left: -268px;
+  line-height: 40px;
+  position: relative;
+  text-align: center;
+  top: -100px;
+  width: 150px;
+}
+
+#baseContents .item {
+  margin: 0px auto 100px;
+  text-align: center;
+}
+
+#baseContents .item h1 {
+  color: #71cdf2;
+  font-size: 150%;
+  font-weight: bold;
+  height: 35px;
+  margin: 10px auto 0px;
+}
+
+#baseContents .item h2 {
+  font-weight: bold;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>研究室合同による餅つきが行われました。</title>
+    <link rel="stylesheet" href="css/base.css" media="all" title="header" charset="utf-8" />
+    <link rel="stylesheet" href="css/topic_news_article.css" media="all" title="header" charset="utf-8" />
+    <link rel="icon" href="../img/favicon2.png" type="image/png" />
+    <script type="text/javascript">
+        window.onload = function(){
+          headSerect(0);
+        }
+    </script>
+  </head>
+  <body>
+    <!--#include file="header.html"-->
+    <div id="baseContents">
+      <div class="pankuzu">
+        <a href="../index.shtml">HOME</a> > <a href="../topic_news.shtml">Topics&amp;News</a> > News詳細
+      </div> <!-- pankuzu -->
+      <div class="subTitle">
+        <h1><span class="topChar">T</span>opics</h1><h2>and</h2><h1><span class="topChar">N</span>ews</h1>
+      </div><!-- title -->
+      <div class="newsArea">
+        <dt>2017.12.28</dt>
+        <h1>研究室合同による餅つきが行われました。</h1>
+        <hr />
+                <div class="mainImgArea">
+          <img src="img/id207_1.jpg" class="mainImg" />
+        </div><!-- mainImgArea -->
+                <p class="mainSentence">
+        　12月28日に学生会館前で研究室合同による餅つきが行われました。<br />
+　主催の福本研究室、吉田研究室、鵜川研究室、敷田研究室の学生をはじめ、教職員などが参加しました。        </p><!-- mainSentence -->
+                <div class="subArea">
+                    <p>
+            　餅つきは合計で6回行われ、参加者が交代で餅をつきました。餅を食べての感想が見受けられる中、年を越す前に交流をする機会でもあった今回の餅つきでは、一年間のお礼の言葉も見受けられました。<br />
+　今年最後に学群内だけではなく学群外とも交流することができ、今年を締めくくる良いイベントになりました。          </p>
+                      <img src="img/id207_2.jpg" />
+                  </div><!-- subArea -->
+              </div><!-- newsArea -->
+    </div><!-- baseContents -->
+    <!--#include file="footer.html"-->
+
+  </body>
+</html>

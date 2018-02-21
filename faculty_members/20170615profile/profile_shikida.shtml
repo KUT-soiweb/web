@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	    <meta name="keyword" content="高知工科大学情報学群">
+	    <meta name="description" content="高知工科大学情報学群のホームページ">
+	    <title>敷田 幹文</title>
+	    <link rel="stylesheet" type="text/css" href="css/base.css">
+	    <link rel="stylesheet" type="text/css" href="css/profile.css">
+			<link rel="icon" href="../img/favicon2.png" type="image/png" />
+	    <script type="text/javascript" src="js/switch.js"></script>
+			<script type="text/javascript">
+					window.onload = function(){
+						headSerect(2);
+					}
+			</script>
+</head>
+
+<body>
+<!--#include file="header.html"-->
+
+    <div id ="baseContents">
+
+	<div class="pankuzu">
+		<a href="../index.shtml">HOME</a> > <a href="../faculty_members.shtml">教員一覧</a> > 敷田幹文
+	</div>
+	<!--pankuzu-->
+	<div class="main">
+      <div class="keireki">
+    <h1>敷田 幹文<span class="hurigana"><span style="margin-right: 2.8em;"></span>Shikida Mikifumi</span></h1>
+<div class="photo1">
+		<img src="img/Face-ShikidaMikifumi.JPG" alt="顔の写真" class="facephoto">
+	</div>
+	<!--photo1-->
+		<div class="line"></div>
+    <h2>教授<span>教授室:A473</span></h2>
+
+
+    <input type="checkbox" id="Panel1" class="ExpandCheckBox" />
+		<label for="Panel1" class="open">
+		  <h3>
+				<img src="svg/Triangle_close-white.svg">&nbsp;プロフィール
+			</h3>
+
+  </label>
+		   <div class="panel">
+
+
+<dl>
+<dt>出身　:</dt><dd>　石川県</dd>
+<dt>所属　:</dt><dd>　高知工科大学情報学群<br />
+大学院工学研究科 基盤工学専攻 情報システム工学コース</dd>
+<dt>所属会　:</dt><dd>　ACM、情報処理学会、電子情報通信学会、医療情報学会<br />
+日本ソフトウェア科学会</dd>
+<dt>学位　:</dt><dd>　博士(工学)</dd>
+<dt>学歴　:</dt><dd>　東京工業大学理工学研究科情報工学専攻博士後期課程修了</dd>
+<dt>相談可能分野　:</dt><dd>　インターネット、クラウド、大規模情報システム<br />
+システムソフトウェア、協調作業支援、医療情報</dd>
+<dt>趣味　:</dt><dd>　旅行、映画鑑賞、ガジェット集め</dd>
+<div class="mail1"><img src="svg/mail_shikida.svg" alt="先生のmailアドレス" class="mail"></div>
+</dl>
+
+
+</div>
+<!--panel-->
+
+<div class="clear"></div>
+</div>
+<!--keireki-->
+<div class="kennkyuusyoukai">
+	<div class="center1"><img src="svg/Heading-2.svg" alt="研究紹介"></div>
+
+<h2></h2>
+<h3>専門分野 ： 応用情報通信</h3>
+<div class="center2">
+<p></p>
+</div>
+<!--center2-->
+ <div class="kennkyuuryouiki">
+<input type="checkbox" id="Panel2" class="ExpandCheckBox" />
+	 <label for="Panel2" class="open">
+		 <h3><img src="svg/Triangle_close-pink.svg">&nbsp;現在の研究領域</h3>
+	 </label>
+
+	 	 <div class="panel">
+			 <a>
+			 <div class="circle1"></div>大規模情報システムの運用ノウハウ共有支援<br />
+			 </a>
+			 <a>
+			 <div class="circle2"></div>高度情報通信<br />
+			 </a>
+			 <a>
+			 <div class="circle3"></div>医療情報通信<br />
+			 </a>
+</div>
+<!--panel-->
+</div>
+<!--kennkyuuryouiki-->
+
+
+<div class="kennkyuuronnbunn">
+	<input type="checkbox" id="Panel3" class="ExpandCheckBox" />
+	<label for="Panel3" class="open">
+		<h3><img src="svg/Triangle_close-pink.svg">&nbsp;代表的な研究論文など</h3>
+	</label>
+
+		<div class="panel">
+<ul>
+
+<dl>
+	<li><div class="circle1"></div>&emsp;分散環境における話者交替のアウェアネス支援</li>
+	　　　　<dt>著者<span style="margin-right: 1em;"></span>：</dt><dd>敷田 幹文，増田 雄亮</dd>
+	　　　　<dt>発表誌：</dt><dd>情報処理学会論文誌，Vol.56，No.1，pp.126-136</dd>
+	　　　　<dt>発表年：</dt><dd>2015</dd>
+	<div class="clear"></div>
+	<li><div class="circle2"></div>&emsp;Culture Based Preference for the Information Feeding Mechanism in Online Social Networks</li>
+	　　　　<dt>著者<span style="margin-right: 1em;"></span>：</dt><dd>Arunee Ratikan, Mikifumi Shikida</dd>
+	　　　　<dt>発表誌：</dt><dd>IEICE Transactions on Information and Systems，Vol.E97-D，No.4，<br/>
+		 pp.705-713</dd>
+	　　　　<dt>発表年：</dt><dd>2014</dd>
+	<div class="clear"></div>
+	<li><div class="circle3"></div>&emsp;大規模サーバー間の部品依存関係を利用したユーザー指向通知方式</li>
+	　　　　<dt>著者<span style="margin-right: 1em;"></span>：</dt><dd>敷田 幹文，藤澤 恵一朗</dd>
+	　　　　<dt>発表誌：</dt><dd>情報処理学会論文誌，Vol.53，No.3，pp.978-986</dd>
+	　　　　<dt>発表年：</dt><dd>2012</dd>
+	<div class="clear"></div>
+
+
+</dl>
+
+</ul>
+</div>
+<!--kennkyuronnbunn-->
+</div>
+<!--kennkyuushhyoukai-->
+</div>
+<!--kennkyuunaiyou-->
+<div class="kennkyuushitusyoukai">
+	<div class="center1"><img src="svg/Heading-3.svg" alt="研究室紹介"></div>
+
+<div class="Lab_photo">
+
+</div>
+
+<h2>コミュニケーション&amp;コラボレーション研究室：A358</h2>
+<p>次世代ネットワーク社会では、使い手である「人」の立場に立って、人に「やさしい」情報システムを構築し、現実空間との隔たりのより少ないシームレスな（継ぎ目のない）情報通信を行うことで、我々の社会生活をより豊かなものにしていかなければいけません。そこで、敷田研究室では、現在主に以下の3つに焦点を当てて、「人にやさしい情報通信技術」の研究を行っています。<br \>
+1. 大規模データセンター（情報システム基盤設備）における業務支援<br \>
+2. 一体感のある遠隔地とのビデオコミュニケーション支援<br \>
+3. 医療・介護・ヘルスケア分野におけるコミュニケーション・コラボレーション支援</p>
+</div>
+<!--kennkyuushitusyoukai-->
+<div class="koukouseihe">
+<div class="photo2"><img src="svg/StaffDetail_balloon.svg" alt="吹き出し"></div>
+<h1>高校生のみなさんへ</h1>
+<div class="kotoba">
+可能性は無限にあります。何にでも挑戦し、行動し続けましょう。
+</div>
+<!--kotoba-->
+</div>
+<!--koukouseihe-->
+<div class="kougikamoku">
+<h2>講義科目</h2>
+	<dl>
+<dd>通信方式、情報ネットワーク設計</dd>
+</dl>
+<h2>受け入れ可能な専攻</h2>
+<p>
+情報と人間専攻<br />
+情報通信専攻<br />
+コンピュータサイエンス<br />
+</p>
+
+</div>
+<!--kougikamoku-->
+<div class="photo3"><img src="img/Body-ShikidaMikifumi.JPG" alt="先生全身画像"></div>
+</div>
+<!--main-->
+</div>
+<!--baseContents-->
+
+<!--#include file="footer.html"-->
+</body>
+</html>

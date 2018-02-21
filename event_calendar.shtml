@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>イベントカレンダー</title>
+        <link rel="stylesheet" href="css/event_calendar.css" media="all" title="header" charset="utf-8" />
+        <link rel="stylesheet" href="css/base.css" media="all" title="header" charset="utf-8" />
+        <link rel="icon" href="img/favicon2.png" type="image/png" />
+        <script type="text/javascript">
+    				window.onload = function(){
+    					headSerect(1);
+    				}
+    		</script>
+    </head>
+
+    <body>
+        <!--#include file="header.html"-->
+        <div id = "baseContents">
+
+            <div class = "pankuzu">
+                <a href="index.shtml">HOME</a> > <a href="faculty_outline.shtml">学群概要</a> > イベントカレンダー
+            </div><!--pankuzu-->
+            <div class="title">
+                <h2>イベントカレンダー</h2>
+                <h1><span>E</span>vent <span>C</span>alendar</h1>
+            </div> <!-- title -->
+
+            <div class = "description">
+                <div class = "descriptionText">
+                    <p>◯ ここでは高知工科大学情報学群の年間イベントを掲載しています</p>
+                    <dl>
+                        <dt>・ ()内の数字はイベントの対象学年を表しています</dt>
+                            <dd>例 : 入学式(1)・・・１年次のイベント</dd>
+                    </dl>
+                    <dl>
+                        <dt>・ 各月の右下にはその月が何クォータに当たるかを記載しています</dt>
+                            <a href = "#quarter"><dd class = "link">→クォータ制とは?</dd></a>
+                    </dl>
+                </div><!--descriptionText-->
+            </div><!--description-->
+
+            <!--April-->
+            <div class = "monthEvent blank">
+                <div class = "monthBox april underBar">
+                    <p class = "monthFigure">4</p>
+                    <p class = "month">April</p>
+                </div><!--monthBox-->
+
+                <div class = "contentBox underBar">
+                    <div class = "box">
+                        <div class = "eventBox line nomal">
+                            <p class = "event">入学式(1)</p>
+                            <p class = "event">健康診断</p>
+                            <p class = "event">オリエンテーション</p>
+                        </div><!--eventBox-->
+
+                        <div class = "eventBox line nomal">
+                            <p class = "event">第1クォータ(1Q)開始</p>
+                            <p class = "event">新入生歓迎セミナー(1)</p>
+                            <p class = "event">研究室紹介(3)</p>
+                        </div><!--eventBox-->
+
+                        <div class = "eventBox nomal">
+                            <p class = "event">専攻決定(3)</p>
+                            <p class = "event">副専攻決定(4)</p>
+                        </div><!--eventBox-->
+                    </div><!--box-->
+
+                    <div class = "pickUp">
+                      <img class="clip"src="./img/PickUp.svg" />
+                        <div class = "pickUpTextBox">
+                            <p class = "topic">新入生歓迎セミナー</p>
+                            <p class = "text">高知工科大学情報学群に入学してすぐ、新入生歓迎セミナーが開催されます。 新しい仲間との交流の場所としてもってこいの場所です。</p>
+                        </div><!--pickUpTextBox-->
+                        <img class = "photo" src = "./img/event_April.jpg">
+                    </div><!--pickUp-->
+
+                    <p class = "time">1Q</p>
+                </div><!--contentBox-->
+            </div><!--monthEvent-->
+
+            <!--May-->
+            <div class = "monthEvent">
+                <div class = "monthBox may underBar">
+                    <p class = "monthFigure">5</p>
+                    <p class = "month">May</p>
+                </div><!--monthBox-->
+                <div class = "contentBox underBar">
+                    <div class = "eventBox">
+                        <p class = "event oneLine">研究室配属(3)</p>
+                    </div><!--eventBox-->
+                    <p class = "time">1Q</p>
+                </div><!--contentBox-->
+            </div><!--monthEvent-->
+
+            <!--June-->
+            <div class = "monthEvent">
+                <div class = "monthBox june underBar">
+                    <p class = "monthFigure">6</p>
+                    <p class = "month">June</p>
+                </div><!--monthBox-->
+                <div class = "contentBox underBar">
+                    <div class = "eventBox nomal">
+                        <p class = "event twoLine">第1クォータ試験期間</p>
+                        <p class = "event">第2クォータ(2Q)開始</p>
+                    </div><!--eventBox-->
+                    <p class = "time">2Q</p>
+                </div><!--contentBox-->
+            </div><!--monthEvent-->
+
+            <!--July-->
+            <div class = "monthEvent">
+                <div class = "monthBox july underBar">
+                    <p class = "monthFigure">7</p>
+                    <p class = "month">July</p>
+                </div><!--monthBox-->
+                <div class = "contentBox underBar">
+                    <div class = "eventBox nomal">
+                        <p class = "event oneLine">第1回オープンキャンパス</p>
+                    </div><!--eventBox-->
+                    <p class = "time">2Q</p>
+                </div><!--contentBox-->
+            </div><!--monthEvent-->
+
+            <!--August-->
+            <div class = "monthEvent">
+                <div class = "monthBox august underBar">
+                    <p class = "monthFigure">8</p>
+                    <p class = "month">August</p>
+                </div><!--monthBox-->
+
+                    <div class = "contentBox underBar">
+                        <div class = "box">
+                            <div class = "eventBox line nomal">
+                                <p class = "event">第２クォータ試験期間</p>
+                                <p class = "event">夏季休業開始</p>
+                                <p class = "event">第2回オープンキャンパス</p>
+                            </div><!--eventBox-->
+                            <div class = "eventBox nomal">
+                                <p class = "event">夏季インターンシップ(3)</p>
+                            </div><!--eventBox-->
+                        </div><!--box-->
+                        <div class = "pickUp">
+                            <img  class = "clip" src = "./img/PickUp.svg">
+                            <div class = "pickUpTextBox">
+                                <p class = "topic">オープンキャンパス</p>
+                                <p class = "text">高知工科大学では毎年オープンキャンパスが開催され、情報学群の各研究室でも様々なイベントが行われています。是非お越しください！</p>
+                            </div><!--pickUpTextBox-->
+                            <img class = "photo" src = "./img/event_August.jpg">
+
+                        </div><!--pickUp-->
+                        <p class = "time">夏季休業</p>
+                </div><!--contentBox-->
+            </div><!--monthEvent-->
+
+            <!--September-->
+            <div class = "monthEvent">
+                <div class = "monthBox september underBar">
+                    <p class = "monthFigure">9</p>
+                    <p class = "month">September</p>
+                </div><!--monthBox-->
+                <div class = "contentBox underBar">
+                    <div class = "box">
+                        <div class = "eventBox nomal">
+                            <p class = "event twoLine">夏季インターンシップ(3)</p>
+                            <p class = "event">研究室対抗スポーツ大会(3、4)</p>
+                        </div><!--eventBox-->
+                    </div><!--box-->
+
+                    <div class = "pickUp">
+                        <img  class = "clip" src = "./img/PickUp.svg">
+                        <div class = "pickUpTextBox">
+                            <p class = "topic">研究室対抗スポーツ大会</p>
+                            <p class = "text">高知工科大学情報学群では、毎年研究室対抗スポーツ大会が開催されます。学生だけでなく、先生も一緒にスポーツします。優勝したチームには豪華景品が...!</p>
+                        </div><!--pickUpTextBox-->
+                            <img class = "photo" src = "./img/event_September.jpg">
+
+                    </div><!--pickUp-->
+                    <p class = "time">夏季休業</p>
+                </div><!--contentBox-->
+            </div><!--monthEvent-->
+
+            <!--October-->
+            <div class = "monthEvent">
+                <div class = "monthBox october underBar">
+                    <p class = "monthFigure">10</p>
+                    <p class = "month">October</p>
+                </div><!--monthBox-->
+                <div class = "contentBox underBar">
+                    <div class = "eventBox nomal">
+                        <p class = "event twoLine">第3クォータ(3Q)開始</p>
+                        <p class = "event">高知工科大学大学祭</p>
+                    </div><!--eventBox-->
+                    <p class = "time">3Q</p>
+                </div><!--contentBox-->
+            </div><!--monthEvent-->
+
+            <!--November-->
+            <div class = "monthEvent">
+                <div class = "monthBox november underBar">
+                    <p class = "monthFigure">11</p>
+                    <p class = "month">November</p>
+                </div><!--monthBox-->
+                <div class = "contentBox underBar">
+                    <div class = "eventBox nomal">
+                        <p class = "event oneLine">開学記念式典</p>
+                    </div><!--eventBox-->
+                    <p class = "time">3Q</p>
+                </div><!--contentBox-->
+            </div><!--monthEvent-->
+
+            <!--December-->
+            <div class = "monthEvent">
+                <div class = "monthBox december underBar">
+                    <p class = "monthFigure">12</p>
+                    <p class = "month">December</p>
+                </div><!--monthBox-->
+                <div class = "contentBox underBar">
+                    <div class = "eventBox wide">
+                        <p class = "event">第3クォータ試験期間</p>
+                        <p class = "event">第4クォータ(4Q)開始</p>
+                        <p class = "event">高知工科大学イルミネーション</p>
+                    </div><!--eventBox-->
+                    <p class = "time">4Q</p>
+                </div><!--contentBox-->
+            </div><!--monthEvent-->
+
+            <!--January-->
+            <div class = "monthEvent">
+                <div class = "monthBox january underBar">
+                    <p class = "monthFigure">1</p>
+                    <p class = "month">January</p>
+                </div><!--monthBox-->
+                <div class = "contentBox underBar">
+                    <div class = "eventBox nomal">
+
+                    </div><!--eventBox-->
+                    <p class = "time">4Q</p>
+                </div><!--contentBox-->
+            </div><!--monthEvent-->
+
+            <!--February-->
+            <div class = "monthEvent">
+                <div class = "monthBox february underBar">
+                    <p class = "monthFigure">2</p>
+                    <p class = "month">February</p>
+                </div><!--monthBox-->
+                <div class = "contentBox underBar">
+                    <div class = "eventBox nomal">
+                        <p class = "event">第4クォータ試験期間</p>
+                        <p class = "event">春季休業開始</p>
+                        <p class = "event">卒業研究発表(4)</p>
+                    </div><!--eventBox-->
+                    <p class = "time">春季休業</p>
+                </div><!--contentBox-->
+            </div><!--monthEvent-->
+
+            <!--March-->
+            <div class = "monthEvent">
+                <div class = "monthBox march underBar">
+                    <p class = "monthFigure">3</p>
+                    <p class = "month">March</p>
+                </div><!--monthBox-->
+                <div class = "contentBox underBar">
+                    <div class = "eventBox nomal">
+                        <p class = "event">卒業式(4)</p>
+                        <p class = "event">学位授与式(4)</p>
+                        <p class = "event">謝恩会(4)</p>
+                    </div><!--eventBox-->
+                    <p class = "time">春季休業</p>
+                </div><!--contentBox-->
+            </div><!--monthEvent-->
+
+            <!--Quarter-->
+            <div id = "quarter">
+                <img class = "question" src = "./img/Q.png">
+                <p class = "questionText">クォータ制とは?</p>
+                <img class = "answer" src = "./img/A.png">
+                <p class = "answerText">高知工科大学では、1年を4期に分けるクォータ制を導入しています。</p>
+                <img class = "quarterImage" src = "./img/Group.svg">
+                <p class = "quarterText">このクォータ制はアメリカでは主流となっています。一週間で同じ授業を2コマ履修し、短期間で集中して学びます。クォータ制は、日本の大学で主流となっているセメスター制と比べると定期試験の回数が多く厳しいシステムですが、その分実力がつくカリキュラムです。</p>
+            </div>
+        </div><!--baseContents-->
+        <!--#include file="footer.html"-->
+    </body>
+</html>

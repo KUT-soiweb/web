@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>2015年度新入生歓迎セミナーを国立室戸青少年自然の家で行いました。</title>
+    <link rel="stylesheet" href="css/base.css" media="all" title="header" charset="utf-8" />
+    <link rel="stylesheet" href="css/topic_news_article.css" media="all" title="header" charset="utf-8" />
+    <link rel="icon" href="../img/favicon2.png" type="image/png" />
+    <script type="text/javascript">
+        window.onload = function(){
+          headSerect(0);
+        }
+    </script>
+  </head>
+  <body>
+    <!--#include file="header.html"-->
+    <div id="baseContents">
+      <div class="pankuzu">
+        <a href="../index.shtml">HOME</a> > <a href="../topic_news.shtml">Topics&amp;News</a> > News詳細
+      </div> <!-- pankuzu -->
+      <div class="subTitle">
+        <h1><span class="topChar">T</span>opics</h1><h2>and</h2><h1><span class="topChar">N</span>ews</h1>
+      </div><!-- title -->
+      <div class="newsArea">
+        <dt>2015.4.6-47</dt>
+        <h1>2015年度新入生歓迎セミナーを国立室戸青少年自然の家で行いました。</h1>
+        <hr />
+                <div class="mainImgArea">
+          <img src="img/id4_1.JPG" class="mainImg" />
+        </div><!-- mainImgArea -->
+                <p class="mainSentence">
+        　4月6-7日、国立室戸青少年自然の家にて、2015年度情報学群新入生歓迎セミナーが行われました。<br />
+情報学群新入生歓迎セミナーとは、新1年生に本学について知ってもらいながら、教職員や上級生・同級生との交流を深める合宿型セミナーです。今年度は35名の学生スタッフによる企画・運営のもと、新1年生108名、教職員16名がこのセミナーに参加しました。<br />
+        </p><!-- mainSentence -->
+                <div class="subArea">
+                    <p>
+            【初日】<br />
+　初日となる4月6日には野外炊事場にて班ごとにカレーライスを作りました。薪をくべて火を起こしたり、飯ごうでご飯を炊くなど慣れない作業にも関わらず、班員同士で協力し合いカレーライスづくりに励んでいました。自分たちで作ったカレーライスは美味しさもひとしおで、班員から「おいしい！」との声も上がり、食事をしながら会話に花を咲かせていました。<br />
+　夜には自由時間が設けられ、和やかなムードで参加者と学生スタッフとの交流が行われました          </p>
+                      <img src="img/id4_2.JPG" />
+                  </div><!-- subArea -->
+                <div class="subArea">
+                    <p>
+            【2日目】<br />
+　2日目の4月7日にはつどいの広間(体育館)にて、本セミナーのメインイベントである班対抗イベントが行われました。アイスブレイキングのあと、学生スタッフが製作した映像の鑑賞や班対抗クイズなどを交え、上級生や教職員と交流を持つなど、終始明るい雰囲気でイベントが行われました。イベントの最後には参加賞として全員にお菓子が配布され、優れた班には高知県にゆかりのある賞品として「ごっくん馬路村」と「ミレービスケット」が贈呈されました。<br />
+参加した1年生からは「まだあまり関わりがない人たちと交流する機会を得られてよかった」「生活紹介の映像がとてもおもしろかった」「アイスブレイキングでは班員同士打ち解け合え、友人もできた。来年はスタッフとして参加してみたい」といった感想をいただきました。          </p>
+                    <img src="img/id4_3.JPG" />
+                  </div><!-- subArea -->
+              </div><!-- newsArea -->
+    </div><!-- baseContents -->
+    <!--#include file="footer.html"-->
+
+  </body>
+</html>

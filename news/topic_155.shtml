@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>平成29年度高知工科大学入学式が行われました。</title>
+    <link rel="stylesheet" href="css/base.css" media="all" title="header" charset="utf-8" />
+    <link rel="stylesheet" href="css/topic_news_article.css" media="all" title="header" charset="utf-8" />
+    <link rel="icon" href="../img/favicon2.png" type="image/png" />
+    <script type="text/javascript">
+        window.onload = function(){
+          headSerect(0);
+        }
+    </script>
+  </head>
+  <body>
+    <!--#include file="header.html"-->
+    <div id="baseContents">
+      <div class="pankuzu">
+        <a href="../index.shtml">HOME</a> > <a href="../topic_news.shtml">Topics&amp;News</a> > News詳細
+      </div> <!-- pankuzu -->
+      <div class="subTitle">
+        <h1><span class="topChar">T</span>opics</h1><h2>and</h2><h1><span class="topChar">N</span>ews</h1>
+      </div><!-- title -->
+      <div class="newsArea">
+        <dt>2017.4.5</dt>
+        <h1>平成29年度高知工科大学入学式が行われました。</h1>
+        <hr />
+                <div class="mainImgArea">
+          <img src="img/id155_1.jpg" class="mainImg" />
+        </div><!-- mainImgArea -->
+                <p class="mainSentence">
+        　平成29年4月5日，高知工科大学講堂にて平成29年度入学式が行われました。<br />
+　高知工科大学情報学群には、男子91名, 女子20名, 計111名の新入生が入学しました。当日は天候にも恵まれ、たくさんの保護者の方々にご出席いただき、新入生の入学をお祝いしました。        </p><!-- mainSentence -->
+                <div class="subArea">
+                    <p>
+            　式では磯部雅彦学長より、「自らで考える力，その能力と態度を身につけることが大切。知識に振り回されるのではなく、知識を適切に利用できるようになってほしい。」という旨の式辞が送られました。<br />
+　これから始まる大学生活について、「プログラミングとサークル活動を頑張りたい」「大学生として責任感を持った行動をしたい」「新しい友達をたくさん作りたい。」といった新入生の声がありました。          </p>
+                      <img src="img/id155_2.jpg" />
+                  </div><!-- subArea -->
+                <div class="subArea">
+                    <p>
+            　翌日のオリエンテーションでは、大学院進学や就職を見据えた大学生活を送るよう各教員からお言葉をいただきました。新入生は、不安を抱きながらもこれからの生活を楽しみにしている様子でした。<br />
+<br />
+　新入生の皆さん、高知工科大学へのご入学おめでとうございます。          </p>
+                    <img src="img/id155_3.jpg" />
+                  </div><!-- subArea -->
+              </div><!-- newsArea -->
+    </div><!-- baseContents -->
+    <!--#include file="footer.html"-->
+
+  </body>
+</html>

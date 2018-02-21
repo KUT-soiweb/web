@@ -1,0 +1,173 @@
+@charset "UTF-8";
+
+#baseContents .naviTitle {
+  height: 550px;
+  margin-top: 100px;
+  text-align: center;
+  width: 100%;
+}
+
+#baseContents .naviTitle .mainMenu {
+  float: left;
+  margin-left: 20px;
+  margin-right: 50px;
+  width: 240px;
+}
+
+#baseContents .naviTitle .naviTitleChar {
+  float: left;
+}
+
+#baseContents .naviTitle .naviTitleChar .googlePlay {
+  margin-top: 10px;
+  width: 200px;
+}
+
+#baseContents .naviTitle .naviTitleChar .googlePlay img{
+  margin-top: 10px;
+  width: 200px;
+}
+
+#baseContents .naviTitle h2 {
+  font-weight: bold;
+  padding-top: 50px;
+  width: 640px;
+}
+
+#baseContents .naviTitle h1 {
+  font-size: 300%;
+	margin-top: 20px;
+  width: 640px;
+}
+
+#baseContents .naviTitle h1 span {
+  color: #3DB6EB; /*71cdf2*/
+}
+
+#baseContents .naviTitle p {
+  margin: 50px 0px 0px 0px;
+  width: 640px;
+}
+
+#baseContents .naviTitle .googlePlay + p {
+  margin-top: 5px;
+}
+
+#baseContents .function {
+  clear: both;
+  margin: 0px auto 50px;
+  width: 800px
+}
+
+#baseContents .function h1 {
+  color: #3DB6EB;
+  font-size: 300%;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+#baseContents .function .child {
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  clear: both;
+  height: 178px;
+  margin-top: 80px;
+  text-align: center;
+  width: 100%;
+}
+
+#baseContents .function .child h2{
+  font-size: 200%;
+  font-weight: 100;;
+  padding-top: 30px;
+}
+
+#baseContents .function .child p {
+  margin-top: 20px;
+  padding: 0px 20px;
+}
+
+#baseContents .function .left img{
+  float: left;
+  margin-right: 30px;
+}
+
+#baseContents .function .right img {
+  float: right;
+  margin-left: 30px;
+}
+
+#baseContents .function .news {
+  height: 150px;
+}
+
+#baseContents .function .child h2 .new {
+  color: #0068b7;
+}
+
+#baseContents .function .child h2 .map {
+  color: #e35758;
+}
+
+#baseContents .function .child h2 .naruko {
+  color: #fcc700;
+}
+
+#baseContents .function .child h2 .event {
+  color: #8d589c;
+}
+
+#baseContents .function .child h2 .tour {
+  color: #2e8db5;
+}
+
+#baseContents .function .child h2 .access {
+  color: #4aa16c;
+}
+
+#baseContents .function .child h2 .lab {
+  color: #d97740;
+}
+
+#baseContents .function .child h2 .diagnosis {
+  color: #c3b35a;
+}
+
+#baseContents .function .child h2 .question {
+  color: #76848f;
+}
+
+#baseContents .members {
+  border: 1px #cccccc solid;
+  clear: both;
+  margin: 20px auto 0px;
+  padding: 10px;
+  text-align: center;
+  width: 900px;
+}
+
+#baseContents .members h1 {
+  font-size: 150%;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+#baseContents .members h2 {
+  margin: 10px auto;
+}
+
+#baseContents .members .four {
+  color: #ff7f7f;
+}
+
+#baseContents .members .three {
+  color: #33cc66;
+}
+
+#baseContents .members .two {
+  color: #7fbfff;
+}
+
+#baseContents .members .adviser {
+  color: #cab3fe;
+}

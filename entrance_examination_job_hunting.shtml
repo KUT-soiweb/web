@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>入試・就職</title>
+    <link rel="stylesheet" href="css/base.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="css/entrance_examination_job_hunting.css" media="screen" title="no title" charset="utf-8">
+    <link rel="icon" href="img/favicon2.png" type="image/png" />
+    <script type="text/javascript">
+        window.onload = function(){
+          headSerect(4);
+        }
+    </script>
+  </head>
+  <body>
+      <!--#include file="header.html"-->
+    <div id="baseContents">
+      <div class="pankuzu">
+        <a href="index.shtml">HOME</a> > 入試・就職
+      </div> <!-- pankuzu -->
+      <div class="title">
+        <h2>入試・就職</h2>
+        <h1><span>E</span>ntrance <span>E</span>xamination</h1>
+        <h1>and</h1>
+        <h1><span>J</span>ob <span>H</span>unting</h1>
+      </div> <!-- title -->
+      <div class="contents">
+        <a href="https://www.kochi-tech.ac.jp/entrance_info/admission/" target="_blank">
+        <div class="menu menuSize">
+          <img src="img/Nyushi.jpg" alt="01" class="menuSize" />
+          <div class="subMenu menuSize">
+              <h2>入試情報</h2>
+              <div class="line"></div>
+              <h1>01</h1>
+          </div> <!-- subMenu -->
+        </div> <!-- menu -->
+        </a>
+
+        <a href="after_graduation.shtml">
+        <div class="menu menuSize">
+          <img src="img/Sinro.jpg" alt="01" class="menuSize" />
+          <div class="subMenu menuSize">
+              <h2>進路状況</h2>
+              <div class="line"></div>
+              <h1>02</h1>
+          </div> <!-- subMenu -->
+        </div> <!-- menu -->
+        </a>
+
+        <a href="employment_support.shtml">
+        <div class="menu menuSize">
+          <img src="img/EmploymentSupport.JPG" alt="01" class="menuSize" />
+          <div class="subMenu menuSize">
+              <h2>就職支援</h2>
+              <div class="line"></div>
+              <h1>03</h1>
+          </div> <!-- subMenu -->
+        </div> <!-- menu -->
+        </a>
+
+      </div> <!-- contents -->
+
+    </div> <!-- baseContents -->
+          <!--#include file="footer.html"-->
+  </body>
+</html>

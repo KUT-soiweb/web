@@ -1,0 +1,205 @@
+@charset "UTF-8";
+
+/*　mainImage　*/
+#baseContents .mainImage {
+  width: 960px;
+  margin-bottom: 50px;
+}
+
+/*　KUTnavi_banner　*/
+#baseContents .kutNaviBanner {
+  border: 10px solid #c2c2c2;
+  border-radius: 20px;
+  margin: 50px 55px 0px;
+  width: 830px;
+}
+
+#baseContents .kutNaviBanner:hover {
+  opacity: 0.8;
+}
+
+/* menu */
+#baseContents .menu {
+  height: 220px;
+  margin: 50px auto 0px;
+  width: 920px;
+}
+
+#baseContents .menu .outLine {
+  border: 5px solid #c7dee9;
+  border-radius: 190px;
+  float: left;
+  height: 190px;
+  margin-right: 40px;
+  transition: 0.3s;
+  width: 190px;
+}
+
+#baseContents .menu input {
+  display: none;
+}
+
+#baseContents .menu input:checked + label {
+  border-radius: 10px;
+}
+
+#baseContents .menu .outLine:last-child {
+  margin-right: 0px;
+}
+
+#baseContents .menu .outLine:hover {
+  border-radius: 10px;
+  cursor: pointer;
+  transform: rotate(-45deg);
+}
+
+#baseContents .menu .menuList {
+  background-color: #c7dee9;
+  border-radius: 170px;
+  height: 170px;
+  margin: 10px auto;
+  text-align: center;
+  transition: 0.3s;
+  width: 170px;
+}
+
+#baseContents .menu .outLine:hover > .menuList {
+  transform: rotate(45deg);
+}
+
+#baseContents .menu .menuList img {
+  height: 130px;
+  margin: 20px;
+  width: 130px;
+}
+
+#baseContents .menu .menuList h1 {
+  font-size: 170%;
+  margin-top: -20px;
+}
+
+/* contents */
+#baseContents .contents {
+  clear: both;
+  margin-top: 50px;
+  width: 100%;
+}
+
+#baseContents .contents .circle {
+  border: 5px solid #c7dee9;
+  border-radius: 750px;
+  height: 750px;
+  margin: 100px auto;
+  position: relative;
+  width: 750px;
+}
+
+#baseContents .contents .circle > img {
+  position: absolute;
+}
+
+#baseContents .circle .room {
+  top: 100px;
+  left: -60px;
+}
+
+#baseContents .circle .cpu {
+  top: 0px;
+  right: -10px;
+}
+
+#baseContents .circle .brain {
+  bottom: -50px;
+  left: -40px;
+}
+
+#baseContents .circle .server {
+  bottom: 50px;
+  right: -50px;
+}
+
+#baseContents .contents .ocMainContents {
+  margin-top: 80px;
+}
+
+#baseContents .contents .ocMainContents h1 {
+  border-bottom: 3px dashed #c7dee9;
+  font-size: 270%;
+  margin: auto;
+  padding-bottom: 20px;
+  text-align: center;
+  width: 450px;
+}
+
+#baseContents .contents .ocMainContents p {
+  font-size: 140%;
+  line-height: 150%;
+  margin: 50px auto 0px;
+  width: 450px;
+}
+
+#baseContents .contents .ocMainContents img {
+  border: 3px solid #cccccc;
+  border-radius: 50px;
+  margin: 30px 172px 0px;
+  width: 400px;
+  position: relative;
+  z-index: 2;
+}
+
+#baseContents .contents .detail {
+  margin: 30px auto;
+  width: 750px;
+}
+
+#baseContents .detail .detailCircle {
+  border: 5px solid #c7dee9;
+  border-radius: 70px;
+  height: 70px;
+  width: 70px;
+}
+
+#baseContents .detail .detailCircle h1 {
+  font-size: 200%;
+  margin: 30px 30px;
+  width: 700px;
+}
+
+#baseContents .detail ul {
+  margin: 20px 0px 0px 70px;
+  width: 650px;
+}
+
+#baseContents .detail .detailList li {
+  margin: 5px 0px;
+}
+
+#baseContents .detail .detailList li:hover {
+  cursor: auto;
+}
+
+.studyContents , .academyContents , .mapContents{
+  display: none;
+}
+
+.studyDetail , .academyDetail{
+  display: none;
+}
+/*oc_2016_article*/
+#baseContents .oc_2016_article a{
+  background-color: #71cdf2;
+  color: #ffffff;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 120%;
+  margin-left: 50px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+#baseContents .oc_2016_article a:hover {
+  background-color: #4a90e2;
+  text-decoration: none;
+  transition: 0.5s;
+}

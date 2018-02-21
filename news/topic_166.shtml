@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>「KUT同窓会inおおさか」のご案内（7月15日（土）開催）</title>
+    <link rel="stylesheet" href="css/base.css" media="all" title="header" charset="utf-8" />
+    <link rel="stylesheet" href="css/topic_news_article.css" media="all" title="header" charset="utf-8" />
+    <link rel="icon" href="../img/favicon2.png" type="image/png" />
+    <script type="text/javascript">
+        window.onload = function(){
+          headSerect(0);
+        }
+    </script>
+  </head>
+  <body>
+    <!--#include file="header.html"-->
+    <div id="baseContents">
+      <div class="pankuzu">
+        <a href="../index.shtml">HOME</a> > <a href="../topic_news.shtml">Topics&amp;News</a> > News詳細
+      </div> <!-- pankuzu -->
+      <div class="subTitle">
+        <h1><span class="topChar">T</span>opics</h1><h2>and</h2><h1><span class="topChar">N</span>ews</h1>
+      </div><!-- title -->
+      <div class="newsArea">
+        <dt>2017.5.26</dt>
+        <h1>「KUT同窓会inおおさか」のご案内（7月15日（土）開催）</h1>
+        <hr />
+                <p class="mainSentence">
+        　同窓会会員の皆様へ<br />
+<br />
+　高知工科大学20周年記念イベントの一つとして7月15日（土）に「KUT同窓会inおおさか」を開催します。なお，本学群からは福本昌弘教授と坂本明雄名誉教授に御出席して頂きます。<br />
+<br />
+　詳しくは<a href="https://www.bikita.jp/class/important_news_data.php?cpi=00000030&cl=af7e66">同窓会会員コミュニティサイト</a>をご覧ください。        </p><!-- mainSentence -->
+              </div><!-- newsArea -->
+    </div><!-- baseContents -->
+    <!--#include file="footer.html"-->
+
+  </body>
+</html>

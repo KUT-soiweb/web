@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>情報学群概要</title>
+    <link rel="stylesheet" href="css/base.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="css/information_overview.css" media="screen" title="no title" charset="utf-8">
+    <link rel="icon" href="img/favicon2.png" type="image/png" />
+    <script type="text/javascript">
+        window.onload = function(){
+          headSerect(1);
+        }
+    </script>
+  </head>
+  <body>
+    <!--#include file="header.html"-->
+    <div id="baseContents">
+      <div class="pankuzu">
+        <a href="index.shtml">HOME</a> > <a href="faculty_outline.shtml">学群概要</a> > 情報学群概要
+      </div> <!-- pankuzu -->
+      <div class="title">
+        <h2>情報学群概要</h2>
+        <h1><span>O</span>utline</h1>
+      </div> <!-- title -->
+      <div class="main">
+        <img src="img/Heading-1.png" alt="情報学群" class="mainTitle"/>
+        <div class="mainList">
+          <p>
+            情報学群では、柔軟で大胆な発想を育てるために、人に優しい次世代の情報システムの実現に向けた教育・研究を進めると同時に、情報通信技術（ICT）が人間・社会と共生して発展できる未来を目指し、問題発見・問題解決できる人材を新しい学群・専攻制の下で育成します。また、産官学連携によるICTスペシャリスト養成プログラムや研究用ネットワークJGN2plus(Japan Giga-bit Network 2 plus)JGN-X(Japan Gigabit Network-eXtreme)などの国内でも有数の教育・研究環境を提供します。
+          </p>
+        </div> <!-- mainList -->
+        <div class="mainList gray">
+          <h1>しなやかで人に優しい次世代情報技術を追求</h1>
+          <p>
+            現代の情報通信技術に対応できる人材には、やわらかな発想で、広い視野を持ち、しなやかで人に優しい情報システムを考えられる素養と、新たなICTの創造とその応用を推進できる能力や、情報とメディア、情報技術の明日を拓き、情報社会の未来をデザインする先端研究を進めるとともに、情報技術の本質を理解し、大胆で柔軟な発想力を育む教育によって、高度化する情報システムに対応できる技術者・研究開発者を養成します。
+          </p>
+        </div> <!-- mainList -->
+        <div class="mainList gray">
+          <h1>実力を育む体系的カリキュラムで<br />
+          情報系資格や教員免許にも対応</h1>
+          <p>
+            情報学群では、「情報と人間」「情報とメディア」「情報通信」「コンピュータサイエンス」の4つの専攻（履修モデル）を設けます。各選考分野のプロフェッショナルを育成するための専門科目群は、基本的に3つの階層で構築されています。<br />
+            第1階層では、「専門基礎科目群」によって、その後の専門科目を理解する上で必要な基礎知識を身に付けます。第2階層には、4つの選考それぞれの中心的な科目を配置し、プロフェッショナルとしての専門性を養います。さらに第3階層においては、第2階層までで学んだことをより深く理解し専門領域を極めるための実験や、卒業研究などを行います。これらの階層が、学年次によって分離されることなく、4年間の一貫的・体系的な教育プログラムを形成していることも、本学群の教育の大きな特長です。学生たちは、1年次から専門科目を履修することで、各専攻の魅力を知り、将来、どの分野を専攻するか、比較検討しながら選択できます。<br />
+            また、高等学校までの教育過程において情報教育の充実が望まれている状況に対応し、情報処理技術者試験等の資格や中高数学・高校情報の教員免許の取得もサポートします。
+          </p>
+        </div> <!-- mainList -->
+      </div> <!-- main -->
+      <div class="qAndA">
+        <h1>- 専攻別紹介 -</h1>
+        <div class="qAList">
+          <div class="qAListIn">
+          <label for="downIH">
+            <img src="img/iH.jpg" alt="情報と人間専攻" />
+          </label>
+          <div class="qATitle">
+            <h2>情報と人間専攻</h2>
+            <h3>information-Human</h3>
+          </div> <!-- qATitle -->
+          <input type="checkbox" name="btn" id="downIH" />
+          <div class="checkMove">
+          <label for="downIH" class="triangle"></label>
+          <div class="hideQA">
+            <dl class="contentsQA question">
+              <dt></dt>
+              <dd>情報と人間専攻がなぜ必要なのか？</dd>
+            </dl> <!-- question -->
+            <dl class="contentsQA answer">
+              <dt></dt>
+              <dd>
+                人に優しい未来の情報社会をデザインし、それを中心で支える人材を育成する。情報学群が掲げるこの目標を実現するために、ICT（情報通信技術）の基準となる「コンピュータサイエンス」「情報通信」が必要なことはいうまでもありません。しかしそれだけでは十分とは言えません。人間の優れた知能を解明し、コンピュータによってその実現を図ることも必要となります。つまり、情報社会の主役である「人間」の側から情報システムのあり方を研究するアプローチが、今後、ますます重要になってきます。
+              </dd>
+            </dl> <!-- answer -->
+            <dl class="contentsQA question">
+              <dt></dt>
+              <dd>情報と人間専攻で何を学ぶのか？</dd>
+            </dl> <!-- question -->
+            <dl class="contentsQA answer">
+              <dt></dt>
+              <dd>
+                情報と人間専攻では、人がいかにして外部からの刺激（情報）を脳内に伝達し、脳内でその情報をどう処理（認識）し、理解し、それにもとづいてどのように判断や推論を行っているのかについて基本を学びます。また情報通信からソフトウェア工学、人工知能、映像音響メディアまで、多彩な科目群を学び、“情報”についての幅広い知識を身に付けられるのも、本専攻の特長です。「人間」の側から“人に優しい情報システム”の開発や運用に携わることのできるICT（情報通信技術）を学ぶことが出来ます。
+              </dd>
+            </dl> <!-- answer -->
+          </div> <!-- hideQA -->
+          </div> <!-- checkMove -->
+         </div> <!-- aAListIn -->
+        </div> <!-- qAList -->
+
+        <div class="qAList">
+          <div class="qAListIn">
+          <label for="downIM">
+            <img src="img/iM.jpg" alt="情報とメディア専攻" />
+          </label>
+          <div class="qATitle">
+            <h2>情報とメディア専攻</h2>
+            <h3>information-Media</h3>
+          </div> <!-- qATitle -->
+          <input type="checkbox" name="btn" id="downIM" />
+          <div class="checkMove">
+          <label for="downIM" class="triangle"></label>
+          <div class="hideQA">
+            <dl class="contentsQA question">
+              <dt></dt>
+              <dd>情報とメディア専攻がなぜ必要なのか？</dd>
+            </dl> <!-- question -->
+            <dl class="contentsQA answer">
+              <dt></dt>
+              <dd>
+                情報通信技術（ICT）の発達は、メディアに劇的な変革をもたらしました。映画やアニメーションなどエンターテイメントの分野でも、ディジタル技術は必須のものとなっています。その一方で、誰もが手軽にディジタル映像を編集し、インターネットを通じて広く公開することも、もはや当たり前になっています。そうした中、知的財産権やプライバシーの保護などを巡る問題も大きな広がりを見せています。ゆえに、メディアの本質と高度なICTの核心をしっかりと理解し、メディアと情報システムのプロフェッショナルとして活躍できる人材が求められています。
+              </dd>
+            </dl> <!-- answer -->
+            <dl class="contentsQA question">
+              <dt></dt>
+              <dd>情報とメディア専攻で何を学ぶのか？</dd>
+            </dl> <!-- question -->
+            <dl class="contentsQA answer">
+              <dt></dt>
+              <dd>
+                情報とメディア専攻では、「ウェブメディア」「パターン認識と理解」「コンピュータグラフィックス」など、さまざまなメディアテクノロジーの開発と活用に関して学習し、あらゆる情報メディア分野でプロフェッショナルとして活躍するための基盤となる知識を養います。
+                <br />大切なのは、メディア技術を身につける“だけ”に留まらず、メディアに関する教育・研究を通じて情報の本質をつかみ、人に優しい情報社会の担い手にふさわしい深い洞察力と幅広い視点を身につけることです。そのため本専攻においては、コンピュータや通信技術など、本物のICT技術者に必要な基礎力の習得にも、特に力を注いでいきます。
+              </dd>
+            </dl> <!-- answer -->
+          </div> <!-- hideQA -->
+          </div> <!-- checkMove -->
+         </div> <!-- aAListIn -->
+        </div> <!-- qAList -->
+
+        <div class="qAList">
+          <div class="qAListIn">
+          <label for="downCC">
+            <img src="img/CC.jpg" alt="情報通信専攻" />
+          </label>
+          <div class="qATitle">
+            <h2>情報通信専攻</h2>
+            <h3>Computer-Communication</h3>
+          </div> <!-- qATitle -->
+          <input type="checkbox" name="btn" id="downCC" />
+          <div class="checkMove">
+          <label for="downCC" class="triangle"></label>
+          <div class="hideQA">
+            <dl class="contentsQA question">
+              <dt></dt>
+              <dd>情報通信専攻がなぜ必要なのか？</dd>
+            </dl> <!-- question -->
+            <dl class="contentsQA answer">
+              <dt></dt>
+              <dd>
+                どんなに情報を作り、加工し、利用する技術が進歩しても、それを送受信する「通信」がなければ、情報社会は機能しません。あなたが携帯電話で画像や動画をやりとりできるのも、ICカードで「ピッ」と改札を通れたり買い物ができたりするのも、ICTがあればこそ。情報社会は、コンピュータテクノロジーとICTが互いに手を携えることで進歩してきました。そしてこれからの“人に優しい情報社会”を創り、支えるICT技術者にも、当然、情報通信分野の高度な専門知識が求められます。
+              </dd>
+            </dl> <!-- answer -->
+            <dl class="contentsQA question">
+              <dt></dt>
+              <dd>情報通信専攻で何を学ぶのか？</dd>
+            </dl> <!-- question -->
+            <dl class="contentsQA answer">
+              <dt></dt>
+              <dd>
+                本専攻では、目的に合わせ、最新のICTを駆使してネットワークを構築・運用できる実践的な能力が身につきます。さらに、“情報の本質を理解する”ことに重きを置く情報学群ならではの教育展開により、現在のICTが抱える課題や、未来の情報ネットワークの展望についても見識を深めることができます。さらに、情報セキュリティや各種情報ネットワークの新技術開発の領域で、数多くの画期的な実績をあげている教員と親しく接し、指導を受けることにより、第一線の技術者、研究開発者に求められる多彩な視点、深い洞察力、卓越した発想力を吸収し成長できます。
+              </dd>
+            </dl> <!-- answer -->
+          </div> <!-- hideQA -->
+          </div> <!-- checkMove -->
+         </div> <!-- aAListIn -->
+        </div> <!-- qAList -->
+
+        <div class="qAList">
+          <div class="qAListIn">
+          <label for="downCS">
+            <img src="img/CS.jpg" alt="コンピュータサイエンス専攻" />
+          </label>
+          <div class="qATitle">
+            <h2>コンピュータサイエンス専攻</h2>
+            <h3>Computer-Science</h3>
+          </div> <!-- qATitle -->
+          <input type="checkbox" name="btn" id="downCS" />
+          <div class="checkMove">
+          <label for="downCS" class="triangle"></label>
+          <div class="hideQA">
+            <dl class="contentsQA question">
+              <dt></dt>
+              <dd>コンピュータサイエンス専攻がなぜ必要なのか？</dd>
+            </dl> <!-- question -->
+            <dl class="contentsQA answer">
+              <dt></dt>
+              <dd>
+                めまぐるしいスピードで進歩し続けるコンピュータサイエンス。しかし今、その進歩を阻む幾つかの課題が浮上しています。コンピュータの情報処理回路の高集積化は、そろそろ限界に近づいています。また現在のコンピュータの情報処理システムの延長線上で処理速度を向上させようとすると、大量の電力が必要になります。こうした問題を解決するには、従来型の発想やアーキテクチャ（設計思想）を超えた、新たなコンピュータテクノロジーの創出が、ハード・ソフト両面で必要となります。
+              </dd>
+            </dl> <!-- answer -->
+            <dl class="contentsQA question">
+              <dt></dt>
+              <dd>コンピュータサイエンス専攻で何を学ぶのか？</dd>
+            </dl> <!-- question -->
+            <dl class="contentsQA answer">
+              <dt></dt>
+              <dd>
+                これからのコンピュータ・テクノロジーやICT（情報通信技術）は、さらに進化するでしょう。単に、個々の技術に通じているだけでは、こうした変化に対応することはできません。“情報”の本質をつかみ、コンピュータと情報通信を“土台”や“骨組み”の部分から深く理解することが必要です。つまり、これからの時代に求められるICT技術者には、ネットワークの専門知識に加え、コンピュータに関するハード・ソフト両面の高度な知識と実践的な活用能力が不可欠です。コンピュータサイエンス専攻の教育カリキュラムは、このような真のICT技術者を育てる上で、きわめて有効に機能するものとなっています。
+              </dd>
+            </dl> <!-- answer -->
+          </div> <!-- hideQA -->
+          </div> <!-- checkMove -->
+         </div> <!-- aAListIn -->
+        </div> <!-- qAList -->
+
+      </div>
+    </div> <!-- baseContents -->
+        <!--#include file="footer.html"-->
+  </body>
+</html>

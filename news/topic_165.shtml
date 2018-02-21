@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>情報学群1年生8名の投稿が4,5月の高知新聞「声ひろば」に掲載されました。</title>
+    <link rel="stylesheet" href="css/base.css" media="all" title="header" charset="utf-8" />
+    <link rel="stylesheet" href="css/topic_news_article.css" media="all" title="header" charset="utf-8" />
+    <link rel="icon" href="../img/favicon2.png" type="image/png" />
+    <script type="text/javascript">
+        window.onload = function(){
+          headSerect(0);
+        }
+    </script>
+  </head>
+  <body>
+    <!--#include file="header.html"-->
+    <div id="baseContents">
+      <div class="pankuzu">
+        <a href="../index.shtml">HOME</a> > <a href="../topic_news.shtml">Topics&amp;News</a> > News詳細
+      </div> <!-- pankuzu -->
+      <div class="subTitle">
+        <h1><span class="topChar">T</span>opics</h1><h2>and</h2><h1><span class="topChar">N</span>ews</h1>
+      </div><!-- title -->
+      <div class="newsArea">
+        <dt>2017.5.25</dt>
+        <h1>情報学群1年生8名の投稿が4,5月の高知新聞「声ひろば」に掲載されました。</h1>
+        <hr />
+                <p class="mainSentence">
+        <a href="https://www.kochinews.co.jp/article/95496/">4月 28日 (金)  島津浩太朗　「命ってなんだろう」</a><br />
+<a href="https://www.kochinews.co.jp/article/96267/">5月　2日 (火)  池上拓海　「相手と向き合うこと」</a><br />
+<a href="https://www.kochinews.co.jp/article/96508/">5月　3日 (水)  仮谷拡晃　「紙の本の良さ」</a><br />
+<a href="https://www.kochinews.co.jp/article/96974/">5月　6日 (土)  稲井喜基　「新しいことへの挑戦」</a><br />
+<a href="https://www.kochinews.co.jp/article/97696/">5月 10日 (水)  植田桂広　「春と人見知り」</a><br />
+<a href="https://www.kochinews.co.jp/article/98184/">5月 12日 (金)  獅々堀達哉　「センター試験」</a><br />
+<a href="https://www.kochinews.co.jp/article/98762/">5月 15日 (月)  小松真子　「私の「地域おこし」」</a><br />
+<a href="https://www.kochinews.co.jp/article/98979/">5月 16日 (火)  緒方俊祐　「選挙の投票率低下」</a>        </p><!-- mainSentence -->
+              </div><!-- newsArea -->
+    </div><!-- baseContents -->
+    <!--#include file="footer.html"-->
+
+  </body>
+</html>

@@ -1,0 +1,339 @@
+#baseContents .title {
+	margin-top: 155px;
+	text-align: center;
+}
+
+#baseContents .title h1 {
+	font-size:350%;
+	margin-top: 20px;
+}
+
+#baseContents .title span {
+	color: #71cdf2;
+	font-size: 120%;
+}
+
+#baseContents .mainContents {
+	margin: 175px auto 0px;
+}
+
+#baseContents .mainContents .currColumn {
+	margin: 0px auto;
+	width: 648px;
+}
+
+#baseContents .mainContents .major {
+	margin: 65px auto 0px;
+	width: 695px;
+}
+
+#baseContents .major .currImg {
+	margin: 0px auto;
+	width: 692px;
+}
+
+#baseContents .major .currBtn {
+	margin: 30px auto 0px;
+	overflow: hidden;
+	width: 670px;
+	height: 263px;
+}
+
+#baseContents .currBtn .btnGroup {
+	float: left;
+	width: 160px;
+}
+
+#baseContents .currBtn .btnGroup:nth-child(n+2) {
+	margin-left: 10px;
+}
+
+#baseContents .btnGroup .arrowBox {
+	text-align: center;
+}
+
+#baseContents .btnGroup .button {
+	width: 160px;
+	height: 160px;
+	margin-top: 30px;
+	-webkit-transition: 0.1s;
+	-moz-transition: 0.1s;
+	-ms-transition: 0.1s;
+	-o-transition: 0.1s;
+	transition: 0.1s;
+	position: relative;
+}
+
+#baseContents .MjName {
+	color: #ffffff;
+	pointer-events: none;
+	position: absolute;
+	top: 100px;
+	text-align: center;
+	width: 100%;
+}
+
+#baseContents .CSName {
+	margin-top: -0.5em;
+}
+
+#baseContents .btnGroup .button:hover {
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+#baseContents .btnGroup .button:active {
+	-webkit-box-shadow: 0px 0px 0px;
+	-moz-box-shadow: 0px 0px 0px;
+	-ms-box-shadow: 0px 0px 0px;
+	-o-box-shadow: 0px 0px 0px;
+	box-shadow: 0px 0px 0px;
+	transform: translate3d(0, 7px, 0);
+}
+
+#baseContents .btnGroup .iMBtn {
+	-webkit-box-shadow: 0px 7px 0px #84bf44;
+	-moz-box-shadow: 0px 7px 0px #84bf44;
+	-ms-box-shadow: 0px 7px 0px #84bf44;
+	-o-box-shadow: 0px 7px 0px #84bf44;
+	box-shadow: 0px 7px 0px #84bf44;
+}
+
+#baseContents .btnGroup .iHBtn {
+	-webkit-box-shadow: 0px 7px 0px #366ad3;
+	-moz-box-shadow: 0px 7px 0px #366ad3;
+	-ms-box-shadow: 0px 7px 0px #366ad3;
+	-o-box-shadow: 0px 7px 0px #366ad3;
+	box-shadow: 0px 7px 0px #366ad3;
+}
+
+#baseContents .btnGroup .CCBtn {
+	-webkit-box-shadow: 0px 7px 0px #f5a623;
+	-moz-box-shadow: 0px 7px 0px #f5a623;
+	-ms-box-shadow: 0px 7px 0px #f5a623;
+	-o-box-shadow: 0px 7px 0px #f5a623;
+	box-shadow: 0px 7px 0px #f5a623;
+}
+
+#baseContents .btnGroup .CSBtn {
+	-webkit-box-shadow: 0px 7px 0px #e15a3f;
+	-moz-box-shadow: 0px 7px 0px #e15a3f;
+	-ms-box-shadow: 0px 7px 0px #e15a3f;
+	-o-box-shadow: 0px 7px 0px #e15a3f;
+	box-shadow: 0px 7px 0px #e15a3f;
+}
+
+#baseContents .major .caption {
+	clear: both;
+	margin-top: 100px;
+	text-align: center;
+}
+
+#baseContents .major .caption::before {
+	content: "※";
+}
+
+#baseContents .mainContents .majorInfo {
+	background-color: #f2f2f2;
+	border-radius: 5px;
+	margin: 15px auto 0px;
+	padding: 25px 25px;
+	width: 677px;
+}
+
+#baseContents .majorInfo .image {
+	float: left;
+	height: 160px;
+	position: relative;
+	width: 160px;
+
+}
+
+#baseContents .image .fadeinTitle {
+	color: #ffffff;
+	position: absolute;
+	top: 100px;
+	left: 50%;
+}
+
+#baseContents .image img {
+	position: absolute;
+	top: 0px;
+
+}
+
+#baseContents .fadeIn {
+	-webkit-transition: 0.1s;
+	-moz-transition: 0.1s;
+	-ms-transition: 0.1s;
+	-o-transition: 0.1s;
+	transition: 0.3s;
+	opacity: 1;
+}
+
+#baseContents .fadeOut {
+	-webkit-transition: 0.1s;
+	-moz-transition: 0.1s;
+	-ms-transition: 0.1s;
+	-o-transition: 0.1s;
+	transition: 0.3s;
+	opacity: 0;
+}
+
+
+
+#baseContents .majorInfo .commonCourse {
+	background-color: #ffffff;
+	border-radius: 5px;
+	float: left;
+	height: 220px;
+	margin-left: 25px;
+	width: 492px;
+}
+
+#baseContents .label {
+	height: 30px;
+	line-height: 30px;
+	overflow: hidden;
+	position: relative;
+	top: -15px;
+	left: 25px;
+}
+
+#baseContents .labelText {
+	background-color: #71cdf2;
+	color: #ffffff;
+	float: left;
+	font-weight: bold;
+	margin: 0px 3px;
+	padding: 0px 20px;
+	text-align: center;
+}
+
+#baseContents .labelBar {
+	background-color: #71cdf2;
+	float: left;
+	height: 100%;
+	width: 2px;
+}
+
+#baseContents .commonCourse .commonList {
+	margin-left: 35px;
+	margin-top: -5px;
+	line-height: 150%;
+	overflow: hidden;
+}
+
+#baseContents .commonList .commonLeft {
+	float: left;
+	margin-left: 23px;
+}
+
+#baseContents .commonList .commonRight {
+	float: left;
+	margin-left: 30px;
+}
+
+#baseContents .majorInfo .clear {
+	clear: both;
+}
+
+#baseContents .majorInfo .plus {
+	margin-top: 50px;
+	text-align: center;
+}
+
+#baseContents .majorInfo .majorCourse {
+	background-color: #ffffff;
+	border-radius: 5px;
+	margin-top: 50px;
+	text-align: center;
+	width: 677px;
+}
+
+#baseContents .majorCourse .majorList {
+	display: inline-block;
+	margin: 35px 0px 55px;
+	overflow: hidden;
+	text-align: center;
+}
+
+#baseContents .majorList .majorCurr {
+	float: left;
+	margin-left: 20px;
+	text-align: left;
+}
+
+#baseContents .majorList .majorRight {
+	margin-left: 81px; 
+}
+
+#baseContents .majorInfo .equals {
+	margin-top: 50px;
+	text-align: center;
+}
+
+#baseContents .majorInfo .example {
+	background-color: #ffffff;
+	border-radius: 5px;
+	margin-top: 50px;
+	padding-left: 30px;
+}
+
+#baseContents .example .exampleLabel {
+	font-size: 115%;
+	font-weight: bold;
+	height: 38px;
+	line-height: 38px;
+	overflow: hidden;
+	position: relative;
+	top: -19px;
+}
+
+#baseContents .exampleLabel .exampleBar {
+	background-color: #268486;
+	float: left;
+	height: 100%;
+	width: 2px;
+}
+
+#baseContents .exampleLabel .exampleText {
+	background-color: #268486;
+	color: #ffffff;
+	float: left;
+	margin: 0px 3px;
+	padding: 0px 20px;
+	text-align: center;
+}
+
+#baseContents .example .exampleColumn {
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+#baseContents .exampleColumn .columnTitle {
+	color: #268486;
+	font-weight: bolder;
+}
+
+#baseContents .columnTitle h2 {
+	font-size: 200%;
+	font-weight: bolder;
+	margin-top: 5px;
+}
+
+#baseContents .exampleColumn .columnBox {
+	overflow: hidden;
+	display: table;
+}
+
+#baseContents .columnBox .columnText {
+	display: table-cell;
+	vertical-align: middle;
+	width: 476px;
+}
+
+#baseContents .columnBox .columnImage {
+	display: table-cell;
+	padding-left: 30px;
+}

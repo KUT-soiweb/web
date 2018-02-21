@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>情報学群　研究室対抗スポーツ大会が開催されました！今年は浜村研が総合優勝しました。</title>
+    <link rel="stylesheet" href="css/base.css" media="all" title="header" charset="utf-8" />
+    <link rel="stylesheet" href="css/topic_news_article.css" media="all" title="header" charset="utf-8" />
+    <link rel="icon" href="../img/favicon2.png" type="image/png" />
+    <script type="text/javascript">
+        window.onload = function(){
+          headSerect(0);
+        }
+    </script>
+  </head>
+  <body>
+    <!--#include file="header.html"-->
+    <div id="baseContents">
+      <div class="pankuzu">
+        <a href="../index.shtml">HOME</a> > <a href="../topic_news.shtml">Topics&amp;News</a> > News詳細
+      </div> <!-- pankuzu -->
+      <div class="subTitle">
+        <h1><span class="topChar">T</span>opics</h1><h2>and</h2><h1><span class="topChar">N</span>ews</h1>
+      </div><!-- title -->
+      <div class="newsArea">
+        <dt>2015.9.28</dt>
+        <h1>情報学群　研究室対抗スポーツ大会が開催されました！今年は浜村研が総合優勝しました。</h1>
+        <hr />
+                <div class="mainImgArea">
+          <img src="img/id36_1.jpg" class="mainImg" />
+        </div><!-- mainImgArea -->
+                <p class="mainSentence">
+        　夏休み終了間近、日差しも弱くなってきた9/29、高知工科大学体育館にて研究室対抗のスポーツ大会が開催され、熱い戦いが行われました。<br />
+　研究であろうとスポーツであろうと何事にも全力で向き合う、高知工科大生らしい姿を見ることができました。15もの研究室が参加し、学年•研究室関係なくスポーツを通して多くの生徒が交流することができました。競技種目はバスケットボールとバドミントンの2種目でした。        </p><!-- mainSentence -->
+                <div class="subArea">
+                    <p>
+            　15研究室中、バスケットボールで目を見張る活躍を見せた濵村研究室が2種総合優勝となりました。<br />
+<br />
+総合１位　濵村研究室<br />
+総合２位　栗原研究室<br />
+総合３位　門田・中原研究室<br />
+<br />
+バスケットボール優勝　濵村研究室<br />
+バドミントン優勝　門田・中原研究室　          </p>
+                      <img src="img/id36_2.JPG" />
+                  </div><!-- subArea -->
+                <div class="subArea">
+                    <p>
+            　各研究室見事なチームワークの下、健闘しておりました。研究室間の交流もでき、良い関係を気付くことができたのではないかと思います。<br />
+　10月からは後期の授業も開始します。スポーツに向けた熱い想いを研究ぶつけ頑張っていきたいと思います。          </p>
+                  </div><!-- subArea -->
+              </div><!-- newsArea -->
+    </div><!-- baseContents -->
+    <!--#include file="footer.html"-->
+
+  </body>
+</html>

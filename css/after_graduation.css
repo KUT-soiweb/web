@@ -1,0 +1,277 @@
+
+#baseContents .graduation {
+	margin: 200px auto 0px;
+	width: 880px;
+}
+
+#baseContents .subTitle {
+	background: url(../img/bg_img_title.png) no-repeat;
+	display: table;
+	height: 48px;
+	margin: 0px auto;
+	width: 248px;
+}
+
+#baseContents .subTitle .titleInner {
+	color: #ffffff;
+	display: table-cell;
+	font-size: 120%;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#baseContents .graduation .graduationInner {
+	margin: 65px auto 0px;
+	overflow: hidden;
+}
+
+#baseContents .graduationInner .data {
+	background-color: #fefbf8;
+	float: left;
+	width: 425px;
+}
+
+#baseContents .graduationInner .dataYear02 {
+	margin-left: 30px;
+}
+
+#baseContents .data .graph {
+	display: table;
+	height: 280px;
+	margin: 55px auto 0px;
+	width: 280px;
+	position: relative;
+}
+
+#baseContents .graph .graphTitle {
+	display: table-cell;
+	margin-top: -26px;
+	margin-left: -46px;
+	line-height: 1.5em;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	text-align: center;
+}
+
+#baseContents .graphTitle span {
+	font-size: 180%;
+}
+
+#baseContents .graph canvas {
+	height: 280px;
+	width: 280px;
+}
+
+#baseContents .data dl {
+	line-height: 1.5em;
+	margin: 10px 0px 65px;
+	margin-left: 135px;
+	overflow: hidden;
+}
+
+#baseContents .data dt {
+	clear: left;
+	float: left;
+}
+
+#baseContents .data dd {
+	margin-left: 120px;
+}
+
+#baseContents .data dd::before {
+	content: "： ";
+}
+
+#baseContents .data dd::after {
+	content: "人";
+}
+
+#baseContents .comment {
+	clear: left;
+	margin-top: 25px;
+	text-align: center;
+}
+
+#baseContents .comment::before {
+	content: "※ ";
+}
+
+#baseContents .employmentList {
+	margin-bottom: 150px;
+	margin-top: 85px;
+}
+
+#baseContents .employmentList .employmentInner {
+	text-align: center;
+}
+
+#baseContents .employmentInner .fukidasi {
+	background-color: #f5f5f5;
+	border-radius: 5px;
+	height: 100px;
+	width: 255px;
+	padding: 1px;
+	position: relative;
+	left: 255px;
+	top: 160px;
+}
+
+#baseContents .employmentInner .fukidasi::before,
+.fukidasi .fukidasiInner::before,
+.fukidasi .fukidasiInner::after {
+	border: solid transparent;
+	content: "";
+	height: 0px;
+	position: absolute;
+	left: 50%;
+	top: 100%;
+	width: 0px;
+}
+
+#baseContents .employmentInner .fukidasi::before {
+	border-top-color: #f5f5f5;
+	border-width: 35px 15px 0px 15px;
+	margin-left: -15px;
+}
+
+#baseContents .fukidasi .fukidasiInner {
+	border-radius: 5px;
+	border: #ffffff 5px solid;
+	display: table;
+	height: 90px;
+	position: relative;
+	width: 245px;
+}
+
+#baseContents .fukidasi .fukidasiInner::after {
+	border-top-color: #f5f5f5;
+	border-width: 29px 11px 0px 11px;
+	margin-left: -11px;
+}
+
+#baseContents .fukidasi .fukidasiInner::before {
+	border-top-color: #ffffff;
+	border-width: 39px 16px 0px 16px;
+	margin-left: -16px;
+}
+
+#baseContents .fukidasi .fukidasiInner p {
+	display: table-cell;
+	line-height: 1.5em;
+	vertical-align: middle;
+}
+
+#baseContents .companyName dl {
+	float: left;
+	margin: 0px auto;
+	text-align: left;
+}
+
+#baseContents .companyName dl:nth-child(n+2) {
+	margin-left: 90px;
+}
+
+#baseContents .companyName .noData {
+	font-size: 200%;
+	font-weight: bold;
+	line-height: 1.5em;
+	text-align: center;
+}
+
+#baseContents .companyName .noData span {
+	font-size: 120%;
+	color: #4a90e2;
+}
+
+#baseContents .map a path,
+#baseContents .map a rect {
+	-webkit-transition: all 0.6s;
+	-moz-transition: all 0.6s;
+	-ms-transition: all 0.6s;
+	-o-transition: all 0.6s;
+	transition: all 0.6s;
+}
+
+#baseContents .map a:hover path,
+#baseContents .map a:hover rect {
+	fill: #f5a623;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+}
+
+#baseContents .map a:active path,
+#baseContents .map a:active rect {
+	fill: #ee6557;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+}
+
+
+#baseContents .employmentInner input {
+	display: none;
+}
+
+#baseContents .employmentInner input ~ svg a path,
+#baseContents .employmentInner input ~ svg a rect {
+	fill: #16A6B6;
+}
+
+#baseContents .employmentInner #map01:checked ~ .map .mapHokkaido path,
+#baseContents .employmentInner #map02:checked ~ .map .mapTohoku path,
+#baseContents .employmentInner #map03:checked ~ .map .mapChubu path,
+#baseContents .employmentInner #map04:checked ~ .map .mapKanto path,
+#baseContents .employmentInner #map05:checked ~ .map .mapKinki path,
+#baseContents .employmentInner #map06:checked ~ .map .mapOsaka rect,
+#baseContents .employmentInner #map07:checked ~ .map .mapTokyo rect,
+#baseContents .employmentInner #map08:checked ~ .map .mapChugoku path,
+#baseContents .employmentInner #map09:checked ~ .map .mapShikoku rect,
+#baseContents .employmentInner #map10:checked ~ .map .mapKyusyu path,
+#baseContents .employmentInner #map11:checked ~ .map .mapOkinawa rect {
+	fill: #ee6557;
+}
+
+#baseContents .employmentInner .areaBox {
+	margin-top: 90px;
+}
+
+#baseContents .areaBox .areaInfo {
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+}
+
+#baseContents .areaInfo .areaTitle {
+	color: #4a90e2;
+	font-size: 250%;
+	font-weight: bold;
+}
+
+#baseContents .areaInfo .border {
+	border-bottom: #4a90e2 6px solid;
+	margin: 15px auto 0px;
+	width: 80px;
+}
+
+#baseContents .areaInfo .companyName {
+	display: table;
+	margin: 15px auto 0px;
+	overflow: hidden;
+}
+
+#baseContents .areaBox .fadeOut {
+	opacity: 0;
+}
+
+#baseContents .areaBox .fadeIn {
+	opacity: 1;
+}

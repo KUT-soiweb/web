@@ -1,0 +1,273 @@
+@charset "UTF-8";
+
+/*main image*/
+#baseContents .mainImage {
+  background-color: #cccccc;
+  width: 960px;
+}
+
+/*共通 section*/
+#baseContents .section {
+  clear: both;
+  margin: 80px auto 0px;
+  padding-bottom: 30px;
+  text-align: center;
+  width: 100%;
+}
+
+#baseContents .section h1 {
+  font-size: 300%;
+  line-height: 1em;
+  margin: 0px auto;
+  position: relative;
+  top: -25px;
+}
+
+#baseContents .section h2 {
+  font-weight: bold;
+  line-height: 1em;
+  margin: 0px auto;
+  position: relative;
+  top: -15px;
+}
+
+/* news and topics*/
+#baseContents .news {
+  background-image: url("../img/Hatching.png");
+}
+
+#baseContents .section .newsContents {
+  background-color: #ffffff;
+  height: 320px;
+  margin: 0px auto;
+  position: relative;
+  text-align: center;
+  width: 80%;
+}
+
+#baseContents .section .newsContents dl {
+  display: inline-block;
+  font-size: 100%;
+  margin-top: 35px;
+  margin-left: 30px;
+  text-align: left;
+  width: 90%;
+}
+
+#baseContents .section .newsContents dl dd a {
+  color: #4A90E2;
+}
+
+#baseContents .section .newsContents dl dd a:hover {
+  text-decoration: underline;
+}
+
+#baseContents .section .newsContents dt {
+  clear: left;
+  float: left;
+  margin-top: 12px;
+  width: 160px;
+}
+
+#baseContents .section .newsContents dt::before {
+  content: ">　";
+  color: #fdafbe;
+}
+
+#baseContents .section .newsContents dd {
+  float: left;
+  margin-left: 20px;
+  margin-top: 12px;
+  width: 480px;
+}
+
+#baseContents .section .newsContents .oldNews a {
+  background-color: #fd9e9c;
+  color:#ffffff;
+  display: block;
+  font-size: 100%;
+  line-height: 1em;
+  padding-top: 10px;
+  position: absolute;
+  bottom: 20px;
+  height:25px;
+  right: 20px;
+  text-align: center;
+  width: 180px;
+}
+
+#baseContents .section .newsContents .oldNews a:hover {
+  opacity: 0.8;
+}
+
+/* link image */
+#baseContents .linkImg {
+  background-color: #eeeeee;
+  border-radius: 10px;
+  height: 135px;
+  margin: 40px auto 0px;
+  padding-top: 15px;
+  width: 86%;
+}
+
+#baseContents .linkImg img {
+  height: 120px;
+  margin: 0px 15px;
+  position: absolute;
+}
+
+#baseContents .linkImg img:hover {
+  opacity: 0.7;
+}
+
+#baseContents .linkImg p {
+  background-color: rgba(103, 160, 226, 0.7);
+  color: #ffffff;
+  font-size: 250%;
+  height: 80px;
+  line-height: 1em;
+  margin: 0px 15px;
+  padding: 40px 10px 0px;
+  position: relative;
+  text-align: center;
+  width: 50%;
+}
+
+/* link contents*/
+#baseContents .link {
+  height: 340px;
+  width: 100%;
+}
+
+#baseContents .linkContents {
+  background-color: #eeeeee;
+  float: left;
+  height: 300px;
+  margin: 40px 0px 0px 6.25%;
+  position: relative;
+  width: 25%;
+}
+
+#baseContents .linkContents .img {
+  background-color: #cccccc;
+  height: 50%;
+  margin: 10px 12px 0px;
+  width: 90%;
+}
+
+#baseContents .linkContents p {
+  font-size: 100%;
+  margin: 10px auto 0px;
+  width:90%;
+}
+
+#baseContents .linkContents h1 a {
+  background-color: #71cdf2;
+  border-radius: 3px;
+  color: #ffffff;
+  display: block;
+  font-size: 140%;
+  padding: 10px 0px;
+  position: absolute;
+  bottom: 10px;
+  left: 5%;
+  text-align: center;
+  width: 90%;
+}
+
+#baseContents .linkContents h1 a:hover {
+	bottom: 15px;
+	box-shadow: 0px 5px 0px #23befb;
+}
+
+#baseContents .linkContents h1 a:active {
+	bottom: 10px;
+	box-shadow: 0px 0px 10px #23befb inset;
+}
+
+/* five reason*/
+#baseContents .reason {
+  background-color: #c1ea97;
+  height: 300px;
+  text-align: center;
+}
+
+#baseContents .section .reasonContents {
+  display: inline-block;
+  height: 300px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+#baseContents .section .reasonContents p {
+  font-weight: bold;
+  letter-spacing: 0.2em;
+  line-height: 200%;
+  text-align: left;
+}
+
+#baseContents .section .reasonContents .reasonLinkBack {
+  background-color:#bee299;
+  display: inline-block;
+  font-size: 150%;
+  height:80px;
+  margin-top:30px;
+  text-align: center;
+  width: 320px;
+}
+
+#baseContents .section .reasonContents .reasonLinkBack .reasonLink a {
+  background-color: #ffffff;
+  display: inline-block;
+  height:48px;
+  margin:5px 0px 0px 5px;
+  padding-top: 22px;
+  text-align: center;
+  width: 300px;
+  /*fade transform*/
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: color, background-color;
+  transition-property: color, background-color;
+}
+
+#baseContents .section .reasonContents .reasonLinkBack .reasonLink a:hover {
+  background-color: #5c5c5c;
+  color: white;
+}
+
+#baseContents .banner {
+  height: 70px;
+  margin: 20px auto 20px;
+  text-align: center;
+  width: 88%;
+}
+
+#baseContents ul {
+	display: inline-block;
+	list-style-type: none;
+  margin-top: 30px;
+}
+
+#baseContents ul li {
+  float: left;
+}
+
+#baseContents ul li a {
+	margin-left: 20px;
+}
+
+#baseContents ul li a img {
+  border: 1px #9c9c9c solid;
+}
+
+#baseContents ul li a img:hover {
+  opacity: 0.7;
+}

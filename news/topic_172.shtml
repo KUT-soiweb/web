@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>CyKUTが高知県警本部より「サイバー犯罪ボランティア」の委嘱を受けました。</title>
+    <link rel="stylesheet" href="css/base.css" media="all" title="header" charset="utf-8" />
+    <link rel="stylesheet" href="css/topic_news_article.css" media="all" title="header" charset="utf-8" />
+    <link rel="icon" href="../img/favicon2.png" type="image/png" />
+    <script type="text/javascript">
+        window.onload = function(){
+          headSerect(0);
+        }
+    </script>
+  </head>
+  <body>
+    <!--#include file="header.html"-->
+    <div id="baseContents">
+      <div class="pankuzu">
+        <a href="../index.shtml">HOME</a> > <a href="../topic_news.shtml">Topics&amp;News</a> > News詳細
+      </div> <!-- pankuzu -->
+      <div class="subTitle">
+        <h1><span class="topChar">T</span>opics</h1><h2>and</h2><h1><span class="topChar">N</span>ews</h1>
+      </div><!-- title -->
+      <div class="newsArea">
+        <dt>2017.6.28</dt>
+        <h1>CyKUTが高知県警本部より「サイバー犯罪ボランティア」の委嘱を受けました。</h1>
+        <hr />
+                <div class="mainImgArea">
+          <img src="img/id172_1.jpg" class="mainImg" />
+        </div><!-- mainImgArea -->
+                <p class="mainSentence">
+        　6月27日、本学のサイバーボランティア団体である「CyKUT(サイカット)」が高知県警本部より「サイバー犯罪ボランティア」の委嘱を受けました。<br />
+　CyKUTはサイバーパトロールや啓発活動を通して安全なサイバー空間の実現を目指すボランティア団体です。委嘱式にはCyKUTのメンバー8名が参加し、高知県警本部の伊岡若行生活安全部長からCyKUT代表の小寺祐生さん(情報学群3年)に委嘱状が渡されました。<br />
+        </p><!-- mainSentence -->
+                <div class="subArea">
+                    <p>
+            　委嘱式の終了後、警察庁情報技術犯罪対策課の金子浩丈課長補佐からサイバー防犯ボランティア活動についての講義が行われました。講義では児童被害の現状や防止対策について説明があった後、現在被害児童の多いTwitterでの通報の要領についての説明が行われました。このあと学生たちはスマートフォンを使用しTwitter上で児童から出会いを求める書き込み等を検索し削除依頼の方法を学びました。参加をした学生は「実際に行ってみて思ったよりも児童からの出会いや交際を求める書き込みが多かったことに驚いた」、「少しでも被害を減らせるようにこれから貢献していきたい」と話していました。          </p>
+                      <img src="img/id172_2.jpg" />
+                  </div><!-- subArea -->
+              </div><!-- newsArea -->
+    </div><!-- baseContents -->
+    <!--#include file="footer.html"-->
+
+  </body>
+</html>

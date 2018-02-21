@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>サイトマップ</title>
+    <link rel="stylesheet" href="css/base.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="css/site_map.css" media="screen" title="no title" charset="utf-8">
+    <link rel="icon" href="img/favicon2.png" type="image/png" />
+  </head>
+  <body>
+
+    <!--#include virtual="header.html"-->
+
+    <div id="baseContents">
+
+      <div class="pankuzu">
+          <a href="index.shtml">HOME</a> > サイトマップ
+      </div> <!-- pankuzu -->
+
+      <div class="title">
+        <h2>サイトマップ</h2>
+        <h1><span>S</span>ite <span>M</span>ap</h1>
+      </div> <!-- title -->
+
+      <div class="linkList">
+      <dl>
+        <dt><a href="faculty_outline.shtml">学群概要</a></dt>
+          <dd><a href="greeting.shtml">学群長挨拶</a></li>
+          <dd><a href="information_overview.shtml">情報学群概要</a></li>
+          <dd><a href="five_reasons.shtml">5つの理由</a></li>
+          <dd><a href="curriculum.shtml">カリキュラム</a></li>
+          <dd><a href="event_calendar.shtml">イベントカレンダー</a></dd>
+        <dt><a href="faculty_members.shtml">教員紹介</a></dt>
+          <dd><a href="faculty_members/profile_hamamura.shtml">濵村昌則</a></dd>
+	  <dd><a href="faculty_members/profile_iwata.shtml">岩田誠</a></dd>
+          <dd><a href="faculty_members/profile_shikida.shtml">敷田幹文</a></dd>
+      	  <dd><a href="faculty_members/profile_shinomori.shtml">篠森敬三</a></dd>
+      	  <dd><a href="faculty_members/profile_shimizu.shtml">清水明宏</a></dd>
+      	  <dd><a href="faculty_members/profile_nakahara.shtml">中原潔</a></dd>
+      	  <dd><a href="faculty_members/profile_fukumoto.shtml">福本昌弘</a></dd>
+      	  <dd><a href="faculty_members/profile_yokoyama.shtml">横山和俊</a></dd>
+      	  <dd><a href="faculty_members/profile_ren.shtml">任向實</a></dd>
+      	  <dd><a href="faculty_members/profile_ugawa.shtml">鵜川始陽 </a></dd>
+          <dd><a href="faculty_members/profile_kadota.shtml">門田宏</a></dd>
+      	  <dd><a href="faculty_members/profile_kurihara.shtml">栗原徹</a></dd>
+      	  <dd><a href="faculty_members/profile_shigemasu.shtml">繁桝博昭</a></dd>
+      	  <dd><a href="faculty_members/profile_takata.shtml">高田喜朗</a></dd>
+      	  <dd><a href="faculty_members/profile_matsuzaki.shtml">松崎公紀</a></dd>
+      	  <dd><a href="faculty_members/profile_mendori.shtml">妻鳥貴彦</a></dd>
+      	  <dd><a href="faculty_members/profile_yoshida.shtml">吉田真一</a></dd>
+      	  <dd><a href="faculty_members/profile_ueda.shtml">植田和憲</a></dd>
+      	  <dd><a href="faculty_members/profile_igata.shtml">井形元彦</a></dd>
+      	  <dd><a href="faculty_members/profile_murakami.shtml">村上和子</a></dd>
+        <dt><a href="campus_life.shtml">キャンパスライフ</a></dt>
+        	<dd><a href="campus_equipment.shtml">キャンパスと設備</a></dd>
+      	  <dd><a href="lecture.shtml">授業紹介</a></dd>
+        	<dd><a href="life_style_cushion.shtml">ライフスタイル</a></dd>
+          <dd><a href="life_style_yamaguti.shtml">ライフスタイル:山口智大</a></dd>
+          <dd><a href="life_style_fukuda.shtml">ライフスタイル:福田和馬</a></dd>
+          <dd><a href="life_style_kubouti.shtml">ライフスタイル:窪内彩佳</a></dd>
+          <dd><a href="life_style_tanaka_asami.shtml">ライフスタイル:田中麻実</a></dd>
+          <dd><a href="conference.shtml">学会発表</a></dd>
+        <dt><a href="entrance_examination_job_hunting.shtml">入試・就職</a></dt>
+        	<dd><a href="https://www.kochi-tech.ac.jp/entrance_info/admission/" target="_blank">入試情報</a></dd>
+        	<dd><a href="after_graduation.shtml">進路状況</a></dd><!--	<li><a href="#">内定率・就職先</a></dd> 包括されました-->
+        	<dd><a href="employment_support.shtml">就職支援</a></dd>
+        <dt><a href="international_fellowship.shtml">国際交流</a></dt>
+        <dt><a href="graduate_school.shtml">大学院</a></dt>
+        	<dd><a href="./new_graduate_school.shtml" target="_blank">情報学コース</a></dd>
+        	<dd><a href="https://www.kochi-tech.ac.jp/admission/" target="_blank">入試情報</a></dd>
+          <dd><a href="life_style_cushion_graduate.shtml">院生ライフスタイル</a></dd>
+          <dd><a href="life_style_uno.shtml">院生ライフスタイル:宇野則文</a></dd>
+          <dd><a href="life_style_fukui.shtml">院生ライフスタイル:福井さゆり</a></dd>
+          <dd><a href="life_style_tanaka_arisa.shtml">院生ライフスタイル:田中亜璃紗</a></dd>
+          <dd><a href="life_style_ogasawara.shtml">院生ライフスタイル:小笠原一聡</a></dd>
+        </dl>
+      </div><!-- linkList -->
+  </div><!-- baseContents -->
+
+  <!--#include virtual="footer.html"-->
+
+  </body>
+</html>

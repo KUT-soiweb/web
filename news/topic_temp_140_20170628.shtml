@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Topic and News</title>
+    <link rel="stylesheet" href="css/base.css" media="all" title="header" charset="utf-8" />
+    <link rel="stylesheet" href="css/topic_news_article.css" media="all" title="header" charset="utf-8" />
+    <link rel="icon" href="../img/favicon2.png" type="image/png" />
+    <script type="text/javascript">
+        window.onload = function(){
+          headSerect(0);
+        }
+    </script>
+  </head>
+  <body>
+    <!--#include file="header.html"-->
+    <div id="baseContents">
+      <div class="pankuzu">
+        <a href="../index.shtml">HOME</a> > <a href="../topic_news.shtml">Topics&amp;News</a> > News詳細
+      </div> <!-- pankuzu -->
+      <div class="subTitle">
+        <h1><span class="topChar">T</span>opics</h1><h2>and</h2><h1><span class="topChar">N</span>ews</h1>
+      </div><!-- title -->
+      <div class="newsArea">
+        <dt>2016.7.19</dt>
+        <h1>平成28年度第1回オープンキャンパスを開催しました</h1>
+        <hr />
+                <div class="mainImgArea">
+          <img src="img/id140_1.JPG" class="mainImg" />
+        </div><!-- mainImgArea -->
+        
+        <!--メインセンテンス部分(body1部分)-->
+        <p class="mainSentence">
+        <!--ここに本文を書いてください-->
+        　7月17日日曜日、高知工科大学にて平成28年度第1回オープンキャンパスが開催されました。<br>
+            当日は曇りではありましたが高い気温の中、県内だけでなく県外からも去年より多くの方にご来場頂きました。(香美キャンパス  今年:1,155人、昨年:1,023人)<br>
+            　今回のオープンキャンパスでは情報学群のオープンキャンパス案内アプリとして<a href="../oc_2016/kut_navi.shtml">KUTNavi</a>を開発しGoogle Playから配信した事やアカデミックスペースを設置するなど新しい試みを行いました。
+        </p><!-- mainSentence -->
+
+        <div class="subArea">
+          <p>
+          <!--ここに補助文を書いてください(body2部分)-->
+          　　情報学群説明会では席が埋まってしまい、中には立ち見をする人もいるほどの盛況でした。<br>
+            　今回の学群説明会では学群長・清水明宏教授の代理として篠森敬三教授が情報学群について説明を行いました。
+			また、高知県や高知工科大学についてもお話しし、大学の施設や制度、その他の魅力についても伝わったのではないかと思います。<br>
+            　高校生や保護者の方、教員の方などは、メモをとったり、頷きながら熱心に聞いて頂いて、入学に対しての意欲がとても伝わりました。
+            　
+          </p>
+                      <img src="img/id140_2.JPG" />
+                  </div><!-- subArea -->
+
+        <div class="subArea">
+          <p>
+          <!--ここに補助文を書いてください(body3部分)-->
+          　各研究室では、研究内容をプレゼンテーションや体験型展示などを行い、情報技術に触れて頂きました。
+            ご来場された皆様に研究内容を分かりやすく伝えるために、試行錯誤をし、皆様に楽しんでもらえるような内容になったと思います。
+          </p>
+                      <img src="img/id140_3.JPG" />
+                  </div><!-- subArea -->
+        <!--まとめ部分(body4部分)-->
+        <p class="mainSentence">
+        <!--ここにまとめを書いてください-->
+        「VRがすごかった」や「KUTNaviを学生が作っていて凄く興味を持った」、「31日も参加して、全部の研究室をまわりたい」など、ご来場された皆様から嬉しい声を頂きました。<br>
+          　今月31日日曜日にもオープンキャンパスを開催しますので、是非皆様のご参加をお待ちしています。<br>
+	  <br><br>
+	  <a href="../oc_2016/oc_2016.shtml">平成28年度オープンキャンパス特設ページ</a><br>
+        <a href="http://www.info.kochi-tech.ac.jp/news/oc_2016_article_2.shtml">平成28年度第2回オープンキャンパスの様子</a>	
+        </p><!-- mainSentence -->
+
+       </div><!-- newsArea -->
+    </div><!-- baseContents -->
+    <!--#include file="footer.html"-->
+
+  </body>
+</html>
