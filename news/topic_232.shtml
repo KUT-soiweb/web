@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>平成30年度 高知工科大学入学式が行われました。</title>
+    <link rel="stylesheet" href="css/base.css" media="all" title="header" charset="utf-8" />
+    <link rel="stylesheet" href="css/topic_news_article.css" media="all" title="header" charset="utf-8" />
+    <link rel="icon" href="../img/favicon2.png" type="image/png" />
+    <script type="text/javascript">
+        window.onload = function(){
+          headSerect(0);
+        }
+    </script>
+  </head>
+  <body>
+    <!--#include file="header.html"-->
+    <div id="baseContents">
+      <div class="pankuzu">
+        <a href="../index.shtml">HOME</a> > <a href="../topic_news.shtml">Topics&amp;News</a> > News詳細
+      </div> <!-- pankuzu -->
+      <div class="subTitle">
+        <h1><span class="topChar">T</span>opics</h1><h2>and</h2><h1><span class="topChar">N</span>ews</h1>
+      </div><!-- title -->
+      <div class="newsArea">
+        <dt>2018.4.3</dt>
+        <h1>平成30年度 高知工科大学入学式が行われました。</h1>
+        <hr />
+                <div class="mainImgArea">
+          <img src="img/id232_1.jpg" class="mainImg" />
+        </div><!-- mainImgArea -->
+                <p class="mainSentence">
+        　平成30年4月3日，高知工科大学講堂にて平成30年度入学式が行われました。<br />
+　高知工科大学情報学群には、男子98名, 女子14名, 計112名、高知工科大学大学院情報学コースには男子19名の新入生が入学しました。当日は天候にも恵まれ、たくさんの保護者の方々にご出席いただき、新入生の入学をお祝いしました。        </p><!-- mainSentence -->
+                <div class="subArea">
+                    <p>
+            　式では磯部雅彦学長より、「大学での学びは社会に出るための準備、一生の知識と糧になる。広い視野で見てじっくり考え、考えたことを実現するために大学にいる間に身につけてもらいたい。」という旨の式辞が送られました。<br />
+　これから始まる大学生活について、「セキュリティ分野について学びたい。」「院進学を視野に入れて勉強していきたい。」「人工知能の研究をしていきたい。」といった新入生の声がありました。また情報学群の子どもを持つ保護者は、「将来の夢がまだ決まっていなくても、目の前の課題を解決していくことで自ずと見つかると思うので頑張っていってほしい。」と言っていました。          </p>
+                      <img src="img/id232_2.jpg" />
+                  </div><!-- subArea -->
+                <div class="subArea">
+                    <p>
+            　翌日のオリエンテーションでは、大学院進学や就職を見据えた大学生活を送るよう各教員からお言葉をいただきました。新入生は、不安を抱きながらもこれからの生活を楽しみにしている様子でした。<br />
+<br />
+　新入生の皆さん、高知工科大学へのご入学おめでとうございます。          </p>
+                    <img src="img/id232_3.jpg" />
+                  </div><!-- subArea -->
+              </div><!-- newsArea -->
+    </div><!-- baseContents -->
+    <!--#include file="footer.html"-->
+
+  </body>
+</html>

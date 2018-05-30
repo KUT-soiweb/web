@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>平成29年度ソフトウェア工学演習成果発表会が行われました。</title>
+    <link rel="stylesheet" href="css/base.css" media="all" title="header" charset="utf-8" />
+    <link rel="stylesheet" href="css/topic_news_article.css" media="all" title="header" charset="utf-8" />
+    <link rel="icon" href="../img/favicon2.png" type="image/png" />
+    <script type="text/javascript">
+        window.onload = function(){
+          headSerect(0);
+        }
+    </script>
+  </head>
+  <body>
+    <!--#include file="header.html"-->
+    <div id="baseContents">
+      <div class="pankuzu">
+        <a href="../index.shtml">HOME</a> > <a href="../topic_news.shtml">Topics&amp;News</a> > News詳細
+      </div> <!-- pankuzu -->
+      <div class="subTitle">
+        <h1><span class="topChar">T</span>opics</h1><h2>and</h2><h1><span class="topChar">N</span>ews</h1>
+      </div><!-- title -->
+      <div class="newsArea">
+        <dt>2018.2.7</dt>
+        <h1>平成29年度ソフトウェア工学演習成果発表会が行われました。</h1>
+        <hr />
+                <div class="mainImgArea">
+          <img src="img/id217_1.jpg" class="mainImg" />
+        </div><!-- mainImgArea -->
+                <p class="mainSentence">
+        　本学群3年生の講義の一つである「ソフトウェア工学演習」の成果発表会が2月1日に行われました。<br />
+　この講義では学生が自由なメンバーでチームを組み、架空の依頼先を想定してシステムの提案を行います。テーマは自由ですが、ある地域または組織の人々の課題を解決するソフトウェアシステムであること、データベース及びRaspberry Piをなんらかの用途で使用すること、という条件が課せられています。提案したシステムの外部設計書・内部設計書を作成し、設計・実装・テストまでを実際に行います。システムの実装だけでなくプロジェクトの進行の仕方やレビュー、KPT分析などの座学も並行して進められます。この開発工程の模擬体験を通して、プロジェクトマネジメントの重要性を感じつつ、ソフトウェア開発の基礎知識と実践的な技術用法を身に付けることを目的としています。今年は1チーム8人程度の全13チームが、4か月をかけて制作した成果発表・振り返りを行いました。        </p><!-- mainSentence -->
+                <div class="subArea">
+                    <p>
+            　発表会には毎年、企業の方や他大学の先生方をゲストとして招いており、学生たちのさらなる成長につながるコメントをいただきました。各チームそれぞれに工夫が凝らされており、説明動画ではわかりやすように編集がされているものやユーモアを交じえたものなどさまざまでした。また、Raspberry Piの応用方法もサーバとして使用したり人感センサやカメラを取り付けたりといった工夫点が様々ありました。<br />
+　この講義・発表を通じて、社会に出て必要なプロジェクトマネジメントの力や、さまざまな技術を調査・習得して作品を完成させる力を身に付けることができたと思います。          </p>
+                      <img src="img/id217_2.jpg" />
+                  </div><!-- subArea -->
+                <div class="subArea">
+                    <p>
+            　成果発表会で使用された作品の動画の一部を紹介します。<br />
+　<a href=https://www.youtube.com/watch?v=ZrBpmM7kz6U&feature=youtu.be"URL">FLicS</a>：居酒屋情報システム<br />
+　<a href=https://www.youtube.com/watch?v=qynnW449Y6U&feature=youtu.be"URL">Amore</a>：コミュニケーション支援システム<br />
+　<a href=https://www.youtube.com/watch?v=AUYhazlmZLE&feature=youtu.be"URL">2S</a>：デスクワークサポートシステム          </p>
+                  </div><!-- subArea -->
+              </div><!-- newsArea -->
+    </div><!-- baseContents -->
+    <!--#include file="footer.html"-->
+
+  </body>
+</html>

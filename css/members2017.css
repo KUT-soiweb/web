@@ -1,0 +1,377 @@
+@charset "UTF-8";
+
+/* main */
+#baseContents .main {
+  margin: 200px auto 30px;
+  position: relative;
+  width: 740px;
+}
+
+#baseContents .main > h3 {
+  clear: both;
+  padding-right: 10px;
+  text-align: right;
+}
+
+#baseContents .main .yearMove {
+  margin: 0px auto;
+  width: 740px;
+}
+
+#baseContents .main .yearMove a {
+  -moz-transition: .5s;
+  -ms-transition: .5s;
+  -o-transition: .5s;
+  -webkit-transition: .5s;
+  font-weight: bold;
+  transition: .5s;
+}
+
+#baseContents .main .yearMove a:hover {
+  color: #3db6eb;
+}
+
+#baseContents .main .yearMove .right {
+  float: right;
+}
+
+#baseContents h4 {
+  font-size: 30px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+#baseContents .menueBox {
+  clear: both;
+  height: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  width: 750px;
+}
+
+#baseContents .menueBox .menue {
+  -webkit-transition: 1s;
+  background: #fff;
+  border-radius: 50%;
+  border: solid;
+  color: #99ccff;
+  display: inline-block;
+  font-weight: bold;
+  height: 120px;
+  position: absolute;
+  left: 316px;
+  line-height: 120px;
+  margin: auto;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  top:10px;
+  transition: 1s;
+  vertical-align: middle;
+  width: 120px;
+}
+
+#baseContents .menueBox .menue:hover {
+  background-color: #6495ed;
+  color: #fff;
+}
+
+#baseContents .menueBox .menueAll span{
+  border-radius: 50%;
+  border: solid;
+  border-color: #99ccff;
+  color: #fff;
+  display: inline-block;
+  font-size: large;
+  font-weight: bold;
+  height: 145px;
+  position: absolute;
+  left: 303px;
+  line-height: 130px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  top:0px;
+  vertical-align: middle;
+  width: 145px;
+}
+
+#baseContents .menueBox .menueAll span:nth-child(2){
+  background: #fff;
+  color: #6495ed;
+}
+
+#baseContents .menueBox .menueAll span:nth-child(1){
+  background-color: #6495ed;
+  color: #fff;
+}
+
+#baseContents .menueBox .menueAll:hover span:nth-child(2){
+  display: none;
+}
+
+#baseContents .menueBox input[type="radio"] {
+  display: none;
+  margin-top: 25px;
+}
+
+/*リンク*/
+#baseContents .pageLink {
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;    /* Safari,Google Chrome用 */
+  border-radius: 15px;        /* CSS3草案 */
+  border: solid 5px gray;
+  font-size: 20px;
+  height: 105px;
+  margin-left: 120px;
+  margin-top: 30px;
+  width: 704px;
+}
+
+#baseContents .pageLink img {
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;    /* Safari,Google Chrome用 */
+  border-radius: 10px;       /* CSS3草案 */
+  height: 105px;
+  width: 705px;
+}
+
+#baseContents .OC {
+  display: none;
+}
+
+#baseContents .Special {
+  display: none;
+}
+
+#baseContents .CreatersPage {
+  display: none;
+}
+
+/*製作者*/
+#baseContents .creater {
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;    /* Safari,Google Chrome用 */
+  background-color: gray;
+  border-radius: 10px;        /* CSS3草案 */
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  width: 750px;
+}
+
+#baseContents .creater .photo {
+  background-color: gray;
+  border-radius: 100%;
+  border: solid 3px #FFF;
+  float:left;
+  height: 240px;
+  margin-left: 50px;
+  margin-top: 30px;
+  width: 240px;
+}
+
+#baseContents .creater .photo img {
+  border-radius: 100%;
+  height: 240px;
+  width: 240px;
+}
+
+#baseContents .creater dl {
+  margin-left: 350px;
+  padding-top: 25px;
+  width: 360px;
+}
+
+#baseContents .creater dt {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+#baseContents .four {
+  background-color: #fe9fab;
+}
+
+#baseContents .three {
+  background-color: #b5e685;
+}
+
+#baseContents .two {
+  background-color: #71cdf1;
+}
+
+#baseContents .one {
+  background-color: #FFB751;
+}
+
+#baseContents .members .personal .img {
+  z-index: 2;
+  position: absolute;
+}
+
+#baseContents .members .personal .hover{
+  align-items:center;
+  background-color: #fefefe;
+  border-radius: 100%;
+  color: #196090;
+  height: 100%;
+  opacity: 0;
+  padding-top: 0;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  transition: .3s;
+  width: 100%;
+  z-index: 1;
+}
+
+#baseContents .members .left .hover{
+  -webkit-transform: rotate(-45deg);
+  left: 100px;
+  transform: rotate(-45deg);
+}
+
+#baseContents .members .right .hover{
+  -webkit-transform: rotate(45deg);
+  left: -100px;
+  transform: rotate(45deg);
+}
+
+#baseContents .members .box .icon img{
+  background-color: rgba(0,0,0,0);
+  position: relative;
+  left: -30px;
+  margin: 20px;
+  top: 20px;
+  width: 120%;
+}
+
+#baseContents .members .box .icon2 img{
+  left: -40px;
+}
+
+#baseContents .personal .hover h1 {
+  -ms-transform: translateY(-50%);
+  -webkit-transform : translateY(-50%);
+  font-size: 140%;
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+  text-align: center;
+  top: 45%;
+  transform : translateY(-50%);
+  width: 100%;
+}
+
+#baseContents .personal .hover h2 {
+  font-size: 80%;
+  font-weight: bold;
+  position: relative;
+  left: 0;
+  line-height: 1;
+  margin-top: 10px;
+  text-align: center;
+  top: 55%;
+  width: 100%;
+}
+
+#baseContents .members .four .hover h1 span {
+  color: #fe9fab;
+}
+
+#baseContents .members .three .hover h1 span {
+  color: #b5e685;
+}
+
+#baseContents .members .two .hover h1 span {
+  color: #71cdf1;
+}
+
+#baseContents .members .one .hover h1 span {
+  color: #FFB751;
+}
+
+#baseContents .members .adviser .hover h1 span {
+  color: #cab3fe;
+}
+
+#baseContents .members .personal .hover:hover  {
+  -webkit-transform: rotate(0deg);
+  cursor: pointer;
+  opacity: 1;
+  transform: rotate(0deg);
+  z-index: 1;
+}
+
+#baseContents .members .left .hover:hover  {
+  left: 150px;
+}
+
+#baseContents .members .right .hover:hover  {
+  left: -150px;
+}
+
+/* modal window */
+#baseContents .modal {
+  background: #fff;
+  border: 2px solid #aaa;
+  display: none;
+  height: 440px;
+  margin: 1.5em auto 0;
+  padding: 10px 20px;
+  position: fixed;
+  width: 900px;
+  z-index: 2;
+}
+
+#baseContents .modal .profile {
+  float: right;
+  width: 480px;
+}
+
+#baseContents .modal .profile tr {
+  height: 32px;
+}
+
+#baseContents .modal .profile .pr {
+  vertical-align: top;
+}
+
+#baseContents .modal .profile th {
+  font-weight: bold;
+  width: 120px;
+}
+
+#baseContents .modal .profile td a {
+  color: #4a90e2;
+}
+
+#baseContents .modal .profile td a:hover {
+  text-decoration: underline;
+}
+
+#baseContents .modal .profImg {
+  float: left;
+  height: 400px;
+  margin-top: 20px;
+}
+
+#baseContents .modal .modalClose {
+  clear: both;
+  float: right;
+  position: fixed;
+  width: 50px;
+}
+
+#baseContents #modalOverlay {
+	display: none;
+  position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+  background-color: rgba(0,0,0,0.75);
+  height: 120%;
+  z-index: 1;
+}

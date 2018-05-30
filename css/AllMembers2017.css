@@ -1,0 +1,220 @@
+@charset "UTF-8";
+
+/*members*/
+#baseContents .members {
+  height: 2500px;
+  margin: 50px auto 30px;
+  width: 740px;
+}
+
+#baseContents .members h3 {
+  text-align: right;
+}
+
+#baseContents .members .box {
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;    /* Safari,Google Chrome用 */
+  border-radius: 35px;        /* CSS3草案 */
+  border-top: solid 4px;
+  height: auto;
+  margin: 50px auto 0px;
+  padding-bottom: 20px;
+  width: 700px;
+}
+
+#baseContents .members .clearfix:after{
+	clear: both;
+	content: "";
+	display: block;
+}
+
+#baseContents .members .box h3 {
+  background-color: #ffffff;
+  font-size: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -30px;
+  padding: 10px;
+  text-align: center;
+  width: 190px;
+}
+
+/* メンバー紹介 */
+#baseContents .members .four {
+  background-color: #fe9fab;
+  border: solid 10px;
+  border-color: #fe9fab;
+}
+
+#baseContents .members .three {
+  background-color: #b5e685;
+  border: solid 10px;
+  border-color: #b5e685;
+}
+
+#baseContents .members .two {
+  background-color: #71cdf1;
+  border: solid 10px;
+  border-color: #71cdf1;
+}
+
+#baseContents .members .one {
+  background-color: #FFB751;
+  border: solid 10px;
+  border-color: #FFB751;
+}
+
+#baseContents .members .adviser {
+  background-color: #cab3fe;
+  border: solid 10px;
+  border-color: #cab3fe;
+}
+
+#baseContents .members .box .fourYear {
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;    /* Safari,Google Chrome用 */
+  border-radius: 10px;        /* CSS3草案 */
+  border: solid 5px #fe9fab;
+  color: #fe9fab;
+}
+
+#baseContents .members .box .threeYear {
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;    /* Safari,Google Chrome用 */
+  border-radius: 10px;        /* CSS3草案 */
+  border: solid 5px #b5e685;
+  color: #b5e685;
+}
+
+#baseContents .members .box .twoYear {
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;    /* Safari,Google Chrome用 */
+  border-radius: 10px;        /* CSS3草案 */
+  border: solid 5px #71cdf1;
+  color: #71cdf1;
+}
+
+#baseContents .members .box .oneYear {
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;    /* Safari,Google Chrome用 */
+  border-radius: 10px;        /* CSS3草案 */
+  border: solid 5px #FFB751;
+  color: #FFB751;
+}
+
+#baseContents .members .box .teachers {
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;    /* Safari,Google Chrome用 */
+  border-radius: 10px;        /* CSS3草案 */
+  border: solid 5px #cab3fe;
+  color: #cab3fe;
+}
+
+/*メンバー紹介詳細*/
+#baseContents .members .box .personal {
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;    /* Safari,Google Chrome用 */
+  background-color: gray;
+  border-radius: 100%;
+  border: solid 3px white;
+  float: left;
+  height: 180px;
+  margin-left: 30px;
+  margin-top: 30px;
+  position: relative;
+  width: 180px;
+}
+
+#baseContents .members .box .left{
+  border-radius: 100%;
+  clear: both;
+  float: left;
+  margin-left: 50px;
+}
+
+#baseContents .members .box .right {
+  border-radius: 130%;
+  float: right;
+  margin-right: 50px;
+}
+
+#baseContents .members .box .center {
+  float: left;
+  margin-left: 10px;;
+  margin-right: auto;
+}
+
+#baseContents .members .box .circle{
+  background: skyblue;/*背景色*/
+  border-radius: 130%;
+  border-radius: 50%;
+  clear: both;
+  float: left;
+  height: 200px;
+  margin-left: 100px;
+  position: absolute;
+  width: 200px;
+}
+
+#baseContents .members .box .personal img {
+  border-radius: 100%;
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+  cursor: pointer;
+}
+
+#baseContents .members .box .personal:hover .hover {
+  -webkit-transform: rotate(0deg);
+  cursor: pointer;
+  opacity: 1;
+  transform: rotate(0deg);
+  z-index: 1;
+}
+
+#baseContents .members .box .left:hover .hover {
+  left: 150px;
+}
+
+#baseContents .members .box .right:hover .hover {
+  left: -150px;
+}
+
+
+#baseContents .members .box .personal .achievement {
+  background-color: rgba(0,0,0,0.7);
+  color: #ffffff;
+  height: 50px;
+  position: absolute;
+  top: 100px;
+  width: 100%;
+}
+
+#baseContents .members .box .personal a {
+  color: white;
+}
+
+/* 新規ページ紹介 */
+#baseContents .members .pages {
+  border: solid 4px #5c5c5c;
+  height: 250px;
+}
+
+
+#baseContents .members .box .newPages {
+  color: #5c5c5c;
+  font-size: 20px;
+  width: 250px;
+}
+
+#baseContents .members .box ul {
+  font-size: 25px;
+  list-style-type: none;
+  margin-left: -155px;
+  text-align: center;
+  width: 500px;
+}
+
+#baseContents .members .box li {
+  margin-top: 50px;
+}

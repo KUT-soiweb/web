@@ -1,0 +1,212 @@
+@charset "UTF-8";
+
+/*内容の表示*/
+/*メイン*/
+/*baseContents*/
+#baseContents .main {
+  height: 250px;
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+
+#baseContents .main h3 {
+  font-size: 120%;
+  height: 50px;
+}
+
+#baseContents .main .description {
+  margin-top: 130px;
+}
+
+#baseContents #green {
+  background-color: #268486;
+  border-radius: 3px;
+  color: #ffffff;
+  padding: 2px 7px;
+}
+#baseContents #gray {
+  background-color: #dddddd;
+  border-radius: 3px;
+  color: #ffffff;
+  padding: 2px 7px;
+}
+#baseContents .main span {
+  color: #71cdf2;
+}
+#baseContents .sub {
+  text-align: center;
+  padding-left: 15px;
+}
+
+#baseContents .sub h2 {
+  font-size: 100%;
+  line-height: 1.2em;
+  padding-left:5px;
+  text-align: center;
+}
+
+#baseContents .sub ul {
+  display: inline-block;
+}
+#baseContents li {
+  border: 1px solid #d3d3d3;
+  float: left;
+  height: 500px;
+  list-style: none;
+  margin: 20px 5px 0px;
+  width: 218px;
+}
+#baseContents li a {
+  display: block;
+  position: absolute;
+}
+#baseContents .trianglePurple {
+  border: 40px solid transparent;
+  border-top: 40px solid #9E97C2;
+  border-right: 40px solid #9E97C2;
+  height: 0px;
+  margin: 0px 0px 0px 140px;
+  position: absolute;
+  width: 0px;
+  z-index: 1;
+}
+#baseContents .triangleNavy {
+  border: 40px solid transparent;
+  border-top: 40px solid #37436D;
+  border-right: 40px solid #37436D;
+  height: 0px;
+  margin: 0px 0px 0px 140px;
+  position: absolute;
+  width: 0px;
+  z-index: 1;
+}
+#baseContents .triangleBlue {
+  border: 40px solid transparent;
+  border-top: 40px solid #5883B6;
+  border-right: 40px solid #5883B6;
+  height: 0px;
+  margin: 0px 0px 0px 140px;
+  position: absolute;
+  width: 0px;
+  z-index: 1;
+}
+#baseContents .triangleSkyblue {
+  border: 40px solid transparent;
+  border-top: 40px solid #88CFE1;
+  border-right: 40px solid #88CFE1;
+  height: 0px;
+  margin: 0px 0px 0px 140px;
+  position: absolute;
+  width: 0px;
+  z-index: 1;
+}
+#baseContents .triangleCrimson {
+  border: 40px solid transparent;
+  border-top: 40px solid #C95580;
+  border-right: 40px solid #C95580;
+  height: 0px;
+  margin: 0px 0px 0px 140px;
+  position: absolute;
+  width: 0px;
+  z-index: 1;
+}
+#baseContents .triangleOrenge {
+  border: 40px solid transparent;
+  border-top: 40px solid #E7A79B;
+  border-right: 40px solid #E7A79B;
+  height: 0px;
+  margin: 0px 0px 0px 140px;
+  position: absolute;
+  width: 0px;
+  z-index: 1;
+}
+#baseContents div + h2 {
+  color: #ffffff;
+  font-weight: bold;
+  height: 20px;
+  margin: 15px 0px 0px 165px;
+  position: absolute;
+  text-align: right;
+  width: 50px;
+  z-index: 2;
+}
+#baseContents #twoSection {
+  color: #ffffff;
+  font-weight: bold;
+  height: 15px;
+  margin: 7px 0px 0px 165px;
+  position: relative;
+  text-align: right;
+  width: 45px;
+}
+#baseContents img {
+  background-color: gray;
+  margin: 30px 10px 0px;
+  position: relative;
+  z-index: 0;
+}
+#baseContents #adjustment1 {
+  margin: 8px 10px 0px 10px;
+  position: relative;
+}
+#baseContents li h1 {
+  font-size: 150%;
+  line-height: 50px;
+  text-align: center;
+}
+#baseContents h3 {
+  margin: 0px auto 10px;
+  text-align: center;
+}
+#baseContents h4 {
+  font-size: 80%;
+  margin: 0px auto;
+  text-align: center;
+}
+#baseContents #adjustment2 {
+  font-size: 80%;
+  height: 15px;
+  text-align: center;
+}
+#baseContents #adjustment3 {
+  font-size: 80%;
+  height: 140px;
+  text-align: center;
+}
+#baseContents h5 {
+  font-size: 80%;
+  width: 180px;
+  margin: auto;
+  height: 30px;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+}
+#baseContents h6 {
+  border-top: 2px #006666 solid;
+  border-bottom: 2px #006666 solid;
+  color: #006666;
+  line-height: 20px;
+  margin: 0px auto 10px;
+  width: 180px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+#baseContents #space {
+  height: 50px;
+}
+#baseContents li p {
+  font-size: 120%;
+  height: 52px;
+}
+#baseContents #space1 {
+  height: 155px;
+}
+
+#baseContents .lab_name {
+  position: relative;
+}
+
+#baseContents .specality {
+  position: relative;
+}

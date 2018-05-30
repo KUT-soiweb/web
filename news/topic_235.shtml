@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>平成30年度新入生歓迎セミナーが行われました。</title>
+    <link rel="stylesheet" href="css/base.css" media="all" title="header" charset="utf-8" />
+    <link rel="stylesheet" href="css/topic_news_article.css" media="all" title="header" charset="utf-8" />
+    <link rel="icon" href="../img/favicon2.png" type="image/png" />
+    <script type="text/javascript">
+        window.onload = function(){
+          headSerect(0);
+        }
+    </script>
+  </head>
+  <body>
+    <!--#include file="header.html"-->
+    <div id="baseContents">
+      <div class="pankuzu">
+        <a href="../index.shtml">HOME</a> > <a href="../topic_news.shtml">Topics&amp;News</a> > News詳細
+      </div> <!-- pankuzu -->
+      <div class="subTitle">
+        <h1><span class="topChar">T</span>opics</h1><h2>and</h2><h1><span class="topChar">N</span>ews</h1>
+      </div><!-- title -->
+      <div class="newsArea">
+        <dt>2018.4.8</dt>
+        <h1>平成30年度新入生歓迎セミナーが行われました。</h1>
+        <hr />
+                <div class="mainImgArea">
+          <img src="img/id235_1.jpg" class="mainImg" />
+        </div><!-- mainImgArea -->
+                <p class="mainSentence">
+        　平成30年4月6-7日、国立室戸青少年自然の家にて、情報学群新入生歓迎セミナーが行われました。 情報学群新入生歓迎セミナーとは、新入生に本学群について知ってもらいながら、教職員や上級生・同級生との交流を深めてもらう合宿型セミナーです。 今年度は42名の学生スタッフによる企画・運営のもと、新入生106名、教職員23名がこのセミナーに参加しました。        </p><!-- mainSentence -->
+                <div class="subArea">
+                    <p>
+            【1日目】 　<br />
+　4月6日には野外炊事場にて班ごとにカレーライスを作りました。 薪をくべて火を起こしたり、飯ごうでご飯を炊くなど慣れない作業にも関わらず、班員同士で協力し合いカレーライスづくりに励んでいました。 中にはガラムマサラやクミン、レッドペッパーなどの調味料を入れ、本格的なカレーライスを作っている班もありました。自分たちで作ったカレーライスは美味しさも格別で、班員から「おいしい！」との声も上がり、食事をしながら会話に花を咲かせていました。 <br />
+　入浴後の夜には自由時間が設けられ、和やかなムードで新入生と学生スタッフとの交流が行われました。<br />
+          </p>
+                      <img src="img/id235_2.jpg" />
+                  </div><!-- subArea -->
+                <div class="subArea">
+                    <p>
+            【2日目】 　<br />
+　4月7日にはつどいの広間(体育館)にて、新入生の親睦をさらに深めるイベントが行われました。 　<br />
+　まずはアイスブレイクとして班全員の自己紹介とワードウルフを行い、親睦を深めました。その後、班対抗で「つむつむ」と名付けられた教科書と紙を使って高さを競い合うゲームを行い、班員の仲はさらに深まったように思えました。最後に新入生の疑問点を解決するため、スタッフによる学生生活に関するプレゼンテーションが行われ、新入生は積極的に質問をしていました。昼食時には、班内で和気あいあいとフリートークを楽しんでいました。 　<br />
+　上級生や教職員と一緒に、新入生は終始明るい雰囲気でイベントに参加していました。参加した新入生からは「先生方やスタッフ、同級生と話をする良い機会となりました」「野外炊事でとてもおいしいカレーが作れてよかった」「友達がたくさんできてよかったです」といった感想をいただきました。<br />
+          </p>
+                    <img src="img/id235_3.jpg" />
+                  </div><!-- subArea -->
+              </div><!-- newsArea -->
+    </div><!-- baseContents -->
+    <!--#include file="footer.html"-->
+
+  </body>
+</html>

@@ -39,16 +39,16 @@
         <h2>最近のニュース</h2>
         <div class="newsContents" id="newsDiv">
           <dl id="newsDl">
-                    <dt name="nDate">2018.1.28</dt>
-                      <dd name="nData"><a href="https://www.kochi-tech.ac.jp/news/2018/003754.html">栗原徹准教授が表面外観検査における新たな塗装欠陥検出技術を確立しました。</a></dd>
-                    <dt name="nDate">2018.1.26</dt>
-                      <dd name="nData"><a href="./news/topic_213.shtml" >平成29年度ソフトウェア工学演習成果発表会のご案内</a></dd>
-                    <dt name="nDate">2018.1.25</dt>
-                      <dd name="nData"><a href="./news/topic_212.shtml" >プログラミング・シンポジウムで山内奨励賞を受賞しました。</a></dd>
-                    <dt name="nDate">2018.1.19</dt>
-                      <dd name="nData"><a href="./news/topic_211.shtml" >吉林大学珠海学院と覚書を締結しました。</a></dd>
-                    <dt name="nDate">2018.1.15</dt>
-                      <dd name="nData">2017年11月24日、大学院生向け <a href="http://cloud-spiral.enpit.jp/">Cloud Spiral</a> の2017年度の授業が無事に終了しました。</dd>
+                    <dt name="nDate">2018.4.11</dt>
+                      <dd name="nData"><a href="./news/topic_236.shtml" >オープンキャンパスのご案内（7月28日，7月29日開催）</a></dd>
+                    <dt name="nDate">2018.4.8</dt>
+                      <dd name="nData"><a href="./news/topic_235.shtml" >平成30年度新入生歓迎セミナーが行われました。</a></dd>
+                    <dt name="nDate">2018.4.5</dt>
+                      <dd name="nData">情報学群3年生の研究室配属が発表されました。</dd>
+                    <dt name="nDate">2018.4.3</dt>
+                      <dd name="nData"><a href="./news/topic_232.shtml" >平成30年度 高知工科大学入学式が行われました。</a></dd>
+                    <dt name="nDate">2018.4.3</dt>
+                      <dd name="nData"><a href="./news/topic_231.shtml" >第80回情報処理学会全国大会で学生奨励賞を受賞しました。</a></dd>
                     </dl>
           <div class="oldNews">
             <a href="topic_news.shtml">ニュース一覧　&raquo;</a>

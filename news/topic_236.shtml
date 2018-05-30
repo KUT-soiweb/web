@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>オープンキャンパスのご案内（7月28日，7月29日開催）</title>
+    <link rel="stylesheet" href="css/base.css" media="all" title="header" charset="utf-8" />
+    <link rel="stylesheet" href="css/topic_news_article.css" media="all" title="header" charset="utf-8" />
+    <link rel="icon" href="../img/favicon2.png" type="image/png" />
+    <script type="text/javascript">
+        window.onload = function(){
+          headSerect(0);
+        }
+    </script>
+  </head>
+  <body>
+    <!--#include file="header.html"-->
+    <div id="baseContents">
+      <div class="pankuzu">
+        <a href="../index.shtml">HOME</a> > <a href="../topic_news.shtml">Topics&amp;News</a> > News詳細
+      </div> <!-- pankuzu -->
+      <div class="subTitle">
+        <h1><span class="topChar">T</span>opics</h1><h2>and</h2><h1><span class="topChar">N</span>ews</h1>
+      </div><!-- title -->
+      <div class="newsArea">
+        <dt>2018.4.11</dt>
+        <h1>オープンキャンパスのご案内（7月28日，7月29日開催）</h1>
+        <hr />
+                <div class="mainImgArea">
+          <img src="img/id236_1.jpg" class="mainImg" />
+        </div><!-- mainImgArea -->
+                <p class="mainSentence">
+        　今年度のオープンキャンパスは7月28-29日に行われます。情報学群は香美キャンパスで、学生による研究室の紹介や教員方による研究、カリキュラム等の紹介が各教室で行われる予定です。<br />
+　受験生で大学の雰囲気が知りたい人はもちろん、情報学群の講義内容や研究内容、教職課程に関する話を聞きたい方は是非お越し下さい。<br />
+<br />
+<br />
+<a href="http://www.info.kochi-tech.ac.jp/oc_2017/index.shtml">平成29年度のオープンキャンパスの様子はこちら</a>        </p><!-- mainSentence -->
+              </div><!-- newsArea -->
+    </div><!-- baseContents -->
+    <!--#include file="footer.html"-->
+
+  </body>
+</html>

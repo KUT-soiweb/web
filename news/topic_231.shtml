@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>第80回情報処理学会全国大会で学生奨励賞を受賞しました。</title>
+    <link rel="stylesheet" href="css/base.css" media="all" title="header" charset="utf-8" />
+    <link rel="stylesheet" href="css/topic_news_article.css" media="all" title="header" charset="utf-8" />
+    <link rel="icon" href="../img/favicon2.png" type="image/png" />
+    <script type="text/javascript">
+        window.onload = function(){
+          headSerect(0);
+        }
+    </script>
+  </head>
+  <body>
+    <!--#include file="header.html"-->
+    <div id="baseContents">
+      <div class="pankuzu">
+        <a href="../index.shtml">HOME</a> > <a href="../topic_news.shtml">Topics&amp;News</a> > News詳細
+      </div> <!-- pankuzu -->
+      <div class="subTitle">
+        <h1><span class="topChar">T</span>opics</h1><h2>and</h2><h1><span class="topChar">N</span>ews</h1>
+      </div><!-- title -->
+      <div class="newsArea">
+        <dt>2018.4.3</dt>
+        <h1>第80回情報処理学会全国大会で学生奨励賞を受賞しました。</h1>
+        <hr />
+                <p class="mainSentence">
+        　先日行われた第80回情報処理学会全国大会で横山研究室の研究生が学生奨励賞を受賞しました。<br />
+<br />
+研究名 : プログラム実行環境移送のための資源追跡機能のユーザレベルでの実現<br />
+受賞者 : 大西史洋，黒木勇作，横山和俊（高知工科大），谷口秀夫（岡山大）        </p><!-- mainSentence -->
+              </div><!-- newsArea -->
+    </div><!-- baseContents -->
+    <!--#include file="footer.html"-->
+
+  </body>
+</html>

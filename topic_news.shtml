@@ -24,7 +24,8 @@
         <div class="yearBox">
           <form name="form">
             <ul>
-              <label><input type="radio" name="yearbtn" value="H_29" onchange="onYearChange();" checked/><li><span class="nendo">平成</span>29<span class="nendo">年度</span></li></label>
+              <label><input type="radio" name="yearbtn" value="H_30" onchange="onYearChange();" checked/><li><span class="nendo">平成</span>30<span class="nendo">年度</span></li></label>
+<label><input type="radio" name="yearbtn" value="H_29" onchange="onYearChange();"/><li><span class="nendo">平成</span>29<span class="nendo">年度</span></li></label>
 <label><input type="radio" name="yearbtn" value="H_28" onchange="onYearChange();"/><li><span class="nendo">平成</span>28<span class="nendo">年度</span></li></label>
 <label><input type="radio" name="yearbtn" value="H_27" onchange="onYearChange();"/><li><span class="nendo">平成</span>27<span class="nendo">年度</span></li></label>
 <label><input type="radio" name="yearbtn" value="H_26" onchange="onYearChange();"/><li><span class="nendo">平成</span>26<span class="nendo">年度</span></li></label>
@@ -38,7 +39,26 @@
         </div> <!-- yearBox -->
       </div><!-- left -->
       <div class="listArea">
-        <ul class="listNews" name="year" id="H_29">
+        <ul class="listNews" name="year" id="H_30">
+<li name="list"><dd><a href="./news/topic_236.shtml">オープンキャンパスのご案内（7月28日，7月29日開催）</a></dd><dt>2018.4.11</dt></li>
+<li name="list"><dd><a href="./news/topic_235.shtml">平成30年度新入生歓迎セミナーが行われました。</a></dd><dt>2018.4.8</dt></li>
+<li name="list"><dd>情報学群3年生の研究室配属が発表されました。</dd><dt>2018.4.5</dt></li>
+<li name="list"><dd><a href="./news/topic_232.shtml">平成30年度 高知工科大学入学式が行われました。</a></dd><dt>2018.4.3</dt></li>
+<li name="list"><dd><a href="./news/topic_231.shtml">第80回情報処理学会全国大会で学生奨励賞を受賞しました。</a></dd><dt>2018.4.3</dt></li>
+<li name="list"><dd><a href="https://www.kochi-tech.ac.jp/news/2018/003829.html">情報学群訪問団が中国の太原理工大学を訪問し、交流協定を締結しました。</a></dd><dt>2018.4.2</dt></li>
+<li name="list"><dd>平成30年度も引き続き濵村昌則教授が情報学群長を務めます。</dd><dt>2018.4.1</dt></li>
+<li name="list"><dd>竹内 聖悟講師，木下 尚文教育講師が着任されました。</dd><dt>2018.4.1</dt></li>
+<li name="list"><dd>平成29年度に博士課程修了されたSSP生のKeerativittayayut Ruedeerat さんが、中原研究室助教として採用となりました。</dd><dt>2018.4.1</dt></li>
+</ul>
+<ul class="listNews" name="year" id="H_29">
+<li name="list"><dd>今年度をもって、永きにわたりキャリア教育にご貢献されてきた本学群教育講師の井形 元彦先生がご退職されます。</dd><dt>2018.3.28</dt></li>
+<li name="list"><dd><a href="./news/topic_223.shtml">平成29年度情報学群卒業式・情報システム工学コース修了式が行われました。</a></dd><dt>2018.3.21</dt></li>
+<li name="list"><dd>本学群の<a href="./faculty_members/profile_shinomori.shtml">篠森 敬三 教授</a>が<a href="https://www.kochi-tech.ac.jp/news/2018/003794.html">「本人自覚のない視機能低下がもたらす交通安全への悪影響」と題した基調講演</a>を行いました。</dd><dt>2018.2.27</dt></li>
+<li name="list"><dd><a href="./news/topic_221.shtml">平成29年度情報学群卒業研究発表会が行われました。</a></dd><dt>2018.2.22</dt></li>
+<li name="list"><dd><a href="./news/topic_temp_220.shtml">平成29年度情報学群卒業研究発表会のご案内</a></dd><dt>2018.2.17</dt></li>
+<li name="list"><dd><a href="./news/topic_218.shtml">平成29年度修士論文発表会が行われました。</a></dd><dt>2018.2.13</dt></li>
+<li name="list"><dd><a href="./news/topic_217.shtml">平成29年度ソフトウェア工学演習成果発表会が行われました。</a></dd><dt>2018.2.7</dt></li>
+<li name="list"><dd><a href="./news/topic_temp_216.shtml">平成29年度修士論文発表会のご案内</a></dd><dt>2018.2.6</dt></li>
 <li name="list"><dd><a href="https://www.kochi-tech.ac.jp/news/2018/003754.html">栗原徹准教授が表面外観検査における新たな塗装欠陥検出技術を確立しました。</a></dd><dt>2018.1.28</dt></li>
 <li name="list"><dd><a href="./news/topic_213.shtml">平成29年度ソフトウェア工学演習成果発表会のご案内</a></dd><dt>2018.1.26</dt></li>
 <li name="list"><dd><a href="./news/topic_212.shtml">プログラミング・シンポジウムで山内奨励賞を受賞しました。</a></dd><dt>2018.1.25</dt></li>

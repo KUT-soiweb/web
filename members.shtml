@@ -2,675 +2,623 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>製作者一覧</title>
-    <link rel="stylesheet" href="css/base.css" media="screen" title="no title" charset="utf-8">
-    <link rel="stylesheet" href="css/members2016.css" media="screen" title="no title" charset="utf-8">
-    <link rel="stylesheet" href="css/AllMembers.css" media="screen" title="no title" charset="utf-8">
-    <link rel="icon" href="img/favicon2.png" type="image/png" />
-    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
-    <script type="text/javascript" src="js/members2016.js"></script>
-    <script type="text/javascript">
-    window.onload = function(){  }
-    </script>
+    <title>2017_製作者一覧</title>
+<link rel="stylesheet" href="css/base.css" media="screen" title="no title" charset="utf-8">
+<link rel="stylesheet" href="css/members2017.css" media="screen" title="no title" charset="utf-8">
+<link rel="stylesheet" href="css/AllMembers2017.css" media="screen" title="no title" charset="utf-8">
+<link rel="icon" href="img/favicon2.png" type="image/png" />
+<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="js/members2017.js"></script>
+<script type="text/javascript">
+window.onload = function(){  }
+</script>
   </head>
   <body>
 
     <!--#include file="header.html"-->
-
     <div id="baseContents">
       <div class="pankuzu">
-          <a href="index.shtml">HOME</a> > 製作者一覧
+          <a href="index.shtml">HOME</a> > 2017_製作者一覧
       </div> <!-- pankuzu -->
 
       <div class="title">
-        <h2>2016 製作者一覧</h2>
-        <h1>2016 <span>M</span>embers</h1>
+        <h2>2017 製作者一覧</h2>
+        <h1>2017 <span>M</span>embers</h1>
       </div> <!-- title -->
 
       <div class="main">
-        <div class="yearMove"><a href="members_2015.shtml" class="right">2015 >></a></div>
+        <div class="yearMove"><a href="members_2016.shtml" class="right">2016 >></a></div>
         <h3>※ 選んだ項目のページを製作した学生のプロフィールが見られます</h3>
       </div><!-- main -->
 
       <div class="menueBox">
         <input id="radioOC" type="radio" name="menue" value="OC">
         <label for="radioOC" class="menue menueOC">OC特設ページ</label><!--menue-->
-        <input id="radioNavi" type="radio" name="menue" value="KUTnavi">
-        <label for="radioNavi" class="menue menueNavi">KUT navi</label><!--menue-->
-        <input id="radioPhoto" type="radio" name="menue" value="KUTPhoto">
-        <label for="radioPhoto" class="menue menuePhoto">KUT Photo</label><!--menue-->
-        <input id="radioGraduate" type="radio" name="menue" value="PostGraduate">
-        <label for="radioGraduate" class="menue menueGraduate">大学院ページ</label><!--menue-->
+        <input id="radioSpecial" type="radio" name="menue" value="Special">
+        <label for="radioSpecial" class="menue menueSpecial">特別講義ページ</label><!--menue-->
         <input id="radioCreater" type="radio" name="menue" value="CreatersPage">
         <label for="radioCreater" class="menue menueCreaters">製作者ページ</label><!--menue-->
         <input id="radioMembers" type="radio" name="menue" value="AllMembers" checked="checked">
-        <label for="radioMembers" class="menue menueAll">All Members</label><!--menue-->
+        <label for="radioMembers" class="menueAll"><span>All Members</span><span>Put On</span></label><!--menue-->
       </div> <!--menueBox-->
 
-        <div class="OC"><!--OCmenue-->
-            <h4> OC特設ページ製作者 </h4>
-
-            <div class="pageLink">
-              <a href="./oc_2016/oc_2016.shtml"><img src="./img/OC2016banner.png"></a>
-            </div><!--pageLink-->
-
-            <div class="creater four">
-              <div class="photo"><img src="./img/ishii_square.jpg"></div><!--photo-->
-              <dl>
-                <dt>製作者名: 石井雄飛 (Ishii Yuto)</dt>
-                <dt>学年: 学士4年 (B4)</dt>
-                <dt>専攻: 情報とメディア</dt>
-                <dt>製作したページについて一言</dt>
-              　  今年度のOCの詳細を、受験生や保護者の方々にたくさん伝えられたらいいなと思いました。
-              </dl>
-            </div><!--creater-->
-            <div class="creater three">
-              <div class="photo"><img src="./img/fukushima_square.jpg"></div><!--photo-->
-              <dl>
-                <dt>製作者名: 福島旭 (Fukushima Asahi)</dt>
-                <dt>学年: 学士3年 (B3)</dt>
-                <dt>専攻: 情報と人間</dt>
-                <dt>製作したページについて一言</dt>
-                　より多くの方に高知工科大学情報学群の特色について知って頂きたいです。
-              </dl>
-            </div><!--creater-->
-        </div><!--OCmemue-->
-
-        <div class="KUTnavi"><!--Navimenue-->
-          <h4> KUTNavi紹介ページ製作者 </h4>
-
-        　<div class="pageLink">
-          <a href="./oc_2016/kut_navi.shtml"><img src="./img/kut_navi_banner.png"></a>
-          </div><!--pageLink-->
-
-          <div class="creater four">
-            <div class="photo"><img src="./img/ishii_square.jpg"></div><!--photo-->
-            <dl>
-              <dt>製作者名: 石井雄飛 (Ishii Yuto)</dt>
-              <dt>学年: 学士4年 (B4)</dt>
-              <dt>専攻: 情報とメディア</dt>
-              <dt>製作したページについて一言</dt>
-              　情報学群の学生の力、“やりたい” を "やれる” へ変えられること、アピールしたいです。<br/>
-              　受験生諸君は是非高知工科大学情報学群へ。
-            </dl>
-          </div><!--creater-->
-        </div><!--Navimenue-->
-
-        <div class="PostGraduate"><!--Graduatemenue-->
-          <h4> 大学院ページ製作者 </h4>
-
+      <div class="OC"><!--OCmenue-->
+          <h4> OC特設ページ製作者 </h4>
           <div class="pageLink">
-            <a href="./new_graduate_school.shtml"><img src="./img/newGS.png"></a>
+            <a href="./oc_2017/index.shtml"><img src="./img/OC2017banner.png"></a>
           </div><!--pageLink-->
-
           <div class="creater three">
-            <div class="photo"><img src="./img/shunya_square.jpg"></div><!--photo-->
+            <div class="photo"><img src="./img/gucchi_square.jpg"></div><!--photo-->
             <dl>
-              <dt>製作者名: 井上舜也 (Inoue Shunya)</dt>
+              <dt>製作者名: 濱口皓樹 (Hamaguchi Koki)</dt>
               <dt>学年: 学士3年 (B3)</dt>
-              <dt>専攻: 情報と人間</dt>
-              <dt>製作したページについて一言</dt>
-              　院への進学を考えていない人も、一度大学院ページを見て興味を持ってもらいたいです。
+              <dt>専攻: 情報とメディア</dt>
+              <dt>製作したページについて一言:</dt>
+              　高知工科大学に興味を持つきっかけになれば嬉しいです。
             </dl>
           </div><!--creater-->
-        </div><!--Graduatemenue-->
+        </div>
 
-        <div class="KUTPhoto"><!--Photomenue-->
-          <h4> KUT Photoページ製作者 </h4>
-
-        　<div class="pageLink">
-            <a href="./photo_contest/index.shtml"><img src="./img/Photo.png"></a>
-          </div><!--pageLink-->
-
-          <div class="creater three">
-            <div class="photo"><img src="./img/yasu_square.jpg"></div><!--photo-->
-            <dl>
-              <dt>製作者名: 山中康寛 (Yamanaka Yasuhiro)</dt>
-              <dt>学年: 学士3年 (B3)</dt>
-              <dt>専攻: 情報と人間</dt>
-              <dt>製作したページについて一言</dt>
-              　高知工科大学の美しい四季を感じてもらいたいです。
-            </dl>
-          </div><!--creater-->
-        </div><!--Photomenue-->
+        <div class="Special"><!--Specialmenue-->
+            <h4> 特別講義ページ製作者 </h4>
+            <div class="pageLink">
+              <a href="./special_lec.shtml"><img src="./img/splec_bunner.png"></a>
+            </div><!--pageLink-->
+            <div class="creater three">
+              <div class="photo"><img src="img/ujihara_square.jpg"></div><!--photo-->
+              <dl>
+                <dt>製作者名: 氏原友梨亜 (Ujihara Yuria)</dt>
+                <dt>学年: 学士3年 (B3)</dt>
+                <dt>専攻: コンピュータサイエンス</dt>
+                <dt>製作したページについて一言:</dt>
+                　情報が見やすいようなデザインを心がけました。
+              </dl>
+            </div><!--creater-->
+          </div>
 
         <div class="CreatersPage"><!--Creatermenue-->
           <h4> 製作者ページ </h4>
-          <div class="creater three">
-            <div class="photo"><img src="./img/inoue_square.jpg"></div><!--photo-->
-            <dl>
-              <dt>製作者名: 井上裕太郎 (Inoue Yutaro)</dt>
-              <dt>学年: 学士3年 (B3)</dt>
-              <dt>専攻: コンピュータサイエンス</dt>
-              <dt>製作したページについて一言</dt>
-              　このホームページを作成したメンバーを多くの人に知ってもらえると嬉しいです。
-            </dl>
-          </div><!--creater-->
           <div class="creater two">
-            <div class="photo"><img src="./img/shimode_square.jpg"></div><!--photo-->
+            <div class="photo"><img src="./img/kinari_square.jpg"></div><!--photo-->
             <dl>
-              <dt>製作者名: 下出千晴 (Shimode Chiharu)</dt>
+              <dt>製作者名: 我如古生成 (Ganeko Kinari)</dt>
               <dt>学年: 学士2年 (B2)</dt>
               <dt>専攻: なし</dt>
-              <dt>製作したページについて一言</dt>
-              　正直さっぱりでわからないことだらけでしたが、先輩に教えてもらいながら作りました。
+              <dt>製作したページについて一言:</dt>
+              　初めてのページ作成で慣れないところも多々ありましたが、メンバーの魅力が少しでも多く伝われば幸いです。
             </dl>
           </div><!--creater-->
-        </div><!--Creatermenue-->
+          <div class="creater one">
+            <div class="photo"><img src="./img/yamazaki_square.jpg"></div><!--photo-->
+            <dl>
+              <dt>製作者名: 山崎 謙人 (Yamazaki Kento)</dt>
+              <dt>学年: 学士1年 (B1)</dt>
+              <dt>専攻: なし</dt>
+              <dt>製作したページについて一言:</dt>
+              　製作者ページのデザイン原案を考案しました。分からないことだらけですが、これからも精進します。
+            </dl>
+          </div><!--creater-->
+        </div>
 
-
-        <div class="members"><!--Membersmenue-->
-          <h4> All Members </h4>
-          <h3>※クリックで詳細を開くことができます</h3>
-          <div class="box four clearfix">
-            <h3 class="fourYear">4thYear</h3>
-            <div class="personal twoblock left">
-              <img src="./img/ishii2016.jpg" alt="" class="modalSyncer" data-target="ishii">
-              <div class="hover twoH modalSyncer" data-target="ishii">
-                <h1><span>Y</span>uto <span>I</span>shii</h1>
-                <h2>B4/Information-Media</h2>
-              </div>
+      <div class="members">  <!--Membersmenue-->
+        <h4> All Members </h4>
+        <h3>※クリックで詳細を開くことができます</h3>
+        <div class="box four clearfix">
+          <h3 class="fourYear">4thYear</h3>
+          <div class="personal left">
+            <div class="hover modalSyncer" data-target="shunya">
+              <h1><span>S</span>hunya <br> <span>I</span>noue</h1>
+              <h2>B4<br>Information-Human</h2>
             </div>
-            <div class="personal oneblock right">
-              <img src="./img/sakita_square.jpg" alt="" class="modalSyncer" data-target="sakita">
-              <div class="hover twoH modalSyncer" data-target="sakita">
-                <h1><span>S</span>hintaro <span>S</span>akita</h1>
-                <h2>B4/Information-Media</h2>
-              </div>
+              <img src="img/shunya_square.jpg" alt="" class="modalSyncer" data-target="shunya" />
+          </div>
+          <div class= "personal right">
+            <img src="img/yasu_square.jpg" alt="" class="modalSyncer" data-target="yasu" />
+            <div class="hover modalSyncer" data-target="yasu">
+              <h1><span>Y</span>asuhiro <br><span>Y</span>amanaka</h1>
+              <h2>B4<br>Information-Human</h2>
             </div>
-            <div class="icon oneblock left">
-              <img src="img/4thIcon.png" alt="icon" />
+          </div>
+          <div class="personal left">
+            <img src="img/fukushima_square.jpg" alt="" class="modalSyncer" data-target="fukushima" />
+            <div class="hover modalSyncer" data-target="fukushima">
+              <h1><span>A</span>sahi <br><span>F</span>ukushima</h1>
+              <h2>B4<br>Information-Human</h2>
             </div>
-            <div class="personal twoblock right">
-              <img src="img/teduka2016.jpg" alt="" class="modalSyncer" data-target="teduka" />
-              <div class="hover twoH modalSyncer" data-target="teduka">
-                <h1><span>S</span>hiori <span>T</span>ezuka</h1>
-                <h2>B4/Computer-Communication<br /><br />
-                - CMS produce Leader -</h2>
-              </div>
+          </div>
+          <div class="personal right">
+            <img src="img/inoue_square.jpg" alt="" class="modalSyncer" data-target="inoue" />
+            <div class="hover twoH modalSyncer" data-target="inoue">
+              <h1><span>Y</span>utaro <br><span>I</span>noue</h1>
+              <h2>B4<br>Computer-Science<br>
+              - CMS Produce -</h2>
             </div>
-          </div> <!-- member four -->
-
-          <div class="box three clearfix">
-            <h3 class="threeYear">3rdYear</h3>
-            <div class="personal twoblock left">
-              <img src="img/shunya2016.jpg" alt="" class="modalSyncer" data-target="shunya" />
-              <div class="hover modalSyncer" data-target="shunya">
-                <h1><span>S</span>hunya <span>I</span>noue</h1>
-                <h2>B3/Information-Human<br /><br />
+          </div>
+          <div class="personal left">
+            <img src="img/nakamura_square.jpg" alt="" class="modalSyncer" data-target="nakamura" />
+            <div class="hover modalSyncer" data-target="nakamura">
+              <h1><span>K</span>oryo <br><span>N</span>akamura</h1>
+              <h2>B4<br>Computer-Communication<br>
+              - CMS Produce -</h2>
+            </div>
+          </div>
+          <div class="personal right">
+            <img src="img/onishi_square.jpg" alt="" class="modalSyncer" data-target="onishi" />
+            <div class="hover modalSyncer" data-target="onishi">
+              <h1><span>F</span>umihiro <br><span>O</span>nishi</h1>
+              <h2>B4<br>Computer-Science<br>
+              - CMS Produce -</h2>
+            </div>
+          </div>
+        </div><!--member three-->
+        <div class="box three clearfix">
+          <h3 class="threeYear">3rdYear</h3>
+          <div class="personal left">
+            <img src="./img/shimode_square.jpg" alt="" class="modalSyncer" data-target="shimode">
+            <div class="hover modalSyncer" data-target="shimode">
+              <h1><span>C</span>hiharu <br><span>S</span>himode</h1>
+              <h2>B3<br>Computer-Communication<br>
                 - Project Leader -</h2>
-              </div>
             </div>
-            <div class="personal oneblock right">
-              <img src="img/yasu_square.jpg" alt="" class="modalSyncer" data-target="yasu" />
-              <div class="hover modalSyncer" data-target="yasu">
-                <h1><span>Y</span>asuhiro <span>Y</span>amanaka</h1>
-                <h2>B3/Information-Human<br /><br /></h2>
-              </div>
+          </div>
+          <div class="icon right">
+            <img src="./img/phone_icon.png" alt="">
+          </div>
+          <div class="personal left">
+            <img src="./img/gucchi_square.jpg" alt="" class="modalSyncer" data-target="gucchi">
+            <div class="hover modalSyncer" data-target="gucchi">
+              <h1><span>K</span>oki <br><span>H</span>amaguchi</h1>
+              <h2>B3<br>Information-Media<br>
             </div>
-            <div class="personal oneblock left">
-              <img src="img/fukushima_square.jpg" alt="" class="modalSyncer" data-target="fukushima" />
-              <div class="hover modalSyncer" data-target="fukushima">
-                <h1><span>A</span>sahi <span>F</span>ukushima</h1>
-                <h2>B3/Information-Human<br /><br /></h2>
-              </div>
+          </div>
+          <div class="personal right">
+            <img src="./img/fujii_square.jpg" alt="" class="modalSyncer" data-target="fujii">
+            <div class="hover modalSyncer" data-target="fujii">
+              <h1><span>T</span>akuto <br><span>F</span>ujii</h1>
+              <h2>B3<br>Computer-Communication</h2>
             </div>
-            <div class="personal twoblock right">
-              <img src="img/inoue2016.jpg" alt="" class="modalSyncer" data-target="inoue" />
-              <div class="hover twoH modalSyncer" data-target="inoue">
-                <h1><span>Y</span>utaro <span>I</span>noue</h1>
-                <h2>B3/Computer-Science<br />
-                - CMS Produce -</h2>
-              </div>
+          </div>
+          <div class="personal left">
+            <img src="./img/ujihara_square.jpg" alt="" class="modalSyncer" data-target="ujihara">
+            <div class="hover modalSyncer" data-target="ujihara">
+              <h1><span>Y</span>uria <br><span>U</span>jihara</h1>
+              <h2>B3<br>Computer-Science</h2>
             </div>
-            <div class="personal oneblock left">
-              <img src="img/nakamura_square.jpg" alt="" class="modalSyncer" data-target="nakamura" />
-              <div class="hover modalSyncer" data-target="nakamura">
-                <h1><span>K</span>oryo <span>N</span>akamura</h1>
-                <h2>B3/Computer-Communication<br />
-                - CMS Produce -</h2>
-              </div>
+          </div>
+          <div class="personal right">
+            <img src="./img/kusuda_square.jpg" alt="" class="modalSyncer" data-target="kusuda">
+            <div class="hover modalSyncer" data-target="kusuda">
+              <h1><span>K</span>enta <br><span>K</span>usuda</h1>
+              <h2>B3<br>Computer-Science</h2>
             </div>
-            <div class="icon oneblock center">
-              <img src="img/3rdIcon.png" alt="icon" />
+          </div>
+          <div class="icon left">
+            <img src="./img/desk2_icon.png" alt="">
+          </div>
+          <div class="personal right">
+            <img src="./img/tanabe_square.jpg" alt="" class="modalSyncer" data-target="tanabe">
+            <div class="hover modalSyncer" data-target="tanabe">
+              <h1><span>M</span>izuki <br><span>T</span>anabe</h1>
+              <h2>B3<br>Information-Media</h2>
             </div>
-            <div class="personal oneblock right">
-              <img src="img/onishi_square.jpg" alt="" class="modalSyncer" data-target="onishi" />
-              <div class="hover modalSyncer" data-target="onishi">
-                <h1><span>F</span>umihiro <span>O</span>nishi</h1>
-                <h2>B3/Computer-Science<br />
-                - CMS Produce -</h2>
-              </div>
+          </div>
+        </div><!--member three-->
+        <div class="box two clearfix">
+          <h3 class="twoYear">2ndYear</h3>
+          <div class="personal left">
+            <img src="./img/kinari_square.jpg" alt="" class="modalSyncer" data-target="kinari">
+            <div class="hover modalSyncer" data-target="kinari">
+              <h1><span>K</span>inari <br><span>G</span>aneko</h1>
+              <h2>B2</h2>
             </div>
-          </div> <!-- member three -->
+          </div>
+          <div class="personal right">
+            <img src="./img/motoki_square.jpg" alt="" class="modalSyncer" data-target="motoki">
+            <div class="hover modalSyncer" data-target="motoki">
+              <h1><span>T</span>akumi <br><span>M</span>otoki</h1>
+              <h2>B2</h2>
+            </div>
+          </div>
+        </div><!--member two-->
+        <div class="box one clearfix">
+          <h3 class="oneYear">1stYear</h3>
+          <div class="personal left">
+            <img src="./img/kusaka_square.jpg" alt="" class="modalSyncer" data-target="kusaka">
+            <div class="hover modalSyncer" data-target="kusaka">
+              <h1><span>I</span>zumi <br><span>K</span>usaka</h1>
+              <h2>B1</h2>
+            </div>
+          </div>
+          <div class="personal right">
+            <img src="./img/kondo_square.jpg" alt="" class="modalSyncer" data-target="kondo">
+            <div class="hover modalSyncer" data-target="kondo">
+              <h1><span>A</span>kinori <br><span>K</span>ondo</h1>
+              <h2>B1</h2>
+            </div>
+          </div>
+          <div class="personal left">
+            <img src="./img/yamazaki_square.jpg" alt="" class="modalSyncer" data-target="yamazaki">
+            <div class="hover modalSyncer" data-target="yamazaki">
+              <h1><span>K</span>ento <br><span>Y</span>amazaki</h1>
+              <h2>B1</h2>
+            </div>
+          </div>
+          <div class="icon right">
+            <img src="./img/mri_icon.png" alt="">
+          </div>
+          <div class="personal left">
+            <img src="./img/hakozaki_square.jpg" alt="" class="modalSyncer" data-target="hakozaki">
+            <div class="hover modalSyncer" data-target="hakozaki">
+              <h1><span>T</span>atsuya <br><span>H</span>akozaki</h1>
+              <h2>B1</h2>
+            </div>
+          </div>
+          <div class="personal right">
+            <img src="./img/tokuishi_square.jpg" alt="" class="modalSyncer" data-target="tokuishi">
+            <div class="hover modalSyncer" data-target="tokuishi">
+              <h1><span>M</span>aiko <br><span>T</span>okuishi</h1>
+              <h2>B1</h2>
+            </div>
+          </div>
+        </div><!--member one-->
 
-          <div class="box two clearfix">
-            <h3 class="twoYear">2ndYear</h3>
-            <div class="personal twoblock left">
-              <img src="./img/shimode2016.jpg" alt="" class="modalSyncer" data-target="shimode">
-              <div class="hover modalSyncer" data-target="shimode">
-                <h1><span>C</span>hiharu <span>S</span>himode</h1>
-                <h2>B2<br /><br /></h2>
-              </div>
+        <div class="box adviser clearfix">
+          <h3 class="teachers">Adviser</h3>
+          <div class="personal left">
+            <img src="img/kurihara_square.jpg" alt="" class="modalSyncer" data-target="kurihara" />
+            <div class="hover modalSyncer" data-target="kurihara">
+              <h1><span>T</span>oru <br><span>K</span>urihara</h1>
+              <h2>Teacher</h2>
             </div>
-            <div class="personal oneblock right">
-              <img src="./img/kouno_square.jpg" alt="" class="modalSyncer" data-target="kouno">
-              <div class="hover modalSyncer" data-target="kouno">
-                <h1><span>N</span>ami <span>K</span>ouno</h1>
-                <h2>B2<br /><br /></h2>
-              </div>
+          </div>
+          <div class="personal right">
+            <img src="img/ugawa_square.jpg" alt="" class="modalSyncer" data-target="ugawa" />
+            <div class="hover modalSyncer" data-target="ugawa">
+              <h1><span>T</span>omoharu <br><span>U</span>gawa</h1>
+              <h2>Teacher</h2>
             </div>
-            <div class="personal oneblock left">
-              <img src="./img/fujii_square.jpg" alt="" class="modalSyncer" data-target="fujii">
-              <div class="hover modalSyncer" data-target="fujii">
-                <h1><span>T</span>akuto <span>F</span>ujii</h1>
-                <h2>B2<br /><br /></h2>
-              </div>
-            </div>
-            <div class="personal oneblock center">
-              <img src="./img/gucchi_square.jpg" alt="" class="modalSyncer" data-target="gucchi">
-              <div class="hover modalSyncer" data-target="gucchi">
-                <h1><span>K</span>oki <span>H</span>amaguchi</h1>
-                <h2>B2<br /><br /></h2>
-              </div>
-            </div>
-            <div class="personal oneblock right">
-              <img src="./img/kusuda_square.jpg" alt="" class="modalSyncer" data-target="kusuda">
-              <div class="hover modalSyncer" data-target="kusuda">
-                <h1><span>K</span>enta <span>K</span>usuda</h1>
-                <h2>B2<br /><br /></h2>
-              </div>
-            </div>
-            <div class="personal oneblock left">
-              <img src="./img/ujihara_square.jpg" alt="" class="modalSyncer" data-target="ujihara">
-              <div class="hover modalSyncer" data-target="ujihara">
-                <h1><span>Y</span>uria <span>U</span>jihara</h1>
-                <h2>B2<br /><br /></h2>
-              </div>
-            </div>
-            <div class="personal oneblock center">
-              <img src="./img/sawamura_square.jpg" alt="" class="modalSyncer" data-target="sawamura">
-              <div class="hover modalSyncer" data-target="sawamura">
-                <h1><span>Y</span>uki <span>S</span>awamura</h1>
-                <h2>B2<br /><br /></h2>
-              </div>
-            </div>
-            <div class="personal oneblock right">
-              <img src="./img/tanabe_square.jpg" alt="" class="modalSyncer" data-target="tanabe">
-              <div class="hover modalSyncer" data-target="tanabe">
-                <h1><span>M</span>izuki <span>T</span>anabe</h1>
-                <h2>B2<br /><br /></h2>
-              </div>
-            </div>
-          </div> <!-- member two -->
+          </div>
+        </div> <!-- member adviser -->
 
-          <div class="box one clearfix">
-            <h3 class="oneYear">1stYear</h3>
-            <div class="icon oneblock left">
-              <img src="img/1stIcon.png" alt="icon" />
-            </div>
-            <div class="personal oneblock center">
-              <img src="./img/kinari_square.jpg" alt="" class="modalSyncer" data-target="kinari">
-              <div class="hover modalSyncer" data-target="kinari">
-                <h1><span>K</span>inari <span>G</span>aneko</h1>
-                <h2>B1<br /><br /></h2>
-              </div>
-            </div>
-            <div class="personal oneblock right">
-              <img src="./img/motoki_square.jpg" alt="" class="modalSyncer" data-target="motoki">
-              <div class="hover modalSyncer" data-target="motoki">
-                <h1><span>T</span>akumi <span>M</span>otoki</h1>
-                <h2>B1<br /><br /></h2>
-              </div>
-            </div>
-          </div> <!-- member one -->
+         <!--モーダルウィンドウ-->
+         <div class="modal" id="shunya">
+           <img src="img/shunya_square.jpg" alt="inoueS" class="profImg"/>
+           <table class="profile">
+             <tr><th>名前</th><td> : </td><td>井上舜也 (Inoue Shunya)</td></tr>
+             <tr><th>学年</th><td> : </td><td>学士4年生 (B4)</td></tr>
+             <tr><th>専攻</th><td> : </td><td>情報と人間 (Information-Human)</td></tr>
+             <tr><th>出身</th><td> : </td><td>佐賀県</td></tr>
+             <tr><th>趣味</th><td> : </td><td>音楽鑑賞, サッカー観戦, 人との交流</td></tr>
+             <tr><th>サークル等</th><td> : </td><td>アカペラ</td></tr>
+             <tr><th>好きな言語</th><td> : </td><td>特に無し</td></tr>
+             <tr><th class="pr">情報学群PR</th><td class="pr"> : </td><td>この学群では、質の高い知識や技術を身に付けることができます。
+               このWebページをリニューアルした情報学群WEBリニューアルプロジェクトもその１つです。
+               このようなプロジェクトが設けられることは貴重なことで、この経験は必ず学生を大きく成長させます。</td></tr>
+             </table> <!-- profile -->
+             <img src="img/modal_close.png" alt="close" class="modalClose"/>
+           </div> <!-- shunya -->
+           <div class="modal" id="fukushima">
+             <img src="img/fukushima_square.jpg" alt="fukushima" class="profImg"/>
+             <table class="profile">
+               <tr><th>名前</th><td> : </td><td>福島旭 (Fukushima Asahi)</td></tr>
+               <tr><th>学年</th><td> : </td><td>学士4年生 (B4)</td></tr>
+               <tr><th>専攻</th><td> : </td><td>情報と人間 (Information-Human)</td></tr>
+               <tr><th>出身</th><td> : </td><td>徳島県</td></tr>
+               <tr><th>趣味</th><td> : </td><td>美味しいものを食べる事, TVゲーム, 麻雀, 料理</td></tr>
+               <tr><th>サークル等</th><td> : </td><td>アカペラ</td></tr>
+               <tr><th>好きな言語</th><td> : </td><td>Java, HTML</td></tr>
+               <tr><th class="pr">情報学群PR</th><td class="pr"> : </td><td>勉強に集中できる環境であり、学生は先生方の熱心な指導を受けることができます。
+                 また、WEBリニューアルプロジェクトなど講義以外でも学べるチャンスがあります。
+                 自然に包まれた中で自分を磨ける場所だと思います。</td></tr>
+               </table> <!-- profile -->
+               <img src="img/modal_close.png" alt="close" class="modalClose"/>
+             </div> <!-- fukushima -->
+             <div class="modal" id="yasu">
+               <img src="img/yasu_square.jpg" alt="yamanaka" class="profImg"/>
+               <table class="profile">
+                 <tr><th>名前</th><td> : </td><td>山中康寛 (Yamanaka Yasuhiro)</td></tr>
+                 <tr><th>学年</th><td> : </td><td>学士4年生 (B4)</td></tr>
+                 <tr><th>専攻</th><td> : </td><td>情報と人間 (Information-Human)</td></tr>
+                 <tr><th>出身</th><td> : </td><td>高知県</td></tr>
+                 <tr><th>趣味</th><td> : </td><td>麻雀, ゲーム</td></tr>
+                 <tr><th>サークル等</th><td> : </td><td>アカペラ</td></tr>
+                 <tr><th>好きな言語</th><td> : </td><td>Java</td></tr>
+                 <tr><th class="pr">情報学群PR</th><td class="pr"> : </td><td>高知工科大学情報学群では他大学の情報系学科とは違った経験をすることができます。
+                   先生や先輩方も熱心に指導をして下さって、自分の興味のある分野が分かり、知識を身に着けることができます。</td></tr>
+                 </table> <!-- profile -->
+                 <img src="img/modal_close.png" alt="close" class="modalClose"/>
+               </div> <!-- yasu -->
+               <div class="modal" id="inoue">
+                 <img src="img/inoue_square.jpg" alt="inoueY" class="profImg"/>
+                 <table class="profile">
+                   <tr><th>名前</th><td> : </td><td>井上裕太郎 (Inoue Yutaro)</td></tr>
+                   <tr><th>学年</th><td> : </td><td>学士4年生 (B4)</td></tr>
+                   <tr><th>専攻</th><td> : </td><td>コンピュータサイエンス (Computer-Science)</td></tr>
+                   <tr><th>出身</th><td> : </td><td>岡山県</td></tr>
+                   <tr><th>趣味</th><td> : </td><td>ピアノ, 麻雀, 食べ歩き</td></tr>
+                   <tr><th>サークル等</th><td> : </td><td>ピアノ同好会</td></tr>
+                   <tr><th>好きな言語</th><td> : </td><td>Java, PHP</td></tr>
+                   <tr><th class="pr">情報学群PR</th><td class="pr"> : </td><td>高知工科大学情報学群は2年次まで情報工学の基礎を学び、3年次から専攻する分野を決めます。
+                     そのため、ある程度のイメージを持って専攻を選択することが可能です。
+                     私自身もそうでしたが、情報工学に興味はあるけど具体的なイメージが湧かないという人にはとてもお勧めできると思います。</td></tr>
+                   </table> <!-- profile -->
+                   <img src="img/modal_close.png" alt="close" class="modalClose"/>
+                 </div> <!-- inoue -->
+                 <div class="modal" id="onishi">
+                   <img src="img/onishi_square.jpg" alt="onishi" class="profImg"/>
+                   <table class="profile">
+                     <tr><th>名前</th><td> : </td><td>大西史洋 (Onishi Fumihiro)</td></tr>
+                     <tr><th>学年</th><td> : </td><td>学士4年生 (B4)</td></tr>
+                     <tr><th>専攻</th><td> : </td><td>コンピュータサイエンス (Computer-Science)</td></tr>
+                     <tr><th>出身</th><td> : </td><td>高知県</td></tr>
+                     <tr><th>趣味</th><td> : </td><td>やる夫スレ巡回, Splatoon</td></tr>
+                     <tr><th>サークル等</th><td> : </td><td>無所属</td></tr>
+                     <tr><th>好きな言語</th><td> : </td><td>Java, C, VBA</td></tr>
+                     <tr><th class="pr">情報学群PR</th><td class="pr"> : </td><td>高知工科大学情報学群では、ほかの大学にはない専門的なカリキュラムが組め、
+                       教授方も各分野で目覚ましい発明等をしてきた人たちなので、情報を学ぶには最適な場所です。</td></tr>
+                     </table> <!-- profile -->
+                     <img src="img/modal_close.png" alt="close" class="modalClose"/>
+                   </div> <!-- onishi -->
+                   <div class="modal" id="nakamura">
+                     <img src="img/nakamura_square.jpg" alt="nakamura" class="profImg"/>
+                     <table class="profile">
+                       <tr><th>名前</th><td> : </td><td>中村弘亮 (Nakamura Koryo)</td></tr>
+                       <tr><th>学年</th><td> : </td><td>学士4年生 (B4)</td></tr>
+                       <tr><th>専攻</th><td> : </td><td>情報通信 (Computer-Communication)</td></tr>
+                       <tr><th>出身</th><td> : </td><td>高知県</td></tr>
+                       <tr><th>趣味</th><td> : </td><td>ゲーム, 音楽鑑賞</td></tr>
+                       <tr><th>サークル等</th><td> : </td><td>無所属</td></tr>
+                       <tr><th>好きな言語</th><td> : </td><td>JavaScript</td></tr>
+                       <tr><th class="pr">情報学群PR</th><td class="pr"> : </td><td>情報学群では、情報についての幅広い知識を学べ、それを基礎とした専門的な情報技術も身に付けることができます。
+                         パソコンやプログラムに興味がある人から将来的に情報関係に携わりたいという人までお勧めの学群です。</td></tr>
+                       </table> <!-- profile -->
+                       <img src="img/modal_close.png" alt="close" class="modalClose"/>
+                     </div> <!-- nakamura -->
 
-          <div class="box adviser clearfix">
-            <h3 class="teachers">Adviser</h3>
-            <div class="personal oneblock left">
-              <img src="img/kurihara_square.jpg" alt="" class="modalSyncer" data-target="kurihara" />
-              <div class="hover modalSyncer" data-target="kurihara">
-                <h1><span>T</span>oru <span>K</span>urihara</h1>
-                <h2>Teacher<br /><br /></h2>
-              </div>
-            </div>
-            <div class="icon oneblock center">
-              <img src="img/5AdviserIcon.png" alt="icon" />
-            </div>
-            <div class="personal oneblock right">
-              <img src="img/ugawa_square.jpg" alt="" class="modalSyncer" data-target="ugawa" />
-              <div class="hover modalSyncer" data-target="ugawa">
-                <h1><span>T</span>omoharu <span>U</span>gawa</h1>
-                <h2>Teacher<br /><br /></h2>
-              </div>
-            </div>
-          </div> <!-- member adviser -->
+                  <div class="modal" id="shimode">
+                    <img src="img/shimode_square.jpg" alt="shimode" class="profImg"/>
+                    <table class="profile">
+                      <tr><th>名前</th><td> : </td><td>下出千晴 (Shimode Chiharu)</td></tr>
+                      <tr><th>学年</th><td> : </td><td>学士3年生 (B3)</td></tr>
+                      <tr><th>専攻</th><td> : </td><td>情報通信 (Computer-Communication)</td></tr>
+                      <tr><th>出身</th><td> : </td><td>大阪府</td></tr>
+                      <tr><th>趣味</th><td> : </td><td>音楽鑑賞, ゲーム, 料理</td></tr>
+                      <tr><th>サークル等</th><td> : </td><td>アカペラ, 3on3, 軽音</td></tr>
+                      <tr><th>好きな言語</th><td> : </td><td>Java, HTML</td></tr>
+                      <tr><th class="pr">情報学群PR</th><td class="pr"> : </td><td>やる気次第でいくらでも伸びることができる環境にあります。普通科出身でも先生方の講義はわかりやすく、先輩方も優しいです。
+                        また、学内のパソコンでの作業は24時間可能で、自前のパソコンを持っていない人にも親切です。ICT分野はこれから研究されるべき分野なので、歴史に名を残したい人にもおすすめです(笑)</td></tr>
+                    </table> <!-- profile -->
+                    <img src="img/modal_close.png" alt="close" class="modalClose"/>
+                  </div> <!-- shimode -->
+                  <div class="modal" id="gucchi">
+                <img src="img/gucchi_square.jpg" alt="gucchi" class="profImg"/>
+                <table class="profile">
+                  <tr><th>名前</th><td> : </td><td>濱口皓樹 (Hamaguchi Koki)</td></tr>
+                  <tr><th>学年</th><td> : </td><td>学士3年生 (B3)</td></tr>
+                  <tr><th>専攻</th><td> : </td><td>情報とメディア (Information-Media)</td></tr>
+                  <tr><th>出身</th><td> : </td><td>高知県</td></tr>
+                  <tr><th>趣味</th><td> : </td><td>ゲーム, 星, 写真, スノボー, DTM</td></tr>
+                  <tr><th>サークル等</th><td> : </td><td>KUT Web Works</td></tr>
+                  <tr><th>好きな言語</th><td> : </td><td>Java, JavaScript</td></tr>
+                  <tr><th class="pr">情報学群PR</th><td class="pr"> : </td><td>本学の情報学群では、チームでのソフトウェア開発が体験できる講義があり、専門の知識を身に付けることができます。
+                  また、空気が澄んでいてのびのびと知識や技術を学ぶことができます。</td></tr>
+                </table> <!-- profile -->
+                <img src="img/modal_close.png" alt="close" class="modalClose"/>
+              </div> <!-- gucchi -->
+              <div class="modal" id="kusuda">
+                <img src="img/kusuda_square.jpg" alt="kusuda" class="profImg"/>
+                <table class="profile">
+                  <tr><th>名前</th><td> : </td><td>楠田健太 (Kusuda Kenta)</td></tr>
+                  <tr><th>学年</th><td> : </td><td>学士3年生 (B3)</td></tr>
+                  <tr><th>専攻</th><td> : </td><td>コンピュータサイエンス (Computer-Science)</td></tr>
+                  <tr><th>出身</th><td> : </td><td>長崎県</td></tr>
+                  <tr><th>趣味</th><td> : </td><td>国際交流, Youtube視聴</td></tr>
+                  <tr><th>サークル等</th><td> : </td><td>KUTEC, Cykut</td></tr>
+                  <tr><th>好きな言語</th><td> : </td><td>アセンブリ言語</td></tr>
+                  <tr><th class="pr">情報学群PR</th><td class="pr"> : </td><td>自分のやりたいこと見つけられる場所であり、集中できる環境が整えてあります。ぜひ高知工科大学情報学群へ。</td></tr>
+                </table> <!-- profile -->
+                <img src="img/modal_close.png" alt="close" class="modalClose"/>
+              </div> <!-- kusuda -->
+              <div class="modal" id="ujihara">
+                <img src="img/ujihara_square.jpg" alt="ujihara" class="profImg"/>
+                <table class="profile">
+                  <tr><th>名前</th><td> : </td><td>氏原友梨亜 (Ujihara Yuria)</td></tr>
+                  <tr><th>学年</th><td> : </td><td>学士3年生 (B3)</td></tr>
+                  <tr><th>専攻</th><td> : </td><td>コンピュータサイエンス (Computer-Science)</td></tr>
+                  <tr><th>出身</th><td> : </td><td>静岡県</td></tr>
+                  <tr><th>趣味</th><td> : </td><td>ゲーム</td></tr>
+                  <tr><th>サークル等</th><td> : </td><td>KUT Web Works, 杖道</td></tr>
+                  <tr><th>好きな言語</th><td> : </td><td>JavaScript</td></tr>
+                  <tr><th class="pr">情報学群PR</th><td class="pr"> : </td><td>学ぶ機会を多く与えてくれる場所です。</td></tr>
+                </table> <!-- profile -->
+                <img src="img/modal_close.png" alt="close" class="modalClose"/>
+              </div> <!-- ujihara -->
+              <div class="modal" id="fujii">
+                <img src="img/fujii_square.jpg" alt="fujii" class="profImg"/>
+                <table class="profile">
+                  <tr><th>名前</th><td> : </td><td>藤井琢斗 (Fujii Takuto)</td></tr>
+                  <tr><th>学年</th><td> : </td><td>学士3年生 (B3)</td></tr>
+                  <tr><th>専攻</th><td> : </td><td>情報通信 (Computer-Communication)</td></tr>
+                  <tr><th>出身</th><td> : </td><td>宮崎県</td></tr>
+                  <tr><th>趣味</th><td> : </td><td>バラエティ番組視聴, ゲーム</td></tr>
+                  <tr><th>サークル等</th><td> : </td><td>KUT Web Works</td></tr>
+                  <tr><th>好きな言語</th><td> : </td><td>HTML, CSS</td></tr>
+                  <tr><th class="pr">情報学群PR</th><td class="pr"> : </td><td>情報学群には、充実した設備が整っています。
+                    そのため、恵まれた環境の中で多くの経験をしたり、情報に関する幅広い知識を身に付けることができます。</td></tr>
+                </table> <!-- profile -->
+                <img src="img/modal_close.png" alt="close" class="modalClose"/>
+              </div> <!-- fujii -->
+              <div class="modal" id="tanabe">
+                <img src="img/tanabe_square.jpg" alt="tanabe" class="profImg"/>
+                <table class="profile">
+                  <tr><th>名前</th><td> : </td><td>田邉瑞樹 (Tanabe Mizuki)</td></tr>
+                  <tr><th>学年</th><td> : </td><td>学士3年生 (B3)</td></tr>
+                  <tr><th>専攻</th><td> : </td><td>情報とメディア (Information-Media)</td></tr>
+                  <tr><th>出身</th><td> : </td><td>京都府</td></tr>
+                  <tr><th>趣味</th><td> : </td><td>ゲーム, 読書</td></tr>
+                  <tr><th>サークル等</th><td> : </td><td>Cykut</td></tr>
+                  <tr><th>好きな言語</th><td> : </td><td>Java</td></tr>
+                  <tr><th class="pr">情報学群PR</th><td class="pr"> : </td><td>本学の情報学群では他では体験できない講義が多く、将来役立つ知識を身に付けることもできると思います。
+                  設備も整っているため、自分のやりたいことに没頭できます。</td></tr>
+                </table> <!-- profile -->
+                <img src="img/modal_close.png" alt="close" class="modalClose"/>
+              </div> <!-- tanabe -->
+              <div class="modal" id="sawamura">
+                <img src="img/sawamura_square.jpg" alt="sawamura" class="profImg"/>
+                <table class="profile">
+                  <tr><th>名前</th><td> : </td><td>澤村優希 (Sawamura Yuki)</td></tr>
+                  <tr><th>学年</th><td> : </td><td>学士3年生 (B3)</td></tr>
+                  <tr><th>専攻</th><td> : </td><td>情報と人間 (Information-Human)</td></tr>
+                  <tr><th>出身</th><td> : </td><td>高知県</td></tr>
+                  <tr><th>趣味</th><td> : </td><td>TRPG, 創作活動, 読書, ゲーム</td></tr>
+                  <tr><th>サークル等</th><td> : </td><td>Sprout, KUT Web Works, TeXclub</td></tr>
+                  <tr><th>好きな言語</th><td> : </td><td>Java</td></tr>
+                  <tr><th class="pr">情報学群PR</th><td class="pr"> : </td><td>ゲームが好きな人、きっと楽しいです！実践形式での講義がどのクオーターにもあり、複数の言語に触れる機会があります。
+                  中には個人やチームでプログラムを書き、品評会をする講義もあります。同学年の作品に驚かされることも多く、自分も負けたくない、とどの講義にも意欲的に取り組めるかと思います！</td></tr>
+                </table> <!-- profile -->
+                <img src="img/modal_close.png" alt="close" class="modalClose"/>
+              </div> <!-- sawamura -->
 
-          <!-- モーダルウィンドウ -->
-          <div class="modal" id="ishii">
-            <img src="img/ishii_square.jpg" alt="ishii" class="profImg"/>
-            <table class="profile">
-              <tr><th>名前</th><td> : </td><td>石井雄飛 (Ishii Yuto)</td></tr>　
-              <tr><th>学年</th><td> : </td><td>学士4年生 (B4)</td></tr>
-              <tr><th>専攻</th><td> : </td><td>情報とメディア (Information-Media)</td></tr>
-              <tr><th>出身</th><td> : </td><td>京都府</td></tr>
-              <tr><th>趣味</th><td> : </td><td>ボード・テーブルゲーム, 動画・ホームページ作成, 料理</td></tr>
-              <tr><th>サークル等</th><td> : </td><td>アカペラ, 軽音, ダンス</td></tr>
-              <tr><th>好きな言語</th><td> : </td><td>HTML, CSS, JavaScript, PHP</td></tr>
-              <tr><th class="pr">情報学群PR</th><td class="pr"> : </td><td>情報について幅広く学ぶことができ, 向上心があれば上を目指せる良い環境です。
-              知識・技術だけでなく実践的な講義や挑戦の場があり、エンジニアとして成長できると思います。
-              ぜひ高知工科大学情報学群へ！</td></tr>
-            </table> <!-- profile -->
-            <img src="img/modal_close.png" alt="close" class="modalClose"/>
-          </div> <!-- ishii -->
-          <div class="modal" id="sakita">
-            <img src="img/sakita_square.jpg" alt="sakita" class="profImg"/>
-            <table class="profile">
-              <tr><th>名前</th><td> : </td><td>崎田慎太郎 (Sakita Shintaro)</td></tr>　
-              <tr><th>学年</th><td> : </td><td>学士4年生 (B4)</td></tr>
-              <tr><th>専攻</th><td> : </td><td>情報とメディア (Information-Media)</td></tr>
-              <tr><th>出身</th><td> : </td><td>大阪府</td></tr>
-              <tr><th>趣味</th><td> : </td><td>カードマジック</td></tr>
-              <tr><th>サークル等</th><td> : </td><td>柔道</td></tr>
-              <tr><th>好きな言語</th><td> : </td><td>Java</td></tr>
-              <tr><th class="pr">情報学群PR</th><td class="pr"> : </td><td>考える力が身に付き、仲間と切磋琢磨しあえる学群です。
-              より高いレベルを目指したいというあなた、一度足を運んでみてください。</td></tr>
-            </table> <!-- profile -->
-            <img src="img/modal_close.png" alt="close" class="modalClose"/>
-          </div> <!-- sakita -->
-          <div class="modal" id="teduka">
-            <img src="img/teduka_square.jpg" alt="tezuka" class="profImg"/>
-            <table class="profile">
-              <tr><th>名前</th><td> : </td><td>手塚詞央里 (Tezuka Shiori)</td></tr>　
-              <tr><th>学年</th><td> : </td><td>学士4年生 (B4)</td></tr>
-              <tr><th>専攻</th><td> : </td><td>情報通信 (Computer-Communication)</td></tr>
-              <tr><th>出身</th><td> : </td><td>山梨県</td></tr>
-              <tr><th>趣味</th><td> : </td><td>期間限定味のからあげクンを食べること</td></tr>
-              <tr><th>サークル等</th><td> : </td><td>アカペラ, 演劇</td></tr>
-              <tr><th>好きな言語</th><td> : </td><td>C言語, PHP</td></tr>
-              <tr><th class="pr">情報学群PR</th><td class="pr"> : </td><td>この学群で行う講義の中には、他の大学ではあまり経験できないようなものがあると聞きます。
-              また、充実した設備にきれいなキャンパス。良く晴れた日の夜には綺麗な星空が見えます。
-              山奥の田舎にある学校ですが他の大学とは一味違った経験ができます。</td></tr>
-            </table> <!-- profile -->
-            <img src="img/modal_close.png" alt="close" class="modalClose"/>
-          </div> <!-- teduka -->
+              <div class="modal" id="kinari">
+                <img src="img/kinari_square.jpg" alt="kinari" class="profImg"/>
+                <table class="profile">
+                  <tr><th>名前</th><td> : </td><td>我如古生成 (Ganeko Kinari)</td></tr>
+                  <tr><th>学年</th><td> : </td><td>学士2年生 (B2)</td></tr>
+                  <tr><th>専攻</th><td> : </td><td>なし</td></tr>
+                  <tr><th>出身</th><td> : </td><td>沖縄県</td></tr>
+                  <tr><th>趣味</th><td> : </td><td>音楽鑑賞, 読書, 天体観測</td></tr>
+                  <tr><th>サークル等</th><td> : </td><td>KUT+illumination</td></tr>
+                  <tr><th>好きな言語</th><td> : </td><td>C</td></tr>
+                  <tr><th class="pr">情報学群PR</th><td class="pr"> : </td><td>情報についてはもちろん、自主的な行動やチームワークなどの、社会に出てから非常に重要となるスキルも
+                  身に付けることができる良い環境が整っていると、日々実感します。勉強したい人に力を貸してくれる学群だと思います！</td></tr>
+                </table> <!-- profile -->
+                <img src="img/modal_close.png" alt="close" class="modalClose"/>
+              </div> <!-- kinari -->
+              <div class="modal" id="motoki">
+                <img src="img/motoki_square.jpg" alt="motoki" class="profImg"/>
+                <table class="profile">
+                  <tr><th>名前</th><td> : </td><td>元木拓実 (Motoki Takumi)</td></tr>
+                  <tr><th>学年</th><td> : </td><td>学士2年生 (B2)</td></tr>
+                  <tr><th>専攻</th><td> : </td><td>なし</td></tr>
+                  <tr><th>出身</th><td> : </td><td>徳島県</td></tr>
+                  <tr><th>趣味</th><td> : </td><td>音楽鑑賞, 読書</td></tr>
+                  <tr><th>サークル等</th><td> : </td><td>アカペラ</td></tr>
+                  <tr><th>好きな言語</th><td> : </td><td>Ruby</td></tr>
+                  <tr><th class="pr">情報学群PR</th><td class="pr"> : </td><td>情報学群では幅広く情報について学ぶことができます。
+                  設備なども充実しており、勉強するには最適な環境です。</td></tr>
+                </table> <!-- profile -->
+                <img src="img/modal_close.png" alt="close" class="modalClose"/>
+              </div> <!-- motoki -->
 
-          <div class="modal" id="fukushima">
-            <img src="img/fukushima_square.jpg" alt="fukushima" class="profImg"/>
-            <table class="profile">
-              <tr><th>名前</th><td> : </td><td>福島旭 (Fukushima Asahi)</td></tr>　
-              <tr><th>学年</th><td> : </td><td>学士3年生 (B3)</td></tr>
-              <tr><th>専攻</th><td> : </td><td>情報と人間 (Information-Human)</td></tr>
-              <tr><th>出身</th><td> : </td><td>徳島県</td></tr>
-              <tr><th>趣味</th><td> : </td><td>美味しいものを食べる事, TVゲーム, 麻雀, 料理</td></tr>
-              <tr><th>サークル等</th><td> : </td><td>アカペラ</td></tr>
-              <tr><th>好きな言語</th><td> : </td><td>Java, HTML</td></tr>
-              <tr><th class="pr">情報学群PR</th><td class="pr"> : </td><td>勉強に集中できる環境であり、学生は先生方の熱心な指導を受けることができます。
-              また、WEBリニューアルプロジェクトなど講義以外でも学べるチャンスがあります。
-              自然に包まれた中で自分を磨ける場所だと思います。</td></tr>
-            </table> <!-- profile -->
-            <img src="img/modal_close.png" alt="close" class="modalClose"/>
-          </div> <!-- fukushima -->
-          <div class="modal" id="shunya">
-            <img src="img/shunya_square.jpg" alt="inoueS" class="profImg"/>
-            <table class="profile">
-              <tr><th>名前</th><td> : </td><td>井上舜也 (Inoue Shunya)</td></tr>　
-              <tr><th>学年</th><td> : </td><td>学士3年生 (B3)</td></tr>
-              <tr><th>専攻</th><td> : </td><td>情報と人間 (Information-Human)</td></tr>
-              <tr><th>出身</th><td> : </td><td>佐賀県</td></tr>
-              <tr><th>趣味</th><td> : </td><td>音楽鑑賞, サッカー観戦, 人との交流</td></tr>
-              <tr><th>サークル等</th><td> : </td><td>アカペラ</td></tr>
-              <tr><th>好きな言語</th><td> : </td><td>特に無し</td></tr>
-              <tr><th class="pr">情報学群PR</th><td class="pr"> : </td><td>この学群では、質の高い知識や技術を身に付けることができます。
-              このWebページをリニューアルした情報学群WEBリニューアルプロジェクトもその１つです。
-              このようなプロジェクトが設けられることは貴重なことで、この経験は必ず学生を大きく成長させます。</td></tr>
-            </table> <!-- profile -->
-            <img src="img/modal_close.png" alt="close" class="modalClose"/>
-          </div> <!-- shunya -->
-          <div class="modal" id="yasu">
-            <img src="img/yasu_square.jpg" alt="yamanaka" class="profImg"/>
-            <table class="profile">
-              <tr><th>名前</th><td> : </td><td>山中康寛 (Yamanaka Yasuhiro)</td></tr>　
-              <tr><th>学年</th><td> : </td><td>学士3年生 (B3)</td></tr>
-              <tr><th>専攻</th><td> : </td><td>情報と人間 (Information-Human)</td></tr>
-              <tr><th>出身</th><td> : </td><td>高知県</td></tr>
-              <tr><th>趣味</th><td> : </td><td>麻雀, ゲーム</td></tr>
-              <tr><th>サークル等</th><td> : </td><td>アカペラ</td></tr>
-              <tr><th>好きな言語</th><td> : </td><td>Java</td></tr>
-              <tr><th class="pr">情報学群PR</th><td class="pr"> : </td><td>高知工科大学情報学群では他大学の情報系学科とは違った経験をすることができます。
-              先生や先輩方も熱心に指導をして下さって、自分の興味のある分野が分かり、知識を身に着けることができます。</td></tr>
-            </table> <!-- profile -->
-            <img src="img/modal_close.png" alt="close" class="modalClose"/>
-          </div> <!-- yasu -->
-          <div class="modal" id="inoue">
-            <img src="img/inoue_square.jpg" alt="inoueY" class="profImg"/>
-            <table class="profile">
-              <tr><th>名前</th><td> : </td><td>井上裕太郎 (Inoue Yutaro)</td></tr>　
-              <tr><th>学年</th><td> : </td><td>学士3年生 (B3)</td></tr>
-              <tr><th>専攻</th><td> : </td><td>コンピュータサイエンス (Computer-Science)</td></tr>
-              <tr><th>出身</th><td> : </td><td>岡山県</td></tr>
-              <tr><th>趣味</th><td> : </td><td>ピアノ, 麻雀, 食べ歩き</td></tr>
-              <tr><th>サークル等</th><td> : </td><td>ピアノ同好会</td></tr>
-              <tr><th>好きな言語</th><td> : </td><td>Java, PHP</td></tr>
-              <tr><th class="pr">情報学群PR</th><td class="pr"> : </td><td>高知工科大学情報学群は2年次まで情報工学の基礎を学び、3年次から専攻する分野を決めます。
-              そのため、ある程度のイメージを持って専攻を選択することが可能です。
-              私自身もそうでしたが、情報工学に興味はあるけど具体的なイメージが湧かないという人にはとてもお勧めできると思います。</td></tr>
-            </table> <!-- profile -->
-            <img src="img/modal_close.png" alt="close" class="modalClose"/>
-          </div> <!-- inoue -->
-          <div class="modal" id="onishi">
-            <img src="img/onishi_square.jpg" alt="onishi" class="profImg"/>
-            <table class="profile">
-              <tr><th>名前</th><td> : </td><td>大西史洋 (Onishi Fumihiro)</td></tr>　
-              <tr><th>学年</th><td> : </td><td>学士3年生 (B3)</td></tr>
-              <tr><th>専攻</th><td> : </td><td>コンピュータサイエンス (Computer-Science)</td></tr>
-              <tr><th>出身</th><td> : </td><td>高知県</td></tr>
-              <tr><th>趣味</th><td> : </td><td>やる夫スレ巡回, Splatoon</td></tr>
-              <tr><th>サークル等</th><td> : </td><td>無所属</td></tr>
-              <tr><th>好きな言語</th><td> : </td><td>Java, C, VBA</td></tr>
-              <tr><th class="pr">情報学群PR</th><td class="pr"> : </td><td>高知工科大学情報学群では、ほかの大学にはない専門的なカリキュラムが組め、
-                教授方も各分野で目覚ましい発明等をしてきた人たちなので、情報を学ぶには最適な場所です。</td></tr>
-            </table> <!-- profile -->
-            <img src="img/modal_close.png" alt="close" class="modalClose"/>
-          </div> <!-- onishi -->
-          <div class="modal" id="nakamura">
-            <img src="img/nakamura_square.jpg" alt="nakamura" class="profImg"/>
-            <table class="profile">
-              <tr><th>名前</th><td> : </td><td>中村弘亮 (Nakamura Koryo)</td></tr>　
-              <tr><th>学年</th><td> : </td><td>学士3年生 (B3)</td></tr>
-              <tr><th>専攻</th><td> : </td><td>情報通信 (Computer-Communication)</td></tr>
-              <tr><th>出身</th><td> : </td><td>高知県</td></tr>
-              <tr><th>趣味</th><td> : </td><td>ゲーム, 音楽鑑賞</td></tr>
-              <tr><th>サークル等</th><td> : </td><td>無所属</td></tr>
-              <tr><th>好きな言語</th><td> : </td><td>JavaScript</td></tr>
-              <tr><th class="pr">情報学群PR</th><td class="pr"> : </td><td>情報学群では、情報についての幅広い知識を学べ、それを基礎とした専門的な情報技術も身に付けることができます。
-              パソコンやプログラムに興味がある人から将来的に情報関係に携わりたいという人までお勧めの学群です。</td></tr>
-            </table> <!-- profile -->
-            <img src="img/modal_close.png" alt="close" class="modalClose"/>
-          </div> <!-- nakamura -->
+              <div class="modal" id= "kusaka">
+                <img src="img/kusaka_square.jpg" alt="kusaka" class="profImg"/>
+                <table class="profile">
+                <tr><th>名前</th><td> : </td><td>日下 泉(Kusaka Izumi)</td></tr>
+                <tr><th>学年</th><td> : </td><td>学士1年生 (B1)</td></tr>
+                <tr><th>専攻</th><td> : </td><td>なし</td></tr>
+                <tr><th>出身</th><td> : </td><td>徳島県</td></tr>
+                <tr><th>趣味</th><td> : </td><td>絵を描く</td></tr>
+                <tr><th>サークル等</th><td> : </td><td>アカペラ</td></tr>
+                <tr><th>好きな言語</th><td> : </td><td>C</td></tr>
+                <tr><th class="pr">情報学群PR</th><td class="pr"> : </td><td>本学の情報学群はこの大学にしかない、授業があり魅力溢れるところです。
+                  授業一つ一つ丁寧で充実した時間を過ごせるところは本当にいいところだと思います。</td></tr>
+                </table> <!-- profile -->
+                <img src="img/modal_close.png" alt="close" class="modalClose"/>
+              </div> <!-- kusaka -->
 
-          <div class="modal" id="shimode">
-            <img src="img/shimode_square.jpg" alt="shimode" class="profImg"/>
-            <table class="profile">
-              <tr><th>名前</th><td> : </td><td>下出千晴 (Shimode Chiharu)</td></tr>　
-              <tr><th>学年</th><td> : </td><td>学士2年生 (B2)</td></tr>
-              <tr><th>専攻</th><td> : </td><td>なし</td></tr>
-              <tr><th>出身</th><td> : </td><td>大阪府</td></tr>
-              <tr><th>趣味</th><td> : </td><td>音楽鑑賞, ゲーム, 料理</td></tr>
-              <tr><th>サークル等</th><td> : </td><td>アカペラ, 3on3, 軽音</td></tr>
-              <tr><th>好きな言語</th><td> : </td><td>Java, HTML</td></tr>
-              <tr><th class="pr">情報学群PR</th><td class="pr"> : </td><td>やる気次第でいくらでも伸びることができる環境にあります。普通科出身でも先生方の講義はわかりやすく、先輩方も優しいです。
-                また、学内のパソコンでの作業は24時間可能で、自前のパソコンを持っていない人にも親切です。ICT分野はこれから研究されるべき分野なので、歴史に名を残したい人にもおすすめです(笑)</td></tr>
-            </table> <!-- profile -->
-            <img src="img/modal_close.png" alt="close" class="modalClose"/>
-          </div> <!-- shimode -->
-          <div class="modal" id="kouno">
-            <img src="img/kouno_square.jpg" alt="kouno" class="profImg"/>
-            <table class="profile">
-              <tr><th>名前</th><td> : </td><td>河野奈実 (Kouno Nami)</td></tr>　
-              <tr><th>学年</th><td> : </td><td>学士2年生 (B2)</td></tr>
-              <tr><th>専攻</th><td> : </td><td>なし</td></tr>
-              <tr><th>出身</th><td> : </td><td>愛媛県</td></tr>
-              <tr><th>趣味</th><td> : </td><td>音楽鑑賞</td></tr>
-              <tr><th>サークル等</th><td> : </td><td>アカペラ, 演劇, 生協</td></tr>
-              <tr><th>好きな言語</th><td> : </td><td>Java</td></tr>
-              <tr><th class="pr">情報学群PR</th><td class="pr"> : </td><td>情報学群では、情報についての幅広い知識を学べ、それを基礎とした専門的な情報技術も身に付けることができます。
-              パソコンやプログラムに興味がある人から将来的に情報関係に携わりたいという人までお勧めの学群です。</td></tr>
-            </table> <!-- profile -->
-            <img src="img/modal_close.png" alt="close" class="modalClose"/>
-          </div> <!-- kouno -->
-          <div class="modal" id="gucchi">
-            <img src="img/gucchi_square.jpg" alt="gucchi" class="profImg"/>
-            <table class="profile">
-              <tr><th>名前</th><td> : </td><td>濱口皓樹 (Hamaguchi Koki)</td></tr>　
-              <tr><th>学年</th><td> : </td><td>学士2年生 (B2)</td></tr>
-              <tr><th>専攻</th><td> : </td><td>なし</td></tr>
-              <tr><th>出身</th><td> : </td><td>高知県</td></tr>
-              <tr><th>趣味</th><td> : </td><td>ゲーム, 星, 写真, スノボー, DTM</td></tr>
-              <tr><th>サークル等</th><td> : </td><td>KUT Web Works</td></tr>
-              <tr><th>好きな言語</th><td> : </td><td>Java, JavaScript</td></tr>
-              <tr><th class="pr">情報学群PR</th><td class="pr"> : </td><td>本学の情報学群では、チームでのソフトウェア開発が体験できる講義があり、専門の知識を身に付けることができます。
-              また、空気が澄んでいてのびのびと知識や技術を学ぶことができます。</td></tr>
-            </table> <!-- profile -->
-            <img src="img/modal_close.png" alt="close" class="modalClose"/>
-          </div> <!-- gucchi -->
-          <div class="modal" id="kusuda">
-            <img src="img/kusuda_square.jpg" alt="kusuda" class="profImg"/>
-            <table class="profile">
-              <tr><th>名前</th><td> : </td><td>楠田健太 (Kusuda Kenta)</td></tr>　
-              <tr><th>学年</th><td> : </td><td>学士2年生 (B2)</td></tr>
-              <tr><th>専攻</th><td> : </td><td>なし</td></tr>
-              <tr><th>出身</th><td> : </td><td>長崎県</td></tr>
-              <tr><th>趣味</th><td> : </td><td>国際交流, Youtube視聴</td></tr>
-              <tr><th>サークル等</th><td> : </td><td>KUTEC, Cykut</td></tr>
-              <tr><th>好きな言語</th><td> : </td><td>アセンブリ言語</td></tr>
-              <tr><th class="pr">情報学群PR</th><td class="pr"> : </td><td>自分のやりたいこと見つけられる場所であり、集中できる環境が整えてあります。ぜひ高知工科大学情報学群へ。</td></tr>
-            </table> <!-- profile -->
-            <img src="img/modal_close.png" alt="close" class="modalClose"/>
-          </div> <!-- kusuda -->
-          <div class="modal" id="ujihara">
-            <img src="img/ujihara_square.jpg" alt="ujihara" class="profImg"/>
-            <table class="profile">
-              <tr><th>名前</th><td> : </td><td>氏原友梨亜 (Ujihara Yuria)</td></tr>　
-              <tr><th>学年</th><td> : </td><td>学士2年生 (B2)</td></tr>
-              <tr><th>専攻</th><td> : </td><td>なし</td></tr>
-              <tr><th>出身</th><td> : </td><td>静岡県</td></tr>
-              <tr><th>趣味</th><td> : </td><td>ゲーム</td></tr>
-              <tr><th>サークル等</th><td> : </td><td>KUT Web Works, 杖道</td></tr>
-              <tr><th>好きな言語</th><td> : </td><td>JavaScript</td></tr>
-              <tr><th class="pr">情報学群PR</th><td class="pr"> : </td><td>学ぶ機会を多く与えてくれる場所です。</td></tr>
-            </table> <!-- profile -->
-            <img src="img/modal_close.png" alt="close" class="modalClose"/>
-          </div> <!-- ujihara -->
-          <div class="modal" id="fujii">
-            <img src="img/fujii_square.jpg" alt="fujii" class="profImg"/>
-            <table class="profile">
-              <tr><th>名前</th><td> : </td><td>藤井琢斗 (Fujii Takuto)</td></tr>　
-              <tr><th>学年</th><td> : </td><td>学士2年生 (B2)</td></tr>
-              <tr><th>専攻</th><td> : </td><td>なし</td></tr>
-              <tr><th>出身</th><td> : </td><td>宮崎県</td></tr>
-              <tr><th>趣味</th><td> : </td><td>バラエティ番組視聴, ゲーム</td></tr>
-              <tr><th>サークル等</th><td> : </td><td>KUT Web Works</td></tr>
-              <tr><th>好きな言語</th><td> : </td><td>HTML, CSS</td></tr>
-              <tr><th class="pr">情報学群PR</th><td class="pr"> : </td><td>情報学群には、充実した設備が整っています。
-                そのため、恵まれた環境の中で多くの経験をしたり、情報に関する幅広い知識を身に付けることができます。</td></tr>
-            </table> <!-- profile -->
-            <img src="img/modal_close.png" alt="close" class="modalClose"/>
-          </div> <!-- fujii -->
-          <div class="modal" id="tanabe">
-            <img src="img/tanabe_square.jpg" alt="tanabe" class="profImg"/>
-            <table class="profile">
-              <tr><th>名前</th><td> : </td><td>田邉瑞樹 (Tanabe Mizuki)</td></tr>　
-              <tr><th>学年</th><td> : </td><td>学士2年生 (B2)</td></tr>
-              <tr><th>専攻</th><td> : </td><td>なし</td></tr>
-              <tr><th>出身</th><td> : </td><td>京都府</td></tr>
-              <tr><th>趣味</th><td> : </td><td>ゲーム, 読書</td></tr>
-              <tr><th>サークル等</th><td> : </td><td>Cykut</td></tr>
-              <tr><th>好きな言語</th><td> : </td><td>Java</td></tr>
-              <tr><th class="pr">情報学群PR</th><td class="pr"> : </td><td>本学の情報学群では他では体験できない講義が多く、将来役立つ知識を身に付けることもできると思います。
-              設備も整っているため、自分のやりたいことに没頭できます。</td></tr>
-            </table> <!-- profile -->
-            <img src="img/modal_close.png" alt="close" class="modalClose"/>
-          </div> <!-- tanabe -->
-          <div class="modal" id="sawamura">
-            <img src="img/sawamura_square.jpg" alt="sawamura" class="profImg"/>
-            <table class="profile">
-              <tr><th>名前</th><td> : </td><td>澤村優希 (Sawamura Yuki)</td></tr>　
-              <tr><th>学年</th><td> : </td><td>学士2年生 (B2)</td></tr>
-              <tr><th>専攻</th><td> : </td><td>なし</td></tr>
-              <tr><th>出身</th><td> : </td><td>高知県</td></tr>
-              <tr><th>趣味</th><td> : </td><td>TRPG, 創作活動, 読書, ゲーム</td></tr>
-              <tr><th>サークル等</th><td> : </td><td>Sprout, KUT Web Works, TeXclub</td></tr>
-              <tr><th>好きな言語</th><td> : </td><td>Java</td></tr>
-              <tr><th class="pr">情報学群PR</th><td class="pr"> : </td><td>ゲームが好きな人、きっと楽しいです！実践形式での講義がどのクオーターにもあり、複数の言語に触れる機会があります。
-              中には個人やチームでプログラムを書き、品評会をする講義もあります。同学年の作品に驚かされることも多く、自分も負けたくない、とどの講義にも意欲的に取り組めるかと思います！</td></tr>
-            </table> <!-- profile -->
-            <img src="img/modal_close.png" alt="close" class="modalClose"/>
-          </div> <!-- sawamura -->
+              <div class="modal" id="kondo">
+                <img src="img/kondo_square.jpg" alt="kondo" class="profImg"/>
+                <table class="profile">
+                <tr><th>名前</th><td> : </td><td>近藤 哲功(Kondo Akinori)</td></tr>
+                <tr><th>学年</th><td> : </td><td>学士1年生 (B1)</td></tr>
+                <tr><th>専攻</th><td> : </td><td>なし</td></tr>
+                <tr><th>出身</th><td> : </td><td>高知県</td></tr>
+                <tr><th>趣味</th><td> : </td><td>作曲</td></tr>
+                <tr><th>サークル等</th><td> : </td><td>軽音同好会, PA同好会</td></tr>
+                <tr><th>好きな言語</th><td> : </td><td>HTML5,CSS3</td></tr>
+                <tr><th class="pr">情報学群PR</th><td class="pr"> : </td><td>自分の知らないが詰まったこの大学は宝の山。
+                行動を起こしまくろう。</td></tr>
+                </table> <!-- profile -->
+                <img src="img/modal_close.png" alt="close" class="modalClose"/>
+              </div> <!-- kondo -->
 
-          <div class="modal" id="kinari">
-            <img src="img/kinari_square.jpg" alt="kinari" class="profImg"/>
-            <table class="profile">
-              <tr><th>名前</th><td> : </td><td>我如古生成 (Ganeko Kinari)</td></tr>　
-              <tr><th>学年</th><td> : </td><td>学士1年生 (B1)</td></tr>
-              <tr><th>専攻</th><td> : </td><td>なし</td></tr>
-              <tr><th>出身</th><td> : </td><td>沖縄県</td></tr>
-              <tr><th>趣味</th><td> : </td><td>音楽鑑賞, 読書, 天体観測</td></tr>
-              <tr><th>サークル等</th><td> : </td><td>KUT+illumination</td></tr>
-              <tr><th>好きな言語</th><td> : </td><td>C</td></tr>
-              <tr><th class="pr">情報学群PR</th><td class="pr"> : </td><td>情報についてはもちろん、自主的な行動やチームワークなどの、社会に出てから非常に重要となるスキルも
-              身に付けることができる良い環境が整っていると、日々実感します。勉強したい人に力を貸してくれる学群だと思います！</td></tr>
-            </table> <!-- profile -->
-            <img src="img/modal_close.png" alt="close" class="modalClose"/>
-          </div> <!-- kinari -->
-          <div class="modal" id="motoki">
-            <img src="img/motoki_square.jpg" alt="motoki" class="profImg"/>
-            <table class="profile">
-              <tr><th>名前</th><td> : </td><td>元木拓実 (Motoki Takumi)</td></tr>　
-              <tr><th>学年</th><td> : </td><td>学士1年生 (B1)</td></tr>
-              <tr><th>専攻</th><td> : </td><td>なし</td></tr>
-              <tr><th>出身</th><td> : </td><td>徳島県</td></tr>
-              <tr><th>趣味</th><td> : </td><td>音楽鑑賞, 読書</td></tr>
-              <tr><th>サークル等</th><td> : </td><td>アカペラ</td></tr>
-              <tr><th>好きな言語</th><td> : </td><td>Ruby</td></tr>
-              <tr><th class="pr">情報学群PR</th><td class="pr"> : </td><td>情報学群では幅広く情報について学ぶことができます。
-              設備なども充実しており、勉強するには最適な環境です。</td></tr>
-            </table> <!-- profile -->
-            <img src="img/modal_close.png" alt="close" class="modalClose"/>
-          </div> <!-- motoki -->
+              <div class="modal" id= "yamazaki">
+                <img src="img/yamazaki_square.jpg" alt="yamazaki" class="profImg"/>
+                <table class="profile">
+                <tr><th>名前</th><td> : </td><td>山崎 謙人(Yamazaki Kento)</td></tr>
+                <tr><th>学年</th><td> : </td><td>学士1年生 (B1)</td></tr>
+                <tr><th>専攻</th><td> : </td><td>なし</td></tr>
+                <tr><th>出身</th><td> : </td><td>群馬県</td></tr>
+                <tr><th>趣味</th><td> : </td><td>ジャグリング</td></tr>
+                <tr><th>サークル等</th><td> : </td><td>ジャグリング部</td></tr>
+                <tr><th>好きな言語</th><td> : </td><td>これから見つけていきます</td></tr>
+                <tr><th class="pr">情報学群PR</th><td class="pr"> : </td><td>情報社会で役立つスキルを身につけていきます。</td></tr>
+                </table> <!-- profile -->
+                <img src="img/modal_close.png" alt="close" class="modalClose"/>
+              </div> <!-- yamazaki -->
 
-          <div class="modal" id="kurihara">
-            <img src="img/kurihara_square.jpg" alt="kurihara" class="profImg"/>
-            <table class="profile">
-              <tr><th>名前</th><td> : </td><td>栗原徹 (Kurihara Toru)</td></tr>　
-              <tr><th>役職</th><td> : </td><td>准教授</td></tr>
-              <tr><th>個室</th><td> : </td><td>A467</td></tr>
-              <tr><th>出身</th><td> : </td><td>神奈川県</td></tr>
-              <tr><th>趣味</th><td> : </td><td>motorcycle(オートバイ)</td></tr>
-              <tr><th>所属学協会</th><td> : </td><td>計測自動制御学会, 応用物理学会, IEEE</td></tr>
-              <tr><th>研究室</th><td> : </td><td>画像情報工学研究室(A360)</td></tr>
-              <tr><th>もっと詳しく</th><td> : </td><td><a href="faculty_members/profile_kurihara.shtml">栗原徹准教授個人ページ</a></td></tr>
-            </table> <!-- profile -->
-            <img src="img/modal_close.png" alt="close" class="modalClose"/>
-          </div> <!-- kurihara -->
-          <div class="modal" id="ugawa">
-            <img src="img/ugawa_square.jpg" alt="ugawa" class="profImg"/>
-            <table class="profile">
-              <tr><th>名前</th><td> : </td><td>鵜川始陽 (Ugawa Tomoharu)</td></tr>　
-              <tr><th>役職</th><td> : </td><td>准教授</td></tr>
-              <tr><th>個室</th><td> : </td><td>A417</td></tr>
-              <tr><th>出身</th><td> : </td><td>香川県</td></tr>
-              <tr><th>趣味</th><td> : </td><td>ボードゲーム</td></tr>
-              <tr><th>所属学協会</th><td> : </td><td>ACM, 日本ソフトウェア科学会, 情報処理学会</td></tr>
-              <tr><th>研究室</th><td> : </td><td>プログラミング言語研究室(A361)</td></tr>
-              <tr><th>もっと詳しく</th><td> : </td><td><a href="faculty_members/profile_ugawa.shtml">鵜川始陽准教授個人ページ</a></td></tr>
-            </table> <!-- profile -->
-            <img src="img/modal_close.png" alt="close" class="modalClose"/>
-          </div> <!-- ugawa -->
-        </div><!--Membersmenue-->
+              <div class="modal" id= "hakozaki">
+                <img src="img/hakozaki_square.jpg" alt="hakozaki" class="profImg"/>
+                <table class="profile">
+                <tr><th>名前</th><td> : </td><td>箱崎 達也(Hakozaki Tatsuya)</td></tr>
+                <tr><th>学年</th><td> : </td><td>学士1年生 (B1)</td></tr>
+                <tr><th>専攻</th><td> : </td><td>なし</td></tr>
+                <tr><th>出身</th><td> : </td><td>岡山県</td></tr>
+                <tr><th>趣味</th><td> : </td><td>マラソン</td></tr>
+                <tr><th>サークル等</th><td> : </td><td>陸上部</td></tr>
+                <tr><th>好きな言語</th><td> : </td><td>C</td></tr>
+                <tr><th class="pr">情報学群PR</th><td class="pr"> : </td><td>情報学群では講義以外でも色々なことに挑戦することができます。
+                在学中に多くのことを経験してより良い学生生活を送ってください。</td></tr>
+                </table> <!-- profile -->
+                <img src="img/modal_close.png" alt="close" class="modalClose"/>
+              </div> <!-- hakozaki -->
 
+              <div class="modal" id="tokuishi">
+                <img src="img/tokuishi_square.jpg" alt="tokuishi" class="profImg"/>
+                <table class="profile">
+                <tr><th>名前</th><td> : </td><td>徳石 真衣子(Tokuishi Maiko)</td></tr>
+                <tr><th>学年</th><td> : </td><td>学士1年生 (B1)</td></tr>
+                <tr><th>専攻</th><td> : </td><td>なし</td></tr>
+                <tr><th>出身</th><td> : </td><td>愛媛県</td></tr>
+                <tr><th>趣味</th><td> : </td><td>写真を撮ること, ダンス</td></tr>
+                <tr><th>サークル等</th><td> : </td><td>ダンスサークル</td></tr>
+                <tr><th>好きな言語</th><td> : </td><td>C</td></tr>
+                <tr><th class="pr">情報学群PR</th><td class="pr"> : </td><td>情報について、さまざまな経験を積みながら学べます。
+                  情報についてだけではなく、将来就職する上で大切なこともたくさん学べる学群です。</td></tr>
+                </table> <!-- profile -->
+                <img src="img/modal_close.png" alt="close" class="modalClose"/>
+              </div> <!-- tokuishi -->
+
+              <div class="modal" id="kurihara">
+                <img src="img/kurihara_square.jpg" alt="kurihara" class="profImg"/>
+                <table class="profile">
+                  <tr><th>名前</th><td> : </td><td>栗原徹 (Kurihara Toru)</td></tr>
+                  <tr><th>役職</th><td> : </td><td>准教授</td></tr>
+                  <tr><th>個室</th><td> : </td><td>A467</td></tr>
+                  <tr><th>出身</th><td> : </td><td>神奈川県</td></tr>
+                  <tr><th>趣味</th><td> : </td><td>motorcycle(オートバイ)</td></tr>
+                  <tr><th>所属学協会</th><td> : </td><td>計測自動制御学会, 応用物理学会, IEEE</td></tr>
+                  <tr><th>研究室</th><td> : </td><td>画像情報工学研究室(A360)</td></tr>
+                  <tr><th>もっと詳しく</th><td> : </td><td><a href="faculty_members/profile_kurihara.shtml">栗原徹准教授個人ページ</a></td></tr>
+                </table> <!-- profile -->
+                <img src="img/modal_close.png" alt="close" class="modalClose"/>
+              </div> <!-- kurihara -->
+
+              <div class="modal" id="ugawa">
+                <img src="img/ugawa_square.jpg" alt="ugawa" class="profImg"/>
+                <table class="profile">
+                  <tr><th>名前</th><td> : </td><td>鵜川始陽 (Ugawa Tomoharu)</td></tr>
+                  <tr><th>役職</th><td> : </td><td>准教授</td></tr>
+                  <tr><th>個室</th><td> : </td><td>A417</td></tr>
+                  <tr><th>出身</th><td> : </td><td>香川県</td></tr>
+                  <tr><th>趣味</th><td> : </td><td>ボードゲーム</td></tr>
+                  <tr><th>所属学協会</th><td> : </td><td>ACM, 日本ソフトウェア科学会, 情報処理学会</td></tr>
+                  <tr><th>研究室</th><td> : </td><td>プログラミング言語研究室(A361)</td></tr>
+                  <tr><th>もっと詳しく</th><td> : </td><td><a href="faculty_members/profile_ugawa.shtml">鵜川始陽准教授個人ページ</a></td></tr>
+                </table> <!-- profile -->
+                <img src="img/modal_close.png" alt="close" class="modalClose"/>
+              </div> <!-- ugawa -->
+      </div><!--Membersmenue-->
     </div><!--baseContents-->
-
-    <!--#include file="footer.html"-->
   </body>
 </html>
