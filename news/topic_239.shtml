@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>図書館周りの池清掃が行われました。</title>
+    <link rel="stylesheet" href="css/base.css" media="all" title="header" charset="utf-8" />
+    <link rel="stylesheet" href="css/topic_news_article.css" media="all" title="header" charset="utf-8" />
+    <link rel="icon" href="../img/favicon2.png" type="image/png" />
+    <script type="text/javascript">
+        window.onload = function(){
+          headSerect(0);
+        }
+    </script>
+  </head>
+  <body>
+    <!--#include file="header.html"-->
+    <div id="baseContents">
+      <div class="pankuzu">
+        <a href="../index.shtml">HOME</a> > <a href="../topic_news.shtml">Topics&amp;News</a> > News詳細
+      </div> <!-- pankuzu -->
+      <div class="subTitle">
+        <h1><span class="topChar">T</span>opics</h1><h2>and</h2><h1><span class="topChar">N</span>ews</h1>
+      </div><!-- title -->
+      <div class="newsArea">
+        <dt>2018.5.21</dt>
+        <h1>図書館周りの池清掃が行われました。</h1>
+        <hr />
+                <div class="mainImgArea">
+          <img src="img/id239_1.jpg" class="mainImg" />
+        </div><!-- mainImgArea -->
+                <p class="mainSentence">
+        　平成30年5月16日、本学の図書館周りの池の清掃が行われました。<br />
+　前年度まではアルバイトとして行われていた池清掃ですが、今年度は学生自らが自主的に手を挙げ、ボランティア活動として行われることとなりました。2年生10名を中心に、1年生数名を加え朝から夕方まで清掃を行い、以前とは見違えるほど綺麗になっていました。<br />
+　代表として清掃に参加していた2年生は、「大学の池掃除を在学中に経験できる人は少ないと思う。そのような貴重な経験ができてよかった。普段見慣れた池でも、違う視点から見ると気づけなかった部分や知らなかった知識を得ることができて興味深かった。」と感想を述べていました。        </p><!-- mainSentence -->
+              </div><!-- newsArea -->
+    </div><!-- baseContents -->
+    <!--#include file="footer.html"-->
+
+  </body>
+</html>
