@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>情報学群 Web 新メンバー募集に伴う説明会のお知らせ</title>
+    <link rel="stylesheet" href="css/base.css" media="all" title="header" charset="utf-8" />
+    <link rel="stylesheet" href="css/topic_news_article.css" media="all" title="header" charset="utf-8" />
+    <link rel="icon" href="../img/favicon2.png" type="image/png" />
+    <script type="text/javascript">
+        window.onload = function(){
+          headSerect(0);
+        }
+    </script>
+  </head>
+  <body>
+    <!--#include file="header.html"-->
+    <div id="baseContents">
+      <div class="pankuzu">
+        <a href="../index.shtml">HOME</a> > <a href="../topic_news.shtml">Topics&amp;News</a> > News詳細
+      </div> <!-- pankuzu -->
+      <div class="subTitle">
+        <h1><span class="topChar">T</span>opics</h1><h2>and</h2><h1><span class="topChar">N</span>ews</h1>
+      </div><!-- title -->
+      <div class="newsArea">
+        <dt>2018.5.17</dt>
+        <h1>情報学群 Web 新メンバー募集に伴う説明会のお知らせ</h1>
+        <hr />
+                <p class="mainSentence">
+        　高知工科大学情報学群の学生の皆さん、こんにちは。情報学群 Web 製作プロジェクトです。我々は現在、新しい風を吹かせてくれる新メンバーを募集しております。活動内容や今後の方針などの説明会を、下記の通り行います。少しでも興味のある方は是非お越しください。技術や知識は問いません。<br />
+　もし、行きたいけれど予定がある、といった相談があれば、情報学群 <a href=../faculty_members/profile_kurihara.shtml>栗原 徹 准教授</a> の教員室までお越しください。<br />
+<br />
+日時：2018年6月15日(金) 18:30~<br />
+場所：K201<br />
+<br />
+        </p><!-- mainSentence -->
+              </div><!-- newsArea -->
+    </div><!-- baseContents -->
+    <!--#include file="footer.html"-->
+
+  </body>
+</html>
