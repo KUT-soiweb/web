@@ -175,8 +175,12 @@
 }
 #baseContents h5 {
   font-size: 80%;
+  width: 180px;
+  margin: auto;
   height: 30px;
   text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
 }
 #baseContents h6 {
   border-top: 2px #006666 solid;
@@ -185,6 +189,8 @@
   line-height: 20px;
   margin: 0px auto 10px;
   width: 180px;
+  overflow: hidden;
+  white-space: nowrap;
 }
 #baseContents #space {
   height: 50px;
@@ -195,4 +201,12 @@
 }
 #baseContents #space1 {
   height: 155px;
+}
+
+#baseContents .lab_name {
+  position: relative;
+}
+
+#baseContents .specality {
+  position: relative;
 }
