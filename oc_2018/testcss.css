@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+body{
+  background-image: url("bg_kawara.jpg"); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+.titleImage {
+  max-width: 50%;
+  margin: 0 auto;
+}

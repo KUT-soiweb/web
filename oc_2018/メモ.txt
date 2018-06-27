@@ -1,0 +1,3 @@
+oc2018.html <- 消した
+testdocument.html <- スライド入れて見た
+スライドの改善の余地あり。
