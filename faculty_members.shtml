@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 
 <head>
@@ -217,6 +217,31 @@
           </a>
         </li>
         <li class="faculty">
+          <a href="faculty_members/profile_matsuzaki.shtml">
+            <div class="triangleNavy"></div>
+            <h2>教授</h2>
+            <img src="faculty_members/img/Face-MatsuzakiKiminori.png" width="200" height="200" alt="松崎公紀" />
+            <h1>松崎 公紀</h1>
+            <h3>Matsuzaki Kiminori</h3>
+            <h4>
+              <専門分野>
+            </h4>
+            <h5 id="space">
+              <span class="specality">並列プログラミング</span>
+            </h5>
+            <h6>
+              <span class="lab_name">高度プログラミング研究室</span>
+            </h6>
+            <p>
+              <span id="green">iH</span>
+              <span id="gray">iM</span>
+              <span id="gray">CC</span>
+              <span id="green">CS</span>
+            </p>
+          </a>
+        </li>
+
+        <li class="faculty">
           <a href="faculty_members/profile_yokoyama.shtml">
             <div class="triangleNavy"></div>
             <h2>教授</h2>
@@ -383,32 +408,7 @@
               <span id="green">CS</span>
             </p>
           </a>
-        </li>
-        <li class="faculty">
-          <a href="faculty_members/profile_matsuzaki.shtml">
-            <div class="triangleBlue"></div>
-            <h2>准教授</h2>
-            <img src="faculty_members/img/Face-MatsuzakiKiminori.png" width="200" height="200" alt="松崎公紀" />
-            <h1>松崎 公紀</h1>
-            <h3>Matsuzaki Kiminori</h3>
-            <h4>
-              <専門分野>
-            </h4>
-            <h5 id="space">
-              <span class="specality">並列プログラミング</span>
-            </h5>
-            <h6>
-              <span class="lab_name">高度プログラミング研究室</span>
-            </h6>
-            <p>
-              <span id="green">iH</span>
-              <span id="gray">iM</span>
-              <span id="gray">CC</span>
-              <span id="green">CS</span>
-            </p>
-          </a>
-        </li>
-        <li class="faculty">
+        </li>        <li class="faculty">
           <a href="faculty_members/profile_mendori.shtml">
             <div class="triangleBlue"></div>
             <h2>准教授</h2>
@@ -480,6 +480,43 @@
               <span id="green">CC</span>
               <span id="green">CS</span>
             </p>
+          </a>
+        </li>        <li class="faculty">
+          <a href="faculty_members/profile_Takeuchi.shtml">
+            <div class="triangleSkyblue"></div>
+            <h2>講師</h2>
+            <img src="faculty_members/img/Face-TakeuchiShogo.png" width="200" height="200" alt="竹内聖悟" />
+            <h1>竹内 聖悟</h1>
+            <h3>Takeuchi Shogo</h3>
+            <h4>
+              <専門分野>
+            </h4>
+            <h5 id="space">
+              <span class="specality">ゲーム情報学</span>
+            </h5>
+            <h6>
+              <span class="lab_name">ゲーム情報学研究室</span>
+            </h6>
+            <p>
+              <span id="gray">iH</span>
+              <span id="green">iM</span>
+              <span id="green">CC</span>
+              <span id="green">CS</span>
+            </p>
+          </a>
+        </li>        <li class="faculty">
+          <a href="faculty_members/profile_Kinoshita.shtml">
+            <div class="triangleCrimson"></div>
+            <h2 id="twoSection">教育講師</h2>
+            <img src="faculty_members/img/Face-KinoshitaNaofumi.png" width="200" height="200" alt="木下尚文" id="adjustment1" />
+            <h1>木下 尚文</h1>
+            <h3>Kinoshita Naofumi</h3>
+            <h4>
+              <専門分野>
+            </h4>
+            <h5 id="space">
+              <span class="specality">金融解析系理論, 資産配分による運用</span>
+            </h5>
           </a>
         </li>
         <li class="faculty">
