@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="utf-8">
+  <title>OpenCampus2018</title>
+
+  <link rel="stylesheet" href="css/base.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="css/oc_2018.css" type="text/css" media="all" />
+  <link rel="icon" href="img/favicon2.png">
+  <script type="text/javascript">
+		window.onload = function(){
+			headSerect(0);
+		}
+	</script>
+</head>
+
+
+
+<body>
+	<!--#include file="header.html"-->
+　　<div id="baseContents">
+      <div class="pankuzu">
+        <a href="../index.shtml">HOME</a> > オープンキャンパス2017
+      </div> <!-- pankuzu -->
+
+      <div class="main">
+        <p>
+          <img class="mainImage" src="img/mainImage.jpg" alt="mainImage" />
+        </p>
+      </div>
+      <div class = oc2017_link>
+        <a href="../oc_2017/index.shtml"  />
+          <img src = "img/oc2017button.png" >
+           <p>
+            昨年度のオープンキャンパス
+          </p>
+        </a>
+      </div>
+
+
+  <iframe width="900" height="2300" src="iframe.html" frameborder = "0"
+  style= "position:relative;
+         top:50px;
+         left:30px;
+         overflow:hidden;
+         z-index:10;"
+  ></iframe>
+
+</div>
+
+	<!--#include file="footer.html"-->
+
+</body>
+
+</html>
