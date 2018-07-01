@@ -482,7 +482,7 @@
             </p>
           </a>
         </li>        <li class="faculty">
-          <a href="faculty_members/profile_Takeuchi.shtml">
+          <a href="faculty_members/profile_takeuchi.shtml">
             <div class="triangleSkyblue"></div>
             <h2>講師</h2>
             <img src="faculty_members/img/Face-TakeuchiShogo.png" width="200" height="200" alt="竹内聖悟" />
@@ -505,7 +505,7 @@
             </p>
           </a>
         </li>        <li class="faculty">
-          <a href="faculty_members/profile_Kinoshita.shtml">
+          <a href="faculty_members/profile_kinoshita.shtml">
             <div class="triangleCrimson"></div>
             <h2 id="twoSection">教育講師</h2>
             <img src="faculty_members/img/Face-KinoshitaNaofumi.png" width="200" height="200" alt="木下尚文" id="adjustment1" />
