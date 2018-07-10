@@ -39,16 +39,16 @@
         <h2>最近のニュース</h2>
         <div class="newsContents" id="newsDiv">
           <dl id="newsDl">
+                    <dt name="nDate">2018.7.1</dt>
+                      <dd name="nData">本日付で松崎公紀准教授が教授に昇任されます。</dd>
+                    <dt name="nDate">2018.6.25</dt>
+                      <dd name="nData">「県ネットワークセキュリティ連絡協議会」で吉田真一准教授が講演を行い、高知新聞に掲載されました。</dd>
                     <dt name="nDate">2018.5.30</dt>
                       <dd name="nData"><a href="https://www.kochi-tech.ac.jp/news/2018/003868.html">学生団体Cykutが高知県警察本部より「サイバー防犯ボランティア」の委嘱を受けました。</a></dd>
                     <dt name="nDate">2018.5.21</dt>
                       <dd name="nData"><a href="./news/topic_239.shtml" >図書館周りの池清掃が行われました。</a></dd>
                     <dt name="nDate">2018.5.17</dt>
                       <dd name="nData"><a href="./news/topic_237.shtml" >情報学群 Web 新メンバー募集に伴う説明会のお知らせ</a></dd>
-                    <dt name="nDate">2018.4.11</dt>
-                      <dd name="nData"><a href="./news/topic_236.shtml" >オープンキャンパスのご案内（7月28日，7月29日開催）</a></dd>
-                    <dt name="nDate">2018.4.8</dt>
-                      <dd name="nData"><a href="./news/topic_235.shtml" >平成30年度新入生歓迎セミナーが行われました。</a></dd>
                     </dl>
           <div class="oldNews">
             <a href="topic_news.shtml">ニュース一覧　&raquo;</a>

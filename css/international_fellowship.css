@@ -264,23 +264,33 @@
 }
 
 #baseContents .map .marker01 {
-	top: 300px;
-	left: 264px;
+	top: 42px;
+	left: 467px;
 }
 
 #baseContents .map .marker02 {
-	top: 225px;
-	left: 377px;
-}
-
-#baseContents .map .marker03 {
 	top: 75px;
 	left: 397px;
 }
 
+#baseContents .map .marker03 {
+	top: 225px;
+	left: 377px;
+}
+
 #baseContents .map .marker04 {
-	top: 42px;
-	left: 467px;
+	top: 300px;
+	left: 264px;
+}
+
+#baseContents .map .marker05 {
+	top: 230px;
+	left: 367px;
+}
+
+#baseContents .map .marker06 {
+	top: 100px;
+	left: 367px;
 }
 
 #baseContents .map .fukidasi {
@@ -326,8 +336,10 @@
 
 #baseContents .map .marker01:hover ~ .uniBox .university01,
 #baseContents .map .marker02:hover ~ .uniBox .university02,
-#baseContents .map .marker03:hover ~ .uniBox .university03,
+#baseContents .map .marker02:hover ~ .uniBox .university03,
 #baseContents .map .marker03:hover ~ .uniBox .university04,
-#baseContents .map .marker04:hover ~ .uniBox .university05 {
+#baseContents .map .marker04:hover ~ .uniBox .university05,
+#baseContents .map .marker05:hover ~ .uniBox .university06,
+#baseContents .map .marker06:hover ~ .uniBox .university07 {
 	color: #ff0000;
 }
