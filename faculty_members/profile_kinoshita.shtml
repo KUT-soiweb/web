@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	    <meta name="keyword" content="高知工科大学情報学群">
+	    <meta name="description" content="高知工科大学情報学群のホームページ">
+	    <title>木下 尚文</title>
+	    <link rel="stylesheet" type="text/css" href="css/base.css">
+			<link rel="stylesheet" type="text/css" href="css/profile.css">
+			<link rel="icon" href="../img/favicon2.png" type="image/png" />
+	    <script type="text/javascript">
+					window.onload = function(){
+						headSerect(2);
+					}
+			</script>
+</head>
+
+<body>
+<!--#include file="header.html"-->
+
+    <div id ="baseContents">
+
+	<div class="pankuzu">
+		<a href="../index.shtml">HOME</a> > <a href="../faculty_members.shtml">教員一覧</a> > 木下尚文
+	</div>
+	<!--pankuzu-->
+	<div class="main">
+      <div class="keireki">
+    <h1>木下 尚文<span class="hurigana"><span style="margin-right: 2.8em;"></span>Kinoshita naofumi</span></h1>
+<div class="photo1">
+		<img src="img/Face-KinoshitaNaofumi.png" alt="顔の写真" class="facephoto">
+	</div>
+	<!--photo1-->
+		<div class="line"></div>
+    <h2>教育講師<span>教育講師室：A301/A302</span></h2>
+
+
+    <input type="checkbox" id="Panel1" class="ExpandCheckBox" />
+		<label for="Panel1" class="open">
+		  <h3>
+				<img src="svg/Triangle_close-white.svg">&nbsp;プロフィール
+			</h3>
+
+  </label>
+
+<div class="panel">
+<dl>
+<dt>出身：</dt><dd>東京都</dd>
+<dt>所属：</dt><dd>高知工科大学情報学群 教育講師室</dd>
+<dt>趣味：</dt><dd>言語学, 音楽, トライアスロン</dd>
+<div class="mail1"><img src="svg/mail_kinoshita.svg" alt="先生のmailアドレス" class="mail"></div>
+</dl>
+</div>
+<!--panel-->
+
+<a href="https://www.kochi-tech.ac.jp/profile/ja/kinoshita-naofumi.html" target="_blank"><div class="box3" style="float:right">▶ 工科大教員ページ</div></a>
+
+<div class="clear"></div>
+</div>
+<!--keireki-->
+
+<div class="kennkyuushitusyoukai">
+	<div class="center1"><img src="svg/Heading-4.svg" alt="教育講師室紹介"></div>
+
+	<!--<div class="box">写真</div>-->
+<h2>教育講師室：A302</h2>
+<p>
+　自分は元々金融解析系の理論が好きで、それらが応用される現場で働いてきましたが、理論の適用とその先にある計算結果の間の随所に「最適化」という技術が用いられていることに後になって気づきました。分野によっては最適化そのものが考え方の根幹を成している場合もあります。そこで景気変動等の外生要因から影響を受けにくい資産配分による運用の方法について研究してきました。</p>
+</div>
+<!--kennkyuushitusyoukai-->
+<div class="koukouseihe">
+		<div class="box1">
+			<div class="box2">
+<h3>高校生のみなさんへ</h3>
+<p>
+　皆さんがそれぞれ持ち続けている夢の実現のために、本学で大学生活をスタートさせてみませんか。今まで知らなかったことや分らなかったことが、だんだん身近に感じられてくる筈です。<br />
+
+</p>
+</div>
+<!--box2-->
+</div>
+<!--box1-->
+</div>
+<!--koukouseihe-->
+<div class="kougikamoku">
+<h2>講義科目</h2>
+<dl>
+<dd>スタディスキルズ</dd>
+</dl>
+
+
+</div>
+<!--kougikamoku-->
+
+</div>
+<!--main-->
+</div>
+<!--baseContents-->
+
+<!--#include file="footer.html"-->
+</body>
+</html>
