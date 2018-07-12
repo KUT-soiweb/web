@@ -30,7 +30,7 @@
         </p>
       </div>
       <div class = oc2017_link>
-        <a href="../oc_2017/index.shtml"  />
+        <a href="../oc_2017/index.shtml"  >
           <img src = "img/oc2017button.png" >
            <p>
             昨年度のオープンキャンパス
@@ -39,13 +39,10 @@
       </div>
 
 
-  <iframe width="900" height="2300" src="iframe.html" frameborder = "0"
-  style= "position:relative;
-         top:50px;
-         left:30px;
-         overflow:hidden;
-         z-index:10;"
-  ></iframe>
+<div class="ifrm-container">
+<iframe class="ifrm" scrolling="auto" src="iframe.html"></iframe>
+</div>
+
 
 </div>
 
