@@ -39,6 +39,8 @@
         <h2>最近のニュース</h2>
         <div class="newsContents" id="newsDiv">
           <dl id="newsDl">
+                    <dt name="nDate">2018.7.13</dt>
+                      <dd name="nData"><a href="https://www.kochi-tech.ac.jp/news/2018/003962.html">学生団体Cykutが学校警察連絡協議会で講演を行いました。</a></dd>
                     <dt name="nDate">2018.7.10</dt>
                       <dd name="nData"><a href = "oc_2018/index.shtml">オープンキャンパス2018</a>のページを作成しました。</dd>
                     <dt name="nDate">2018.7.1</dt>
@@ -47,8 +49,6 @@
                       <dd name="nData">「県ネットワークセキュリティ連絡協議会」で吉田真一准教授が講演を行い、高知新聞に掲載されました。</dd>
                     <dt name="nDate">2018.5.30</dt>
                       <dd name="nData"><a href="https://www.kochi-tech.ac.jp/news/2018/003868.html">学生団体Cykutが高知県警察本部より「サイバー防犯ボランティア」の委嘱を受けました。</a></dd>
-                    <dt name="nDate">2018.5.21</dt>
-                      <dd name="nData"><a href="./news/topic_239.shtml" >図書館周りの池清掃が行われました。</a></dd>
                     </dl>
           <div class="oldNews">
             <a href="topic_news.shtml">ニュース一覧　&raquo;</a>
