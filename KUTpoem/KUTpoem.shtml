@@ -30,6 +30,11 @@
     <!--#include file="header.html"-->
     <div id="baseContents">
 
+    <div class="pankuzu">
+      <a href="index.shtml">Home</a>
+       > KUTポエム
+    </div>
+
     <div class="title">
       <h2>KUTポエム</h2>
       <h1>
