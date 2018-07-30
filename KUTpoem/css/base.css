@@ -1,4 +1,4 @@
-bascharset "UTF-8";
+@charset "UTF-8";
 
 
 body,div,
@@ -15,22 +15,26 @@ address,pre,strong,em,iframe,img {
 }
 
 body {
-  border-top: 10px solid #3DB6EB;/*71cdf2*/
+  	border-top: 10px solid #3DB6EB;/*71cdf2*/
 	color: #333333;
 	font-family: 'HiraKakuPro-W3','Yu Gothic','MS UI Gothic';
 	line-height: 150%;
+	margin: 0px auto;			/* 追加20180214*/
+	max-width: 960px;
+	width: 100%;
 }
 
 a {
 	color: #333333;
-  text-decoration: none;
+  	text-decoration: none;
 }
 
 #baseContents {
   clear: both;
   margin: 20px auto;
-  width: 960px;
+
 }
+
 
 #baseContents .pankuzu a:hover {
 	text-decoration: underline;
