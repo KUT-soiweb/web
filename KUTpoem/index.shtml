@@ -10,12 +10,6 @@
         window.onload = function(){
           headSerect(0);
         }
-
-          var newsHeight = document.getElementById("newsDl").clientHeight;
-          newsHeight = newsHeight + 135;
-          var newsDiv = document.getElementById("newsDiv");
-          newsDiv.style.height = newsHeight + "px";
-        }
     </script>
   </head>
   <body>
