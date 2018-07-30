@@ -9,15 +9,7 @@
     <script type="text/javascript">
         window.onload = function(){
           headSerect(0);
-          topics();
         }
-        function topics() {
-          var date = document.getElementsByName("nDate");
-          var data = document.getElementsByName("nData");
-          for (var i = date.length - 1; i > 4; i--) {
-            date[i].parentNode.removeChild(date[i]);
-            data[i].parentNode.removeChild(data[i]);
-          }
 
           var newsHeight = document.getElementById("newsDl").clientHeight;
           newsHeight = newsHeight + 135;
