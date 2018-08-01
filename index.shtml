@@ -40,6 +40,8 @@
         <div class="newsContents" id="newsDiv">
           <dl id="newsDl">
                     <dt name="nDate">2018.8.1</dt>
+                      <dd name="nData"><a href="./news/topic_250.shtml" >オープンキャンパス 2日目を8月5日 (日) に開催します。</a></dd>
+                    <dt name="nDate">2018.8.1</dt>
                       <dd name="nData"><a href="http://krlab.info.kochi-tech.ac.jp/">栗原研究室</a>、<a href="http://shigelab.com/">繁桝研究室</a>の学生が取り組んだプロジェクションマッピング映像が本日より<a href="http://actland.jp/news/data/20180705_ev6.html">創造広場アクトランド龍馬歴史館</a>で上映されます。是非お越しください！</dd>
                     <dt name="nDate">2018.7.31</dt>
                       <dd name="nData">高知工科大学を舞台に毎月投稿される<a href="KUTpoem/index.shtml">特設ポエムページ</a>を作成しました。</dd>
@@ -47,8 +49,6 @@
                       <dd name="nData"><a href="./news/topic_247.shtml" >平成30年度第1回オープンキャンパスを開催しました。</a></dd>
                     <dt name="nDate">2018.7.13</dt>
                       <dd name="nData"><a href="https://www.kochi-tech.ac.jp/news/2018/003962.html">学生団体Cykutが学校警察連絡協議会で講演を行いました。</a></dd>
-                    <dt name="nDate">2018.7.10</dt>
-                      <dd name="nData"><a href = "oc_2018/index.shtml">オープンキャンパス2018</a>のページを作成しました。</dd>
                     </dl>
           <div class="oldNews">
             <a href="topic_news.shtml">ニュース一覧　&raquo;</a>
@@ -57,11 +57,11 @@
       </div> <!-- section -->
 
       <!-- linkImg -->
-      <div class="linkImg">
+<!--      <div class="linkImg">
         <a href="oc_2018/index.shtml">
           <img src="img/OC2018bunner.png"/>
         </a>
-      </div><!-- linkImg -->
+      </div> --> <!-- linkImg --> 
 
       <!-- link -->
       <div class="link">
