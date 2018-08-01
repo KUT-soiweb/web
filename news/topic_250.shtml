@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>オープンキャンパス 2日目を8月5日 (日) に開催します。</title>
+    <link rel="stylesheet" href="css/base.css" media="all" title="header" charset="utf-8" />
+    <link rel="stylesheet" href="css/topic_news_article.css" media="all" title="header" charset="utf-8" />
+    <link rel="icon" href="../img/favicon2.png" type="image/png" />
+    <script type="text/javascript">
+        window.onload = function(){
+          headSerect(0);
+        }
+    </script>
+  </head>
+  <body>
+    <!--#include file="header.html"-->
+    <div id="baseContents">
+      <div class="pankuzu">
+        <a href="../index.shtml">HOME</a> > <a href="../topic_news.shtml">Topics&amp;News</a> > News詳細
+      </div> <!-- pankuzu -->
+      <div class="subTitle">
+        <h1><span class="topChar">T</span>opics</h1><h2>and</h2><h1><span class="topChar">N</span>ews</h1>
+      </div><!-- title -->
+      <div class="newsArea">
+        <dt>2018.8.1</dt>
+        <h1>オープンキャンパス 2日目を8月5日 (日) に開催します。</h1>
+        <hr />
+                <p class="mainSentence">
+        　7月29日 (日) 実施予定だった本学のオープンキャンパスは、台風12号の接近に伴い安全面を考慮して、「延期」することになりました。<br />
+　延期日は<u>翌週の日曜日 (8月5日) </u>です。<br />
+<br />
+　大変ご迷惑をおかけしますが、皆様のご来場を学生・教職員一同お待ちしております。<br />
+　当日は、29日のタイムスケジュールで行う予定です。下記リンクよりご覧ください。<br />
+<br />
+　<a href="../oc_2018/index.shtml"> 詳細ページはこちら </a><br />
+　<a href="topic_247.shtml"> 1日目の様子はこちら </a>        </p><!-- mainSentence -->
+              </div><!-- newsArea -->
+    </div><!-- baseContents -->
+    <!--#include file="footer.html"-->
+
+  </body>
+</html>
