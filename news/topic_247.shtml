@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>平成30年度第1回オープンキャンパスを開催しました。</title>
+    <link rel="stylesheet" href="css/base.css" media="all" title="header" charset="utf-8" />
+    <link rel="stylesheet" href="css/topic_news_article.css" media="all" title="header" charset="utf-8" />
+    <link rel="icon" href="../img/favicon2.png" type="image/png" />
+    <script type="text/javascript">
+        window.onload = function(){
+          headSerect(0);
+        }
+    </script>
+  </head>
+  <body>
+    <!--#include file="header.html"-->
+    <div id="baseContents">
+      <div class="pankuzu">
+        <a href="../index.shtml">HOME</a> > <a href="../topic_news.shtml">Topics&amp;News</a> > News詳細
+      </div> <!-- pankuzu -->
+      <div class="subTitle">
+        <h1><span class="topChar">T</span>opics</h1><h2>and</h2><h1><span class="topChar">N</span>ews</h1>
+      </div><!-- title -->
+      <div class="newsArea">
+        <dt>2018.7.30</dt>
+        <h1>平成30年度第1回オープンキャンパスを開催しました。</h1>
+        <hr />
+                <div class="mainImgArea">
+          <img src="img/id247_1.jpg" class="mainImg" />
+        </div><!-- mainImgArea -->
+                <p class="mainSentence">
+        　7月28日土曜日、高知工科大学にて平成30年度第1回オープンキャンパスが開催されました。<br />
+　当日は台風も接近してきており曇りではありましたが高い気温の中、県内だけでなく県外からも多くの方にご来場頂きました。 (香美キャンパス 今年:1,051名 内高校生:744名、昨年:1,224名 内高校生:920名) <br />
+        </p><!-- mainSentence -->
+                <div class="subArea">
+                    <p>
+            　情報学群説明会では席が埋まってしまい、隣の部屋へと中継を繋いで話を聞いていただくほど多くの方が参加してくださいました。<br />
+　説明会は学群長である濵村昌則教授が、高知工科大学の沿革や情報学群の目標、制度などについて説明しました。 高校生や保護者の方、教員の方などは、メモをとったり、頷きながら熱心に聞いて頂いて、入学に対しての意欲がとても伝わりました。情報学群の魅力が伝わり、有意義な時間を過ごしていただけたと思います。          </p>
+                      <img src="img/id247_2.jpg" />
+                  </div><!-- subArea -->
+                <div class="subArea">
+                    <p>
+            　各研究室では、それぞれの研究内容を展示パネルを使い訪問者にわかりやすく説明を行なっていました。また、体験型展示などを行い、情報技術に触れて頂きました。 ご来場された皆様に研究内容を分かりやすく伝えるために、試行錯誤をし、皆様に楽しんでもらえるような内容になったと思います。<br />
+　「VRがすごかった」や「研究室の雰囲気がわかってよかった」、「8月5日も参加して、全部の研究室をまわりたい」など、ご来場された皆様から嬉しい声を頂きました。<br />
+　8月５日日曜日にもオープンキャンパスを開催しますので、是非皆様のご参加をお待ちしています。<br />
+          </p>
+                    <img src="img/id247_3.jpg" />
+                  </div><!-- subArea -->
+              </div><!-- newsArea -->
+    </div><!-- baseContents -->
+    <!--#include file="footer.html"-->
+
+  </body>
+</html>
