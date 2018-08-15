@@ -39,16 +39,16 @@
         <h2>最近のニュース</h2>
         <div class="newsContents" id="newsDiv">
           <dl id="newsDl">
-                    <dt name="nDate">2018.7.13</dt>
-                      <dd name="nData"><a href="https://www.kochi-tech.ac.jp/news/2018/003962.html">学生団体Cykutが学校警察連絡協議会で講演を行いました。</a></dd>
-                    <dt name="nDate">2018.7.10</dt>
-                      <dd name="nData"><a href = "oc_2018/index.shtml">オープンキャンパス2018</a>のページを作成しました。</dd>
-                    <dt name="nDate">2018.7.1</dt>
-                      <dd name="nData">本日付で松崎公紀准教授が教授に昇任されます。</dd>
-                    <dt name="nDate">2018.6.25</dt>
-                      <dd name="nData">「県ネットワークセキュリティ連絡協議会」で吉田真一准教授が講演を行い、高知新聞に掲載されました。</dd>
-                    <dt name="nDate">2018.5.30</dt>
-                      <dd name="nData"><a href="https://www.kochi-tech.ac.jp/news/2018/003868.html">学生団体Cykutが高知県警察本部より「サイバー防犯ボランティア」の委嘱を受けました。</a></dd>
+                    <dt name="nDate">2018.8.8</dt>
+                      <dd name="nData"><a href="./news/topic_259.shtml" >平成30年度第2回オープンキャンパスを開催しました。</a></dd>
+                    <dt name="nDate">2018.8.4</dt>
+                      <dd name="nData">本学群の<a href="faculty_members/profile_nakahara.shtml">中原 潔教授</a>らの研究グループが<a href="https://www.kochi-tech.ac.jp/news/2018/003987.html">ヒト脳の記憶形成のメカニズムの一端を世界で初めて明らかにしました。</a></dd>
+                    <dt name="nDate">2018.8.4</dt>
+                      <dd name="nData">本学群の<a href="http://www.info.kochi-tech.ac.jp/faculty_members/profile_shimizu.shtml">清水 明宏教授</a>が<a href="https://www.kochi-tech.ac.jp/news/2018/004004.html">高知県警察本部でサイバー犯罪対策に関する講義を行いました。</a></dd>
+                    <dt name="nDate">2018.8.3</dt>
+                      <dd name="nData">本学群の<a href="http://www.info.kochi-tech.ac.jp/faculty_members/profile_shinomori.shtml">篠森 敬三教授</a>が<a href="https://www.kochi-tech.ac.jp/news/2018/004016.html">「日本心理学会優秀論文賞」を受賞しました。</a></dd>
+                    <dt name="nDate">2018.8.1</dt>
+                      <dd name="nData"><a href="./news/topic_250.shtml" >オープンキャンパス 2日目を8月5日 (日) に開催します。</a></dd>
                     </dl>
           <div class="oldNews">
             <a href="topic_news.shtml">ニュース一覧　&raquo;</a>
@@ -61,7 +61,7 @@
         <a href="KUTpoem/index.shtml">
           <img src="img/KUTpoem_banner.png"/>
         </a>
-      </div><!-- linkImg -->
+      </div> --> <!-- linkImg -->
 
       <!-- link -->
       <div class="link">
