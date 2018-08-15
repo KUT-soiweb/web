@@ -53,12 +53,42 @@
               <div class="poemContainer">
                 <!-- poemFunc -->
                 <div class="poemFunc">
-                  <img src="img/july_poem.jpg" alt="test">
+                  <img src="img/july_poem.jpg" alt="7monthPoem">
                 </div><!-- poemFunc -->
               </div><!-- poemContainer -->
             </li>
           </ul>
       </div><!-- jul -->
+
+      <!-- aug -->
+    <div class="aug">
+          <label for="aug">
+          <!-- monthContainer -->
+            <div class="monthContainer">
+              <h1>8月</h1>
+            </div><!-- monthContainer -->
+            <!-- imageContainer -->
+            <div class="imageContainer">
+              <div class="gradationContainer"></div><!-- gradationContainer -->
+            </div><!-- imageContainer -->
+          </label>
+
+          <input type="checkbox" id="aug" class="bellows">
+
+          <ul>
+            <li>
+
+              <!-- poemContainer -->
+              <div class="poemContainer">
+                <!-- poemFunc -->
+                <div class="poemFunc">
+                  <img src="img/august_poem.jpg" alt="8monthPoem">
+                </div><!-- poemFunc -->
+              </div><!-- poemContainer -->
+            </li>
+          </ul>
+      </div><!-- aug -->
+
      
     </div><!-- poem -->
 
