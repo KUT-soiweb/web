@@ -37,8 +37,11 @@
           </p>
         </a>
       </div>
-
-
+      <div class = oc2017_link>
+        <a href = "../news/topic_259.shtml">
+          <img src = "img/oc2018newslink.jpg">
+        </a>
+      </div>
 <div class="ifrm-container">
 <iframe class="ifrm" scrolling="auto" src="iframe.html"></iframe>
 </div>
