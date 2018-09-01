@@ -39,6 +39,8 @@
         <h2>最近のニュース</h2>
         <div class="newsContents" id="newsDiv">
           <dl id="newsDl">
+                    <dt name="nDate">2018.8.31</dt>
+                      <dd name="nData">本学では修士学生を対象に研究活動を支援する留学制度を設けています。詳しくは<a href="document/encourage_study_abroad.pdf">こちら</a>。</dd>
                     <dt name="nDate">2018.8.8</dt>
                       <dd name="nData"><a href="./news/topic_259.shtml" >平成30年度第2回オープンキャンパスを開催しました。</a></dd>
                     <dt name="nDate">2018.8.4</dt>
@@ -47,8 +49,6 @@
                       <dd name="nData">本学群の<a href="http://www.info.kochi-tech.ac.jp/faculty_members/profile_shimizu.shtml">清水 明宏教授</a>が<a href="https://www.kochi-tech.ac.jp/news/2018/004004.html">高知県警察本部でサイバー犯罪対策に関する講義を行いました。</a></dd>
                     <dt name="nDate">2018.8.3</dt>
                       <dd name="nData">本学群の<a href="http://www.info.kochi-tech.ac.jp/faculty_members/profile_shinomori.shtml">篠森 敬三教授</a>が<a href="https://www.kochi-tech.ac.jp/news/2018/004016.html">「日本心理学会優秀論文賞」を受賞しました。</a></dd>
-                    <dt name="nDate">2018.8.1</dt>
-                      <dd name="nData"><a href="./news/topic_250.shtml" >オープンキャンパス 2日目を8月5日 (日) に開催します。</a></dd>
                     </dl>
           <div class="oldNews">
             <a href="topic_news.shtml">ニュース一覧　&raquo;</a>
@@ -61,7 +61,7 @@
         <a href="KUTpoem/index.shtml">
           <img src="img/KUTpoem_banner.png"/>
         </a>
-      </div> --> <!-- linkImg -->
+      </div> <!-- linkImg -->
 
       <!-- link -->
       <div class="link">
