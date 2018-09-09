@@ -1,100 +1,145 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>高知工科大学ポエム</title>
-    <link rel="stylesheet" href="css/base.css" media="all" title="header" charset="utf-8" />
-    <link rel="stylesheet" href="css/poem.css" media="all" title="header" charset="utf-8" />
-    <link rel="icon" href="img/favicon2.png" type="image/png" />
-    <script type="text/javascript">
-        window.onload = function(){
-          headSerect(0);
-        }
-    </script>
-  </head>
-  <body>
-    <!--#include file="header.html"-->
-    <div id="baseContents">
+<head>
+  <meta charset="utf-8">
+  <title>高知工科大学ポエム</title>
+  <link rel="stylesheet" href="css/base.css" media="all" title="header" charset="utf-8" />
+  <link rel="stylesheet" href="css/poem.css" media="all" title="header" charset="utf-8" />
+  <link rel="icon" href="img/favicon2.png" type="image/png" />
+  <script type="text/javascript">
+    window.onload = function(){
+      headSerect(0);
+    }
+  </script>
+</head>
+<body>
+  <!--#include file="header.html"-->
+  <div id="baseContents">
 
     <div class="pankuzu">
       <a href="../index.shtml">Home</a>
-       > KUTポエム
+      > KUTポエム
     </div>
 
     <div class="title">
       <h2>KUTポエム</h2>
       <h1>
         <span>K</span>ochi <span>U</span>niversity of <span>T</span>echnology</h1>
-      <h1><span>P</span>oem</h1>
-    </div>
+        <h1><span>P</span>oem</h1>
+      </div>
 
-    <!-- poem -->
-    <div id="poem">
+      <div class="discription">
+        <h1><span style="background-color: white; padding: 0 20px;">KUTポエムとは</span></h1>
+        <div class="discriptionContents">
+          <p>自然に恵まれた高知工科大学の魅力を伝えるためには、文章だけでは物足りない。<br>
+            そこで、本学の学生が撮影した写真を用いてマンションポエムならぬ大学ポエムを作成し、高知工科大学の魅力を月ごとに伝えます。<br>
+            大学ポエムでは高知工科大学の美しさや学生が学問に集中できる環境をアピールし、高知工科大学での大学生活を想像してもらえるきっかけになれば嬉しいです。</p>
+          </div>
+        </div>
 
-      <!-- jul -->
-      <div class="jul">
-          <label for="jul">
-          <!-- monthContainer -->
-            <div class="monthContainer">
-              <h1>7月</h1>
-            </div><!-- monthContainer -->
-            <!-- imageContainer -->
-            <div class="imageContainer">
-              <div class="gradationContainer"></div><!-- gradationContainer -->
-            </div><!-- imageContainer -->
-          </label>
+        <!-- poem -->
+        <div id="poem">
 
-          <input type="checkbox" id="jul" class="bellows">
 
-          <ul>
-            <li>
+          <!-- sep -->
+          <div class="sep">
+            <label for="sep">
+              <!-- monthContainer -->
+              <div class="monthContainer">
+                <h1>9月</h1>
+              </div><!-- monthContainer -->
+              <!-- imageContainer -->
+              <div class="imageContainer">
+                <div class="gradationContainer"></div><!-- gradationContainer -->
+              </div><!-- imageContainer -->
+            </label>
 
-              <!-- poemContainer -->
-              <div class="poemContainer">
-                <!-- poemFunc -->
-                <div class="poemFunc">
-                  <img src="img/july_poem.jpg" alt="7monthPoem">
-                </div><!-- poemFunc -->
-              </div><!-- poemContainer -->
-            </li>
-          </ul>
-      </div><!-- jul -->
+            <input type="checkbox" id="sep" class="bellows">
 
-      <!-- aug -->
-    <div class="aug">
-          <label for="aug">
-          <!-- monthContainer -->
-            <div class="monthContainer">
-              <h1>8月</h1>
-            </div><!-- monthContainer -->
-            <!-- imageContainer -->
-            <div class="imageContainer">
-              <div class="gradationContainer"></div><!-- gradationContainer -->
-            </div><!-- imageContainer -->
-          </label>
+            <ul>
+              <li>
 
-          <input type="checkbox" id="aug" class="bellows">
-
-          <ul>
-            <li>
-
-              <!-- poemContainer -->
-              <div class="poemContainer">
-                <!-- poemFunc -->
-                <div class="poemFunc">
-                  <img src="img/august_poem.jpg" alt="8monthPoem">
-                </div><!-- poemFunc -->
-              </div><!-- poemContainer -->
-            </li>
-          </ul>
-      </div><!-- aug -->
-
-     
-    </div><!-- poem -->
+                <!-- poemContainer -->
+                <div class="poemContainer">
+                  <!-- poemFunc -->
+                  <div class="poemFunc">
+                    <img src="img/september_poem.jpg" alt="9monthPoem">
+                  </div><!-- poemFunc -->
+                </div><!-- poemContainer -->
+              </li>
+            </ul>
+          </div><!-- sep -->
 
 
 
-    </div><!-- baseContents -->
-    <!--#include file="footer.html"-->
-  </body>
-</html>
+          <!-- aug -->
+          <div class="aug">
+            <label for="aug">
+              <!-- monthContainer -->
+              <div class="monthContainer">
+                <h1>8月</h1>
+              </div><!-- monthContainer -->
+              <!-- imageContainer -->
+              <div class="imageContainer">
+                <div class="gradationContainer"></div><!-- gradationContainer -->
+              </div><!-- imageContainer -->
+            </label>
+
+            <input type="checkbox" id="aug" class="bellows">
+
+            <ul>
+              <li>
+
+                <!-- poemContainer -->
+                <div class="poemContainer">
+                  <!-- poemFunc -->
+                  <div class="poemFunc">
+                    <img src="img/august_poem.jpg" alt="8monthPoem">
+                  </div><!-- poemFunc -->
+                </div><!-- poemContainer -->
+              </li>
+            </ul>
+          </div><!-- aug -->
+
+
+
+          <!-- jul -->
+          <div class="jul">
+            <label for="jul">
+              <!-- monthContainer -->
+              <div class="monthContainer">
+                <h1>7月</h1>
+              </div><!-- monthContainer -->
+              <!-- imageContainer -->
+              <div class="imageContainer">
+                <div class="gradationContainer"></div><!-- gradationContainer -->
+              </div><!-- imageContainer -->
+            </label>
+
+            <input type="checkbox" id="jul" class="bellows">
+
+            <ul>
+              <li>
+
+                <!-- poemContainer -->
+                <div class="poemContainer">
+                  <!-- poemFunc -->
+                  <div class="poemFunc">
+                    <img src="img/july_poem.jpg" alt="7monthPoem">
+                  </div><!-- poemFunc -->
+                </div><!-- poemContainer -->
+              </li>
+            </ul>
+          </div><!-- jul -->
+
+          
+
+          
+        </div><!-- poem -->
+
+
+
+      </div><!-- baseContents -->
+      <!--#include file="footer.html"-->
+    </body>
+    </html>

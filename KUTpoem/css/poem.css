@@ -28,6 +28,25 @@ label {
   font-weight: normal;
 }
 
+#baseContents .discription {
+    border: solid 1px #C0C0C0;
+    margin-bottom: 70px;
+}
+
+#baseContents .discription h1 {
+    font-size: 200%;
+    line-height: 1em;
+    margin: 0px 20px;
+    position: relative;
+    top: -17px;
+}
+
+#baseContents .discriptionContents {
+    margin: 0px 50px 30px;
+    line-height: 26px;
+}
+
+
 .monthContainer {
     float: left;
     text-align: center;
