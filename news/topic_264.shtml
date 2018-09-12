@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>大学院情報学コース1年 松本 康平さんがセンシングフォーラム研究奨励賞を受賞しました。</title>
+    <link rel="stylesheet" href="css/base.css" media="all" title="header" charset="utf-8" />
+    <link rel="stylesheet" href="css/topic_news_article.css" media="all" title="header" charset="utf-8" />
+    <link rel="icon" href="../img/favicon2.png" type="image/png" />
+    <script type="text/javascript">
+        window.onload = function(){
+          headSerect(0);
+        }
+    </script>
+  </head>
+  <body>
+    <!--#include file="header.html"-->
+    <div id="baseContents">
+      <div class="pankuzu">
+        <a href="../index.shtml">HOME</a> > <a href="../topic_news.shtml">Topics&amp;News</a> > News詳細
+      </div> <!-- pankuzu -->
+      <div class="subTitle">
+        <h1><span class="topChar">T</span>opics</h1><h2>and</h2><h1><span class="topChar">N</span>ews</h1>
+      </div><!-- title -->
+      <div class="newsArea">
+        <dt>2018.9.6</dt>
+        <h1>大学院情報学コース1年 松本 康平さんがセンシングフォーラム研究奨励賞を受賞しました。</h1>
+        <hr />
+                <div class="mainImgArea">
+          <img src="img/id264_1.jpg" class="mainImg" />
+        </div><!-- mainImgArea -->
+                <p class="mainSentence">
+        　本賞は昨年第34回センシングフォーラムで発表された論文のうち35歳以下の若手研究者から審査により5名程度選ばれる賞となります。        </p><!-- mainSentence -->
+                <div class="subArea">
+                    <p>
+            最新のフォーラムについては外部リンク<a href="http://www.sice.or.jp/s_forum/s_forum_sf35.html"> こちら </a><br />
+※ 公益者団法人 計測自動制御学会の2018年度 第35回センシングフォーラム計測部門大会のページへ飛びます。          </p>
+                      <img src="img/id264_2.jpg" />
+                  </div><!-- subArea -->
+                <div class="subArea">
+                    <p>
+            「正弦波変調撮像とウィーナフィルタを用いた複素相関画像の運動ボケ補償とその評価」松本 康平，栗原 徹 (高知工科大学)          </p>
+                    <img src="img/id264_3.jpg" />
+                  </div><!-- subArea -->
+              </div><!-- newsArea -->
+    </div><!-- baseContents -->
+    <!--#include file="footer.html"-->
+
+  </body>
+</html>
