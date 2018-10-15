@@ -39,6 +39,8 @@
         <h2>最近のニュース</h2>
         <div class="newsContents" id="newsDiv">
           <dl id="newsDl">
+                    <dt name="nDate">2018.10.13</dt>
+                      <dd name="nData">本学群の<a href="faculty_members/profile_yoshida.shtml">吉田 真一准教授</a>が<a href="https://www.kochi-tech.ac.jp/news/2018/004128.html">「第84期 高知市民の大学」で講演を行いました。</a></dd>
                     <dt name="nDate">2018.9.15</dt>
                       <dd name="nData"><a href="KUTpoem/index.shtml">9月分のポエム</a>を更新しました。</dd>
                     <dt name="nDate">2018.9.6</dt>
@@ -47,8 +49,6 @@
                       <dd name="nData"><a href="./news/topic_263.shtml" >平成30年度情報学群研究室対抗スポーツ大会が開催されました。</a></dd>
                     <dt name="nDate">2018.8.31</dt>
                       <dd name="nData">本学では修士学生を対象に研究活動を支援する留学制度を設けています。詳しくは<a href="document/encourage_study_abroad.pdf">こちら</a>。</dd>
-                    <dt name="nDate">2018.8.8</dt>
-                      <dd name="nData"><a href="./news/topic_259.shtml" >平成30年度第2回オープンキャンパスを開催しました。</a></dd>
                     </dl>
           <div class="oldNews">
             <a href="topic_news.shtml">ニュース一覧　&raquo;</a>
