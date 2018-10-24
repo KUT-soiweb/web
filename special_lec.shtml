@@ -56,18 +56,18 @@
 									<tr class="lecTitle">
 										<td class="tNumber">第1回 </td>
 										<td class="tDate">10月5日(金) 3限</td>					
-										<td class="tTitle">「ディープラーニングの最新動向と、そのキャッチアップに<br>必要な知識」</td>
+										<td class="tTitle">ディープラーニングの最新動向と、そのキャッチアップに<br>必要な知識</td>
 										<td class="tPlace">A107</td>
 									</tr>
 									<tr class="lecturer">
 										<td></td>
 										<td colspan="3">【講師】大政 孝光 代表取締役<br>
-											(株)ウェブファーマー</td>
+											株式会社ウェブファーマー</td>
 									</tr>
 									<tr class="lecTitle">
 										<td class="tNumber">第2回 </td>
 										<td class="tDate">10月18日(木) 3限</td>
-										<td class="tTitle">「Rubyのつくりかた」</td>
+										<td class="tTitle">Rubyのつくりかた</td>
 										<td class="tPlace">A107</td>
 									</tr>
 									<tr class="lecturer">
@@ -78,29 +78,29 @@
 									<tr class="lecTitle">
 											<td class="tNumber">第3回 </td>
 											<td class="tDate">10月19日(金) 4限</td>
-											<td class="tTitle">「おもしろいセキュリティ」</td>
+											<td class="tTitle">おもしろいセキュリティ</td>
 											<td class="tPlace">C102</td>
 										</tr>
 										<tr class="lecturer">
 											<td></td>
-											<td colspan="3">【講師】園田道夫<br>
-											国立研究開発法人 情報通信研究機構 ナショナルサイバートレーニングセンター センター長</td>
+											<td colspan="3">【講師】園田道夫 センター長<br>
+											国立研究開発法人 情報通信研究機構 ナショナルサイバートレーニングセンター</td>
 										</tr>
 									<tr class="lecTitle">
 										<td class="tNumber">第4回 </td>
 										<td class="tDate">10月25日(木) 4限</td>
-										<td class="tTitle">「Hondaのヒューマノイドロボット研究とその応用」</td>
+										<td class="tTitle">Hondaのヒューマノイドロボット研究とその応用</td>
 										<td class="tPlace">C102</td>
 									</tr>
 									<tr class="lecturer">
 										<td></td>
-										<td colspan="3">【講師】竹中 透<br>
-										(株)本田技術研究所 主席研究員</td>
+										<td colspan="3">【講師】竹中 透 主席研究員<br>
+										(株)本田技術研究所</td>
 									</tr>
 									<tr class="lecTitle">
 										<td class="tNumber">第5回 </td>
 										<td class="tDate">11月2日(金) 3限</td>
-										<td class="tTitle">「情報システム開発とシステムエンジニア」</td>
+										<td class="tTitle">情報システム開発とシステムエンジニア</td>
 										<td class="tPlace">A107</td>
 									</tr>
 									<tr class="lecturer">
@@ -133,12 +133,12 @@
 									<tr class="lecturer">
 										<td></td>
 										<td colspan="3">【講師】庄納 崇 シニアディレクター<br>
-										(株)インテル 通信デバイス事業本部 グローバルワイヤレス営業本部 日本担当</td>
+										インテル株式会社 通信デバイス事業本部 グローバルワイヤレス営業本部 日本担当</td>
 									</tr>
 									<tr class="lecTitle">
 										<td class="tNumber">第8回 </td>
 										<td class="tDate">11月21日(水) 3限</td>
-										<td class="tTitle">「東京オリンピックとICT」(仮)</td>
+										<td class="tTitle">東京オリンピックとICT(仮)</td>
 										<td class="tPlace">C101</td>
 									</tr>
 									<tr class="lecturer">
@@ -162,7 +162,7 @@
 									<tr class="lecTitle">
 										<td class="tNumber">第10回 </td>
 										<td class="tDate">12月7日(金) 3限</td>
-										<td class="tTitle">「高齢者にとっての使いやすさはあなたにとっての使いやすさと<br>同じか?:超高齢社会に挑戦するデザイン」</td>
+										<td class="tTitle">高齢者にとっての使いやすさはあなたにとっての使いやすさと<br>同じか?:超高齢社会に挑戦するデザイン</td>
 										<td class="tPlace">C101</td>
 									</tr>
 									<tr class="lecturer">
@@ -173,13 +173,13 @@
 									<tr class="lecTitle">
 											<td class="tNumber">第11回 </td>
 											<td class="tDate">12月11日(火) 4限</td>
-											<td class="tTitle">「社会インフラを支えるデータセンタのストレージ技術と運用管理」</td>
+											<td class="tTitle">社会インフラを支えるデータセンタのストレージ技術と運用管理</td>
 											<td class="tPlace">A107</td>
 										</tr>
 										<tr class="lecturer">
 											<td></td>
 											<td colspan="3">【講師】坂下 幸徳・岩田 サトシ<br>
-											SNIA日本支部 (株)ゼットラボ・SNIA日本支部 (株)富士通</td>
+											SNIA日本支部 株式会社ゼットラボ・SNIA日本支部 富士通株式会社</td>
 									</tr>
 									<tr class="lecTitle">
 										<td class="tNumber">第12回 </td>
