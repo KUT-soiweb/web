@@ -21,11 +21,11 @@
 					<h1><span>S</span>pecial<span> L</span>ecture</h1>
 			</div><!--title-->
 			<div class="mainContents">
-				<div class="content">
+				<div class="content" text-indent:1em;>
 						めざましい発展を遂げる世界に生きる、様々な分野の講師から、その分野の「今」について聴くことができる情報学群特別講義。<br>
 						今年も豪華な講師陣をお招きし、開講いたします。<br>
 						4年生を対象とした講義ですが、1、２、３年生も聴講できます。<br>
-						日程は決まり次第更新していきます。既に決まった日程の間に新たに予定が入り、順番が入れ替わることもありますのでご注意ください。(最終更新日:10月22日)
+						日程は決まり次第更新していきます。既に決まった日程の間に新たに予定が入り、順番が入れ替わることもありますのでご注意ください。(最終更新日:2018年10月22日)
 				</div><!--content-->
 				<!-- <div class="yearBox">
 					<form name="form">
@@ -72,7 +72,7 @@
 									</tr>
 									<tr class="lecturer">
 										<td></td>
-										<td colspan="3">【講師】笹田 耕一 <br>
+										<td colspan="3">【講師】笹田 耕一 氏 <br>
 										cookpad</td>
 									</tr>
 									<tr class="lecTitle">
@@ -143,7 +143,7 @@
 									</tr>
 									<tr class="lecturer">
 										<td></td>
-										<td colspan="3">【講師】広瀬 明貞<br>
+										<td colspan="3">【講師】広瀬 明貞 氏<br>
 										東京オリンピック委員会
 									</td>
 									</tr>
@@ -162,7 +162,7 @@
 									<tr class="lecTitle">
 										<td class="tNumber">第10回 </td>
 										<td class="tDate">12月7日(金) 3限</td>
-										<td class="tTitle">高齢者にとっての使いやすさはあなたにとっての使いやすさと<br>同じか?:超高齢社会に挑戦するデザイン</td>
+										<td class="tTitle">高齢者にとっての使いやすさはあなたにとっての使いやすさと<br>同じか？：超高齢社会に挑戦するデザイン</td>
 										<td class="tPlace">C101</td>
 									</tr>
 									<tr class="lecturer">
@@ -178,7 +178,7 @@
 										</tr>
 										<tr class="lecturer">
 											<td></td>
-											<td colspan="3">【講師】坂下 幸徳・岩田 サトシ<br>
+											<td colspan="3">【講師】坂下 幸徳 氏・岩田 サトシ 氏<br>
 											SNIA日本支部 株式会社ゼットラボ・SNIA日本支部 富士通株式会社</td>
 									</tr>
 									<tr class="lecTitle">
