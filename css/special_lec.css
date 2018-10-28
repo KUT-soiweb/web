@@ -8,24 +8,42 @@
 	width: 90%;
 }
 
-#baseContents .content p {
-	text-indent: 1em;
-}
-#baseContents .yearBox {
+#baseContents  .yearBox {
+	background: #efefef;
+	clear: both;
 	float: left;
-	position: relative;
+	margin-top: 50px;
+	text-align: center;
+	width: 185px;
 }
 
-#baseContents li {
+#baseContents  .yearBox ul {
 	list-style: none;
 }
 
-#baseContents .yearBox p {
-	position: absolute;
-	color: black;
-	font-weight: bold;
-	top: 15px;
-	left: 20px;
+#baseContents  .yearBox ul input {
+	display: none;
+}
+
+
+#baseContents  .yearBox ul li {
+	background: #ffffff;
+	border: medium solid #61c2ee;
+	cursor: pointer;
+	font: 120% center;
+	margin: 15px 25px;
+}
+
+#baseContents  .yearBox li .nendo {
+	font-size: 75%;
+}
+
+#baseContents  .yearBox ul input:checked + li {
+	background: url("../img/balloon_CP.svg") no-repeat center;
+	border: none;
+	color: #ffffff;
+	height: 28px;
+	padding-top: 6px;
 }
 
 #baseContents table {
@@ -72,3 +90,44 @@
 #baseContents tr.lecturer {
 	border-top: 2px #cccccc solid;
 }
+#baseContents .listArea {
+    float: right;
+    margin-bottom: 100px;
+    width: 750px;
+  }
+  
+  #baseContents .listNews {
+    list-style: none;
+    margin-top: 40px;
+    min-height: 500px;
+  }
+  
+  #baseContents .listNews li{
+    border-top: 2px #cccccc dotted;
+    clear: right;
+    display: block;
+    padding-left: 20px;
+    width: 97%;
+  }
+  
+  #baseContents .listNews li a {
+    color: #4A90E2;
+  }
+  
+  #baseContents .listNews li a:hover {
+    text-decoration: underline;
+  }
+  
+  #baseContents .listNews li dd {
+    margin-top: 10px;
+  }
+  
+  #baseContents .listNews li dt {
+    float: right;
+    margin-top: 40px;
+  }
+  
+  #baseContents .listNews li dt::before {
+    content: url("../img/alarm.svg");
+    margin-right: 10px;
+  }

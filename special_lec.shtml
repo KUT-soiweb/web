@@ -1,272 +1,227 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<title>情報学群特別講義 | 高知工科大学 情報学群</title>
-	<meta name="keywords" content="高知工科大学,情報学群,KUT,情報">
-	<meta name="description" content="高知工科大学情報学群の2017年度特別講義のご案内。">
-	<link rel="stylesheet" href="css/base.css" media="all" title="header" charset="utf-8">
-	<link rel="stylesheet" href="css/special_lec.css" media="all" title="header" charset="utf-8">
-	<link rel="icon" href="img/favicon2.png">
-	<script type="text/javascript">
-       window.onload = function(){
-         headSerect(3);
-       }
-   </script>
-</head>
-
-<body>
-	<!--#include file="header.html"-->
-
-	<div id="baseContents">
-		<div class="pankuzu">
-			<a href="index.shtml">HOME</a> > <a href="campus_life.shtml">キャンパスライフ</a> > 情報学群特別講義
-		</div> <!-- pankuzu -->
-
-		<div class="title">
-			<h2>情報学群特別講義</h2>
-			<h1><span>S</span>pecial<span> L</span>ecture</h1>
-		</div><!--title-->
-
-		<div class="mainContents">
-			<div class="content">
-		       	<p>めざましい発展を遂げる世界に生きる、様々な分野の講師から、その分野の「今」について聴くことができる情報学群特別講義。</p>
-		       	<p>今年も豪華な講師陣をお招きし、開講いたします。</p>
-		       	<p>4年生を対象とした講義ですが、1、２、３年生も聴講できます。</p>
-		       	<p>日程は決まり次第更新していきます。既に決まった日程の間に新たに予定が入り、順番が入れ替わることもありますのでご注意ください。(最終更新日:11月16日)</p>
-		    </div><!--content-->
-		    <div class="yearBox">
-		    	<ul>
-		    		<li>
-		    			<img src="img/lec.png" alt="yearBox"/>
-		    			<p>平成29年度</p>
-		    		</li>
-		    	</ul>
-		    </div>
-		    <div class="table">
-				<table align="right">
-					<thead>
-						<tr>
-							<th class="tNumber">講義回</th>
-							<th class="tDate">日時</th>
-							<th class="tTitle">講演題目</th>
-							<th class="tPlace">場所</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr class="lecTitle">
-							<td class="tNumber">第1回 </td>
-							<td class="tDate">10月26日(木) 5限</td>					
-							<td class="tTitle">マイクロソフトへ新卒入社した元開発者のこれまでと、これから</td>
-							<td class="tPlace">A106</td>
-						</tr>
-						<tr class="lecturer">
-							<td></td>
-							<td colspan="3">【講師】原田 英典 ティーチャーエンゲージメントマネージャー<br />
-							日本マイクロソフト株式会社 パブリックセクター統括本部</td>
-						</tr>
-
-						<tr class="lecTitle">
-							<td class="tNumber">第2回 </td>
-							<td class="tDate">11月1日(水) 4限</td>
-							<td class="tTitle">現場のIoT</td>
-							<td class="tPlace">C102</td>
-						</tr>
-						<tr class="lecturer">
-							<td></td>
-							<td colspan="3">【講師】山崎 克之 教授<br />
-							長岡技術大学 工学部 電気電子情報工学専攻</td>
-						</tr>
-
-						<tr class="lecTitle">
-							<td class="tNumber">第3回 </td>
-							<td class="tDate">11月16日(木) 3限</td>
-							<td class="tTitle">イノベーションに向けてのUIデザイン</td>
-							<td class="tPlace">C101</td>
-						</tr>
-						<tr class="lecturer">
-							<td></td>
-							<td colspan="3">【講師】中道 上 准教授<br />
-							福山大学 工学部 情報工学科</td>
-						</tr>
-
-						<tr class="lecTitle">
-							<td class="tNumber">第4回 </td>
-							<td class="tDate">11月16日(木) 4限</td>
-							<td class="tTitle">ビックデータ時代のデータ活用</td>
-							<td class="tPlace">A106</td>
-						</tr>
-						<tr class="lecturer">
-							<td></td>
-							<td colspan="3">【講師】箱守 聰 社長<br />
-							株式会社NTTデータ数理システム</td>
-						</tr>
-
-						<tr class="lecTitle">
-							<td class="tNumber">第5回 </td>
-							<td class="tDate">11月17日(金) 2限</td>
-							<td class="tTitle">情報システムの開発とシステムエンジニア</td>
-							<td class="tPlace">A104</td>
-						</tr>
-						<tr class="lecturer">
-							<td></td>
-							<td colspan="3">【講師】田辺 雅則 部長<br />
-							株式会社NTTデータ 第一金融事業本部 金融社会インフラ事業部</td>
-						</tr>
-						<tr>
-							<td></td>
-							<td colspan="3">日銀企画開発統括部 日銀ネット担当</td>
-						</tr>
-
-						<tr class="lecTitle">
-							<td class="tNumber">第6回 </td>
-							<td class="tDate">11月17日(金) 4限</td>
-							<td class="tTitle">5G ~Moving Towards Development~</td>
-							<td class="tPlace">C102</td>
-						</tr>
-						<tr class="lecturer">
-							<td></td>
-							<td colspan="3">【講師】庄納 崇 シニアディレクター<br />
-							インテル株式会社 通信デバイス事業本部 グローバルワイヤレス営業本部 日本担当</td>
-						</tr>
-
-						<tr class="lecTitle">
-							<td class="tNumber">第7回 </td>
-							<td class="tDate">11月20日(月) 3限</td>
-							<td class="tTitle">触覚提示技術の研究動向 ー振動触覚から空中触覚提示までー</td>
-							<td class="tPlace">A101</td>
-						</tr>
-						<tr class="lecturer">
-							<td></td>
-							<td colspan="3">【講師】牧野 泰才 准教授<br />
-							東京大学 新領域創成科学研究科 複雑理工学専攻</td>
-						</tr>
-
-						<tr class="lecTitle">
-							<td class="tNumber">第8回 </td>
-							<td class="tDate">11月24日(金) 4限</td>
-							<td class="tTitle"></td>
-							<td class="tPlace">A107</td>
-						</tr>
-						<tr class="lecturer">
-							<td></td>
-							<td colspan="3">【講師】西川 博昭 副学長 教授<br />
-							筑波大学システム 情報系情報工学域</td>
-						</tr>
-
-						<tr class="lecTitle">
-							<td class="tNumber">第8回 </td>
-							<td class="tDate">11月24日(金) 4限</td>
-							<td class="tTitle"></td>
-							<td class="tPlace">A107</td>
-						</tr>
-						<tr class="lecturer">
-							<td></td>
-							<td colspan="3">【講師】青木 一浩 代表取締役<br />
-							有限会社情報基盤研究所</td>
-						</tr>
-
-						<tr class="lecTitle">
-							<td class="tNumber">第9回 </td>
-							<td class="tDate">11月24日(金) 5限</td>
-							<td class="tTitle">ストレージシステムの概要と技術</td>
-							<td class="tPlace">C102</td>
-						</tr>
-						<tr class="lecturer">
-							<td></td>
-							<td colspan="3">【講師】中村 隆喜 主任研究員<br />
-							株式会社日立製作所 中央研究所 ストレージ研究部</td>
-						</tr>
-						<tr class="lecTitle">
-							<td class="tNumber">第9回 </td>
-							<td class="tDate">11月24日(金) 5限</td>
-							<td class="tTitle">ストレージシステムの運用管理と標準化</td>
-							<td class="tPlace">C102</td>
-						</tr>
-						<tr class="lecturer">
-							<td></td>
-							<td colspan="3">【講師】坂下 幸徳 主任研究員<br />
-							株式会社日立製作所 中央研究所 クラウド研究部</td>
-						</tr>
-
-						<tr class="lecTitle">
-							<td class="tNumber">第10回 </td>
-							<td class="tDate">11月30日(木) 3限</td>
-							<td class="tTitle">特定高速電子計算機施設「京」~その技術と活用</td>
-							<td class="tPlace">A113</td>
-						</tr>
-						<tr class="lecturer">
-							<td></td>
-							<td colspan="3">【講師】峯尾 真一 次長<br />
-							一般財団法人 高度情報科学技術研究機構 神戸センター共用促進部</td>
-						</tr>
-
-						<tr class="lecTitle">
-							<td class="tNumber">第11回 </td>
-							<td class="tDate">12月15日(金) 4限</td>
-							<td class="tTitle">人工知能と社会</td>
-							<td class="tPlace">A107</td>
-						</tr>
-						<tr class="lecturer">
-							<td></td>
-							<td colspan="3">【講師】北崎 充晃 教授<br />
-							豊橋技術科学大学</td>
-						</tr>
-						
-						<tr class="lecTitle">
-							<td class="tNumber">第12回 </td>
-							<td class="tDate">12月20日(水) 4限</td>
-							<td class="tTitle"></td>
-							<td class="tPlace">C102</td>
-						</tr>
-						<tr class="lecturer">
-							<td></td>
-							<td colspan="3">【講師】岡本 一志 助教<br />
-							電気通信大学</td>
-						</tr>
-
-						<tr class="lecTitle">
-							<td class="tNumber">第13回 </td>
-							<td class="tDate">12月20日(水) 5限</td>
-							<td class="tTitle"></td>
-							<td class="tPlace">C102</td>
-						</tr>
-						<tr class="lecturer">
-							<td></td>
-							<td colspan="3">【講師】望月 理香 研究員<br />
-							NTTサービスエボリューション研究所</td>
-						</tr>
-
-						<tr class="lecTitle">
-							<td class="tNumber">第14回 </td>
-							<td class="tDate">12月22日(金) 3限</td>
-							<td class="tTitle"></td>
-							<td class="tPlace">C102</td>
-						</tr>
-						<tr class="lecturer">
-							<td></td>
-							<td colspan="3">【講師】稲蔭 正彦 研究所長 共同所長<br />
-							慶應義塾大学メディアデザイン研究所 Keio-NUS CUTE Center</td>
-						</tr>
-
-						<tr class="lecTitle">
-							<td class="tNumber">第15回 </td>
-							<td class="tDate">1月18日(木) 4限</td>
-							<td class="tTitle">ヒューマンインタフェース技術について</td>
-							<td class="tPlace">C102</td>
-						</tr>
-						<tr class="lecturer">
-							<td></td>
-							<td colspan="3">【講師】土井 美和子 監事<br />
-							国立研究開発法人 情報通信研究機構</td>
-						</tr>
-					</tbody>
-				</table>
-			</div><!--table-->
-		</div><!--mainContents-->
-	</div><!--baseContents-->
-
-	<!--#include file="footer.html"-->
-
-</body>
+	<html>
+		<head>
+			<meta charset="utf-8">
+			<title>情報学群特別講義 | 高知工科大学 情報学群</title>
+			<meta name="keywords" content="高知工科大学,情報学群,KUT,情報">
+			<meta name="description" content="高知工科大学情報学群の2018年度特別講義のご案内。">
+			<link rel="stylesheet" href="css/base.css" media="all" title="header" charset="utf-8">
+			<link rel="stylesheet" href="css/special_lec.css" media="all" title="header" charset="utf-8">
+			<!-- <script type="text/javascript" src="js/special_lec.js"></script> -->
+			<link rel="icon" href="img/favicon2.png">
+		</head>
+		<body>
+			<!--#include file="header.html"-->
+			<div id="baseContents">
+				<div class="pankuzu">
+					<a href="index.shtml">HOME</a> &gt; 情報学群特別講義
+				</div> <!-- pankuzu -->
+         	<div class="title">
+				<h2>情報学群特別講義</h2>
+					<h1><span>S</span>pecial<span> L</span>ecture</h1>
+			</div><!--title-->
+			<div class="mainContents">
+				<div class="content">
+						　めざましい発展を遂げる世界に生きる、様々な分野の講師から、その分野の「今」について聴くことができる情報学群特別講義。<br>
+						　今年も豪華な講師陣をお招きし、開講いたします。<br>
+						　4年生を対象とした講義ですが、1、２、３年生も聴講できます。<br>
+						　日程は決まり次第更新していきます。既に決まった日程の間に新たに予定が入り、順番が入れ替わることもありますのでご注意ください。(最終更新日:2018年10月22日)
+				</div><!--content-->
+				<!-- <div class="yearBox">
+					<form name="form">
+						<ul>
+							<label>
+								<input type="radio" name="yearbtn" value="H_30" onchange="onYearChange();" checked="">
+									<li>
+										<span class="nendo">平成</span>
+										30
+										<span class="nendo">年度</span>
+									</li>
+									</label>
+								</ul>
+								</form>
+					  </div> -->
+						<ul class="listNews" name="year" id="H_30" style="display: block;">
+						<div class="table">
+							<table align="right">
+								<thead>
+									<tr>
+										<th class="tNumber">講義回</th>
+										<th class="tDate">日時</th>
+										<th class="tTitle">講演題目</th>
+										<th class="tPlace">場所</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr class="lecTitle">
+										<td class="tNumber">第1回 </td>
+										<td class="tDate">10月5日(金) 3限</td>					
+										<td class="tTitle">ディープラーニングの最新動向と、そのキャッチアップに<br>必要な知識</td>
+										<td class="tPlace">A107</td>
+									</tr>
+									<tr class="lecturer">
+										<td></td>
+										<td colspan="3">【講師】大政 孝光 代表取締役<br>
+											株式会社ウェブファーマー</td>
+									</tr>
+									<tr class="lecTitle">
+										<td class="tNumber">第2回 </td>
+										<td class="tDate">10月18日(木) 3限</td>
+										<td class="tTitle">Rubyのつくりかた</td>
+										<td class="tPlace">A107</td>
+									</tr>
+									<tr class="lecturer">
+										<td></td>
+										<td colspan="3">【講師】笹田 耕一 氏 <br>
+										cookpad</td>
+									</tr>
+									<tr class="lecTitle">
+											<td class="tNumber">第3回 </td>
+											<td class="tDate">10月19日(金) 4限</td>
+											<td class="tTitle">おもしろいセキュリティ</td>
+											<td class="tPlace">C102</td>
+										</tr>
+										<tr class="lecturer">
+											<td></td>
+											<td colspan="3">【講師】園田道夫 センター長<br>
+											国立研究開発法人 情報通信研究機構 ナショナルサイバートレーニングセンター</td>
+										</tr>
+									<tr class="lecTitle">
+										<td class="tNumber">第4回 </td>
+										<td class="tDate">10月25日(木) 4限</td>
+										<td class="tTitle">Hondaのヒューマノイドロボット研究とその応用</td>
+										<td class="tPlace">C102</td>
+									</tr>
+									<tr class="lecturer">
+										<td></td>
+										<td colspan="3">【講師】竹中 透 主席研究員<br>
+										(株)本田技術研究所</td>
+									</tr>
+									<tr class="lecTitle">
+										<td class="tNumber">第5回 </td>
+										<td class="tDate">11月2日(金) 3限</td>
+										<td class="tTitle">情報システム開発とシステムエンジニア</td>
+										<td class="tPlace">A107</td>
+									</tr>
+									<tr class="lecturer">
+										<td></td>
+										<td colspan="3">【講師】田辺 雅則 部長<br>
+										(株)NTTデータ 第一金融事業本部 金融社会インフラ事業部 <br>日銀企画開発統括部 日銀企画開発担当</td>
+									</tr>
+									<tr>
+										<td></td>
+										<td colspan="3"></td>
+									</tr>
+									<tr class="lecTitle">
+										<td class="tNumber">第6回 </td>
+										<td class="tDate">11月15日(木) 4限</td>
+										<td class="tTitle">ICTを用いた安全・安心な地域の実現<br>
+										~地域と連携したIoTによる街づくり~</td>
+										<td class="tPlace">A106</td>
+									</tr>
+									<tr class="lecturer">
+										<td></td>
+										<td colspan="3">【講師】不破 泰 教授<br>
+										信州大学 総合情報センター 数理情報システム学講座</td>
+									</tr>
+									<tr class="lecTitle">
+										<td class="tNumber">第7回 </td>
+										<td class="tDate">11月16日(金) 4限</td>
+										<td class="tTitle">未定</td>
+										<td class="tPlace">A104</td>
+									</tr>
+									<tr class="lecturer">
+										<td></td>
+										<td colspan="3">【講師】庄納 崇 シニアディレクター<br>
+										インテル株式会社 通信デバイス事業本部 グローバルワイヤレス営業本部 日本担当</td>
+									</tr>
+									<tr class="lecTitle">
+										<td class="tNumber">第8回 </td>
+										<td class="tDate">11月21日(水) 3限</td>
+										<td class="tTitle">東京オリンピックとICT(仮)</td>
+										<td class="tPlace">C101</td>
+									</tr>
+									<tr class="lecturer">
+										<td></td>
+										<td colspan="3">【講師】広瀬 明貞 氏<br>
+										東京オリンピック委員会
+									</td>
+									</tr>
+                                    <tr class="lecTitle">
+										<td class="tNumber">第9回 </td>
+										<td class="tDate">11月29日(木) 4限</td>
+										<td class="tTitle">未定</td>
+										<td class="tPlace">未定</td>
+									</tr>
+									<tr class="lecturer">
+										<td></td>
+										<td colspan="3">【講師】北條 雅一 教授<br>
+										駒澤大学 経済学部 経済学科
+									</td>
+									</tr>
+									<tr class="lecTitle">
+										<td class="tNumber">第10回 </td>
+										<td class="tDate">12月7日(金) 3限</td>
+										<td class="tTitle">高齢者にとっての使いやすさはあなたにとっての使いやすさと<br>同じか？：超高齢社会に挑戦するデザイン</td>
+										<td class="tPlace">C101</td>
+									</tr>
+									<tr class="lecturer">
+										<td></td>
+										<td colspan="3">【講師】原田 悦子 教授<br>
+										筑波大学 CUARみんラボ</td>
+									</tr>
+									<tr class="lecTitle">
+											<td class="tNumber">第11回 </td>
+											<td class="tDate">12月11日(火) 4限</td>
+											<td class="tTitle">社会インフラを支えるデータセンタのストレージ技術と運用管理</td>
+											<td class="tPlace">A107</td>
+										</tr>
+										<tr class="lecturer">
+											<td></td>
+											<td colspan="3">【講師】坂下 幸徳 氏・岩田 サトシ 氏<br>
+											SNIA日本支部 株式会社ゼットラボ・SNIA日本支部 富士通株式会社</td>
+									</tr>
+									<tr class="lecTitle">
+										<td class="tNumber">第12回 </td>
+										<td class="tDate">12月13日(木) 1限</td>
+										<td class="tTitle">未定</td>
+										<td class="tPlace">K201</td>
+									</tr>
+									<tr class="lecturer">
+										<td></td>
+										<td colspan="3">【講師】郭　書祥 教授<br>
+										香川大学 工学部 知能機械システム工学科</td>
+									</tr>
+									<tr class="lecTitle">
+										<td class="tNumber">第13回 </td>
+										<td class="tDate">12月13日(木) 2限</td>
+										<td class="tTitle">未定</td>
+										<td class="tPlace">K201</td>
+									</tr>
+									<tr class="lecturer">
+										<td></td>
+										<td colspan="3">【講師】福田 敏夫 教授<br>
+										名城大学 理工学部 メカトロニクス工学科</td>
+									</tr>		
+									<tr class="lecTitle">
+										<td class="tNumber">第14回 </td>
+										<td class="tDate">1月15日(火) 3限</td>
+										<td class="tTitle">環境適応ロボティクス Environment-adaptive Robotics(予定)</td>
+										<td class="tPlace">C101</td>
+									</tr>
+									<tr class="lecturer">
+										<td></td>
+										<td colspan="3">【講師】馬 書根 教授<br>
+										立命館大学 理工学部 ロボティクス学科</td>
+									</tr>
+								</tbody>
+							</table>
+						</tbody>
+						</table>
+						</ul>
+					</div><!--table-->
+				</div><!--mainContents-->
+			</div><!--baseContents-->
+		<!--#include file="footer.html"-->
+	</body>
 </html>
