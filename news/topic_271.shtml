@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>平成30年度情報学群研究室対抗eSports大会が開催されます！</title>
+    <link rel="stylesheet" href="css/base.css" media="all" title="header" charset="utf-8" />
+    <link rel="stylesheet" href="css/topic_news_article.css" media="all" title="header" charset="utf-8" />
+    <link rel="icon" href="../img/favicon2.png" type="image/png" />
+    <script type="text/javascript">
+        window.onload = function(){
+          headSerect(0);
+        }
+    </script>
+  </head>
+  <body>
+    <!--#include file="header.html"-->
+    <div id="baseContents">
+      <div class="pankuzu">
+        <a href="../index.shtml">HOME</a> > <a href="../topic_news.shtml">Topics&amp;News</a> > News詳細
+      </div> <!-- pankuzu -->
+      <div class="subTitle">
+        <h1><span class="topChar">T</span>opics</h1><h2>and</h2><h1><span class="topChar">N</span>ews</h1>
+      </div><!-- title -->
+      <div class="newsArea">
+        <dt>2018.11.24</dt>
+        <h1>平成30年度情報学群研究室対抗eSports大会が開催されます！</h1>
+        <hr />
+                <div class="mainImgArea">
+          <img src="img/id271_1.jpg" class="mainImg" />
+        </div><!-- mainImgArea -->
+                <p class="mainSentence">
+        　9月3日に行った<a href="http://www.info.kochi-tech.ac.jp/news/topic_263.shtml">情報学群研究室対抗スポーツ大会</a>において中止となったeSports大会が満を持して開催されます！<br />
+　現時点でのeSports大会の概要は以下のようになっております。<br />
+【大会概要】<br />
+日時：2018年12月22日(土) 10:00~18:00(宣伝ポスターの掲載時間から変更されました)<br />
+場所：高知工科大学 香美キャンパス 講堂<br />
+参加者：情報学群 11研究室<br />
+種目：マリオカート、大乱闘スマッシュブラザーズ、Gang Beasts        </p><!-- mainSentence -->
+                <div class="subArea">
+                    <p>
+            　8月頃から大会主催研究室の方々が入念なテストプレイを実施してくださっており、着々と大会当日への準備が整ってきているようです。<br />
+　普段講義を行っている講堂の大きなスクリーンでゲーム観戦ができるのは本大会だけではないでしょうか。初の試みであるeSports大会は参加者だけでなく、観戦される方も十分楽しめる大会になると期待されます。          </p>
+                      <img src="img/id271_2.jpg" />
+                  </div><!-- subArea -->
+                <div class="subArea">
+                    <p>
+            　本大会の参加者は事前申し込みをされた研究室のみとなっておりますが、観戦はもちろん自由なのでお気軽にご来場ください。また、YouTubeにてライブストリーミングも予定しております。<br />
+　大会に関する最新情報は<a href="https://twitter.com/KUTinfo_eSports?lang=ja">こちら</a>のTwitterアカウントで発信しておりますので、文中のリンクもしくは右のQRコードからご確認ください。<br />
+          </p>
+                    <img src="img/id271_3.jpg" />
+                  </div><!-- subArea -->
+              </div><!-- newsArea -->
+    </div><!-- baseContents -->
+    <!--#include file="footer.html"-->
+
+  </body>
+</html>
