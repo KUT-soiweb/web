@@ -139,7 +139,7 @@
 										<td class="tNumber">第8回 </td>
 										<td class="tDate">11月21日(水) 3限</td>
 										<td class="tTitle">東京オリンピックとICT(仮)</td>
-										<td class="tPlace">C101</td>
+                                        <td class="tPlace"><span style="border-bottom: solid 1.5px red;">C102</span></td>
 									</tr>
 									<tr class="lecturer">
 										<td></td>
@@ -184,7 +184,7 @@
 									<tr class="lecTitle">
 										<td class="tNumber">第12回 </td>
 										<td class="tDate">12月13日(木) 1限</td>
-										<td class="tTitle">未定</td>
+                                        <td class="tTitle"> <span style="border-bottom: solid 1.5px red;">Catheter Opereating Systems with Force Feedback for Medical Applications<br>医学用力フィードバック機能を持つカテーテル操作システムの開発</span></td>
 										<td class="tPlace">K201</td>
 									</tr>
 									<tr class="lecturer">
