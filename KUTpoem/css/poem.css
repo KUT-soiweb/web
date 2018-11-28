@@ -1,0 +1,299 @@
+* {
+	box-sizing: border-box;
+    margin: 0;
+}
+
+
+ul {
+	margin-top: 10px;
+}
+
+label {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    box-sizing: border-box;
+    cursor :pointer;
+    display: block;
+    height: 180px;
+    margin: 30px 0px 10px 0px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+#baseContents .title h2 {
+  font-size: 100%
+}
+
+#baseContents .title h1 {
+  font-weight: normal;
+}
+
+#baseContents .discription {
+    border: solid 1px #C0C0C0;
+    margin-bottom: 70px;
+}
+
+#baseContents .discription h1 {
+    font-size: 200%;
+    line-height: 1em;
+    margin: 0px 20px;
+    position: relative;
+    top: -17px;
+}
+
+#baseContents .discriptionContents {
+    margin: 0px 50px 30px;
+    line-height: 26px;
+}
+
+
+.monthContainer {
+    float: left;
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 4%;
+
+}
+
+.monthContainer h1 {
+    display: block;
+    font-size: 3em;
+    padding-bottom: 19px;
+    position: relative;
+}
+
+
+.imageContainer {
+    
+    background-size: cover;
+    float: right;
+    height: 100%;
+    width: 82%;
+}
+
+.gradationContainer {
+    background: -moz-linear-gradient(top, #FFFFFF, transparent);
+    background: -webkit-linear-gradient(top, #FFFFFF, transparent);
+    background: linear-gradient(to right, #FFFFFF, transparent);
+    float: left;
+    height: 100%;
+    width: 23%;
+}
+
+
+
+
+
+input[type="checkbox"].bellows{
+    display: none;
+    /* チェックボックスの非表示 */
+}
+ 
+#poem ul {
+/* メニュー開閉時アニメーション */
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ 
+ 
+#poem ul {
+    background: white;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+    box-sizing: border-box;
+    margin: 0;
+    width: 100%;
+
+}
+
+#poem li {
+	list-style: none;
+	clear: left;
+}
+#poem ul #poem li {
+	background: #fff;
+}
+
+
+ 
+/* ▽▽アコーディオン開閉指定▽▽ */
+input[type="checkbox"].bellows + ul{
+    max-height: 0;/* チェックが入っていない時の高さ */
+    overflow: hidden;
+}
+ 
+input[type="checkbox"].bellows:checked + ul{
+    max-height: 420em;/* チェックが入っているときの高さ */
+}
+/* △△アコーディオン開閉指定△△ */
+
+
+.poemContainer {
+    width: 95%;
+    margin: 0px auto;
+}
+
+.poemFunc {
+    margin-top: 22px;
+}
+
+.poemFunc img {
+	background-size: cover;
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+
+/* 各月のテーマカラーとサムネイル*/
+.jan label,
+.jan ul {
+    border-top: solid 5px #FFF15D;
+}
+.jan h1 {
+    border-bottom: solid 3px #FFF15D;
+}
+.jan .imageContainer {
+    background-image: url("../img/january_catch.jpg");
+}
+
+.feb label,
+.feb ul {
+    border-top: solid 5px #FF6C39;
+}
+.feb h1 {
+    border-bottom: solid 3px #FF6C39;
+}
+.feb .imageContainer {
+    background-image: url("../img/february_catch.jpg");
+}
+
+
+.mar label,
+.mar ul {
+    border-top: solid 5px #FF72C7;
+}
+.mar h1 {
+    border-bottom: solid 3px #FF72C7;
+}
+.mar .imageContainer {
+    background-image: url("../img/march_catch.jpg");
+}
+
+
+.apr label,
+.apr ul {
+    border-top: solid 5px #C8FF76;
+}
+.apr h1 {
+    border-bottom: solid 3px #C8FF76;
+}
+.apr .imageContainer {
+    background-image: url("../img/april_catch.jpg");
+}
+
+
+.may label,
+.may ul {
+    border-top: solid 5px #6FFF5D;
+}
+.may h1 {
+    border-bottom: solid 3px #6FFF5D;
+}
+.may .imageContainer {
+    background-image: url("../img/may_catch.jpg");
+}
+
+
+.jun label,
+.jun ul {
+    border-top: solid 5px #0DFFBE;
+}
+.jun h1 {
+    border-bottom: solid 3px #0DFFBE;
+}
+.jun .imageContainer {
+    background-image: url("../img/june_catch.jpg");
+}
+
+
+.jul label,
+.jul ul {
+    border-top: solid 5px #0FC2FF;
+}
+.jul h1 {
+    border-bottom: solid 3px #0FC2FF;
+}
+.jul .imageContainer {
+    background-image: url("../img/july_catch.jpg");
+}
+
+
+.aug label,
+.aug ul {
+    border-top: solid 5px #1DA3FF;
+}
+.aug h1 {
+    border-bottom: solid 3px #1DA3FF;
+}
+.aug .imageContainer {
+    background-image: url("../img/august_catch.jpg");
+}
+
+
+.sep label,
+.sep ul {
+    border-top: solid 5px #FFBD3A;
+}
+.sep h1 {
+    border-bottom: solid 3px #FFBD3A;
+}
+.sep .imageContainer {
+    background-image: url("../img/september_catch.jpg");
+}
+
+
+.oct label,
+.oct ul {
+    border-top: solid 5px #FF7F3D;
+}
+.oct h1 {
+    border-bottom: solid 3px #FF7F3D;
+}
+.oct .imageContainer {
+    background-image: url("../img/octber_catch.jpg");
+}
+
+
+.nov label,
+.nov ul {
+    border-top: solid 5px #FF376F;
+}
+.nov h1 {
+    border-bottom: solid 3px #FF376F;
+}
+.nov .imageContainer {
+    background-image: url("../img/november_catch.jpg");
+}
+
+
+.dec label,
+.dec ul {
+    border-top: solid 5px #D54FFF;
+}
+.dec h1 {
+    border-bottom: solid 3px #D54FFF;
+}
+.dec .imageContainer {
+    background-image: url("../img/december_catch.jpg");
+}
+
+
+
+
+
