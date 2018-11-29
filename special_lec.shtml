@@ -25,7 +25,7 @@
 						　めざましい発展を遂げる世界に生きる、様々な分野の講師から、その分野の「今」について聴くことができる情報学群特別講義。<br>
 						　今年も豪華な講師陣をお招きし、開講いたします。<br>
 						　4年生を対象とした講義ですが、1、２、３年生も聴講できます。<br>
-						　日程は決まり次第更新していきます。既に決まった日程の間に新たに予定が入り、順番が入れ替わることもありますのでご注意ください。(最終更新日:2018年10月22日)
+						　日程は決まり次第更新していきます。既に決まった日程の間に新たに予定が入り、順番が入れ替わることもありますのでご注意ください。(最終更新日:2018年11月29日)
 				</div><!--content-->
 				<!-- <div class="yearBox">
 					<form name="form">
@@ -127,7 +127,7 @@
 									<tr class="lecTitle">
 										<td class="tNumber">第7回 </td>
 										<td class="tDate">11月16日(金) 4限</td>
-										<td class="tTitle">未定</td>
+										<td class="tTitle">5G ~Moving Towards Develocoment~</td>
 										<td class="tPlace">A104</td>
 									</tr>
 									<tr class="lecturer">
@@ -139,7 +139,7 @@
 										<td class="tNumber">第8回 </td>
 										<td class="tDate">11月21日(水) 3限</td>
 										<td class="tTitle">東京オリンピックとICT(仮)</td>
-                                        <td class="tPlace"><span style="border-bottom: solid 1.5px red;">C102</span></td>
+                                        <td class="tPlace">C102</td>
 									</tr>
 									<tr class="lecturer">
 										<td></td>
@@ -151,7 +151,7 @@
 										<td class="tNumber">第9回 </td>
 										<td class="tDate">11月29日(木) 4限</td>
 										<td class="tTitle">未定</td>
-										<td class="tPlace">未定</td>
+										<td class="tPlace">A107</td>
 									</tr>
 									<tr class="lecturer">
 										<td></td>
@@ -159,8 +159,20 @@
 										駒澤大学 経済学部 経済学科
 									</td>
 									</tr>
-									<tr class="lecTitle">
+                                    <tr class="lecTitle">
 										<td class="tNumber">第10回 </td>
+										<td class="tDate">12月6日(金) 4 or 5限</td>
+										<td class="tTitle">「人権」って何？(仮)</td>
+										<td class="tPlace">C102</td>
+									</tr>
+                                    <tr class="lecturer">
+										<td></td>
+										<td colspan="3">【講師】藤本　晃嗣 准教授<br>
+										敬和学園大学　人文学部　国際文化学科
+									</td>
+									</tr>
+									<tr class="lecTitle">
+										<td class="tNumber">第11回 </td>
 										<td class="tDate">12月7日(金) 3限</td>
 										<td class="tTitle">高齢者にとっての使いやすさはあなたにとっての使いやすさと<br>同じか？：超高齢社会に挑戦するデザイン</td>
 										<td class="tPlace">C101</td>
@@ -171,7 +183,7 @@
 										筑波大学 CUARみんラボ</td>
 									</tr>
 									<tr class="lecTitle">
-											<td class="tNumber">第11回 </td>
+											<td class="tNumber">第12回 </td>
 											<td class="tDate">12月11日(火) 4限</td>
 											<td class="tTitle">社会インフラを支えるデータセンタのストレージ技術と運用管理</td>
 											<td class="tPlace">A107</td>
@@ -181,19 +193,20 @@
 											<td colspan="3">【講師】坂下 幸徳 氏・岩田 サトシ 氏<br>
 											SNIA日本支部 株式会社ゼットラボ・SNIA日本支部 富士通株式会社</td>
 									</tr>
+                                    <tr class="lecTitle">
+											<td class="tNumber">第13回 </td>
+											<td class="tDate">12月13日(木) 1限</td>
+											<td class="tTitle">Catheter Oprreating Systems with Force Feedback for Medical Applications<br>
+                                        医学用フィードバック機能を持つカテーテル操作システムの開発</td>
+											<td class="tPlace">K201</td>
+								    </tr>
+										<tr class="lecturer">
+											<td></td>
+											<td colspan="3">【講師】郭　書祥　教授<br>
+											香川大学創造工学部機械システム領域</td>
+                                    </tr>
 									<tr class="lecTitle">
-										<td class="tNumber">第12回 </td>
-										<td class="tDate">12月13日(木) 1限</td>
-                                        <td class="tTitle"> <span style="border-bottom: solid 1.5px red;">Catheter Opereating Systems with Force Feedback for Medical Applications<br>医学用力フィードバック機能を持つカテーテル操作システムの開発</span></td>
-										<td class="tPlace">K201</td>
-									</tr>
-									<tr class="lecturer">
-										<td></td>
-										<td colspan="3">【講師】郭　書祥 教授<br>
-										香川大学 工学部 知能機械システム工学科</td>
-									</tr>
-									<tr class="lecTitle">
-										<td class="tNumber">第13回 </td>
+										<td class="tNumber">第14回 </td>
 										<td class="tDate">12月13日(木) 2限</td>
 										<td class="tTitle">未定</td>
 										<td class="tPlace">K201</td>
@@ -204,7 +217,7 @@
 										名城大学 理工学部 メカトロニクス工学科</td>
 									</tr>		
 									<tr class="lecTitle">
-										<td class="tNumber">第14回 </td>
+										<td class="tNumber">第15回 </td>
 										<td class="tDate">1月15日(火) 3限</td>
 										<td class="tTitle">環境適応ロボティクス Environment-adaptive Robotics(予定)</td>
 										<td class="tPlace">C101</td>
