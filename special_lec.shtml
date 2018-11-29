@@ -25,7 +25,7 @@
 						　めざましい発展を遂げる世界に生きる、様々な分野の講師から、その分野の「今」について聴くことができる情報学群特別講義。<br>
 						　今年も豪華な講師陣をお招きし、開講いたします。<br>
 						　4年生を対象とした講義ですが、1、２、３年生も聴講できます。<br>
-						　日程は決まり次第更新していきます。既に決まった日程の間に新たに予定が入り、順番が入れ替わることもありますのでご注意ください。(最終更新日:2018年11月29日)
+						　日程は決まり次第更新していきます。既に決まった日程の間に新たに予定が入り、順番が入れ替わることもありますのでご注意ください。(最終更新日:2018年10月22日)
 				</div><!--content-->
 				<!-- <div class="yearBox">
 					<form name="form">
@@ -138,7 +138,7 @@
 									<tr class="lecTitle">
 										<td class="tNumber">第8回 </td>
 										<td class="tDate">11月21日(水) 3限</td>
-										<td class="tTitle">東京オリンピックとICT(仮)</td>
+										<td class="tTitle">東京オリンピックとICT</td>
                                         <td class="tPlace">C102</td>
 									</tr>
 									<tr class="lecturer">
@@ -150,7 +150,7 @@
                                     <tr class="lecTitle">
 										<td class="tNumber">第9回 </td>
 										<td class="tDate">11月29日(木) 4限</td>
-										<td class="tTitle">未定</td>
+										<td class="tTitle">消費税率の引き上げと軽減税率</td>
 										<td class="tPlace">A107</td>
 									</tr>
 									<tr class="lecturer">
@@ -161,7 +161,7 @@
 									</tr>
                                     <tr class="lecTitle">
 										<td class="tNumber">第10回 </td>
-										<td class="tDate">12月6日(金) 4 or 5限</td>
+										<td class="tDate">12月6日(金) 4限</td>
 										<td class="tTitle">「人権」って何？(仮)</td>
 										<td class="tPlace">C102</td>
 									</tr>
@@ -190,7 +190,7 @@
 										</tr>
 										<tr class="lecturer">
 											<td></td>
-											<td colspan="3">【講師】坂下 幸徳 氏・岩田 サトシ 氏<br>
+											<td colspan="3">【講師】坂下 幸徳 氏・岩田 聡 氏<br>
 											SNIA日本支部 株式会社ゼットラボ・SNIA日本支部 富士通株式会社</td>
 									</tr>
                                     <tr class="lecTitle">
@@ -238,4 +238,3 @@
 		<!--#include file="footer.html"-->
 	</body>
 </html>
-
