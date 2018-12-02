@@ -39,16 +39,16 @@
         <h2>最近のニュース</h2>
         <div class="newsContents" id="newsDiv">
           <dl id="newsDl">
+                    <dt name="nDate">2018.12.1</dt>
+                      <dd name="nData"><a href="special_lec.shtml">情報学群特別講義ページ</a>を更新しました。</dd>
+                    <dt name="nDate">2018.12.1</dt>
+                      <dd name="nData"><a href = "KUTpoem/index.shtml">11月分のポエム</a>を更新しました。</dd>
                     <dt name="nDate">2018.11.24</dt>
                       <dd name="nData"><a href="./news/topic_271.shtml" >平成30年度情報学群研究室対抗eSports大会が開催されます！</a></dd>
                     <dt name="nDate">2018.11.18</dt>
                       <dd name="nData">高知工科大学推薦入試が行われました。合格発表は11月22日木曜日に<a href="https://www.kochi-tech.ac.jp/entrance_info/admission/info_after/result.html">こちら</a>で公開されます。</dd>
                     <dt name="nDate">2018.11.14</dt>
                       <dd name="nData">2018年11月12日、学部3年生による夏季インターンシップ報告会が行われました。</dd>
-                    <dt name="nDate">2018.11.1</dt>
-                      <dd name="nData"><a href = "KUTpoem/index.shtml">10月分のポエム</a>を更新しました。</dd>
-                    <dt name="nDate">2018.10.25</dt>
-                      <dd name="nData"><a href="special_lec.shtml">情報学群特別講義ページ</a>の今年度のスケジュールを更新しました。</dd>
                     </dl>
           <div class="oldNews">
             <a href="topic_news.shtml">ニュース一覧　&raquo;</a>
