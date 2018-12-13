@@ -8,10 +8,10 @@
 		<link rel="stylesheet" type="text/css" href="css/base.css">
 		<link rel="stylesheet" type="text/css" href="css/after_graduation.css">
 		<link rel="icon" href="img/favicon2.png" type="image/png" />
-    <script type="text/javascript" src="js/area_company_data.js"></script>
+    <script type="text/javascript" src="js/area_company_data.js">ｓ</script> <!--企業データ-->
 		<script type="text/javascript" src="js/Chart.Core.js"></script>
 		<script type="text/javascript" src="js/Chart.Doughnut.js"></script>
-		<script type="text/javascript" src="js/graph_Data.js"></script>
+		<script type="text/javascript" src="js/graph_Data.js"></script> <!--グラフデータ -->
 		<script type="text/javascript">
 				window.onload = function(){
 					headSerect(4);
@@ -37,35 +37,35 @@
 					<div class="data data01">
 						<div class="graph">
 							<div class="graphTitle">
-								<span>2015</span>年度<br>
-								進路別内訳
-							</div><!-- graphTitle -->
-							<canvas id="Graph01"></canvas>
-						</div><!-- graph -->
-						<dl>
-							<dt>卒業者総数</dt><dd>100</dd>
-							<dt>本学進学</dt><dd>15</dd>
-							<!-- <dt>他大学等進学</dt><dd>1</dd> -->
-							<dt>就職</dt><dd>79</dd>
-							<dt>その他</dt><dd>6</dd>
-						</dl>
-					</div><!-- dataYear2015 -->
-					<div class="data data02">
-						<div class="graph">
-							<div class="graphTitle">
 								<span>2016</span>年度<br>
 								進路別内訳
 							</div><!-- graph -->
 							<canvas id="Graph02"></canvas>
 						</div>
 						<dl>
-							<dt>卒業者総数</dt><dd>102</dd>
+							<dt>卒業者総数</dt><dd>103</dd>
 							<dt>本学進学</dt><dd>19</dd>
 							<!--<dt>他大学等進学</dt><dd>1</dd> -->
 							<dt>就職</dt><dd>81</dd>
 							<dt>その他</dt><dd>2</dd>
 						</dl>
 					</div><!-- dataYear2016 -->
+					<div class="data data02">
+						<div class="graph">
+							<div class="graphTitle">
+								<span>2017</span>年度<br>
+								進路別内訳
+							</div><!-- graphTitle -->
+							<canvas id="Graph01"></canvas>
+						</div><!-- graph -->
+						<dl>
+							<dt>卒業者総数</dt><dd>98</dd>
+							<dt>本学進学</dt><dd>21</dd>
+							<!-- <dt>他大学等進学</dt><dd>2</dd> -->
+							<dt>就職</dt><dd>73</dd>
+							<dt>その他</dt><dd>4</dd>
+						</dl>
+					</div><!-- dataYear2017 -->
 				</div><!-- graduationInner -->
 				<div class="comment">ここでは過去2年間のデータを掲載しています。</div>
 			</div><!-- graduation -->
@@ -155,7 +155,7 @@
 						<div class="areaInfo fadeIn" id="areaInfo02"></div><!-- areaInfo02 -->
 					</div><!-- areaBox -->
 				</div><!-- employmentInner -->
-				<div class="comment">ここでは過去7年間のデータを掲載しています。</div>
+				<div class="comment">ここでは過去8年間のデータを掲載しています。</div>
 			</div><!-- employmentList -->
 		</div><!-- baseContents -->
         <!--#include file="footer.html"-->
