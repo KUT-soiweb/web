@@ -8,7 +8,7 @@
 		<link rel="stylesheet" type="text/css" href="css/base.css">
 		<link rel="stylesheet" type="text/css" href="css/after_graduation.css">
 		<link rel="icon" href="img/favicon2.png" type="image/png" />
-    <script type="text/javascript" src="js/area_company_data.js">ｓ</script> <!--企業データ-->
+    <script type="text/javascript" src="js/area_company_data.js"></script> <!--企業データ-->
 		<script type="text/javascript" src="js/Chart.Core.js"></script>
 		<script type="text/javascript" src="js/Chart.Doughnut.js"></script>
 		<script type="text/javascript" src="js/graph_Data.js"></script> <!--グラフデータ -->
