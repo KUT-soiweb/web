@@ -43,7 +43,7 @@
 							<canvas id="Graph01"></canvas>
 						</div><!-- graph -->
 						<dl>
-							<dt>卒業者総数</dt><dd>103</dd>
+							<dt>卒業者総数</dt><dd>102</dd>
 							<dt>本学進学</dt><dd>19</dd>
 							<!-- <dt>他大学等進学</dt><dd>1</dd> -->
 							<dt>就職</dt><dd>81</dd>
@@ -55,9 +55,9 @@
 							<div class="graphTitle">
 								<span>2017</span>年度<br>
 								進路別内訳
-							</div><!-- graph -->
+							</div><!-- graphTitle -->
 							<canvas id="Graph02"></canvas>
-						</div>
+						</div><!-- graph -->
 						<dl>
 							<dt>卒業者総数</dt><dd>98</dd>
 							<dt>本学進学</dt><dd>21</dd>
