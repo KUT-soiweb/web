@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>本学群の松崎公紀教授と松崎研究室学部4年生の寺村舞童華さんが国際会議TAAI2018 Best Paper Awardを受賞しました。</title>
+    <link rel="stylesheet" href="css/base.css" media="all" title="header" charset="utf-8" />
+    <link rel="stylesheet" href="css/topic_news_article.css" media="all" title="header" charset="utf-8" />
+    <link rel="icon" href="../img/favicon2.png" type="image/png" />
+    <script type="text/javascript">
+        window.onload = function(){
+          headSerect(0);
+        }
+    </script>
+  </head>
+  <body>
+    <!--#include file="header.html"-->
+    <div id="baseContents">
+      <div class="pankuzu">
+        <a href="../index.shtml">HOME</a> > <a href="../topic_news.shtml">Topics&amp;News</a> > News詳細
+      </div> <!-- pankuzu -->
+      <div class="subTitle">
+        <h1><span class="topChar">T</span>opics</h1><h2>and</h2><h1><span class="topChar">N</span>ews</h1>
+      </div><!-- title -->
+      <div class="newsArea">
+        <dt>2018.12.15</dt>
+        <h1>本学群の松崎公紀教授と松崎研究室学部4年生の寺村舞童華さんが国際会議TAAI2018 Best Paper Awardを受賞しました。</h1>
+        <hr />
+                <div class="mainImgArea">
+          <img src="img/id274_1.jpg" class="mainImg" />
+        </div><!-- mainImgArea -->
+                <p class="mainSentence">
+        　本学群の松崎公紀教授と学部4年生の寺村舞童華さんとの以下の共著論文<br />
+   Kiminori Matsuzaki, Madoka Teramura:<br />
+   Interpreting Neural-Network Players for Game 2048.<br />
+が、台湾の台中で開催された国際会議 TAAI2018(The 2018 Conference on<br />
+Technologies and Applications of Artificial Intelligence)において、Best Paper Awardを受賞しました。<br />
+        </p><!-- mainSentence -->
+                <div class="subArea">
+                    <p>
+            　松崎研究室（高度プログラミング研究室）では、ゲーム「2048」のニューラルネットワークプレイヤを開発してきました。<br />
+　本論文は、ニューラルネットワークプレイヤの内部動作を解析して、3層以上のニューラルネットワークによるプレイヤの性能が高い理由を解明したものです。          </p>
+                      <img src="img/id274_2.jpg" />
+                  </div><!-- subArea -->
+              </div><!-- newsArea -->
+    </div><!-- baseContents -->
+    <!--#include file="footer.html"-->
+
+  </body>
+</html>
