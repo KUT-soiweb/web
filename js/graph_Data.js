@@ -1,17 +1,17 @@
 
 /* ここにデータを入力してください */
-/* 2015データ */
-shingaku01 = 15; /* 進学 */
-//kaShingaku01 = 1; /* 他大学等進学 */
-shushoku01 = 79; /* 就職 */
-sonota01 = 6; /* その他 */
 /* 2016データ */
-shingaku02 = 19; /* 進学 */
-//hokaShingaku02 = 1; /* 他大学等進学 */
-shushoku02 = 81; /* 就職 */
-sonota02 = 2; /* その他 */
+shingaku01 = 19; /* 進学 */
+//kaShingaku01 = 1; /* 他大学等進学 */
+shushoku01 = 81; /* 就職 */
+sonota01 = 2; /* その他 */
+/* 2017データ */
+shingaku02 = 21; /* 進学 */
+//hokaShingaku02 = 2; /* 他大学等進学 */
+shushoku02 = 73; /* 就職 */
+sonota02 = 4; /* その他 */
 
-/* 2015グラフデータ */
+/* 2016グラフデータ */
 var graphData01 = [
 	{
 		value: shingaku01,
@@ -34,7 +34,7 @@ var graphData01 = [
 		color: "#b5d08c"
 	}
 ];
-/* 2016グラフデータ */
+/* 2017グラフデータ */
 var graphData02 = [
 	{
 		value: shingaku02,
