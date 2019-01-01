@@ -39,6 +39,8 @@
         <h2>最近のニュース</h2>
         <div class="newsContents" id="newsDiv">
           <dl id="newsDl">
+                    <dt name="nDate">2018.12.30</dt>
+                      <dd name="nData"><a href="./news/topic_275.shtml" >平成30年度情報学群研究室対抗eSports大会が開催されました。</a></dd>
                     <dt name="nDate">2018.12.15</dt>
                       <dd name="nData"><a href="./news/topic_274.shtml" >本学群の松崎公紀教授と松崎研究室学部4年生の寺村舞童華さんが国際会議TAAI2018 Best Paper Awardを受賞しました。</a></dd>
                     <dt name="nDate">2018.12.1</dt>
@@ -47,8 +49,6 @@
                       <dd name="nData"><a href = "KUTpoem/index.shtml">11月分のポエム</a>を更新しました。</dd>
                     <dt name="nDate">2018.11.24</dt>
                       <dd name="nData"><a href="./news/topic_271.shtml" >平成30年度情報学群研究室対抗eSports大会が開催されます！</a></dd>
-                    <dt name="nDate">2018.11.18</dt>
-                      <dd name="nData">高知工科大学推薦入試が行われました。合格発表は11月22日木曜日に<a href="https://www.kochi-tech.ac.jp/entrance_info/admission/info_after/result.html">こちら</a>で公開されます。</dd>
                     </dl>
           <div class="oldNews">
             <a href="topic_news.shtml">ニュース一覧　&raquo;</a>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>平成30年度情報学群研究室対抗eSports大会が開催されました。</title>
+    <link rel="stylesheet" href="css/base.css" media="all" title="header" charset="utf-8" />
+    <link rel="stylesheet" href="css/topic_news_article.css" media="all" title="header" charset="utf-8" />
+    <link rel="icon" href="../img/favicon2.png" type="image/png" />
+    <script type="text/javascript">
+        window.onload = function(){
+          headSerect(0);
+        }
+    </script>
+  </head>
+  <body>
+    <!--#include file="header.html"-->
+    <div id="baseContents">
+      <div class="pankuzu">
+        <a href="../index.shtml">HOME</a> > <a href="../topic_news.shtml">Topics&amp;News</a> > News詳細
+      </div> <!-- pankuzu -->
+      <div class="subTitle">
+        <h1><span class="topChar">T</span>opics</h1><h2>and</h2><h1><span class="topChar">N</span>ews</h1>
+      </div><!-- title -->
+      <div class="newsArea">
+        <dt>2018.12.30</dt>
+        <h1>平成30年度情報学群研究室対抗eSports大会が開催されました。</h1>
+        <hr />
+                <div class="mainImgArea">
+          <img src="img/id275_1.JPG" class="mainImg" />
+        </div><!-- mainImgArea -->
+                <p class="mainSentence">
+        　卒業研究発表に向け刻一刻と近づいてきている12月22日、本学香美キャンパス講堂にて研究室対抗eSports大会が開催されました。<br />
+　eSports (エレクトロニック・スポーツ) は、市販されているコンピュータゲームをスポーツとして捉えて楽しむ競技です。近年、特に大きく注目されており、高額な賞金がかけられた大会の開催が相次ぐ他、2022年に開催されるアジア競技大会では正式メダル種目になることが決定しています。<br />
+　本学群では毎年スポーツ大会を任意の研究室メンバーが集い開催しており、今年度は9月3日, 4日にフットサルのほか、eSports大会も予定されていましたが、台風接近のためやむなく12月22日に延期されました。<br />
+　今年度は<a href="http://krlab.info.kochi-tech.ac.jp">栗原研究室</a>が主催で11もの研究室が大会に参加し、出場する選手からはやる気に満ちた声が聞こえてきました。競技種目は、任天堂社の<a href="https://www.nintendo.co.jp/switch/aabpa/index.html">マリオカート8 デラックス</a>, <a href="https://www.smashbros.com/ja_JP/">大乱闘スマッシュブラザーズ SPECIAL</a>, 独立系開発企業 Boneloaf の <a href=" https://store.steampowered.com/app/285900/Gang_Beasts/?l=japanese">Gang Beasts</a> です。        </p><!-- mainSentence -->
+                <div class="subArea">
+                    <p>
+            　今回、採用したゲームタイトルに対する経験の偏りをできるだけ防ぐために運要素を多く取り入れることで各種目で白熱する戦いが繰り広げられ、外野からも応援する声が多く上がっていました。<br />
+　各競技の結果は以下のようになりました。<br />
+<br />
+マリオカート8 デラックス<br />
+　　優勝　　横山研究室<br />
+　　準優勝　岩田研究室<br />
+<br />
+大乱闘スマッシュブラザーズ SPECIAL<br />
+　　優勝　　濱村研究室<br />
+　　準優勝　吉田研究室<br />
+<br />
+Gang Beasts<br />
+　　優勝　　篠森研究室<br />
+　　準優勝　植田研究室<br />
+<br />
+総合順位<br />
+　　優勝　　濱村研究室<br />
+　　準優勝　篠森研究室<br />
+<br />
+<br />
+<br />
+<br />
+          </p>
+                      <img src="img/id275_2.JPG" />
+                  </div><!-- subArea -->
+                <div class="subArea">
+                    <p>
+            　実際に選手の目の前にはディスプレイが置かれ、また講堂の大スクリーン、照明、音響の使用において音響技術部の協力もあり、選手側も観戦側も環境や設備はかなり整えられていました。また、大乱闘スマッシュブラザーズでは高知大学スマブラサークルから、Gang Beasts では本学群講師の<a href="http://www.info.kochi-tech.ac.jp/faculty_members/profile_takeuchi.shtml">竹内聖悟氏</a>をお呼びし、実況を務めていただきました。<br />
+<br />
+　参加した学生からは「とても楽しかった。今後もこのような活動が盛り上がっていけば嬉しい」、主催研究室の学生は「本番トラブルも多く発生したが、参加者の皆さんで盛り上がってもらえたのが一番嬉しい」というような声がありました。<br />
+　来年度の開催研究室はまだ決まっておらず、栗原研究室にて厳正なクジ引きで決定される予定です。今後も情報学群研究室対抗スポーツ大会を盛り上げていきたいですね。<br />
+<br />
+<br />
+　当日のyoutube配信動画は<a href="https://youtu.be/Q3Ff9Xu4JNA">こちら</a>          </p>
+                    <img src="img/id275_3.png" />
+                  </div><!-- subArea -->
+              </div><!-- newsArea -->
+    </div><!-- baseContents -->
+    <!--#include file="footer.html"-->
+
+  </body>
+</html>
