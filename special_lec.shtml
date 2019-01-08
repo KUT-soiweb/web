@@ -32,7 +32,7 @@
 					<form name="form">
 						<ul>
 							<label>
-								<input type="radio" name="yearbtn" value="H_30" onchange="onYearChange();" checked="">
+								<input type="radio" name="yearbtn" value="H_30" onchange="onYearChange();" checked>
 									<li>
 										<span class="nendo">平成</span>
 										30
@@ -40,16 +40,16 @@
 									</li>
 				            </label>
                             <label>
-								<input type="radio" name="yearbtn" value="H_29" onchange="onYearChange();" checked="">
+								<input type="radio" name="yearbtn" value="H_29" onchange="onYearChange();">
 									<li>
 										<span class="nendo">平成</span>
 										29
 										<span class="nendo">年度</span>
 									</li>
 				            </label>
-								</ul>
-								</form>
-					  </div>
+				        </ul>
+				    </form>
+				</div>
 						<ul class="listNews" name="year" id="H_30" style="display: block;">
 						<div class="table">
 							<table align="right">
@@ -238,6 +238,7 @@
 									</tr>
 								</tbody>
 							</table>
+                            </div>
                             </ul>
                         <ul class="listNews" name="year" id="H_29" style="display: block;">
 						<div class="table">
@@ -425,6 +426,8 @@
 					</tbody>
 				    </table>
 					</div><!--table-->
+                    </ul>
+                </content>
 				</div><!--mainContents-->
 			</div><!--baseContents-->
 		<!--#include file="footer.html"-->
