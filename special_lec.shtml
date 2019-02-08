@@ -35,14 +35,14 @@
 								<input type="radio" name="yearbtn" value="H_30" onchange="onYearChange();" checked>
 									<li>
 										2018
-										<span class="nendo">年</span>
+										<span class="nendo">年度</span>
 									</li>
 				            </label>
                             <label>
 								<input type="radio" name="yearbtn" value="H_29" onchange="onYearChange();">
 									<li>
 										2017
-										<span class="nendo">年</span>
+										<span class="nendo">年度</span>
 									</li>
 				            </label>
 				        </ul>
