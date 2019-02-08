@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>平成30年度ソフトウェア工学演習成果発表会が行われました。</title>
+    <link rel="stylesheet" href="css/base.css" media="all" title="header" charset="utf-8" />
+    <link rel="stylesheet" href="css/topic_news_article.css" media="all" title="header" charset="utf-8" />
+    <link rel="icon" href="../img/favicon2.png" type="image/png" />
+    <script type="text/javascript">
+        window.onload = function(){
+          headSerect(0);
+        }
+    </script>
+  </head>
+  <body>
+    <!--#include file="header.html"-->
+    <div id="baseContents">
+      <div class="pankuzu">
+        <a href="../index.shtml">HOME</a> > <a href="../topic_news.shtml">Topics&amp;News</a> > News詳細
+      </div> <!-- pankuzu -->
+      <div class="subTitle">
+        <h1><span class="topChar">T</span>opics</h1><h2>and</h2><h1><span class="topChar">N</span>ews</h1>
+      </div><!-- title -->
+      <div class="newsArea">
+        <dt>2019.2.2</dt>
+        <h1>平成30年度ソフトウェア工学演習成果発表会が行われました。</h1>
+        <hr />
+                <div class="mainImgArea">
+          <img src="img/id280_1.jpg" class="mainImg" />
+        </div><!-- mainImgArea -->
+                <p class="mainSentence">
+        　本学群3年生の講義の1つである「ソフトウェア工学演習」の成果発表会が1月31日に行われました。<br />
+　この講義では７人程度のチームで昨年度とは異なりランダムで、決められたチーム構成により行われた。テーマは、「ある地域または組織の人々の課題」を解決するシステムであることなどが条件として課されていました。提案したシステムの外部設計書・内部設計書を作成し、設計・実装・テストまでを実際に行います。システムの実装だけでなくプロジェクトの進行の仕方やレビューなども、並行して進められます。この開発工程の模擬体験を通して、プロジェクトマネジメントの重要性を感じつつ、ソフトウェア開発の基礎知識と実践的な技術用法を身につけることを目的としています。今回の発表会で、４ヶ月をかけて制作した成果発表・振り返りを行いました。全14チームの発表はどれも素晴らしい発表でした。        </p><!-- mainSentence -->
+                <div class="subArea">
+                    <p>
+            　今年は、前半と後半それぞれ7チームのライトニングトーク後、各チームのブースにてポスターの掲示とデモンストレーションが行われました。デモンストレーションでは、自分で直に体験することができることにより、システムの利便性を実感することができました。具体的なシステムとして、大学生の課題解決のために作られたシステム、例えば時間割システムや食堂メニュー閲覧システムなどがありました。また、社会的な課題である、ゴミ分別などの解決につながるシステムや無人販売を行うためのシステムの開発がされていました。          </p>
+                      <img src="img/id280_2.jpg" />
+                  </div><!-- subArea -->
+                <div class="subArea">
+                    <p>
+            　発表会には毎年、企業の方や他大学の先生方をゲストとして招いており、学生たちのさらなる成長につながるコメントをいただきました。<br />
+　この講義・発表を通じて、社会に出て必要なプロジェクトマネジメントの力や、さまざまな技術を調査・習得して作品を完成させる力を身に付けることができたと思います。          </p>
+                    <img src="img/id280_3.jpg" />
+                  </div><!-- subArea -->
+              </div><!-- newsArea -->
+    </div><!-- baseContents -->
+    <!--#include file="footer.html"-->
+
+  </body>
+</html>
