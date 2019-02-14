@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>平成30年度情報学群卒業研究発表会のご案内</title>
+    <link rel="stylesheet" href="css/base.css" media="all" title="header" charset="utf-8" />
+    <link rel="stylesheet" href="css/topic_news_article.css" media="all" title="header" charset="utf-8" />
+    <link rel="icon" href="../img/favicon2.png" type="image/png" />
+    <script type="text/javascript">
+        window.onload = function(){
+          headSerect(0);
+        }
+    </script>
+  </head>
+  <body>
+    <!--#include file="header.html"-->
+    <div id="baseContents">
+      <div class="pankuzu">
+        <a href="../index.shtml">HOME</a> > <a href="../topic_news.shtml">Topics&amp;News</a> > News詳細
+      </div> <!-- pankuzu -->
+      <div class="subTitle">
+        <h1><span class="topChar">T</span>opics</h1><h2>and</h2><h1><span class="topChar">N</span>ews</h1>
+      </div><!-- title -->
+      <div class="newsArea">
+        <dt>2019.2.14</dt>
+        <h1>平成30年度情報学群卒業研究発表会のご案内</h1>
+        <hr />
+                <p class="mainSentence">
+        　下記日程のとおり、平成30年度情報学群卒業研究発表会が行われます。<br />
+日　　時　：		2019年2月18日（月）一般公開 10:00-17:00 頃<br />
+　　　　　　 2019年2月19日（火）一般公開 9:50-14:30 頃<br />
+場　　所　：	高知工科大学 <a href="https://www.kochi-tech.ac.jp/about/access/kami.html">香美キャンパス</a> 教育研究棟 C101 及び C102<br />
+問い合わせ：	<a href="../faculty_members/profile_shigemasu.shtml">繁桝 博昭 准教授</a> までお問い合わせください。<br />
+　　　　　　 プログラムは <a href="http://www.info.kochi-tech.ac.jp/internal/BachelorPresentation2019.pdf">こちら</a> (学内限定)<br />
+備　　考　：	プログラムは両教室にて同時進行で開催されます。        </p><!-- mainSentence -->
+              </div><!-- newsArea -->
+    </div><!-- baseContents -->
+    <!--#include file="footer.html"-->
+
+  </body>
+</html>

@@ -39,16 +39,16 @@
         <h2>最近のニュース</h2>
         <div class="newsContents" id="newsDiv">
           <dl id="newsDl">
+                    <dt name="nDate">2019.2.14</dt>
+                      <dd name="nData"><a href="./news/topic_283.shtml" >平成30年度情報学群卒業研究発表会のご案内</a></dd>
+                    <dt name="nDate">2019.2.7</dt>
+                      <dd name="nData"><a href="./news/topic_282.shtml" >平成30年度修士論文発表会が行われました。</a></dd>
                     <dt name="nDate">2019.2.5</dt>
                       <dd name="nData"><a href="./news/topic_281.shtml" >平成30年度修士論文発表会のご案内</a></dd>
                     <dt name="nDate">2019.2.2</dt>
                       <dd name="nData"><a href="./news/topic_280.shtml" >平成30年度ソフトウェア工学演習成果発表会が行われました。</a></dd>
                     <dt name="nDate">2019.1.25</dt>
                       <dd name="nData"><a href="./news/topic_279.shtml" >平成30年度ソフトウェア工学演習成果発表会のご案内</a></dd>
-                    <dt name="nDate">2019.1.22</dt>
-                      <dd name="nData"><a href="KUTpoem/index.shtml">1月分のポエム</a>を更新しました。</dd>
-                    <dt name="nDate">2019.1.7</dt>
-                      <dd name="nData"><a href="https://www.kochi-tech.ac.jp/news/2018/004181.html">大学院情報学コース1年生2人が学生麻雀の全国大会「第23回青雀旗 (せいじゃんき) 争奪学生麻雀選手権」で優勝しました。</a>高知新聞にも<a href="https://www.kochinews.co.jp/article/242730/">掲載</a>されました。</dd>
                     </dl>
           <div class="oldNews">
             <a href="topic_news.shtml">ニュース一覧　&raquo;</a>
