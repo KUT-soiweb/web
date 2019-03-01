@@ -40,6 +40,36 @@
       <!-- poem -->
       <div id="poem">
 
+        <!-- feb -->
+    <div class="feb">
+          <label for="feb">
+          <!-- monthContainer -->
+            <div class="monthContainer">
+              <h1>2月</h1>
+            </div><!-- monthContainer -->
+            <!-- imageContainer -->
+            <div class="imageContainer">
+              <div class="gradationContainer"></div><!-- gradationContainer -->
+            </div><!-- imageContainer -->
+          </label>
+
+          <input type="checkbox" id="feb" class="bellows">
+
+          <ul>
+            <li>
+
+              <!-- poemContainer -->
+              <div class="poemContainer">
+                <!-- poemFunc -->
+                <div class="poemFunc">
+                  <img src="img/february_poem.jpg" alt="February Poem Image">
+                </div><!-- poemFunc -->
+              </div><!-- poemContainer -->
+            </li>
+          </ul>
+      </div><!-- feb -->
+
+
         <!-- jan -->
         <div class="jan">
           <label for="jan">
