@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>平成30年度情報学群卒業式・情報学コース修了式が行われました。</title>
+    <link rel="stylesheet" href="css/base.css" media="all" title="header" charset="utf-8" />
+    <link rel="stylesheet" href="css/topic_news_article.css" media="all" title="header" charset="utf-8" />
+    <link rel="icon" href="../img/favicon2.png" type="image/png" />
+    <script type="text/javascript">
+        window.onload = function(){
+          headSerect(0);
+        }
+    </script>
+  </head>
+  <body>
+    <!--#include file="header.html"-->
+    <div id="baseContents">
+      <div class="pankuzu">
+        <a href="../index.shtml">HOME</a> > <a href="../topic_news.shtml">Topics&amp;News</a> > News詳細
+      </div> <!-- pankuzu -->
+      <div class="subTitle">
+        <h1><span class="topChar">T</span>opics</h1><h2>and</h2><h1><span class="topChar">N</span>ews</h1>
+      </div><!-- title -->
+      <div class="newsArea">
+        <dt>2019.3.25</dt>
+        <h1>平成30年度情報学群卒業式・情報学コース修了式が行われました。</h1>
+        <hr />
+                <div class="mainImgArea">
+          <img src="img/id288_1.jpg" class="mainImg" />
+        </div><!-- mainImgArea -->
+                <p class="mainSentence">
+        　平成31年3月20日、高知工科大学で平成30年度情報学群卒業式・情報学コース修了式が行われました。<br />
+　情報学群学士課程99名、情報学コース22名、計121名が卒業し、濵村昌則学群長から学位が授与されました。        </p><!-- mainSentence -->
+                <div class="subArea">
+                    <p>
+            　当修了式での表彰者は以下の通りです。<br />
+<br />
+[末松賞]<br />
+　　・河島 尚輝<br />
+[佐久間賞]<br />
+　　・福田 和馬<br />
+[電気学会・電子情報通信学会・情報処理学会四国支部奨励賞]<br />
+　　・片岡 崇史<br />
+　　・小寺 祐生<br />
+[教員免許(高等学校一種免許：数学)・(中学校一種免許：数学)]<br />
+　　・上村 裕之<br />
+　　・下出 千晴<br />
+[教員免許(高等学校一種免許：情報)]<br />
+　　・河島 尚輝<br />
+　　・上村 裕之<br />
+　　・下出 千晴<br />
+[Cloud Spiral] <br />
+　　・笹谷 健文<br />
+　　・藤田 寛泰<br />
+　　・松元 稿如<br />
+[AiBiC Spiral] <br />
+　　・池上 和馬<br />
+　　・里見 優太　<br />
+　　・澤村 優希<br />
+          </p>
+                      <img src="img/id288_2.jpg" />
+                  </div><!-- subArea -->
+                <div class="subArea">
+                    <p>
+            　また、午後からは本学キャンパスグリーンで卒業記念行事「えん」が開催され、よさこいや吹奏楽部の演奏などの卒業を祝うイベントが行われました。<br />
+　大学での最後のイベントということもあり、卒業生はお世話になった先生方や大学で知り合った仲間達と最後の時間を思う存分満喫している様子でした。<br />
+<br />
+　卒業生の皆様、ご卒業おめでとうございます。          </p>
+                    <img src="img/id288_3.jpg" />
+                  </div><!-- subArea -->
+              </div><!-- newsArea -->
+    </div><!-- baseContents -->
+    <!--#include file="footer.html"-->
+
+  </body>
+</html>
