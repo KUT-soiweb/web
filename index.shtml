@@ -39,16 +39,17 @@
         <h2>最近のニュース</h2>
         <div class="newsContents" id="newsDiv">
           <dl id="newsDl">
+                    <dt name="nDate">2019.3.25</dt>
+                      <dd name="nData"><a href="./news/topic_288.shtml" >平成30年度情報学群卒業式・情報学コース修了式が行われました。</a></dd>
+                    <dt name="nDate">2019.2.25</dt>
+                      <dd name="nData"><a href="KUTpoem/index.shtml">2月分のポエム</a>を更新しました。</dd>
+                    <dt name="nDate">2019.2.19</dt>
+                      <dd name="nData"><a href="./news/topic_284.shtml" >平成30年度情報学群卒業研究発表会が行われました。</a></dd>
                     <dt name="nDate">2019.2.14</dt>
                       <dd name="nData"><a href="./news/topic_283.shtml" >平成30年度情報学群卒業研究発表会のご案内</a></dd>
                     <dt name="nDate">2019.2.7</dt>
                       <dd name="nData"><a href="./news/topic_282.shtml" >平成30年度修士論文発表会が行われました。</a></dd>
-                    <dt name="nDate">2019.2.5</dt>
-                      <dd name="nData"><a href="./news/topic_281.shtml" >平成30年度修士論文発表会のご案内</a></dd>
-                    <dt name="nDate">2019.2.2</dt>
-                      <dd name="nData"><a href="./news/topic_280.shtml" >平成30年度ソフトウェア工学演習成果発表会が行われました。</a></dd>
-                    <dt name="nDate">2019.1.25</dt>
-                      <dd name="nData"><a href="./news/topic_279.shtml" >平成30年度ソフトウェア工学演習成果発表会のご案内</a></dd>
+
                     </dl>
           <div class="oldNews">
             <a href="topic_news.shtml">ニュース一覧　&raquo;</a>
