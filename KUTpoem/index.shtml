@@ -41,6 +41,36 @@
       <div id="poem">
 
 
+        <!-- apr -->
+    <div class="apr">
+          <label for="apr">
+          <!-- monthContainer -->
+            <div class="monthContainer">
+              <h1>4月</h1>
+            </div><!-- monthContainer -->
+            <!-- imageContainer -->
+            <div class="imageContainer">
+              <div class="gradationContainer"></div><!-- gradationContainer -->
+            </div><!-- imageContainer -->
+          </label>
+
+          <input type="checkbox" id="apr" class="bellows">
+
+          <ul>
+            <li>
+
+              <!-- poemContainer -->
+              <div class="poemContainer">
+                <!-- poemFunc -->
+                <div class="poemFunc">
+                  <img src="img/april_poem.jpg" alt="April Poem Image">
+                </div><!-- poemFunc -->
+              </div><!-- poemContainer -->
+            </li>
+          </ul>
+      </div><!-- apr -->
+
+
         <!-- mar -->
     <div class="mar">
           <label for="mar">
