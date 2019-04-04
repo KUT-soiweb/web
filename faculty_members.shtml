@@ -504,6 +504,7 @@
               <span id="green">CS</span>
             </p>
           </a>
+<!--
         </li>        <li class="faculty">
           <a href="faculty_members/profile_kinoshita.shtml">
             <div class="triangleCrimson"></div>
@@ -519,6 +520,7 @@
             </h5>
           </a>
         </li>
+-->
         <li class="faculty">
           <a href="faculty_members/profile_murakami.shtml">
             <div class="triangleCrimson"></div>
