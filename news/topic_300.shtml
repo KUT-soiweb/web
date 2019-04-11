@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>2019年度情報学群新入生歓迎セミナーが行われました。</title>
+    <link rel="stylesheet" href="css/base.css" media="all" title="header" charset="utf-8" />
+    <link rel="stylesheet" href="css/topic_news_article.css" media="all" title="header" charset="utf-8" />
+    <link rel="icon" href="../img/favicon2.png" type="image/png" />
+    <script type="text/javascript">
+        window.onload = function(){
+          headSerect(0);
+        }
+    </script>
+  </head>
+  <body>
+    <!--#include file="header.html"-->
+    <div id="baseContents">
+      <div class="pankuzu">
+        <a href="../index.shtml">HOME</a> > <a href="../topic_news.shtml">Topics&amp;News</a> > News詳細
+      </div> <!-- pankuzu -->
+      <div class="subTitle">
+        <h1><span class="topChar">T</span>opics</h1><h2>and</h2><h1><span class="topChar">N</span>ews</h1>
+      </div><!-- title -->
+      <div class="newsArea">
+        <dt>2019.4.10</dt>
+        <h1>2019年度情報学群新入生歓迎セミナーが行われました。</h1>
+        <hr />
+                <div class="mainImgArea">
+          <img src="img/id300_1.png" class="mainImg" />
+        </div><!-- mainImgArea -->
+                <p class="mainSentence">
+        　2019年4月5-6日、高知県立幡多青少年自然の家にて、情報学群新入生歓迎セミナーが行われました。情報学群新入生歓迎セミナーとは、新入生に本学群について知ってもらいながら、教職員や上級生・同級生との交流を深めてもらう合宿型セミナーです。 今年度は37名の学生スタッフによる企画・運営のもと、新入生109名、教職員25名がこのセミナーに参加しました。今年は、初めての場所での企画・運営となりましたが、学生スタッフや多くの関係者の協力により無事成功することができました。        </p><!-- mainSentence -->
+                <div class="subArea">
+                    <p>
+            【1日目】 　<br />
+　4月5日は、野外炊事が行われました。薪を運び火を起こすところから始まり、具材の切り分けなど各班が協力してカレーライスを完成させました。どの班も完成度の高いカレーライスが出来上がり、施設の職員さんからは、手際の良さを褒めていただきました。<br />
+　入浴後の座談会では、先輩や先生から勉強や部活などこれからの大学生活についてアドバイスをもらうことができる時間になったと思います。          </p>
+                      <img src="img/id300_2.jpg" />
+                  </div><!-- subArea -->
+                <div class="subArea">
+                    <p>
+            【2日目】 　<br />
+　4月6日は、学生スタッフが企画したイベントを行いました。まずは、班内が打ち解け合うための自己紹介しりとりから始まりました。隣の人の名前から一文字とって自己紹介をするのですが、思ったよりスムーズに進んでいたことに驚かされました。<br />
+　次に行われたペーパードミノでは、紙の倒れた枚数と倒れた距離をポイントとし、ポイントの多さを競い合いました。紙を立てることだけでなく、倒れる形にするために試行錯誤がされ、倒れた距離も想定を上回る結果となり盛り上がりを見せました。長さを測る時には、LANケーブルを使い情報学群らしいイベントになりました。<br />
+<br />
+　２日間の合宿で、多くの新入生が同級生や先輩方、教職員と関わることができたと思います。また、学生スタッフにとっても多くのことを教わる機会になったことでしょう。          </p>
+                    <img src="img/id300_3.jpg" />
+                  </div><!-- subArea -->
+              </div><!-- newsArea -->
+    </div><!-- baseContents -->
+    <!--#include file="footer.html"-->
+
+  </body>
+</html>
