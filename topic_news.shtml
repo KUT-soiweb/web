@@ -24,22 +24,34 @@
         <div class="yearBox">
           <form name="form">
             <ul>
-              <label><input type="radio" name="yearbtn" value="H_30" onchange="onYearChange();" checked/><li><span class="nendo"></span>2018<span class="nendo">年度</span></li></label>
-<label><input type="radio" name="yearbtn" value="H_29" onchange="onYearChange();"/><li><span class="nendo"></span>2017<span class="nendo">年度</span></li></label>
-<label><input type="radio" name="yearbtn" value="H_28" onchange="onYearChange();"/><li><span class="nendo"></span>2016<span class="nendo">年度</span></li></label>
-<label><input type="radio" name="yearbtn" value="H_27" onchange="onYearChange();"/><li><span class="nendo"></span>2015<span class="nendo">年度</span></li></label>
-<label><input type="radio" name="yearbtn" value="H_26" onchange="onYearChange();"/><li><span class="nendo"></span>2014<span class="nendo">年度</span></li></label>
-<label><input type="radio" name="yearbtn" value="H_25" onchange="onYearChange();"/><li><span class="nendo"></span>2013<span class="nendo">年度</span></li></label>
-<label><input type="radio" name="yearbtn" value="H_24" onchange="onYearChange();"/><li><span class="nendo"></span>2012<span class="nendo">年度</span></li></label>
-<label><input type="radio" name="yearbtn" value="H_23" onchange="onYearChange();"/><li><span class="nendo"></span>2011<span class="nendo">年度</span></li></label>
-<label><input type="radio" name="yearbtn" value="H_22" onchange="onYearChange();"/><li><span class="nendo"></span>2010<span class="nendo">年度</span></li></label>
-<label><input type="radio" name="yearbtn" value="H_21" onchange="onYearChange();"/><li><span class="nendo"></span>2009<span class="nendo">年度以前</span></li></label>
+              <label><input type="radio" name="yearbtn" value="H_2019" onchange="onYearChange();" checked/><li><span class="nendo"></span>2019<span class="nendo">年度</span></li></label>
+<label><input type="radio" name="yearbtn" value="H_2018" onchange="onYearChange();"/><li><span class="nendo"></span>2018<span class="nendo">年度</span></li></label>
+<label><input type="radio" name="yearbtn" value="H_2017" onchange="onYearChange();"/><li><span class="nendo"></span>2017<span class="nendo">年度</span></li></label>
+<label><input type="radio" name="yearbtn" value="H_2016" onchange="onYearChange();"/><li><span class="nendo"></span>2016<span class="nendo">年度</span></li></label>
+<label><input type="radio" name="yearbtn" value="H_2015" onchange="onYearChange();"/><li><span class="nendo"></span>2015<span class="nendo">年度</span></li></label>
+<label><input type="radio" name="yearbtn" value="H_2014" onchange="onYearChange();"/><li><span class="nendo"></span>2014<span class="nendo">年度</span></li></label>
+<label><input type="radio" name="yearbtn" value="H_2013" onchange="onYearChange();"/><li><span class="nendo"></span>2013<span class="nendo">年度</span></li></label>
+<label><input type="radio" name="yearbtn" value="H_2012" onchange="onYearChange();"/><li><span class="nendo"></span>2012<span class="nendo">年度</span></li></label>
+<label><input type="radio" name="yearbtn" value="H_2011" onchange="onYearChange();"/><li><span class="nendo"></span>2011<span class="nendo">年度</span></li></label>
+<label><input type="radio" name="yearbtn" value="H_2010" onchange="onYearChange();"/><li><span class="nendo"></span>2010<span class="nendo">年度</span></li></label>
+<label><input type="radio" name="yearbtn" value="H_2009" onchange="onYearChange();"/><li><span class="nendo"></span>2009<span class="nendo">年度以前</span></li></label>
             </ul>
           </form>
         </div> <!-- yearBox -->
       </div><!-- left -->
       <div class="listArea">
-        <ul class="listNews" name="year" id="H_30">
+        <ul class="listNews" name="year" id="H_2019">
+<li name="list"><dd><a href="./news/topic_300.shtml">2019年度情報学群新入生歓迎セミナーが行われました。</a></dd><dt>2019.4.10</dt></li>
+<li name="list"><dd>情報学群3年生の研究室配属が発表されました。</dd><dt>2019.4.10</dt></li>
+<li name="list"><dd><a href="KUTpoem/index.shtml">4月分のポエム</a>を更新しました。</dd><dt>2019.4.6</dt></li>
+<li name="list"><dd><a href="./news/topic_297.shtml">平成31年度 高知工科大学入学式が行われました。</a></dd><dt>2019.4.2</dt></li>
+<li name="list"><dd>2019年度も引き続き濵村昌則教授が情報学群長を務めます。</dd><dt>2019.4.1</dt></li>
+<li name="list"><dd>原田 崇司助教，岩村 聡教育講師が着任しました。</dd><dt>2019.4.1</dt></li>
+</ul>
+<ul class="listNews" name="year" id="H_2018">
+<li name="list"><dd><a href="KUTpoem/index.shtml">3月分のポエム</a>を更新しました。</dd><dt>2019.3.31</dt></li>
+<li name="list"><dd>木下 尚文教育講師が情報学群を退職されました。</dd><dt>2019.3.29</dt></li>
+<li name="list"><dd><a href = "https://www.kochi-tech.ac.jp/news/2019/004280.html">学生団体Cykutの情報学群・情報学コース卒業生４名に高知県警本部より感謝状が贈呈されました。</a></dd><dt>2019.3.25</dt></li>
 <li name="list"><dd><a href="./news/topic_288.shtml">平成30年度情報学群卒業式・情報学コース修了式が行われました。</a></dd><dt>2019.3.25</dt></li>
 <li name="list"><dd><a href="KUTpoem/index.shtml">2月分のポエム</a>を更新しました。</dd><dt>2019.2.25</dt></li>
 <li name="list"><dd><a href="./news/topic_284.shtml">平成30年度情報学群卒業研究発表会が行われました。</a></dd><dt>2019.2.19</dt></li>
@@ -90,7 +102,7 @@
 <li name="list"><dd>竹内 聖悟講師，木下 尚文教育講師が着任されました。</dd><dt>2018.4.1</dt></li>
 <li name="list"><dd>平成29年度に博士課程修了されたSSP生のKeerativittayayut Ruedeerat さんが、中原研究室助教として採用となりました。</dd><dt>2018.4.1</dt></li>
 </ul>
-<ul class="listNews" name="year" id="H_29">
+<ul class="listNews" name="year" id="H_2017">
 <li name="list"><dd>今年度をもって、永きにわたりキャリア教育にご貢献されてきた本学群教育講師の井形 元彦先生がご退職されます。</dd><dt>2018.3.28</dt></li>
 <li name="list"><dd><a href="./news/topic_223.shtml">平成29年度情報学群卒業式・情報システム工学コース修了式が行われました。</a></dd><dt>2018.3.21</dt></li>
 <li name="list"><dd>鵜川研の松元稿如さんの論文が<a href="https://www.jstage.jst.go.jp/article/ipsjjip/26/0/26_314/_article/-char/en">情報処理学会英文論文誌Journal of Information Processing</a>に掲載されました。</dd><dt>2018.3.15</dt></li>
@@ -143,7 +155,7 @@
 <li name="list"><dd>教員紹介ページに<a href="http://www.lab.kochi-tech.ac.jp/shinolab/">篠森研HP</a>へのリンクを作成しました。</dd><dt>2017.4.2</dt></li>
 <li name="list"><dd>平成29年度は濵村昌則教授が情報学群長を務めます。</dd><dt>2017.4.1</dt></li>
 </ul>
-<ul class="listNews" name="year" id="H_28">
+<ul class="listNews" name="year" id="H_2016">
 <li name="list"><dd><a href="./news/topic_150.shtml">平成28年度情報学群卒業式・情報システム工学コース修了式が行われました。</a></dd><dt>2017.3.27</dt></li>
 <li name="list"><dd><a href="./news/topic_temp_146.shtml">Topics&News記事などの生成をCMSに移行しました。</a></dd><dt>2017.3.17</dt></li>
 <li name="list"><dd>第79回情報処理学会全国大会で、情報学群4年石井雄飛さん、西田昂世さんが学生奨励賞を受賞しました。</dd><dt>2017.3.16</dt></li>
@@ -196,7 +208,7 @@
 <li name="list"><dd><a href="http://www.info.kochi-tech.ac.jp/faculty_members/profile_shikida.shtml">敷田幹文教授</a>が着任しました。</dd><dt>2016.4.1</dt></li>
 <li name="list"><dd>平成28年度も引き続き清水明宏教授が情報学群長を務めます。</dd><dt>2016.4.1</dt></li>
 </ul>
-<ul class="listNews" name="year" id="H_27">
+<ul class="listNews" name="year" id="H_2015">
 <li name="list"><dd>修士1年生Bandhit Suksiriさんが電子情報通信学会信号処理研究会@大分で発表を行いました。</dd><dt>2016.3.28</dt></li>
 <li name="list"><dd><a href="./news/topic_93.shtml">情報学群卒業式・情報システム工学コース修了式が行われました。</a></dd><dt>2016.3.18</dt></li>
 <li name="list"><dd>鵜川准教授らによる翻訳本「ガベージコレクション」が出版されました。</dd><dt>2016.3.15</dt></li>
@@ -240,7 +252,7 @@
 <li name="list"><dd>龍河洞で情報学群3年生（当時）が開発した外国人観光客向け案内アプリ'Cavigator'の運用を開始しました。</dd><dt>2015.4.2</dt></li>
 <li name="list"><dd>平成27年度も引き続き清水明宏教授が情報学群長を務めます。</dd><dt>2015.4.1</dt></li>
 </ul>
-<ul class="listNews" name="year" id="H_26">
+<ul class="listNews" name="year" id="H_2014">
 <li name="list"><dd>情報学群４年生柳澤 佑介君が情報処理学会第33回ゲーム情報学研究会@東京で発表を行いました。</dd><dt>2015.3.6</dt></li>
 <li name="list"><dd>情報学群４年生山本 佳祐君が第17回プログラミングおよびプログラミング言語ワークショップ@愛媛で発表を行いました。</dd><dt>2015.3.4</dt></li>
 <li name="list"><dd>情報学群 卒業研究発表会（2日目）が行われました。</dd><dt>2015.2.17</dt></li>
@@ -275,7 +287,7 @@
 <li name="list"><dd>鵜川始陽准教授，栗原徹准教授が着任しました。</dd><dt>2014.4.1</dt></li>
 <li name="list"><dd>総合研究所 中原潔教授，門田宏講師が情報学群兼務になりました。</dd><dt>2014.4.1</dt></li>
 </ul>
-<ul class="listNews" name="year" id="H_25">
+<ul class="listNews" name="year" id="H_2013">
 <li name="list"><dd>香港理工大学電子計算学系と覚書を締結しました。</dd><dt>2014.3.10</dt></li>
 <li name="list"><dd>情報学群4年生高井駿君が日本色彩学会色覚研究会で発表を行いました。</dd><dt>2014.3.8</dt></li>
 <li name="list"><dd>情報学群4年生坂本健人君が日本色彩学会色覚研究会で発表を行いました。</dd><dt>2014.3.8</dt></li>
@@ -283,15 +295,15 @@
 <li name="list"><dd>教員紹介を更新しました。</dd><dt>2013.4.1</dt></li>
 <li name="list"><dd>平成25年度は清水明宏教授が情報学群長を務めます。</dd><dt>2013.4.1</dt></li>
 </ul>
-<ul class="listNews" name="year" id="H_24">
+<ul class="listNews" name="year" id="H_2012">
 <li name="list"><dd>横山 和俊 教授が着任しました。</dd><dt>2012.11.1</dt></li>
 </ul>
-<ul class="listNews" name="year" id="H_23">
+<ul class="listNews" name="year" id="H_2011">
 <li name="list"><dd>篠森敬三教授が産学官連携功労者表彰経済産業大臣賞を受賞しました。</dd><dt>2011.9.22</dt></li>
 <li name="list"><dd>篠森敬三教授が文部科学大臣表彰科学技術賞（開発部門）を受賞しました。</dd><dt>2011.4.11</dt></li>
 <li name="list"><dd>平成23年度は坂本明雄教授が情報学群長を務めます。</dd><dt>2011.4.1</dt></li>
 </ul>
-<ul class="listNews" name="year" id="H_22">
+<ul class="listNews" name="year" id="H_2010">
 <li name="list"><dd>新しい先生の情報を追加しました。</dd><dt>2010.11.8</dt></li>
 <li name="list"><dd>新しい研究室の情報を追加しました。</dd><dt>2010.10.5</dt></li>
 <li name="list"><dd>教員紹介を更新しました。</dd><dt>2010.6.14</dt></li>
