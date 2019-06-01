@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>鵜川 始陽准教授が約1年間イギリスで共同研究を行います。</title>
+    <link rel="stylesheet" href="css/base.css" media="all" title="header" charset="utf-8" />
+    <link rel="stylesheet" href="css/topic_news_article.css" media="all" title="header" charset="utf-8" />
+    <link rel="icon" href="../img/favicon2.png" type="image/png" />
+    <script type="text/javascript">
+        window.onload = function(){
+          headSerect(0);
+        }
+    </script>
+  </head>
+  <body>
+    <!--#include file="header.html"-->
+    <div id="baseContents">
+      <div class="pankuzu">
+        <a href="../index.shtml">HOME</a> > <a href="../topic_news.shtml">Topics&amp;News</a> > News詳細
+      </div> <!-- pankuzu -->
+      <div class="subTitle">
+        <h1><span class="topChar">T</span>opics</h1><h2>and</h2><h1><span class="topChar">N</span>ews</h1>
+      </div><!-- title -->
+      <div class="newsArea">
+        <dt>2019.5.30</dt>
+        <h1>鵜川 始陽准教授が約1年間イギリスで共同研究を行います。</h1>
+        <hr />
+                <div class="mainImgArea">
+          <img src="img/id306_1.jpg" class="mainImg" />
+        </div><!-- mainImgArea -->
+                <p class="mainSentence">
+        　情報学群 <a href="../faculty_members/profile_ugawa.shtml">鵜川 始陽准教授</a> が科学研究費助成事業（科研費）の国際共同研究加速基金（国際共同研究強化（Ａ））に採択され、本年5月末日より約1年間イギリスのケント大学に滞在し共同研究を行います。        </p><!-- mainSentence -->
+                <div class="subArea">
+                    <p>
+            　イギリスに出発する鵜川准教授の壮行会が5/30(金)に行われました。鵜川先生への激励を込めて、ケーキを囲んでの和気藹々とした壮行会となりました。          </p>
+                      <img src="img/id306_2.jpg" />
+                  </div><!-- subArea -->
+              </div><!-- newsArea -->
+    </div><!-- baseContents -->
+    <!--#include file="footer.html"-->
+
+  </body>
+</html>
