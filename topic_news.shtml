@@ -10,7 +10,7 @@
     <link rel="icon" href="img/favicon2.png" type="image/png" />
     <script type="text/javascript" src="js/load.js"></script>
   </head>
-
+  
   <body id="numLink">
     <!--#include virtual="header.html"-->
     <div id="baseContents">
@@ -41,8 +41,12 @@
       </div><!-- left -->
       <div class="listArea">
         <ul class="listNews" name="year" id="H_2019">
-<li name="list"><dd><a href="./news/topic_300.shtml">2019年度情報学群新入生歓迎セミナーが行われました。</a></dd><dt>2019.4.10</dt></li>
+<li name="list"><dd><a href="./news/topic_306.shtml">鵜川 始陽准教授が約1年間イギリスで共同研究を行います。</a></dd><dt>2019.5.30</dt></li>
+<li name="list"><dd><a href="https://www.kochi-tech.ac.jp/news/2019/004330.html">学生団体Cykutが高知県警察本部より「高知県サイバー防犯ボランティア」の委嘱を受けました。</a></dd><dt>2019.5.28</dt></li>
+<li name="list"><dd><a href="faculty_members/profile_shimizu.shtml">清水明宏副学長</a>が<a href="https://www.kochi-tech.ac.jp/news/2019/004329.html">「高知県警察サイバー犯罪対策テクニカルアドバイザー」の委嘱を受けました。</a></dd><dt>2019.5.17</dt></li>
+<li name="list"><dd><a href="./news/topic_303.shtml">オープンキャンパスのご案内（7月27日，7月28日開催）</a></dd><dt>2019.5.2</dt></li>
 <li name="list"><dd>情報学群3年生の研究室配属が発表されました。</dd><dt>2019.4.10</dt></li>
+<li name="list"><dd><a href="./news/topic_300.shtml">2019年度情報学群新入生歓迎セミナーが行われました。</a></dd><dt>2019.4.8</dt></li>
 <li name="list"><dd><a href="KUTpoem/index.shtml">4月分のポエム</a>を更新しました。</dd><dt>2019.4.6</dt></li>
 <li name="list"><dd><a href="./news/topic_297.shtml">平成31年度 高知工科大学入学式が行われました。</a></dd><dt>2019.4.2</dt></li>
 <li name="list"><dd>2019年度も引き続き濵村昌則教授が情報学群長を務めます。</dd><dt>2019.4.1</dt></li>
