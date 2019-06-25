@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Sawarabi+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:300,400&display=swap');
 
 body {
   width: 100%;
@@ -13,16 +14,59 @@ body {
 }
 
 .main-image {
-  width: 100%;
+  width: 900px;
+  height: 600px;
   margin-top: 30px;
+  background-image: url("../img/oc_main.jpg");
+  margin: 0 auto;
+  margin-top:50px;
+  margin-bottom: 100px;
+  position: relative;
+}
+.main-image h1{
+  position: absolute;
+  color: white; 
+  font-size: 4em;
+  top: 25%;
+  left: 12%;
+  margin:0;
+  padding:0;
+  letter-spacing: 0.05em;
+  font-family: 'Merriweather', serif;
 }
 
-.main-image img {
-  width: 900px;
-  height: auto;
-  display: block;
-  margin: auto;
-  margin-bottom: 80px;
+.main-image h2{
+  position: absolute;
+  color: white; 
+  font-size: 2.8em;
+  top: 42%;
+  left: 22.5%;
+  margin:0;
+  padding:0;
+  letter-spacing: 0.03em;
+  font-family: 'Merriweather', serif;
+}
+
+.main-image h3{
+  position: absolute;
+  color: white; 
+  font-size: 2.2em;
+  top: 57%;
+  left: 31.5%;
+  margin:0;
+  padding:0;
+  letter-spacing: 0.03em;
+}
+
+.main-image p{
+  position: absolute;
+  color: white; 
+  font-size: 2.0em;
+  top: 83%;
+  left: 53%;
+  margin:0;
+  padding:0;
+  letter-spacing: 0.03em;
 }
 
 #main-content {
@@ -43,6 +87,13 @@ body {
 }
 
 .content-item:hover {
+  -webkit-transform: translateY(10px);
+  transform: translateY(10px);
+  padding-bottom:60px;
+  border-bottom: none;
+}
+
+.content-item:active {
   -webkit-transform: translateY(10px);
   transform: translateY(10px);
   padding-bottom:60px;
