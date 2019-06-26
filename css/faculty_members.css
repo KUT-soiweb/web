@@ -100,6 +100,16 @@
   width: 0px;
   z-index: 1;
 }
+#baseContents .triangleLightgreen {
+  border: 40px solid transparent;
+  border-top: 40px solid #12BA87;
+  border-right: 40px solid #12BA87;
+  height: 0px;
+  margin: 0px 0px 0px 140px;
+  position: absolute;
+  width: 0px;
+  z-index: 1;
+}
 #baseContents .triangleCrimson {
   border: 40px solid transparent;
   border-top: 40px solid #C95580;
