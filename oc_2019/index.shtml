@@ -16,12 +16,7 @@
   <div id="bace-contents">
     <div class="pankuzu">
       <!-- pankuzu --><a href="../index.shtml">HOME</a> > オープンキャンパス2019 </div>
-    <div class="main-image">
-			<h1>KUT OPEN CAMPUS</h1>
-			<h2>School of Infomation<h2>
-			<h3>香美キャンパスA棟</h3>
-			<p>7月27日(土),7月28日(日)</p>
-			</div>
+    <div class="main-image"> <img src="img/oc_main.jpg"> </div>
     <div id="main-content">
       <div class="content-item">
 					<img src="img/whiteboard.svg">
