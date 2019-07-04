@@ -18,7 +18,7 @@
       <!-- pankuzu --><a href="../index.shtml">HOME</a> > オープンキャンパス2019 </div>
     <div class="main-image">
 			<h1>KUT OPEN CAMPUS</h1>
-			<h2>School of Infomation<h2>
+			<h2>School of Information<h2>
 			<h3>香美キャンパスA棟</h3>
 			<p>7月27日(土),7月28日(日)</p>
 			</div>
@@ -29,7 +29,7 @@
       </div>
       <div class="answer">
         <h2>研究室公開</h2>
-        <h4>情報学群では、研究室を公開しています。各研究室がそれぞれ特色を表す展示や発表をしています。<br> 先輩の成果物を見ることができる良い機会なので、ぜひ、一度研究室に足を運んでみてください！ </h4>
+        <h4>情報学群では、研究室を公開しています。各研究室がそれぞれ特色を表す展示や発表をしています。<br> 先輩の成果物を見ることができる良い機会なので、ぜひ一度研究室に足を運んでみてください！ </h4>
         <h2>研究室公開一覧</h2>
         <div class="LaboratoryTable">
           <table>
@@ -44,7 +44,7 @@
               <td width="20%">A105</td>
             </tr>
             <tr>
-              <td width="20%">脳コミュニケーション<br>センター</td>
+              <td width="20%">門田 宏</td>
               <td width="60%">MRIでヒトの脳を覗いてみよう</td>
               <td width="20%">A155</td>
             </tr>
@@ -55,17 +55,17 @@
             </tr>
             <tr>
               <td width="20%">植田 和憲</td>
-              <td width="60%">無線ネットワークで三段跳びすればどこまでいける？</td>
+              <td width="60%">Wi-Fiで接続できるエリアをお手軽にどんどん広げる技術</td>
               <td width="20%">A303</td>
             </tr>
             <tr>
-              <td width="20%">繁枡 博昭</td>
-              <td width="60%">3D知覚とバーチャリティ体験</td>
+              <td width="20%">繁桝 博昭</td>
+              <td width="60%">3D知覚とバーチャルリアリティ体験</td>
               <td width="20%">A306</td>
             </tr>
             <tr>
               <td width="20%">妻鳥 貴彦</td>
-              <td width="60%">ICTがつなぐ「学びの架け橋」~ICTによる教育の形~</td>
+              <td width="60%">ICTがつなぐ「学びの架け橋」~ICTによる新たな教育のかたち~</td>
               <td width="20%">A307</td>
             </tr>
             <tr>
@@ -85,7 +85,7 @@
             </tr>
             <tr>
               <td width="20%">岩田 誠</td>
-              <td width="60%">超高速省エネコンピュータチップの新技術</td>
+              <td width="60%">IoT向き超高速省エネコンピュータ</td>
               <td width="20%">A312</td>
             </tr>
             <tr>
@@ -95,12 +95,12 @@
             </tr>
             <tr>
               <td width="20%">高田 喜朗</td>
-              <td width="60%">触ってみようプログラミング</td>
+              <td width="60%">さわってみようプログラミング</td>
               <td width="20%">A355</td>
             </tr>
             <tr>
               <td width="20%">福本 昌弘</td>
-              <td width="60%">ICTで災害に備えよう</td>
+              <td width="60%">ICTで災害にそなえよう</td>
               <td width="20%">A357</td>
             </tr>
             <tr>
@@ -120,12 +120,12 @@
             </tr>
             <tr>
               <td width="20%">鵜川 始陽</td>
-              <td width="60%">IOTプログラミングを簡単にする技術</td>
+              <td width="60%">IoTプログラミングを簡単にする技術</td>
               <td width="20%">A361</td>
             </tr>
             <tr>
               <td width="20%">任 向実</td>
-              <td width="60%">人・コンピュータ共用化 ~これからヒューマン・コンピュータ・インタラクション~ </td>
+              <td width="60%">人・コンピュータ共進化 ~これからヒューマン・コンピュータ・インタラクション~ </td>
               <td width="20%">C301</td>
             </tr>
           </table>
@@ -141,7 +141,7 @@
         <p>体験授業</p>
       </div>
       <div class="answer">
-          <h4>情報学群の先生方による特別講義を実施します。また、情報学群の説明会も開催します。<br />この機会にぜひご聴講ください。<br /><br />
+          <h4>情報学群の先生方による特別講義を実施します。また、情報学群の説明会も実施します。<br />この機会にぜひご聴講ください。<br /><br />
 						下記の時間に<font color="red">A棟1階のA106教室</font>で実施します。<br />席に限りがございます。お早めにお越しください。</h4>
         <div class="LessonTable">
           <table>
@@ -153,8 +153,8 @@
             </tr>
             <tr>
               <td class="li" width="20%">11:40<br>｜<br>12:00</td>
-              <td class="li" width="40%">情報学群説明会<br>（情報通信技術者を目指す諸君へ）</td>
-              <td class="li" width="40%">情報学群説明会<br>（情報通信技術者を目指す諸君へ）</td>
+              <td class="li" width="40%">情報学群説明会<br>（情報通信技術者を目指す諸君へ）<br>講師：濱村 昌則</td>
+              <td class="li" width="40%">情報学群説明会<br>（情報通信技術者を目指す諸君へ）<br>講師：濱村 昌則</td>
             </tr>
             <tr>
               <td class="li" width="20%">13:00<br>｜<br>13:30</td>
@@ -164,10 +164,10 @@
             <tr>
               <td class="li" width="20%">13:40<br>｜<br>14:10</td>
               <td class="li" width="40%">簡単に解ける問題とそうでない問題<br>講師：原田 崇司</td>
-              <td class="li" width="40%">数学で見る画像の世界 ～高校数学はこんなに役に立つ～<br>講師：栗原 徹</td>
+              <td class="li" width="40%">数学で見る画像の世界 <br>～高校数学はこんなに役に立つ～<br>講師：栗原 徹</td>
             </tr>
             <tr>
-							<td class="li" width="20%">14:20<br>｜<br>14:50</td>
+							<td class="li" width="20%">14:15<br>｜<br>14:45</td>
 							<td class="li" width="40%">未来の情報通信技術者のための数学<br>〜AO入試参考問題解説【プログラミング】〜<br>講師：高田 喜朗</td>
               <td class="li" width="40%">未来の情報通信技術者のための数学<br>〜AO入試参考問題解説【数学(2)】〜<br>講師：鵜川 始陽</td>
             </tr>
@@ -694,7 +694,7 @@
                 <div class="table">
                   <div class="row list105" onmouseover="infoHover(&quot;hover105&quot;);return false;" onmouseout="infoOut(&quot;hover105&quot;);return false;" onclick="infoChange(&quot;map105&quot;);return false;">
                     <div class="tableRoomList">A105</div>
-                    <div>ゲームプログラミング：計算機にどう考えるのか</div>
+                    <div>ゲームプログラミング：計算機にどう考えさせるのか</div>
                   </div>
                   <div class="row list106" onmouseover="infoHover(&quot;hover106&quot;);return false;" onmouseout="infoOut(&quot;hover106&quot;);return false;" onclick="infoChange(&quot;map106&quot;); return false;">
                     <div class="tableRoomList">A106</div>
@@ -706,7 +706,7 @@
                   </div>
                   <div class="row list155" onmouseover="infoHover(&quot;hover155&quot;);return false;" onmouseout="infoOut(&quot;hover155&quot;);return false;" onclick="infoChange(&quot;map155&quot;); return false;">
                     <div class="tableRoomList">A155</div>
-                    <div>脳コミュニケーション研究センター<br />認知神経科学研究室(中原研) ＆ 身体情報サイエンス研究室(門田研)<br />MRIでヒトの脳を覗いてみよう<br />10:00～,11:00～,12:00～,13:00～,14:00～</div>
+                    <div>脳コミュニケーション研究センター<br />認知神経科学研究室(中原研) ＆ 身体情報サイエンス研究室(門田研)<br />MRIでヒトの脳を覗いてみよう<br />10:00~, 11:00~, 12:00~, 13:00~, 14:00~</div>
                   </div>
                 </div>
                 <!-- table -->
@@ -1615,19 +1615,19 @@
                   <div class="table">
                     <div class="row list303" onmouseover="infoHover(&quot;hover303&quot;); return false;" onmouseout="infoOut(&quot;hover303&quot;); return false;" onclick="infoChange(&quot;map303&quot;); return false;">
                       <div class="tableRoomList">A303</div>
-                      <div>無線ネットワークで三段跳びすればどこまでいける？</div>
+                      <div>Wi-Fiで接続できるエリアをお手軽にどんどん広げる技術</div>
                     </div>
                     <div class="row list306" onmouseover="infoHover(&quot;hover306&quot;); return false;" onmouseout="infoOut(&quot;hover306&quot;); return false;" onclick="infoChange(&quot;map306&quot;); return false;">
                       <div class="tableRoomList">A306</div>
-                      <div>3D知覚とバーチャリティ体験</div>
+                      <div>3D知覚とバーチャルリアリティ体験</div>
                     </div>
                     <div class="row list307" onmouseover="infoHover(&quot;hover307&quot;); return false;" onmouseout="infoOut(&quot;hover307&quot;); return false;" onclick="infoChange(&quot;map307&quot;); return false;">
                       <div class="tableRoomList">A307</div>
-                      <div>ICTがつなぐ「学びの架け橋」～ICTによる新たな教育のかたち～</div>
+                      <div>ICTがつなぐ「学びの架け橋」~ICTによる新たな教育のかたち~</div>
                     </div>
                     <div class="row list308" onmouseover="infoHover(&quot;hover308&quot;); return false;" onmouseout="infoOut(&quot;hover308&quot;); return false;" onclick="infoChange(&quot;map308&quot;); return false;">
                       <div class="tableRoomList">A308</div>
-                      <div>視覚の不思議 ～体験型エイムズ～</div>
+                      <div>視覚の不思議 ~体験型エイムズ~</div>
                     </div>
                     <div class="row list309" onmouseover="infoHover(&quot;hover309&quot;); return false;" onmouseout="infoOut(&quot;hover309&quot;); return false;" onclick="infoChange(&quot;map309&quot;); return false;">
                       <div class="tableRoomList">A309</div>
@@ -1639,7 +1639,7 @@
                     </div>
                     <div class="row list312" onmouseover="infoHover(&quot;hover312&quot;); return false;" onmouseout="infoOut(&quot;hover312&quot;); return false;" onclick="infoChange(&quot;map312&quot;); return false;">
                       <div class="tableRoomList">A312</div>
-                      <div>超高速省エネコンピュータチップの新技術</div>
+                      <div>IoT向き超高速省エネコンピュータ</div>
                     </div>
                     <div class="row list314" onmouseover="infoHover(&quot;hover314&quot;); return false;" onmouseout="infoOut(&quot;hover314&quot;); return false;" onclick="infoChange(&quot;map314&quot;); return false;">
                       <div class="tableRoomList">A314</div>
@@ -1673,11 +1673,11 @@
                     </div>
                     <div class="row list361" onmouseover="infoHover(&quot;hover360&quot;); return false;" onmouseout="infoOut(&quot;hover360&quot;); return false;" onclick="infoChange(&quot;map360&quot;); return false;">
                         <div class="tableRoomList">A361</div>
-                        <div>IoTプログラミングを簡単にする</div>
+                        <div>IoTプログラミングを簡単にする技術</div>
 										</div>
 										<div class="row list301" onmouseover="infoHover(&quot;hover360&quot;); return false;" onmouseout="infoOut(&quot;hover360&quot;); return false;" onclick="infoChange(&quot;map360&quot;); return false;">
                         <div class="tableRoomList">C301</div>
-                        <div>人・コンピュータ共用化 ～これからのヒューマン・コンピュータ・インタラクション～</div>
+                        <div>人・コンピュータ共進化 ~これからのヒューマン・コンピュータ・インタラクション~</div>
 										</div>
                   </div>
                   <!-- table -->

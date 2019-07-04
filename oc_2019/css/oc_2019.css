@@ -63,7 +63,7 @@ body {
   color: white; 
   font-size: 2.0em;
   top: 83%;
-  left: 53%;
+  left: 56%;
   margin:0;
   padding:0;
   letter-spacing: 0.03em;
@@ -222,76 +222,62 @@ body {
 }
 
 .open-lab-img img {
+  position: relative;
   width: 90%;
   margin-left: 25px;
   border-radius: 20px;
-}
-
-.open-lab-img1 img{
-  position: relative;
-  background: #FF8787;
-  box-shadow: 0px 0px 0px 5px #FF8787;
   border: dashed 2px white;
   padding: 0.2em 0.5em;
   color: #454545;
-  transform: rotate( -20deg );
 }
-.open-lab-img3 img:after{
+
+.open-lab-img img:after{
   position: absolute;
   content: '';
   right: -7px;
   top: -7px;
   border-width: 0 15px 15px 0;
   border-style: solid;
+}
+
+.open-lab-img1 img{
+  background: #FF8787;
+  box-shadow: 0px 0px 0px 5px #FF8787;
+  transform: rotate( -12deg );
+}
+.open-lab-img1 img:after{
   border-color: #FF8787 #fff #FF8787;
   box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.15);
 }
 
 .open-lab-img2 img{
   margin-top:170px;
-  position: relative;
   background: #0075c2;
   box-shadow: 0px 0px 0px 5px #0075c2;
-  border: dashed 2px white;
-  padding: 0.2em 0.5em;
-  color: #454545;
   transform: rotate( 5deg );
 }
 .open-lab-img2 img:after{
-  position: absolute;
-  content: '';
-  right: -7px;
-  top: -7px;
-  border-width: 0 15px 15px 0;
-  border-style: solid;
   border-color: #0075c2 #fff #0075c2;
   box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.15);
 }
 
 .open-lab-img3 img{
-  position: relative;
   background: #fff0cd;
   box-shadow: 0px 0px 0px 5px #fff0cd;
-  border: dashed 2px white;
-  padding: 0.2em 0.5em;
-  color: #454545;
   transform: rotate( 10deg );
 }
 .open-lab-img3 img:after{
-  position: absolute;
-  content: '';
-  right: -7px;
-  top: -7px;
-  border-width: 0 15px 15px 0;
-  border-style: solid;
   border-color: #ffdb88 #fff #ffdb88;
   box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.15);
 }
 
 .linkContents{
+  width:130px;
+  margin: 0 auto;
   font-size:20px;
   text-align: center;
   margin-top:40px;
+  border-bottom:1px solid #000;
 }
 
 .linkContents a:hover{
@@ -301,6 +287,7 @@ body {
 #floor{
   margin-top:-50px;
 }
+
 .mapContents .floorLink {
   text-align: center;
 }
@@ -318,15 +305,6 @@ body {
   -ms-transition: all 0.6s;
   -o-transition: all 0.6s;
   transition: all 0.6s;
-}
-
-.map a:hover path, .map a:hover rect, .map a:hover polygon, .map a:hover use {
-  fill: #f5a623;
-  -webkit-transition: all 0.2s;
-  -moz-transition: all 0.2s;
-  -ms-transition: all 0.2s;
-  -o-transition: all 0.2s;
-  transition: all 0.2s;
 }
 
 .map a:active path, .map a:active rect, .map a:active polygon, .map a:active use {
