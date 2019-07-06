@@ -102,8 +102,8 @@
 }
 #baseContents .triangleLightgreen {
   border: 40px solid transparent;
-  border-top: 40px solid #12BA87;
-  border-right: 40px solid #12BA87;
+  border-top: 40px solid #BAE8D5;
+  border-right: 40px solid #BAE8D5;
   height: 0px;
   margin: 0px 0px 0px 140px;
   position: absolute;
@@ -122,8 +122,8 @@
 }
 #baseContents .triangleOrenge {
   border: 40px solid transparent;
-  border-top: 40px solid #E7A79B;
-  border-right: 40px solid #E7A79B;
+  border-top: 40px solid #A9D4C2;
+  border-right: 40px solid #A9D4C2;
   height: 0px;
   margin: 0px 0px 0px 140px;
   position: absolute;
