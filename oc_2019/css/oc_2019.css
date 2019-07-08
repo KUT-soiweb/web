@@ -12,14 +12,19 @@ body {
   height: auto;
   margin: 0 auto;
 }
+.pankuzu{
+  width:80%;
+  margin:0 auto;
+  margin-left:150px;
+  margin-top:50px;
+}
 
 .main-image {
   width: 900px;
   height: 600px;
-  margin-top: 30px;
+  margin-top: -100px;
   background-image: url("../img/oc_main.jpg");
   margin: 0 auto;
-  margin-top:50px;
   margin-bottom: 100px;
   position: relative;
 }
@@ -63,7 +68,7 @@ body {
   color: white; 
   font-size: 2.0em;
   top: 83%;
-  left: 53%;
+  left: 56%;
   margin:0;
   padding:0;
   letter-spacing: 0.03em;
@@ -222,85 +227,77 @@ body {
 }
 
 .open-lab-img img {
+  position: relative;
   width: 90%;
   margin-left: 25px;
   border-radius: 20px;
-}
-
-.open-lab-img1 img{
-  position: relative;
-  background: #FF8787;
-  box-shadow: 0px 0px 0px 5px #FF8787;
   border: dashed 2px white;
   padding: 0.2em 0.5em;
   color: #454545;
-  transform: rotate( -20deg );
 }
-.open-lab-img3 img:after{
+
+.open-lab-img img:after{
   position: absolute;
   content: '';
   right: -7px;
   top: -7px;
   border-width: 0 15px 15px 0;
   border-style: solid;
+}
+
+.open-lab-img1 img{
+  background: #FF8787;
+  box-shadow: 0px 0px 0px 5px #FF8787;
+  transform: rotate( -12deg );
+}
+.open-lab-img1 img:after{
   border-color: #FF8787 #fff #FF8787;
   box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.15);
 }
 
 .open-lab-img2 img{
   margin-top:170px;
-  position: relative;
   background: #0075c2;
   box-shadow: 0px 0px 0px 5px #0075c2;
-  border: dashed 2px white;
-  padding: 0.2em 0.5em;
-  color: #454545;
   transform: rotate( 5deg );
 }
 .open-lab-img2 img:after{
-  position: absolute;
-  content: '';
-  right: -7px;
-  top: -7px;
-  border-width: 0 15px 15px 0;
-  border-style: solid;
   border-color: #0075c2 #fff #0075c2;
   box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.15);
 }
 
 .open-lab-img3 img{
-  position: relative;
   background: #fff0cd;
   box-shadow: 0px 0px 0px 5px #fff0cd;
-  border: dashed 2px white;
-  padding: 0.2em 0.5em;
-  color: #454545;
   transform: rotate( 10deg );
 }
 .open-lab-img3 img:after{
-  position: absolute;
-  content: '';
-  right: -7px;
-  top: -7px;
-  border-width: 0 15px 15px 0;
-  border-style: solid;
   border-color: #ffdb88 #fff #ffdb88;
   box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.15);
 }
 
 .linkContents{
+  width:80px;
+  margin: 0 auto;
   font-size:20px;
   text-align: center;
   margin-top:40px;
+  border-bottom:1px solid #000;
+}
+
+.linkContents a{
+  transition: color .3s, text-decoration .3s;
 }
 
 .linkContents a:hover{
   color: #FF8787;
+  text-decoration-color: transparent;
 }
 
 #floor{
   margin-top:-50px;
 }
+
 .mapContents .floorLink {
   text-align: center;
 }
@@ -320,24 +317,6 @@ body {
   transition: all 0.6s;
 }
 
-.map a:hover path, .map a:hover rect, .map a:hover polygon, .map a:hover use {
-  fill: #f5a623;
-  -webkit-transition: all 0.2s;
-  -moz-transition: all 0.2s;
-  -ms-transition: all 0.2s;
-  -o-transition: all 0.2s;
-  transition: all 0.2s;
-}
-
-.map a:active path, .map a:active rect, .map a:active polygon, .map a:active use {
-  fill: #ee6557;
-  -webkit-transition: all 0.2s;
-  -moz-transition: all 0.2s;
-  -ms-transition: all 0.2s;
-  -o-transition: all 0.2s;
-  transition: all 0.2s;
-}
-
 .mapDetail input {
   display: none;
 }
@@ -353,12 +332,6 @@ body {
   fill: #f5a623;
 }
 
-
-/* (map)クリック時の処理 */
-
-.mapDetail #map105:checked~#A-1F .map .mapA105 rect, .mapDetail #map106:checked~#A-1F .map .mapA106 polygon, .mapDetail #map107:checked~#A-1F .map .mapA107 rect, .mapDetail #map155:checked~#A-1F .map .mapA155 polygon, .mapDetail #map210:checked~#A-2F .map .mapA210 rect, .mapDetail #map303:checked~#A-3F .map .mapA303 path, .mapDetail #map306:checked~#A-3F .map .mapA306 rect, .mapDetail #map307:checked~#A-3F .map .mapA307 rect, .mapDetail #map308:checked~#A-3F .map .mapA308 rect, .mapDetail #map309:checked~#A-3F .map .mapA309 rect, .mapDetail #map310:checked~#A-3F .map .mapA310 rect, .mapDetail #map312:checked~#A-3F .map .mapA312 path, .mapDetail #map314:checked~#A-3F .map .mapA314 rect, .mapDetail #map355:checked~#A-3F .map .mapA355 rect, .mapDetail #map357:checked~#A-3F .map .mapA357 rect, .mapDetail #map358:checked~#A-3F .map .mapA358 rect, .mapDetail #map359:checked~#A-3F .map .mapA359 rect, .mapDetail #map360:checked~#A-3F .map .mapA360 rect, .mapDetail #map360:checked~#A-3F .map .mapA361 rect {
-  fill: #FF8787;
-}
 
 
 /* floor map roomContents */
@@ -422,6 +395,7 @@ body {
   float: right;
   margin: 0 auto;
   width: 322px;
+  margin-bottom:100px;
 }
 
 .mapDetail .table {
