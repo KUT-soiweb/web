@@ -40,6 +40,36 @@
       <!-- poem -->
       <div id="poem">
 
+         <!-- jun -->
+      <div class="jun">
+          <label for="jun">
+          <!-- monthContainer -->
+            <div class="monthContainer">
+              <h1>6月</h1>
+            </div><!-- monthContainer -->
+            <!-- imageContainer -->
+            <div class="imageContainer">
+              <div class="gradationContainer"></div><!-- gradationContainer -->
+            </div><!-- imageContainer -->
+          </label>
+
+          <input type="checkbox" id="jun" class="bellows">
+
+          <ul>
+            <li>
+
+              <!-- poemContainer -->
+              <div class="poemContainer">
+                <!-- poemFunc -->
+                <div class="poemFunc">
+                  <img src="img/june_poem.jpg" alt="June Poem Image">
+                </div><!-- poemFunc -->
+              </div><!-- poemContainer -->
+            </li>
+          </ul>
+      </div><!-- jun -->
+
+
 
         <div class="may">
           <label for="may">
