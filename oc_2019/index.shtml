@@ -9,8 +9,15 @@
   <link rel="stylesheet" href="css/base.css" media="all" title="header" charset="utf-8">
   <link rel="stylesheet" href="css/oc_2019.css" media="all" title="header" charset="utf-8">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="js/bace.js"></script>
+	<script src="js/bace.js"></script>
+	
+	<script type="text/javascript">
+		window.onload = function(){
+			headSerect(0);
+		}
+	</script>
 </head>
+
 <body>
 	<!--#include file="header.html"-->
 
