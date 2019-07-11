@@ -481,7 +481,8 @@
               <span id="green">CS</span>
             </p>
           </a>
-        </li>        <li class="faculty">
+        </li>
+        <li class="faculty">
           <a href="faculty_members/profile_takeuchi.shtml">
             <div class="triangleSkyblue"></div>
             <h2>講師</h2>
@@ -498,36 +499,46 @@
               <span class="lab_name">ゲーム情報学研究室</span>
             </h6>
             <p>
-              <span id="gray">iH</span>
+              <span id="green">iH</span>
               <span id="green">iM</span>
-              <span id="green">CC</span>
+              <span id="gray">CC</span>
               <span id="green">CS</span>
             </p>
           </a>
-<!--
-        </li>        <li class="faculty">
-          <a href="faculty_members/profile_kinoshita.shtml">
-            <div class="triangleCrimson"></div>
-            <h2 id="twoSection">教育講師</h2>
-            <img src="faculty_members/img/Face-KinoshitaNaofumi.png" width="200" height="200" alt="木下尚文" id="adjustment1" />
-            <h1>木下 尚文</h1>
-            <h3>Kinoshita Naofumi</h3>
+        </li>
+
+        <li class="faculty">
+          <a href="faculty_members/profile_harada.shtml">
+            <div class="triangleLightgreen"></div>
+            <h2>助教</h2>
+            <img src="faculty_members/img/Face-HaradaTakashi.png" width="200" height="200" alt="原田崇司" />
+            <h1>原田 崇司</h1>
+            <h3>Harada Takashi</h3>
             <h4>
               <専門分野>
             </h4>
             <h5 id="space">
-              <span class="specality">金融解析系理論, 資産配分による運用</span>
+              <span class="specality">アルゴリズム，計算の複雑さ</span>
             </h5>
+            <h6>
+              <span class="lab_name">アルゴリズム研究室</span>
+            </h6>
+            <p>
+              <span id="gray">iH</span>
+              <span id="gray">iM</span>
+              <span id="green">CC</span>
+              <span id="green">CS</span>
+            </p>
           </a>
         </li>
--->
+
         <li class="faculty">
           <a href="faculty_members/profile_murakami.shtml">
             <div class="triangleCrimson"></div>
             <h2 id="twoSection">教育講師</h2>
             <img src="faculty_members/img/Face-MurakamiKazuko.png" width="200" height="200" alt="村上和子" id="adjustment1" />
             <h1>村上 和子</h1>
-            <h3>Murakami kazuko</h3>
+            <h3>Murakami Kazuko</h3>
             <h4>
               <専門分野>
             </h4>
@@ -536,6 +547,24 @@
             </h5>
           </a>
         </li>
+
+        <li class="faculty">
+         <a href="faculty_members/profile_iwamura.shtml">
+           <div class="triangleCrimson"></div>
+           <h2 id="twoSection">教育講師</h2>
+           <img src="faculty_members/img/Face-IwamuraSatoshi.png" width="200" height="200" alt="岩村聡" id="adjustment1" />
+           <h1>岩村 聡</h1>
+           <h3>Iwamura Satoshi</h3>
+           <h4>
+             <専門分野>
+           </h4>
+           <h5 id="space">
+             <span class="specality">ビデオカメラ，画像処理，医療機器</span>
+           </h5>
+         </a>
+       </li>
+
+
       </ul>
     </div>
   </div>
