@@ -1,0 +1,419 @@
+@import url('https://fonts.googleapis.com/css?family=Sawarabi+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:300,400&display=swap');
+
+body {
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+#bace-contents {
+  width: 95%;
+  height: auto;
+  margin: 0 auto;
+}
+.pankuzu{
+  width:80%;
+  margin:0 auto;
+  margin-left:150px;
+  margin-top:50px;
+}
+
+.main-image {
+  width: 900px;
+  height: 600px;
+  margin-top: -100px;
+  background-image: url("../img/oc_main.jpg");
+  margin: 0 auto;
+  margin-bottom: 100px;
+  position: relative;
+}
+.main-image h1{
+  position: absolute;
+  color: white; 
+  font-size: 4em;
+  top: 25%;
+  left: 12%;
+  margin:0;
+  padding:0;
+  letter-spacing: 0.05em;
+  font-family: 'Merriweather', serif;
+}
+
+.main-image h2{
+  position: absolute;
+  color: white; 
+  font-size: 2.8em;
+  top: 42%;
+  left: 22.5%;
+  margin:0;
+  padding:0;
+  letter-spacing: 0.03em;
+  font-family: 'Merriweather', serif;
+}
+
+.main-image h3{
+  position: absolute;
+  color: white; 
+  font-size: 2.2em;
+  top: 57%;
+  left: 31.5%;
+  margin:0;
+  padding:0;
+  letter-spacing: 0.03em;
+}
+
+.main-image p{
+  position: absolute;
+  color: white; 
+  font-size: 2.0em;
+  top: 83%;
+  left: 56%;
+  margin:0;
+  padding:0;
+  letter-spacing: 0.03em;
+}
+
+#main-content {
+  width: 95%;
+  margin: auto;
+}
+
+.content-item {
+  width: 850px;
+  margin: 70px auto;
+  position: relative;
+  border-bottom: solid 12px #006cb5;
+  border-radius: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #0096fc;
+  color: #fff;
+}
+
+.content-item:hover {
+  -webkit-transform: translateY(10px);
+  transform: translateY(10px);
+  padding-bottom:60px;
+  border-bottom: none;
+}
+
+.content-item:active {
+  -webkit-transform: translateY(10px);
+  transform: translateY(10px);
+  padding-bottom:60px;
+  border-bottom: none;
+}
+
+.content-item p {
+  font-size: 60px;
+  margin-left: 350px;
+  font-family: 'Sawarabi Gothic', sans-serif;
+}
+
+.content-item img{
+  width:100px;
+  height:100px;
+  float:left;
+  margin-left:100px;
+  margin-top:-35px;
+}
+
+.answer {
+  width: 850px;
+  display: none;
+  margin: 100px auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.answer h2 {
+  margin-bottom: 70px;
+  padding-bottom: 40px;
+  font-size: 40px;
+  text-align: center;
+  border-bottom: 0.7px solid #000;
+}
+
+.answer h4 {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 90px;
+  line-height: 2.0em;
+}
+
+.LaboratoryTable table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.LaboratoryTable table tr {
+  border-bottom: solid 2px white;
+}
+
+.LaboratoryTable table tr:last-child {
+  border-bottom: none;
+}
+
+.LaboratoryTable table th {
+  position: relative;
+  text-align: left;
+  background-color: #52c2d0;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.LaboratoryTable table th:after {
+  display: block;
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  right: -10px;
+  border-left: 10px solid #52c2d0;
+}
+
+.LaboratoryTable table td {
+  text-align: left;
+  text-align: center;
+  background-color: #eee;
+  padding: 10px 0;
+  border-left: 0.5px solid #a8b7c5;
+  border-bottom: 0.5px solid #a8b7c5;
+}
+
+.LessonTable table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.LessonTable table tr {
+  border-bottom: solid 2px white;
+}
+
+.LessonTable table tr:last-child {
+  border-bottom: none;
+}
+
+.LessonTable table th {
+  position: relative;
+  text-align: left;
+  background-color: #ffd700;
+  color: #000;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.LessonTable table td {
+  text-align: left;
+  text-align: center;
+  background-color: #eee;
+  padding: 10px 0;
+  border-left: 0.5px solid #a8b7c5;
+  border-bottom: 0.5px solid #a8b7c5;
+}
+
+#open-lab{
+  width:100%;
+  height:400px;
+}
+
+.open-lab-img {
+  width: 32%;
+  float: left;
+  margin-top: 8%;
+  border-radius:20px;
+}
+
+.open-lab-img img {
+  position: relative;
+  width: 90%;
+  margin-left: 25px;
+  border-radius: 20px;
+  border: dashed 2px white;
+  padding: 0.2em 0.5em;
+  color: #454545;
+}
+
+.open-lab-img img:after{
+  position: absolute;
+  content: '';
+  right: -7px;
+  top: -7px;
+  border-width: 0 15px 15px 0;
+  border-style: solid;
+}
+
+.open-lab-img1 img{
+  background: #FF8787;
+  box-shadow: 0px 0px 0px 5px #FF8787;
+  transform: rotate( -12deg );
+}
+.open-lab-img1 img:after{
+  border-color: #FF8787 #fff #FF8787;
+  box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.15);
+}
+
+.open-lab-img2 img{
+  margin-top:170px;
+  background: #0075c2;
+  box-shadow: 0px 0px 0px 5px #0075c2;
+  transform: rotate( 5deg );
+}
+.open-lab-img2 img:after{
+  border-color: #0075c2 #fff #0075c2;
+  box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.15);
+}
+
+.open-lab-img3 img{
+  background: #fff0cd;
+  box-shadow: 0px 0px 0px 5px #fff0cd;
+  transform: rotate( 10deg );
+}
+.open-lab-img3 img:after{
+  border-color: #ffdb88 #fff #ffdb88;
+  box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.15);
+}
+
+.linkContents{
+  width:80px;
+  margin: 0 auto;
+  font-size:20px;
+  text-align: center;
+  margin-top:40px;
+  border-bottom:1px solid #000;
+}
+
+.linkContents a{
+  transition: color .3s, text-decoration .3s;
+}
+
+.linkContents a:hover{
+  color: #FF8787;
+  text-decoration-color: transparent;
+}
+
+#floor{
+  margin-top:-50px;
+}
+
+.mapContents .floorLink {
+  text-align: center;
+}
+
+.mapContents .linkContents {
+  display: inline-block;
+  font-size: 1.4em;
+  margin: 60px 30px 0 30px;
+  text-decoration: underline;
+}
+
+.map a path, .map a rect, .map a polygon, .map a use {
+  -webkit-transition: all 0.6s;
+  -moz-transition: all 0.6s;
+  -ms-transition: all 0.6s;
+  -o-transition: all 0.6s;
+  transition: all 0.6s;
+}
+
+.mapDetail input {
+  display: none;
+}
+
+.mapDetail input~svg a path, .mapDetail input~svg a rect, .mapDetail input~svg a polygon, .mapDetail input~svg a use {
+  fill: #16A6B6;
+}
+
+
+/* (map)ホバー時の処理 */
+
+.mapDetail #hover105:checked~#A-1F .map .mapA105 rect, .mapDetail #hover106:checked~#A-1F .map .mapA106 polygon, .mapDetail #hover107:checked~#A-1F .map .mapA107 rect, .mapDetail #hover155:checked~#A-1F .map .mapA155 polygon, .mapDetail #hover210:checked~#A-2F .map .mapA210 rect, .mapDetail #hover303:checked~#A-3F .map .mapA303 path .mapDetail #hover306:checked~#A-3F .map .mapA306 rect, .mapDetail #hover307:checked~#A-3F .map .mapA307 rect, .mapDetail #hover308:checked~#A-3F .map .mapA308 rect, .mapDetail #hover309:checked~#A-3F .map .mapA309 rect, .mapDetail #hover310:checked~#A-3F .map .mapA310 rect, .mapDetail #hover312:checked~#A-3F .map .mapA312 path, .mapDetail #hover314:checked~#A-3F .map .mapA314 rect, .mapDetail #hover355:checked~#A-3F .map .mapA355 rect, .mapDetail #hover357:checked~#A-3F .map .mapA357 rect, .mapDetail #hover358:checked~#A-3F .map .mapA358 rect, .mapDetail #hover359:checked~#A-3F .map .mapA359 rect, .mapDetail #hover360:checked~#A-3F .map .mapA360 rect, .mapDetail #map360:checked~#A-3F .map .mapA361 rect {
+  fill: #f5a623;
+}
+
+
+
+/* floor map roomContents */
+
+.roomContents {
+  border: 25px solid #93ff93;
+  border-radius: 15px;
+  display: none;
+  height: 200px;
+  margin: 0 auto;
+  text-align: center;
+  width: 700px;
+}
+
+.roomEventDetail .mapLabRight {
+  float: right;
+  height: 200px;
+  width: 400px;
+}
+
+.roomEventDetail .mapLabRight .lab1 span, .roomEventDetail .mapLabRight .lab2 span, .roomEventDetail .mapLabRight .lab3 span {
+  background: #ffffff;
+  display: table-cell;
+  vertical-align: middle;
+  width: 400px;
+}
+
+.roomEventDetail .mapLabRight .lab1 span {
+  border-bottom: dashed 2px #dddddd;
+  font-size: 1.6em;
+  font-weight: bold;
+  height: 48px;
+}
+
+.roomEventDetail .mapLabRight .lab2 span {
+  border-bottom: dashed 2px #dddddd;
+  font-size: 1.1em;
+  font-weight: bold;
+  height: 48px;
+  text-decoration: underline;
+}
+
+.roomEventDetail .mapLabRight .lab3 span {
+  height: 100px;
+}
+
+.mapDetail .areaBox {
+  margin: 0 auto;
+  margin-bottom: 50px;
+  text-align: left;
+  width: 750px;
+}
+
+.mapDetail .areaBox .leftTable {
+  float: left;
+  margin: 0 auto;
+  width: 422px;
+}
+
+.mapDetail .areaBox .rightTable {
+  float: right;
+  margin: 0 auto;
+  width: 322px;
+  margin-bottom:100px;
+}
+
+.mapDetail .table {
+  border: solid 5px #e7e7e7;
+  border-radius: 1em;
+  display: table;
+  margin: 0 auto;
+  overflow: hidden;
+  width: 98%;
+}
+
+.mapDetail .table .row {
+  display: table-row;
+  width: 100%;
+}
+
+.mapDetail .table .row>div {
+  cursor: pointer;
+  display: table-cell;
+  padding: 8px 10px;
+}
