@@ -58,6 +58,12 @@
 
       <!-- linkImg -->
       <div class="linkImg">
+        <a href="oc_2019/index.shtml">
+          <img src="img/OC2019banner.png"/>
+        </a>
+      </div>
+
+      <div class="linkImg">
         <a href="KUTpoem/index.shtml">
           <img src="img/KUTpoem_banner.png"/>
         </a>
