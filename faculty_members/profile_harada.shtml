@@ -136,20 +136,23 @@
 </div>
 
 <!--kennkyuushitusyoukai-->
-<!-- <div class="koukouseihe">
+<div class="koukouseihe">
 <div class="photo2"><img src="svg/StaffDetail_balloon.svg" alt="吹き出し">
 <h1>高校生のみなさんへ</h1>
 
 <div class="kotoba">
-　
+　大学とは「様々な人との出会いの場」であり「研究を行う（新しいことを発見・創造する）場所」です。
+どんな大学にも貴方に衝撃を与える、貴方の考え方を揺さぶるような教員や先輩が一人は居ると思います。
+そのような人を自ら探し出し、共に勉強・研究に没頭して下さい。
+高知工科大学情報学群がそのような場として選ばられるように，日々努力しております。
 </div>
--->
+
 <!--kotoba-->
-<!--
+
 </div>
 
 </div>
--->
+
 <!--koukouseihe-->
 <div class="kougikamoku">
 <h2>講義科目</h2>
@@ -164,10 +167,10 @@
 
 </div>
 <!--kougikamoku-->
-<!--
+
 <div class="photo3"><img src="img/Body-HaradaTakashi.jpg" alt="先生全身画像"></div>
 </div>
--->
+
 <!--main-->
 </div>
 <!--baseContents-->
