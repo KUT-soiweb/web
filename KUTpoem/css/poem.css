@@ -148,6 +148,158 @@ input[type="checkbox"].bellows:checked + ul{
     width: 100%;
 }
 
+.monthContainer p {
+    font-size: 1.3em;
+    line-height: 1.7em;
+}
+
+
+/* 2019年ポエム */
+.jan2019 label,
+.jan2019 ul {
+    border-top: solid 5px #FFF15D;
+}
+.jan2019 h1 {
+    border-bottom: solid 3px #FFF15D;
+}
+.jan2019 .imageContainer {
+    background-image: url("../img/january_catch2019.jpg");
+}
+
+.feb2019 label,
+.feb2019 ul {
+    border-top: solid 5px #FF6C39;
+}
+.feb2019 h1 {
+    border-bottom: solid 3px #FF6C39;
+}
+.feb2019 .imageContainer {
+    background-image: url("../img/february_catch2019.jpg");
+}
+
+
+.mar2019 label,
+.mar2019 ul {
+    border-top: solid 5px #FF72C7;
+}
+.mar2019 h1 {
+    border-bottom: solid 3px #FF72C7;
+}
+.mar2019 .imageContainer {
+    background-image: url("../img/march_catch2019.jpg");
+}
+
+
+.apr2019 label,
+.apr2019 ul {
+    border-top: solid 5px #C8FF76;
+}
+.apr2019 h1 {
+    border-bottom: solid 3px #C8FF76;
+}
+.apr2019 .imageContainer {
+    background-image: url("../img/april_catch2019.jpg");
+}
+
+
+.may2019 label,
+.may2019 ul {
+    border-top: solid 5px #6FFF5D;
+}
+.may2019 h1 {
+    border-bottom: solid 3px #6FFF5D;
+}
+.may2019 .imageContainer {
+    background-image: url("../img/may_catch2019.jpg");
+}
+
+
+.jun2019 label,
+.jun2019 ul {
+    border-top: solid 5px #0DFFBE;
+}
+.jun2019 h1 {
+    border-bottom: solid 3px #0DFFBE;
+}
+.jun2019 .imageContainer {
+    background-image: url("../img/june_catch2019.jpg");
+}
+
+
+.jul2019 label,
+.jul2019 ul {
+    border-top: solid 5px #0FC2FF;
+}
+.jul2019 h1 {
+    border-bottom: solid 3px #0FC2FF;
+}
+.jul2019 .imageContainer {
+    background-image: url("../img/july_catch2019.jpg");
+}
+
+
+.aug2019 label,
+.aug2019 ul {
+    border-top: solid 5px #1DA3FF;
+}
+.aug2019 h1 {
+    border-bottom: solid 3px #1DA3FF;
+}
+.aug2019 .imageContainer {
+    background-image: url("../img/august_catch2019.jpg");
+}
+
+
+.sep2019 label,
+.sep2019 ul {
+    border-top: solid 5px #FFBD3A;
+}
+.sep2019 h1 {
+    border-bottom: solid 3px #FFBD3A;
+}
+.sep2019 .imageContainer {
+    background-image: url("../img/september_catch2019.jpg");
+}
+
+
+.oct2019 label,
+.oct2019 ul {
+    border-top: solid 5px #FF7F3D;
+}
+.oct2019 h1 {
+    border-bottom: solid 3px #FF7F3D;
+}
+.oct2019 .imageContainer {
+    background-image: url("../img/octber_catch2019.jpg");
+}
+
+
+.nov2019 label,
+.nov2019 ul {
+    border-top: solid 5px #FF376F;
+}
+.nov2019 h1 {
+    border-bottom: solid 3px #FF376F;
+}
+.nov2019 .imageContainer {
+    background-image: url("../img/november_catch2019.jpg");
+}
+
+
+.dec2019 label,
+.dec2019 ul {
+    border-top: solid 5px #D54FFF;
+}
+.dec2019 h1 {
+    border-bottom: solid 3px #D54FFF;
+}
+.dec2019 .imageContainer {
+    background-image: url("../img/december_catch2019.jpg");
+}
+
+
+
+
 
 
 /* 各月のテーマカラーとサムネイル*/

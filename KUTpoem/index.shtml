@@ -40,6 +40,39 @@
       <!-- poem -->
       <div id="poem">
 
+
+        <!-- jul -->
+        <div class="jul2019">
+          <label for="jul2019">
+            <!-- monthContainer -->
+            <div class="monthContainer">
+              <h1>7月</h1>
+              <p>2019</p>
+            </div><!-- monthContainer -->
+            <!-- imageContainer -->
+            <div class="imageContainer">
+              <div class="gradationContainer"></div><!-- gradationContainer -->
+            </div><!-- imageContainer -->
+          </label>
+
+          <input type="checkbox" id="jul2019" class="bellows">
+
+          <ul>
+            <li>
+
+              <!-- poemContainer -->
+              <div class="poemContainer">
+                <!-- poemFunc -->
+                <div class="poemFunc">
+                  <img src="img/july_poem2019.jpg" alt="7monthPoem">
+                </div><!-- poemFunc -->
+              </div><!-- poemContainer -->
+            </li>
+          </ul>
+        </div><!-- jul -->
+
+
+
          <!-- jun -->
       <div class="jun">
           <label for="jun">
