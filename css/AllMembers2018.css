@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+/*members*/
+#baseContents .members {
+  margin: 50px auto 30px;
+  position: relative;
+  width: 650px;
+}
+
+/*メンバー紹介詳細*/
+#baseContents .members .box .personal {
+}
+
+
+#baseContents .members .box .personal a {
+  color: white;
+}
+
+/* 新規ページ紹介 */
+#baseContents .members .pages {
+  border: solid 4px #5c5c5c;
+  height: 250px;
+  /*margin-top: 20px*/
+}
+
+#baseContents .members .box .newPages {
+  color: #5c5c5c;
+  font-size: 20px;
+  width: 250px;
+}
+
+#baseContents .members .box ul {
+  font-size: 25px;
+  list-style-type: none;
+  margin-left: -155px;
+  text-align: center;
+  width: 500px;
+}
+
+#baseContents .members .box li {
+  margin-top: 50px;
+}
