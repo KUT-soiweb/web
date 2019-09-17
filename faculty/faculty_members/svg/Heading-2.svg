@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="248px" height="51px" viewBox="0 0 248 51" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12072) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle 41 + Line + Line 10</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="教員詳細ページopen-copy" sketch:type="MSArtboardGroup" transform="translate(-355.000000, -1146.000000)">
+            <g id="Group" sketch:type="MSLayerGroup" transform="translate(45.000000, 1146.000000)">
+                <g id="Rectangle-41-+-Line-+-Line-10" transform="translate(311.000000, 0.000000)">
+                    <rect id="Rectangle-36-Copy-3" fill="#FFFFFF" sketch:type="MSShapeGroup" x="0.976166203" y="0.262847907" width="243" height="50.1295337"></rect>
+                    <path d="M214.768868,3.65083778 L214.768868,3.32763236 L31.7688679,3.32763236 L31.7688679,43.3276324 L214.768868,43.3276324 L214.768868,43.0044269 L235.025757,23.3276324 L214.768868,3.65083778 Z M31.7688679,43.3276324 L31.7688679,3.32763236 L11.1792454,23.3276324 L31.7688679,43.3276324 Z" id="Rectangle-41" fill="#71CEF2" sketch:type="MSShapeGroup"></path>
+                    <path d="M21.3823247,3.32763236 L0.976166203,22.4884431 L21.3823245,43.555536" id="Line" stroke="#71CDF2" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" sketch:type="MSShapeGroup"></path>
+                    <path d="M245.228836,3.09972876 L224.822677,22.2605395 L245.228836,43.3276324" id="Line-Copy" stroke="#71CDF2" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" sketch:type="MSShapeGroup" transform="translate(235.025757, 23.213681) scale(-1, 1) translate(-235.025757, -23.213681) "></path>
+                    <text id="研究紹介" sketch:type="MSTextLayer" font-family="Hiragino Kaku Gothic ProN" font-size="24" font-weight="313" fill="#FFFFFF">
+                        <tspan x="74.1484215" y="31.8676147">研究紹介</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

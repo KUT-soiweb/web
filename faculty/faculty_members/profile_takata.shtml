@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	    <meta name="keyword" content="高知工科大学情報学群">
+	    <meta name="description" content="高知工科大学情報学群のホームページ">
+	    <title>高田 喜朗</title>
+	    <link rel="stylesheet" type="text/css" href="css/base.css">
+	    <link rel="stylesheet" type="text/css" href="css/profile.css">
+			<link rel="icon" href="../img/favicon2.png" type="image/png" />
+	    <script type="text/javascript" src="js/switch.js"></script>
+			<script type="text/javascript">
+					window.onload = function(){
+						headSerect(2);
+					}
+			</script>
+</head>
+
+<body>
+<!--#include file="header.html"-->
+
+    <div id ="baseContents">
+
+	<div class="pankuzu">
+		<a href="../index.shtml">HOME</a> > <a href="../faculty_members.shtml">教員一覧</a> > 高田喜朗
+	</div>
+	<!--pankuzu-->
+	<div class="main">
+      <div class="keireki">
+    <h1>高田 喜朗<span class="hurigana"><span style="margin-right: 2.8em;"></span>Takata Yoshiaki</span></h1>
+<div class="photo1">
+		<img src="img/Face-TakataYoshiaki.png" alt="顔の写真" class="facephoto">
+	</div>
+	<!--photo1-->
+		<div class="line"></div>
+    <h2>准教授<span>准教授室：A470</span></h2>
+
+
+    <input type="checkbox" id="Panel1" class="ExpandCheckBox" />
+		<label for="Panel1" class="open">
+		  <h3>
+				<img src="svg/Triangle_close-white.svg">&nbsp;プロフィール
+			</h3>
+
+  </label>
+<div class="panel">
+<dl>
+<dt>生年：</dt><dd>1969年</dd>
+<dt>出身：</dt><dd>徳島県</dd>
+<dt>所属：</dt><dd>高知工科大学情報学群<br />
+　　　大学院工学研究科 基盤工学専攻 情報システム工学コース<br />
+　　　大学院工学研究科 基盤工学専攻 情報学コース</dd>
+<dt>所属学会：</dt><dd>電子情報通信学会, 情報処理学会</dd>
+<dt>学位：</dt><dd>博士(工学)</dd>
+<dt>最終学歴：</dt><dd>大阪大学大学院 基礎工学研究科 物理系専攻 情報工学分野 修了 (1997)</dd>
+<dt>相談可能分野：</dt><dd>計算機システムの数理的仕様記述, 数理的検証法</dd>
+<dt>趣味：</dt><dd>絵本の収集</dd>
+<div class="mail1"><img src="svg/mail_takata.svg" alt="先生のmailアドレス" class="mail"></div>
+</dl>
+</div>
+<!--panel-->
+
+<a href="https://www.kochi-tech.ac.jp/profile/ja/takata-yoshiaki.html" target="_blank"><div class="box3" style="float:right">▶ 工科大教員ページ</div></a>
+<a href="http://www.info.kochi-tech.ac.jp/y-takata/" target="_blank"><div class="box2" style="float:right">▶ 研究室ページ</div></a>
+<a href="http://www.info.kochi-tech.ac.jp/y-takata/index.php?%A5%E1%A5%F3%A5%D0%A1%BC%2Fy-takata" target="_blank"><div class="box1" style="float:right">▶ 教員個人ページ</div></a>
+
+<div class="clear"></div>
+</div>
+<!--keireki-->
+<div class="kennkyuusyoukai">
+	<div class="center1"><img src="svg/Heading-2.svg" alt="研究紹介"></div>
+
+<h2>「誤りのない」ソフトウェアを「なるべく容易に」作成するための方法</h2>
+<h3>専門分野：ソフトウェアの形式モデルと検証</h3>
+<div class="center2">
+<p>
+　プログラムに誤りがないことをどう確かめたらよいか?わかりやすい書き方で仕様を書けば、あとは自動的にプログラムを生成できないか?（あるいは、なるべく簡便な方法でプログラミングできないか?)といった問題に最も興味があります。「検証」「形式的仕様記述」「自動生成」等がキーワードです。実際は、プログラムの「正しさを保証すること」、プログラミングの「容易化」「自動化」、などに関係することは幅広く何でも研究テーマの候補と考えています。</p>
+</div>
+<!--center2-->
+ <div class="kennkyuuryouiki">
+<input type="checkbox" id="Panel2" class="ExpandCheckBox" />
+	 <label for="Panel2" class="open">
+		 <h3><img src="svg/Triangle_close-pink.svg">&nbsp;現在の研究領域</h3>
+	 </label>
+
+	 	 <div class="panel">
+
+<a>
+<div class="circle1"></div>ポリシー制御付きプログラムのモデル検査法<br />
+</a>
+<a>
+<div class="circle2"></div>XMLデータベースのアクセス制御モデル<br />
+</a>
+</div>
+<!--panel-->
+</div>
+<!--kennkyuuryouiki-->
+
+
+<div class="kennkyuuronnbunn">
+	<input type="checkbox" id="Panel3" class="ExpandCheckBox" />
+	<label for="Panel3" class="open">
+		<h3><img src="svg/Triangle_close-pink.svg">&nbsp;代表的な研究論文など</h3>
+	</label>
+
+		<div class="panel">
+<ul>
+	<dl>
+<li><div class="circle1"></div>&emsp;A Formal Verification of a Subset of Information-Based Access Control Based on<br />
+	Extended Weighted Pushdown System</li>
+　　　　<dt>著者<span style="margin-right: 1em;"></span>：</dt><dd>LAMILLA ALVAREZ Pablo, TAKATA Yoshiaki</dd>
+　　　　<dt>発表誌：</dt><dd>IEICE Transactions on Information and Systems, <br />
+	Vol.E97-D, No.5, pp.1149-1159</dd>
+　　　　<dt>発表年：</dt><dd>2014</dd>
+<div class="clear"></div>
+<li><div class="circle2"></div>&emsp;Automatic Generation of History-Based Access Control from Information Flow Specification</li>
+　　　　<dt>著者<span style="margin-right: 1em;"></span>：</dt><dd>Yoshiaki Takata, Hiroyuki Seki</dd>
+　　　　<dt>発表誌：</dt><dd>8th International Symposium on Automated Technology<br />
+	for Verification andAnalysis (ATVA 2010), Lecture Notes in <br />
+	Computer Science 6252, pp.259-275</dd>
+　　　　<dt>発表年：</dt><dd>2010</dd>
+<div class="clear"></div>
+<li><div class="circle3"></div>&emsp;Formal Language Theoretic Approach to the Disclosure Tree Strategy in Trust <br />
+	Negotiation</li>
+　　　　<dt>著者<span style="margin-right: 1em;"></span>：</dt><dd>Yoshiaki Takata, Hiroyuki Seki</dd>
+　　　　<dt>発表誌：</dt><dd>IEICE Transactions on Information and Systems, <br />
+	Vol.E92-D, No.2, pp.200-210</dd>
+　　　　<dt>発表年：</dt><dd>2009</dd>
+<div class="clear"></div>
+<li><div class="circle1"></div>&emsp;Comparison of the Expressive Power of Language-based Access Control Models</li>
+	　　　 <dt>著者<span style="margin-right: 1em;"></span>：</dt><dd>Yoshiaki Takata, Hiroyuki Seki</dd>
+　　　　<dt>発表誌：</dt><dd>IEICE Transactions on Information and Systems, <br />
+	Vol.E92-D, No.5, pp.1033-1036</dd>
+　　　　<dt>発表年：</dt><dd>2009</dd>
+<div class="clear"></div>
+<li><div class="circle2"></div>&emsp;New Certificate Chain Discovery Methods for Trust Establishment in Ad Hoc <br />
+	Networks and Their Evaluation</li>
+　　　　<dt>著者<span style="margin-right: 1em;"></span>：</dt><dd>Hisashi Mohri, Ikuya Yasuda, Yoshiaki Takata, Hiroyuki Seki</dd>
+　　　　<dt>発表誌：</dt><dd>情報処理学会論文誌, Vol.49, No.1, pp.362-374</dd>
+　　　　<dt>発表年：</dt><dd>2008</dd>
+</dl>
+</div>
+<!--kennkyuronnbunn-->
+</div>
+<!--kennkyuushhyoukai-->
+</div>
+<!--kennkyuunaiyou-->
+<div class="kennkyuushitusyoukai">
+	<div class="center1"><img src="svg/Heading-3.svg" alt="研究室紹介"></div>
+
+<div class="Lab_photo">
+<img src="img/Lab-takata_1.jpg" alt="研究室の写真" id="Lab_main" />
+</div>
+
+<h2>ソフトウェア検証・解析学研究室：A355</h2>
+<p>
+　コンピュータプログラムにバグ（誤り）がないかどうか、コンピュータ自身を使って調べる方法を研究しています。つまり、プログラム実行中に現れうるすべての状況を、コンピュータの計算能力を使ってしらみつぶしに調べる方法の研究です。どんな誤りでも見つけられるような万能の方法はなく、調べたい事柄に応じて方法を工夫したり組み合わせたりする必要があり、そこがおもしろさでもあります。</p>
+</div>
+<!--kennkyuushitusyoukai-->
+<div class="koukouseihe">
+<div class="photo2"><img src="svg/StaffDetail_balloon.svg" alt="吹き出し"></div>
+<h1>高校生のみなさんへ</h1>
+<div class="kotoba">
+　All work and no play makes Jack a dull boy.<br />
+　好きなことに一所懸命打ち込む、という経験を学生時代にぜひしてほしいと思います。勉強ができる人より人間性豊かな人を目指してほしいと思います。
+</div>
+<!--kotoba-->
+</div>
+<!--koukouseihe-->
+<div class="kougikamoku">
+<h2>講義科目</h2>
+<dl>
+<dd>情報科学2, 情報学群実験第2, ソフトウェア工学, <br />
+	ソフトウェア工学演習 </dd>
+</dl>
+<h2>受け入れ可能な専攻</h2>
+<p>
+情報通信専攻<br />
+コンピュータサイエンス専攻<br />
+</p>
+
+</div>
+<!--kougikamoku-->
+<div class="photo3"><img src="img/Body-TakataYoshiaki.jpg" alt="先生全身画像"></div>
+</div>
+<!--main-->
+</div>
+<!--baseContents-->
+
+<!--#include file="footer.html"-->
+</body>
+</html>
