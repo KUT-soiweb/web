@@ -27,7 +27,7 @@ window.onload = function(){  }
       </div> <!-- title -->
 
       <div class="main">
-        <div class="yearMove"><a href="members.shtml" class="left">2018 >></a></div>
+        <div class="yearMove"><a href="members_2018.shtml" class="left"><< 2018</a></div>
         <div class="yearMove"><a href="members_2016.shtml" class="right">2016 >></a></div>
         <h3>※ 選んだ項目のページを製作した学生のプロフィールが見られます</h3>
       </div><!-- main -->

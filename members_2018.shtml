@@ -369,7 +369,7 @@ window.onload = function(){  }
    <table class="profile">
      <tr><th>名前</th><td> : </td><td>元木拓実 (Motoki Takumi)</td></tr>
      <tr><th>学年</th><td> : </td><td>学士3年生 (B3)</td></tr>
-     <tr><th>専攻</th><td> : </td><td>なし</td></tr>
+     <tr><th>専攻</th><td> : </td><td>情報通信</td></tr>
      <tr><th>出身</th><td> : </td><td>徳島県</td></tr>
      <tr><th>趣味</th><td> : </td><td>音楽鑑賞, 読書</td></tr>
      <tr><th>サークル等</th><td> : </td><td>アカペラ</td></tr>
