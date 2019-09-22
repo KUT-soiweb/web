@@ -27,7 +27,8 @@ window.onload = function(){  }
       </div> <!-- title -->
 
       <div class="main">
-        <div class="yearMove"><a href="members.shtml" class="right">2016 >></a></div>
+        <div class="yearMove"><a href="members.shtml" class="right">2018 >></a></div>
+        <div class="yearMove"><a href="members_2016.shtml" class="right">2016 >></a></div>
         <h3>※ 選んだ項目のページを製作した学生のプロフィールが見られます</h3>
       </div><!-- main -->
 
@@ -624,5 +625,6 @@ window.onload = function(){  }
               </div> <!-- ugawa -->
       </div><!--Membersmenue-->
     </div><!--baseContents-->
+    <!--#include file="footer.html"-->
   </body>
 </html>
