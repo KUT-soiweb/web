@@ -27,6 +27,7 @@ window.onload = function(){  }
       </div> <!-- title -->
 
       <div class="main">
+        <div class="yearMove"><a href="members_2018.shtml" class="left"><< 2018</a></div>
         <div class="yearMove"><a href="members_2016.shtml" class="right">2016 >></a></div>
         <h3>※ 選んだ項目のページを製作した学生のプロフィールが見られます</h3>
       </div><!-- main -->
@@ -161,8 +162,12 @@ window.onload = function(){  }
                 - Project Leader -</h2>
             </div>
           </div>
-          <div class="icon right">
-            <img src="./img/phone_icon.png" alt="">
+          <div class="personal right">
+            <img src="./img/fujii_square.jpg" alt="" class="modalSyncer" data-target="fujii">
+            <div class="hover modalSyncer" data-target="fujii">
+              <h1><span>T</span>akuto <br><span>F</span>ujii</h1>
+              <h2>B3<br>Computer-Communication</h2>
+            </div>
           </div>
           <div class="personal left">
             <img src="./img/gucchi_square.jpg" alt="" class="modalSyncer" data-target="gucchi">
@@ -172,10 +177,10 @@ window.onload = function(){  }
             </div>
           </div>
           <div class="personal right">
-            <img src="./img/fujii_square.jpg" alt="" class="modalSyncer" data-target="fujii">
-            <div class="hover modalSyncer" data-target="fujii">
-              <h1><span>T</span>akuto <br><span>F</span>ujii</h1>
-              <h2>B3<br>Computer-Communication</h2>
+            <img src="./img/kusuda_square.jpg" alt="" class="modalSyncer" data-target="kusuda">
+            <div class="hover modalSyncer" data-target="kusuda">
+              <h1><span>K</span>enta <br><span>K</span>usuda</h1>
+              <h2>B3<br>Computer-Science</h2>
             </div>
           </div>
           <div class="personal left">
@@ -186,10 +191,10 @@ window.onload = function(){  }
             </div>
           </div>
           <div class="personal right">
-            <img src="./img/kusuda_square.jpg" alt="" class="modalSyncer" data-target="kusuda">
-            <div class="hover modalSyncer" data-target="kusuda">
-              <h1><span>K</span>enta <br><span>K</span>usuda</h1>
-              <h2>B3<br>Computer-Science</h2>
+            <img src="./img/sawamura_square.jpg" alt="" class="modalSyncer" data-target="sawamura">
+            <div class="hover modalSyncer" data-target="sawamura">
+              <h1><span>Y</span>uki <br><span>S</span>awamura</h1>
+              <h2>B3<br>Information-Human</h2>
             </div>
           </div>
           <div class="icon left">
@@ -620,5 +625,6 @@ window.onload = function(){  }
               </div> <!-- ugawa -->
       </div><!--Membersmenue-->
     </div><!--baseContents-->
+    <!--#include file="footer.html"-->
   </body>
 </html>

@@ -1,0 +1,1466 @@
+@charset "UTF-8";
+
+/* main */
+#baseContents .main {
+  margin: 200px auto 30px;
+  position: relative;
+  width: 740px;
+}
+
+#baseContents .main > h3 {
+  clear: both;
+  padding-right: 10px;
+  text-align: right;
+}
+
+#baseContents .main .yearMove {
+  margin: 0px auto;
+  width: 740px;
+}
+
+#baseContents .main .yearMove a {
+  -moz-transition: .5s;
+  -ms-transition: .5s;
+  -o-transition: .5s;
+  -webkit-transition: .5s;
+  font-weight: bold;
+  transition: .5s;
+}
+
+#baseContents .main .yearMove a:hover {
+  color: #3db6eb;
+}
+
+#baseContents .main .yearMove .right {
+  float: right;
+}
+
+#baseContents h4 {
+  font-size: 30px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+/*
+#baseContents .menueBox {
+  clear: both;
+  height: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  width: 750px;
+}
+
+#baseContents .menueBox .menue {
+  overflow: hidden;
+  width: 300px;
+  height: 100px;
+  margin-top: 0px;
+  margin-left: 100px;
+  padding: 0px;
+}
+
+#baseContents .menueBox .menue:hover {
+  background-color: #6495ed;
+  color: #fff;
+}
+
+#baseContents .menueBox .menueAll span{
+  border-radius: 50%;
+  border: solid;
+  border-color: #99ccff;
+  color: #fff;
+  display: inline-block;
+  font-size: large;
+  font-weight: bold;
+  height: 145px;
+  position: absolute;
+  left: 303px;
+  line-height: 130px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  top:0px;
+  vertical-align: middle;
+  width: 145px;
+}
+
+#baseContents .menueBox .menueAll span:nth-child(2){
+  background: #fff;
+  color: #6495ed;
+}
+
+#baseContents .menueBox .menueAll span:nth-child(1){
+  background-color: #6495ed;
+  color: #fff;
+}
+
+#baseContents .menueBox .menueAll:hover span:nth-child(2){
+  display: none;
+}
+*/
+
+/*リンク*/
+#baseContents .pageLink {
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;    /* Safari,Google Chrome用 */
+  border-radius: 15px;        /* CSS3草案 */
+  border: solid 5px gray;
+  font-size: 20px;
+  height: 105px;
+  margin-left: 120px;
+  margin-top: 30px;
+  width: 704px;
+}
+
+#baseContents .pageLink img {
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;    /* Safari,Google Chrome用 */
+  border-radius: 10px;       /* CSS3草案 */
+  height: 105px;
+  width: 702px;
+}
+
+/*タブのスタイル*/
+.members2018Tabs{
+  margin-top: 50px;
+  padding-bottom: 40px;
+}
+
+.members2018TabItem{
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  overflow: hidden;
+  width: 300px;
+  margin-top: 0px;
+  padding: 0px;
+  display: block;
+  position: relative;
+  text-align:center;
+  background: #99ccff;
+  font-size: 18px;
+  line-height: 50px;
+  text-decoration:none;
+}
+
+.members2018TabItem a{
+  color: #fff;
+}
+
+.members2018TabItem a:before {        /*白い丸 */
+    display: block;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 19px;
+    width: 16px;
+    height: 16px;
+    margin-top: -8px;
+    border-radius: 50%;        /* CSS3草案 */
+    -webkit-border-radius: 50%;    /* Safari,Google Chrome用 */
+    -moz-border-radius: 50%;   /* Firefox用 */
+    background: #fff;
+}
+
+.members2018TabItem a:after{
+  display: block;
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 25px;
+  width: 0;
+  height: 0;
+  margin-top: -5px;
+  border: 5px solid transparent;        /*top right bottom を透明化 */
+  border-left: 5px solid #99ccff;
+}
+
+.members2018TabItem:hover{
+  background: #3ab2e9;
+}
+
+.Allmembers2018Label{
+  margin-top: 0;
+  margin-left: 50%;
+  transform:translateX(-90%);
+}
+
+.members2018Label{
+  margin-top: 3px;
+  margin-left: 50%;
+  transform:translateX(-10%);
+}
+
+.oc2018Label{
+  margin: 3px;
+  margin-left: 50%;
+  transform:translateX(-90%);
+}
+
+.special2018Label{
+  margin: 3px;
+  margin-left: 50%;
+  transform:translateX(-10%);
+}
+
+.KUTPoem2018Label{
+  margin: 3px 50%;
+  margin-left: 50%;
+  transform:translateX(-90%);
+}
+
+input[name="tab_item"] {
+  display: none;
+}
+
+.members2018TabsContents{
+  display: none;
+  padding: 40px 40px 0;
+  clear: both;
+  overflow: hidden;
+  position:relative;
+}
+
+#Allmembers2018:checked ~ .members,
+#members2018:checked ~ .CreatersPage,
+#special2018:checked ~ .Special,
+#oc2018:checked ~ .OC,
+#KUTPoem2018:checked ~ .KUTPoem{
+  display: block;
+}
+
+
+
+/* 角丸 */
+.Radius5 .menue{
+    border-radius: 5px;        /* CSS3草案 */
+    -webkit-border-radius: 5px;    /* Safari,Google Chrome用 */
+    -moz-border-radius: 5px;   /* Firefox用 */
+}
+/* ボタン共通 */
+.menueAllmember .menue{
+    overflow: hidden;
+    width: 300px;
+    height: 100px;
+    margin-top: 0px;
+    margin-left: 100px;
+    padding: 0px;
+}
+.menueAllmember .menue a {
+    display: block;
+    position: relative;
+    z-index: 100;
+    text-align:center;
+    background: #99ccff;
+    color: #fff;
+    font-size: 18px;
+    line-height: 50px;
+    text-decoration:none;
+}
+.menueAllmember .menue a:hover {
+    background: #3ab2e9;        /* マウスオーバーカラー */
+}
+
+
+.menueCreater .menue {
+    overflow: hidden;
+    width: 300px;
+    height: 100px;
+    margin-top: -45px;
+    margin-left: 350px;
+    padding: 0px;
+}
+.menueCreater .menue a {
+    display: block;
+    position: relative;
+    z-index: 100;
+    text-align:center;
+    background: #99ccff;
+    color: #fff;
+    font-size: 18px;
+    line-height: 50px;
+    text-decoration:none;
+}
+.menueCreater .menue a:hover {
+    background: #3ab2e9;        /* マウスオーバーカラー */
+}
+
+
+
+
+.menueOC .menue {
+    overflow: hidden;
+    width: 300px;
+    height: 100px;
+    margin-top: -45px;
+    margin-left: 100px;
+    padding: 0px;
+}
+.menueOC .menue a {
+    display: block;
+    position: relative;
+    z-index: 100;
+    text-align:center;
+    background: #99ccff;
+    color: #fff;
+    font-size: 18px;
+    line-height: 50px;
+    text-decoration:none;
+}
+.menueOC .menue a:hover {
+    background: #3ab2e9;        /* マウスオーバーカラー */
+}
+
+
+.menueSpecial .menue {
+    overflow: hidden;
+    width: 300px;
+    height: 100px;
+    margin-top: -45px;
+    margin-left: 350px;
+    padding: 0px;
+}
+.menueSpecial .menue a {
+    display: block;
+    position: relative;
+    z-index: 100;
+    text-align:center;
+    background: #99ccff;
+    color: #fff;
+    font-size: 18px;
+    line-height: 50px;
+    text-decoration:none;
+}
+.menueSpecial .menue a:hover {
+    background: #3ab2e9;        /* マウスオーバーカラー */
+}
+
+
+.menuePoem .menue {
+    overflow: hidden;
+    width: 300px;
+    height: 100px;
+    margin-top: -45px;
+    margin-left: 100px;
+    padding: 0px;
+}
+.menuePoem .menue a {
+    display: block;
+    position: relative;
+    z-index: 100;
+    text-align:center;
+    background: #99ccff;
+    color: #fff;
+    font-size: 18px;
+    line-height: 50px;
+    text-decoration:none;
+}
+.menuePoem .menue a:hover {
+    background: #3ab2e9;        /* マウスオーバーカラー */
+}
+
+/*製作者*/
+#baseContents .creater {
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;    /* Safari,Google Chrome用 */
+  background-color: gray;
+  border-radius: 10px;        /* CSS3草案 */
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  width: 750px;
+}
+
+#baseContents .creater .photo {
+  background-color: gray;
+  border-radius: 100%;
+  border: solid 3px #FFF;
+  float:left;
+  height: 240px;
+  margin-left: 50px;
+  margin-top: 30px;
+  width: 240px;
+}
+
+#baseContents .creater .photo img {
+  border-radius: 100%;
+  height: 240px;
+  width: 240px;
+}
+
+#baseContents .creater dl {
+  margin-left: 350px;
+  padding-top: 25px;
+  width: 360px;
+}
+
+#baseContents .creater dt {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+#baseContents .two_creater {
+  background-color: #71cdf1;
+}
+
+#baseContents .one_creater {
+  background-color: #FFB751;
+}
+
+
+
+
+#IconList3 a:before {        /*白い丸 */
+    display: block;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 19px;
+    width: 16px;
+    height: 16px;
+    margin-top: -8px;
+    border-radius: 50%;        /* CSS3草案 */
+    -webkit-border-radius: 50%;    /* Safari,Google Chrome用 */
+    -moz-border-radius: 50%;   /* Firefox用 */
+    background: #fff;
+}
+#IconList3 a:after {        /*「after要素」で三角 */
+    display: block;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 25px;
+    width: 0;
+    height: 0;
+    margin-top: -5px;
+    border: 5px solid transparent;        /*top right bottom を透明化 */
+    border-left: 5px solid #99ccff;
+}
+#IconList3 a:hover:after {        /*「after要素」のマウスオーバー（カラーを合わせる） */
+    border-left: 5px solid #3ab2e9;
+}
+
+
+
+#baseContents .members {
+  margin: 50px auto 30px;
+  position: relative;
+  width: 650px;
+}
+
+#baseContents .four .square{
+  color: #fff;
+  font-size: 40px;
+  margin-top: 0px;
+  margin-left: 0px;
+  width: 200px;
+  height: 425px;
+  background-color: #fe9fab;
+  text-align: center;
+}
+
+#baseContents p1{
+  /*4th,3rd,2nd,etc*/
+  position: relative;
+  top: 45%;
+  transform: translateY(-50%);
+  letter-spacing: 5px;
+}
+
+#baseContents p2{
+  /*year*/
+  position: relative;
+  top: 50%;
+  margin-top: -10px;
+  transform: translateY(-50%);
+  letter-spacing: 5px;
+}
+
+/*それぞれの三角形の形*/
+#baseContents .triangle1{
+  width: 0px;
+  height: 0px;
+  background: transparent;
+  border-top: 213px solid gray;
+  border-right: 213px solid transparent;
+  border-left: 213px solid transparent;
+}
+
+#baseContents .triangle2{
+  width: 0px;
+  height: 0px;
+  border-top: 213px solid transparent;
+  border-bottom: 213px solid transparent;
+  border-left: 213px solid gray;
+}
+
+#baseContents .triangle3{
+  width: 0px;
+  height: 0px;
+  background: transparent;
+  border-bottom: 213px solid gray;
+  border-left: 213px solid transparent;
+  border-right: 213px solid transparent;
+}
+
+#baseContents .triangle4{
+  width: 213px;
+  height: 0px;
+  background: transparent;
+  border-top: 213px solid transparent;
+  border-right: 213px solid gray;
+  border-bottom: 213px solid transparent;
+}
+
+#baseContents .triangle5{
+  border-top: 213px solid gray;
+  border-right: 213px solid transparent;
+  border-bottom: 213px solid transparent;
+  border-left: 213px solid gray;
+  width: 0px;
+}
+
+#baseContents .triangle6{
+  border-top: 218px solid gray;
+  border-right: 218px solid gray;
+  border-bottom: 218px solid transparent;
+  border-left: 218px solid transparent;
+  width: 0px;
+}
+
+#baseContents .triangle7{
+  width: 0px;
+  height: 0px;
+  border-top: 218px solid transparent;
+  border-right: 218px solid transparent;
+  border-bottom: 218px solid gray;
+  border-left: 218px solid gray;
+}
+
+
+
+/*4thYear*/
+#baseContents .four .triangle5{
+  margin-left: 205px;
+  margin-top: -425px;
+}
+
+#baseContents .four .triangle4{
+  margin-left:220px;
+  margin-top: -426px;
+}
+
+#baseContents .four .triangle3{
+  margin-left:212px;
+  margin-top: -213px;
+}
+
+
+/*3rdYear*/
+#baseContents .three .square{
+  color: #fff;
+  font-size: 40px;
+  margin-top: 5px;
+  margin-left: 443px;
+  width: 203px;
+  height: 435px;
+  background-color: #b5e685;
+  text-align: center;
+}
+
+
+
+#baseContents .three .triangle6{
+  margin-left: 2px;
+  margin-top: -436px;
+}
+
+#baseContents .three .triangle2{
+  margin-left:0px;
+  margin-top: -430px;
+  width: 0px;
+  height: 0px;
+  border-top: 215px solid transparent;
+  border-bottom: 215px solid transparent;
+  border-left: 215px solid #b5e685;
+}
+
+#baseContents .three .triangle3{
+  margin-left:9px;
+  margin-top: -210px;
+}
+
+/*2ndYear*/
+#baseContents .two .square{
+  color: #fff;
+  font-size: 40px;
+  margin-top: 5px;
+  margin-left: 0px;
+  width: 200px;
+  height: 880px;
+  background-color: #71cdf1;
+  text-align: center;
+}
+
+#baseContents .two .triangle7{
+  margin-left:205px;
+  margin-top: -874px;
+}
+
+#baseContents .two .triangle1{
+  margin-left:210px;
+  margin-top: -441px;
+}
+
+#baseContents .two .triangle4{
+  margin-left:220px;
+  margin-top: -208px;
+}
+
+#baseContents .two .triangle6{
+  margin-left: 210px;
+  margin-top: 15px;
+
+}
+
+#baseContents .two .triangle2{
+  margin-left:205px;
+  margin-top: -432px;
+  width: 0px;
+  height: 0px;
+  border-top: 215px solid transparent;
+  border-bottom: 215px solid transparent;
+  border-left: 215px solid gray;
+}
+
+#baseContents .two .triangle3{
+  margin-left:215px;
+  margin-top: -210px;
+}
+
+
+#baseContents .one .square{
+  color: #fff;
+  font-size: 40px;
+  margin-top: 5px;
+  margin-left: 446px;
+  width: 200px;
+  height: 426px;
+  background-color: #FFB751;
+  text-align: center;
+}
+
+#baseContents .one .triangle1{
+  margin-left:7px;
+  margin-top: -426px;
+  width: 0px;
+  height: 0px;
+  background: transparent;
+  border-top: 213px solid gray;
+  border-right: 213px solid transparent;
+  border-left: 213px solid transparent;
+}
+
+#baseContents .one .triangle2{
+  margin-left:0px;
+  margin-top: -213px;
+  width: 0px;
+  height: 0px;
+  border-top: 213px solid transparent;
+  border-bottom: 213px solid transparent;
+  border-left: 213px solid gray;
+}
+
+#baseContents .one .triangle4{
+  margin-left:15px;
+  margin-top: -426px;
+  width: 213px;
+  height: 0px;
+  background: transparent;
+  border-top: 213px solid transparent;
+  border-right: 213px solid #FFB751;
+  border-bottom: 213px solid transparent;
+}
+
+#baseContents .one .triangle3{
+  margin-left:7px;
+  margin-top: -213px;
+  width: 0px;
+  height: 0px;
+  background: transparent;
+  border-bottom: 213px solid gray;
+  border-left: 213px solid transparent;
+  border-right: 213px solid transparent;
+}
+
+#baseContents .adviser .square{
+  color: #fff;
+  font-size:40px;
+  margin-top: 5px;
+  margin-left: 0px;
+  width: 200px;
+  height: 426px;
+  background-color: #cab3fe;
+  text-align: center;
+}
+
+#baseContents .adviser .triangle1{
+  /*gray member3*/
+  margin-left:212px;
+  margin-top: -426px;
+  width: 0px;
+  height: 0px;
+  background: transparent;
+  border-top: 213px solid #cab3fe;
+  border-right: 213px solid transparent;
+  border-left: 213px solid transparent;
+}
+
+#baseContents .adviser .triangle2{
+  /*pink left*/
+  margin-left:205px;
+  margin-top: -213px;
+  width: 0px;
+  height: 0px;
+  border-top: 213px solid transparent;
+  border-bottom: 213px solid transparent;
+  border-left: 213px solid gray;
+}
+
+#baseContents .adviser .triangle4{
+  /*pink right*/
+  margin-left:220px;
+  margin-top: -426px;
+  width: 213px;
+  height: 0px;
+  background: transparent;
+  border-top: 213px solid transparent;
+  border-right: 213px solid gray;
+  border-bottom: 213px solid transparent;
+}
+
+#baseContents .adviser .triangle3{
+  /*gray member4*/
+  margin-left:212px;
+  margin-top: -213px;
+  width: 0px;
+  height: 0px;
+  background: transparent;
+  border-bottom: 213px solid #cab3fe;
+  border-left: 213px solid transparent;
+  border-right: 213px solid transparent;
+}
+
+/*members*/
+#baseContents .members {
+  margin: 50px auto 30px;
+  position: relative;
+  width: 650px;
+}
+
+
+
+#baseContents .members .personal img {
+  position: absolute;
+}
+
+
+/*4thYear*/
+
+#baseContents .Shimode img{
+  margin-top: -213px;
+  margin-left: -213px;
+  width: 426px;
+  height: 426px;
+}
+
+
+#baseContents .members .personal .Shimode .hover{
+  margin-top: -213px;
+  margin-left: -213px;
+  border-top: 213px solid rgba(0, 0, 0, 0.6);
+  border-right: 213px solid transparent;
+  border-bottom: 213px solid transparent;
+  border-left: 213px solid rgba(0, 0, 0, 0.6);
+
+  color: #fefefe;
+  opacity: 0;
+  position: absolute;
+  text-align: center;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  transition: .5s;
+}
+
+#baseContents .members .personal .Shimode .hover::after {
+    content: "Chiharu Shimode";
+    font-size: 25px;
+    display: block;
+    top: -100px;
+    color: #fff; /* 文字色はここで変更 */
+    left: -150px;
+    position: absolute;
+    z-index: 101;
+}
+
+#baseContents .gucchi img{
+  margin-top: -213px;
+  margin-left: 212px;
+  width: 214px;
+  height: 427px;
+}
+
+#baseContents .members .personal .gucchi .hover{
+  margin-top: -213px;
+  margin-left: 213px;
+  border-top: 213px solid transparent;
+  border-right: 213px solid rgba(0, 0, 0, 0.6);
+  border-bottom: 213px solid transparent;
+
+  color: #fefefe;
+  opacity: 0;
+  position: absolute;
+  text-align: center;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  transition: .5s;
+}
+
+#baseContents .members .personal .gucchi .hover::after {
+    content: "Koki Hamaguchi";
+    font-size: 25px;
+    display: block;
+    top: -20px;
+    color: #fff; /* 文字色はここで変更 */
+    left: 60px;
+    position: absolute;
+    z-index: 101;
+}
+
+#baseContents .tanabe img{
+  margin-top: 0px;
+  margin-left: -215px;
+  width: 430px;
+  height: 213px;
+}
+
+#baseContents .members .personal .tanabe .hover{
+  margin-top: 0px;
+  margin-left:-213px;
+  border-bottom: 213px solid rgba(0, 0, 0, 0.6);
+  border-left: 213px solid transparent;
+  border-right: 213px solid transparent;
+
+  color: #fefefe;
+  opacity: 0;
+  position: absolute;
+  text-align: center;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  transition: .5s;
+}
+
+#baseContents .members .personal .tanabe .hover::after {
+    content: "Mizuki Tanabe";
+    font-size: 25px;
+    display: block;
+    top: 100px;
+    color: #fff; /* 文字色はここで変更 */
+    left: -50px;
+    position: absolute;
+    z-index: 101;
+}
+
+
+
+/*3rdYear*/
+#baseContents .motoki img{
+  margin-top: -217px;
+  margin-left: -217px;
+  width: 435px;
+  height: 435px;
+}
+
+#baseContents .members .personal .motoki .hover{
+  margin-top: -218px;
+  margin-left: -218px;
+  border-top: 218px solid rgba(0, 0, 0, 0.6);
+  border-right: 218px solid rgba(0, 0, 0, 0.6);
+  border-bottom: 218px solid transparent;
+  border-left: 218px solid transparent;
+
+  color: #fefefe;
+  opacity: 0;
+  position: absolute;
+  text-align: center;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  transition: .5s;
+}
+
+#baseContents .members .personal .motoki .hover::after {
+    content: "Takumi Motoki";
+    font-size: 25px;
+    display: block;
+    top: -100px;
+    color: #fff; /* 文字色はここで変更 */
+    left: 40px;
+    position: absolute;
+    z-index: 101;
+}
+
+
+#baseContents .kinari img{
+  margin-top: 0px;
+  margin-left: -217px;
+  width: 432px;
+  height: 213px;
+}
+
+#baseContents .members .personal .kinari .hover{
+  margin-top: 0px;
+  margin-left: -213px;
+  border-bottom: 213px solid rgba(0, 0, 0, 0.6);
+  border-left: 213px solid transparent;
+  border-right: 213px solid transparent;
+
+  color: #fefefe;
+  opacity: 0;
+  position: absolute;
+  text-align: center;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  transition: .5s;
+}
+
+#baseContents .members .personal .kinari .hover::after {
+    content: "Kinari Ganeko";
+    font-size: 25px;
+    display: block;
+    top: 100px;
+    color: #fff; /* 文字色はここで変更 */
+    left: -50px;
+    position: absolute;
+    z-index: 101;
+}
+
+
+/*2ndYear*/
+
+#baseContents .kondo img{
+  margin-top: -219px;
+  margin-left: -218px;
+  width: 440px;
+  height: 437px;
+}
+
+#baseContents .members .personal .kondo .hover{
+  margin-top: -218px;
+  margin-left: -218px;
+  border-top: 218px solid transparent;
+  border-right: 218px solid transparent;
+  border-bottom: 218px solid rgba(0, 0, 0, 0.6);
+  border-left: 218px solid rgba(0, 0, 0, 0.6);
+
+  color: #fefefe;
+  opacity: 0;
+  position: absolute;
+  text-align: center;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  transition: .5s;
+}
+
+#baseContents .members .personal .kondo .hover::after {
+    content: "Akinori Kondo";
+    font-size: 25px;
+    display: block;
+    top: 40px;
+    color: #fff; /* 文字色はここで変更 */
+    left: -170px;
+    position: absolute;
+    z-index: 101;
+}
+
+#baseContents .yamasaki img{
+  margin-top: -213px;
+  margin-left: -212px;
+  width: 426px;
+  height: 216px;
+}
+
+#baseContents .members .personal .yamasaki .hover{
+  margin-top: -213px;
+  margin-left: -213px;
+  background: transparent;
+  border-top: 213px solid rgba(0, 0, 0, 0.6);
+  border-right: 213px solid transparent;
+  border-left: 213px solid transparent;
+
+  color: #fefefe;
+  opacity: 0;
+  position: absolute;
+  text-align: center;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  transition: .5s;
+}
+
+#baseContents .members .personal .yamasaki .hover::after {
+    content: "Kento Yamasaki";
+    font-size: 25px;
+    display: block;
+    top: -150px;
+    color: #fff; /* 文字色はここで変更 */
+    left: -55px;
+    position: absolute;
+    z-index: 101;
+}
+
+#baseContents .kusaka img{
+  margin-top: -213px;
+  margin-left: 212px;
+  width: 214px;
+  height: 427px;
+}
+
+#baseContents .members .personal .kusaka .hover{
+  margin-top: -213px;
+  margin-left: 213px;
+  border-top: 213px solid transparent;
+  border-right: 213px solid rgba(0, 0, 0, 0.6);
+  border-bottom: 213px solid transparent;
+
+  color: #fefefe;
+  opacity: 0;
+  position: absolute;
+  text-align: center;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  transition: .5s;
+}
+
+#baseContents .members .personal .kusaka .hover::after {
+    content: "Izumi Kusaka";
+    font-size: 25px;
+    display: block;
+    top: -20px;
+    color: #fff; /* 文字色はここで変更 */
+    left: 80px;
+    position: absolute;
+    z-index: 101;
+}
+
+
+#baseContents .maiko img{
+  margin-top: -218px;
+  margin-left: -218px;
+  width: 436px;
+  height: 436px;
+}
+
+#baseContents .members .personal .maiko .hover{
+  margin-top: -218px;
+  margin-left: -218px;
+  border-top: 218px solid rgba(0, 0, 0, 0.6);
+  border-right: 218px solid rgba(0, 0, 0, 0.6);
+  border-bottom: 218px solid transparent;
+  border-left: 218px solid transparent;
+
+  color: #fefefe;
+  opacity: 0;
+  position: absolute;
+  text-align: center;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  transition: .5s;
+}
+
+
+#baseContents .members .personal .maiko .hover::after {
+    content: "Maiko Tokuishi";
+    font-size: 25px;
+    display: block;
+    top: -80px;
+    color: #fff; /* 文字色はここで変更 */
+    left: 40px;
+    position: absolute;
+    z-index: 101;
+}
+
+#baseContents .nagamoto img{
+  margin-top: -218px;
+  margin-left: -215px;
+  width: 213px;
+  height: 434px;
+}
+
+#baseContents .members .personal .nagamoto .hover{
+  margin-top: -213px;
+  margin-left: -213px;
+  border-top: 213px solid transparent;
+  border-bottom: 213px solid transparent;
+  border-left: 213px solid rgba(0, 0, 0, 0.6);
+
+  color: #fefefe;
+  opacity: 0;
+  position: absolute;
+  text-align: center;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  transition: .5s;
+}
+
+#baseContents .members .personal .nagamoto .hover::after {
+    content: "Youichi Nagamoto";
+    font-size: 25px;
+    display: block;
+    top: -30px;
+    color: #fff; /* 文字色はここで変更 */
+    left: -222px;
+    position: absolute;
+    z-index: 101;
+}
+
+
+#baseContents .hakozaki img{
+  margin-top: 0px;
+  margin-left: -215px;
+  width: 430px;
+  height: 213px;
+}
+
+#baseContents .members .personal .hakozaki .hover{
+  margin-top: 0px;
+  margin-left:-213px;
+  border-bottom: 213px solid rgba(0, 0, 0, 0.6);
+  border-left: 213px solid transparent;
+  border-right: 213px solid transparent;
+
+  color: #fefefe;
+  opacity: 0;
+  position: absolute;
+  text-align: center;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  transition: .5s;
+}
+
+#baseContents .members .personal .hakozaki .hover::after {
+    content: "Tatsuya Hakozaki";
+    font-size: 25px;
+    display: block;
+    top: 100px;
+    color: #fff; /* 文字色はここで変更 */
+    left: -50px;
+    position: absolute;
+    z-index: 101;
+}
+
+/*1stYear*/
+
+#baseContents .adachi img{
+  margin-top: -213px;
+  margin-left: -216px;
+  width: 432px;
+  height: 213px;
+}
+
+#baseContents .members .personal .adachi .hover{
+  margin-top: -213px;
+  margin-left: -213px;
+  background: transparent;
+  border-top: 213px solid rgba(0, 0, 0, 0.6);
+  border-right: 213px solid transparent;
+  border-left: 213px solid transparent;
+
+  color: #fefefe;
+  opacity: 0;
+  position: absolute;
+  text-align: center;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  transition: .5s;
+}
+
+#baseContents .members .personal .adachi .hover::after {
+    content: "Kenshi Adachi";
+    font-size: 25px;
+    display: block;
+    top: -150px;
+    color: #fff; /* 文字色はここで変更 */
+    left: -45px;
+    position: absolute;
+    z-index: 101;
+}
+
+
+#baseContents .matsusita img{
+  margin-top: 0px;
+  margin-left: -215px;
+  width: 430px;
+  height: 213px;
+}
+
+#baseContents .members .personal .matsusita .hover{
+  margin-top: 0px;
+  margin-left: -213px;
+  border-bottom: 213px solid rgba(0, 0, 0, 0.6);
+  border-left: 213px solid transparent;
+  border-right: 213px solid transparent;
+
+  color: #fefefe;
+  opacity: 0;
+  position: absolute;
+  text-align: center;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  transition: .5s;
+}
+
+#baseContents .members .personal .matsusita .hover::after {
+    content: "Kazuki Matsusita";
+    font-size: 25px;
+    display: block;
+    top: 100px;
+    color: #fff; /* 文字色はここで変更 */
+    left: -60px;
+    position: absolute;
+    z-index: 101;
+}
+
+#baseContents .miyamoto img{
+  margin-top: -213px;
+  margin-left: -213px;
+  width: 214px;
+  height: 428px;
+}
+
+#baseContents .members .personal .miyamoto .hover{
+  margin-top: -213px;
+  margin-left: -213px;
+  border-top: 213px solid transparent;
+  border-bottom: 213px solid transparent;
+  border-left: 213px solid rgba(0, 0, 0, 0.6);
+
+  color: #fefefe;
+  opacity: 0;
+  position: absolute;
+  text-align: center;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  transition: .5s;
+}
+
+#baseContents .members .personal .miyamoto .hover::after {
+    content: "Daisuke Miyamoto";
+    font-size: 25px;
+    display: block;
+    top: -30px;
+    color: #fff; /* 文字色はここで変更 */
+    left: -225px;
+    position: absolute;
+    z-index: 101;
+}
+
+/*Adviser*/
+
+#baseContents .kurihara img{
+  margin-top: -213px;
+  margin-left: -213px;
+  width: 214px;
+  height: 428px;
+}
+#baseContents .members .personal .kurihara .hover{
+  margin-top: -213px;
+  margin-left: -213px;
+  border-top: 213px solid transparent;
+  border-bottom: 213px solid transparent;
+  border-left: 213px solid rgba(0, 0, 0, 0.6);
+
+  color: #fefefe;
+  opacity: 0;
+  position: absolute;
+  text-align: center;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  transition: .5s;
+}
+
+#baseContents .members .personal .kurihara .hover::after {
+    content: "Toru Kurihara";
+    font-size: 25px;
+    display: block;
+    top: -20px;
+    color: #fff; /* 文字色はここで変更 */
+    left: -200px;
+    position: absolute;
+    z-index: 101;
+}
+
+#baseContents .ugawa img{
+  margin-top: -213px;
+  margin-left: 212px;
+  width: 214px;
+  height: 428px;
+}
+#baseContents .members .personal .ugawa .hover{
+  margin-top: -213px;
+  margin-left: 213px;
+  border-top: 213px solid transparent;
+  border-right: 213px solid rgba(0, 0, 0, 0.6);
+  border-bottom: 213px solid transparent;
+
+  color: #fefefe;
+  opacity: 0;
+  position: absolute;
+  text-align: center;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  transition: .5s;
+}
+
+#baseContents .members .personal .ugawa .hover::after {
+    content: "Tomoharu Ugawa";
+    font-size: 25px;
+    display: block;
+    top: -30px;
+    color: #fff; /* 文字色はここで変更 */
+    left: 60px;
+    position: absolute;
+    z-index: 101;
+}
+
+
+
+#baseContents .personal .hover h1 {
+  font-size: 140%;
+  font-weight: bold;
+}
+
+#baseContents .personal .hover h2 {
+  font-size: 80%;
+  margin-top: 5px;
+}
+
+
+#baseContents .personal .hover h1 span {
+  color: #71cdf2;
+}
+
+#baseContents .members .personal .hover:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
+#baseContents .members .box .icon img{
+  top: 20px;
+  margin: 5px;
+  width: 100%;
+  background-color: rgba(0,0,0,0);
+  position: relative;
+}
+
+
+
+
+
+
+
+/* modal window */
+#baseContents .modal {
+  background: #fff;
+  border: 2px solid #aaa;
+  display: none;
+  height: 440px;
+  margin: 1.5em auto 0;
+  padding: 10px 20px;
+  position: fixed;
+  width: 900px;
+  z-index: 2;
+}
+
+#baseContents .modal .profile {
+  float: right;
+  margin-top: 20px;
+  width: 480px;
+}
+
+#baseContents .modal .profile tr {
+  height: 32px;
+}
+
+#baseContents .modal .profile .pr {
+  vertical-align: top;
+}
+
+#baseContents .modal .profile th {
+  font-weight: bold;
+  width: 120px;
+}
+
+#baseContents .modal .profile td a {
+  color: #4A90E2;
+}
+
+#baseContents .modal .profile td a:hover {
+  text-decoration: underline;
+}
+
+#baseContents .modal .profImg {
+  margin-top: 20px;
+  float: left;
+  height: 400px;
+}
+
+#baseContents .modal .modalClose {
+  clear: both;
+  float: right;
+  position: fixed;
+  width: 50px;
+}
+
+#baseContents #modalOverlay {
+  background-color:rgba(0,0,0,0.75);
+	display:none;
+  height:120%;
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+  z-index:1;
+}
