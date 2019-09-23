@@ -39,16 +39,16 @@
         <h2>最近のニュース</h2>
         <div class="newsContents" id="newsDiv">
           <dl id="newsDl">
+                    <dt name="nDate">2019.8.25</dt>
+                      <dd name="nData"><a href="http://www.info.kochi-tech.ac.jp/KUTpoem/index.shtml">7月分のポエム</a>を更新しました。</dd>
+                    <dt name="nDate">2019.8.7</dt>
+                      <dd name="nData"><a href="./news/topic_322.shtml" >「令和元年度Next次世代型施設園芸技術フェア」にて2研究室が展示を行いました。</a></dd>
+                    <dt name="nDate">2019.8.2</dt>
+                      <dd name="nData"><a href="./news/topic_320.shtml" >2019年度オープンキャンパスを開催しました。</a></dd>
                     <dt name="nDate">2019.7.14</dt>
                       <dd name="nData"><a href="http://www.info.kochi-tech.ac.jp/KUTpoem/index.shtml">6月分のポエム</a>を更新しました。</dd>
                     <dt name="nDate">2019.7.11</dt>
                       <dd name="nData"><a href="http://www.info.kochi-tech.ac.jp/oc_2019/">オープンキャンパス2019</a>のページを作成しました。</dd>
-                    <dt name="nDate">2019.6.7</dt>
-                      <dd name="nData"><a href="http://www.info.kochi-tech.ac.jp/international_fellowship.shtml">国際交流ページの海外短期研修欄</a>を更新しました。</dd>
-                    <dt name="nDate">2019.6.6</dt>
-                      <dd name="nData"><a href="https://www.kochi-tech.ac.jp/news/2019/004212.html">松崎教授と近藤さんの共著論文がJournal of Information Processingの特選論文に選ばれました。</a></dd>
-                    <dt name="nDate">2019.6.4</dt>
-                      <dd name="nData"><a href="KUTpoem/index.shtml">5月分のポエム</a>を更新しました。</dd>
                     </dl>
           <div class="oldNews">
             <a href="topic_news.shtml">ニュース一覧　&raquo;</a>
@@ -57,11 +57,6 @@
       </div> <!-- section -->
 
       <!-- linkImg -->
-      <div class="linkImg">
-        <a href="oc_2019/index.shtml">
-          <img src="img/OC2019banner.png"/>
-        </a>
-      </div>
       <div class="linkImg">
         <a href="KUTpoem/index.shtml">
           <img src="img/KUTpoem_banner.png"/>
