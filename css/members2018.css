@@ -108,7 +108,7 @@
   border: solid 5px gray;
   font-size: 20px;
   height: 105px;
-  margin-left: 120px;
+  margin-left: 85px;
   margin-top: 30px;
   width: 704px;
 }
@@ -118,7 +118,7 @@
   -webkit-border-radius: 10px;    /* Safari,Google Chrome用 */
   border-radius: 10px;       /* CSS3草案 */
   height: 105px;
-  width: 702px;
+  width: 705px;
 }
 
 /*タブのスタイル*/
