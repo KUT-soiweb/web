@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="618px" height="276px" viewBox="0 0 618 276" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12072) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Group" sketch:type="MSArtboardGroup">
+            <g id="Group-Copy-2" sketch:type="MSLayerGroup" transform="translate(24.000000, 21.000000)">
+                <g id="セメスタ制-+-Group-Copy-+-Rectangle-73-+-定期試験" transform="translate(0.000000, 36.250000)">
+                    <text id="セメスター制" sketch:type="MSTextLayer" font-family="Hiragino Kaku Gothic ProN" font-size="12" font-weight="313" sketch:alignment="middle" fill="#4A4A4A">
+                        <tspan x="0" y="39">セメスター制</tspan>
+                    </text>
+                    <g id="Group-Copy" transform="translate(89.250000, 0.000000)">
+                        <g id="Rectangle-63-+-1Q">
+                            <rect id="Rectangle-63" stroke="#FFFFFF" fill="#6EA6E8" sketch:type="MSShapeGroup" x="0" y="0" width="159.892609" height="64"></rect>
+                            <text id="前期" sketch:type="MSTextLayer" font-family="Hiragino Kaku Gothic ProN" font-size="24" font-weight="313" fill="#FFFFFF">
+                                <tspan x="56" y="39">前期</tspan>
+                            </text>
+                        </g>
+                        <g id="Rectangle-63-+-1Q-Copy-2" transform="translate(160.000000, 0.000000)">
+                            <rect id="Rectangle-63" stroke="#FFFFFF" fill="#C2C2C2" sketch:type="MSShapeGroup" x="0" y="0" width="80" height="64"></rect>
+                            <text id="夏季休業" sketch:type="MSTextLayer" font-family="Hiragino Kaku Gothic ProN" font-size="12" font-weight="313" fill="#FFFFFF">
+                                <tspan x="16" y="36">夏季休業</tspan>
+                            </text>
+                        </g>
+                        <g id="Rectangle-63-+-1Q-Copy-3" transform="translate(240.000000, 0.000000)">
+                            <rect id="Rectangle-63" stroke="#FFFFFF" fill="#6EA6E8" sketch:type="MSShapeGroup" x="0" y="0" width="160" height="64"></rect>
+                            <text id="後期" sketch:type="MSTextLayer" font-family="Hiragino Kaku Gothic ProN" font-size="24" font-weight="313" fill="#FFFFFF">
+                                <tspan x="56" y="39">後期</tspan>
+                            </text>
+                        </g>
+                        <g id="Rectangle-63-+-1Q-Copy-5" transform="translate(400.000000, 0.000000)">
+                            <rect id="Rectangle-63" stroke="#FFFFFF" fill="#C2C2C2" sketch:type="MSShapeGroup" x="0" y="0" width="80" height="64"></rect>
+                            <text id="春季休業" sketch:type="MSTextLayer" font-family="Hiragino Kaku Gothic ProN" font-size="12" font-weight="313" fill="#FFFFFF">
+                                <tspan x="16" y="36">春季休業</tspan>
+                            </text>
+                        </g>
+                    </g>
+                    <g id="Rectangle-73-+-定期試験" transform="translate(196.000000, 64.000000)">
+                        <path d="M0,10.0013869 C0,8.3437667 1.33702269,7 2.99275089,7 L36.9534111,7 L39.2910843,0.808108091 L41.3764,7 L50.0066342,7 C51.6598245,7 53,8.34308127 53,10.0013869 L53,25.9986131 C53,27.6562333 51.6633729,29 49.9986345,29 L3.00136554,29 C1.34375712,29 0,27.6569187 0,25.9986131 L0,10.0013869 Z" id="Rectangle-73" fill="#DE6675" sketch:type="MSShapeGroup"></path>
+                        <text id="定期試験" sketch:type="MSTextLayer" font-family="Hiragino Kaku Gothic ProN" font-size="9" font-weight="313" fill="#F9F5C0">
+                            <tspan x="9" y="21.5">定期試験</tspan>
+                        </text>
+                    </g>
+                    <g id="Rectangle-73-+-定期試験-Copy" transform="translate(436.000000, 64.000000)">
+                        <path d="M0,10.0013869 C0,8.3437667 1.33702269,7 2.99275089,7 L36.9534111,7 L39.2910843,0.808108091 L41.3764,7 L50.0066342,7 C51.6598245,7 53,8.34308127 53,10.0013869 L53,25.9986131 C53,27.6562333 51.6633729,29 49.9986345,29 L3.00136554,29 C1.34375712,29 0,27.6569187 0,25.9986131 L0,10.0013869 Z" id="Rectangle-73" fill="#DE6675" sketch:type="MSShapeGroup"></path>
+                        <text id="定期試験" sketch:type="MSTextLayer" font-family="Hiragino Kaku Gothic ProN" font-size="9" font-weight="313" fill="#F9F5C0">
+                            <tspan x="9" y="21.5">定期試験</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="Group" transform="translate(0.000000, 142.000000)">
+                    <text id="クォータ制" sketch:type="MSTextLayer" font-family="Hiragino Kaku Gothic ProN" font-size="12" font-weight="313" sketch:alignment="middle" fill="#4A4A4A">
+                        <tspan x="0.5" y="33">クォータ制</tspan>
+                        <tspan x="0.296" y="51" font-size="9">(高知工科大学)</tspan>
+                    </text>
+                    <g transform="translate(89.250000, 0.000000)">
+                        <g id="Rectangle-63-+-1Q">
+                            <rect id="Rectangle-63" stroke="#FFFFFF" fill="#6EA6E8" sketch:type="MSShapeGroup" x="0" y="0" width="80" height="64"></rect>
+                            <text id="1Q" sketch:type="MSTextLayer" font-family="Avenir" font-size="24" font-weight="normal" fill="#FFFFFF">
+                                <tspan x="23" y="42">1Q</tspan>
+                            </text>
+                        </g>
+                        <g id="Rectangle-63-+-1Q-Copy" transform="translate(80.000000, 0.000000)">
+                            <rect id="Rectangle-63" stroke="#FFFFFF" fill="#6EA6E8" sketch:type="MSShapeGroup" x="0" y="0" width="80" height="64"></rect>
+                            <text id="2Q" sketch:type="MSTextLayer" font-family="Avenir" font-size="24" font-weight="normal" fill="#FFFFFF">
+                                <tspan x="23" y="42">2Q</tspan>
+                            </text>
+                        </g>
+                        <g id="Rectangle-63-+-1Q-Copy-2" transform="translate(160.000000, 0.000000)">
+                            <rect id="Rectangle-63" stroke="#FFFFFF" fill="#C2C2C2" sketch:type="MSShapeGroup" x="0" y="0" width="80" height="64"></rect>
+                            <text id="夏季休業" sketch:type="MSTextLayer" font-family="Hiragino Kaku Gothic ProN" font-size="12" font-weight="313" fill="#FFFFFF">
+                                <tspan x="16" y="36">夏季休業</tspan>
+                            </text>
+                        </g>
+                        <g id="Rectangle-63-+-1Q-Copy-3" transform="translate(240.000000, 0.000000)">
+                            <rect id="Rectangle-63" stroke="#FFFFFF" fill="#6EA6E8" sketch:type="MSShapeGroup" x="0" y="0" width="80" height="64"></rect>
+                            <text id="3Q" sketch:type="MSTextLayer" font-family="Avenir" font-size="24" font-weight="normal" fill="#FFFFFF">
+                                <tspan x="23" y="42">3Q</tspan>
+                            </text>
+                        </g>
+                        <g id="Rectangle-63-+-1Q-Copy-4" transform="translate(320.000000, 0.000000)">
+                            <rect id="Rectangle-63" stroke="#FFFFFF" fill="#6EA6E8" sketch:type="MSShapeGroup" x="0" y="0" width="80" height="64"></rect>
+                            <text id="4Q" sketch:type="MSTextLayer" font-family="Avenir" font-size="24" font-weight="normal" fill="#FFFFFF">
+                                <tspan x="23" y="42">4Q</tspan>
+                            </text>
+                        </g>
+                        <g id="Rectangle-63-+-1Q-Copy-5" transform="translate(400.000000, 0.000000)">
+                            <rect id="Rectangle-63" stroke="#FFFFFF" fill="#C2C2C2" sketch:type="MSShapeGroup" x="0" y="0" width="80" height="64"></rect>
+                            <text id="春季休業" sketch:type="MSTextLayer" font-family="Hiragino Kaku Gothic ProN" font-size="12" font-weight="313" fill="#FFFFFF">
+                                <tspan x="16" y="36">春季休業</tspan>
+                            </text>
+                        </g>
+                    </g>
+                    <g id="Rectangle-73-+-定期試験-Copy-2" transform="translate(118.000000, 64.000000)">
+                        <path d="M0,10.0013869 C0,8.3437667 1.33702269,7 2.99275089,7 L36.9534111,7 L39.2910843,0.808108091 L41.3764,7 L50.0066342,7 C51.6598245,7 53,8.34308127 53,10.0013869 L53,25.9986131 C53,27.6562333 51.6633729,29 49.9986345,29 L3.00136554,29 C1.34375712,29 0,27.6569187 0,25.9986131 L0,10.0013869 Z" id="Rectangle-73" fill="#DE6675" sketch:type="MSShapeGroup"></path>
+                        <text id="定期試験" sketch:type="MSTextLayer" font-family="Hiragino Kaku Gothic ProN" font-size="9" font-weight="313" fill="#F9F5C0">
+                            <tspan x="9" y="21.5">定期試験</tspan>
+                        </text>
+                    </g>
+                    <g id="Rectangle-73-+-定期試験-Copy-3" transform="translate(196.000000, 64.000000)">
+                        <path d="M0,10.0013869 C0,8.3437667 1.33702269,7 2.99275089,7 L36.9534111,7 L39.2910843,0.808108091 L41.3764,7 L50.0066342,7 C51.6598245,7 53,8.34308127 53,10.0013869 L53,25.9986131 C53,27.6562333 51.6633729,29 49.9986345,29 L3.00136554,29 C1.34375712,29 0,27.6569187 0,25.9986131 L0,10.0013869 Z" id="Rectangle-73" fill="#DE6675" sketch:type="MSShapeGroup"></path>
+                        <text id="定期試験" sketch:type="MSTextLayer" font-family="Hiragino Kaku Gothic ProN" font-size="9" font-weight="313" fill="#F9F5C0">
+                            <tspan x="9" y="21.5">定期試験</tspan>
+                        </text>
+                    </g>
+                    <g id="Rectangle-73-+-定期試験-Copy-4" transform="translate(356.000000, 64.000000)">
+                        <path d="M0,10.0013869 C0,8.3437667 1.33702269,7 2.99275089,7 L36.9534111,7 L39.2910843,0.808108091 L41.3764,7 L50.0066342,7 C51.6598245,7 53,8.34308127 53,10.0013869 L53,25.9986131 C53,27.6562333 51.6633729,29 49.9986345,29 L3.00136554,29 C1.34375712,29 0,27.6569187 0,25.9986131 L0,10.0013869 Z" id="Rectangle-73" fill="#DE6675" sketch:type="MSShapeGroup"></path>
+                        <text id="定期試験" sketch:type="MSTextLayer" font-family="Hiragino Kaku Gothic ProN" font-size="9" font-weight="313" fill="#F9F5C0">
+                            <tspan x="9" y="21.5">定期試験</tspan>
+                        </text>
+                    </g>
+                    <g id="Rectangle-73-+-定期試験-Copy-5" transform="translate(436.000000, 64.000000)">
+                        <path d="M0,10.0013869 C0,8.3437667 1.33702269,7 2.99275089,7 L36.9534111,7 L39.2910843,0.808108091 L41.3764,7 L50.0066342,7 C51.6598245,7 53,8.34308127 53,10.0013869 L53,25.9986131 C53,27.6562333 51.6633729,29 49.9986345,29 L3.00136554,29 C1.34375712,29 0,27.6569187 0,25.9986131 L0,10.0013869 Z" id="Rectangle-73" fill="#DE6675" sketch:type="MSShapeGroup"></path>
+                        <text id="定期試験" sketch:type="MSTextLayer" font-family="Hiragino Kaku Gothic ProN" font-size="9" font-weight="313" fill="#F9F5C0">
+                            <tspan x="9" y="21.5">定期試験</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="Group" transform="translate(90.000000, 0.500000)">
+                    <g id="Rectangle-51-+-4月">
+                        <rect id="Rectangle-51" stroke="#FFFFFF" fill="#B8E986" sketch:type="MSShapeGroup" x="0" y="0" width="40" height="19"></rect>
+                        <text id="4月" sketch:type="MSTextLayer" font-family="Hiragino Kaku Gothic ProN" font-size="13" font-weight="313" fill="#FFFFFF">
+                            <tspan x="9" y="14">4月</tspan>
+                        </text>
+                    </g>
+                    <g id="Rectangle-51-+-4月-Copy" transform="translate(40.000000, 0.000000)">
+                        <rect id="Rectangle-51" stroke="#FFFFFF" fill="#B8E986" sketch:type="MSShapeGroup" x="0" y="0" width="40" height="19"></rect>
+                        <text id="5月" sketch:type="MSTextLayer" font-family="Hiragino Kaku Gothic ProN" font-size="13" font-weight="313" fill="#FFFFFF">
+                            <tspan x="9" y="14">5月</tspan>
+                        </text>
+                    </g>
+                    <g id="Rectangle-51-+-4月-Copy-2" transform="translate(80.000000, 0.000000)">
+                        <rect id="Rectangle-51" stroke="#FFFFFF" fill="#B8E986" sketch:type="MSShapeGroup" x="0" y="0" width="40" height="19"></rect>
+                        <text id="6月" sketch:type="MSTextLayer" font-family="Hiragino Kaku Gothic ProN" font-size="13" font-weight="313" fill="#FFFFFF">
+                            <tspan x="9" y="14">6月</tspan>
+                        </text>
+                    </g>
+                    <g id="Rectangle-51-+-4月-Copy-3" transform="translate(120.000000, 0.000000)">
+                        <rect id="Rectangle-51" stroke="#FFFFFF" fill="#B8E986" sketch:type="MSShapeGroup" x="0" y="0" width="40" height="19"></rect>
+                        <text id="7月" sketch:type="MSTextLayer" font-family="Hiragino Kaku Gothic ProN" font-size="13" font-weight="313" fill="#FFFFFF">
+                            <tspan x="9" y="14">7月</tspan>
+                        </text>
+                    </g>
+                    <g id="Rectangle-51-+-4月-Copy-4" transform="translate(160.000000, 0.000000)">
+                        <rect id="Rectangle-51" stroke="#FFFFFF" fill="#B8E986" sketch:type="MSShapeGroup" x="0" y="0" width="40" height="19"></rect>
+                        <text id="8月" sketch:type="MSTextLayer" font-family="Hiragino Kaku Gothic ProN" font-size="13" font-weight="313" fill="#FFFFFF">
+                            <tspan x="9" y="14">8月</tspan>
+                        </text>
+                    </g>
+                    <g id="Rectangle-51-+-4月-Copy-5" transform="translate(200.000000, 0.000000)">
+                        <rect id="Rectangle-51" stroke="#FFFFFF" fill="#B8E986" sketch:type="MSShapeGroup" x="0" y="0" width="40" height="19"></rect>
+                        <text id="9月" sketch:type="MSTextLayer" font-family="Hiragino Kaku Gothic ProN" font-size="13" font-weight="313" fill="#FFFFFF">
+                            <tspan x="9" y="14">9月</tspan>
+                        </text>
+                    </g>
+                    <g id="Rectangle-51-+-4月-Copy-6" transform="translate(240.000000, 0.000000)">
+                        <rect id="Rectangle-51" stroke="#FFFFFF" fill="#B8E986" sketch:type="MSShapeGroup" x="0" y="0" width="40" height="19"></rect>
+                        <text id="10月" sketch:type="MSTextLayer" font-family="Hiragino Kaku Gothic ProN" font-size="13" font-weight="313" fill="#FFFFFF">
+                            <tspan x="5" y="14">10月</tspan>
+                        </text>
+                    </g>
+                    <g id="Rectangle-51-+-4月-Copy-7" transform="translate(280.000000, 0.000000)">
+                        <rect id="Rectangle-51" stroke="#FFFFFF" fill="#B8E986" sketch:type="MSShapeGroup" x="0" y="0" width="40" height="19"></rect>
+                        <text id="11月" sketch:type="MSTextLayer" font-family="Hiragino Kaku Gothic ProN" font-size="13" font-weight="313" fill="#FFFFFF">
+                            <tspan x="5" y="14">11月</tspan>
+                        </text>
+                    </g>
+                    <g id="Rectangle-51-+-4月-Copy-8" transform="translate(320.000000, 0.000000)">
+                        <rect id="Rectangle-51" stroke="#FFFFFF" fill="#B8E986" sketch:type="MSShapeGroup" x="0" y="0" width="40" height="19"></rect>
+                        <text id="12月" sketch:type="MSTextLayer" font-family="Hiragino Kaku Gothic ProN" font-size="13" font-weight="313" fill="#FFFFFF">
+                            <tspan x="5" y="14">12月</tspan>
+                        </text>
+                    </g>
+                    <g id="Rectangle-51-+-4月-Copy-9" transform="translate(360.000000, 0.000000)">
+                        <rect id="Rectangle-51" stroke="#FFFFFF" fill="#B8E986" sketch:type="MSShapeGroup" x="0" y="0" width="40" height="19"></rect>
+                        <text id="1月" sketch:type="MSTextLayer" font-family="Hiragino Kaku Gothic ProN" font-size="13" font-weight="313" fill="#FFFFFF">
+                            <tspan x="9" y="14">1月</tspan>
+                        </text>
+                    </g>
+                    <g id="Rectangle-51-+-4月-Copy-10" transform="translate(400.000000, 0.000000)">
+                        <rect id="Rectangle-51" stroke="#FFFFFF" fill="#B8E986" sketch:type="MSShapeGroup" x="0" y="0" width="40" height="19"></rect>
+                        <text id="2月" sketch:type="MSTextLayer" font-family="Hiragino Kaku Gothic ProN" font-size="13" font-weight="313" fill="#FFFFFF">
+                            <tspan x="9" y="14">2月</tspan>
+                        </text>
+                    </g>
+                    <g id="Rectangle-51-+-4月-Copy-11" transform="translate(440.000000, 0.000000)">
+                        <rect id="Rectangle-51" stroke="#FFFFFF" fill="#B8E986" sketch:type="MSShapeGroup" x="0" y="0" width="40" height="19"></rect>
+                        <text id="3月" sketch:type="MSTextLayer" font-family="Hiragino Kaku Gothic ProN" font-size="13" font-weight="313" fill="#FFFFFF">
+                            <tspan x="9" y="14">3月</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
