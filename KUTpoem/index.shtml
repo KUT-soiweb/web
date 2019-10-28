@@ -41,6 +41,72 @@
       <div id="poem">
 
 
+        <!-- sep -->
+        <div class="sep2019">
+          <label for="sep2019">
+            <!-- monthContainer -->
+            <div class="monthContainer">
+              <h1>9月</h1>
+              <p>2019</p>
+            </div><!-- monthContainer -->
+            <!-- imageContainer -->
+            <div class="imageContainer">
+              <div class="gradationContainer"></div><!-- gradationContainer -->
+            </div><!-- imageContainer -->
+          </label>
+
+          <input type="checkbox" id="sep2019" class="bellows">
+
+          <ul>
+            <li>
+
+              <!-- poemContainer -->
+              <div class="poemContainer">
+                <!-- poemFunc -->
+                <div class="poemFunc">
+                  <img src="img/september_poem2019.jpg" alt="9monthPoem">
+                </div><!-- poemFunc -->
+              </div><!-- poemContainer -->
+            </li>
+          </ul>
+        </div><!-- sep -->
+
+
+
+        <!-- aug -->
+        <div class="aug2019">
+          <label for="aug2019">
+            <!-- monthContainer -->
+            <div class="monthContainer">
+              <h1>8月</h1>
+              <p>2019</p>
+            </div><!-- monthContainer -->
+            <!-- imageContainer -->
+            <div class="imageContainer">
+              <div class="gradationContainer"></div><!-- gradationContainer -->
+            </div><!-- imageContainer -->
+          </label>
+
+          <input type="checkbox" id="aug2019" class="bellows">
+
+          <ul>
+            <li>
+
+              <!-- poemContainer -->
+              <div class="poemContainer">
+                <!-- poemFunc -->
+                <div class="poemFunc">
+                  <img src="img/august_poem2019.jpg" alt="8monthPoem">
+                </div><!-- poemFunc -->
+              </div><!-- poemContainer -->
+            </li>
+          </ul>
+        </div><!-- aug -->
+
+
+
+
+
         <!-- jul -->
         <div class="jul2019">
           <label for="jul2019">
@@ -73,10 +139,10 @@
 
 
 
-         <!-- jun -->
-      <div class="jun">
+        <!-- jun -->
+        <div class="jun">
           <label for="jun">
-          <!-- monthContainer -->
+            <!-- monthContainer -->
             <div class="monthContainer">
               <h1>6月</h1>
             </div><!-- monthContainer -->
@@ -100,13 +166,13 @@
               </div><!-- poemContainer -->
             </li>
           </ul>
-      </div><!-- jun -->
+        </div><!-- jun -->
 
 
 
         <div class="may">
           <label for="may">
-          <!-- monthContainer -->
+            <!-- monthContainer -->
             <div class="monthContainer">
               <h1>5月</h1>
             </div><!-- monthContainer -->
@@ -130,14 +196,14 @@
               </div><!-- poemContainer -->
             </li>
           </ul>
-      </div><!-- may -->
+        </div><!-- may -->
 
 
 
         <!-- apr -->
-    <div class="apr">
+        <div class="apr">
           <label for="apr">
-          <!-- monthContainer -->
+            <!-- monthContainer -->
             <div class="monthContainer">
               <h1>4月</h1>
             </div><!-- monthContainer -->
@@ -161,13 +227,13 @@
               </div><!-- poemContainer -->
             </li>
           </ul>
-      </div><!-- apr -->
+        </div><!-- apr -->
 
 
         <!-- mar -->
-    <div class="mar">
+        <div class="mar">
           <label for="mar">
-          <!-- monthContainer -->
+            <!-- monthContainer -->
             <div class="monthContainer">
               <h1>3月</h1>
             </div><!-- monthContainer -->
@@ -191,14 +257,14 @@
               </div><!-- poemContainer -->
             </li>
           </ul>
-      </div><!-- mar -->
+        </div><!-- mar -->
 
 
 
         <!-- feb -->
-    <div class="feb">
+        <div class="feb">
           <label for="feb">
-          <!-- monthContainer -->
+            <!-- monthContainer -->
             <div class="monthContainer">
               <h1>2月</h1>
             </div><!-- monthContainer -->
@@ -222,7 +288,7 @@
               </div><!-- poemContainer -->
             </li>
           </ul>
-      </div><!-- feb -->
+        </div><!-- feb -->
 
 
         <!-- jan -->
