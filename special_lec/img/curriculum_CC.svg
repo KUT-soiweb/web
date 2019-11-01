@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="160px" height="160px" viewBox="0 0 160 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12072) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle 124 + CCommunication + 情報通信</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="カリキュラムbase" sketch:type="MSArtboardGroup" transform="translate(-485.000000, -1228.000000)">
+            <g id="curriculum01" sketch:type="MSLayerGroup" transform="translate(134.000000, 927.000000)">
+                <g id="Group-2" transform="translate(13.000000, 301.000000)">
+                    <g id="Rectangle-124-+-CCommunication-+-情報と通信" transform="translate(338.000000, 0.000000)">
+                        <rect id="Rectangle-124" fill="#EFB960" sketch:type="MSShapeGroup" x="0" y="0" width="160" height="160"></rect>
+                        <path d="M49.3986135,51.9880811 C49.3986135,51.9880811 52.4363158,42.4779809 82.6446281,42.4779809 C112.85294,42.4779809 115.890643,51.9880815 115.890643,51.9880815 L115.890643,68.8234587 C115.890643,68.8234587 110.869766,77.3553759 82.6446281,77.3553719 C54.4194903,77.3553679 49.3986135,68.8234587 49.3986135,68.8234587 L49.3986135,51.9880811 Z M62.3465055,60.0168381 L59.942657,56.1110522 L65.9858902,57.3302929 L76.5840934,53.0780332 L81.5133396,54.6208815 L71.6298942,58.6655621 L76.584094,60.0168381 L62.3465055,60.0168381 Z M102.779793,45.3877992 L105.183641,49.293585 L99.140408,48.0743444 L88.5422048,52.3266041 L83.6129586,50.7837558 L93.496404,46.7390752 L88.5422042,45.3877992 L102.779793,45.3877992 Z M65.890739,44.9721108 L77.2394754,49.2172405 L82.6406945,48.3905057 L79.981532,51.8089005 L66.5118395,51.8089005 L70.6778206,50.6737615 L61.2337644,46.8130543 L65.890739,44.9721108 Z M99.932545,60.5383554 L88.5838086,56.2932257 L83.1825895,57.1199605 L85.841752,53.7015657 L99.3114445,53.7015657 L95.1454635,54.8367047 L104.58952,58.6974119 L99.932545,60.5383554 Z" id="Rectangle-13" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+                        <path d="M51.0609143,54.637262 C51.0609143,54.637262 53.7326384,63.4020862 82.6446267,63.4020862 C111.556615,63.4020862 114.228342,54.637262 114.228342,54.637262" id="Line" stroke="#EFB961" stroke-linecap="round" stroke-linejoin="round" sketch:type="MSShapeGroup"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
