@@ -41,6 +41,37 @@
       <div id="poem">
 
 
+        <!-- oct -->
+        <div class="oct2019">
+          <label for="oct2019">
+            <!-- monthContainer -->
+            <div class="monthContainer">
+              <h1>10月</h1>
+              <p>2019</p>
+            </div><!-- monthContainer -->
+            <!-- imageContainer -->
+            <div class="imageContainer">
+              <div class="gradationContainer"></div><!-- gradationContainer -->
+            </div><!-- imageContainer -->
+          </label>
+
+          <input type="checkbox" id="oct2019" class="bellows">
+
+          <ul>
+            <li>
+
+              <!-- poemContainer -->
+              <div class="poemContainer">
+                <!-- poemFunc -->
+                <div class="poemFunc">
+                  <img src="img/october_poem2019.jpg" alt="octoberPoem">
+                </div><!-- poemFunc -->
+              </div><!-- poemContainer -->
+            </li>
+          </ul>
+        </div><!-- oct -->
+
+
         <!-- sep -->
         <div class="sep2019">
           <label for="sep2019">
