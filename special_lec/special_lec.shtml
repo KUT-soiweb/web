@@ -25,7 +25,7 @@
 						　めざましい発展を遂げる世界に生きる、様々な分野の講師から、その分野の「今」について聴くことができる情報学群特別講義。<br>
 						　今年も豪華な講師陣をお招きし、開講いたします。<br>
 						　4年生を対象とした講義ですが、1、２、３年生も聴講できます。<br>
-						　日程は決まり次第更新していきます。既に決まった日程の間に新たに予定が入り、順番が入れ替わることもありますのでご注意ください。(最終更新日:2019年11月18日)
+						　日程は決まり次第更新していきます。既に決まった日程の間に新たに予定が入り、順番が入れ替わることもありますのでご注意ください。(最終更新日:2019年11月21日)
 				</div>
                 <content>
 				<div class="yearBox">
@@ -73,9 +73,20 @@
 											インテル株式会社 通信デバイス事業本部 グローバルワイヤレス営業本部 日本担当</td>
 									</tr>
 									<tr class="lecTitle">
-											<td class="tNumber">第3回 </td>
+										<td class="tNumber">第3回 </td>
+										<td class="tDate">12月9日(月) 4限</td>
+										<td class="tTitle">（未定）</td>
+										<td class="tPlace">C102</td>
+									</tr>
+									<tr class="lecturer">
+										<td></td>
+										<td colspan="3">【講師】松本 貴也 氏 <br>
+											合同会社Office asoT</td>
+									</tr>
+									<tr class="lecTitle">
+											<td class="tNumber">第4回 </td>
 											<td class="tDate">12月10日(火) 4限</td>
-											<td class="tTitle">（未定）</td>
+											<td class="tTitle">「バーチャル空間と現実空間のものつくり」</td>
 											<td class="tPlace">A107</td>
 										</tr>
 										<tr class="lecturer">
@@ -84,7 +95,7 @@
 												リコーエレメックス株式会社　技術統括センター副所長兼技術開発部</td>
 										</tr>
 									<tr class="lecTitle">
-										<td class="tNumber">第4回 </td>
+										<td class="tNumber">第5回 </td>
 										<td class="tDate">12月16日(月) 3限</td>
 										<td class="tTitle">（未定）</td>
 										<td class="tPlace">K102</td>
@@ -95,7 +106,7 @@
 											株式会社NextInt </td>
 									</tr>
 									<tr class="lecTitle">
-										<td class="tNumber">第5回 </td>
+										<td class="tNumber">第6回 </td>
 										<td class="tDate">12月20日(金) 4限</td>
 										<td class="tTitle">人を育て，地域を潤し，大学を伸ばす知的創造サイクル</td>
 										<td class="tPlace">C102</td>
@@ -110,7 +121,7 @@
 										<td colspan="3"></td>
 									</tr>
 									<tr class="lecTitle">
-										<td class="tNumber">第6回 </td>
+										<td class="tNumber">第7回 </td>
 										<td class="tDate">1月17日(金) 3限</td>
 										<td class="tTitle">「連鎖的相互行為のための対話空間の生成」</td>
 										<td class="tPlace">C101</td>
@@ -121,7 +132,7 @@
 											大学院情報理工学系研究科 知能機械情報学専攻人間機械情報学講座</td>
 									</tr>
 									<tr class="lecTitle">
-										<td class="tNumber">第7回 </td>
+										<td class="tNumber">第8回 </td>
 										<td class="tDate">1月23日(木) 4限</td>
 										<td class="tTitle">「サービスを対象としたデータサイエンスと説明可能AIの研究<br>～将来研究・開発に携わりたい人へ」</td>
 										<td class="tPlace">C102</td>
@@ -132,7 +143,7 @@
 											電気通信大学 大学院情報理工学研究科情報学専攻</td>
 									</tr>
 									<tr class="lecTitle">
-										<td class="tNumber">第8回 </td>
+										<td class="tNumber">第9回 </td>
 										<td class="tDate">1月23日(木) 5限</td>
 										<td class="tTitle">「人間の色知覚・行動モデリングの研究<br>～研究・開発職でのワークライフバランス」</td>
 										<td class="tPlace">C102</td>
