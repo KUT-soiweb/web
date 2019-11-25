@@ -59,7 +59,7 @@
 
     <!-- linkImg -->
     <div class="linkImg">
-      <a href="special_lec.shtml">
+      <a href="special_lec/special_lec.shtml">
         <img src="img/SpecialLec_banner.jpg" />
       </a>
     </div>
