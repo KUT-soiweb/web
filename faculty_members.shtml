@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 
 <head>
@@ -115,6 +115,30 @@
               <span id="green">iH</span>
               <span id="gray">iM</span>
               <span id="green">CC</span>
+              <span id="green">CS</span>
+            </p>
+          </a>
+        </li>
+        <li class="faculty">
+          <a href="faculty_members/profile_shigemasu.shtml">
+            <div class="triangleNavy"></div>
+            <h2>教授</h2>
+            <img src="faculty_members/img/Face-ShigemasuHiroaki.png" width="200" height="200" alt="繁桝博昭" />
+            <h1>繁桝 博昭</h1>
+            <h3>Shigemasu Hiroaki</h3>
+            <h4>
+              <専門分野>
+            </h4>
+            <h5 id="space">
+              <span class="specality">視覚心理学, 認知心理科学, 認知工学</span>
+            </h5>
+            <h6>
+              <span class="lab_name">知覚認知脳情報研究室</span>
+            </h6>
+            <p>
+              <span id="green">iH</span>
+              <span id="green">iM</span>
+              <span id="gray">CC</span>
               <span id="green">CS</span>
             </p>
           </a>
@@ -289,6 +313,7 @@
             </p>
           </a>
         </li>
+
         <li class="faculty">
           <a href="faculty_members/profile_ugawa.shtml">
             <div class="triangleBlue"></div>
@@ -361,30 +386,7 @@
             </p>
           </a>
         </li>
-        <li class="faculty">
-          <a href="faculty_members/profile_shigemasu.shtml">
-            <div class="triangleBlue"></div>
-            <h2>准教授</h2>
-            <img src="faculty_members/img/Face-ShigemasuHiroaki.png" width="200" height="200" alt="繁桝博昭" />
-            <h1>繁桝 博昭</h1>
-            <h3>Shigemasu Hiroaki</h3>
-            <h4>
-              <専門分野>
-            </h4>
-            <h5 id="space">
-              <span class="specality">視覚心理学, 認知心理科学, 認知工学</span>
-            </h5>
-            <h6>
-              <span class="lab_name">知覚認知脳情報研究室</span>
-            </h6>
-            <p>
-              <span id="green">iH</span>
-              <span id="green">iM</span>
-              <span id="gray">CC</span>
-              <span id="green">CS</span>
-            </p>
-          </a>
-        </li>
+
         <li class="faculty">
           <a href="faculty_members/profile_takata.shtml">
             <div class="triangleBlue"></div>
@@ -533,6 +535,38 @@
         </li>
 
         <li class="faculty">
+         <a href="faculty_members/profile_igata.shtml">
+           <div class="triangleCrimson"></div>
+           <h2 id="twoSection">教育講師</h2>
+           <img src="faculty_members/img/Face-IgataMotohiko.png" width="200" height="200" alt="井形元彦" id="adjustment1" />
+           <h1>井形 元彦</h1>
+           <h3>Igata Motohiko</h3>
+           <h4>
+             <専門分野>
+           </h4>
+           <h5 id="space">
+             <span class="specality">情報システムの企画, 開発, 運用</span>
+           </h5>
+        </a>
+      </li>
+
+      <li class="faculty">
+          <a href="faculty_members/profile_iwamura.shtml">
+            <div class="triangleCrimson"></div>
+            <h2 id="twoSection">教育講師</h2>
+            <img src="faculty_members/img/Face-IwamuraSatoshi.png" width="200" height="200" alt="岩村聡" id="adjustment1" />
+            <h1>岩村 聡</h1>
+            <h3>Iwamura Satoshi</h3>
+            <h4>
+              <専門分野>
+            </h4>
+            <h5 id="space">
+              <span class="specality">ビデオカメラ，画像処理，医療機器</span>
+            </h5>
+          </a>
+      </li>
+
+        <li class="faculty">
           <a href="faculty_members/profile_murakami.shtml">
             <div class="triangleCrimson"></div>
             <h2 id="twoSection">教育講師</h2>
@@ -548,21 +582,7 @@
           </a>
         </li>
 
-        <li class="faculty">
-         <a href="faculty_members/profile_iwamura.shtml">
-           <div class="triangleCrimson"></div>
-           <h2 id="twoSection">教育講師</h2>
-           <img src="faculty_members/img/Face-IwamuraSatoshi.png" width="200" height="200" alt="岩村聡" id="adjustment1" />
-           <h1>岩村 聡</h1>
-           <h3>Iwamura Satoshi</h3>
-           <h4>
-             <専門分野>
-           </h4>
-           <h5 id="space">
-             <span class="specality">ビデオカメラ，画像処理，医療機器</span>
-           </h5>
-         </a>
-       </li>
+
 
 
       </ul>
