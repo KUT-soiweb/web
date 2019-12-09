@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>敷田研究室の修士2年生井上 舜也さんが国際会議iSAI-NLP 2019にて受賞しました。</title>
+    <link rel="stylesheet" href="css/base.css" media="all" title="header" charset="utf-8" />
+    <link rel="stylesheet" href="css/topic_news_article.css" media="all" title="header" charset="utf-8" />
+    <link rel="icon" href="../img/favicon2.png" type="image/png" />
+    <script type="text/javascript">
+        window.onload = function(){
+          headSerect(0);
+        }
+    </script>
+  </head>
+  <body>
+    <!--#include file="header.html"-->
+    <div id="baseContents">
+      <div class="pankuzu">
+        <a href="../index.shtml">HOME</a> > <a href="../topic_news.shtml">Topics&amp;News</a> > News詳細
+      </div> <!-- pankuzu -->
+      <div class="subTitle">
+        <h1><span class="topChar">T</span>opics</h1><h2>and</h2><h1><span class="topChar">N</span>ews</h1>
+      </div><!-- title -->
+      <div class="newsArea">
+        <dt>2019.11.14</dt>
+        <h1>敷田研究室の修士2年生井上 舜也さんが国際会議iSAI-NLP 2019にて受賞しました。</h1>
+        <hr />
+                <div class="mainImgArea">
+          <img src="img/id337_1.jpg" class="mainImg" />
+        </div><!-- mainImgArea -->
+                <p class="mainSentence">
+        　タイを中心に行われている国際会議iSAI-NLPにて、<a href="https://www.shikidalab.org">敷田研究室</a>の修士2年井上 舜也さんが「ベストプレゼンテーションアワード」を受賞しました。受賞したのは、5つのトラックのうちの1つである「Data Analytics and Machine Learning（データ分析と機械学習）」での発表でした。内容としては、看護教育における教育支援に関する研究です。        </p><!-- mainSentence -->
+                <div class="subArea">
+                    <p>
+            　インタビューでは、「大学院へ進学したことや国際プログラムへ積極的に参加したことで、結果的にこのような賞を頂くことができました。」とおっしゃっていました。<br />
+　院進学については、｢大学院では国際的な研究活動への支援があり、継続的に利用させて頂きました。研究活動や国際交流を通じて、答えが無くても前に進む力が身に付いたと体感しています。｣とのことでした。<br />
+ 　さらに、井上さんは院進学後、2回の国外での研究発表を経験しています。このことについて、「難しいと考える人が多いと思いますが、自分自身学部4年生の終わりから国際的なプロジェクトに参加し始めたので、ハードルを高く設定せず挑戦することが大切です。」とおっしゃっていました。          </p>
+                      <img src="img/id337_2.jpg" />
+                  </div><!-- subArea -->
+              </div><!-- newsArea -->
+    </div><!-- baseContents -->
+    <!--#include file="footer.html"-->
+
+  </body>
+</html>
