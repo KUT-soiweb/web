@@ -39,7 +39,7 @@
         <h2>最近のニュース</h2>
         <div class="newsContents" id="newsDiv">
           <dl id="newsDl">
-                    <dt name="nDate">2019.12.6</dt>
+                    <dt name="nDate">2019.12.9</dt>
                       <dd name="nData">12/1付で繁桝准教授が教授に昇任されました。</dd>
                     <dt name="nDate">2019.11.14</dt>
                       <dd name="nData"><a href="./news/topic_337.shtml" >敷田研究室の修士2年生井上 舜也さんが国際会議iSAI-NLP 2019にて受賞しました。</a></dd>
