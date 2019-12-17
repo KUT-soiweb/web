@@ -75,7 +75,7 @@
 									<tr class="lecTitle">
 										<td class="tNumber">第3回 </td>
 										<td class="tDate">12月9日(月) 4限</td>
-										<td class="tTitle">（未定）</td>
+										<td class="tTitle">「ベンチャー企業の実情」</td>
 										<td class="tPlace">C102</td>
 									</tr>
 									<tr class="lecturer">
@@ -97,7 +97,7 @@
 									<tr class="lecTitle">
 										<td class="tNumber">第5回 </td>
 										<td class="tDate">12月16日(月) 3限</td>
-										<td class="tTitle">（未定）</td>
+										<td class="tTitle">「なぜコンピュータを学ばなければならないのか21世紀の君主論 <br>増補改訂版」</td>
 										<td class="tPlace">K102</td>
 									</tr>
 									<tr class="lecturer">
@@ -107,6 +107,17 @@
 									</tr>
 									<tr class="lecTitle">
 										<td class="tNumber">第6回 </td>
+										<td class="tDate">12月17日(火) 5限</td>
+										<td class="tTitle">「Overview of Sony R&D center」</td>
+										<td class="tPlace">K-Hall</td>
+									</tr>
+									<tr class="lecturer">
+										<td></td>
+										<td colspan="3">【講師】Dr. Dietmar Schill Divisional Director<br>
+											ony Europe B.V. Zweigniederlassung Deutschland<br>R&D Center Europe Stuttgart Laboratory</td>
+									</tr>
+									<tr class="lecTitle">
+										<td class="tNumber">第7回 </td>
 										<td class="tDate">12月20日(金) 4限</td>
 										<td class="tTitle">人を育て，地域を潤し，大学を伸ばす知的創造サイクル</td>
 										<td class="tPlace">C102</td>
@@ -121,7 +132,18 @@
 										<td colspan="3"></td>
 									</tr>
 									<tr class="lecTitle">
-										<td class="tNumber">第7回 </td>
+										<td class="tNumber">第8回 </td>
+										<td class="tDate">1月14日(火) 3限</td>
+										<td class="tTitle">(未定)</td>
+										<td class="tPlace">C101</td>
+									</tr>
+									<tr class="lecturer">
+										<td></td>
+										<td colspan="3">【講師】廖 赤陽 教授<br>
+											武蔵野美術大学 教養文化・学芸員課程</td>
+									</tr>
+									<tr class="lecTitle">
+										<td class="tNumber">第9回 </td>
 										<td class="tDate">1月17日(金) 3限</td>
 										<td class="tTitle">「連鎖的相互行為のための対話空間の生成」</td>
 										<td class="tPlace">C101</td>
@@ -132,7 +154,7 @@
 											東京大学 大学院情報理工学系研究科 知能機械情報学専攻人間機械情報学講座</td>
 									</tr>
 									<tr class="lecTitle">
-										<td class="tNumber">第8回 </td>
+										<td class="tNumber">第10回 </td>
 										<td class="tDate">1月23日(木) 4限</td>
 										<td class="tTitle">「サービスを対象としたデータサイエンスと説明可能AIの研究」<br>～将来研究・開発に携わりたい人へ～</td>
 										<td class="tPlace">C102</td>
@@ -143,7 +165,7 @@
 											電気通信大学 大学院情報理工学研究科情報学専攻</td>
 									</tr>
 									<tr class="lecTitle">
-										<td class="tNumber">第9回 </td>
+										<td class="tNumber">第11回 </td>
 										<td class="tDate">1月23日(木) 5限</td>
 										<td class="tTitle">「企業研究所での研究開発業務とワークライフバランス」<br>～人間の色知覚・行動モデリングの研究～</td>
 										<td class="tPlace">C102</td>
