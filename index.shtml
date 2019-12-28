@@ -39,16 +39,16 @@
         <h2>最近のニュース</h2>
         <div class="newsContents" id="newsDiv">
           <dl id="newsDl">
+                    <dt name="nDate">2019.12.27</dt>
+                      <dd name="nData"><a href="./news/topic_342.shtml" >３年次開講科目コンピュータグラフィックスの講義課題優秀作品集を公開しました。</a></dd>
+                    <dt name="nDate">2019.12.25</dt>
+                      <dd name="nData"><a href="https://www.kochi-tech.ac.jp/news/2019/004788.html">福本 昌弘教授が参加している開発チームが、「秘密分散と秘匿通信技術を用いた電子カルテ保管・交換システム」を開発をしました。</a></dd>
+                    <dt name="nDate">2019.12.10</dt>
+                      <dd name="nData"><a href="http://www.info.kochi-tech.ac.jp/KUTpoem/index.shtml">11月分のポエム</a>を更新しました。</dd>
                     <dt name="nDate">2019.12.9</dt>
                       <dd name="nData">12/1付で繁桝准教授が教授に昇任されました。</dd>
                     <dt name="nDate">2019.11.14</dt>
                       <dd name="nData"><a href="./news/topic_337.shtml" >敷田研究室の修士2年生井上 舜也さんが国際会議iSAI-NLP 2019にて受賞しました。</a></dd>
-                    <dt name="nDate">2019.11.12</dt>
-                      <dd name="nData"><a href="http://www.info.kochi-tech.ac.jp/KUTpoem/index.shtml">10月分のポエム</a>を更新しました。</dd>
-                    <dt name="nDate">2019.11.12</dt>
-                      <dd name="nData"><a href="http://krlab.info.kochi-tech.ac.jp/%e7%ac%ac24%e5%9b%9e%e3%83%91%e3%82%bf%e3%83%bc%e3%83%b3%e8%a8%88%e6%b8%ac%e3%82%b7%e3%83%b3%e3%83%9d%e3%82%b8%e3%82%a6%e3%83%a0/">栗原研究室学部4年生の窪田伊織さんが第24回パターン計測シンポジウムにて優秀論文賞を受賞しました。</a></dd>
-                    <dt name="nDate">2019.11.8</dt>
-                      <dd name="nData"><a href="./news/topic_332.shtml" >栗原研究室の学生らが大学祭でプロジェクションマッピングを披露しました。</a></dd>
                     </dl>
           <div class="oldNews">
             <a href="topic_news.shtml">ニュース一覧　&raquo;</a>
