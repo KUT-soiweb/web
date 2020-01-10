@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>清水教授、福本教授、栗原准教授、吉田准教授の参加するIoPプロジェクトのホームページが公開されました。</title>
+    <link rel="stylesheet" href="css/base.css" media="all" title="header" charset="utf-8" />
+    <link rel="stylesheet" href="css/topic_news_article.css" media="all" title="header" charset="utf-8" />
+    <link rel="icon" href="../img/favicon2.png" type="image/png" />
+    <script type="text/javascript">
+        window.onload = function(){
+          headSerect(0);
+        }
+    </script>
+  </head>
+  <body>
+    <!--#include file="header.html"-->
+    <div id="baseContents">
+      <div class="pankuzu">
+        <a href="../index.shtml">HOME</a> > <a href="../topic_news.shtml">Topics&amp;News</a> > News詳細
+      </div> <!-- pankuzu -->
+      <div class="subTitle">
+        <h1><span class="topChar">T</span>opics</h1><h2>and</h2><h1><span class="topChar">N</span>ews</h1>
+      </div><!-- title -->
+      <div class="newsArea">
+        <dt>2020.1.9</dt>
+        <h1>清水教授、福本教授、栗原准教授、吉田准教授の参加するIoPプロジェクトのホームページが公開されました。</h1>
+        <hr />
+                <p class="mainSentence">
+        情報学群から<a href="http://www.info.kochi-tech.ac.jp/faculty_members/profile_shimizu.shtml">清水 明宏教授</a>、 <a href="http://www.info.kochi-tech.ac.jp/faculty_members/profile_fukumoto.shtml">福本 昌弘教授</a>、<a href="http://www.info.kochi-tech.ac.jp/faculty_members/profile_kurihara.shtml">栗原 徹准教授</a>、<a href="http://www.info.kochi-tech.ac.jp/faculty_members/profile_yoshida.shtml">吉田 真一准教授</a>の参加するIoPプロジェクトのホームページが公開されました。<br />
+　高知県プロジェクト「“ＩｏＰ（Internet of Plants）”が導く「Ｎｅｘｔ次世代型施設園芸農業」への進化」の一環として、情報学群では情報技術を武器に農業を飛躍的に前進させる研究を行っています。<br />
+<br />
+HPのリンクは<a href="https://kochi-iop.jp">こちら</a>になります。        </p><!-- mainSentence -->
+              </div><!-- newsArea -->
+    </div><!-- baseContents -->
+    <!--#include file="footer.html"-->
+
+  </body>
+</html>
