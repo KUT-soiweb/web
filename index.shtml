@@ -1,70 +1,76 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>高知工科大学情報学群</title>
-    <link rel="stylesheet" href="css/base.css" media="all" title="header" charset="utf-8" />
-    <link rel="stylesheet" href="css/index.css" media="all" title="header" charset="utf-8" />
-    <link rel="icon" href="img/favicon2.png" type="image/png" />
-    <script type="text/javascript">
-        window.onload = function(){
-          headSerect(0);
-          topics();
-        }
-        function topics() {
-          var date = document.getElementsByName("nDate");
-          var data = document.getElementsByName("nData");
-          for (var i = date.length - 1; i > 4; i--) {
-            date[i].parentNode.removeChild(date[i]);
-            data[i].parentNode.removeChild(data[i]);
-          }
+<head>
+  <meta charset="utf-8">
+  <title>高知工科大学情報学群</title>
+  <link rel="stylesheet" href="css/base.css" media="all" title="header" charset="utf-8" />
+  <link rel="stylesheet" href="css/index.css" media="all" title="header" charset="utf-8" />
+  <link rel="icon" href="img/favicon2.png" type="image/png" />
+  <script type="text/javascript">
+    window.onload = function () {
+      headSerect(0);
+      topics();
+    }
 
-          var newsHeight = document.getElementById("newsDl").clientHeight;
-          newsHeight = newsHeight + 135;
-          var newsDiv = document.getElementById("newsDiv");
-          newsDiv.style.height = newsHeight + "px";
-        }
-    </script>
-  </head>
-  <body>
-    <!--#include file="header.html"-->
-    <div id="baseContents">
+    function topics() {
+      var date = document.getElementsByName("nDate");
+      var data = document.getElementsByName("nData");
+      for (var i = date.length - 1; i > 4; i--) {
+        date[i].parentNode.removeChild(date[i]);
+        data[i].parentNode.removeChild(data[i]);
+      }
 
-      <!-- main image-->
-      <img src="img/main.jpg" class="mainImage"></img>
+      var newsHeight = document.getElementById("newsDl").clientHeight;
+      newsHeight = newsHeight + 135;
+      var newsDiv = document.getElementById("newsDiv");
+      newsDiv.style.height = newsHeight + "px";
+    }
+  </script>
+</head>
+<body>
+  <!--#include file="header.html"-->
+  <div id="baseContents">
 
-      <!-- news and topics -->
-      <div class="section news">
-        <h1>Topics &amp; News</h1>
-        <h2>最近のニュース</h2>
-        <div class="newsContents" id="newsDiv">
-          <dl id="newsDl">
-                    <dt name="nDate">2020.1.24</dt>
-                      <dd name="nData"><a href="./news/topic_346.shtml" >令和元年度ソフトウェア工学演習成果発表会のご案内</a></dd>
-                    <dt name="nDate">2020.1.13</dt>
-                      <dd name="nData"><a href="./news/topic_345.shtml" >CG検定5検定の結果が発表されました。</a></dd>
-                    <dt name="nDate">2020.1.9</dt>
-                      <dd name="nData"><a href="./news/topic_344.shtml" >清水教授、福本教授、栗原准教授、吉田准教授の参加するIoPプロジェクトのホームページが公開されました。</a></dd>
-                    <dt name="nDate">2020.1.4</dt>
-                      <dd name="nData"> <a href="https://www.kochi-tech.ac.jp/news/2019/004795.html">門田  宏准教授と岩田 誠教授ほか研究グループが0.05秒の時間差の有無を見分ける脳の部位を明らかにしました。</a></dd>
-                    <dt name="nDate">2019.12.27</dt>
-                      <dd name="nData"><a href="./news/topic_342.shtml" >３年次開講科目コンピュータグラフィックスの講義課題優秀作品集を公開しました。</a></dd>
-                    </dl>
-          <div class="oldNews">
-            <a href="topic_news.shtml">ニュース一覧　&raquo;</a>
-          </div> <!-- aldNews -->
-        </div> <!-- newsContents -->
-      </div> <!-- section -->
+    <!-- main image-->
+    <img src="img/main.jpg" class="mainImage"></img>
 
-      <!-- linkImg -->
-      <div class="linkImg">
-        <a href="KUTpoem/index.shtml">
-          <img src="img/KUTpoem_banner.png"/>
-        </a>
-      </div> <!-- linkImg -->
+    <!-- news and topics -->
+    <div class="section news">
+      <h1>Topics &amp; News</h1>
+      <h2>最近のニュース</h2>
+      <div class="newsContents" id="newsDiv">
+        <dl id="newsDl">
+          <dt name="nDate">2020.1.24</dt>
+          <dd name="nData"><a href="./news/topic_346.shtml">令和元年度ソフトウェア工学演習成果発表会のご案内</a></dd>
+          <dt name="nDate">2020.1.13</dt>
+          <dd name="nData"><a href="./news/topic_345.shtml">CG関係5検定の結果が発表されました。</a></dd>
+          <dt name="nDate">2020.1.9</dt>
+          <dd name="nData"><a href="./news/topic_344.shtml">清水教授、福本教授、栗原准教授、吉田准教授の参加するIoPプロジェクトのホームページが公開されました。</a></dd>
+          <dt name="nDate">2020.1.4</dt>
+          <dd name="nData"> <a href="https://www.kochi-tech.ac.jp/news/2019/004795.html">門田 宏准教授と岩田 誠教授ほか研究グループが0.05秒の時間差の有無を見分ける脳の部位を明らかにしました。</a></dd>
+          <dt name="nDate">2019.12.27</dt>
+          <dd name="nData"><a href="./news/topic_342.shtml">３年次開講科目コンピュータグラフィックスの講義課題優秀作品集を公開しました。</a></dd>
+        </dl>
+        <div class="oldNews">
+          <a href="topic_news.shtml">ニュース一覧　&raquo;</a>
+        </div> <!-- aldNews -->
+      </div> <!-- newsContents -->
+    </div> <!-- section -->
 
-      <!-- link -->
-      <div class="link">
+    <!-- linkImg -->
+    <div class="linkImg">
+      <a href="special_lec.shtml">
+        <img src="img/SpecialLec_banner.jpg" />
+      </a>
+    </div>
+    <div class="linkImg">
+      <a href="KUTpoem/index.shtml">
+        <img src="img/KUTpoem_banner.png" />
+      </a>
+    </div> <!-- linkImg -->
+
+    <!-- link -->
+    <div class="link">
       <div class="linkContents">
         <img src="img/Nyushi.jpg" class="img"></img>
         <p>受験生の皆様に入試情報を提供します。</p>
@@ -82,32 +88,32 @@
       </div><!-- linkContents -->
     </div><!-- link -->
 
-      <!-- five reason -->
-      <div class="section reason">
-        <h1>Five Reasons</h1>
-        <h2>情報学群を選ぶ5つの理由</h2>
-        <div class="reasonContents">
-          <p>なぜ今、情報を学ぶべきなのか。<br />
-            なぜ今、高知工科大学の情報学群を選ぶべきなのか。<br />
-            私たちの考える5つの理由を参考にしてみませんか?
-          </p>
-          <div class="reasonLinkBack">
+    <!-- five reason -->
+    <div class="section reason">
+      <h1>Five Reasons</h1>
+      <h2>情報学群を選ぶ5つの理由</h2>
+      <div class="reasonContents">
+        <p>なぜ今、情報を学ぶべきなのか。<br />
+          なぜ今、高知工科大学の情報学群を選ぶべきなのか。<br />
+          私たちの考える5つの理由を参考にしてみませんか?
+        </p>
+        <div class="reasonLinkBack">
           <div class="reasonLink">
             <a href="five_reasons.shtml">&gt;　5つの理由を知る</a>
           </div> <!-- reasonLink -->
         </div> <!-- reasonLinkBack -->
-        </div> <!-- reasonContents -->
-      </div> <!-- reason -->
+      </div> <!-- reasonContents -->
+    </div> <!-- reason -->
 
-      <div class="banner">
-        <ul>
-          <li><a href="http://www.souken.kochi-tech.ac.jp/BrainCom/"><img src="img/banner_BrainCom.png" alt="脳コミュ" /></a></li>
-          <li><a href="http://www.kochi-tech.ac.jp/kut/index.html"><img src="img/banner_KUT.png" alt="KUT" /></a></li>
-        </ul>
-      </div>
+    <div class="banner">
+      <ul>
+        <li><a href="http://www.souken.kochi-tech.ac.jp/BrainCom/"><img src="img/banner_BrainCom.png" alt="脳コミュ" /></a></li>
+        <li><a href="http://www.kochi-tech.ac.jp/kut/index.html"><img src="img/banner_KUT.png" alt="KUT" /></a></li>
+      </ul>
+    </div>
 
 
-    </div><!-- baseContents -->
-    <!--#include file="footer.html"-->
-  </body>
+  </div><!-- baseContents -->
+  <!--#include file="footer.html"-->
+</body>
 </html>
