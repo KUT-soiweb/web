@@ -674,7 +674,7 @@
                       </div> <!-- ayabe -->
 
                       <div class="modal" id="okino">
-                        <img src="img/okino_square.jpg" alt="okino" class="profImg"/>
+                        <img src="img/okino_square.JPG" alt="okino" class="profImg"/>
                         <table class="profile">
                           <tr><th>名前</th><td> : </td><td>沖野遥紀(Okino Haruki)</td></tr>
                           <tr><th>学年</th><td> : </td><td>学士1年生 (B1)</td></tr>
@@ -691,7 +691,7 @@
                       </div> <!-- okino -->
 
                       <div class="modal" id="kadoki">
-                        <img src="img/kadoki_square.jpg" alt="kadoki" class="profImg"/>
+                        <img src="img/kadoki_square.JPG" alt="kadoki" class="profImg"/>
                         <table class="profile">
                           <tr><th>名前</th><td> : </td><td>門木 天馬（Kodoki Tenma）</td></tr>
                           <tr><th>学年</th><td> : </td><td>学士1年生 (B1)</td></tr>
