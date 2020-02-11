@@ -12,6 +12,7 @@
           headSerect(6);
         }
     </script>
+    <meta name="viewport" content="width=800">
 </head>
   <body>
       <!--#include file="header.html"-->

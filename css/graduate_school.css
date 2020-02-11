@@ -1,9 +1,102 @@
 @charset "UTF-8";
 
+@media screen and (max-width:800px){
+  body{
+    min-width: 960px;
+  }
+  #baseContents .contents {
+    margin-top: 200px;
+    height: 800px;
+  }
+
+  #baseContents .menuSize {
+    height: 420px;
+    width: 420px;
+  }
+
+  #baseContents .menu {
+    float: left;
+    margin-top: 50px;
+    margin-left: 40px;
+    position: relative;
+  }
+
+  #baseContents .menu img {
+
+  }
+
+  #baseContens .menu img:hover {
+    opacity: 0.8;
+  }
+
+  #baseContents .menu .subMenu {
+    background: rgba(0, 0, 0, 0.5);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#50000000,endColorstr=#50000000);
+    color: #ffffff;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 0;
+  }
+
+  #baseContents .subMenu h2 {
+    font-size: 200%;
+    margin-top: 70px;
+  }
+
+  #baseContents .subMenu .line {
+    background-color: #23befb;
+    display: inline-block;
+    height: 7px;
+    margin-top: 30px;
+    width: 75px;
+  }
+
+  #baseContents .subMenu h1 {
+    font-size: 1000%;
+    margin-top: 100px;
+  }
+
+  /* menu hover */
+  .subMenu {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+  }
+  .subMenu:before {
+    content: '';
+    position: absolute;
+    border: #ffcc99 solid 7px;
+    top: -16px;
+    right: -16px;
+    bottom: -16px;
+    left: -16px;
+    opacity: 0;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: top, right, bottom, left;
+    transition-property: top, right, bottom, left;
+  }
+  .subMenu:hover:before, .subMenu:focus:before, .subMenu:active:before {
+    top: -8px;
+    right: -8px;
+    bottom: -8px;
+    left: -8px;
+    opacity: 1;
+  }
+
+}
+@media screen and (min-width:801px){
 /* main */
 #baseContents .contents {
   margin-top: 150px;
-  height: 450px;
+  height: 800px;
 }
 
 #baseContents .menuSize {
@@ -13,12 +106,13 @@
 
 #baseContents .menu {
   float: left;
-  margin-left: 30px;
+  margin-left:30px;
   margin-top: 50px;
   position: relative;
 }
 
 #baseContents .menu img {
+
 }
 
 #baseContens .menu img:hover {
