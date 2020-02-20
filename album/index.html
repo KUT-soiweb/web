@@ -1,0 +1,130 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>untitled</title>
+    <link rel="stylesheet" type="text/css" href="album_header.css" media="all">
+    <meta name="description" content="panorama view list">
+    <script>
+      function aicon(id){
+          const elm = document.getElementById(id);
+
+          if(elm.style.display=='block'){
+            elm.style.display = 'none';
+          }else{
+            elm.style.display = 'block';
+        }
+
+        var start = performance.now();
+
+        requestAnimationFrame(function tick(timestamp) {
+          // イージング計算式（linear）
+          var easing = (timestamp - start) / 300;
+
+          // opacityが1を超えないように
+          document.getElementById(id).style.opacity = Math.min(easing, 1);
+
+          // opacityが1より小さいとき
+          if (easing < 1) {
+            requestAnimationFrame(tick);
+          } else {
+            document.getElementById(id).style.opacity = '';
+          }
+        });
+      }
+
+      function year_tab(id){
+          const year = document.getElementById(id);
+
+          if(year.style.display=='block'){
+            year.style.display = 'none';
+          }else{
+            year.style.display = 'block';
+        }
+
+        var start = performance.now();
+
+        requestAnimationFrame(function tick(timestamp) {
+          // イージング計算式（linear）
+          var easing = (timestamp - start) / 300;
+
+          // opacityが1を超えないように
+          document.getElementById(id).style.opacity = Math.min(easing, 1);
+
+          // opacityが1より小さいとき
+          if (easing < 1) {
+            requestAnimationFrame(tick);
+          } else {
+            document.getElementById(id).style.opacity = '';
+          }
+        });
+      }
+
+      // ページ読み込み時に実行したい処理
+      window.onload = function(){
+       // ページ読み込み時に実行したい処理
+       var hash = location.hash;
+       var img = document.getElementById('album_toppage');
+        if (hash == '') {
+          img.setAttribute('src', 'H31Muroto/index.html');
+
+        } else {
+          var result = hash.substring( 1, hash.length );
+          img.setAttribute('src', result + '/index.html');
+        }
+      }　
+
+    </script>
+</head>
+<body>
+    <div class="menu">
+      <div class="album_header_aicon">
+        <a href="../index.shtml"><img src="./img/SOI_logo.svg" /><img src="./img/logout.png" /></a>
+      </div>
+      <ul class="year">
+        <li class="year2019"><a onclick="aicon('2018Aicon')">2018</a></li>
+        <li>
+          <ul class="menu1 year_tab" id="2018Aicon">
+            <li>
+              <a onclick="aicon('sotuken2018Aicon')">卒業研究</a>
+              <ul class="aicon" id="sotuken2018Aicon">
+                <li><a target="Change" href="h30graduationThesis/index.html"><img src="./img/camera.png" /></a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li class="year2019"><a onclick="aicon('2019Aicon')">2019</a></li>
+        <li>
+          <ul class="menu1 year_tab" id="2019Aicon">
+            <li>
+              <a onclick="aicon('shinkan2019Aicon')">新入生歓迎会</a>
+              <ul class="aicon" id="shinkan2019Aicon">
+                <li><a target="Change" href="h31Muroto/index.html" class="pagelink"><img src="./img/camera.png" /></a></li>
+                <li><a target="Change" href="h31Muroto_theta/index.html" class="pagelink"><img src="./img/360camera.png" /></a></li>
+              </ul>
+            </li>
+            <li>
+              <a onclick="aicon('syuuron2019Aicon')">修士論文発表会</a>
+              <ul class="aicon" id="syuuron2019Aicon">
+                <li><a target="Change" href="r1masterThesis/index.html"><img src="./img/camera.png" /></a></li>
+              </ul>
+            </li>
+            <li>
+              <a onclick="aicon('sotuken2019Aicon')">卒業研究</a>
+              <ul class="aicon" id="sotuken2019Aicon">
+                <li><a target="Change" href="r1graduationThesis/index.html"><img src="./img/camera.png" /></a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+    <div class="album_phote">
+      <iframe id="album_toppage" width="600" name="Change" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+
+
+ </body>
+</html>
