@@ -8,9 +8,28 @@
 <title>576381344.386691</title>
 <meta name="description" content="panorama view">
 <script src="https://aframe.io/releases/0.4.0/aframe.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script type="text/javascript">
+    $(function(){
+        var loader = $('.loader-wrap');
+
+        //ページの読み込みが完了したらアニメーションを非表示
+        $(window).on('load',function(){
+        	loader.fadeOut();
+        });
+
+        //ページの読み込みが完了してなくても3秒後にアニメーションを非表示にする
+        setTimeout(function(){
+        	loader.fadeOut();
+        },3000);
+    });
+</script>
 </head>
 
 <body>
+<div class="loader-wrap">
+    <div class="loader">Loading...</div>
+</div>
 <a-scene>
 <a-sky src="../pics/576381344.386691.jpg" rotation="0 0 0"></a-sky>
 </a-scene>

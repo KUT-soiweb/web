@@ -6,10 +6,29 @@
     <title>令和元年度修士論文発表会</title>
     <link rel="stylesheet" type="text/css" href="list.css" media="all">
     <meta name="description" content="panorama view list">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript">
+    $(function(){
+        var loader = $('.loader-wrap');
+
+        //ページの読み込みが完了したらアニメーションを非表示
+        $(window).on('load',function(){
+            loader.fadeOut();
+        });
+
+        //ページの読み込みが完了してなくても3秒後にアニメーションを非表示にする
+        setTimeout(function(){
+            loader.fadeOut();
+        },3000);
+    });
+    </script>
 </head>
 <body>
+    <div class="loader-wrap">
+    	<div class="loader">Loading...</div>
+    </div>
     <div align="right">
-        <font size="4">Updated on 2020-02-20</font><br/>
+        <font size="4">Updated on 2020-02-22</font><br/>
         <font size="2">Scripted by Kohei Matsumoto</font>
     </div>
     <h2>令和元年度修士論文発表会</h2>
