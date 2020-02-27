@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>プログラミング・シンポジウムで山内奨励賞を受賞しました。</title>
+    <link rel="stylesheet" href="css/base.css" media="all" title="header" charset="utf-8" />
+    <link rel="stylesheet" href="css/topic_news_article.css" media="all" title="header" charset="utf-8" />
+    <link rel="icon" href="../img/favicon2.png" type="image/png" />
+    <script type="text/javascript">
+        window.onload = function(){
+          headSerect(0);
+        }
+    </script>
+  </head>
+  <body>
+    <!--#include file="header.html"-->
+    <div id="baseContents">
+      <div class="pankuzu">
+        <a href="../index.shtml">HOME</a> > <a href="../topic_news.shtml">Topics&amp;News</a> > News詳細
+      </div> <!-- pankuzu -->
+      <div class="subTitle">
+        <h1><span class="topChar">T</span>opics</h1><h2>and</h2><h1><span class="topChar">N</span>ews</h1>
+      </div><!-- title -->
+      <div class="newsArea">
+        <dt>2020.2.22</dt>
+        <h1>プログラミング・シンポジウムで山内奨励賞を受賞しました。</h1>
+        <hr />
+                <p class="mainSentence">
+        　先日行われた第60回プログラミング・シンポジウム（通称「プロシン」）において、鵜川 始陽准教授、松元 稿如さん、飯干 寛幸さんが、栄誉ある「山内奨励賞」を受賞しました。<br />
+<br />
+　山内奨励賞は、プログラミング・シンポジウムの創設と発展に尽力された故・山内 二郎先生の多大な御貢献を記念して「計算機のプログラミングに関する優れた業績を顕彰し研究を奨励することによって学術文化の向上発展に寄与することを目的」(「<a href = "http://www.ipsj.or.jp/prosym/prosynstartup0.html">プログラミング・シンポジウム こと始め</a>」より）として1984年に設けられました。毎年冬に開催されるプログラミング・シンポジウムにおいて、前年に発表されたものの中から特に優秀と認められる研究に対して授与されます。        </p><!-- mainSentence -->
+                <div class="subArea">
+                    <p>
+            　受賞論文は下記のとおりです。<br />
+<br />
+鵜川 始陽,  松元 稿如,  飯干 寛幸:<br />
+並行プログラムのPartial Store Ordering での実行をモデル検査するためのRelease メモリバリア.<br />
+情報処理学会第60回プログラミング・シンポジウム, 2019.          </p>
+                      <img src="img/id354_2.jpg" />
+                  </div><!-- subArea -->
+              </div><!-- newsArea -->
+    </div><!-- baseContents -->
+    <!--#include file="footer.html"-->
+
+  </body>
+</html>
