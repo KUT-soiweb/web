@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="../css/base.css">
+  <link rel="stylesheet" href="./css/oc_2020.css">
+  <title>Open Campus 2020</title>
+</head>
+
+<body>
+  <!--#include file="header.html"-->
+
+  <div id="baseContents">
+    <div class="pankuzu">
+      <!--pankuzu-->
+      <a href="../index.shtml">HOME</a> > オープンキャンパス2020
+    </div>
+
+    <div class="title">
+      <div class="colorFilter">
+
+        <div class="titleImg img1"></div>
+        <div class="titleImg img2"></div>
+        <div class="titleImg img3"></div>
+        <div class="titleImg img4"></div>
+
+        <div class="titleText">
+          <h1>KUT OPEN CAMPUS 2020</h1>
+          <h2>School of Information</h2>
+        </div>
+        <p class = "eventDate">8月29日(土)</p>
+      </div>
+    </div>
+
+    <div class="atFirst mainContents">
+      <h3>はじめに</h3>
+      <p>
+        　今年度のオープンキャンパスは8月29日に予定しておりましたが、新型コロナウイルス感染症の影響により高知工科大学での開催を中止し、同日、オンラインにて実施致します。何卒ご理解下さいますようお願い申し上げます。
+        <a href = "https://www.kochi-tech.ac.jp/entrance_info/admission/info_before/opencampus.html">リアルタイムでのWebオープンキャンパス</a>
+        や情報学群や各学群の紹介動画等を御覧頂けますので奮ってご参加ください。
+      </p>
+      <a href = "https://www.kochi-tech.ac.jp/entrance_info/img/922d194a49d61da4d294c1086b710b51.pdf" class = "button">
+        当日のタイムスケジュール
+      </a>
+    </div>
+
+    <div class="aboutInfo mainContents">
+      <h3>高知工科大学情報学群</h3>
+      <p>
+        　情報学群では、柔軟で大胆な発想を育てるために、人に優しい次世代の情報システムの実現に向けた教育・研究を進めると同時に、
+        情報通信技術（ICT）が人間・社会と共生して発展できる未来を目指し、問題発見・問題解決できる人材を新しい学群・専攻制の下で育成します。
+        また、産官学連携によるICTスペシャリスト養成プログラムや研究用ネットワークJGN2plus(Japan Giga-bit Network 2 plus)JGN-X(Japan Gigabit
+        Network-eXtreme)などの国内でも有数の教育・研究環境を提供します。
+      </p>
+      <a href="../information_overview.shtml" class = "button">詳細はこちら！</a>
+    </div>
+
+    <div class="introductionInfo mainContents">
+      <h3>情報学群の紹介と主なイベント</h3>
+      <div class="links">
+
+        <a href="http://kaltura.lib.kochi-tech.ac.jp/publish.php?src=0_vsczro3i">
+          <div class="menu menuSize">
+            <img src="https://www.kochi-tech.ac.jp/entrance_info/admission/info_before/assets_c/2020/06/485f15278b42670f3b6bffa2c563f794-thumb-400xauto-21247.jpg" alt="02" class="menuSize">
+            <div class="subMenu menuSize">
+                <h2>学群説明</h2>
+                <div class="line"></div>
+                <h1>01</h1>
+            </div> <!-- subMenu -->
+          </div> <!-- menu -->
+        </a>
+
+        <a href="http://kaltura.lib.kochi-tech.ac.jp/publish.php?src=0_rmtlqwqk">
+          <div class="menu menuSize">
+            <img src="https://www.kochi-tech.ac.jp/entrance_info/admission/info_before/assets_c/2020/06/d5d3535a88fd23c3ce78d15df48f8b49-thumb-400xauto-21248.jpg" alt="01" class="menuSize">
+            <div class="subMenu menuSize">
+                <h2>学生支援の紹介</h2>
+                <div class="line"></div>
+                <h1>02</h1>
+            </div> <!-- subMenu -->
+          </div> <!-- menu -->
+        </a>
+
+        <a href="http://kaltura.lib.kochi-tech.ac.jp/publish.php?src=0_6no8eimo">
+          <div class="menu menuSize">
+            <img src="https://www.kochi-tech.ac.jp/entrance_info/admission/info_before/assets_c/2020/06/6f512e02360fda76bac92ab928015473-thumb-400xauto-21249.jpg" alt="03" class="menuSize">
+            <div class="subMenu menuSize">
+                <h2>情報学群スタッフの紹介</h2>
+                <div class="line"></div>
+                <h1>03</h1>
+            </div> <!-- subMenu -->
+          </div> <!-- menu -->
+        </a>
+
+        <a href="https://yumenavi.info/lecture.aspx?GNKCD=g009533">
+          <div class="menu menuSize">
+            <img src="https://www.kochi-tech.ac.jp/entrance_info/admission/info_before/assets_c/2020/06/a38fec5306534a577bd6f14513a00c0e-thumb-400xauto-21251.jpg" alt="04" class="menuSize">
+            <div class="subMenu menuSize">
+                <h2>中原潔教授による模擬授業</h2>
+                <div class="line"></div>
+                <h1>04</h1>
+            </div> <!-- subMenu -->
+          </div> <!-- menu -->
+        </a>
+
+        <a href="../five_reasons.shtml">
+          <div class="menu menuSize">
+            <img src="../img/fiveReason.JPG" alt="05" class="menuSize">
+            <div class="subMenu menuSize">
+              <h2>5つの理由</h2>
+              <div class="line"></div>
+              <h1>05</h1>
+            </div> <!-- subMenu -->
+          </div> <!-- menu -->
+        </a>
+
+        <a href="../curriculum.shtml">
+          <div class="menu menuSize">
+            <img src="../img/Curriculum.JPG" alt="06" class="menuSize">
+            <div class="subMenu menuSize">
+              <h2>カリキュラム</h2>
+              <div class="line"></div>
+              <h1>06</h1>
+            </div> <!-- subMenu -->
+          </div> <!-- menu -->
+        </a>
+
+        <a href="../event_calendar.shtml">
+          <div class="menu menuSize">
+            <img src="../img/EventCalender.jpg" alt="07" class="menuSize">
+            <div class="subMenu menuSize">
+              <h2>イベントカレンダー</h2>
+              <div class="line"></div>
+              <h1>07</h1>
+            </div> <!-- subMenu -->
+          </div> <!-- menu -->
+        </a>
+
+        <a href="../campus_equipment.shtml">
+          <div class="menu menuSize">
+            <img src="../img/CampusEquipment.JPG" alt="08" class="menuSize">
+            <div class="subMenu menuSize">
+                <h2>キャンパスと設備</h2>
+                <div class="line"></div>
+                <h1>08</h1>
+            </div> <!-- subMenu -->
+          </div> <!-- menu -->
+        </a>
+
+        <a href="../lecture.shtml">
+          <div class="menu menuSize">
+            <img src="../img/Zyugyou.jpg" alt="09" class="menuSize">
+            <div class="subMenu menuSize">
+                <h2>授業紹介</h2>
+                <div class="line"></div>
+                <h1>09</h1>
+            </div> <!-- subMenu -->
+          </div> <!-- menu -->
+        </a>
+
+        <a href="../life_style_cushion.shtml">
+          <div class="menu menuSize">
+            <img src="../img/lifestyle.JPG" alt="10" class="menuSize">
+            <div class="subMenu menuSize">
+                <h2>ライフスタイル</h2>
+                <div class="line"></div>
+                <h1>10</h1>
+            </div> <!-- subMenu -->
+          </div> <!-- menu -->
+        </a>
+
+        <a href="../conference.shtml">
+          <div class="menu menuSize">
+            <img src="../img/gakkai_happyou.JPG" alt="11" class="menuSize">
+            <div class="subMenu menuSize">
+                <h2>学会発表</h2>
+                <div class="line"></div>
+                <h1>11</h1>
+            </div> <!-- subMenu -->
+          </div> <!-- menu -->
+        </a>
+
+        <a href="../after_graduation.shtml">
+          <div class="menu menuSize">
+            <img src="../img/Sinro.jpg" alt="12" class="menuSize">
+            <div class="subMenu menuSize">
+                <h2>進路状況</h2>
+                <div class="line"></div>
+                <h1>12</h1>
+            </div> <!-- subMenu -->
+          </div> <!-- menu -->
+        </a>
+
+      </div>
+    </div>
+
+    <div class = "introductionLabo mainContents">
+      <h3>研究室・教員紹介</h3>
+      <div class = "LaboratoryTable">
+        <table>
+          <tbody><tr>
+            <th>教員</th>
+            <th>研究室名など</th>
+            <th>ページ</th>
+          </tr>
+          <tr>
+            <td width="20%"><a href = "../faculty_members/profile_hamamura.shtml">濵村 昌則</a></td>
+            <td width="60%">ワイヤレスネットワーク研究室</td>
+            <td width="20%"><a href = "http://hamalab.info/">研究室ページ</a></td>
+          </tr>
+          <tr>
+            <td width="20%"><a href = "../faculty_members/profile_iwata.shtml">岩田 誠</a></td>
+            <td width="60%">コンピュータ構成学研究室</td>
+            <td width="20%"><a href = "http://iwatalab.jpn.org/">研究室ページ</a></td>
+          </tr>
+          <tr>
+            <td width="20%"><a href = "../faculty_members/profile_shikida.shtml">敷田 幹文</a></td>
+            <td width="60%">コミュニケーション&コラボレーション研究室</td>
+            <td width="20%"><a href = "https://www.shikidalab.org/">研究室ページ</a></td>
+          </tr>
+          <tr>
+            <td width="20%"><a href = "../faculty_members/profile_shigemasu.shtml">繁桝 博昭</a></td>
+            <td width="60%">知覚認知脳情報研究室</td>
+            <td width="20%"><a href = "https://shigelab.com/">研究室ページ</a></td>
+          </tr>
+          <tr>
+            <td width="20%"><a href = "../faculty_members/profile_shinomori.shtml">篠森 敬三</a></td>
+            <td width="60%">視覚・感性統合重点研究室</td>
+            <td width="20%"><a href = "http://www.lab.kochi-tech.ac.jp/shinolab/">研究室ページ</a></td>
+          </tr>
+          <tr>
+            <td width="20%"><a href = "../faculty_members/profile_shimizu.shtml">清水 明宏</a></td>
+            <td width="60%">セキュリティシステム研究室</td>
+            <td width="20%"><a href = "https://www.kochi-tech.ac.jp/profile/ja/shimizu-akihiro.html">工科大教員ページ</a></td>
+          </tr>
+          <tr>
+            <td width="20%"><a href = "../faculty_members/profile_nakahara.shtml">中原 潔</a></td>
+            <td width="60%">認知神経科学研究室</td>
+            <td width="20%"><a href = "http://www.lab.kochi-tech.ac.jp/knkhrlab/">研究室ページ</a></td>
+          </tr>
+          <tr>
+            <td width="20%"><a href = "../faculty_members/profile_fukumoto.shtml">福本 昌弘</a></td>
+            <td width="60%">高度プログラミング研究室</td>
+            <td width="20%"><a href = "http://www.lab.kochi-tech.ac.jp/fukulab/">研究室ページ</a></td>
+          </tr>
+          <tr>
+            <td width="20%"><a href = "../faculty_members/profile_matsuzaki.shtml">松崎 公紀</a></td>
+            <td width="60%">ワイヤレスネットワーク研究室</td>
+            <td width="20%"><a href = "http://ipl.info.kochi-tech.ac.jp/matsuzaki-lab/home.html">研究室ページ</a></td>
+          </tr>
+          <tr>
+            <td width="20%"><a href = "../faculty_members/profile_yokoyama.shtml">横山 和俊</a></td>
+            <td width="60%">分散処理OS研究室</td>
+            <td width="20%"><a href = "http://yokolab.kochi-tech.ac.jp/">研究室ページ</a></td>
+          </tr>
+          <tr>
+            <td width="20%"><a href = "../faculty_members/profile_ren.shtml">任 向實</a></td>
+            <td width="60%">ワイヤレスネットワーク研究室</td>
+            <td width="20%"><a href = "http://xrenlab.com/">研究室ページ</a></td>
+          </tr>
+          <tr>
+            <td width="20%"><a href = "../faculty_members/profile_ugawa.shtml">鵜川 始陽</a></td>
+            <td width="60%">プログラミング言語研究室</td>
+            <td width="20%"><a href = "http://pl.info.kochi-tech.ac.jp/">研究室ページ</a></td>
+          </tr>
+          <tr>
+            <td width="20%"><a href = "../faculty_members/profile_kadota.shtml">門田 宏</a></td>
+            <td width="60%">身体情報サイエンス研究室</td>
+            <td width="20%"><a href = "https://kadota-lab.com/">研究室ページ</a></td>
+          </tr>
+          <tr>
+            <td width="20%"><a href = "../faculty_members/profile_kurihara.shtml">栗原 徹</a></td>
+            <td width="60%">画像情報工学研究室</td>
+            <td width="20%"><a href = "http://krlab.info.kochi-tech.ac.jp/">研究室ページ</a></td>
+          </tr>
+          <tr>
+            <td width="20%"><a href = "../faculty_members/profile_takata.shtml">高田 喜朗</a></td>
+            <td width="60%">ソフトウェア検証・解析学研究室</td>
+            <td width="20%"><a href = "http://www.info.kochi-tech.ac.jp/y-takata/">研究室ページ</a></td>
+          </tr>
+          <tr>
+            <td width="20%"><a href = "../faculty_members/profile_mendori.shtml">妻鳥 貴彦</a></td>
+            <td width="60%">教育情報工学研究室</td>
+            <td width="20%"><a href = "http://www.lab.kochi-tech.ac.jp/menken/">研究室ページ</a></td>
+          </tr>
+          <tr>
+            <td width="20%"><a href = "../faculty_members/profile_yoshida.shtml">吉田 真一</a></td>
+            <td width="60%">知能情報学研究室</td>
+            <td width="20%"><a href = "http://www.lab.kochi-tech.ac.jp/yoshilab/index.html">研究室ページ</a></td>
+          </tr>
+          <tr>
+            <td width="20%"><a href = "../faculty_members/profile_ueda.shtml">植田 和憲</a></td>
+            <td width="60%">知的ネットワーク研究室</td>
+            <td width="20%"><a href = "https://www.kochi-tech.ac.jp/profile/ja/ueda-kazunori.html">工科大教員ページ</a></td>
+          </tr>
+          <tr>
+            <td width="20%"><a href = "../faculty_members/profile_takeuchi.shtml">竹内 聖悟</a></td>
+            <td width="60%">ゲーム情報学研究室</td>
+            <td width="20%"><a href = "https://www.kochi-tech.ac.jp/profile/ja/takeuchi-shogo.html">工科大教員ページ</a></td>
+          </tr>
+          <tr>
+            <td width="20%"><a href = "../faculty_members/profile_harada.shtml">原田 崇司</a></td>
+            <td width="60%">アルゴリズム研究室</td>
+            <td width="20%"><a href = "https://www.kochi-tech.ac.jp/profile/ja/harada-takashi.html">工科大教員ページ</a></td>
+          </tr>
+          <tr>
+            <td width="20%"><a href = "../faculty_members/profile_igata.shtml">井形 元彦</a></td>
+            <td width="60%">教育講師室</td>
+            <td width="20%"><a href = "https://www.kochi-tech.ac.jp/profile/ja/igata-motohiko.html">工科大教員ページ</a></td>
+          </tr>
+          <tr>
+            <td width="20%"><a href = "../faculty_members/profile_iwamura.shtml">岩村 聡</a></td>
+            <td width="60%">教育講師室</td>
+            <td width="20%"><a href = "https://www.kochi-tech.ac.jp/profile/ja/iwamura-satoshi.html">工科大教員ページ</a></td>
+          </tr>
+          <tr>
+            <td width="20%"><a href = "../faculty_members/profile_murakami.shtml">村上 和子</a></td>
+            <td width="60%">教育講師室</td>
+            <td width="20%"><a href = "https://www.kochi-tech.ac.jp/profile/ja/murakami-kazuko.html">工科大教員ページ</a></td>
+          </tr>
+        </tbody></table>
+
+      </div>
+
+    </div>
+
+    <div class = "other">
+      <h3>その他のコンテンツ</h3>
+      <div class = "otherButtons">
+        <a href="https://www.kochi-tech.ac.jp/entrance_info/admission/info_before/opencampus.html" class = "button wholeOC otherButton">全学企画</a>
+        <a href="https://www.kochi-tech.ac.jp/entrance_info/admission/info_before/onyourmark.html" class = "button onYourMark otherButton">全ての動画</a>
+      </div>
+    </div>
+  </div>
+  <!-- baseContents-->
+  <!--#include file="footer.html"-->
+</body>
+
+</html>

@@ -1,0 +1,261 @@
+#baseContents a{
+    text-decoration: underline;
+}
+
+#baseContents h3{
+    text-align: center;
+    font-size: 170%;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #3db6eb;
+    padding-bottom: 25px;
+}
+
+#baseContents .button{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background-color: #3db6eb;
+    color: #fff;
+    width: 200px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 16px 0;
+    border-radius: 8px;
+    border-bottom: solid 4px  #277da1;
+}
+
+#baseContents .button:active{
+    border-bottom: none;
+    transform: translateY(4px);
+    -webkit-transform: translateY(4px);
+}
+
+
+#baseContents .title{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 100%;
+    height: 640px;
+    font-family: 'Merriweather', serif;
+    color: white;
+    margin-top: 0;
+    position: relative;
+}
+
+#baseContents .title .colorFilter{
+    background-color: rgba(39, 113, 145, 0.6);
+    height: 100%;
+}
+
+#baseContents .titleImg {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    animation: slideShow 20s infinite;
+}
+
+#baseContents .title .colorFilter .img1 {
+    background-image: url(../img/headImg_1.jpg);
+}
+
+#baseContents .title .colorFilter .img2 {
+    background-image: url(../img/headImg_2.jpg);
+    animation-delay: 5s;
+}
+
+#baseContents .title .colorFilter .img3 {
+    background-image: url(../img/headImg_3.jpg);
+    animation-delay: 10s;
+}
+
+#baseContents .title .colorFilter .img4 {
+    background-image: url(../img/headImg_4.jpg);
+    animation-delay: 15s;
+}
+
+#baseContents .titleText{
+    position: absolute;
+    top: 30%;
+    left: 12%;
+}
+
+#baseContents .atFirst{
+    margin-top: -100px;
+}
+
+
+#baseContents .title h2{
+    font-size: 250%;
+    margin-top: 50px;
+}
+
+#baseContents .eventDate{
+    position: absolute;
+    top: 90%;
+    right: 3%;
+    font-size: 200%;
+}
+
+#baseContents .mainContents{
+    margin-bottom: 50px;
+}
+
+#baseContents .introductionInfo{
+    height: 1385px;
+    width: 100%;
+}
+
+#baseContents .menuSize {
+    height: 280px;
+    width: 280px;
+}
+
+#baseContents .menu {
+    float: left;
+    margin-left: 30px;
+    margin-top: 50px;
+    position: relative;
+}
+
+#baseContens .menu img:hover {
+    opacity: 0.8;
+}
+
+#baseContents .menu .subMenu {
+    background: rgba(0, 0, 0, 0.5);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#50000000,endColorstr=#50000000);
+    color: #ffffff;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 0;
+}
+
+#baseContents .subMenu h2 {
+  font-size: 120%;
+  margin-top: 70px;
+}
+
+#baseContents .subMenu .line {
+    background-color: #23befb;
+    display: inline-block;
+    height: 5px;
+    margin-top: 10px;
+    width: 45px;
+}
+
+#baseContents .subMenu h1 {
+    font-size: 600%;
+    margin-top: 40px;
+}
+
+
+/* menu hover */
+.subMenu {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+  }
+  .subMenu:before {
+    content: '';
+    position: absolute;
+    border: #ffcc99 solid 7px;
+    top: -16px;
+    right: -16px;
+    bottom: -16px;
+    left: -16px;
+    opacity: 0;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: top, right, bottom, left;
+    transition-property: top, right, bottom, left;
+  }
+  .subMenu:hover:before, .subMenu:focus:before, .subMenu:active:before {
+    top: -8px;
+    right: -8px;
+    bottom: -8px;
+    left: -8px;
+    opacity: 1;
+}
+
+.LaboratoryTable table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .LaboratoryTable table tr {
+    border-bottom: solid 2px white;
+  }
+
+  .LaboratoryTable table tr:last-child {
+    border-bottom: none;
+  }
+
+  .LaboratoryTable table th {
+    position: relative;
+    text-align: left;
+    background-color: #52c2d0;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  .LaboratoryTable table th:after {
+    display: block;
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    right: -10px;
+    border-left: 10px solid #52c2d0;
+  }
+
+  .LaboratoryTable table td {
+    text-align: left;
+    text-align: center;
+    background-color: #eee;
+    padding: 10px 0;
+    border-left: 0.5px solid #a8b7c5;
+    border-bottom: 0.5px solid #a8b7c5;
+}
+
+#baseContents .other .otherButtons{
+    overflow: hidden;
+    text-align: center;
+}
+
+#baseContents .otherButton{
+    display: inline-block;
+    margin: 0px 50px;
+}
+
+@keyframes slideShow {
+  0% {
+    opacity: 0;
+  }
+  5% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 1;
+  }
+  30% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
