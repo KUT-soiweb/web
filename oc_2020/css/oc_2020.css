@@ -42,14 +42,10 @@
     color: white;
     margin-top: 0;
     position: relative;
+    background-image: url(../img/headImg.jpg);
 }
 
-#baseContents .title .colorFilter{
-    background-color: rgba(39, 113, 145, 0.6);
-    height: 100%;
-}
-
-#baseContents .titleImg {
+#baseContents .titleImg{
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -62,32 +58,13 @@
     animation: slideShow 20s infinite;
 }
 
-#baseContents .title .colorFilter .img1 {
-    background-image: url(../img/headImg_1.jpg);
-}
-
-#baseContents .title .colorFilter .img2 {
-    background-image: url(../img/headImg_2.jpg);
-    animation-delay: 5s;
-}
-
-#baseContents .title .colorFilter .img3 {
-    background-image: url(../img/headImg_3.jpg);
-    animation-delay: 10s;
-}
-
-#baseContents .title .colorFilter .img4 {
-    background-image: url(../img/headImg_4.jpg);
-    animation-delay: 15s;
-}
-
 #baseContents .titleText{
     position: absolute;
     top: 30%;
     left: 12%;
 }
 
-#baseContents .atFirst{
+#baseContents .message{
     margin-top: -100px;
 }
 
@@ -108,17 +85,18 @@
     margin-bottom: 50px;
 }
 
-#baseContents .atFirstText{
+#baseContents .messageText{
     line-height: 200%;
+    margin-bottom: 30px;
 }
 
-#baseContents .atFirst .arrowText{
+#baseContents .arrowText{
     font-size: 150%;
     line-height: 300%;
     text-align: center;
 }
 
-#baseContents .atFirst .triangle{
+#baseContents .triangle{
     width: 0;
     height: 0;
     border-top: solid 15px #277da1;
@@ -132,6 +110,7 @@
     height: auto;
     overflow: hidden;
     padding-top: 2px;
+    box-sizing: border-box;
 }
 
 #baseContents .aboutInfo-wrapping{
@@ -143,6 +122,7 @@
     float: left;
     padding: 0 5%;
     width: 50%;
+    margin-bottom: 30px;
 }
 
 #baseContents .aboutInfoText{

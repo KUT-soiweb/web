@@ -18,70 +18,64 @@
     </div>
 
     <div class="title">
-      <div class="colorFilter">
-
-        <div class="titleImg img1"></div>
-        <div class="titleImg img2"></div>
-        <div class="titleImg img3"></div>
-        <div class="titleImg img4"></div>
-
-        <div class="titleText">
-          <h1>KUT OPEN CAMPUS 2020</h1>
-          <h2>School of Information</h2>
-        </div>
-        <p class = "eventDate">8月29日(土)</p>
+      <div class="titleText">
+        <h1>KUT OPEN CAMPUS 2020</h1>
+        <h2>School of Information</h2>
       </div>
+      <p class = "eventDate">8月29日(土)</p>
     </div>
 
-    <div class="atFirst mainContents">
-      <h3>はじめに</h3>
-      <p class="atFirstText">
-        　今年度のオープンキャンパスは8月29日に予定しておりましたが、新型コロナウイルス感染症の影響により高知工科大学での開催を中止し、同日オンラインにて実施致します。何卒ご理解下さいますようお願い申し上げます。
-        <a href = "https://www.kochi-tech.ac.jp/entrance_info/admission/info_before/opencampus.html">リアルタイムでのWebオープンキャンパス</a>
-        や情報学群や各学群の紹介動画等を御覧頂けますので奮ってご参加ください。
+    <div class="message mainContents">
+      <h3>高校生の皆様へ</h3>
+      <p class="messageText">
+        　本来は現地でのオープンキャンパス開催を予定しておりましたが、今年はコロナウイルス感染症等により、今年度のオープンキャンパスはWebによるリモートでの開催となりました。
+        ご理解とご協力の下、ご参加有り難うございました。
+        <a href="https://www.kochi-tech.ac.jp/entrance_info/admission/info_before/onyourmark.html">動画サイト【On Your Mark!】</a>
+        にて、大学の情報等が閲覧できますので、ぜひご覧ください。<br>
+        　今回のオンラインでの開催が実現したように、私たち高知工科大学では発達した情報技術によって、講義や研究活動等、すべてリモートで実現しています。
+        今だからこそ、より情報通信技術について触れる良い機会です。私たちと一緒に情報通信技術を学んでいきましょう！
       </p>
-      <p class="arrowText">当日のスケジュールはこちら!</p>
+      <p class="arrowText">各動画はこちら!</p>
       <div class="triangle"></div>
       <div class="ocButtons">
-        <a href="https://www.kochi-tech.ac.jp/entrance_info/admission/info_before/opencampus.html" class = "button ocButton">タイムスケジュールを見る</a>
+        <a href="https://www.kochi-tech.ac.jp/entrance_info/admission/info_before/onyourmark.html" class = "button ocButton">動画を見る</a>
       </div>
     </div>
 
     <div class="aboutInfo mainContents">
       <h3>高知工科大学情報学群とは</h3>
-        <div class = "aboutInfo-wrapping">
-          <div class = "aboutInfo-unit">
-            <div class = "aboutInfoImg">
-              <img src = "img/aboutInfoImg_1.jpg" width = 100% height = 100%></img>
-            </div>
-            <p class = "aboutInfoText">
-             　情報学群では、柔軟で大胆な発想を育てるために、人に優しい次世代の情報システムの実現に向けた教育・研究を進めると同時に、
-             情報通信技術（ICT）が人間・社会と共生して発展できる未来を目指し、問題発見・問題解決できる人材を新しい学群・専攻制の下で育成します。
-             また、産官学連携によるICTスペシャリスト養成プログラムや研究用ネットワークJGN2plus(Japan Giga-bit Network 2 plus)JGN-X(Japan Gigabit
-             Network-eXtreme)などの国内でも有数の教育・研究環境を提供します。
-           </p>
+      <div class = "aboutInfo-wrapping">
+        <div class = "aboutInfo-unit">
+          <div class = "aboutInfoImg">
+            <img src = "img/aboutInfoImg_1.jpg" width = 100% height = 100%></img>
           </div>
-          <div class = "aboutInfo-unit">
-            <div class = "aboutInfoImg">
-              <img src = "img/aboutInfoImg_2.JPG" width = 100% height = 100%></img>
-            </div>
-            <p class = "aboutInfoText">
-              　情報学群には「情報と人間専攻」「情報とメディア専攻」「情報通信専攻」「コンピュータサイエンス専攻」の4つの専攻があります。
-              情報と人間専攻では、私たち人間が外部からの刺激をどのように処理して、判断や推論を行っているのかについての基本を学ぶことが出来ます。
-              情報とメディア専攻では「ウェブメディア」「パターン認識と理解」「コンピュータグラフィックス」などのメディアテクノロジーの開発について学ぶことが出来ます。
-              情報通信専攻では、最新のICTを駆使して目的に合わせたネットワークを構築・運用できる実践的な能力を身に着けることが出来ます。
-              コンピュータサイエンス専攻では、コンピュータと情報通信の"土台"や"骨組み"の部分から深く理解し、ネットワークの専門知識に加えて、コンピュータに関するハード・ソフト両面の高度な知識と実践的な活用能力を身に着けることが出来ます。
-            </p>
+          <p class = "aboutInfoText">
+            　情報学群では、柔軟で大胆な発想を育てるために、人に優しい次世代の情報システムの実現に向けた教育・研究を進めると同時に、
+            情報通信技術（ICT）が人間・社会と共生して発展できる未来を目指し、問題発見・問題解決できる人材を新しい学群・専攻制の下で育成します。
+            また、産官学連携によるICTスペシャリスト養成プログラムや研究用ネットワークJGN2plus(Japan Giga-bit Network 2 plus)JGN-X(Japan Gigabit
+            Network-eXtreme)などの国内でも有数の教育・研究環境を提供します。
+          </p>
+        </div>
+        <div class = "aboutInfo-unit">
+          <div class = "aboutInfoImg">
+            <img src = "img/aboutInfoImg_2.JPG" width = 100% height = 100%></img>
           </div>
+          <p class = "aboutInfoText">
+            　情報学群には「情報と人間専攻」「情報とメディア専攻」「情報通信専攻」「コンピュータサイエンス専攻」の4つの専攻があります。
+            情報と人間専攻では、私たち人間が外部からの刺激をどのように処理して、判断や推論を行っているのかについての基本を学ぶことが出来ます。
+            情報とメディア専攻では「ウェブメディア」「パターン認識と理解」「コンピュータグラフィックス」などのメディアテクノロジーの開発について学ぶことが出来ます。
+            情報通信専攻では、最新のICTを駆使して目的に合わせたネットワークを構築・運用できる実践的な能力を身に着けることが出来ます。
+            コンピュータサイエンス専攻では、コンピュータと情報通信の"土台"や"骨組み"の部分から深く理解し、ネットワークの専門知識に加えて、コンピュータに関するハード・ソフト両面の高度な知識と実践的な活用能力を身に着けることが出来ます。
+          </p>
+        </div>
+        <p class="arrowText">情報学群について詳しく知りたい方はこちら!</p>
+        <div class="triangle"></div>
+        <div class="ocButtons">
+          <a href="http://www.info.kochi-tech.ac.jp/" class = "button ocButton">情報学群TOPページを開く</a>
+        </div>
       </div>
     </div>
 
-    <div class = "other">
-      <h3>その他のコンテンツ</h3>
-      <div class="ocButtons">
-        <a href="https://www.kochi-tech.ac.jp/entrance_info/admission/info_before/onyourmark.html" class = "button ocButton">高知工科大学の紹介動画</a>
-      </div>
-    </div>
   </div>
   <!-- baseContents-->
   <!--#include file="footer.html"-->
