@@ -3,9 +3,14 @@
 
 <head>
   <meta charset="utf-8">
-  <link rel="stylesheet" href="../css/base.css">
-  <link rel="stylesheet" href="./css/oc_2020.css">
-  <title>Open Campus 2020</title>
+  <link rel="stylesheet" href="../css/base.css" media="all" title="header" charset="utf-8">
+  <link rel="stylesheet" href="./css/oc_2020.css" media="all" title="header" charset="utf-8">
+  <title>Open Campus 2020 | 高知工科大学 情報学群</title>
+  <meta name="keywords" content="高知工科大学,情報学群,オープンキャンパス,KUT,入試,情報">
+  <meta name="description" content="高知工科大学情報学群の2020年度オープンキャンパスのご案内。研究室公開や体験授業などのオープンキャンパスでしか体験することのできないイベントを紹介しています。">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/bace.js"></script>
+  </script>
 </head>
 
 <body>
