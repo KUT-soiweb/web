@@ -10,6 +10,11 @@
   <meta name="description" content="高知工科大学情報学群の2020年度オープンキャンパスのご案内。研究室公開や体験授業などのオープンキャンパスでしか体験することのできないイベントを紹介しています。">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="js/bace.js"></script>
+  <script type="text/javascript">
+		window.onload = function(){
+			headSerect(0);
+		}
+	</script>
   </script>
 </head>
 
