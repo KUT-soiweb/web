@@ -39,16 +39,16 @@
         <h2>最近のニュース</h2>
         <div class="newsContents" id="newsDiv">
           <dl id="newsDl">
-                    <dt name="nDate">2019.8.25</dt>
-                      <dd name="nData"><a href="http://www.info.kochi-tech.ac.jp/KUTpoem/index.shtml">7月分のポエム</a>を更新しました。</dd>
-                    <dt name="nDate">2019.8.7</dt>
-                      <dd name="nData"><a href="./news/topic_322.shtml" >「令和元年度Next次世代型施設園芸技術フェア」にて2研究室が展示を行いました。</a></dd>
-                    <dt name="nDate">2019.8.2</dt>
-                      <dd name="nData"><a href="./news/topic_320.shtml" >2019年度オープンキャンパスを開催しました。</a></dd>
-                    <dt name="nDate">2019.7.14</dt>
-                      <dd name="nData"><a href="http://www.info.kochi-tech.ac.jp/KUTpoem/index.shtml">6月分のポエム</a>を更新しました。</dd>
-                    <dt name="nDate">2019.7.11</dt>
-                      <dd name="nData"><a href="http://www.info.kochi-tech.ac.jp/oc_2019/">オープンキャンパス2019</a>のページを作成しました。</dd>
+                    <dt name="nDate">2020.3.18</dt>
+                      <dd name="nData"><a href="./news/topic_356.shtml" ><a href="./news/topic_356.shtml">第82回情報処理学会全国大会にて、情報学コース修士2年竹原 慎さんが学生奨励賞を受賞しました。</a></a></dd>
+                    <dt name="nDate">2020.3.4</dt>
+                      <dd name="nData"><a href="./news/topic_355.shtml" >令和元年度情報学群卒業研究発表会が行われました。</a></dd>
+                    <dt name="nDate">2020.2.22</dt>
+                      <dd name="nData"><a href="./news/topic_354.shtml" >プログラミング・シンポジウムで山内奨励賞を受賞しました。</a></dd>
+                    <dt name="nDate">2020.2.17</dt>
+                      <dd name="nData"><a href="./news/topic_351.shtml" >令和元年度情報学群卒業研究発表会のご案内</a></dd>
+                    <dt name="nDate">2020.2.16</dt>
+                      <dd name="nData"><a href="./news/topic_353.shtml" >令和元年度修士論文発表会が行われました。</a></dd>
                     </dl>
           <div class="oldNews">
             <a href="topic_news.shtml">ニュース一覧　&raquo;</a>
@@ -56,12 +56,22 @@
         </div> <!-- newsContents -->
       </div> <!-- section -->
 
-      <!-- linkImg -->
-      <div class="linkImg">
-        <a href="KUTpoem/index.shtml">
-          <img src="img/KUTpoem_banner.png"/>
-        </a>
-      </div> <!-- linkImg -->
+        <!-- linkImg -->
+        <div class="linkImg">
+          <a href="special_lec.shtml">
+            <img src="img/SpecialLec_banner.jpg" />
+          </a>
+        </div>
+        <div class="linkImg">
+          <a href="welcome2020/recruit2020.shtml">
+            <img src="img/welcome2020_banner.png"/>
+          </a>
+        </div>
+        <div class="linkImg">
+          <a href="KUTpoem/index.shtml">
+            <img src="img/KUTpoem_banner.png"/>
+          </a>
+        </div> <!-- linkImg -->
 
       <!-- link -->
       <div class="link">
