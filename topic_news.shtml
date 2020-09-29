@@ -42,9 +42,18 @@
     <!-- left -->
     <div class="listArea">
       <ul class="listNews" name="year" id="H_2020">
-        <li name="list" style="display: block;"><dd><a href="https://www.kochi-tech.ac.jp/news/2020/004905.html"> 電気学会・電子情報通信学会・情報処理学会 四国支部奨励賞</a>を本学群生2名が受賞しました。</dd><dt>2020.4.1</dt></li>
-        <li name="list" style="display: block;"><dd><a href="https://www.kochi-tech.ac.jp/news/2020/005026.html">学生団体Cykutの情報学群卒業生3名に高知県警本部より感謝状が贈呈されました。</a></dd><dt>2020.4.1</dt></li>
-        <li name="list" style="display: block;"><dd><a href="http://www.info.kochi-tech.ac.jp/faculty_members/profile_harada.shtml">原田 崇司助教</a>が<a href="http://www.ipsj.or.jp/award/fit-young.html">FITヤングリサーチャー賞</a>を受賞しました。</dd><dt>2020.4.1</dt></li>
+        <li name="list" style="display: block;">
+          <dd><a href="http://www.info.kochi-tech.ac.jp/oc_2020/">オープンキャンパス2020</a>のページを作成しました。</dd>
+          <dt>2020.9.30</dt></li>
+        <li name="list" style="display: block;">
+          <dd><a href="https://www.kochi-tech.ac.jp/news/2020/004905.html"> 電気学会・電子情報通信学会・情報処理学会 四国支部奨励賞</a>を本学群生2名が受賞しました。</dd>
+          <dt>2020.4.1</dt></li>
+        <li name="list" style="display: block;">
+          <dd><a href="https://www.kochi-tech.ac.jp/news/2020/005026.html">学生団体Cykutの情報学群卒業生3名に高知県警本部より感謝状が贈呈されました。</a>
+          </dd><dt>2020.4.1</dt></li>
+        <li name="list" style="display: block;">
+          <dd><a href="http://www.info.kochi-tech.ac.jp/faculty_members/profile_harada.shtml">原田 崇司助教</a>が<a href="http://www.ipsj.or.jp/award/fit-young.html">FITヤングリサーチャー賞</a>を受賞しました。</dd>
+          <dt>2020.4.1</dt></li>
       </ul>
       <ul class="listNews" name="year" id="H_2019">
         <li name="list">
