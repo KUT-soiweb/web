@@ -58,11 +58,6 @@
 
         <!-- linkImg -->
         <div class="linkImg">
-          <a href="special_lec.shtml">
-            <img src="img/SpecialLec_banner.jpg" />
-          </a>
-        </div>
-        <div class="linkImg">
           <a href="welcome2020/recruit2020.shtml">
             <img src="img/welcome2020_banner.png"/>
           </a>
