@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>soiwebメンバー募集！</title>
+  <!-- <link rel="stylesheet" href="css/base.css" media="all" title="header" charset="utf-8" /> -->
+  <link rel="stylesheet" href="css/recruit.css" media="all" title="header" charset="utf-8" />
+  <!-- <link rel="icon" href="img/favicon2.png" type="image/png" /> -->
+  <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous"> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+</head>
+<body>
+
+    <header>
+      <div class="header-left left">
+        <a href="../index.shtml"><img src="./img/SOI_logo.svg"></a>
+      </div>
+      <div class="header-right right">
+        <ul>
+                <li>
+                  <a href="#top-wrapper" id="about">About</a>
+                </li>
+                <li>
+                  <a href="#intro-wrapper" id="works">Works</a>
+                </li>
+                <li>
+                  <a href="https://forms.gle/BGNm6yWWKFufmK197" id="join">Join</a>
+                </li>
+              </ul>
+      </div>
+    </header>
+
+    <div id="top-wrapper" class="container">
+      <div class="title">
+        <h1>製作者募集</h1>
+        <h2>私たちと一緒にWebサイトを作っていきませんか</h2>
+      </div>
+      <div class="link"><a href="https://forms.gle/BGNm6yWWKFufmK197" class="btn join">参加したい方へ→</a></div>
+    </div>
+
+    <div id="intro-wrapper" class="container">
+      <div class="phrase left">
+        <div class="contain">
+          <p>サークルでも</p>
+          <p class="txt-padding">学生団体でもない</p>
+        </div>
+      </div>
+      <div class="text left">
+        <p>私たちは、メンバーが全て<span class="font">情報学群生</span>で構成された<br>
+          プロジェクトチームです。<br>
+          主に当webの<span class="font">設計</span>や<span class="font">運営</span>を行っています。<br>
+          <br>
+          コンテンツ製作を行う時に必要なページのデザインや<br>
+          設計、それに関わる運営などを<span class="font">支えあい</span>ながら<br>
+          Webサイトを作り上げています。</p>
+      </div>
+    </div>
+
+
+    <div id="promos-wrapper" class="container">
+      <ul>
+        <li>
+          <div class="promos margin-right web-design">
+            <div class="overray">
+              <i class="fas fa-crop-alt"></i>
+              <h3>Web Designer</h3>
+              <p>Webサイトにおけるデザインを担当します。UI/UXデザインやバナーのデザインなど、ユーザビリティの向上にダイレクトに繋がるのがデザイナーです。</p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="promos margin-left cord">
+            <div class="overray">
+              <i class="fas fa-code"></i>
+              <h3>Coding</h3>
+              <p>HTMLやCSSなどをはじめとしたフロントエンドから、サーバ管理やCMS管理などのバックエンドなど、個人のやりたい分野に応じて担当します。</p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="promos margin-right photograph">
+            <div class="overray">
+              <i class="fas fa-camera"></i>
+              <h3>Photographer</h3>
+              <p>記事に必要な写真やコンテンツ製作における撮影などを行います。</p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="promos margin-left writer">
+            <div class="overray">
+              <i class="fas fa-pen"></i>
+              <h3>Writer</h3>
+              <p>自ら情報を取ってきたり、取材などを行いながらニュース記事作成を行います。</p>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <!-- <div class="works-wrapper container">
+      <h2>未経験者でも問題ない</h2>
+      <p>Webに興味があるけど技術がないからと不安にならなくて大丈夫です。<br>
+        メンバーの半数以上は未経験者でしたが、先輩に教えてもらってスキルアップしています。<br>
+        できそうなことから少しずつ慣れて、応用的な部分を担当していくことで自分の成長が感じられると思います。<br>
+        少しでも興味を持ったらお話だけでも聞いてみてはいかがでしょうか?</p>
+    </div> -->
+
+    <div id="join-wrapper" class="container">
+      <!-- <h2>君もつくる側に</h2>
+      <p>もっとクリエイティブな大学生活を</p>
+      <p>大学生活は人生で最も時間が使える期間です。サークルやアルバイトに勤しむのも、ゲームやSNSに打ち込むのも全て自分自身です。<br>
+        せっかく情報学群に入学したのなら挑戦してみませんか？初心者でも何も問題ありません！何故なら初心者が集まってこのサイトを作ったのですから。<br>
+      必要なのは下のボタンを押して応募するだけ。とりあえず話だけでも聞いてみませんか？</p> -->
+      <h2>未経験者でも問題ない</h2>
+      <p>Webに興味があるけど技術がないからと不安にならなくて大丈夫です。<br>
+        メンバーの半数以上は<span class="font2">未経験者</span>でしたが、先輩に教えてもらって<span class="font2">スキルアップ</span>しています。<br>
+        できそうなことから少しずつ慣れて、応用的な部分を担当していくことで<span class="font2">自分の成長</span>が感じられると思います。<br>
+        <span class="font2">少しでも興味</span>を持ったらお話だけでも聞いてみてはいかがでしょうか?<br></p>
+      <div class="link"><a href="https://forms.gle/BGNm6yWWKFufmK197" class="btn join">参加したい方へ→</a></div>
+    </div>
+
+
+    <footer class="container">
+      <p>Copyright &copy; soiweb Project. All Rights Reserved.</p>
+    </footer>
+
+
+
+
+    <script src="./js/recruit.js"></script>
+  </body>
+  </html>
