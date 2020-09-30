@@ -2,11 +2,11 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>大学ポエム</title>
-  <link rel="stylesheet" href="css/base.css" media="all" title="header" charset="utf-8" />
+  <title>soiwebメンバー募集！</title>
+  <!-- <link rel="stylesheet" href="css/base.css" media="all" title="header" charset="utf-8" /> -->
   <link rel="stylesheet" href="css/recruit.css" media="all" title="header" charset="utf-8" />
-  <link rel="icon" href="img/favicon2.png" type="image/png" />
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <!-- <link rel="icon" href="img/favicon2.png" type="image/png" /> -->
+  <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous"> -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 </head>
 <body>
@@ -18,13 +18,13 @@
       <div class="header-right right">
         <ul>
                 <li>
-                  <a id="about">About</a>
+                  <a href="#top-wrapper" id="about">About</a>
                 </li>
                 <li>
-                  <a id="works">Works</a>
+                  <a href="#intro-wrapper" id="works">Works</a>
                 </li>
                 <li>
-                  <a href="https://forms.gle/BGNm6yWWKFufmK197" id="join">Join</a>
+                  <a href="https://forms.gle/kC9mP2y9tHEKxDEY9" id="join">Join</a>
                 </li>
               </ul>
       </div>
@@ -35,7 +35,7 @@
         <h1>製作者募集</h1>
         <h2>私たちと一緒にWebサイトを作っていきませんか</h2>
       </div>
-      <div class="link"><a href="https://forms.gle/BGNm6yWWKFufmK197" class="btn join">参加したい方へ→</a></div>
+      <div class="link"><a href="https://forms.gle/kC9mP2y9tHEKxDEY9" class="btn join">参加したい方へ→</a></div>
     </div>
 
     <div id="intro-wrapper" class="container">
@@ -117,7 +117,7 @@
         メンバーの半数以上は<span class="font2">未経験者</span>でしたが、先輩に教えてもらって<span class="font2">スキルアップ</span>しています。<br>
         できそうなことから少しずつ慣れて、応用的な部分を担当していくことで<span class="font2">自分の成長</span>が感じられると思います。<br>
         <span class="font2">少しでも興味</span>を持ったらお話だけでも聞いてみてはいかがでしょうか?<br></p>
-      <div class="link"><a href="https://forms.gle/BGNm6yWWKFufmK197" class="btn join">参加したい方へ→</a></div>
+      <div class="link"><a href="https://forms.gle/kC9mP2y9tHEKxDEY9" class="btn join">参加したい方へ→</a></div>
     </div>
 
 
@@ -130,4 +130,4 @@
 
     <script src="./js/recruit.js"></script>
   </body>
-  </html>
+   </html>
