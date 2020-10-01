@@ -33,7 +33,7 @@
     <div id="top-wrapper" class="container">
       <div class="title">
         <h1>製作者募集</h1>
-        <h2>私たちと一緒にWebサイトを作っていきませんか</h2>
+        <h2>私たちと一緒に当Webサイトを作っていきませんか</h2>
       </div>
       <div class="link"><a href="https://forms.gle/kC9mP2y9tHEKxDEY9" class="btn join">参加したい方へ→</a></div>
     </div>
@@ -48,11 +48,11 @@
       <div class="text left">
         <p>私たちは、メンバーが全て<span class="font">情報学群生</span>で構成された<br>
           プロジェクトチームです。<br>
-          主に当webの<span class="font">設計</span>や<span class="font">運営</span>を行っています。<br>
+          主に当webサイトの<span class="font">設計</span>や<span class="font">運営</span>を行っています。<br>
           <br>
           コンテンツ製作を行う時に必要なページのデザインや<br>
           設計、それに関わる運営などを<span class="font">支えあい</span>ながら<br>
-          Webサイトを作り上げています。</p>
+          当Webサイトを作り上げています。</p>
       </div>
     </div>
 
@@ -64,7 +64,7 @@
             <div class="overray">
               <i class="fas fa-crop-alt"></i>
               <h3>Web Designer</h3>
-              <p>Webサイトにおけるデザインを担当します。UI/UXデザインやバナーのデザインなど、ユーザビリティの向上にダイレクトに繋がるのがデザイナーです。</p>
+              <p>当Webサイトにおけるデザインを担当します。UI/UXデザインやバナーのデザインなど、ユーザビリティの向上にダイレクトに繋がるのがデザイナーです。</p>
             </div>
           </div>
         </li>
@@ -116,7 +116,7 @@
       <p>Webに興味があるけど技術がないからと不安にならなくて大丈夫です。<br>
         メンバーの半数以上は<span class="font2">未経験者</span>でしたが、先輩に教えてもらって<span class="font2">スキルアップ</span>しています。<br>
         できそうなことから少しずつ慣れて、応用的な部分を担当していくことで<span class="font2">自分の成長</span>が感じられると思います。<br>
-        <span class="font2">少しでも興味</span>を持ったらお話だけでも聞いてみてはいかがでしょうか?<br></p>
+        <span class="font2">少しでも興味</span>を持ったらお話だけでも聞いてみませんか?<br></p>
       <div class="link"><a href="https://forms.gle/kC9mP2y9tHEKxDEY9" class="btn join">参加したい方へ→</a></div>
     </div>
 
