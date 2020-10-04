@@ -1,17 +1,19 @@
+
 /* ここにデータを入力してください */
+/* 2016データ */
+shingaku01 = 19; /* 進学 */
+//kaShingaku01 = 1; /* 他大学等進学 */
+shushoku01 = 81; /* 就職 */
+sonota01 = 2; /* その他 */
 /* 2017データ */
-shingaku01 = 21; /* 進学 */
-//kaShingaku01 = 2; /* 他大学等進学 */
-shushoku01 = 73; /* 就職 */
-sonota01 = 4; /* その他 */
-/* 2018データ */
-shingaku02 = 24; /* 進学 */
-//hokaShingaku02 = 1; /* 他大学等進学 */
-shushoku02 = 71; /* 就職 */
+shingaku02 = 21; /* 進学 */
+//hokaShingaku02 = 2; /* 他大学等進学 */
+shushoku02 = 73; /* 就職 */
 sonota02 = 4; /* その他 */
 
-/* 2017グラフデータ */
-var graphData01 = [{
+/* 2016グラフデータ */
+var graphData01 = [
+	{
 		value: shingaku01,
 		label: "本学進学",
 		color: "#fab4b9"
@@ -32,8 +34,9 @@ var graphData01 = [{
 		color: "#b5d08c"
 	}
 ];
-/* 2018グラフデータ */
-var graphData02 = [{
+/* 2017グラフデータ */
+var graphData02 = [
+	{
 		value: shingaku02,
 		label: "本学進学",
 		color: "#fab4b9"
@@ -58,8 +61,8 @@ var graphData02 = [{
 function createGraph() {
 	/* グラフオプション */
 	var options = {
-		animation: false,
-		onAnimationComplete: function () {
+		animation : false,
+		onAnimationComplete: function(){
 			this.showTooltip(this.segments, true);
 		},
 		tooltipEvents: [],
