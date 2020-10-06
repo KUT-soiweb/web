@@ -39,10 +39,10 @@
         <h2>最近のニュース</h2>
         <div class="newsContents" id="newsDiv" style="height: 370px;">
           <dl id="newsDl">
-              <dt name="nDate">2020.10.5</dt>
-                  <dd name="nData">9月30日付で鵜川 始陽准教授が情報学群を退職されました。</dd>
-              <dt name="nDate">2020.10.5</dt>
+              <dt name="nDate">2020.10.6</dt>
                   <dd name="nData">10月1日付で吉田 真一准教授が教授に昇任されました。</dd>
+              <dt name="nDate">2020.10.6</dt>
+                  <dd name="nData">9月30日付で鵜川 始陽准教授が情報学群を退職されました。</dd>
               <dt name="nDate">2020.9.30</dt>
                   <dd name="nData"><a href="http://www.info.kochi-tech.ac.jp/oc_2020/">オープンキャンパス2020</a>のページを作成しました。</dd>
               <dt name="nDate">2020.4.1</dt>
