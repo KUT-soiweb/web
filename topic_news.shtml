@@ -43,9 +43,11 @@
     <div class="listArea">
       <ul class="listNews" name="year" id="H_2020">
         <li name="list">
-          <dd>9月30日付で鵜川 始陽准教授が情報学群を退職されました。</dd><dt>2019.10.5</dt></li>
+          <dd>10月1日付で吉田 真一准教授が教授に昇任されました。</dd>
+          <dt>2020.10.6</dt></li>
         <li name="list">
-          <dd>10月1日付で吉田 真一准教授が教授に昇任されました。</dd><dt>2019.10.5</dt></li>
+          <dd>9月30日付で鵜川 始陽准教授が情報学群を退職されました。</dd>
+          <dt>2020.10.6</dt></li>
         <li name="list" style="display: block;">
           <dd><a href="http://www.info.kochi-tech.ac.jp/oc_2020/">オープンキャンパス2020</a>のページを作成しました。</dd>
           <dt>2020.9.30</dt></li>
