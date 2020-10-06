@@ -20,7 +20,7 @@
   <!--#include file="header.html"-->
   <div id="baseContents">
     <div class="pankuzu">
-      <a href="index.shtml">HOME</a> > 教員紹介
+      <a href="index.shtml">HOME</a> &gt; 教員紹介
     </div>
     <!--contents-->
 
@@ -51,11 +51,11 @@
           <a href="faculty_members/profile_hamamura.shtml">
             <div class="trianglePurple"></div>
             <h2>学群長</h2>
-            <img src="faculty_members/img/Face-HamamuraMasanori.png" width="200" height="200" alt="浜村昌則" />
+            <img src="faculty_members/img/Face-HamamuraMasanori.png" width="200" height="200" alt="浜村昌則">
             <h1>濵村 昌則</h1>
             <h3>Hamamura Masanori</h3>
             <h4>
-              <専門分野>
+              &lt;専門分野&gt;
             </h4>
             <h5 id="space">
               <span class="specality">情報通信工学</span>
@@ -75,11 +75,11 @@
           <a href="faculty_members/profile_iwata.shtml">
             <div class="triangleNavy"></div>
             <h2>教授</h2>
-            <img src="faculty_members/img/Face-IwataMakoto.png" width="200" height="200" alt="岩田誠" />
+            <img src="faculty_members/img/Face-IwataMakoto.png" width="200" height="200" alt="岩田誠">
             <h1>岩田 誠</h1>
             <h3>Iwata Makoto</h3>
             <h4>
-              <専門分野>
+              &lt;専門分野&gt;
             </h4>
             <h5 id="space">
               <span class="specality">コンピュータアーキテクチャ</span>
@@ -99,17 +99,17 @@
           <a href="faculty_members/profile_shikida.shtml">
             <div class="triangleNavy"></div>
             <h2>教授</h2>
-            <img src="faculty_members/img/Face-ShikidaMikifumi.JPG" width="200" height="200" alt="敷田幹文" />
+            <img src="faculty_members/img/Face-ShikidaMikifumi.JPG" width="200" height="200" alt="敷田幹文">
             <h1>敷田 幹文</h1>
             <h3>Shikida Mikifumi</h3>
             <h4>
-              <専門分野>
+              &lt;専門分野&gt;
             </h4>
             <h5 id="space">
               <span class="specality">応用情報通信</span>
             </h5>
             <h6>
-              <span class="lab_name">コミュニケーション&amp;コラボレーション研究室</span>
+              <span class="lab_name" style="left: 0px;">コミュニケーション&amp;コラボレーション研究室</span>
             </h6>
             <p>
               <span id="green">iH</span>
@@ -120,14 +120,38 @@
           </a>
         </li>
         <li class="faculty">
+          <a href="faculty_members/profile_shigemasu.shtml">
+            <div class="triangleNavy"></div>
+            <h2>教授</h2>
+            <img src="faculty_members/img/Face-ShigemasuHiroaki.png" width="200" height="200" alt="繁桝博昭">
+            <h1>繁桝 博昭</h1>
+            <h3>Shigemasu Hiroaki</h3>
+            <h4>
+              &lt;専門分野&gt;
+            </h4>
+            <h5 id="space">
+              <span class="specality">視覚心理学, 認知心理科学, 認知工学</span>
+            </h5>
+            <h6>
+              <span class="lab_name">知覚認知脳情報研究室</span>
+            </h6>
+            <p>
+              <span id="green">iH</span>
+              <span id="green">iM</span>
+              <span id="gray">CC</span>
+              <span id="green">CS</span>
+            </p>
+          </a>
+        </li>
+        <li class="faculty">
           <a href="faculty_members/profile_shinomori.shtml">
             <div class="triangleNavy"></div>
             <h2>教授</h2>
-            <img src="faculty_members/img/Face-ShinomoriKeizo.png" width="200" height="200" alt="篠森敬三" />
+            <img src="faculty_members/img/Face-ShinomoriKeizo.png" width="200" height="200" alt="篠森敬三">
             <h1>篠森 敬三</h1>
             <h3>Shinomori Keizo</h3>
             <h4>
-              <専門分野>
+              &lt;専門分野&gt;
             </h4>
             <h5 id="space">
               <span class="specality">視覚心理物理学</span>
@@ -147,11 +171,11 @@
           <a href="faculty_members/profile_shimizu.shtml">
             <div class="triangleNavy"></div>
             <h2>教授</h2>
-            <img src="faculty_members/img/Face-ShimizuAkihiro.png" width="200" height="200" alt="清水明宏" />
+            <img src="faculty_members/img/Face-ShimizuAkihiro.png" width="200" height="200" alt="清水明宏">
             <h1>清水 明宏</h1>
             <h3>Shimizu Akihiro</h3>
             <h4>
-              <専門分野>
+              &lt;専門分野&gt;
             </h4>
             <h5 id="space">
               <span class="specality">情報セキュリティ</span>
@@ -171,19 +195,19 @@
           <a href="faculty_members/profile_nakahara.shtml">
             <div class="triangleNavy"></div>
             <h2>教授</h2>
-            <img src="faculty_members/img/Face-NakaharaKiyoshi.jpg" width="200" height="200" alt="中原潔" />
+            <img src="faculty_members/img/Face-NakaharaKiyoshi.jpg" width="200" height="200" alt="中原潔">
             <h1>中原 潔</h1>
             <h3>Nakahara Kiyoshi</h3>
             <h4>
-              <専門分野>
+              &lt;専門分野&gt;
             </h4>
             <h5 id="space">
-              <span class="specality">認知神経科学, 神経生理学, 分子生理学</span>
+              <span class="specality" style="left: 0px;">認知神経科学, 神経生理学, 分子生理学</span>
             </h5>
             <h6>
-              <span class="lab_name">認知神経科学研究室</h6>
-            </span>
-            </h6>
+              <span class="lab_name">認知神経科学研究室</span></h6>
+            
+            
             <p>
               <span id="green">iH</span>
               <span id="green">iM</span>
@@ -196,11 +220,11 @@
           <a href="faculty_members/profile_fukumoto.shtml">
             <div class="triangleNavy"></div>
             <h2>教授</h2>
-            <img src="faculty_members/img/Face-FukumotoMasahiro.png" width="200" height="200" alt="福本昌弘" />
+            <img src="faculty_members/img/Face-FukumotoMasahiro.png" width="200" height="200" alt="福本昌弘">
             <h1>福本 昌弘</h1>
             <h3>Fukumoto Masahiro</h3>
             <h4>
-              <専門分野>
+              &lt;専門分野&gt;
             </h4>
             <h5 id="space">
               <span class="specality">ディジタル信号処理</span>
@@ -220,11 +244,11 @@
           <a href="faculty_members/profile_matsuzaki.shtml">
             <div class="triangleNavy"></div>
             <h2>教授</h2>
-            <img src="faculty_members/img/Face-MatsuzakiKiminori.png" width="200" height="200" alt="松崎公紀" />
+            <img src="faculty_members/img/Face-MatsuzakiKiminori.png" width="200" height="200" alt="松崎公紀">
             <h1>松崎 公紀</h1>
             <h3>Matsuzaki Kiminori</h3>
             <h4>
-              <専門分野>
+              &lt;専門分野&gt;
             </h4>
             <h5 id="space">
               <span class="specality">並列プログラミング</span>
@@ -245,11 +269,11 @@
           <a href="faculty_members/profile_yokoyama.shtml">
             <div class="triangleNavy"></div>
             <h2>教授</h2>
-            <img src="faculty_members/img/Face-YokoyamaKazutoshi.png" width="200" height="200" alt="横山和俊" />
+            <img src="faculty_members/img/Face-YokoyamaKazutoshi.png" width="200" height="200" alt="横山和俊">
             <h1>横山 和俊</h1>
             <h3>Yokoyama Kazutoshi</h3>
             <h4>
-              <専門分野>
+              &lt;専門分野&gt;
             </h4>
             <h5 id="space">
               <span class="specality">分散処理システム, オペレーティングシステム</span>
@@ -269,11 +293,11 @@
           <a href="faculty_members/profile_ren.shtml">
             <div class="triangleNavy"></div>
             <h2>教授</h2>
-            <img src="faculty_members/img/Face-RenXiangshi.png" width="200" height="200" alt="任向實" />
+            <img src="faculty_members/img/Face-RenXiangshi.png" width="200" height="200" alt="任向實">
             <h1>任 向實</h1>
             <h3>Ren Xiangshi</h3>
             <h4>
-              <専門分野>
+              &lt;専門分野&gt;
             </h4>
             <h5 id="space">
               <span class="specality">HCI</span>
@@ -289,39 +313,43 @@
             </p>
           </a>
         </li>
+
         <li class="faculty">
-          <a href="faculty_members/profile_ugawa.shtml">
-            <div class="triangleBlue"></div>
-            <h2>准教授</h2>
-            <img src="faculty_members/img/Face-UgawaTomoharu.png" width="200" height="200" alt="鵜川始陽" />
-            <h1>鵜川 始陽</h1>
-            <h3>Ugawa Tomoharu</h3>
+          <a href="faculty_members/profile_yoshida.shtml">
+            <div class="triangleNavy"></div>
+            <h2>教授</h2>
+            <img src="faculty_members/img/Face-YoshidaShinichi.png" width="200" height="200" alt="吉田真一">
+            <h1>吉田 真一</h1>
+            <h3>Yoshida Shinichi</h3>
             <h4>
-              <専門分野>
+              &lt;専門分野&gt;
             </h4>
-            <h5 id="space">
-              <span class="specality">プログラミング言語，システムソフトウェア</span>
-            </h5>
-            <h6>
-              <span class="lab_name">プログラミング言語研究室</span>
-            </h6>
-            <p>
-              <span id="gray">iH</span>
-              <span id="gray">iM</span>
-              <span id="green">CC</span>
-              <span id="green">CS</span>
-            </p>
-          </a>
+            <h6< h6="">
+              <h5 id="space">
+                <span class="specality">ソフトコンピューティング, 人工知能</span>
+              </h5>
+              <!-- ファジィ論理、計算知能、ネットワーク、機械学習-->
+              <h6>
+                <span class="lab_name">知能情報学研究室</span>
+              </h6>
+              <p>
+                <span id="green">iH</span>
+                <span id="gray">iM</span>
+                <span id="green">CC</span>
+                <span id="green">CS</span>
+              </p>
+          </h6<></a>
         </li>
+
         <li class="faculty">
           <a href="faculty_members/profile_kadota.shtml">
             <div class="triangleBlue"></div>
             <h2>准教授</h2>
-            <img src="faculty_members/img/Face-KadotaHiroshi.png" width="200" height="200" alt="門田宏" />
+            <img src="faculty_members/img/Face-KadotaHiroshi.png" width="200" height="200" alt="門田宏">
             <h1>門田宏</h1>
             <h3>Kadota Hiroshi</h3>
             <h4>
-              <専門分野>
+              &lt;専門分野&gt;
             </h4>
             <h5 id="space">
               <span class="specality">神経科学, 身体運動科学</span>
@@ -341,11 +369,11 @@
           <a href="faculty_members/profile_kurihara.shtml">
             <div class="triangleBlue"></div>
             <h2>准教授</h2>
-            <img src="faculty_members/img/Face-KuriharaToru.png" width="200" height="200" alt="栗原徹" />
+            <img src="faculty_members/img/Face-KuriharaToru.png" width="200" height="200" alt="栗原徹">
             <h1>栗原 徹</h1>
             <h3>Kurihara Toru</h3>
             <h4>
-              <専門分野>
+              &lt;専門分野&gt;
             </h4>
             <h5 id="space">
               <span class="specality">計測工学, 画像計測, 光応用計測</span>
@@ -361,45 +389,22 @@
             </p>
           </a>
         </li>
-        <li class="faculty">
-          <a href="faculty_members/profile_shigemasu.shtml">
-            <div class="triangleBlue"></div>
-            <h2>准教授</h2>
-            <img src="faculty_members/img/Face-ShigemasuHiroaki.png" width="200" height="200" alt="繁桝博昭" />
-            <h1>繁桝 博昭</h1>
-            <h3>Shigemasu Hiroaki</h3>
-            <h4>
-              <専門分野>
-            </h4>
-            <h5 id="space">
-              <span class="specality">視覚心理学, 認知心理科学, 認知工学</span>
-            </h5>
-            <h6>
-              <span class="lab_name">知覚認知脳情報研究室</span>
-            </h6>
-            <p>
-              <span id="green">iH</span>
-              <span id="green">iM</span>
-              <span id="gray">CC</span>
-              <span id="green">CS</span>
-            </p>
-          </a>
-        </li>
+
         <li class="faculty">
           <a href="faculty_members/profile_takata.shtml">
             <div class="triangleBlue"></div>
             <h2>准教授</h2>
-            <img src="faculty_members/img/Face-TakataYoshiaki.png" width="200" height="200" alt="高田喜朗" />
+            <img src="faculty_members/img/Face-TakataYoshiaki.png" width="200" height="200" alt="高田喜朗">
             <h1>高田 喜朗</h1>
             <h3>Takata Yoshiaki</h3>
             <h4>
-              <専門分野>
+              &lt;専門分野&gt;
             </h4>
             <h5 id="space">
-              <span class="specality">ソフトウェアの形式モデルと検証</span>
+              <span class="specality" style="left: 0px;">ソフトウェアの形式モデルと検証</span>
             </h5>
             <h6>
-              <span class="lab_name">ソフトウェア検証・解析学研究室</span>
+              <span class="lab_name" style="left: 0px;">ソフトウェア検証・解析学研究室</span>
             </h6>
             <p>
               <span id="gray">iH</span>
@@ -412,11 +417,11 @@
           <a href="faculty_members/profile_mendori.shtml">
             <div class="triangleBlue"></div>
             <h2>准教授</h2>
-            <img src="faculty_members/img/Face-MendoriTakahiko.png" width="200" height="200" alt="妻鳥貴彦" />
+            <img src="faculty_members/img/Face-MendoriTakahiko.png" width="200" height="200" alt="妻鳥貴彦">
             <h1>妻鳥 貴彦</h1>
             <h3>Mendori Takahiko</h3>
             <h4>
-              <専門分野>
+              &lt;専門分野&gt;
             </h4>
             <h5 id="space">
               <span class="specality">教育情報工学(知的CAI)</span>
@@ -433,40 +438,14 @@
           </a>
         </li>
         <li class="faculty">
-          <a href="faculty_members/profile_yoshida.shtml">
-            <div class="triangleBlue"></div>
-            <h2>准教授</h2>
-            <img src="faculty_members/img/Face-YoshidaShinichi.png" width="200" height="200" alt="吉田真一" />
-            <h1>吉田 真一</h1>
-            <h3>Yoshida Shinichi</h3>
-            <h4>
-              <専門分野>
-            </h4>
-            <h6</h6>
-              <h5 id="space">
-                <span class="specality">ソフトコンピューティング, 人工知能</span>
-              </h5>
-              <!-- ファジィ論理、計算知能、ネットワーク、機械学習-->
-              <h6>
-                <span class="lab_name">知能情報学研究室</span>
-              </h6>
-              <p>
-                <span id="green">iH</span>
-                <span id="gray">iM</span>
-                <span id="green">CC</span>
-                <span id="green">CS</span>
-              </p>
-          </a>
-        </li>
-        <li class="faculty">
           <a href="faculty_members/profile_ueda.shtml">
             <div class="triangleSkyblue"></div>
             <h2>講師</h2>
-            <img src="faculty_members/img/Face-UedaKazunori.png" width="200" height="200" alt="植田和憲" />
+            <img src="faculty_members/img/Face-UedaKazunori.png" width="200" height="200" alt="植田和憲">
             <h1>植田 和憲</h1>
             <h3>Ueda Kazunori</h3>
             <h4>
-              <専門分野>
+              &lt;専門分野&gt;
             </h4>
             <h5 id="space">
               <span class="specality">自律ネットワークシステム</span>
@@ -486,11 +465,11 @@
           <a href="faculty_members/profile_takeuchi.shtml">
             <div class="triangleSkyblue"></div>
             <h2>講師</h2>
-            <img src="faculty_members/img/Face-TakeuchiShogo.png" width="200" height="200" alt="竹内聖悟" />
+            <img src="faculty_members/img/Face-TakeuchiShogo.png" width="200" height="200" alt="竹内聖悟">
             <h1>竹内 聖悟</h1>
             <h3>Takeuchi Shogo</h3>
             <h4>
-              <専門分野>
+              &lt;専門分野&gt;
             </h4>
             <h5 id="space">
               <span class="specality">ゲーム情報学</span>
@@ -511,11 +490,11 @@
           <a href="faculty_members/profile_harada.shtml">
             <div class="triangleLightgreen"></div>
             <h2>助教</h2>
-            <img src="faculty_members/img/Face-HaradaTakashi.png" width="200" height="200" alt="原田崇司" />
+            <img src="faculty_members/img/Face-HaradaTakashi.png" width="200" height="200" alt="原田崇司">
             <h1>原田 崇司</h1>
             <h3>Harada Takashi</h3>
             <h4>
-              <専門分野>
+              &lt;専門分野&gt;
             </h4>
             <h5 id="space">
               <span class="specality">アルゴリズム，計算の複雑さ</span>
@@ -533,38 +512,52 @@
         </li>
 
         <li class="faculty">
+         <a href="faculty_members/profile_igata.shtml">
+           <div class="triangleCrimson"></div>
+           <h2 id="twoSection">教育講師</h2>
+           <img src="faculty_members/img/Face-IgataMotohiko.png" width="200" height="200" alt="井形元彦" id="adjustment1">
+           <h1>井形 元彦</h1>
+           <h3>Igata Motohiko</h3>
+           <h4>
+             &lt;専門分野&gt;
+           </h4>
+           <h5 id="space">
+             <span class="specality">情報システムの企画, 開発, 運用</span>
+           </h5>
+        </a>
+      </li>
+
+      <li class="faculty">
+          <a href="faculty_members/profile_iwamura.shtml">
+            <div class="triangleCrimson"></div>
+            <h2 id="twoSection">教育講師</h2>
+            <img src="faculty_members/img/Face-IwamuraSatoshi.png" width="200" height="200" alt="岩村聡" id="adjustment1">
+            <h1>岩村 聡</h1>
+            <h3>Iwamura Satoshi</h3>
+            <h4>
+              &lt;専門分野&gt;
+            </h4>
+            <h5 id="space">
+              <span class="specality">ビデオカメラ，画像処理，医療機器</span>
+            </h5>
+          </a>
+      </li>
+
+        <li class="faculty">
           <a href="faculty_members/profile_murakami.shtml">
             <div class="triangleCrimson"></div>
             <h2 id="twoSection">教育講師</h2>
-            <img src="faculty_members/img/Face-MurakamiKazuko.png" width="200" height="200" alt="村上和子" id="adjustment1" />
+            <img src="faculty_members/img/Face-MurakamiKazuko.png" width="200" height="200" alt="村上和子" id="adjustment1">
             <h1>村上 和子</h1>
             <h3>Murakami Kazuko</h3>
             <h4>
-              <専門分野>
+              &lt;専門分野&gt;
             </h4>
             <h5 id="space">
-              <span class="specality">サービス企画, システム設計, プロジェクトマネジメント, 生涯設計, キャリアカウンセリング</span>
+              <span class="specality" style="left: 0px;">サービス企画, システム設計, プロジェクトマネジメント, 生涯設計, キャリアカウンセリング</span>
             </h5>
           </a>
         </li>
-
-        <li class="faculty">
-         <a href="faculty_members/profile_iwamura.shtml">
-           <div class="triangleCrimson"></div>
-           <h2 id="twoSection">教育講師</h2>
-           <img src="faculty_members/img/Face-IwamuraSatoshi.png" width="200" height="200" alt="岩村聡" id="adjustment1" />
-           <h1>岩村 聡</h1>
-           <h3>Iwamura Satoshi</h3>
-           <h4>
-             <専門分野>
-           </h4>
-           <h5 id="space">
-             <span class="specality">ビデオカメラ，画像処理，医療機器</span>
-           </h5>
-         </a>
-       </li>
-
-
       </ul>
     </div>
   </div>

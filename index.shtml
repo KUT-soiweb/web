@@ -37,26 +37,32 @@
       <div class="section news">
         <h1>Topics &amp; News</h1>
         <h2>最近のニュース</h2>
-        <div class="newsContents" id="newsDiv">
+        <div class="newsContents" id="newsDiv" style="height: 370px;">
           <dl id="newsDl">
-                    <dt name="nDate">2019.8.25</dt>
-                      <dd name="nData"><a href="http://www.info.kochi-tech.ac.jp/KUTpoem/index.shtml">7月分のポエム</a>を更新しました。</dd>
-                    <dt name="nDate">2019.8.7</dt>
-                      <dd name="nData"><a href="./news/topic_322.shtml" >「令和元年度Next次世代型施設園芸技術フェア」にて2研究室が展示を行いました。</a></dd>
-                    <dt name="nDate">2019.8.2</dt>
-                      <dd name="nData"><a href="./news/topic_320.shtml" >2019年度オープンキャンパスを開催しました。</a></dd>
-                    <dt name="nDate">2019.7.14</dt>
-                      <dd name="nData"><a href="http://www.info.kochi-tech.ac.jp/KUTpoem/index.shtml">6月分のポエム</a>を更新しました。</dd>
-                    <dt name="nDate">2019.7.11</dt>
-                      <dd name="nData"><a href="http://www.info.kochi-tech.ac.jp/oc_2019/">オープンキャンパス2019</a>のページを作成しました。</dd>
-                    </dl>
+              <dt name="nDate">2020.10.5</dt>
+                  <dd name="nData">9月30日付で鵜川 始陽准教授が情報学群を退職されました。</dd>
+              <dt name="nDate">2020.10.5</dt>
+                  <dd name="nData">10月1日付で吉田 真一准教授が教授に昇任されました。</dd>
+              <dt name="nDate">2020.9.30</dt>
+                  <dd name="nData"><a href="http://www.info.kochi-tech.ac.jp/oc_2020/">オープンキャンパス2020</a>のページを作成しました。</dd>
+              <dt name="nDate">2020.4.1</dt>
+                  <dd name="nData"><a href="https://www.kochi-tech.ac.jp/news/2020/004905.html">電気学会・電子情報通信学会・情報処理学会 四国支部奨励賞</a>を本学群生2名が受賞しました。</dd>
+              <dt name="nDate">2020.4.1</dt>
+                  <dd name="nData"><a href="https://www.kochi-tech.ac.jp/news/2020/005026.html">学生団体Cykutの情報学群卒業生3名に高知県警本部より感謝状が贈呈されました。</a></dd><a href="https://www.kochi-tech.ac.jp/news/2020/005026.html">
+            </dl>
           <div class="oldNews">
-            <a href="topic_news.shtml">ニュース一覧　&raquo;</a>
+            <a href="topic_news.shtml">ニュース一覧　»</a>
           </div> <!-- aldNews -->
         </div> <!-- newsContents -->
       </div> <!-- section -->
 
       <!-- linkImg -->
+      <div class="linkImg">
+        <a href="welcome2020/recruit2020.shtml">
+          <img src="img/welcome2020_banner.png">
+        </a>
+      </div>
+
       <div class="linkImg">
         <a href="KUTpoem/index.shtml">
           <img src="img/KUTpoem_banner.png"/>
