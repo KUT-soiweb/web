@@ -289,30 +289,6 @@
             </p>
           </a>
         </li>
-        <li class="faculty">
-          <a href="faculty_members/profile_ren.shtml">
-            <div class="triangleNavy"></div>
-            <h2>教授</h2>
-            <img src="faculty_members/img/Face-RenXiangshi.png" width="200" height="200" alt="任向實">
-            <h1>任 向實</h1>
-            <h3>Ren Xiangshi</h3>
-            <h4>
-              &lt;専門分野&gt;
-            </h4>
-            <h5 id="space">
-              <span class="specality">HCI</span>
-            </h5>
-            <h6>
-              <span class="lab_name">HEC研究室</span>
-            </h6>
-            <p>
-              <span id="green">iH</span>
-              <span id="green">iM</span>
-              <span id="gray">CC</span>
-              <span id="green">CS</span>
-            </p>
-          </a>
-        </li>
 
         <li class="faculty">
           <a href="faculty_members/profile_yoshida.shtml">
@@ -339,6 +315,31 @@
                 <span id="green">CS</span>
               </p>
           </h6<></a>
+        </li>
+
+        <li class="faculty">
+          <a href="faculty_members/profile_ren.shtml">
+            <div class="triangleNavy"></div>
+            <h2>教授</h2>
+            <img src="faculty_members/img/Face-RenXiangshi.png" width="200" height="200" alt="任向實">
+            <h1>任 向實</h1>
+            <h3>Ren Xiangshi</h3>
+            <h4>
+              &lt;専門分野&gt;
+            </h4>
+            <h5 id="space">
+              <span class="specality">HCI</span>
+            </h5>
+            <h6>
+              <span class="lab_name">HEC研究室</span>
+            </h6>
+            <p>
+              <span id="green">iH</span>
+              <span id="green">iM</span>
+              <span id="gray">CC</span>
+              <span id="green">CS</span>
+            </p>
+          </a>
         </li>
 
         <li class="faculty">
