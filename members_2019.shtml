@@ -214,14 +214,14 @@
 
             <div class="black">
               <div class="Miyamoto">
-                <img src="./img/miyamoto_2019.JPG" alt="" class="modalSyncer" data-target="miyamoto">
+                <img src="./img/miyamoto_2019.jpg" alt="" class="modalSyncer" data-target="miyamoto">
                 <p>Miyamoto</p>
               </div>
             </div>
 
             <div class="black">
               <div class="Hokao">
-                <img src="./img/hokao_2019.JPG" alt="" class="modalSyncer" data-target="hokao">
+                <img src="./img/hokao_2019.jpg" alt="" class="modalSyncer" data-target="hokao">
                 <p>Hokao</p>
               </div>
             </div>
@@ -291,7 +291,7 @@
 
             <div class="black">
               <div class="Okino">
-                <img src="./img/okino_2019.JPG" alt="" class="modalSyncer" data-target="okino">
+                <img src="./img/okino_2019.jpg" alt="" class="modalSyncer" data-target="okino">
                 <p>Okino</p>
               </div>
             </div>
@@ -1191,7 +1191,7 @@
         </div> <!-- ayabe -->
 
         <div class="modal" id="okino">
-          <img src="img/okino_square.JPG" alt="okino" class="profImg" />
+          <img src="img/okino_square.jpg" alt="okino" class="profImg" />
           <table class="profile">
             <tr>
               <th>名前</th>
@@ -1240,7 +1240,7 @@
         </div> <!-- okino -->
 
         <div class="modal" id="kadoki">
-          <img src="img/kadoki_square.JPG" alt="kadoki" class="profImg" />
+          <img src="img/kadoki_square.jpg" alt="kadoki" class="profImg" />
           <table class="profile">
             <tr>
               <th>名前</th>
@@ -1289,7 +1289,7 @@
         </div> <!-- kadoki -->
 
         <div class="modal" id="okumura">
-          <img src="img/okumura_square.JPG" alt="okumura" class="profImg" />
+          <img src="img/okumura_square.jpg" alt="okumura" class="profImg" />
           <table class="profile">
             <tr>
               <th>名前</th>
