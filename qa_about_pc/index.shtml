@@ -34,7 +34,7 @@
 
         
         <div class="message mainContents">
-            <h3>新入生PCに関する質問と回答</h3>
+            <h3>PCの準備について</h3>
             <p>　新入生の皆様、高知工科大学への合格おめでとうございます。
                 本学では新型コロナウイルスの感染状況を踏まえ、4月8日から1週間程度オンラインでの授業を実施することになりました。
                 つきましては、自宅から利用できるPCとインターネット接続環境をご準備ください。
@@ -42,7 +42,11 @@
                 質問があり次第随時更新しますので、遠慮なく質問をお寄せください。
                 推奨するPCのスペックやインターネット接続環境など、詳しくは<a href="./doc/prepPC2021.pdf">こちら</a>をご覧ください。
             </p>
-        <!-- Q and A section here
+        </div>
+        
+        <!-- q and a section here
+        <div class="mainContents">
+            <h3>PCに関する質問と回答</h3>
             <div class="cp_qa">
                 <dl>
                     <dt>質問テキスト</dt>
@@ -52,8 +56,9 @@
                 </dl>
             </div>
         -->
-            
-
+        
+        <!--this division is created temporary. delete after appering questions and merge into above mainContents-->
+        <div style="margin-top:-50px">
             <p class="arrowText">質問がある方はこちらから!</p>
             <div class="triangle"></div>
             <div class="qaButtons">
