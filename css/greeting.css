@@ -7,6 +7,7 @@
   float: left;
   width: 200px;
   margin: 20px 0px 30px 40px;
+  border: solid 2px #5c5c5c;
 }
 
 /*
@@ -15,6 +16,31 @@
   margin: 150px auto 0px;
 }
 */
+#baseContents .mainContents .professor-face{
+  position: relative;
+}
+
+
+#baseContents .mainContents .professor-status{
+  background-color: #0c6cbc;
+  position: absolute;
+  top: 222px;
+  left: 40px;
+  text-align: center;
+  color: #ffffff;
+  padding: 5px 46px;
+  border: solid 2px #5c5c5c;
+}
+
+#baseContents .mainContents .post{
+  font-size: 110%;
+  letter-spacing: 0.1em;
+}
+
+#baseContents .mainContents .name{
+  font-size: 128%;
+  letter-spacing: 0.2em;
+}
 
 #baseContents .mainContents .salutation {
   float: right;
