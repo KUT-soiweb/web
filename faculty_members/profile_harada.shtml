@@ -33,7 +33,7 @@
 	</div>
 	<!--photo1-->
 		<div class="line"></div>
-    <h2>助教<span>助教室：A418</span></h2>
+    <h2>講師<span>講師室：A466</span></h2>
 
 
 
@@ -51,7 +51,7 @@
 <dt>生年：</dt><dd>1990年</dd>
 <dt>出身：</dt><dd>神奈川県</dd>
 <dt>所属：</dt><dd>高知工科大学情報学群</dd>
-<dt>所属学会：</dt><dd>電子情報通信学会</dd>
+<dt>所属学会：</dt><dd>電子情報通信学会, IEEE</dd>
 <dt>学位：</dt><dd>博士(理学)</dd>
 <dt>最終学歴：</dt><dd>神奈川大学大学院 理学研究科 理学専攻 情報科学領域 博士後期課程修了 (2019)</dd>
 <dt>相談可能分野：</dt><dd>組合せ最適化、メタ解法</dd>
@@ -103,19 +103,19 @@
 		<div class="panel">
 <ul>
 	<dl>
-<li><div class="circle1"></div>&emsp;A Packet Classification Method via Cascaded Circular-Run-Based Trie</li>
-　　　　<dt>著者<span style="margin-right: 1em;"></span>：</dt><dd>T. Harada, Y. Ishikawa, K. Tanaka, and K. Mikawa</dd>
-　　　　<dt>発表誌：</dt><dd>IEICE Transactions on Fundamentals of Electronics, <br/>Communications and Computer Sciences</dd>
-　　　　<dt>発表年：</dt><dd>2019</dd>
+<li><div class="circle1"></div>&emsp;Circ1P分割問題の計算困難性とSATソルバを用いたその解法</li>
+　　　　<dt>著者<span style="margin-right: 1em;"></span>：</dt><dd>原田崇司, 竹内聖悟</dd>
+　　　　<dt>発表誌：</dt><dd>電子情報通信学会論文誌 D, Vol.J103-D, No.11, pp.800-807</dd>
+　　　　<dt>発表年：</dt><dd>2020</dd>
 <div class="clear"></div>
-<li><div class="circle2"></div>&emsp;Acceleration of Packet Classification Using Adjacency List</li>
-　　　　<dt>著者<span style="margin-right: 1em;"></span>：</dt><dd>T. Fuchino, T. Harada, K. Tanaka and K. Mikawa</dd>
-　　　　<dt>発表誌：</dt><dd>Conference on Computer Communications and Networks (ICCCN)</dd>
-　　　　<dt>発表年：</dt><dd>2019</dd>
+<li><div class="circle2"></div>&emsp;A Rule Reordering Method via Pairing Dependent Rules</li>
+　　　　<dt>著者<span style="margin-right: 1em;"></span>：</dt><dd>T. Harada, K. Tanaka, R. Ogasawara and K. Mikawa</dd>
+　　　　<dt>発表誌：</dt><dd>IEEE Conference on Communications and Network Security (CNS), pp.1-9</dd>
+　　　　<dt>発表年：</dt><dd>2020</dd>
 <div class="clear"></div>
-<li><div class="circle3"></div>&emsp;A Heuristic Algorithm for Relaxed Optimal Rule Ordering Problem</li>
+<li><div class="circle3"></div>&emsp;A Packet Classification Method via Cascaded Circular-Run-Based Trie</li>
 　　　　<!--<dt>著者<span style="margin-right: 1em;"></span>：</dt><dd></dd>-->
-　　　　<dt>発表誌：</dt><dd>2nd Cyber Security in Networking Conference <br/>(CSNet’18)</dd>
+　　　　<dt>発表誌：</dt><dd>IEICE TRANSACTIONS on Fundamentals of Electronics, Communications and Computer Sciences，Vol.E102-A，No.9，pp.1171-1178</dd>
 　　　　<dt>発表年：</dt><dd>2019</dd>
 </dl>
 </div>
@@ -132,7 +132,7 @@
 
 
 <h2>アルゴリズム研究室</h2>
-<p>　研究室では、スケジューリング問題のような組合せ最適化問題に対するアルゴリズムを考えています。研究には、専用の機器はもちろんPCも使いません。紙と鉛筆だけを用いて、ひたすら良いアルゴリズムを考え続ける研究室です。</p>
+<p>　研究室では、スケジューリング問題のような組合せ最適化問題に対するアルゴリズムを考えています。研究には、専用の機器はもちろんPCもほとんど使いません。紙と鉛筆だけを用いて、ひたすら良いアルゴリズムを考え続ける研究室です。</p>
 </div>
 
 <!--kennkyuushitusyoukai-->
@@ -157,7 +157,7 @@
 <div class="kougikamoku">
 <h2>講義科目</h2>
 <dl>
-<dd>コンピュータリテラシー，情報科学3</dd>
+<dd>コンピュータリテラシー, 離散数学,<br> 情報科学3, 計算理論(2022年度~)</dd>
 </dl>
 <h2>受け入れ可能な専攻</h2>
 <p>
