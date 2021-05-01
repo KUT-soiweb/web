@@ -115,7 +115,8 @@
 <div class="clear"></div>
 <li><div class="circle3"></div>&emsp;A Packet Classification Method via Cascaded Circular-Run-Based Trie</li>
 　　　　<!--<dt>著者<span style="margin-right: 1em;"></span>：</dt><dd></dd>-->
-　　　　<dt>発表誌：</dt><dd>IEICE TRANSACTIONS on Fundamentals of Electronics, Communications and Computer Sciences，Vol.E102-A，No.9，pp.1171-1178</dd>
+　　　　<dt>発表誌：</dt><dd>IEICE TRANSACTIONS on Fundamentals of Electronics,<br />
+	Communications and Computer Sciences，<br></L>Vol.E102-A，No.9，pp.1171-1178</dd>
 　　　　<dt>発表年：</dt><dd>2019</dd>
 </dl>
 </div>

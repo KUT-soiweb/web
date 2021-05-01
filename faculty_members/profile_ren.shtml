@@ -1,203 +1,291 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-	    <meta name="keyword" content="高知工科大学情報学群">
-	    <meta name="description" content="高知工科大学情報学群のホームページ">
-	    <title>任 向實</title>
-	    <link rel="stylesheet" type="text/css" href="css/base.css">
-	    <link rel="stylesheet" type="text/css" href="css/profile.css">
-			<link rel="icon" href="../img/favicon2.png" type="image/png" />
-	    <script type="text/javascript" src="js/switch.js"></script>
-			<script type="text/javascript">
-					window.onload = function(){
-						headSerect(2);
-					}
-			</script>
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta name="keyword" content="高知工科大学情報学群">
+	<meta name="description" content="高知工科大学情報学群のホームページ">
+	<title>任 向實</title>
+	<link rel="stylesheet" type="text/css" href="css/base.css">
+	<link rel="stylesheet" type="text/css" href="css/profile.css">
+	<link rel="icon" href="../img/favicon2.png" type="image/png" />
+	<script type="text/javascript" src="js/switch.js"></script>
+	<script type="text/javascript">
+		window.onload = function () {
+			headSerect(2);
+		}
+	</script>
+
+	<style>
+		#baseContents .kennkyuusyoukai .kennkyuuryouiki input:checked ~ .panel {
+			height: 135px;
+		}
+	</style>
+
 </head>
 
 <body>
-<!--#include file="header.html"-->
+	<!--#include file="header.html"-->
 
-    <div id ="baseContents">
+	<div id="baseContents">
 
-	<div class="pankuzu">
-		<a href="../index.shtml">HOME</a> > <a href="../faculty_members.shtml">教員一覧</a> > 任向實
+		<div class="pankuzu">
+			<a href="../index.shtml">HOME</a> > <a href="../faculty_members.shtml">教員一覧</a> > 任向實
+		</div>
+		<!--pankuzu-->
+		<div class="main">
+			<div class="keireki">
+				<h1>任 向實<span class="hurigana"><span style="margin-right: 2.8em;"></span>Ren Xiangshi</span></h1>
+				<div class="photo1">
+					<img src="img/Face-RenXiangshi.png" alt="顔の写真" class="facephoto">
+				</div>
+				<!--photo1-->
+				<div class="line"></div>
+				<h2>教授<span>教授室：A409</span></h2>
+
+
+				<input type="checkbox" id="Panel1" class="ExpandCheckBox" />
+				<label for="Panel1" class="open">
+					<h3>
+						<img src="svg/Triangle_close-white.svg">&nbsp;プロフィール
+					</h3>
+
+				</label>
+
+				<div class="panel">
+					<dl>
+						<dt>生年：</dt>
+						<dd>1965年</dd>
+						<dt>出身：</dt>
+						<dd>長春市(中国)</dd>
+						<dt>所属：</dt>
+						<dd>高知工科大学情報学群<br />
+							　　　大学院工学研究科 基盤工学専攻 情報システム工学コース<br />
+							　　　大学院工学研究科 基盤工学専攻 情報学コース<br />
+							　　　総合研究所 Center for Human-Engaged Computing<br />
+							　　　日本工学アカデミー客員会員 (Fellow)</dd>
+
+						<dt>所属学会：</dt>
+						<dd>ACM, IEEE, 情報処理学会, 電子情報通信学会,<br />
+							　　　　　日本工学アカデミー, ヒューマンインタフェース学会</dd>
+						<dt>学位：</dt>
+						<dd>博士(工学)</dd>
+						<dt>最終学歴：</dt>
+						<dd>東京電機大学大学院 工学研究科 情報通信工学専攻 修了 (1996)</dd>
+						<dt>相談可能分野：</dt>
+						<dd>HCI, HEC</dd>
+						<dt>趣味：</dt>
+						<dd>読書, 料理</dd>
+						<div class="mail1"><img src="svg/mail_ren.svg" alt="先生のmailアドレス" class="mail"></div>
+					</dl>
+				</div>
+				<!--panel-->
+
+				<a href="https://www.kochi-tech.ac.jp/profile/ja/ren-xiangshi.html" target="_blank">
+					<div class="box3" style="float:right">▶ 工科大教員ページ</div>
+				</a>
+				<a href="http://xrenlab.com/" target="_blank">
+					<div class="box2" style="float:right">▶ 研究室ページ</div>
+				</a>
+				<a href="http://www.xiangshiren.com/" target="_blank">
+					<div class="box1" style="float:right">▶ 教員個人ページ</div>
+				</a>
+				<div class="clear"></div>
+			</div>
+			<!--keireki-->
+			<div class="kennkyuusyoukai">
+				<div class="center1"><img src="svg/Heading-2.svg" alt="研究紹介"></div>
+
+				<h2>ゲームのインタラクション</h2>
+				<h3>専門分野：Human-Computer Interaction (HCI), Human-Engaged Computing (HEC)</h3>
+				<div class="center2">
+					<p>ヒューマンコンピュータインタラクション (HCI) およびユーザインタフェースの基礎理論的研究を中心にして展開し、ペン、マルチタッチ、視線、触覚、ジェスチャ入力技法のイノベーションである。
+					</p>
+					<br>
+					<p>ヒューマンコンピュータインタラクションおよびユーザインタフェースの基礎理論をベースにし、健康（特にメタ認知・メンタルヘルス）・教育・高齢者などの分野における社会問題解決ためのイノベーションである。
+					</p>
+					<br>
+					<p>Human-Engaged Computing (HEC)。HECとは、HCIの未来に対して新しい目標「establish synergized interactions (or
+						synergism) between engaged humans and engaging computers for high level wisdom which enhances
+						our human survival probability and our full potential as
+						humans」を与えることにより、その視点を拡大させ、人類のウェルビーイングを促進しようとするものである。Human-Engaged Computing
+						(HEC)は、人とテクノロジーの両者が単なる共生共存、統合だけでなく、両者が相互促進、相互上昇という相乗効果のある関係 (Synergism)、さらに、Synergismと正反対の概念
+						-“Antibiosis”、を提案している。つまりテクノロジーやインタラクションによる副作用（直接または第二次）をヒューマンコンピュータインタラクションデザインの際に考慮すべきである。</p>
+				</div>
+				<!--center2-->
+				<div class="kennkyuuryouiki">
+					<input type="checkbox" id="Panel2" class="ExpandCheckBox" />
+					<label for="Panel2" class="open">
+						<h3><img src="svg/Triangle_close-pink.svg">&nbsp;現在の研究領域</h3>
+					</label>
+
+					<div class="panel">
+
+						<a>
+							<div class="circle1"></div>HCI<br />
+						</a>
+						<a>
+							<div class="circle2"></div>AI<br />
+						</a>
+						<a>
+							<div class="circle3"></div>VR/AR<br />
+						</a>
+
+						<a>
+							<div class="circle1"></div>HEC<br />
+						</a>
+						<a>
+							<div class="circle2"></div>認知能力増強<br />
+						</a>
+
+
+					</div>
+					<!--panel-->
+				</div>
+				<!--kennkyuuryouiki-->
+
+
+				<div class="kennkyuuronnbunn">
+					<input type="checkbox" id="Panel3" class="ExpandCheckBox" />
+					<label for="Panel3" class="open">
+						<h3><img src="svg/Triangle_close-pink.svg">&nbsp;代表的な研究論文など</h3>
+					</label>
+
+					<div class="panel">
+						<ul>
+							<dl>
+								<!--paper1-->
+								<li>
+									<div class="circle1"></div>&emsp;Human-Engaged Computing: the future of
+									Human–Computer Interaction
+								</li>
+								　　　　<dt>著者<span style="margin-right: 1em;"></span>：</dt>
+								<dd>Ren, X., Silpasuwanchai, C., and Cahill, J.</dd>
+								　　　　<dt>発表誌：</dt>
+								<dd>CCF Transactions on Pervasive Computing and Interaction, Springer.<br />
+									Selected feature paper, and CCF TPCI best paper award</dd>
+								　　　　<dt>発表年：</dt>
+								<dd>2019</dd>
+								<div class="clear"></div>
+									
+
+								<!--paper2-->
+								<li>
+									<div class="circle2"></div>&emsp;Rethinking the relationship between humans and computers
+								</li>
+								　　　　<dt>著者<span style="margin-right: 1em;"></span>：</dt>
+								<dd>Ren, X.</dd>
+								　　　　<dt>発表誌：</dt>
+								<dd>Computer, Vol.49, No.8, pp.104-108, IEEE.</dd>
+								　　　　<dt>発表年：</dt>
+								<dd>2016</dd>
+								<div class="clear"></div>
+
+
+								<!--paper3-->
+								<li>
+									<div class="circle3"></div>&emsp;An Analytic Model for Time Efficient Personal Hierarchies
+								</li>
+								　　　　<dt>著者<span style="margin-right: 1em;"></span>：</dt>
+								<dd>William Delamare, Ali Neshati, Pourang Irani, Xiangshi Ren.</dd>
+								　　　　<dt>発表誌：</dt>
+								<dd>Proceedings of the ACM CHI Conference on Human Factors <br />in Computing Systems (CHI ’19), Glasgow, UK. Honourable mention award</dd>
+								　　　　<dt>発表年：</dt>
+								<dd>2019</dd>
+								<div class="clear"></div>
+
+
+								<!--paper4-->
+								<li>
+									<div class="circle1"></div>&emsp;An Exploratory Study of Marking Menu Selection by Visually Impaired Participants<br />
+								</li>
+								　　　 <dt>著者<span style="margin-right: 1em;"></span>：</dt>
+								<dd> Dim, N.K., Kibum, K., Ren, X.</dd>
+								　　　　<dt>発表誌：</dt>
+								<dd>Proceedings of 3rd IEEE International Conference in Smart Computing <br />(SMARTCOMP 2017, 29-31 May 2017, Hong Kong), <br>pp. 1-7. Best Community Paper Award.</dd>
+								　　　　<dt>発表年：</dt>
+								<dd>2017</dd>
+								<div class="clear"></div>
+
+
+								<!--paper5-->
+								<li>
+									<div class="circle2"></div>&emsp;Modelling Learning of New Keyboard Layouts
+								</li>
+								　　　　<dt>著者<span style="margin-right: 1em;"></span>：</dt>
+								<dd>Jokinen, J., Sarcar, S., Oulasvirta, A.,<br> Silpasuwanchai, C., Wang, Z. and Ren, X.</dd>
+								　　　　<dt>発表誌：</dt>
+								<dd> Proceedings of the ACM CHI Conference on Human Factors<br> in Computing Systems (CHI ’17), pp. 4203-4215, <br>Denver, USA (May 6 – 11, 2017).
+								</dd>
+								　　　　<dt>発表年：</dt>
+								<dd>2017</dd>
+								<div class="clear"></div>
+
+
+								<!--paper6-->
+								<li>
+									<div class="circle3"></div>&emsp;EV-Pen: Leveraging Electrovibration Haptic Feedback in Pen Interaction
+								</li>
+								　　　　<dt>著者<span style="margin-right: 1em;"></span>：</dt>
+								<dd>Wang, Q., Ren, X., Sarcar, S., Sun, X.</dd>
+								　　　　<dt>発表誌：</dt>
+								<dd>Proceedings of the 2016 ACM on Interactive Surfaces<br> and Spaces (ISS '16), Niagara Falls, Canada (November 6 – 9, 2016),<br> pp. 57-66. ACM, New York, USA.
+								</dd>
+								　　　　<dt>発表年：</dt>
+								<dd>2016</dd>
+							</dl>
+					</div>
+					<!--kennkyuronnbunn-->
+				</div>
+				<!--kennkyuushhyoukai-->
+			</div>
+			<!--kennkyuunaiyou-->
+			<div class="kennkyuushitusyoukai">
+				<div class="center1"><img src="svg/Heading-3.svg" alt="研究室紹介"></div>
+
+				<div class="Lab_photo">
+					<img src="img/Lab-ren_1.jpg" alt="研究室の写真" id="Lab_main" />
+				</div>
+
+				<h2>人間・コンピュータ共進化 (HEC)研究室：A315</h2>
+				<p>
+					　過去２０年間、１０ヵ国以上の留学生を含む多くの学生の教育に従事し、多くのポスドク研究員、博士を国際社会（アジア、アフリカ、欧州、大洋州）にICT人材として送り出している。学生たちの研究成果はACM CHI、ACM ISS、IEEE SmartComp、CCF、情報処理学会などトップクラス国際会議または学会ジャーナルの論文賞を受賞している。社会的にも評価され、電気通信普及財団、NEC C&C財団、丸文財団など、国際会議発表助成金を複数回受けている。
+				</p>
+			</div>
+			<!--kennkyuushitusyoukai-->
+			<div class="koukouseihe">
+
+				<div class="photo2"><img src="svg/StaffDetail_balloon.svg" alt="吹き出し"></div>
+
+				<h1>高校生のみなさんへ</h1>
+				<div class="kotoba">
+					　"Boys, be ambitious!" 「青年よ、大志を抱け！」は William Smith
+					Clark（ウィリアム・S・クラーク）博士が若者たちに投げた言葉です。諸君は「自分はたいしたことない」と思っているかもしれませんが、社会にとっては非常に貴重な人材です。ぜひ志を高め、何をなすべきかよく考えて、そのための勉強をしてほしいです。
+				</div>
+				<!--kotoba-->
+			</div>
+			<!--koukouseihe-->
+			<div class="kougikamoku">
+				<h2>講義科目</h2>
+				<dl>
+					<dd>HCI概論、HCI論</dd>
+				</dl>
+				<h2>受け入れ可能な専攻</h2>
+				<p>
+					情報と人間専攻<br />
+					情報とメディア専攻<br />
+					コンピュータサイエンス専攻<br />
+				</p>
+
+			</div>
+			<!--kougikamoku-->
+			<div class="photo3"><img src="img/Body-RenXiangshi.jpg" alt="先生全身画像"></div>
+		</div>
+		<!--main-->
 	</div>
-	<!--pankuzu-->
-	<div class="main">
-      <div class="keireki">
-    <h1>任 向實<span class="hurigana"><span style="margin-right: 2.8em;"></span>Ren Xiangshi</span></h1>
-<div class="photo1">
-		<img src="img/Face-RenXiangshi.png" alt="顔の写真" class="facephoto">
-	</div>
-	<!--photo1-->
-		<div class="line"></div>
-    <h2>教授<span>教授室：A409</span></h2>
+	<!--baseContents-->
 
-
-    <input type="checkbox" id="Panel1" class="ExpandCheckBox" />
-		<label for="Panel1" class="open">
-		  <h3>
-				<img src="svg/Triangle_close-white.svg">&nbsp;プロフィール
-			</h3>
-
-  </label>
-
-<div class="panel">
-<dl>
-<dt>生年：</dt><dd>1965年</dd>
-<dt>出身：</dt><dd>長春市(中国)</dd>
-<dt>所属：</dt><dd>高知工科大学情報学群<br />
-　　　大学院工学研究科 基盤工学専攻 情報システム工学コース<br />
-　　　大学院工学研究科 基盤工学専攻 情報学コース<br />
-　　　総合研究所 Center for Human-Engaged Computing<br />
-　　　日本工学アカデミー客員会員 (Fellow)</dd>
-
-<dt>所属学会：</dt><dd>ACM, IEEE, 情報処理学会, 電子情報通信学会,<br/>
-	　　　　　ヒューマンインタフェース学会</dd>
-<dt>学位：</dt><dd>博士(工学)</dd>
-<dt>最終学歴：</dt><dd>東京電機大学大学院 工学研究科 情報通信工学専攻 修了 (1996)</dd>
-<dt>相談可能分野：</dt><dd>ペン入力システム, ヒューマンインタフェース評価技術, <br />
-　　　　　　　マルチモーダルインタフェース, HCI, HEC</dd>
-<dt>趣味：</dt><dd>読書, 料理</dd>
-<div class="mail1"><img src="svg/mail_ren.svg" alt="先生のmailアドレス" class="mail"></div>
-</dl>
-</div>
-<!--panel-->
-
-<a href="https://www.kochi-tech.ac.jp/profile/ja/ren-xiangshi.html" target="_blank"><div class="box3" style="float:right">▶ 工科大教員ページ</div></a>
-<a href="http://xrenlab.com/" target="_blank"><div class="box2" style="float:right">▶ 研究室ページ</div></a>
-<a href="http://www.xiangshiren.com/" target="_blank"><div class="box1" style="float:right">▶ 教員個人ページ</div></a>
-<div class="clear"></div>
-</div>
-<!--keireki-->
-<div class="kennkyuusyoukai">
-	<div class="center1"><img src="svg/Heading-2.svg" alt="研究紹介"></div>
-
-<h2>ゲームのインタラクション</h2>
-<h3>専門分野：HCI, AI, VR/AR, HEC, 認知能力増強</h3>
-<div class="center2">
-	<p>ヒューマンコンピュータインタラクション (HCI) およびユーザインタフェースの基礎理論的研究を中心にして展開し、ペン、マルチタッチ、視線、触覚、ジェスチャ入力技法のイノベーションである。</p>
-	<br>
-	<p>ヒューマンコンピュータインタラクションおよびユーザインタフェースの基礎理論をベースにし、健康（特にメタ認知・メンタルヘルス）・教育・高齢者などの分野における社会問題解決ためのイノベーションである。</p>
-	<br>
-	<p>Human-Engaged Computing (HEC)。HECとは、HCIの未来に対して新しい目標「establish synergized interactions (or synergism) between engaged humans and engaging computers for high level wisdom which enhances our human survival probability and our full potential as humans」を与えることにより、その視点を拡大させ、人類のウェルビーイングを促進しようとするものである。Human-Engaged Computing (HEC)は、人とテクノロジーの両者が単なる共生共存、統合だけでなく、両者が相互促進、相互上昇という相乗効果のある関係 (Synergism)、さらに、Synergismと正反対の概念 -“Antibiosis”、を提案している。つまりテクノロジーやインタラクションによる副作用（直接または第二次）をヒューマンコンピュータインタラクションデザインの際に考慮すべきである。</p>
-</div>
-<!--center2-->
- <div class="kennkyuuryouiki">
-<input type="checkbox" id="Panel2" class="ExpandCheckBox" />
-	 <label for="Panel2" class="open">
-		 <h3><img src="svg/Triangle_close-pink.svg">&nbsp;現在の研究領域</h3>
-	 </label>
-
-	 	 <div class="panel">
-
-<a>
-<div class="circle1"></div>Computer input design and evaluation<br />
-</a>
-<a>
-<div class="circle2"></div>ペン入力システム<br />
-</a>
-<a>
-<div class="circle3"></div>マルチモーダルインタフェース<br />
-</a>
-</div>
-<!--panel-->
-</div>
-<!--kennkyuuryouiki-->
-
-
-<div class="kennkyuuronnbunn">
-	<input type="checkbox" id="Panel3" class="ExpandCheckBox" />
-	<label for="Panel3" class="open">
-		<h3><img src="svg/Triangle_close-pink.svg">&nbsp;代表的な研究論文など</h3>
-	</label>
-
-		<div class="panel">
-<ul>
-	<dl>
-<li><div class="circle1"></div>&emsp;A Model of Scrolling on Touch-Sensitive Displays</li>
-　　　　<dt>著者<span style="margin-right: 1em;"></span>：</dt><dd>REN Xiangshi, Jian Zhao, Soukoreff R.W., Balakrishnana R.</dd>
-　　　　<dt>発表誌：</dt><dd>International Journal of Human-Computer Studies, <br />
-	Vol.72, No.12, pp.805-821</dd>
-　　　　<dt>発表年：</dt><dd>2014</dd>
-<div class="clear"></div>
-<li><div class="circle2"></div>&emsp;Designing Motion Gesture Interfaces in Mobile Phones for Blind People</li>
-　　　　<dt>著者<span style="margin-right: 1em;"></span>：</dt><dd>REN, Xiangshi</dd>
-　　　　<dt>発表誌：</dt><dd>Journal of Computer Science and Technology, <br />
-	Vol.29, No.5, pp.812-824</dd>
-　　　　<dt>発表年：</dt><dd>2014</dd>
-<div class="clear"></div>
-<li><div class="circle3"></div>&emsp;Special Issue on Computer Human Interaction</li>
-　　　　<dt>著者<span style="margin-right: 1em;"></span>：</dt><dd>REN, Xiangshi</dd>
-　　　　<dt>発表誌：</dt><dd>International Journal of Innovative Computing, Information<br />
-	and Control (IJICIC), Vol.9, No.12, pp.4603-4604</dd>
-　　　　<dt>発表年：</dt><dd>2013</dd>
-<div class="clear"></div>
-<li><div class="circle1"></div>&emsp;The Impact of Candidate Display Styles for Japanese and Chinese Characters on <br />
-	Input Efficiency</li>
-	　　　 <dt>著者<span style="margin-right: 1em;"></span>：</dt><dd>SUN Minghui, REN Xiangshi, <br />
-Shumin Zhai, WANG Feng</dd>
-　　　　<dt>発表誌：</dt><dd>International Journal of Human-Computer Interaction, <br />
-	Vol.71, No.3, pp.236-249</dd>
-　　　　<dt>発表年：</dt><dd>2012</dd>
-<div class="clear"></div>
-<li><div class="circle2"></div>&emsp;Optimal Entry Size of Handwritten Chinese Characters in Touch-based Mobile <br />
-	Phones</li>
-　　　　<dt>著者<span style="margin-right: 1em;"></span>：</dt><dd>TU Huawei, REN Xiangshi</dd>
-　　　　<dt>発表誌：</dt><dd>International Journal of Human-Computer Interaction, <br />Vol.29, No.1, pp.1-12</dd>
-　　　　<dt>発表年：</dt><dd>2012</dd>
-</dl>
-</div>
-<!--kennkyuronnbunn-->
-</div>
-<!--kennkyuushhyoukai-->
-</div>
-<!--kennkyuunaiyou-->
-<div class="kennkyuushitusyoukai">
-	<div class="center1"><img src="svg/Heading-3.svg" alt="研究室紹介"></div>
-
-<div class="Lab_photo">
-<img src="img/Lab-ren_1.jpg" alt="研究室の写真" id="Lab_main" />
-</div>
-
-<h2>HEC研究室：A315</h2>
-<p>
-　現在コンピュータへの入力装置はキーボードやマウスに限られており、子供、高齢者、障害者にとってまだ使いにくいものです。そこで、任研究室では、ペン入力、指によるマルチタッチ入力、視線入力などの研究を行っています。例えば、これらの入力装置に関する人間の制御能力に関する基礎研究、および入力装置の特徴を活かした入力技法などの研究です。私たちはこの分野（HCI）の最高峰の国際会議を目指して頑張っています。</p>
-</div>
-<!--kennkyuushitusyoukai-->
-<div class="koukouseihe">
-
-<div class="photo2"><img src="svg/StaffDetail_balloon.svg" alt="吹き出し"></div>
-
-<h1>高校生のみなさんへ</h1>
-<div class="kotoba">
-　"Boys, be ambitious!" 「青年よ、大志を抱け！」は William Smith Clark（ウィリアム・S・クラーク）博士が若者たちに投げた言葉です。諸君は「自分はたいしたことない」と思っているかもしれませんが、社会にとっては非常に貴重な人材です。ぜひ志を高め、何をなすべきかよく考えて、そのための勉強をしてほしいです。
-</div>
-<!--kotoba-->
-</div>
-<!--koukouseihe-->
-<div class="kougikamoku">
-<h2>講義科目</h2>
-<dl>
-<dd>HCI概論</dd>
-</dl>
-<h2>受け入れ可能な専攻</h2>
-<p>
-情報と人間専攻<br />
-情報とメディア専攻<br />
-コンピュータサイエンス専攻<br />
-</p>
-
-</div>
-<!--kougikamoku-->
-<div class="photo3"><img src="img/Body-RenXiangshi.jpg" alt="先生全身画像"></div>
-</div>
-<!--main-->
-</div>
-<!--baseContents-->
-
-<!--#include file="footer.html"-->
+	<!--#include file="footer.html"-->
 </body>
+
 </html>

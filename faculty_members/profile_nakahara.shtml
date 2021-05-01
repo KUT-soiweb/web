@@ -16,7 +16,12 @@
 					}
 			</script>
 </head>
-
+<style>
+	#baseContents .kennkyuusyoukai .kennkyuuronnbunn input:checked ~ .panel {
+		height: 490px;
+	}
+		
+</style>
 <body>
 <!--#include file="header.html"-->
 
@@ -60,7 +65,7 @@
 </div>
 <!--panel-->
 <a href="https://www.kochi-tech.ac.jp/profile/ja/nakahara-kiyoshi.html" target="_blank"><div class="box3" style="float:right">▶ 工科大教員ページ</div></a>
-<a href="http://www.lab.kochi-tech.ac.jp/knkhrlab/" target="_blank"> <div class="box2" style="float:right">▶ 研究室ページ</div></a>
+<a href="https://sites.google.com/view/nakahara-lab/%E3%83%9B%E3%83%BC%E3%83%A0%E6%97%A5%E6%9C%AC%E8%AA%9E" target="_blank"> <div class="box2" style="float:right">▶ 研究室ページ</div></a>
 <div class="clear"></div>
 </div>
 <!--keireki-->
@@ -103,33 +108,25 @@
 		<div class="panel">
 <ul>
 	<dl>
-<li><div class="circle1"></div>&emsp;Local and retrograde gene transfer into primate neuronal pathways via adeno-associated virus serotype 8 and 9</li>
-　　　　<dt>著者<span style="margin-right: 1em;"></span>：</dt><dd> Masamizu Y. Okada T. Kawasaki K. Ishibashi H. Yuasa S. <br />
-Takeda S. Hasegawa I. Nakahara K.</dd>
-　　　　<dt>発表誌：</dt><dd>Neuroscience</dd>
-　　　　<dt>発表年：</dt><dd>2011</dd>
+<li><div class="circle1"></div>&emsp;Cross-hemispheric complementary prefrontal mechanisms during task switching under perceptual uncertainty</li>
+　　　　<dt>著者<span style="margin-right: 1em;"></span>：</dt><dd> Tsumura K, Aoki R, Takeda M, Nakahara K, Jimura K</dd>
+　　　　<dt>発表誌：</dt><dd>J Neurosci 41(10):2197-2213.</dd>
+　　　　<dt>発表年：</dt><dd>2021</dd>
 <div class="clear"></div>
-<li><div class="circle2"></div>&emsp;Exploring the neural basis of cognition: multi-modal links between human fMRI and macaque neurophysiology</li>
+<li><div class="circle2"></div>&emsp; Large-scale network integration in the human brain tracks temporal fluctuations in memory encoding performance</li>
 　　　　<dt>著者<span style="margin-right: 1em;"></span>：</dt><dd>NAKAHARA Kiyoshi, Adachi Y. Osada T. Miyashita Y.</dd>
-　　　　<dt>発表誌：</dt><dd>Trends in Cognitive Sciences</dd>
-　　　　<dt>発表年：</dt><dd>2007</dd>
+　　　　<dt>発表誌：</dt><dd>eLife 2018;7:e32696 DOI: 10.7554/eLife.32696</dd>
+　　　　<dt>発表年：</dt><dd>2018</dd>
 <div class="clear"></div>
-<li><div class="circle3"></div>&emsp;MRI-based localization of electrophysiological recording sites within the cerebral cortex at single-voxel accuracy</li>
-　　　　<dt>著者<span style="margin-right: 1em;"></span>：</dt><dd>Matsui T. Koyano KW. Koyama M. <br />
-	NAKAHARA Kiyoshi, Takeda M. Ohashi Y. Naya Y. Miyashita Y</dd>
-　　　　<dt>発表誌：</dt><dd>Nature Methods</dd>
-　　　　<dt>発表年：</dt><dd>2007</dd>
+<li><div class="circle3"></div>&emsp;Associative-memory representations emerge as shared spatial patterns of theta activity spanning the primate temporal cortex</li>
+　　　　<dt>著者<span style="margin-right: 1em;"></span>：</dt><dd>Nakahara K. et al.</dd>
+　　　　<dt>発表誌：</dt><dd>Nature Communications 7:11827 DOI: 10.1038/ncomms11827.</dd>
+　　　　<dt>発表年：</dt><dd>2016</dd>
 <div class="clear"></div>
-<li><div class="circle1"></div>&emsp;Understanding intentions: Through the looking glass</li>
-	　　　 <dt>著者<span style="margin-right: 1em;"></span>：</dt><dd>NAKAHARA Kiyoshi, Miyashita Y.</dd>
-　　　　<dt>発表誌：</dt><dd>Science</dd>
-　　　　<dt>発表年：</dt><dd>2005</dd>
-<div class="clear"></div>
-<li><div class="circle2"></div>&emsp;Functional magnetic resonance imaging of macaque monkeys performing visually guided saccade tasks: Comparison of cortical eye fields with humans</li>
-　　　　<dt>著者<span style="margin-right: 1em;"></span>：</dt><dd>Koyama M. Hasegawa I. <br />
-	Osada T. Adachi Y. NAKAHARA Kiyoshi, Miyashita Y.</dd>
-　　　　<dt>発表誌：</dt><dd>Neuron</dd>
-　　　　<dt>発表年：</dt><dd>2004</dd>
+<li><div class="circle1"></div>&emsp; Functional MRI of macaque monkeys performing a cognitive set-shifting task</li>
+　　　　<dt>著者<span style="margin-right: 1em;"></span>：</dt><dd>Nakahara K., Hayashi T., Konishi S. & Miyashita Y.</dd>
+　　　　<dt>発表誌：</dt><dd>Science 295, 1532-1536.</dd>
+　　　　<dt>発表年：</dt><dd>2002</dd>
 </dl>
 </div>
 <!--kennkyuronnbunn-->
@@ -155,7 +152,7 @@ Takeda S. Hasegawa I. Nakahara K.</dd>
 <div class="photo2"><img src="svg/StaffDetail_balloon.svg" alt="吹き出し"></div>
 <h1>高校生のみなさんへ</h1>
 <div class="kotoba">
-　インターネットだけに頼らず、実際に体験して、自分の頭で考えることを大切にしましょう。
+	　わたしたちの社会において情報学の重要性は高まりこそすれ、決して失われることはないでしょう。ぜひ本学の情報学群で学び、我が国の、そして世界の未来を担ってください。
 </div>
 <!--kotoba-->
 </div>
