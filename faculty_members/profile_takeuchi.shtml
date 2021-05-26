@@ -1,177 +1,275 @@
 ﻿<!DOCTYPE html>
 <html>
-	<head>
-		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-	    <meta name="keyword" content="高知工科大学情報学群">
-	    <meta name="description" content="高知工科大学情報学群のホームページ">
-	    <title>竹内　聖悟</title>
-	    <link rel="stylesheet" type="text/css" href="css/base.css">
-	    <link rel="stylesheet" type="text/css" href="css/profile.css">
-	    <script type="text/javascript" src="js/switch.js"></script>
-			<link rel="icon" href="../img/favicon2.png" type="image/png" />
-	    <script type="text/javascript">
-					window.onload = function(){
-						headSerect(2);
-					}
-			</script>
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta name="keyword" content="高知工科大学情報学群">
+	<meta name="description" content="高知工科大学情報学群のホームページ">
+	<title>竹内　聖悟</title>
+	<link rel="stylesheet" type="text/css" href="css/base.css">
+	<link rel="stylesheet" type="text/css" href="css/profile.css">
+	<script type="text/javascript" src="js/switch.js"></script>
+	<link rel="icon" href="../img/favicon2.png" type="image/png" />
+	<script type="text/javascript">
+		window.onload = function () {
+			headSerect(2);
+		}
+	</script>
+	<style>
+		#baseContents .kennkyuusyoukai .kennkyuuronnbunn input:checked ~ .panel{
+			height: 980px;
+		}
+	</style>
 </head>
 
 <body>
-<!--#include file="header.html"-->
+	<!--#include file="header.html"-->
 
-    <div id ="baseContents">
+	<div id="baseContents">
 
-	<div class="pankuzu">
-		<a href="../index.shtml">HOME</a> > <a href="../faculty_members.shtml">教員一覧</a> > 竹内聖悟
+		<div class="pankuzu">
+			<a href="../index.shtml">HOME</a> > <a href="../faculty_members.shtml">教員一覧</a> > 竹内聖悟
+		</div>
+		<!--pankuzu-->
+		<div class="main">
+			<div class="keireki">
+				<h1>竹内 聖悟<span class="hurigana"><span style="margin-right: 2.8em;"></span>Takeuchi Shogo</span></h1>
+				<div class="photo1">
+					<img src="img/Face-TakeuchiShogo.png" alt="顔の写真" class="facephoto">
+				</div>
+				<!--photo1-->
+				<div class="line"></div>
+				<h2>講師<span>講師室：A463</span></h2>
+
+
+
+				<input type="checkbox" id="Panel1" class="ExpandCheckBox" />
+				<label for="Panel1" class="open">
+					<h3>
+						<img src="svg/Triangle_close-white.svg">&nbsp;プロフィール
+					</h3>
+
+				</label>
+				<div class="panel">
+
+
+					<dl>
+						<dt>生年：</dt>
+						<dd>1982年</dd>
+						<dt>出身：</dt>
+						<dd>神奈川県</dd>
+						<dt>所属：</dt>
+						<dd>高知工科大学情報学群<br />
+							　　　大学院工学研究科 基盤工学専攻 情報システム工学コース<br />
+							　　　大学院工学研究科 基盤工学専攻 情報学コース</dd>
+						<dt>所属学会：</dt>
+						<dd>情報処理学会</dd>
+						<dt>学位：</dt>
+						<dd>博士(学術)</dd>
+						<dt>最終学歴：</dt>
+						<dd>東京大学大学院 総合文化研究科 広域科学専攻 博士課程 修了 (2010)</dd>
+						<dt>相談可能分野：</dt>
+						<dd>パズル, ゲームプログラミング</dd>
+						<dt>趣味：</dt>
+						<dd>将棋, 読書, ボードゲーム, 探索アルゴリズム</dd>
+						<div class="mail1"><img src="svg/mail_takeuchi.svg" alt="先生のmailアドレス" class="mail"></div>
+					</dl>
+
+
+				</div>
+				<!--panel-->
+
+				<a href="https://www.kochi-tech.ac.jp/profile/ja/takeuchi-shogo.html" target="_blank">
+					<div class="box3" style="float:right">▶ 工科大教員ページ</div>
+				</a>
+				<a href="https://stakeuch-lab.github.io/" target="_blank">
+					<div class="box2" style="float:right">▶ 研究室ページ</div>
+				</a>
+				<a href="https://sites.google.com/site/takeshogo/" target="_blank">
+					<div class="box1" style="float:right">▶ 教員個人ページ</div>
+				</a>
+
+				<div class="clear"></div>
+			</div>
+			<!--keireki-->
+			<div class="kennkyuusyoukai">
+				<div class="center1"><img src="svg/Heading-2.svg" alt="研究紹介"></div>
+
+				<h2>ゲーム情報学</h2>
+
+				<div class="center2">
+					<br />
+					<p>　様々なゲームにおいて、人間のトッププレイヤよりも強いコンピュータプレイヤが登場するようになりました。パズルやゲームは古くから人工知能と情報処理技術の適用先として研究されてきましたので、その成果と言えます。現在は強いコンピュータプレイヤの作成だけでなく、強いプレイヤが入手可能となって初めて出来ることなどの新規分野の開拓、人間への役立て方についても研究しています。
+					</p>
+					　
+				</div>
+				<!--center2-->
+				<div class="kennkyuuryouiki">
+					<input type="checkbox" id="Panel2" class="ExpandCheckBox" />
+					<label for="Panel2" class="open">
+						<h3><img src="svg/Triangle_close-pink.svg">&nbsp;現在の研究領域</h3>
+					</label>
+
+					<div class="panel">
+
+						<a>
+							<div class="circle1"></div>ゲーム情報学<br />
+						</a>
+						<a>
+							<div class="circle2"></div>二分決定図を利用した列挙索引化アルゴリズム<br />
+						</a>
+
+						</a>
+					</div>
+					<!--panel-->
+				</div>
+				<!--kennkyuuryouiki-->
+
+
+				<div class="kennkyuuronnbunn">
+					<input type="checkbox" id="Panel3" class="ExpandCheckBox" />
+					<label for="Panel3" class="open">
+						<h3><img src="svg/Triangle_close-pink.svg">&nbsp;代表的な研究論文など</h3>
+					</label>
+
+					<div class="panel">
+						<ul>
+							<dl>
+								<!--paper1-->
+								<li>
+									<div class="circle1"></div>&emsp;Advice is useful for game AI: Experiments with alpha-beta search players in Shogi
+								</li>
+								　　　　<dt>著者<span style="margin-right: 1em;"></span>：</dt>
+								<dd>Shogo Takeuchi</dd>
+								　　　　<dt>発表誌：</dt>
+								<dd>The 16th Advances in Computer Games Conference
+								</dd>　　　　<dt>発表年：</dt>
+								<dd>2019</dd>
+								<div class="clear"></div>
+								<br>
+
+								<!--paper2-->
+								<li>
+									<div class="circle2"></div>&emsp;Weighted Majority Voting with a Heterogeneous System in the Game of Shogi
+								</li>
+								　　　　<dt>著者<span style="margin-right: 1em;"></span>：</dt>
+								<dd>Shogo Takeuchi</dd>
+								　　　　<dt>発表誌：</dt>
+								<dd>The 2018 Conference on Technologies<br> and Applications of Artificial Intelligence
+								</dd>　　　　<dt>発表年：</dt>
+								<dd>2018</dd>
+								<div class="clear"></div>
+								<br>
+
+								<!--paper3-->
+								<li>
+									<div class="circle3"></div>&emsp;Circ1P分割問題の計算困難性とSATソルバを用いたその解法
+								</li>
+								<dt>著者<span style="margin-right: 1em;"></span>：</dt>
+								<dd>原田崇司, 竹内聖悟</dd>
+								　　　　<dt>発表誌：</dt>
+								<dd>電子情報通信学会論文誌 D, Vol.J103-D, No.11</dd>　　　　
+								<dt>発表年：</dt>
+								<dd>2020</dd>
+								<div class="clear"></div>
+								<br>
+
+								<!--paper4-->
+								<li>
+									<div class="circle1"></div>&emsp;Estimating Ratings of Computer Players by the
+									Evaluation Score and Principal <br />Tarintion of shogi
+								</li>
+								　　　　<dt>著者<span style="margin-right: 1em;"></span>：</dt>
+								<dd>Shogo Takeuchi, Tomoyuki Kaneko</dd>
+								　　　　<dt>発表誌：</dt>
+								<dd>3rd International Conterence on Applied Computing<br> and Information Technology
+								</dd>　　　　<dt>発表年：</dt>
+								<dd>2015</dd>
+								<div class="clear"></div>
+								<br>
+
+								<!--paper5-->
+								<li>
+									<div class="circle2"></div>&emsp;Optimizing Objective Fanction Parameters for
+									Strength in Computer Erne-Playing <br />
+								</li>
+								　　　　<dt>著者<span style="margin-right: 1em;"></span>：</dt>
+								<dd>Yoshikuni Sato, Makoto Miwa, Shogo Takeuchi, <br />Daisuke Takahashi</dd>
+								　　　　<dt>発表誌：</dt>
+								<dd>Twenty-Seventh AAAI Conterence on Artificicl Intelligence</dd>
+								　　　　<dt>発表年：</dt>
+								<dd>2013</dd>
+								<div class="clear"></div>
+								<br>
+
+								<!--paper6-->
+								<li>
+									<div class="circle3"></div>&emsp;Shored-Memory Parallel Frontier-based Search
+								</li>
+								　　　　<dt>著者<span style="margin-right: 1em;"></span>：</dt>
+								<dd>Shogo Takeuchi, Jun Kawahara, Akihiro Kishimoto, Shiniti Minato</dd>
+								　　　　<dt>発表誌：</dt>
+								<dd>Seventh International workshop on Algorithm and Computation </dd>
+								　　　　<dt>発表年：</dt>
+								<dd>2013</dd>
+								<div class="clear"></div>
+								<br>
+
+								<!--paper7-->
+								<li>
+									<div class="circle1"></div>&emsp;Evaluation of Game Tree method by Game Records
+								</li>
+								　　　 <dt>著者<span style="margin-right: 1em;"></span>：</dt>
+								<dd>Shogo Takeuchi, Tomoyuki Kaneko, Kazanori Yamaguchi </dd>
+								　　　　<dt>発表誌：</dt>
+								<dd>IEEE Transactions on Computational Intelligerce and AI in Games,<br />vol2,no.4</dd>
+								　　　　<dt>発表年：</dt>
+								<dd>2010</dd>
+							</dl>
+					</div>
+					<!--kennkyuronnbunn-->
+				</div>
+				<!--kennkyuushhyoukai-->
+			</div>
+			<!--kennkyuunaiyou-->
+			<div class="kennkyuushitusyoukai">
+				<div class="center1"><img src="svg/Heading-3.svg" alt="研究室紹介"></div>
+				<h2>ゲーム情報学研究室：A501</h2>
+				<p>　「ゲーム情報学」という分野で、ゲームでの強いコンピュータプレイヤの作成をはじめとして、プレイヤの強さの数値化、プレイヤの適切な強さ調整など人間に役立つような研究にも取り組んでいます。様々なゲームでコンピュータプレイヤが人間よりも強くなりましたが、そのようなプレイヤがいて初めて出来るようなことを探しています。
+				</p>
+			</div>
+			<!--kennkyuushitusyoukai-->
+			<div class="koukouseihe">
+				<div class="photo2"><img src="svg/StaffDetail_balloon.svg" alt="吹き出し">
+					<h1>高校生のみなさんへ</h1>
+					<div class="kotoba">
+						　「継続は力なり」続けることは意外と難しいです。物事を繰り返していくと、習慣・癖となります。良い習慣・良い癖をつけられるように頑張って下さい。
+					</div>
+					<!--kotoba-->
+				</div>
+			</div>
+			<!--koukouseihe-->
+			<div class="kougikamoku">
+				<h2>講義科目</h2>
+				<dl>
+					<dd>情報学群実験第1, ウェブメディア, 情報科学1</dd>
+				</dl>
+				<h2>受け入れ可能な専攻</h2>
+				<p>
+					情報とメディア専攻<br />
+					情報通信専攻<br />
+					コンピュータサイエンス専攻<br />
+				</p>
+
+			</div>
+			<!--kougikamoku-->
+			<div class="photo3"><img src="img/Body-TakeuchiShogo.jpg" alt="先生全身画像"></div>
+		</div>
+		<!--main-->
 	</div>
-	<!--pankuzu-->
-	<div class="main">
-      <div class="keireki">
-    <h1>竹内 聖悟<span class="hurigana"><span style="margin-right: 2.8em;"></span>Takeuchi Shogo</span></h1>
-<div class="photo1">
-		<img src="img/Face-TakeuchiShogo.png" alt="顔の写真" class="facephoto">
-	</div>
-	<!--photo1-->
-		<div class="line"></div>
-    <h2>講師<span>講師室：A463</span></h2>
+	<!--baseContents-->
 
-
-
-    <input type="checkbox" id="Panel1" class="ExpandCheckBox" />
-		<label for="Panel1" class="open">
-		  <h3>
-				<img src="svg/Triangle_close-white.svg">&nbsp;プロフィール
-			</h3>
-
-  </label>
-		   <div class="panel">
-
-
-<dl>
-<dt>生年：</dt><dd>1982年</dd>
-<dt>出身：</dt><dd>神奈川県</dd>
-<dt>所属：</dt><dd>高知工科大学情報学群<br />
-　　　大学院工学研究科 基盤工学専攻 情報システム工学コース<br />
-　　　大学院工学研究科 基盤工学専攻 情報学コース</dd>
-<dt>所属学会：</dt><dd>情報処理学会</dd>
-<dt>学位：</dt><dd>博士(学術)</dd>
-<dt>最終学歴：</dt><dd>東京大学大学院 総合文化研究科 広域科学専攻 博士課程 修了 (2010)</dd>
-<dt>相談可能分野：</dt><dd>パズル, ゲームプログラミング</dd>
-<dt>趣味：</dt><dd>将棋, 読書, ボードゲーム</dd>
-<div class="mail1"><img src="svg/mail_takeuchi.svg" alt="先生のmailアドレス" class="mail"></div>
-</dl>
-
-
-</div>
-<!--panel-->
-
-<a href="https://www.kochi-tech.ac.jp/profile/ja/takeuchi-shogo.html" target="_blank"><div class="box3" style="float:right">▶ 工科大教員ページ</div></a>
-<a href="https://sites.google.com/site/takeshogo/" target="_blank"><div class="box1" style="float:right">▶ 教員個人ページ</div></a>
-<div class="clear"></div>
-</div>
-<!--keireki-->
-<div class="kennkyuusyoukai">
-	<div class="center1"><img src="svg/Heading-2.svg" alt="研究紹介"></div>
-
-<h2>ゲーム情報学</h2>
-
-<div class="center2">
-<br /><p>
-　様々なゲームにおいて、人間のトッププレイヤーよりも強いコンピュータプレイヤーが登場するようになりました。パズルやゲームは古くから人工知能と情報処理技術の適用先として研究されてきましたので、その成果と言えます。強いコンピュータプレイヤーの作成だけでなく、強いプレイヤーがいるから出来るようになることなど役立て方についても研究しています。</p>
-</div>
-<!--center2-->
- <div class="kennkyuuryouiki">
-<input type="checkbox" id="Panel2" class="ExpandCheckBox" />
-	 <label for="Panel2" class="open">
-		 <h3><img src="svg/Triangle_close-pink.svg">&nbsp;現在の研究領域</h3>
-	 </label>
-
-	 	 <div class="panel">
-
-<a>
-<div class="circle1"></div>ゲーム情報学（主に将棋などの二人ゲーム）<br />
-</a>
-<a>
-<div class="circle2"></div>二分決定図を利用した列挙索引化アルゴリズム<br />
-</a>
-
-</a>
-</div>
-<!--panel-->
-</div>
-<!--kennkyuuryouiki-->
-
-
-<div class="kennkyuuronnbunn">
-	<input type="checkbox" id="Panel3" class="ExpandCheckBox" />
-	<label for="Panel3" class="open">
-		<h3><img src="svg/Triangle_close-pink.svg">&nbsp;代表的な研究論文など</h3>
-	</label>
-
-		<div class="panel">
-<ul>
-	<dl>
-<li><div class="circle1"></div>&emsp;Estimating Ratings of Computer Players by the Evaluation Score and Principal <br/>Tarintion of shogi</li>
-　　　　<dt>著者<span style="margin-right: 1em;"></span>：</dt><dd>Shogo Takeuchi, Tomoyuki Kaneko</dd>
-　　　　<dt>発表誌：</dt><dd>3rd International Conterence on Applied Computing and Information <br/>Technology</dd>　　　　<dt>発表年：</dt><dd>2015</dd>
-<div class="clear"></div>
-<li><div class="circle2"></div>&emsp;Optimizing Objective Fanction Parameters for Strength in Computer Erne-Playing <br />
-	</li>
-　　　　<dt>著者<span style="margin-right: 1em;"></span>：</dt><dd>Yoshikuni Sato, Makoto Miwa, Shogo Takeuchi, <br/>Daisuke Takahashi</dd>
-　　　　<dt>発表誌：</dt><dd>Twenty-Seventh AAAI Conterence on Artificicl Intelligence</dd>
-　　　　<dt>発表年：</dt><dd>2013</dd>
-<div class="clear"></div>
-<li><div class="circle3"></div>&emsp;Shored-Memory Parallel Frontier-based Search</li>
-　　　　<dt>著者<span style="margin-right: 1em;"></span>：</dt><dd>Shogo Takeuchi, Jun Kawahara, Akihiro Kishimoto, Shiniti Minato</dd>
-　　　　<dt>発表誌：</dt><dd>Seventh International workshop on Algorithm and Computation </dd>
-　　　　<dt>発表年：</dt><dd>2013</dd>
-<div class="clear"></div>
-<li><div class="circle1"></div>&emsp;Evaluation of Game Tree method by Game Records </li>
-	　　　 <dt>著者<span style="margin-right: 1em;"></span>：</dt><dd>Shogo Takeuchi, Tomoyuki Kaneko, Kazanori Yamaguchi </dd>
-　　　　<dt>発表誌：</dt><dd>IEEE Transactions on Computational Intelligerce and AI in Games,<br/>vol2,no.4</dd>
-　　　　<dt>発表年：</dt><dd>2010</dd>
-</dl>
-</div>
-<!--kennkyuronnbunn-->
-</div>
-<!--kennkyuushhyoukai-->
-</div>
-<!--kennkyuunaiyou-->
-<div class="kennkyuushitusyoukai">
-	<div class="center1"><img src="svg/Heading-3.svg" alt="研究室紹介"></div><h2>ゲーム情報学研究室：A501</h2>
-<p>　「ゲーム情報学」という分野の研究を主としています。強いコンピュータプレイヤーの作成や、強いプレイヤーの役立て方を研究しています。例えば、あるプレイヤーの強さを評価する時には、そのプレイヤーよりも強いプレイヤーが必要です。これは強いプレイヤーがいるから出来ることと言え、また他にも、プレイヤーが助言をしたとして、それをどう有効活用するかなどの研究をしています。</p>
-</div>
-<!--kennkyuushitusyoukai-->
-<div class="koukouseihe">
-<div class="photo2"><img src="svg/StaffDetail_balloon.svg" alt="吹き出し">
-<h1>高校生のみなさんへ</h1>
-<div class="kotoba">
-　「継続は力なり」続けることは意外と難しいです。物事を繰り返していくと、習慣・癖となります。良い習慣・良い癖をつけられるように頑張って下さい。
-</div>
-<!--kotoba-->
-</div>
-</div>
-<!--koukouseihe-->
-<div class="kougikamoku">
-<h2>講義科目</h2>
-<dl>
-<dd>情報学群実験第1, ウェブメディア, 情報科学1</dd>
-</dl>
-<h2>受け入れ可能な専攻</h2>
-<p>
-情報とメディア専攻<br />
-情報通信専攻<br />
-コンピュータサイエンス専攻<br />
-</p>
-
-</div>
-<!--kougikamoku-->
-<div class="photo3"><img src="img/Body-TakeuchiShogo.jpg" alt="先生全身画像"></div>
-</div>
-<!--main-->
-</div>
-<!--baseContents-->
-
-<!--#include file="footer.html"-->
+	<!--#include file="footer.html"-->
 </body>
+
 </html>

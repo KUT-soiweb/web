@@ -1,198 +1,422 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-	    <meta name="keyword" content="高知工科大学情報学群">
-	    <meta name="description" content="高知工科大学情報学群のホームページ">
-	    <title>篠森 敬三</title>
-	    <link rel="stylesheet" type="text/css" href="css/base.css">
-	    <link rel="stylesheet" type="text/css" href="css/profile.css">
-			<link rel="icon" href="../img/favicon2.png" type="image/png" />
-	    <script type="text/javascript" src="js/switch.js"></script>
-			<script type="text/javascript">
-					window.onload = function(){
-						headSerect(2);
-					}
-			</script>
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta name="keyword" content="高知工科大学情報学群">
+	<meta name="description" content="高知工科大学情報学群のホームページ">
+	<title>篠森 敬三</title>
+	<link rel="stylesheet" type="text/css" href="css/base.css">
+	<link rel="stylesheet" type="text/css" href="css/profile.css">
+	<link rel="icon" href="../img/favicon2.png" type="image/png" />
+	<script type="text/javascript" src="js/switch.js"></script>
+	<script type="text/javascript">
+		window.onload = function () {
+			headSerect(2);
+		}
+	</script>
+	<style>
+		#baseContents .keireki input:checked~.panel {
+			height: 590px;
+		}
+
+		#baseContents .kennkyuusyoukai .kennkyuuryouiki input:checked~.panel {
+			height: 285px;
+		}
+		#baseContents .kennkyuusyoukai .kennkyuuronnbunn input:checked ~ .panel{
+			height: 2200px;
+		}
+	</style>
 </head>
 
 <body>
-<!--#include file="header.html"-->
+	<!--#include file="header.html"-->
 
-    <div id ="baseContents">
+	<div id="baseContents">
 
-	<div class="pankuzu">
-		<a href="../index.shtml">HOME</a> > <a href="../faculty_members.shtml">教員一覧</a> > 篠森敬三
+		<div class="pankuzu">
+			<a href="../index.shtml">HOME</a> > <a href="../faculty_members.shtml">教員一覧</a> > 篠森敬三
+		</div>
+		<!--pankuzu-->
+		<div class="main">
+			<div class="keireki">
+				<h1>篠森 敬三<span class="hurigana"><span style="margin-right: 2.8em;"></span>Shinomori Keizo</span></h1>
+				<div class="photo1">
+					<img src="img/Face-ShinomoriKeizo2.jpg" alt="顔の写真" class="facephoto">
+				</div>
+				<!--photo1-->
+				<div class="line"></div>
+				<h2>教授<span>学群長室：A416<br>教授室：A419</span></h2>
+
+
+				<input type="checkbox" id="Panel1" class="ExpandCheckBox" />
+				<label for="Panel1" class="open">
+					<h3>
+						<img src="svg/Triangle_close-white.svg">&nbsp;プロフィール
+					</h3>
+
+				</label>
+				<div class="panel">
+					<dl>
+						<dt>生年：</dt>
+						<dd>生年非公開</dd>
+						<dt>出身：</dt>
+						<dd>東京都</dd>
+						<dt>所属：</dt>
+						<dd>高知工科大学情報学群/総合研究所<br />
+							　　　大学院工学研究科 基盤工学専攻 情報システム工学コース<br />
+							　　　大学院工学研究科 基盤工学専攻 情報学コース<br />
+							　　　情報本部 附属情報図書館<br />
+							　　　総合研究所 視覚・感性統合研究室</dd>
+						<dt>所属学会：</dt>
+						<dd>
+							国際色覚学会 (International Colour Vision Society), <br />
+							　　　　　視覚科学技術コンソーシアム,
+							日本視覚学会,<br>
+							　　　　　米国光学会 (Optical Society of America), <br />
+							　　　　　日本色彩学会, 日本感性工学会,<br>
+							　　　　　ARVO（The Association for Research in Vision and Ophthalmology), <br />
+							　　　　　日本眼光学学会,
+							照明学会,
+							日本光学会（OSJ),
+							映像情報メディア学会,<br>
+							　　　　　電子情報通信学会(IEICE), 日本認知心理学会, 日本印刷学会</dd>
+						<dt>学位：</dt>
+						<dd>工学博士</dd>
+						<dt>最終学歴：</dt>
+						<dd>東京工業大学大学院 総合理工学研究科物理情報工学専攻<br>　　　　　博士後期課程 修了（1992）</dd>
+						<dt>相談可能分野：</dt>
+						<dd>色彩と感性評価, 色弱者に対するカラーユニバーサルデザイン,<br>
+							　　　　　　　照明設計, 色設計, 測色, 高齢者のための視環境対策<br>
+							　　　　　　　感性評価一般 , サインや表示等の改善, インターフェイスの改善<br /></dd>
+						<div class="mail1"><img src="svg/mail_shinomori.svg" alt="先生のmailアドレス" class="mail"></div>
+					</dl>
+				</div>
+				<!--panel-->
+
+				<a href="https://www.kochi-tech.ac.jp/profile/ja/shinomori-keizo.html" target="_blank">
+					<div class="box3" style="float:right">▶ 工科大教員ページ</div>
+				</a>
+				<a href="http://www.lab.kochi-tech.ac.jp/shinolab/" target="_blank">
+					<div class="box2" style="float:right">▶ 研究室ページ</div>
+				</a>
+
+				<a href="https://www.kochi-tech.ac.jp/profile/ja/shinomori-keizo.html" target="_blank">
+					<div class="box1" style="float:right">▶ 教員個人ページ</div>
+				</a>
+
+				<div class="clear"></div>
+			</div>
+			<!--keireki-->
+			<div class="kennkyuusyoukai">
+				<div class="center1"><img src="svg/Heading-2.svg" alt="研究紹介"></div>
+
+				<h2>視覚情報処理を心理物理学的手法や脳計測を用いて明らかに</h2>
+				<h3>専門分野：視覚心理物理学, 色彩工学, 感性情報処理,<br />
+					　　カラーユニバーサルデザイン, 脳科学, 人間情報処理</h3>
+				<div class="center2">
+					<p>
+						　人間が視覚情報をどのように処理しているかについて、非侵襲的な心理物理学的手法や脳計測を用いて研究しています。特に、刺激の明るさや色による光応答速度の違い、２色覚者や高齢者の色覚、視覚情報処理中の脳内活動、さらに最近は、質感や感性の情報処理に興味を持っています。
+					</p>
+				</div>
+				<!--center2-->
+				<div class="kennkyuuryouiki">
+					<input type="checkbox" id="Panel2" class="ExpandCheckBox" />
+					<label for="Panel2" class="open">
+						<h3><img src="svg/Triangle_close-pink.svg">&nbsp;現在の研究領域</h3>
+					</label>
+
+					<div class="panel">
+
+						<a>
+							<div class="circle1"></div>視覚応答速度の加齢変化<br />
+						</a>
+						<a>
+							<div class="circle2"></div>高齢者の色弁別能力の変化<br />
+						</a>
+						<a>
+							<div class="circle3"></div>加齢による視覚情報処理メカニズムの変化 <br />
+						</a>
+
+						<a>
+							<div class="circle1"></div>２色覚（色弱者）の色覚とカラーユニバーサルデザイン<br />
+						</a>
+						<a>
+							<div class="circle2"></div>イメージ及び物体の認識における輝度・色情報の寄与と相互作用<br />
+						</a>
+						<a>
+							<div class="circle3"></div>照明色変化での色恒常性の限界 <br />
+						</a>
+
+						<a>
+							<div class="circle1"></div>色と意味語空間の双方向性検証による視覚と感性の関係の階層化<br />
+						</a>
+						<a>
+							<div class="circle2"></div>２色覚者での双方向性検証実験<br />
+						</a>
+						<a>
+							<div class="circle3"></div>網膜上のメラノプシン（ipRGC）への刺激量を変えたときの明るさ知覚への影響 <br />
+						</a>
+
+						<a>
+							<div class="circle1"></div>視覚的注意誘導効果とその機序<br />
+						</a>
+						<a>
+							<div class="circle2"></div> 顔情報の視覚的処理<br />
+						</a>
+					</div>
+					<!--panel-->
+				</div>
+				<!--kennkyuuryouiki-->
+
+
+				<div class="kennkyuuronnbunn">
+					<input type="checkbox" id="Panel3" class="ExpandCheckBox" />
+					<label for="Panel3" class="open">
+						<h3><img src="svg/Triangle_close-pink.svg">&nbsp;代表的な研究論文など</h3>
+					</label>
+
+					<div class="panel">
+						<ul>
+							<dl>
+								<!--paper1-->
+								<li>
+									<div class="circle1"></div>&emsp;Aging of human short-wave cone pathways
+								</li>
+								　　　　<dt>著者<span style="margin-right: 1em;"></span>：</dt>
+								<dd>SHINOMORI Keizo, WERNER John S.</dd>
+								　　　　<dt>発表誌：</dt>
+								<dd>Proceedings of the National Academy of Science of the <br />
+									United States of America (PNAS), Vol.109, No.33, pp.13422-13427</dd>
+								　　　　<dt>発表年：</dt>
+								<dd>2012</dd>
+										<dt>研究領域：</dt>
+								<dd>視覚応答速度の加齢変化</dd>
+								<div class="clear"></div>
+								<br>
+
+								<!--paper2-->
+								<li>
+									<div class="circle2"></div>&emsp;Age-related changes in wavelength discrimination
+								</li>
+								　　　　<dt>著者<span style="margin-right: 1em;"></span>：</dt>
+								<dd>SHINOMORI Keizo, SCHEFRIN Brooke E., WERNER John S.</dd>
+								　　　　<dt>発表誌：</dt>
+								<dd>Journal of the Optical Society of America,<br> A，Vol.18，No.2，pp.310-318</dd>
+								　　　　<dt>発表年：</dt>
+								<dd>2001</dd>
+										<dt>研究領域：</dt>
+								<dd>高齢者の色弁別能力の変化</dd>
+								<div class="clear"></div>
+								<br>
+
+								<!--paper3-->
+								<li>
+									<div class="circle3"></div>&emsp;Age-related changes in ON and OFF responses to luminance increments and decrements
+								</li>
+								　　　　<dt>著者<span style="margin-right: 1em;"></span>：</dt>
+								<dd>SHINOMORI Keizo, PANORGIAS Athanasios, WERNER John S.</dd>
+								　　　　<dt>発表誌：</dt>
+								<dd>Journal of the Optical Society of America,<br> A，Vol.35，No.4，pp.B26-B34</dd>
+								　　　　<dt>発表年：</dt>
+								<dd>2018</dd>
+										<dt>研究領域：</dt>
+								<dd>加齢による視覚情報処理メカニズムの変化 </dd>
+								<div class="clear"></div>
+								<br>
+
+								<!--paper4-->
+								<li>
+									<div class="circle1"></div>&emsp;色弱模擬フィルタを用いた印刷におけるカラーユニバーサルデザインの推進
+								</li>
+								　　　 <dt>著者<span style="margin-right: 1em;"></span>：</dt>
+								<dd>篠森敬三, 中内茂樹</dd>
+								　　　　<dt>発表誌：</dt>
+								<dd>日本印刷学会誌（Journal of Printing Science and Technology ), <br />
+									Vol.53，No.3，pp.193-202</dd>
+								　　　　<dt>発表年：</dt>
+								<dd>2016</dd>
+										<dt>研究領域：</dt>
+								<dd>２色覚（色弱者）の色覚とカラーユニバーサルデザイン</dd>
+
+								<div class="clear"></div>
+								<br>
+
+								<!--paper5-->
+								<li>
+									<div class="circle2"></div>&emsp;Color constancy of color-deficient observers under illuminations defined by individual color discrimination ellipsoids
+								</li>
+								　　　　<dt>著者<span style="margin-right: 1em;"></span>：</dt>
+								<dd>MA Ruiqing, KAWAMOTO Ken-ichiro, SHINOMORI Keizo</dd>
+								　　　　<dt>発表誌：</dt>
+								<dd>Journal of the Optical Society of America,<br> A，Vol.13，No.3，pp.A283-A299 <br /></dd>
+								　　　　<dt>発表年：</dt>
+								<dd>2016</dd>
+								<dt>研究領域：</dt>
+								<dd>２色覚（色弱者）の色覚とカラーユニバーサルデザイン</dd>
+
+								<div class="clear"></div>
+								<br>
+
+								<!--paper6-->
+								<li>
+									<div class="circle3"></div>&emsp;Influences of lighting time course and background on categorical colour constancy with RGB-LED light sources
+								</li>
+								　　　　<dt>著者<span style="margin-right: 1em;"></span>：</dt>
+								<dd>MA Ruiqing, LIAO Ningfang, YAN Pengfei, SHINOMORI Keizo</dd>
+								　　　　<dt>発表誌：</dt>
+								<dd>Color Research and Application，Vol.44，No.5，pp.694-708</dd>
+								　　　　<dt>発表年：</dt>
+								<dd>2019</dd>
+								<dt>研究領域：</dt>
+								<dd>照明色変化での色恒常性の限界</dd>
+
+								<div class="clear"></div>
+								<br>
+
+								<!--paper7-->
+								<li>
+									<div class="circle1"></div>&emsp;Possible influences on color constancy by motion of color targets and by attention controlled by gaze-state
+								</li>
+								　　　　<dt>著者<span style="margin-right: 1em;"></span>：</dt>
+								<dd>LIFANG Wan, SHINOMORI Keizo</dd>
+								　　　　<dt>発表誌：</dt>
+								<dd>Journal of the Optical Society of America,<br> A，Vol.35，No.4，pp.B309-B323</dd>
+								　　　　<dt>発表年：</dt>
+								<dd>2018</dd>
+								<dt>研究領域：</dt>
+								<dd>照明色変化での色恒常性の限界</dd>
+
+								<div class="clear"></div>
+								<br>
+
+								<!--paper8-->
+								<li>
+									<div class="circle2"></div>&emsp;Semantic word impressions expressed by hue
+								</li>
+								　　　　<dt>著者<span style="margin-right: 1em;"></span>：</dt>
+								<dd>SHINOMORI Keizo,  KOMATSU Honami</dd>
+								　　　　<dt>発表誌：</dt>
+								<dd>Journal of the Optical Society of America,<br> A，Vol.35，No.4，pp.B55-B65</dd>
+								　　　　<dt>発表年：</dt>
+								<dd>2018</dd>
+								<dt>研究領域：</dt>
+								<dd>色と意味語空間の双方向性検証による視覚と感性の関係の階層化</dd>
+
+								<div class="clear"></div>
+								<br>
+
+								<!--paper9-->
+								<li>
+									<div class="circle3"></div>&emsp;Bi-directional relationships between semantic words and hues in color vision normal and deuteranopic observers
+								</li>
+								　　　　<dt>著者<span style="margin-right: 1em;"></span>：</dt>
+								<dd>SHINOMORI Keizo, KOMATSU Honami, NEGISHI Ippei</dd>
+								　　　　<dt>発表誌：</dt>
+								<dd>Journal of the Optical Society of America,<br> A，Vol.37，No.4，pp.A181-A201</dd>
+								　　　　<dt>発表年：</dt>
+								<dd>2020</dd>
+								<dt>研究領域：</dt>
+								<dd>２色覚者での双方向性検証実験</dd>
+
+								<div class="clear"></div>
+								<br>
+
+								<!--paper10-->
+								<li>
+									<div class="circle1"></div>&emsp;Relative contributions of melanopsin to brightness discrimination when hue and luminance also vary
+								</li>
+								　　　　<dt>著者<span style="margin-right: 1em;"></span>：</dt>
+								<dd>DELAWYER Tanner, TSUJIMURA Sei-ichi, SHINOMORI Keizo</dd>
+								　　　　<dt>発表誌：</dt>
+								<dd>Journal of the Optical Society of America,<br> A，Vol.37，No.4，pp.A81-A88</dd>
+								　　　　<dt>発表年：</dt>
+								<dd>2020</dd>
+								<dt>研究領域：</dt>
+								<dd> 網膜上のメラノプシン（ipRGC）への刺激量を変えたときの<br>明るさ知覚への影響</dd>
+
+								<div class="clear"></div>
+								<br>
+
+								<!--paper11-->
+								<li>
+									<div class="circle2"></div>&emsp;Spatial correspondence learning is critical for the sequence effects of symbolic cueing
+								</li>
+								　　　　<dt>著者<span style="margin-right: 1em;"></span>：</dt>
+								<dd>QIAN Qian, WANG Feng, SONG Miao,<br> FENG Yong, SHINOMORI Keizo</dd>
+								　　　　<dt>発表誌：</dt>
+								<dd>Japanese Psychological Research, vol.59(3) pp.209-220</dd>
+								　　　　<dt>発表年：</dt>
+								<dd>2017</dd>
+								<dt>研究領域：</dt>
+								<dd>視覚的注意誘導効果とその機序</dd>
+
+								<div class="clear"></div>
+								<br>
+
+								<!--paper12-->
+								<li>
+									<div class="circle3"></div>&emsp;The change of expression configuration affects identity-dependent expression aftereffect but not identity-independent expression aftereffect
+								</li>
+								　　　　<dt>著者<span style="margin-right: 1em;"></span>：</dt>
+								<dd>SONG Miao，SHINOMORI Keizo，<br>QIAN Qian，YIN Jun，ZENG Weiming</dd>
+								　　　　<dt>発表誌：</dt>
+								<dd>Frontiers in Psychology，Vol.6，No.OAArticle1937，pp.1-12</dd>
+								　　　　<dt>発表年：</dt>
+								<dd>2015</dd>
+								<dt>研究領域：</dt>
+								<dd>顔情報の視覚的処理</dd>
+
+								<div class="clear"></div>
+							</dl>
+					</div>
+					<!--kennkyuronnbunn-->
+				</div>
+				<!--kennkyuushhyoukai-->
+			</div>
+			<!--kennkyuunaiyou-->
+			<div class="kennkyuushitusyoukai">
+				<div class="center1"><img src="svg/Heading-3.svg" alt="研究室紹介"></div>
+
+				<div class="Lab_photo">
+					<img src="img/Lab-shinomori_1.jpg" alt="研究室の写真1" id="Lab_main" />
+				</div>
+
+				<h2>視覚・感性統合重点研究室(萌芽研究センター)：A308</h2>
+				<p>
+					　人間の視覚系がどのように働いているのかを研究しています。手法としては、解剖とか電極で神経反応を取ったりとかではなく、心理物理学という手法を使っています。実験協力者に、物理的にきちっと制御したいろいろな視覚刺激を見せ、そのときの色や明るさ、あるいは見えたかどうか等を答えてもらうことによって、刺激の物理条件 (光の分光分布や強さなど) と人間の応答を結びつけて、視覚特性 (色の違いに対する感度など) を求めます。最近では、人間の色覚情報処理や視覚系応答速度などを中心に、年齢による変化や色弱の方の特性などを調べています。さらには，物体の視覚情報とその物体に対する印象の関係から，感性情報処理を明らかにする研究なども進めています。 </p>
+			</div>
+			<!--kennkyuushitusyoukai-->
+			<div class="koukouseihe">
+				<div class="photo2"><img src="svg/StaffDetail_balloon.svg" alt="吹き出し"></div>
+				<h1>高校生のみなさんへ</h1>
+				<div class="kotoba">
+					　「能力そのものによって勝負が決まるのではなく、戦略(頭の使い方)によって勝負が決まる」工学における研究や開発は、完全に等しい条件で行われるスポーツとは、だいぶ異なります。自らの得意、不得意を理解しつつ、かつその能力をさまざまな方法で補いながら進めていくものです。昔は「俺の車はカール・ルイスよりも早いぜ！」とも言っていました。
+				</div>
+				<!--kotoba-->
+			</div>
+			<!--koukouseihe-->
+			<div class="kougikamoku">
+				<h2>講義科目</h2>
+				<dl>
+					<dd>知覚と認識, 情報と倫理, 文化としての戦略と戦術,<br> 知覚・認識論(大学院)</dd>
+				</dl>
+				<h2>受け入れ可能な専攻</h2>
+				<p>
+					情報と人間専攻<br />
+					情報とメディア専攻<br />
+					コンピュータサイエンス専攻<br />
+				</p>
+
+			</div>
+			<!--kougikamoku-->
+			<div class="photo3"><img src="img/Body-ShinomoriKeizo.jpg" alt="先生全身画像"></div>
+		</div>
+		<!--main-->
 	</div>
-	<!--pankuzu-->
-	<div class="main">
-      <div class="keireki">
-    <h1>篠森 敬三<span class="hurigana"><span style="margin-right: 2.8em;"></span>Shinomori Keizo</span></h1>
-<div class="photo1">
-		<img src="img/Face-ShinomoriKeizo.png" alt="顔の写真" class="facephoto">
-	</div>
-	<!--photo1-->
-		<div class="line"></div>
-    <h2>教授<span>教授室：A419</span></h2>
+	<!--baseContents-->
 
-
-    <input type="checkbox" id="Panel1" class="ExpandCheckBox" />
-		<label for="Panel1" class="open">
-		  <h3>
-				<img src="svg/Triangle_close-white.svg">&nbsp;プロフィール
-			</h3>
-
-  </label>
-<div class="panel">
-<dl>
-<dt>生年：</dt><dd>1963年</dd>
-<dt>出身：</dt><dd>東京都</dd>
-<dt>所属：</dt><dd>高知工科大学情報学群<br />
-　　　大学院工学研究科 基盤工学専攻 情報システム工学コース<br />
-　　　大学院工学研究科 基盤工学専攻 情報学コース<br />
-　　　情報本部 附属情報図書館<br />
-　　　総合研究所 視覚・感性統合研究室</dd>
-<dt>所属学会：</dt><dd>国際色覚学会 (International Colour Vision Society), <br />
-　　　　　視覚科学技術コンソーシアム, 日本感性工学会, 日本視覚学会, <br />
-　　　　　日本色彩学会, 米国光学会 (Optical Society of America), ARVO（The <br />
-　　　　　Association for Research in Vision and Ophthalmology), <br />
-　　　　　日本光学会 (OSJ), 照明学会, 映像情報メディア学会, 電子情報通信学会,<br />
-　　　　　日本認知心理学会</dd>
-<dt>学位：</dt><dd>工学博士 (東京工業大学、1992年)</dd>
-<dt>最終学歴：</dt><dd>東京工業大学大学院 総合理工学研究科 物理情報工学専攻 修了 (1992)</dd>
-<dt>相談可能分野：</dt><dd>色弱者に対するカラーユニバーサルデザイン, 照明設計・色設計・測色, <br />
-　　　　　　　高齢者のための視環境対策サインや表示等の改善, <br />
-　　　　　　　インターフェイスの改善, 色評価</dd>
-<div class="mail1"><img src="svg/mail_shinomori.svg" alt="先生のmailアドレス" class="mail"></div>
-</dl>
-</div>
-<!--panel-->
-
-<a href="https://www.kochi-tech.ac.jp/profile/ja/shinomori-keizo.html" target="_blank"><div class="box3" style="float:right">▶ 工科大教員ページ</div></a>
-<a href="http://www.lab.kochi-tech.ac.jp/shinolab/" target="_blank"><div class="box2" style="float:right">▶ 研究室ページ</div></a>
-
-<div class="clear"></div>
-</div>
-<!--keireki-->
-<div class="kennkyuusyoukai">
-	<div class="center1"><img src="svg/Heading-2.svg" alt="研究紹介"></div>
-
-<h2>視覚情報処理を心理物理学的手法や脳計測を用いて明らかに</h2>
-<h3>専門分野：視覚心理物理学, 色彩工学, 人間情報処理, 脳科学, <br />
-　　カラーユニバーサルデザイン, 感性情報処理</h3>
-<div class="center2">
-<p>
-　人間が視覚情報をどのように処理しているかについて、非侵襲的な心理物理学的手法や脳計測を用いて研究しています。特に、刺激の明るさや色による光応答速度の違い、２色覚者や高齢者の色覚、視覚情報処理中の脳内活動、さらに最近は、質感や感性の情報処理に興味を持っています。</p>
-</div>
-<!--center2-->
- <div class="kennkyuuryouiki">
-<input type="checkbox" id="Panel2" class="ExpandCheckBox" />
-	 <label for="Panel2" class="open">
-		 <h3><img src="svg/Triangle_close-pink.svg">&nbsp;現在の研究領域</h3>
-	 </label>
-
-	 	 <div class="panel">
-
-<a>
-<div class="circle1"></div>加齢による視覚情報処理メカニズムの変化
-<br />
-</a>
-<a>
-<div class="circle2"></div>色弱者における色弁別の見えとカラーユニバーサルデザイン<br />
-</a>
-<a>
-<div class="circle3"></div>イメージ及び物体の認識における輝度・色情報の寄与と相互作用<br />
-</a>
-</div>
-<!--panel-->
-</div>
-<!--kennkyuuryouiki-->
-
-
-<div class="kennkyuuronnbunn">
-	<input type="checkbox" id="Panel3" class="ExpandCheckBox" />
-	<label for="Panel3" class="open">
-		<h3><img src="svg/Triangle_close-pink.svg">&nbsp;代表的な研究論文など</h3>
-	</label>
-
-		<div class="panel">
-<ul>
-	<dl>
-<li><div class="circle1"></div>&emsp;Aging of human short-wave cone pathways</li>
-　　　　<dt>著者<span style="margin-right: 1em;"></span>：</dt><dd>SHINOMORI Keizo, WERNER John S.</dd>
-　　　　<dt>発表誌：</dt><dd>Proceedings of the National Academy of Science of the <br />
-United States of America (PNAS), Vol.109, No.33, pp.13422-13427</dd>
-　　　　<dt>発表年：</dt><dd>2012</dd>
-<div class="clear"></div>
-<li><div class="circle2"></div>&emsp;Gaze cueing as a function of perceived gaze direction</li>
-　　　　<dt>著者<span style="margin-right: 1em;"></span>：</dt><dd>QIAN Qian, SONG Miao, SHINOMORI Keizo</dd>
-　　　　<dt>発表誌：</dt><dd>Japanese Psychological Research, Vol.55, No.3, pp.264-272</dd>
-　　　　<dt>発表年：</dt><dd>2013</dd>
-<div class="clear"></div>
-<li><div class="circle3"></div>&emsp;Amplitude diﬀerence and similar time course of impulse responses in positive- and negative- contrast detection</li>
-　　　　<dt>著者<span style="margin-right: 1em;"></span>：</dt><dd>Lin Shi, SHINOMORI Keizo</dd>
-　　　　<dt>発表誌：</dt><dd>Vision Research, Vol.77, pp.21-31</dd>
-　　　　<dt>発表年：</dt><dd>2013</dd>
-<div class="clear"></div>
-<li><div class="circle1"></div>&emsp;The functional role of alternation advantage in the sequence effect of symbolic cueing with nonpredictive arrow cues</li>
-	　　　 <dt>著者<span style="margin-right: 1em;"></span>：</dt><dd>QIAN Qian, SONG Miao, SHINOMORI Keizo, WANG Feng</dd>
-　　　　<dt>発表誌：</dt><dd>Attention, Perception and Psychophysics, <br />
-	Vol.74, No.7, pp.1430-1436</dd>
-　　　　<dt>発表年：</dt><dd>2012</dd>
-<div class="clear"></div>
-<li><div class="circle2"></div>&emsp;The functional role of implicit memory on gaze-evoked attention orienting</li>
-　　　　<dt>著者<span style="margin-right: 1em;"></span>：</dt><dd>Qian Qian, Keizo Shinomori, Miao Song</dd>
-　　　　<dt>発表誌：</dt><dd>Proceedings of ICIA ’10 (The 2010 IEEE International <br />
-Conference on Information and Automation), Vol.1, pp.148-153</dd>
-　　　　<dt>発表年：</dt><dd>2010</dd>
-</dl>
-</div>
-<!--kennkyuronnbunn-->
-</div>
-<!--kennkyuushhyoukai-->
-</div>
-<!--kennkyuunaiyou-->
-<div class="kennkyuushitusyoukai">
-	<div class="center1"><img src="svg/Heading-3.svg" alt="研究室紹介"></div>
-
-<div class="Lab_photo">
-  <img src="img/Lab-shinomori_1.jpg" alt="研究室の写真1" id="Lab_main" />
-</div>
-
-<h2>視覚・感性統合重点研究室：A308</h2>
-<p>
-　人間の視覚系がどのように働いているのかを研究しています。手法としては、解剖とか電極で神経反応を取ったりとかではなく、心理物理学という手法を使っています。実験協力者に、物理的にきちっと制御したいろいろな視覚刺激を見せ、そのときの色や明るさ、あるいは見えたかどうか等を答えてもらうことによって、刺激の物理条件 (光の分光分布や強さなど) と人間の応答を結びつけて、視覚特性 (色の違いに対する感度など) を求めます。最近では、人間の色覚情報処理や視覚系応答速度などを中心に、年齢による変化や色弱の方の特性などを調べています。 </p>
-</div>
-<!--kennkyuushitusyoukai-->
-<div class="koukouseihe">
-<div class="photo2"><img src="svg/StaffDetail_balloon.svg" alt="吹き出し"></div>
-<h1>高校生のみなさんへ</h1>
-<div class="kotoba">
-　「能力そのものによって勝負が決まるのではなく、戦略(頭の使い方)によって勝負が決まる」工学における研究や開発は、完全に等しい条件で行われるスポーツとは、だいぶ異なります。自らの得意、不得意を理解しつつ、かつその能力をさまざまな方法で補いながら進めていくものです。昔は「俺の車はカール・ルイスよりも早いぜ！」とも言っていました。
-</div>
-<!--kotoba-->
-</div>
-<!--koukouseihe-->
-<div class="kougikamoku">
-<h2>講義科目</h2>
-<dl>
-<dd>情報と倫理, 知覚と認識, 文化としての戦略と戦術</dd>
-</dl>
-<h2>受け入れ可能な専攻</h2>
-<p>
-情報と人間専攻<br />
-情報とメディア専攻<br />
-コンピュータサイエンス専攻<br />
-</p>
-
-</div>
-<!--kougikamoku-->
-<div class="photo3"><img src="img/Body-ShinomoriKeizo.jpg" alt="先生全身画像"></div>
-</div>
-<!--main-->
-</div>
-<!--baseContents-->
-
-<!--#include file="footer.html"-->
+	<!--#include file="footer.html"-->
 </body>
+
 </html>

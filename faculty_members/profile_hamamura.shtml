@@ -34,7 +34,7 @@
 	</div>
 	<!--photo1-->
 		<div class="line"></div>
-    <h2>教授<span>学群長室：A416</span></h2>
+    <h2>教授<span>教授室：A412</span></h2>
 
 
     <input type="checkbox" id="Panel1" class="ExpandCheckBox" />
@@ -175,7 +175,7 @@
 <div class="kougikamoku">
 <h2>講義科目</h2>
 <dl>
-<dd>信号理論基礎, アナログ・ディジタル通信, <br />
+<dd>信号理論基礎, 通信理論基礎, <br />
 ワイヤレスアクセスネットワーク</dd>
 </dl>
 <h2>受け入れ可能な専攻</h2>

@@ -1,180 +1,228 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-	    <meta name="keyword" content="高知工科大学情報学群">
-	    <meta name="description" content="高知工科大学情報学群のホームページ">
-	    <title>原田 崇司</title>
-	    <link rel="stylesheet" type="text/css" href="css/base.css">
-	    <link rel="stylesheet" type="text/css" href="css/profile.css">
-	    <script type="text/javascript" src="js/switch.js"></script>
-			<link rel="icon" href="../img/favicon2.png" type="image/png" />
-	    <script type="text/javascript">
-					window.onload = function(){
-						headSerect(2);
-					}
-			</script>
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta name="keyword" content="高知工科大学情報学群">
+	<meta name="description" content="高知工科大学情報学群のホームページ">
+	<title>原田 崇司</title>
+	<link rel="stylesheet" type="text/css" href="css/base.css">
+	<link rel="stylesheet" type="text/css" href="css/profile.css">
+	<script type="text/javascript" src="js/switch.js"></script>
+	<link rel="icon" href="../img/favicon2.png" type="image/png" />
+	<script type="text/javascript">
+		window.onload = function () {
+			headSerect(2);
+		}
+	</script>
+
+	<style>
+		#baseContents .kennkyuusyoukai .kennkyuuronnbunn input:checked ~ .panel {
+    		height: 400px;
+		}
+
+	</style>
+
 </head>
 
 <body>
-<!--#include file="header.html"-->
+	<!--#include file="header.html"-->
 
-    <div id ="baseContents">
+	<div id="baseContents">
 
-	<div class="pankuzu">
-		<a href="../index.shtml">HOME</a> > <a href="../faculty_members.shtml">教員一覧</a> > 原田 崇司
+		<div class="pankuzu">
+			<a href="../index.shtml">HOME</a> > <a href="../faculty_members.shtml">教員一覧</a> > 原田 崇司
+		</div>
+		<!--pankuzu-->
+		<div class="main">
+			<div class="keireki">
+				<h1>原田 崇司<span class="hurigana"><span style="margin-right: 2.8em;"></span>Harada Takashi</span></h1>
+				<div class="photo1">
+					<img src="img/Face-HaradaTakashi.png" alt="顔の写真" class="facephoto">
+				</div>
+				<!--photo1-->
+				<div class="line"></div>
+				<h2>講師<span>講師室：A466</span></h2>
+
+
+
+				<input type="checkbox" id="Panel1" class="ExpandCheckBox" />
+				<label for="Panel1" class="open">
+					<h3>
+						<img src="svg/Triangle_close-white.svg">&nbsp;プロフィール
+					</h3>
+
+				</label>
+				<div class="panel">
+
+
+					<dl>
+						<dt>生年：</dt>
+						<dd>1990年</dd>
+						<dt>出身：</dt>
+						<dd>神奈川県</dd>
+						<dt>所属：</dt>
+						<dd>高知工科大学情報学群</dd>
+						<dt>所属学会：</dt>
+						<dd>電子情報通信学会, IEEE</dd>
+						<dt>学位：</dt>
+						<dd>博士(理学)</dd>
+						<dt>最終学歴：</dt>
+						<dd>神奈川大学大学院 理学研究科 理学専攻 情報科学領域 博士後期課程修了 (2019)</dd>
+						<dt>相談可能分野：</dt>
+						<dd>組合せ最適化、メタ解法</dd>
+						<dt>趣味：</dt>
+						<dd>散歩</dd>
+						<div class="mail1"><img src="svg/mail_harada.svg" alt="先生のmailアドレス" class="mail"></div>
+					</dl>
+
+
+				</div>
+				<!--panel-->
+
+				<a href="https://www.kochi-tech.ac.jp/profile/ja/harada-takashi.html" target="_blank">
+					<div class="box3" style="float:right">▶ 工科大教員ページ</div>
+				</a>
+
+				<a href="https://algo.info.kochi-tech.ac.jp/index.html" target="_blank">
+					<div class="box2" style="float:right">▶ 研究室ページ</div>
+				</a>
+
+				<a href="http://www.scinfo.kochi-tech.ac.jp/tharada/" target="_blank">
+					<div class="box1" style="float:right">▶ 教員個人ページ</div>
+				</a>
+				<div class="clear"></div>
+			</div>
+			<!--keireki-->
+			<div class="kennkyuusyoukai">
+				<div class="center1"><img src="svg/Heading-2.svg" alt="研究紹介"></div>
+
+				<h2>アルゴリズム</h2>
+				<h3>専門分野：アルゴリズム、計算の複雑さ</h3>
+				<div class="center2">
+					<p>
+						　サイバー攻撃に対する防御策の根幹技術であるパケット分類について研究しています。特に、CAMやASICなどの特殊なハードウェアを用いない、ソフトウェアに基づく高速なパケット分類法を研究しています。
+					</p>
+				</div>
+				<!--center2-->
+				<div class="kennkyuuryouiki">
+					<input type="checkbox" id="Panel2" class="ExpandCheckBox" />
+					<label for="Panel2" class="open">
+						<h3><img src="svg/Triangle_close-pink.svg">&nbsp;現在の研究領域</h3>
+					</label>
+
+					<div class="panel">
+
+						<a>
+							<div class="circle1"></div>ソフトウェアに基づくパケット分類の高速化<br />
+						</a>
+					</div>
+					<!--panel-->
+				</div>
+				<!--kennkyuuryouiki-->
+
+
+				<div class="kennkyuuronnbunn">
+					<input type="checkbox" id="Panel3" class="ExpandCheckBox" />
+					<label for="Panel3" class="open">
+						<h3><img src="svg/Triangle_close-pink.svg">&nbsp;代表的な研究論文など</h3>
+					</label>
+
+					<div class="panel">
+						<ul>
+							<dl>
+								<li>
+									<div class="circle1"></div>&emsp;Circ1P分割問題の計算困難性とSATソルバを用いたその解法
+								</li>
+								　　　　<dt>著者<span style="margin-right: 1em;"></span>：</dt>
+								<dd>原田崇司, 竹内聖悟</dd>
+								　　　　<dt>発表誌：</dt>
+								<dd>電子情報通信学会論文誌 D, Vol.J103-D, No.11, pp.800-807</dd>
+								　　　　<dt>発表年：</dt>
+								<dd>2020</dd>
+								<div class="clear"></div>
+								<li>
+									<div class="circle2"></div>&emsp;A Rule Reordering Method via Pairing Dependent
+									Rules
+								</li>
+								　　　　<dt>著者<span style="margin-right: 1em;"></span>：</dt>
+								<dd>T. Harada, K. Tanaka, R. Ogasawara and K. Mikawa</dd>
+								　　　　<dt>発表誌：</dt>
+								<dd>IEEE Conference on Communications and Network Security (CNS), pp.1-9</dd>
+								　　　　<dt>発表年：</dt>
+								<dd>2020</dd>
+								<div class="clear"></div>
+								<li>
+									<div class="circle3"></div>&emsp;A Packet Classification Method via Cascaded
+									Circular-Run-Based Trie
+								</li>
+								　　　　
+								<!--<dt>著者<span style="margin-right: 1em;"></span>：</dt><dd></dd>-->
+								　　　　<dt>発表誌：</dt>
+								<dd>IEICE TRANSACTIONS on Fundamentals of Electronics,<br />
+									Communications and Computer Sciences，<br></L>Vol.E102-A，No.9，pp.1171-1178</dd>
+								　　　　<dt>発表年：</dt>
+								<dd>2019</dd>
+							</dl>
+					</div>
+					<!--kennkyuronnbunn-->
+				</div>
+				<!--kennkyuushhyoukai-->
+			</div>
+			<!--kennkyuunaiyou-->
+			<div class="kennkyuushitusyoukai">
+				<div class="center1"><img src="svg/Heading-3.svg" alt="研究室紹介"></div>
+
+				<div class="Lab_photo">
+				</div>
+
+
+				<h2>アルゴリズム研究室</h2>
+				<p>　研究室では、スケジューリング問題のような組合せ最適化問題に対するアルゴリズムを考えています。研究には、専用の機器はもちろんPCもほとんど使いません。紙と鉛筆だけを用いて、ひたすら良いアルゴリズムを考え続ける研究室です。
+				</p>
+			</div>
+
+			<!--kennkyuushitusyoukai-->
+			<div class="koukouseihe">
+				<div class="photo2"><img src="svg/StaffDetail_balloon.svg" alt="吹き出し">
+					<h1>高校生のみなさんへ</h1>
+
+					<div class="kotoba">
+						　大学とは「様々な人との出会いの場」であり「研究を行う（新しいことを発見・創造する）場所」です。
+						どんな大学にも貴方に衝撃を与える、貴方の考え方を揺さぶるような教員や先輩が一人は居ると思います。
+						そのような人を自ら探し出し、共に勉強・研究に没頭して下さい。
+						高知工科大学情報学群がそのような場として選ばられるように，日々努力しております。
+					</div>
+
+					<!--kotoba-->
+
+				</div>
+
+			</div>
+
+			<!--koukouseihe-->
+			<div class="kougikamoku">
+				<h2>講義科目</h2>
+				<dl>
+					<dd>コンピュータリテラシー, 離散数学,<br> 情報科学3, 計算理論(2022年度~)</dd>
+				</dl>
+				<h2>受け入れ可能な専攻</h2>
+				<p>
+					情報通信専攻<br />
+					コンピュータサイエンス専攻<br />
+				</p>
+
+			</div>
+			<!--kougikamoku-->
+
+			<div class="photo3"><img src="img/Body-HaradaTakashi.jpg" alt="先生全身画像"></div>
+		</div>
+
+		<!--main-->
 	</div>
-	<!--pankuzu-->
-	<div class="main">
-      <div class="keireki">
-    <h1>原田 崇司<span class="hurigana"><span style="margin-right: 2.8em;"></span>Harada Takashi</span></h1>
-<div class="photo1">
-		<img src="img/Face-HaradaTakashi.png" alt="顔の写真" class="facephoto">
-	</div>
-	<!--photo1-->
-		<div class="line"></div>
-    <h2>助教<span>助教室：A418</span></h2>
+	<!--baseContents-->
 
-
-
-    <input type="checkbox" id="Panel1" class="ExpandCheckBox" />
-		<label for="Panel1" class="open">
-		  <h3>
-				<img src="svg/Triangle_close-white.svg">&nbsp;プロフィール
-			</h3>
-
-  </label>
-		   <div class="panel">
-
-
-<dl>
-<dt>生年：</dt><dd>1990年</dd>
-<dt>出身：</dt><dd>神奈川県</dd>
-<dt>所属：</dt><dd>高知工科大学情報学群</dd>
-<dt>所属学会：</dt><dd>電子情報通信学会</dd>
-<dt>学位：</dt><dd>博士(理学)</dd>
-<dt>最終学歴：</dt><dd>神奈川大学大学院 理学研究科 理学専攻 情報科学領域 博士後期課程修了 (2019)</dd>
-<dt>相談可能分野：</dt><dd>組合せ最適化、メタ解法</dd>
-<dt>趣味：</dt><dd>散歩</dd>
-<div class="mail1"><img src="svg/mail_harada.svg" alt="先生のmailアドレス" class="mail"></div>
-</dl>
-
-
-</div>
-<!--panel-->
-
-<a href="https://www.kochi-tech.ac.jp/profile/ja/harada-takashi.html" target="_blank"><div class="box3" style="float:right">▶ 工科大教員ページ</div></a>
-<div class="clear"></div>
-</div>
-<!--keireki-->
-<div class="kennkyuusyoukai">
-	<div class="center1"><img src="svg/Heading-2.svg" alt="研究紹介"></div>
-
-<h2>アルゴリズム</h2>
-<h3>専門分野：アルゴリズム、計算の複雑さ</h3>
-<div class="center2">
-<p>
-　サイバー攻撃に対する防御策の根幹技術であるパケット分類について研究しています。特に、CAMやASICなどの特殊なハードウェアを用いない、ソフトウェアに基づく高速なパケット分類法を研究しています。</p>
-</div>
-<!--center2-->
- <div class="kennkyuuryouiki">
-<input type="checkbox" id="Panel2" class="ExpandCheckBox" />
-	 <label for="Panel2" class="open">
-		 <h3><img src="svg/Triangle_close-pink.svg">&nbsp;現在の研究領域</h3>
-	 </label>
-
-	 	 <div class="panel">
-
-<a>
-<div class="circle1"></div>ソフトウェアに基づくパケット分類の高速化<br />
-</a>
-</div>
-<!--panel-->
-</div>
-<!--kennkyuuryouiki-->
-
-
-<div class="kennkyuuronnbunn">
-	<input type="checkbox" id="Panel3" class="ExpandCheckBox" />
-	<label for="Panel3" class="open">
-		<h3><img src="svg/Triangle_close-pink.svg">&nbsp;代表的な研究論文など</h3>
-	</label>
-
-		<div class="panel">
-<ul>
-	<dl>
-<li><div class="circle1"></div>&emsp;A Packet Classification Method via Cascaded Circular-Run-Based Trie</li>
-　　　　<dt>著者<span style="margin-right: 1em;"></span>：</dt><dd>T. Harada, Y. Ishikawa, K. Tanaka, and K. Mikawa</dd>
-　　　　<dt>発表誌：</dt><dd>IEICE Transactions on Fundamentals of Electronics, <br/>Communications and Computer Sciences</dd>
-　　　　<dt>発表年：</dt><dd>2019</dd>
-<div class="clear"></div>
-<li><div class="circle2"></div>&emsp;Acceleration of Packet Classification Using Adjacency List</li>
-　　　　<dt>著者<span style="margin-right: 1em;"></span>：</dt><dd>T. Fuchino, T. Harada, K. Tanaka and K. Mikawa</dd>
-　　　　<dt>発表誌：</dt><dd>Conference on Computer Communications and Networks (ICCCN)</dd>
-　　　　<dt>発表年：</dt><dd>2019</dd>
-<div class="clear"></div>
-<li><div class="circle3"></div>&emsp;A Heuristic Algorithm for Relaxed Optimal Rule Ordering Problem</li>
-　　　　<!--<dt>著者<span style="margin-right: 1em;"></span>：</dt><dd></dd>-->
-　　　　<dt>発表誌：</dt><dd>2nd Cyber Security in Networking Conference <br/>(CSNet’18)</dd>
-　　　　<dt>発表年：</dt><dd>2019</dd>
-</dl>
-</div>
-<!--kennkyuronnbunn-->
-</div>
-<!--kennkyuushhyoukai-->
-</div>
-<!--kennkyuunaiyou-->
-<div class="kennkyuushitusyoukai">
-	<div class="center1"><img src="svg/Heading-3.svg" alt="研究室紹介"></div>
-
-<div class="Lab_photo">
-</div>
-
-
-<h2>アルゴリズム研究室</h2>
-<p>　研究室では、スケジューリング問題のような組合せ最適化問題に対するアルゴリズムを考えています。研究には、専用の機器はもちろんPCも使いません。紙と鉛筆だけを用いて、ひたすら良いアルゴリズムを考え続ける研究室です。</p>
-</div>
-
-<!--kennkyuushitusyoukai-->
-<div class="koukouseihe">
-<div class="photo2"><img src="svg/StaffDetail_balloon.svg" alt="吹き出し">
-<h1>高校生のみなさんへ</h1>
-
-<div class="kotoba">
-　大学とは「様々な人との出会いの場」であり「研究を行う（新しいことを発見・創造する）場所」です。
-どんな大学にも貴方に衝撃を与える、貴方の考え方を揺さぶるような教員や先輩が一人は居ると思います。
-そのような人を自ら探し出し、共に勉強・研究に没頭して下さい。
-高知工科大学情報学群がそのような場として選ばられるように，日々努力しております。
-</div>
-
-<!--kotoba-->
-
-</div>
-
-</div>
-
-<!--koukouseihe-->
-<div class="kougikamoku">
-<h2>講義科目</h2>
-<dl>
-<dd>コンピュータリテラシー，情報科学3</dd>
-</dl>
-<h2>受け入れ可能な専攻</h2>
-<p>
-情報通信専攻<br />
-コンピュータサイエンス専攻<br />
-</p>
-
-</div>
-<!--kougikamoku-->
-
-<div class="photo3"><img src="img/Body-HaradaTakashi.jpg" alt="先生全身画像"></div>
-</div>
-
-<!--main-->
-</div>
-<!--baseContents-->
-
-<!--#include file="footer.html"-->
+	<!--#include file="footer.html"-->
 </body>
+
 </html>
